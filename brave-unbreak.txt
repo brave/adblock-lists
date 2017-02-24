@@ -7,3 +7,5 @@
 @@||tags.tiqcdn.com/utag/*/utag.js$domain=cnet.com
 ! Twitch main video
 ||cloudfront.net/esf.js$domain=twitch.tv
+! LA Times forced-whitelisting modal fix
+||tribdss.com/meter/assets$script,domain=www.latimes.com
