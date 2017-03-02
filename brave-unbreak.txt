@@ -9,10 +9,11 @@
 ||cloudfront.net/esf.js$domain=twitch.tv
 ! LA Times forced-whitelisting modal fix
 ||tribdss.com/meter/assets$script,domain=www.latimes.com
-! Expressen.se ad blocking evasion fix
-||biowebb-data.s3.amazonaws.com^$script,image,domain=expressen.se
-||richmetrics.com^$script,image,domain=expressen.se
-||adtomafusion.net^$script,image,domain=expressen.se
-||ld1.lpbeta.com^$script,image,domain=expressen.se
-||csp.screen9.com^$script,image,domain=expressen.se
-||glimr.io^$script,image,domain=expressen.se
+! Expressen.se and aftonbladet.set ad blocking evasion fix
+||biowebb-data.s3.amazonaws.com^$script,image,domain=expressen.se,aftonbladet.se
+||richmetrics.com^$script,image,domain=expressen.se,aftonbladet.se
+||adtomafusion.net^$script,image,domain=expressen.se,aftonbladet.se
+||ld1.lpbeta.com^$script,image,domain=expressen.se,aftonbladet.se
+||csp.screen9.com^$script,image,domain=expressen.se,aftonbladet.se
+||glimr.io^$script,image,domain=expressen.se,aftonbladet.se
+||aka-cdn-ns.adtech.de^$script,image,domain=aftonbladet.se,expressen.se
