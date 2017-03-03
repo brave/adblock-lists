@@ -9,3 +9,9 @@
 ||cloudfront.net/esf.js$domain=twitch.tv
 ! LA Times forced-whitelisting modal fix
 ||tribdss.com/meter/assets$script,domain=www.latimes.com
+! LA Times native ads fix
+||aggrego.org^$script,image,domain=latimes.com
+||adserve.postrelease.com^$script,image,domain=latimes.com
+||troncdata.com^$script,image,domain=latimes.com
+||polarmobile.com^$script,image,domain=latimes.com
+||ntv.io^$script,image,domain=latimes.com
