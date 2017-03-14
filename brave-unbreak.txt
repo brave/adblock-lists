@@ -29,3 +29,6 @@
 ||ak.sail-horizon.com^$script,image
 ! gRPC client ad tracking data fix boston.com sfgate.com
 ||g.3gl.net^$domain=sfgate.com|boston.com
+! 123movies.is video player display banner overlay fix
+||123clouds.ru/*/custombanner.js^$script,domain=123movies.is
+
