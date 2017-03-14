@@ -23,3 +23,9 @@
 ||csp.screen9.com^$script,image,domain=expressen.se,aftonbladet.se
 ||glimr.io^$script,image,domain=expressen.se,aftonbladet.se
 ||aka-cdn-ns.adtech.de^$script,image,domain=aftonbladet.se,expressen.se
+! Hearst anti-ad blocking fix
+||aps.hearstnp.com^$script,image
+! Sailthru native ad aggregator fix
+||ak.sail-horizon.com^$script,image
+! gRPC client ad tracking data fix boston.com sfgate.com
+||g.3gl.net^$domain=sfgate.com|boston.com
