@@ -15,5 +15,20 @@
 ||troncdata.com^$script,image,domain=latimes.com
 ||polarmobile.com^$script,image,domain=latimes.com
 ||ntv.io^$script,image,domain=latimes.com
+! Expressen.se and aftonbladet.set ad blocking evasion fix
+||biowebb-data.s3.amazonaws.com^$script,image,domain=expressen.se,aftonbladet.se
+||richmetrics.com^$script,image,domain=expressen.se,aftonbladet.se
+||adtomafusion.net^$script,image,domain=expressen.se,aftonbladet.se
+||ld1.lpbeta.com^$script,image,domain=expressen.se,aftonbladet.se
+||csp.screen9.com^$script,image,domain=expressen.se,aftonbladet.se
+||glimr.io^$script,image,domain=expressen.se,aftonbladet.se
+||aka-cdn-ns.adtech.de^$script,image,domain=aftonbladet.se,expressen.se
+! Hearst anti-ad blocking fix
+||aps.hearstnp.com^$script,image
+! Sailthru native ad aggregator fix
+||ak.sail-horizon.com^$script,image
+! gRPC client ad tracking data fix boston.com sfgate.com
+||g.3gl.net^$domain=sfgate.com|boston.com
 ! 123movies.is video player display banner overlay fix
 ||123clouds.ru/*/custombanner.js^$script,domain=123movies.is
+
