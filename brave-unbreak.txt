@@ -31,4 +31,11 @@
 ||g.3gl.net^$domain=sfgate.com|boston.com
 ! 123movies.is video player display banner overlay fix
 ||123clouds.ru/*/custombanner.js^$script,domain=123movies.is
+! vendors serving video ads and tracking via proxied requests
+||track.atom-data.io^$third-party
+||vidazoo.com/aggregate^$third-party
+||vidazoo.com/proxy^$third-party
+||vidible.tv^$third-party
+||mediabong.net^$third-party
+||imprvdosrv.com^$third-party
 
