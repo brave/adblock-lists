@@ -38,4 +38,5 @@
 ||vidible.tv^$third-party
 ||mediabong.net^$third-party
 ||imprvdosrv.com^$third-party
-
+! yt embed exceptions
+@@||youtube.com/yts/jsbin^$domain=gatewaypundit.com|godlikeproductions.com|techcrunch.com
