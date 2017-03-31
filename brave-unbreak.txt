@@ -40,3 +40,7 @@
 ||imprvdosrv.com^$third-party
 ! yt embed exceptions
 @@||youtube.com/yts/jsbin^$domain=thegatewaypundit.com|godlikeproductions.com|techcrunch.com
+! fb widget audience, ad and marketing tracking
+||connect.facebook.net/*/fbevents.js$third-party
+||facebook.com/tr^$image,third-party
+||graph.facebook.com^$third-party
