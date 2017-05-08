@@ -44,3 +44,6 @@
 ||connect.facebook.net/*/fbevents.js$third-party
 ||facebook.com/tr^$image,third-party
 ||graph.facebook.com^$third-party
+! theatlantic.com anti-blocker filters
+||theatlantic.blueconic.net$domain=theatlantic.com
+||theatlantic.com/please-support-us^
