@@ -47,3 +47,5 @@
 ! theatlantic.com anti-blocker filters
 ||theatlantic.blueconic.net$domain=theatlantic.com
 ||theatlantic.com/please-support-us^
+! murdoog submission tracking
+||murdoog.com^$image
