@@ -49,3 +49,6 @@
 ||theatlantic.com/please-support-us^
 ! murdoog submission tracking
 ||murdoog.com^$third-party
+! Admiral anti-ad blocking fix 
+||functionalclam.com^$third-party
+
