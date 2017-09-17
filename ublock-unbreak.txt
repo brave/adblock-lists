@@ -1,5 +1,5 @@
-# Needed to unbreak web sites, mostly because of hosts file-based filters:
-#   Dan Pollock's, MVPS, Peter Lowe's
+# Needed to unbreak web sites,
+# broken by uBO default filter lists.
 
 # https://twitter.com/JarkkoRytkonen/status/540052376015888385
 # https://github.com/chrisaljoudi/uBlock/issues/119
@@ -46,7 +46,7 @@
 
 # https://github.com/chrisaljoudi/uBlock/issues/580
 # To counter `liverail.com` in Dan Pollock's, hpHosts, MVPS, Peter Lowe's
-@@||cdn-static.liverail.com$domain=9to5mac.com
+@@||cdn-static.liverail.com^$domain=9to5mac.com
 
 # https://github.com/gorhill/uBlock/issues/294
 # To counter `liverail.com` in hpHosts, Peter Lowe
@@ -152,7 +152,7 @@ ovh.strim.io#@##tweets
 @@||carbonads.net^$~third-party
 
 # This enables twitch.tv to work in HTML5
-@@||imasdk.googleapis.com$domain=twitch.tv
+@@||imasdk.googleapis.com^$domain=twitch.tv
 
 # Chrome store feedback: "totaljobs.com [...] with μBlock enabled, I can't click any links"
 # To counter `2o7.net` in Peter Lowe's
@@ -241,9 +241,6 @@ marketwatch.com#@#.advertisement
 # https://github.com/gorhill/uBlock/issues/1016#issuecomment-165153899
 @@||liveperson.net^$first-party
 
-# https://github.com/gorhill/uBlock/issues/1082
-@@||widgets.outbrain.com/outbrain.js$script,domain=www.themarker.com
-
 # https://github.com/gorhill/uBlock/issues/1081
 @@||google-analytics.com/ga.js$domain=one.co.il
 
@@ -255,7 +252,7 @@ marketwatch.com#@#.advertisement
 
 # https://twitter.com/SeanHood/status/692387495993024512
 # To counter `207.net` in Peter Lowe's, Disconnect‎'s Malvertising filter list
-@@||ticketmaster.122.2o7.net$image,domain=ticketweb.co.uk
+@@||ticketmaster.122.2o7.net^$image,domain=ticketweb.co.uk
 
 # https://forums.lanik.us/viewtopic.php?f=64&t=28590
 phoronix.com#@#div[style^="text-align: center;"]
@@ -267,14 +264,16 @@ phoronix.com#@#div[style^="text-align: center;"]
 # help lower chances of breakage. Examples:
 # - http://www.food.com/recipe/oven-baked-sweet-plantains-80130 (slideshow controls broken)
 # - [add more]
+! https://github.com/uBlockOrigin/uAssets/issues/317
 ||amazon-adsystem.com/aax2/amzn_ads.js$script,redirect=amazon-adsystem.com/aax2/amzn_ads.js
+||amazon-adsystem.com/aax2/amzn_ads.js$script,redirect=noopjs,domain=player.performgroup.com
 
 # This potentially unbreaks sites broken by EasyPrivacy's `/b/ss/*&aqe=`
 # Confirmed for:
 # - http://www.surfline.com/video/ (links not working)
 # - https://github.com/gorhill/uBlock/issues/529
 # - http://www.scotrail.co.uk/check-your-journey (via https://twitter.com/andy_pee_tho/status/710508529405263872)
-# */b/ss/*&aqe=$image,redirect=1x1-transparent.gif
+*/b/ss/*&aqe=$image,redirect=1x1-transparent.gif
 
 # This unbreak video player:
 # - http://www.cnet.com/videos/big-mac-survives-molten-copper-and-heats-up-internet-ep-233/
@@ -348,7 +347,7 @@ flightradar24.com#@#.twitter-feed
 
 ! https://twitter.com/AmberLynneGirl/status/751099123411980289
 ! To counter `naiadsystems.com` in Peter Lowe's
-@@||naiadsystems.com$object,domain=streamate.com
+@@||naiadsystems.com^$object,domain=streamate.com
 
 ! https://github.com/gorhill/uBlock/issues/1803
 @@||static.adf.ly^$image,script,stylesheet,domain=q.gs
@@ -378,3 +377,235 @@ flightradar24.com#@#.twitter-feed
 
 ! https://twitter.com/moritzlost/status/789155425405075456
 @@||app.focalmark.com/bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js$script,first-party
+
+! https://github.com/gorhill/uBlock/issues/2097
+kinopoisk.ru###image:style(opacity: 1 !important;)
+
+! https://forums.lanik.us/viewtopic.php?f=64&t=33940
+@@||ahcdn.com/key=$xmlhttprequest,domain=hdzog.com
+
+! https://twitter.com/alexjohnson_io/status/797095422447808512
+! To counter Peter Lowe's `mouseflow.com`
+@@||mouseflow.com^$first-party
+
+! http://forums.mozillazine.org/viewtopic.php?f=23&t=3025363
+@@||cinestar.de^*/angular-google-analytics*.js
+
+! https://github.com/uBlockOrigin/uAssets/issues/201
+@@||argep.hu/googleanalytics.js$script,first-party
+
+! https://twitter.com/nekbet/status/804387706520342529
+! To counter Peter Lowe's `hotjar.com`
+@@||hotjar.com^$first-party
+
+! https://twitter.com/6pod4/status/806927623272022016
+@@||jimmyjohns.com/Scripts/angularytics*.js$first-party,script
+
+! https://twitter.com/nekbet/status/818511067751976960
+! To counter Peter Lowe's `conversantmedia.com`
+@@||conversantmedia.com^$first-party
+
+! This unbreaks video playback on skygo.sky.de
+! To counter `analytics.edgesuite.net` and `adobedtm.com` in EasyPrivacy
+@@||analytics.edgesuite.net/html5/akamaihtml5-min.js$script,domain=skygo.sky.de
+@@||analytics.edgekey.net/html5/akamaihtml5-min.js$script,domain=skygo.sky.de
+@@||assets.adobedtm.com^$script,domain=skygo.sky.de
+
+! https://forums.lanik.us/viewtopic.php?f=64&t=35842
+! Unduly broad EasyPrivacy filter ending up having the opposite effect of
+! enhancing privacy as users are forced to turn off their blocker to unbreak
+! sites. Need ability to blacklist filters ASAP.
+@@.php?ref=$domain=facebook.com|materiel.net
+
+! This unbreaks video playback on sfgate.com and other sites
+! To counter `ensighten.com` in EasyPrivacy
+@@||nexus.ensighten.com/hearst/news/Bootstrap.js$script,domain=ctpost.com|houstonchronicle.com|mysanantonio.com|newstimes.com|seattlepi.com|sfchronicle.com|sfgate.com|timesunion.com
+
+! https://github.com/gorhill/uBlock/issues/1114
+@@||healthline.com/resources/base/js/util/ga-custom-vars.js$script,domain=healthline.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/314
+! To counter `adobedtm.com` in EasyPrivacy
+@@||assets.adobedtm.com^$script,domain=rogers.com
+
+! This unbreaks video playback on news.sky.com
+! To counter `ooyala.com` in Peter Lowe's
+@@||cf.c.ooyala.com^
+@@||player.ooyala.com^
+||player.ooyala.com/*/ad-plugin/$important,script,domain=~mitele.es
+||l.player.ooyala.com^$important
+||player.ooyala.com/errors/report?$important
+
+! https://news.ycombinator.com/item?id=13990605
+! To counter `decknetwork.net` in Peter Lowe's
+@@||decknetwork.net^$first-party
+
+! https://www.reddit.com/r/uBlockOrigin/comments/64c6eq/magicjack_support_site_completely_blocked/
+@@||googletagmanager.com/gtm.js$script,domain=magicjack.com
+
+! https://github.com/gorhill/uBlock/issues/2532
+@@||upload.facebook.com^$first-party
+
+! https://twitter.com/valentijn/status/854269062863605764
+@@||atlassian.com^*/analytics.js$script,first-party
+
+! This unbreaks video playback on pitchfork.com
+! To counter `expebtu.com^$third-party,image` in EasyPrivacy
+||expebtu.com^$image,redirect=1x1-transparent.gif,domain=pitchfork.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/378
+! Until fixed in EasyPrivacy
+@@||line-apps.com^$domain=line.me
+
+! https://www.camp-firefox.de/forum/viewtopic.php?p=1035572#p1035572
+! https://github.com/uBlockOrigin/uAssets/issues/410
+@@||googletagmanager.com/gtm.js$script,domain=cpap.com|mediamarkt.de|saturn.de
+@@||google-analytics.com/analytics.js$script,domain=cpap.com|mediamarkt.de|saturn.de
+
+! https://github.com/gorhill/uBlock/issues/2568
+@@||googletagmanager.com/gtm.js$script,domain=bethesda.net
+
+! https://github.com/uBlockOrigin/uAssets/issues/417
+@@||bat.bing.com/bat.js$script,domain=airbnb.co.uk|airbnb.com
+
+! https://github.com/gorhill/uBlock/issues/2645
+@@||analytics.logsss.com/logsss10.min.js$script,domain=rosegal.com
+
+! https://twitter.com/WolliWolta/status/867788502729195520
+! To counter `sumo.com` in Peter Lowe's
+@@||sumo.com^$first-party
+
+! https://github.com/uBlockOrigin/uAssets/issues/420
+@@||sat.sanoma.fi^$script,domain=xxl.fi
+
+! https://twitter.com/iSachinMaharana/status/870303158198611968
+! To counter `sumo.com`, `sumome.com` in Peter Lowe's 
+@@||sumo.com^$domain=shopify.com
+@@||sumome.com^$domain=shopify.com
+
+! https://twitter.com/realjustinclift/status/871713451537821696
+@@||data.edinburghopendata.info^$document
+
+! https://github.com/uBlockOrigin/uAssets/issues/441
+||bbci.co.uk^*/analytics.js$script,redirect=noopjs,domain=bbc.co.uk
+
+! https://twitter.com/saandstorm/status/873374292968435712
+@@||blizzardwatch.com^*/bw-ads.js$script,first-party
+
+! https://github.com/uBlockOrigin/uAssets/issues/405
+@@||ba.com/cms/global/scripts/applications/tracking/visualsciences.js
+
+! https://forums.lanik.us/viewtopic.php?p=119446#p119446
+@@|blob:$domain=twitch.tv
+
+! https://twitter.com/valentindu38001/status/870008589657620484
+@@||cmcm.com/news-republic/js/googleanalytics.js$script
+
+! https://twitter.com/ensignricky/status/875484027297255424
+||googletagmanager.com/gtm.js$script,redirect=noopjs,domain=homes.co.nz
+
+! https://github.com/uBlockOrigin/uAssets/issues/469
+@@||data.wetter.info^$document,popup
+
+! https://forums.lanik.us/viewtopic.php?p=119959#p119959
+||news.de/images/$domain=news.de,badfilter
+
+! https://github.com/uBlockOrigin/uAssets/issues/484
+@@|blob:$domain=investopedia.com
+
+! https://github.com/gorhill/uBlock/issues/2749
+wetteronline.de#@#[style="width: 100%;"]
+
+! https://github.com/uBlockOrigin/uAssets/issues/478
+-google-analytics.$badfilter
+-google-analytics.$third-party
+-google-analytics/$badfilter
+-google-analytics/$third-party
+
+! https://github.com/jspenguin2017/uBlockProtector/issues/349
+@@||facebook.com/*_ad6.$script,first-party
+@@||fbcdn.net/*_ad6.$script,domain=messenger.com
+
+! https://twitter.com/Meeea/status/884362097890426881
+! To counter EasyList France's `||dailymotion.com/cdn/$script`
+@@||dailymotion.com/cdn/manifest/video/$script
+
+! https://github.com/uBlockOrigin/uAssets/issues/503
+@@|blob:$domain=vidlox.tv
+
+! https://www.reddit.com/r/uBlockOrigin/comments/6mios7/not_allowing_some_sites_to_load_up
+||lexus.com/lexus-share/js/tracking_omn/s_code.js$script,important,first-party,redirect=noopjs
+
+! https://www.reddit.com/r/uBlockOrigin/comments/6mrkwp/timecom_article_causes_infinite_blocked_elements/
+||minute.ly^$domain=time.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/511
+! https://github.com/uBlockOrigin/uAssets/issues/539
+@@||googletagmanager.com/gtm.js$script,domain=livescience.com|space.com|topspeed.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/514
+@@||static.dealer.com/common/tracker/tracker.min.js$script,domain=princetonbmw.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/515
+@@||sephora.com/js/ufe/isomorphic/thirdparty/VisitorAPI.js$script,first-party
+
+! https://github.com/uBlockOrigin/uAssets/issues/519
+@@||sonichits.com^$generichide
+
+! https://github.com/uBlockOrigin/uAssets/issues/524
+@@|blob:$domain=dailycaller.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/525
+||fls.doubleclick.net/activityi$subdocument,redirect=noopframe,domain=suntrust.com
+
+! https://twitter.com/applepies/status/886993419314364418
+@@||adobedtm.com^*/satelliteLib-$script,domain=argos.co.uk
+
+! https://github.com/uBlockOrigin/uAssets/issues/551
+@@||tvpage.com/tvpa.min.js$script,domain=bleepingcomputer.com
+
+! https://twitter.com/AnthonyStirk/status/887737611317628929
+@@||audi.co.uk^$first-party,script
+
+! https://twitter.com/datamafia/status/887743901443866624
+pythonjobshq.com##script:inject(abort-on-property-read.js, Keen)
+
+! https://github.com/easylist/easylist/commit/d21b365bf3cf2ce7fa1ad05939019db1370f1225
+! Breaks video playback because site needs its 1st-party script
+/compiled/tracking.$badfilter
+
+! http://forums.mozillazine.org/viewtopic.php?f=38&t=3032369
+@@||hdliveextra-a.akamaihd.net^$domain=nbcsports.com
+@@||mps.nbcuni.com^$script,domain=csnne.com
+
+! https://forums.lanik.us/viewtopic.php?f=64&t=37820
+@@||alicdn.com/retcode/log/log.js$script,domain=alibaba.com
+
+! https://twitter.com/ckrailo/status/897876373750005761
+@@||myaccounts.capitalone.com^$script,first-party
+
+! https://github.com/uBlockOrigin/uAssets/issues/631
+@@||cj.com^$first-party
+
+! https://github.com/uBlockOrigin/uAssets/issues/641
+@@||rs-online.com/*/analytics.min.js$script,first-party
+
+! https://github.com/uBlockOrigin/uAssets/issues/642
+pornhub.com#@#div > [style] iframe[width][height]
+pornhub.com#@#[style] > div > iframe[width]:first-child
+
+! https://github.com/gorhill/uBlock/issues/2893
+@@||assets.adobedtm.com^$script,domain=linkinghub.elsevier.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/646
+@@||players.brightcove.net^$subdocument,domain=usatoday.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/648
+@@/blockadblock.$script,domain=blockadblock.com
+
+! https://github.com/uBlockOrigin/uAssets/issues/649
+mejoratuescuela.org#@#.container-ads
+
+! https://twitter.com/sebron/status/902145534588325888
+@@||secure.moneygram.com^$first-party
+
