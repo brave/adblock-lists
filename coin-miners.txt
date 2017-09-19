@@ -1,1 +1,2 @@
 ||coin-hive.com$third-party
+||jsecoin.com$third-party
