@@ -1,2 +1,2 @@
 ||coin-hive.com$third-party
-||jsecoin.com$third-party
+||load.jsecoin.com$third-party
