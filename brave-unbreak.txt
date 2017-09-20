@@ -53,3 +53,4 @@
 ||ctnet2.in$third-party
 ! adops.com unusable without this
 @@||adops.com^$~third-party
+@@||www.scrumpoker.online^~third-party
