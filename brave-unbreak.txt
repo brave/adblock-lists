@@ -1,6 +1,7 @@
 ||ntv.io^$third-party
 @@||creative.sonobi.com
-@@||adm.fwmrm.net^*/AdManager.js$domain=msnbc.com|sky.com|cnbc.com ||novately.com^$third-party
+@@||adm.fwmrm.net^*/AdManager.js$domain=msnbc.com|sky.com|cnbc.com 
+||novately.com^$third-party
 ||webspectator.com^$third-party
 ! Would be nice to find an alt fix, but unbreaks cnet video
 @@||tags.tiqcdn.com/utag/*/utag.js$domain=cnet.com
@@ -54,3 +55,12 @@
 ! adops.com unusable without this
 @@||adops.com^$~third-party
 @@||www.scrumpoker.online^$~third-party
+! fixes for several requests bypassing default blocklists
+||bounceexchange.com^$third-party
+||npttech.com/advertising.js$important,script
+||tiqcdn.com^$third-party
+||forkitz.com^
+||aolcdn.com/*/adsWrapper.js$script
+||keywee.co$third-party
+||summerhamster.com^
+||zergnet.com/zerg.js^$script,third-party
