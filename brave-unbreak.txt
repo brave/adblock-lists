@@ -35,7 +35,6 @@
 ||track.atom-data.io^$third-party
 ||vidazoo.com/aggregate^$third-party
 ||vidazoo.com/proxy^$third-party
-||vidible.tv^$third-party
 ||mediabong.net^$third-party
 ||imprvdosrv.com^$third-party
 ! yt embed exceptions
