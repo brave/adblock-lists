@@ -66,4 +66,7 @@
 ! intermediary domains used for malware payload delivery
 ||centerbluray.info^
 ||newcyclevaults.com^
+! block scripts that profile user behavior using password managers
+||audienceinsights.net^$third-party
+||behavioralengine.com^$third-party
 
