@@ -70,3 +70,5 @@
 ||audienceinsights.net^$third-party
 ||behavioralengine.com^$third-party
 @@||api.huobi.pro^$domain=www.huobi.pro
+||syntac.net^$third-party
+
