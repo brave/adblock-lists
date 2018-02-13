@@ -62,7 +62,7 @@
 ||aolcdn.com/*/adsWrapper.js$script
 ||keywee.co$third-party
 ||summerhamster.com^
-||zergnet.com/zerg.js^$script,third-party
+||zergnet.com^$script,third-party
 ! intermediary domains used for malware payload delivery
 ||centerbluray.info^
 ||newcyclevaults.com^
