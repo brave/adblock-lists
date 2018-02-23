@@ -73,3 +73,5 @@
 ! fixes calls bypassing shields on salon.com
 ||salon.com/jobs.js
 ||carambo.la^$third-party
+! key logger
+||turner.com/*/keypress.js$domain=cnn.com
