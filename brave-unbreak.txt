@@ -80,3 +80,6 @@
 ||adiode.com^$third-party
 ! content blocking
 ||seattletimes.com/wp-content/plugins/st-user-messaging^$script
+||theatlantic.com/packages/adsjs^$script
+! tracking
+||optimizely.com^$third-party
