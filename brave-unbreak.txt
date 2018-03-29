@@ -78,3 +78,5 @@
 ! fixes ad blocking bypass
 ||zdbb.net^$third-party
 ||adiode.com^$third-party
+! content blocking
+||seattletimes.com/wp-content/plugins/st-user-messaging^$script
