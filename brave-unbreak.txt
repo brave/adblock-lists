@@ -83,3 +83,5 @@
 ||theatlantic.com/packages/adsjs^$script
 ! tracking
 ||optimizely.com^$third-party
+! crypto ad network 
+||ctnetload.com^$third-party
