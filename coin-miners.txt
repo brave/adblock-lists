@@ -324,6 +324,9 @@ $xmlhttprequest,domain=a-o.ninja|adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|
 ||jyhfuqoh.info^$third-party
 ||kdowqlpt.info^$third-party
 
+! Common source for deepMiner source on hacked sites.
+||greenindex.dynamic-dns.net/jqueryeasyui.js^$third-party
+
 ! Filters optimized for uBlock -------------------------------------------------
 !#include nocoin-ublock.txt
 !-------------------------------------------------------------------------------
