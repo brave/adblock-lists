@@ -85,3 +85,5 @@
 ||optimizely.com^$third-party
 ! crypto ad network 
 ||ctnetload.com^$third-party
+! Internal reddit API that breaks reddit for many users
+@@||gateway.reddit.com^
