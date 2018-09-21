@@ -87,3 +87,5 @@
 ||ctnetload.com^$third-party
 ! Internal reddit API that breaks reddit for many users
 @@||gateway.reddit.com^
+! DDG 1P analytics and optimization
+@@||improving.duckduckgo.com^
