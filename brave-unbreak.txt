@@ -89,3 +89,5 @@
 @@||gateway.reddit.com^
 ! DDG 1P analytics and optimization
 @@||improving.duckduckgo.com^
+! Disable PDFJS which we include by default's telemetry
+||pdfjs.robwu.nl
