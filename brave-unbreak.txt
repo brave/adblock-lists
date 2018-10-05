@@ -92,4 +92,4 @@
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
 ! Exception for Brave 1P analytics
-@@||analytics.brave.com^$domain=brave.com|brave.io|basicattentiontoken.org|basicattentiontoken.rocket.chat
+@@||analytics.brave.com/piwik^
