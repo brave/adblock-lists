@@ -91,3 +91,5 @@
 @@||improving.duckduckgo.com^
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
+! Allow 1P piwik since it's no different than server logs
+@@|https://analytics.*/piwik.js$~third-party
