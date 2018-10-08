@@ -88,7 +88,7 @@
 ! Internal reddit API that breaks reddit for many users
 @@||gateway.reddit.com^
 ! DDG 1P analytics and optimization
-@@||improving.duckduckgo.com^
+@@||improving.duckduckgo.com^$~third-party
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
 ! Allow 1P piwik since it's no different than server logs
