@@ -1,6 +1,6 @@
 ||ntv.io^$third-party
 @@||creative.sonobi.com
-@@||adm.fwmrm.net^*/AdManager.js$domain=msnbc.com|sky.com|cnbc.com 
+@@||adm.fwmrm.net^*/AdManager.js$domain=msnbc.com|sky.com|cnbc.com
 ||novately.com^$third-party
 ||webspectator.com^$third-party
 ! Would be nice to find an alt fix, but unbreaks cnet video
@@ -48,7 +48,7 @@
 ||theatlantic.com/please-support-us^
 ! murdoog submission tracking
 ||murdoog.com^$third-party
-! Admiral anti-ad blocking fix 
+! Admiral anti-ad blocking fix
 ||functionalclam.com^$third-party
 ||ctnet2.in$third-party
 ! adops.com unusable without this
@@ -83,10 +83,12 @@
 ||theatlantic.com/packages/adsjs^$script
 ! tracking
 ||optimizely.com^$third-party
-! crypto ad network 
+! crypto ad network
 ||ctnetload.com^$third-party
 ! Internal reddit API that breaks reddit for many users
 @@||gateway.reddit.com^
+! https://github.com/brave/adblock-lists/issues/39
+@@||alb.reddit.com^
 ! DDG 1P analytics and optimization
 @@||improving.duckduckgo.com^$~third-party
 ! Disable PDFJS which we include by default's telemetry
