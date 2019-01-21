@@ -58,7 +58,6 @@
 ||bounceexchange.com^$third-party
 ||npttech.com/advertising.js$important,script
 ||tiqcdn.com^$third-party
-||forkitz.com^
 ||aolcdn.com/*/adsWrapper.js$script
 ||keywee.co$third-party
 ||summerhamster.com^
