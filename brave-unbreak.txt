@@ -39,7 +39,6 @@
 ! fb widget audience, ad and marketing tracking
 ||connect.facebook.net/*/fbevents.js$third-party
 ||facebook.com/tr^$image,third-party
-||graph.facebook.com^$third-party
 ! theatlantic.com anti-blocker filters
 ||theatlantic.blueconic.net$domain=theatlantic.com
 ||theatlantic.com/please-support-us^
@@ -88,3 +87,13 @@
 ||pdfjs.robwu.nl
 ! Allow 1P piwik since it's no different than server logs
 @@https://analytics.*/piwik.$~third-party
+! Fully block Facebook everywhere just like our Disconnect blocking but unbreak logins like from quora.com and twitch.tv
+||facebook.com$third-party
+||facebook.net$third-party
+||staticxx.facebook.com$third-party
+@@||connect.facebook.com/*/sdk.js$script
+@@||connect.facebook.net/*/sdk.js$script
+@@||facebook.com/connect/
+@@||www.facebook.com/connect
+@@||staticxx.facebook.com/connect/
+@@||graph.facebook.com/
