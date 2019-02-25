@@ -98,11 +98,19 @@
 @@||www.facebook.com/connect
 @@||staticxx.facebook.com/connect/
 @@||graph.facebook.com/
+! Block fbcdn.net everywhere but allow Facebook embeds
+||fbcdn.net$third-party,domain=~facebook.com
+@@||staticxx.facebook.com/
+@@||xx.fbcdn.net/
+@@||www.facebook.com/*/plugin
+@@||www.facebook.com/plugins/
+@@||www.facebook.com/rsrc.php
+@@||www.facebook.com/ajax/bz
 ! Block all twitter.com third-party but allow embedded tweets
 ! Note that options will be added to exclude these filters soon.
 ||twitter.com$third-party
 @@||platform.twitter.com/
 @@||syndication.twitter.com;
-||twimg.com$third-party
+||twimg.com$third-party,domain=~twitter.com
 @@||pbs.twimg.com/
 @@||cdn.syndication.twimg.com/
