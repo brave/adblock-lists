@@ -39,7 +39,6 @@
 ! fb widget audience, ad and marketing tracking
 ||connect.facebook.net/*/fbevents.js$third-party
 ||facebook.com/tr^$image,third-party
-||graph.facebook.com^$third-party
 ! theatlantic.com anti-blocker filters
 ||theatlantic.blueconic.net$domain=theatlantic.com
 ||theatlantic.com/please-support-us^
@@ -88,3 +87,30 @@
 ||pdfjs.robwu.nl
 ! Allow 1P piwik since it's no different than server logs
 @@https://analytics.*/piwik.$~third-party
+! Fully block Facebook everywhere just like our Disconnect blocking but unbreak logins like from quora.com and twitch.tv
+! Note that options will be added to exclude these filters soon.
+||facebook.com$third-party
+||facebook.net$third-party
+||staticxx.facebook.com$third-party
+@@||connect.facebook.com/*/sdk.js$script
+@@||connect.facebook.net/*/sdk.js$script
+@@||facebook.com/connect/
+@@||www.facebook.com/connect
+@@||staticxx.facebook.com/connect/
+@@||graph.facebook.com/
+! Block fbcdn.net everywhere but allow Facebook embeds
+||fbcdn.net$third-party,domain=~facebook.com
+@@||staticxx.facebook.com/
+@@||xx.fbcdn.net/
+@@||www.facebook.com/*/plugin
+@@||www.facebook.com/plugins/
+@@||www.facebook.com/rsrc.php
+@@||www.facebook.com/ajax/bz
+! Block all twitter.com third-party but allow embedded tweets
+! Note that options will be added to exclude these filters soon.
+||twitter.com$third-party
+@@||platform.twitter.com/
+@@||syndication.twitter.com;
+||twimg.com$third-party,domain=~twitter.com
+@@||pbs.twimg.com/
+@@||cdn.syndication.twimg.com/
