@@ -88,6 +88,7 @@
 ! Allow 1P piwik since it's no different than server logs
 @@https://analytics.*/piwik.$~third-party
 ! Fully block Facebook everywhere just like our Disconnect blocking but unbreak logins like from quora.com and twitch.tv
+! Note that options will be added to exclude these filters soon.
 ||facebook.com$third-party
 ||facebook.net$third-party
 ||staticxx.facebook.com$third-party
@@ -97,3 +98,11 @@
 @@||www.facebook.com/connect
 @@||staticxx.facebook.com/connect/
 @@||graph.facebook.com/
+! Block all twitter.com third-party but allow embedded tweets
+! Note that options will be added to exclude these filters soon.
+||twitter.com$third-party
+@@||platform.twitter.com/
+@@||syndication.twitter.com;
+||twimg.com$third-party
+@@||pbs.twimg.com/
+@@||cdn.syndication.twimg.com/
