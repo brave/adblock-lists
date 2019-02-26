@@ -87,30 +87,35 @@
 ||pdfjs.robwu.nl
 ! Allow 1P piwik since it's no different than server logs
 @@https://analytics.*/piwik.$~third-party
-! Fully block Facebook everywhere just like our Disconnect blocking but unbreak logins like from quora.com and twitch.tv
-! Note that options will be added to exclude these filters soon.
+
+
+! The following rules with condition filter options are only used in Brave
+! if a preference is specified to allow them.
+
+! Facebook login buttons
 ||facebook.com$third-party
 ||facebook.net$third-party
 ||staticxx.facebook.com$third-party
-@@||connect.facebook.com/*/sdk.js$script
-@@||connect.facebook.net/*/sdk.js$script
-@@||facebook.com/connect/
-@@||www.facebook.com/connect
-@@||staticxx.facebook.com/connect/
-@@||graph.facebook.com/
-! Block fbcdn.net everywhere but allow Facebook embeds
+@@||connect.facebook.com/*/sdk.js$script,condition=fblogin
+@@||connect.facebook.net/*/sdk.js$script,condition=fblogin
+@@||facebook.com/connect/$condition=fblogin
+@@||www.facebook.com/connect$condition=fblogin
+@@||staticxx.facebook.com/connect/$condition=fblogin
+@@||graph.facebook.com/$condition=fblogin
+
+! Facebook embeds
 ||fbcdn.net$third-party,domain=~facebook.com
-@@||staticxx.facebook.com/
-@@||xx.fbcdn.net/
-@@||www.facebook.com/*/plugin
-@@||www.facebook.com/plugins/
-@@||www.facebook.com/rsrc.php
-@@||www.facebook.com/ajax/bz
-! Block all twitter.com third-party but allow embedded tweets
-! Note that options will be added to exclude these filters soon.
+@@||staticxx.facebook.com/$condition=fb-embed
+@@||xx.fbcdn.net/$condition=fb-embed
+@@||www.facebook.com/*/plugin$condition=fb-embed
+@@||www.facebook.com/plugins/$condition=fb-embed
+@@||www.facebook.com/rsrc.php$condition=fb-embed
+@@||www.facebook.com/ajax/bz$condition=fb-embed
+
+! Twitter embeds
 ||twitter.com$third-party
-@@||platform.twitter.com/
-@@||syndication.twitter.com;
+@@||platform.twitter.com/$condition=twitter-embed
+@@||syndication.twitter.com$condition=twitter-embed
 ||twimg.com$third-party,domain=~twitter.com
-@@||pbs.twimg.com/
-@@||cdn.syndication.twimg.com/
+@@||pbs.twimg.com/$condition=twitter-embed
+@@||cdn.syndication.twimg.com/$condition=twitter-embed
