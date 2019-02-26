@@ -119,3 +119,10 @@
 ||twimg.com$third-party,domain=~twitter.com
 @@||pbs.twimg.com/$condition=twitter-embed
 @@||cdn.syndication.twimg.com/$condition=twitter-embed
+
+! LinkedIn in embed
+||linkedin.com$third-party
+||licdn.com$third-party
+@@||platform.linkedin.com/$condition=linkedin-embed
+@@||www.linkedin.com/pages-extensions/FollowCompany$condition=linkedin-embed
+@@||static.licdn.com/sc/p$condition=linkedin-embed
