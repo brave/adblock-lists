@@ -108,9 +108,9 @@
 @@||www.facebook.com/ajax/bz
 ! Block all twitter.com third-party but allow embedded tweets
 ! Note that options will be added to exclude these filters soon.
-||twitter.com$third-party
+||twitter.com$third-party,domain=~mobile.twitter.com
 @@||platform.twitter.com/
 @@||syndication.twitter.com;
-||twimg.com$third-party,domain=~twitter.com
+||twimg.com$third-party,domain=~twitter.com,~mobile.twitter.com
 @@||pbs.twimg.com/
 @@||cdn.syndication.twimg.com/
