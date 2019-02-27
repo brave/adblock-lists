@@ -6,10 +6,6 @@ If you modify any of these lists, follow [these instructions](https://github.com
 
 Combined with all lists, including regional.
 
-## ublock-unbreak.txt
-
-Combined only with default adblocking, matching similar to uBlock's unbreak rules.
-
 ## coin-miners.txt
 
 Tracks URLs that do coin mining.
