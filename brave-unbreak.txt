@@ -114,3 +114,5 @@
 ||twimg.com$third-party,domain=~twitter.com,~mobile.twitter.com
 @@||pbs.twimg.com/
 @@||cdn.syndication.twimg.com/
+! Fix for Suicide Prevention Lifeline Chat (brave/brave-browser#3492)
+@@||geoplugin.net/javascript.gp$script,xmlhttprequest,domain=suicidepreventionlifeline.org
