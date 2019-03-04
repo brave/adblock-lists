@@ -132,4 +132,3 @@
 ||sp.nasdaq.com$third-party
 ||lesechos.fr/xtcore.js$third-party
 ||y8.com/js/sdkloader/outstream.js$third-party
-||pdfjs.robwu.nl$third-party
