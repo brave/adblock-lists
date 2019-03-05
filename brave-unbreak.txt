@@ -130,5 +130,5 @@
 ! Block additional trackers
 ||sp1.nypost.com$third-party
 ||sp.nasdaq.com$third-party
-||lesechos.fr/xtcore.js$third-party
+||assets.lesechos.com/common/js/xtcore.js$third-party
 ||y8.com/js/sdkloader/outstream.js$third-party
