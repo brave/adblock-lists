@@ -92,7 +92,7 @@
 ! Block additional trackers
 ||sp1.nypost.com$third-party
 ||sp.nasdaq.com$third-party
-||lesechos.fr/xtcore.js$third-party
+||assets.lesechos.com/common/js/xtcore.js$third-party
 ||y8.com/js/sdkloader/outstream.js$third-party
 ! Note that options will be added to exclude these filters soon. They
 ! are added both as a blocking rule and as an exception rule so that
