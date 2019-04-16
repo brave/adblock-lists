@@ -125,8 +125,8 @@
 ! Twitter embeds
 ||platform.twitter.com/$tag=twitter-embeds
 @@||platform.twitter.com/$tag=twitter-embeds
-||syndication.twitter.com$tag=twitter-embeds
-@@||syndication.twitter.com$tag=twitter-embeds
+||syndication.twitter.com/$tag=twitter-embeds
+@@||syndication.twitter.com/$tag=twitter-embeds
 ||pbs.twimg.com/$tag=twitter-embeds
 @@||pbs.twimg.com/$tag=twitter-embeds
 ||cdn.syndication.twimg.com/$tag=twitter-embeds
