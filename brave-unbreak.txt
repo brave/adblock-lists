@@ -146,3 +146,5 @@
 @@||www.linkedin.com/pages-extensions/FollowCompany$tag=linked-in-embeds
 ||static.licdn.com/sc/p$tag=linked-in-embeds
 @@||static.licdn.com/sc/p$tag=linked-in-embeds
+! Fix AJAX requests in https://www.dnsperf.com
+@@||perfops.net^$script,xmlhttprequest,domain=dnsperf.com
