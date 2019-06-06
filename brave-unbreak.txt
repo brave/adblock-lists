@@ -150,3 +150,5 @@
 @@||static.licdn.com/sc/p$tag=linked-in-embeds
 ! Fix https://github.com/brave/brave-browser/issues/4507 (mirrors uBO fix, rewritten so that brave/ad-block supports)
 ||washingtonpost.com/pb/api/*/adblocker-feature$xmlhttprequest,first-party
+! Fix blankpage issue https://github.com/brave/brave-browser/issues/4049
+||dianomi.com/cgi-bin/smartads.pl$xmlhttprequest,domain=inc.com
