@@ -150,5 +150,5 @@
 @@||perfops.net^$script,xmlhttprequest,domain=dnsperf.com
 ! Fix https://github.com/brave/brave-browser/issues/4507 (mirrors uBO fix, rewritten so that brave/ad-block supports)
 ||washingtonpost.com/pb/api/*/adblocker-feature$xmlhttprequest,first-party
-! Fix blankpage issue https://github.com/brave/brave-browser/issues/4049  (may affect other related sites using dianomi)
-||dianomi.com/cgi-bin/smartads.pl$xmlhttprequest
+! Fix blankpage issue https://github.com/brave/brave-browser/issues/4049
+||dianomi.com/cgi-bin/smartads.pl$xmlhttprequest,domain=inc.com
