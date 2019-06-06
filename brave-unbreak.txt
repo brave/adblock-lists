@@ -146,7 +146,5 @@
 @@||www.linkedin.com/pages-extensions/FollowCompany$tag=linked-in-embeds
 ||static.licdn.com/sc/p$tag=linked-in-embeds
 @@||static.licdn.com/sc/p$tag=linked-in-embeds
-! Fix AJAX requests in https://www.dnsperf.com
-@@||perfops.net^$script,xmlhttprequest,domain=dnsperf.com
 ! Fix https://github.com/brave/brave-browser/issues/4507 (mirrors uBO fix, rewritten so that brave/ad-block supports)
 ||washingtonpost.com/pb/api/*/adblocker-feature$xmlhttprequest,first-party
