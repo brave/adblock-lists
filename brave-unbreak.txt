@@ -139,6 +139,8 @@
 @@||api.twitter.com/1.1/$tag=twitter-embeds
 ||video.twimg.com/$tag=twitter-embeds
 @@||video.twimg.com/$tag=twitter-embeds
+! Fix page rendering due to issues with scorecardresaerch.com https://github.com/brave/brave-browser/issues/1580
+||scorecardresearch.com^$domain=dailymotion.com
 ! LinkedIn in embed
 ||platform.linkedin.com/$tag=linked-in-embeds
 @@||platform.linkedin.com/$tag=linked-in-embeds
