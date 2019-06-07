@@ -152,3 +152,6 @@
 ||washingtonpost.com/pb/api/*/adblocker-feature$xmlhttprequest,first-party
 ! Fix blankpage issue https://github.com/brave/brave-browser/issues/4049
 ||dianomi.com/cgi-bin/smartads.pl$xmlhttprequest,domain=inc.com
+! Fix facebook logins on messenger.com https://github.com/brave/brave-browser/issues/4173
+@@||facebook.com/login/$domain=messenger.com
+@@||connect.facebook.net^$domain=messenger.com
