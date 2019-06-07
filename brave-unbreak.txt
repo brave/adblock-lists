@@ -139,6 +139,8 @@
 @@||api.twitter.com/1.1/$tag=twitter-embeds
 ||video.twimg.com/$tag=twitter-embeds
 @@||video.twimg.com/$tag=twitter-embeds
+! Fix page rendering due to issues with scorecardresaerch.com https://github.com/brave/brave-browser/issues/1580
+||scorecardresearch.com^$domain=dailymotion.com
 ! LinkedIn in embed
 ||platform.linkedin.com/$tag=linked-in-embeds
 @@||platform.linkedin.com/$tag=linked-in-embeds
@@ -146,7 +148,7 @@
 @@||www.linkedin.com/pages-extensions/FollowCompany$tag=linked-in-embeds
 ||static.licdn.com/sc/p$tag=linked-in-embeds
 @@||static.licdn.com/sc/p$tag=linked-in-embeds
-! Fix AJAX requests in https://www.dnsperf.com
-@@||perfops.net^$script,xmlhttprequest,domain=dnsperf.com
 ! Fix https://github.com/brave/brave-browser/issues/4507 (mirrors uBO fix, rewritten so that brave/ad-block supports)
 ||washingtonpost.com/pb/api/*/adblocker-feature$xmlhttprequest,first-party
+! Fix blankpage issue https://github.com/brave/brave-browser/issues/4049
+||dianomi.com/cgi-bin/smartads.pl$xmlhttprequest,domain=inc.com
