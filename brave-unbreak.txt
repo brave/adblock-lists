@@ -166,4 +166,3 @@
 ! Allow ads on DDG: brave-browser/issues#4533
 @@||duckduckgo.com/m.js
 @@||duckduckgo.com/share/spice/amazon/
-
