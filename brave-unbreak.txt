@@ -163,3 +163,6 @@
 @@||wallpapersite.com/scripts/ads.js$script
 ! Anti-adblock: wallpapershome.com
 @@||wallpapershome.com/scripts/ads.js$script
+! Allow ads on DDG: brave-browser/issues#4533
+@@||duckduckgo.com/m.js
+@@||duckduckgo.com/share/spice/amazon/
