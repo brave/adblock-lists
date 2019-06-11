@@ -140,6 +140,7 @@
 ||video.twimg.com/$tag=twitter-embeds
 @@||video.twimg.com/$tag=twitter-embeds
 ! Fix sign in icon on https://app.mysms.com/#login
+||developers.google.com/identity/$image,domain=mysms.com
 @@||developers.google.com/identity/$image,domain=mysms.com
 ! Fix page rendering due to issues with scorecardresaerch.com https://github.com/brave/brave-browser/issues/1580
 ||scorecardresearch.com^$domain=dailymotion.com
