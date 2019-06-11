@@ -163,3 +163,5 @@
 @@||wallpapersite.com/scripts/ads.js$script
 ! Anti-adblock: wallpapershome.com
 @@||wallpapershome.com/scripts/ads.js$script
+! Anti-adblock: dreamdth.com
+@@||dreamdth.com/js/wutime_adblock/ads.js$script
