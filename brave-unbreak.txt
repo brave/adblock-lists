@@ -170,6 +170,8 @@
 @@||wallpapershome.com/scripts/ads.js$script
 ! Anti-adblock: dreamdth.com
 @@||dreamdth.com/js/wutime_adblock/ads.js$script
+! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
+@@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! Allow ads on DDG: brave-browser/issues#4533
 @@||duckduckgo.com/m.js
 @@||duckduckgo.com/share/spice/amazon/
