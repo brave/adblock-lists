@@ -4,7 +4,15 @@ If you modify any of these lists, follow [these instructions](https://github.com
 
 ## brave-unbreak.txt
 
-Combined with all lists, including regional.
+Rules designed to unbreak sites broken by other lists.
+
+## brave-block.txt
+
+Additional tracking and advertising blocking rules specific to Brave, such as anti-ad-block.
+
+## brave-allow.txt
+
+Rules for allowing trusted resources onto pages, including anti-adblock bypasses, distinct from webcompat concerns.
 
 ## coin-miners.txt
 
