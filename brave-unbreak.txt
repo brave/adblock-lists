@@ -177,8 +177,6 @@
 ||googletagservices.com/tag/js/gpt.js$script,domain=spiegel.de
 ||mxcdn.net^$script,domain=spiegel.de
 ||research.de.com^$script,domain=spiegel.de
-||ad.yieldlab.net^$script,domain=spiegel.de
-@@||ad.yieldlab.net^$script,domain=spiegel.de
 @@||googletagservices.com/tag/js/gpt.js$script,domain=spiegel.de
 @@||mxcdn.net^$script,domain=spiegel.de
 @@||research.de.com^$script,domain=spiegel.de
