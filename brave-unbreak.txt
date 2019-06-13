@@ -173,6 +173,11 @@
 ! Anti-adblock: dreamdth.com
 @@||dreamdth.com/js/wutime_adblock/ads.js$script
 ! spiegel.de (https://github.com/brave/brave-browser/issues/4201)
+||imagesrv.adition.com^$image,domain=spiegel.de
+||googletagservices.com/tag/js/gpt.js$script,domain=spiegel.de
+||mxcdn.net^$script,domain=spiegel.de
+||research.de.com^$script,domain=spiegel.de
+||ad.yieldlab.net^$script,domain=spiegel.de
 @@||ad.yieldlab.net^$script,domain=spiegel.de
 @@||googletagservices.com/tag/js/gpt.js$script,domain=spiegel.de
 @@||mxcdn.net^$script,domain=spiegel.de
