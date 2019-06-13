@@ -1,0 +1,107 @@
+! Fix page rendering due to issues with scorecardresaerch.com https://github.com/brave/brave-browser/issues/1580
+||scorecardresearch.com^$domain=dailymotion.com
+! https://community.brave.com/t/ad-not-bloked-properly/63628
+||readthedocs.org/api/v2/sustainability/$script,domain=pyexcel.org
+
+! content blocking
+||seattletimes.com/wp-content/plugins/st-user-messaging^$script
+||theatlantic.com/packages/adsjs^$script
+
+! fixes ad blocking bypass
+||zdbb.net^$third-party
+||adiode.com^$third-party
+
+||novately.com^$third-party
+||webspectator.com^$third-party
+
+! LA Times and Chicago Tribune native ads fixes
+||aggrego.org^$script,image,domain=latimes.com|chicagotribune.com
+||jadserve.postrelease.com^$script,image,domain=latimes.com|chicagotribune.com
+||troncdata.com^$script,image,domain=latimes.com
+||polarmobile.com^$script,image,domain=latimes.com|chicagotribune.com
+||ntv.io^$script,image,domain=latimes.com|chicagotribune.com
+
+! Expressen.se and aftonbladet.set ad blocking evasion fix
+||biowebb-data.s3.amazonaws.com^$script,image,domain=expressen.se|aftonbladet.se
+||richmetrics.com^$script,image,domain=expressen.se|aftonbladet.se
+||adtomafusion.net^$script,image,domain=expressen.se|aftonbladet.se
+||ld1.lpbeta.com^$script,image,domain=expressen.se|aftonbladet.se
+||csp.screen9.com^$script,image,domain=expressen.se|aftonbladet.se
+||glimr.io^$script,image,domain=expressen.se|aftonbladet.se
+||aka-cdn-ns.adtech.de^$script,image,domain=aftonbladet.se|expressen.se
+
+! LA Times forced-whitelisting modal fix
+||tribdss.com/meter/assets$script,domain=www.latimes.com
+
+! Twitch main video
+||cloudfront.net/esf.js$domain=twitch.tv
+
+! theatlantic.com anti-blocker filters
+||theatlantic.blueconic.net$domain=theatlantic.com
+||theatlantic.com/please-support-us^
+
+! fb widget audience, ad and marketing tracking
+||connect.facebook.net/*/fbevents.js$third-party
+||facebook.com/tr^$image,third-party
+
+! Hearst anti-ad blocking fix
+||aps.hearstnp.com^$script,image
+! Sailthru native ad aggregator fix
+||ak.sail-horizon.com^$script,image
+
+! vendors serving video ads and tracking via proxied requests
+||track.atom-data.io^$third-party
+||vidazoo.com/aggregate^$third-party
+||vidazoo.com/proxy^$third-party
+||mediabong.net^$third-party
+||imprvdosrv.com^$third-party
+
+! gRPC client ad tracking data fix boston.com sfgate.com
+||g.3gl.net^$domain=sfgate.com|boston.com
+! 123movies.is video player display banner overlay fix
+||123clouds.ru/*/custombanner.js^$script,domain=123movies.is
+! murdoog submission tracking
+||murdoog.com^$third-party
+! Admiral anti-ad blocking fix
+||functionalclam.com^$third-party
+||ctnet2.in$third-party
+
+! fixes calls bypassing shields on salon.com
+||salon.com/jobs.js
+||carambo.la^$third-party
+
+! Disable PDFJS's (which we include by default) telemetry
+||pdfjs.robwu.nl
+
+! fixes for several requests bypassing default blocklists
+||bounceexchange.com^$third-party
+||npttech.com/advertising.js$important,script
+||aolcdn.com/*/adsWrapper.js$script
+||keywee.co$third-party
+||summerhamster.com^
+||zergnet.com^$script,third-party
+
+! block scripts that profile user behavior using password managers
+||audienceinsights.net^$third-party
+||behavioralengine.com^$third-party
+
+! Block additional trackers
+||sp1.nypost.com$third-party
+||sp.nasdaq.com$third-party
+||assets.lesechos.com/common/js/xtcore.js$third-party
+||y8.com/js/sdkloader/outstream.js$third-party
+
+! key logger
+||turner.com/*/keypress.js$domain=cnn.com
+
+! intermediary domains used for malware payload delivery
+||centerbluray.info^
+||newcyclevaults.com^
+
+! tracking
+||optimizely.com^$third-party
+! crypto ad network
+||ctnetload.com^$third-party
+
+! misc / unsorted
+||ntv.io^$third-party
