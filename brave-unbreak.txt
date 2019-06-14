@@ -173,6 +173,8 @@
 @@||wallpapersite.com/scripts/ads.js$script
 ! Anti-adblock: wallpapershome.com
 @@||wallpapershome.com/scripts/ads.js$script
+! Anti-adblock: mediaite.com
+@@||mediaite.com/adbait/adsbygoogle.js
 ! Anti-adblock: dreamdth.com
 @@||dreamdth.com/js/wutime_adblock/ads.js$script
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
