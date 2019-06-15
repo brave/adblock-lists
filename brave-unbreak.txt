@@ -169,6 +169,9 @@
 ! Fix facebook logins on messenger.com https://github.com/brave/brave-browser/issues/4173
 @@||facebook.com/login/$domain=messenger.com
 @@||connect.facebook.net^$domain=messenger.com
+! Anti-adblock: techsolutiontips.com
+@@||googlesyndication.com/pagead/js/r20190612/r20190131/show_ads_impl.js$domain=techsolutiontips.com
+@@||googlesyndication.com/pagead/js/adsbygoogle.js$domain=techsolutiontips.com
 ! Anti-adblock: wallpapersite.com (https://www.reddit.com/r/brave_browser/comments/bx784t/websites_detecting_adblocker_even_when_shield/)
 @@||wallpapersite.com/scripts/ads.js$script
 ! Anti-adblock: wallpapershome.com
