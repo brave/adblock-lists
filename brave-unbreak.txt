@@ -175,6 +175,8 @@
 @@||wallpapershome.com/scripts/ads.js$script
 ! Anti-adblock: mediaite.com
 @@||mediaite.com/adbait/adsbygoogle.js
+! Anti-adblock: animefever.tv
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$xmlhttprequest,domain=animefever.tv
 ! Anti-adblock: dreamdth.com
 @@||dreamdth.com/js/wutime_adblock/ads.js$script
 ! spiegel.de (https://github.com/brave/brave-browser/issues/4201)
