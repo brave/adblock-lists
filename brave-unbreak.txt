@@ -175,7 +175,6 @@
 ! spiegel.de (https://github.com/brave/brave-browser/issues/4201)
 ||imagesrv.adition.com/banners/$image,domain=spiegel.de
 ||googletagservices.com/tag/js/gpt.js$script,domain=spiegel.de
-||mxcdn.net/bb-mx/$script,domain=spiegel.de
 ||doubleclick.net/ddm/$image,domain=spiegel.de
 @@||doubleclick.net/ddm/$image,domain=spiegel.de
 @@||googletagservices.com/tag/js/gpt.js$script,domain=spiegel.de
