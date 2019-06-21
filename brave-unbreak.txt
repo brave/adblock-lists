@@ -185,6 +185,9 @@
 @@||googletagservices.com/tag/js/gpt.js$script,domain=spiegel.de
 @@||mxcdn.net/bb-mx/$script,domain=spiegel.de
 @@||imagesrv.adition.com/banners/$image,domain=spiegel.de
+! redditcommentsearch.com (https://community.brave.com/t/redditcommentsearch-doesnt-work-with-shields-on/66496)
+||pay.reddit.com/user/$script,domain=redditcommentsearch.com
+@@||pay.reddit.com/user/$script,domain=redditcommentsearch.com
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! Allow ads on DDG: brave-browser/issues#4533
