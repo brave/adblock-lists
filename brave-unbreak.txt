@@ -177,6 +177,10 @@
 @@||mediaite.com/adbait/adsbygoogle.js
 ! Anti-adblock: dreamdth.com
 @@||dreamdth.com/js/wutime_adblock/ads.js$script
+! Anti-adblock: notebookcheck.net / notebookcheck.com
+@@||notebook-check.com/ads.min.js$script,domain=notebookcheck.net|notebookcheck.com
+@@||static.h-bid.com/prebid/$script,domain=notebookcheck.net|notebookcheck.com
+@@||static.h-bid.com/notebookcheck.net/$script,domain=notebookcheck.net|notebookcheck.com
 ! spiegel.de (https://github.com/brave/brave-browser/issues/4201)
 ||imagesrv.adition.com/banners/$image,domain=spiegel.de
 ||googletagservices.com/tag/js/gpt.js$script,domain=spiegel.de
