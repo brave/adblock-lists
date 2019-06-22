@@ -190,6 +190,9 @@
 @@||pay.reddit.com/user/$script,domain=redditcommentsearch.com
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
+! washingtonpost
+||pubads.g.doubleclick.net^$xmlhttprequest,domain=washingtonpost.com
+@@||pubads.g.doubleclick.net^$xmlhttprequest,domain=washingtonpost.com
 ! Allow ads on DDG: brave-browser/issues#4533
 @@||duckduckgo.com/m.js
 @@||duckduckgo.com/share/spice/amazon/
