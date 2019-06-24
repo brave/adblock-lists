@@ -197,6 +197,8 @@
 ! Anti-adblock: washingtonpost.com
 ||pubads.g.doubleclick.net^$xmlhttprequest,domain=washingtonpost.com
 @@||pubads.g.doubleclick.net^$xmlhttprequest,domain=washingtonpost.com
+! Fix abcnews.go.com video playback
+@@||akamaihd.net/player/2.106.5/akamai/amp/chartbeatanalytics/Chartbeatanalytics.min.js$domain=abcnews.go.com
 ! Allow ads on DDG: brave-browser/issues#4533
 @@||duckduckgo.com/m.js
 @@||duckduckgo.com/share/spice/amazon/
