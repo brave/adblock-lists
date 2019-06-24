@@ -192,7 +192,7 @@
 ! Fix foxnews video playback
 ||fncstatic.com/static/isa/app/lib/VisitorAPI.js$script,domain=foxbusiness.com|foxnews.com
 @@||fncstatic.com/static/isa/app/lib/VisitorAPI.js$script,domain=foxbusiness.com|foxnews.com
-! Stop Foxnews/Foxbusiness from tracking the user
+! Adblock-Tracking: foxnews.com / foxbusiness.com
 @@||fncstatic.com/static/v/all/js/ads.js$script,domain=foxbusiness.com|foxnews.com
 ! redditcommentsearch.com (https://community.brave.com/t/redditcommentsearch-doesnt-work-with-shields-on/66496)
 ||pay.reddit.com/user/$script,domain=redditcommentsearch.com
