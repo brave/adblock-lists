@@ -173,6 +173,8 @@
 @@||wallpapersite.com/scripts/ads.js$script
 ! Anti-adblock: wallpapershome.com
 @@||wallpapershome.com/scripts/ads.js$script
+! Anti-adblock: haaretz.com
+@@||haaretz.com/htz/js/advertisement.js
 ! Anti-adblock: mediaite.com
 @@||mediaite.com/adbait/adsbygoogle.js
 ! Anti-adblock: dreamdth.com
