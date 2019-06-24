@@ -196,6 +196,9 @@
 ! redditcommentsearch.com (https://community.brave.com/t/redditcommentsearch-doesnt-work-with-shields-on/66496)
 ||pay.reddit.com/user/$script,domain=redditcommentsearch.com
 @@||pay.reddit.com/user/$script,domain=redditcommentsearch.com
+! ebay.co.uk + ebay.com and other ebay regions (https://github.com/brave/brave-browser/issues/5019)
+||ebay.com/experience/listing_auto_complete/$xmlhttprequest
+@@||ebay.com/experience/listing_auto_complete/$xmlhttprequest
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! Anti-adblock: washingtonpost.com
