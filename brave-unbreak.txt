@@ -147,8 +147,8 @@
 ! Fix page rendering due to issues with scorecardresaerch.com https://github.com/brave/brave-browser/issues/1580
 ||scorecardresearch.com^$domain=dailymotion.com
 ! vresp.com (https://community.brave.com/t/cant-see-captcha-on-form/67187)
-||captcha.vresp.com/produce/$domain=lawfirmkpi.com
-@@||captcha.vresp.com/produce/$domain=lawfirmkpi.com
+||captcha.vresp.com^$domain=lawfirmkpi.com
+@@||captcha.vresp.com^$domain=lawfirmkpi.com
 ! https://community.brave.com/t/ad-not-bloked-properly/63628
 ||readthedocs.org/api/v2/sustainability/$script,domain=pyexcel.org
 ! Embedded video on engadget.com
