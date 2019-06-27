@@ -197,6 +197,8 @@
 @@||mxcdn.net/bb-mx/$script,domain=spiegel.de
 @@||imagesrv.adition.com/banners/$image,domain=spiegel.de
 ! Fix foxnews video playback
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=foxbusiness.com|foxnews.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=foxbusiness.com|foxnews.com
 @@||fncstatic.com/static/isa/app/lib/VisitorAPI.js$script,domain=foxbusiness.com|foxnews.com
 ! Adblock-Tracking: foxnews.com / foxbusiness.com
 @@||fncstatic.com/static/v/all/js/ads.js$script,domain=foxbusiness.com|foxnews.com
