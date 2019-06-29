@@ -164,8 +164,8 @@
 ! Fix addthis.com issues on rhmodern.com  https://github.com/brave/brave-browser/issues/3653
 @@||s7.addthis.com^$script,domain=rhmodern.com
 ! 2mdn video playback script
-||2mdn.net/instream/html5/ima3.js$script
-@@||2mdn.net/instream/html5/ima3.js$script
+||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com
+@@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com
 ! Fix https://github.com/brave/brave-browser/issues/4507 (mirrors uBO fix, rewritten so that brave/ad-block supports)
 ||washingtonpost.com/pb/api/*/adblocker-feature$xmlhttprequest,first-party
 ! Fix blankpage issue https://github.com/brave/brave-browser/issues/4049
