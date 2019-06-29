@@ -182,6 +182,8 @@
 @@||haaretz.com/htz/js/advertisement.js
 ! Anti-adblock: mediaite.com
 @@||mediaite.com/adbait/adsbygoogle.js
+! Adblock-Tracking: nytimes.com
+@@||nyt.com/ads/google/adsbygoogle.js$script,domain=nytimes.com
 ! Anti-adblock: dreamdth.com
 @@||dreamdth.com/js/wutime_adblock/ads.js$script
 ! Anti-adblock: notebookcheck.net / notebookcheck.com
