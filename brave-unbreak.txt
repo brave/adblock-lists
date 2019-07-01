@@ -212,7 +212,7 @@
 @@||ebay.com/experience/listing_auto_complete/$xmlhttprequest
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
-! drudgereport.com (images not shown, to be removed after brave-rust landing)
+! drudgereport.com (images not shown)
 ||twimg.com^$image,domain=drudgereport.com
 @@||twimg.com^$image,domain=drudgereport.com
 ! Anti-adblock: washingtonpost.com
