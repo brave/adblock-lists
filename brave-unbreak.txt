@@ -242,3 +242,5 @@
 ! Allow ads on DDG: brave-browser/issues#4533
 @@||duckduckgo.com/m.js
 @@||duckduckgo.com/share/spice/amazon/
+! Copy over sole unbreak exception rule from Brave tracking-protection
+@@||google-analytics.com$third-party,script,domain=saturn.at
