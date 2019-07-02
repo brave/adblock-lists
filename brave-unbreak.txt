@@ -83,6 +83,9 @@
 @@||gateway.reddit.com^
 ! https://github.com/brave/adblock-lists/issues/39
 @@||alb.reddit.com^
+! Allow sites to use reddit api
+||reddit.com^*/.json?$script,third-party
+@@||reddit.com^*/.json?$script,third-party
 ! DDG 1P analytics and optimization
 @@||improving.duckduckgo.com^$~third-party
 ! Disable PDFJS which we include by default's telemetry
@@ -223,6 +226,9 @@
 ! ebay.co.uk + ebay.com and other ebay regions (https://github.com/brave/brave-browser/issues/5019)
 ||ebay.com/experience/listing_auto_complete/$xmlhttprequest
 @@||ebay.com/experience/listing_auto_complete/$xmlhttprequest
+! Allow reddit on https://deora.dev/corgi/
+||reddit.com/r/$script,domain=deora.dev
+@@||reddit.com/r/$script,domain=deora.dev
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! drudgereport.com (images not shown)
