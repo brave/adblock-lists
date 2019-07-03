@@ -190,6 +190,8 @@
 @@||wallpapershome.com/scripts/ads.js$script
 ! Anti-adblock: haaretz.com
 @@||haaretz.com/htz/js/advertisement.js
+! Anti-adblock: theverge.com (vox sites)
+@@||vox-cdn.com/packs/concert_ads-$script,domain=theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com
 ! Anti-adblock: mediaite.com
 @@||mediaite.com/adbait/adsbygoogle.js
 ! rambler.ru css issues (https://community.brave.com/t/broken-formatting-on-specific-websites-when-using-brave-or-firefox/68023)
