@@ -177,6 +177,8 @@
 ||dianomi.com/cgi-bin/smartads.pl$xmlhttprequest,domain=inc.com
 ! Adblock-Tracking: jpost.com
 @@||bitsngo.net/widget-scripts/extra_content/ads.js$script,domain=jpost.com
+! Adblock-Tracking: thedailybeast.com
+@@||thedailybeast.com/static/advert.js$script
 ! Anti-adblock: stream2watch.ws
 @@||stream2watch.ws/js/advertisement.js$script
 ! Fix facebook logins on messenger.com https://github.com/brave/brave-browser/issues/4173
