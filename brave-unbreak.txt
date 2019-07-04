@@ -226,6 +226,11 @@
 ! ebay.co.uk + ebay.com and other ebay regions (https://github.com/brave/brave-browser/issues/5019)
 ||ebay.com/experience/listing_auto_complete/$xmlhttprequest
 @@||ebay.com/experience/listing_auto_complete/$xmlhttprequest
+! fix first-party items on maxmind.com (https://community.brave.com/t/stop-blocking-the-website-for-maxmind-com/68326)
+||blog.maxmind.com^$~third-party
+||static.maxmind.com^$~third-party
+@@||blog.maxmind.com^$~third-party
+@@||static.maxmind.com^$~third-party
 ! Allow reddit on https://deora.dev/corgi/
 ||reddit.com/r/$script,domain=deora.dev
 @@||reddit.com/r/$script,domain=deora.dev
