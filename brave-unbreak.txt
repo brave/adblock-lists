@@ -231,6 +231,8 @@
 @@||reddit.com/r/$script,domain=deora.dev
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
+! Adblock-Tracking: speedtest.com
+@@||speedtest.net/javascript/ads.js
 ! drudgereport.com (images not shown)
 ||twimg.com^$image,domain=drudgereport.com
 @@||twimg.com^$image,domain=drudgereport.com
