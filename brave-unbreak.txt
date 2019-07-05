@@ -154,9 +154,9 @@
 @@||captcha.vresp.com^$domain=lawfirmkpi.com
 ! https://community.brave.com/t/ad-not-bloked-properly/63628
 ||readthedocs.org/api/v2/sustainability/$script,domain=pyexcel.org
-! Embedded video on engadget.com
-||delivery.vidible.tv/jsonp/$script,domain=engadget.com
-@@||delivery.vidible.tv/jsonp/$script,domain=engadget.com
+! Embedded vidible video's
+||delivery.vidible.tv/jsonp/$script
+@@||delivery.vidible.tv/jsonp/$script
 ! LinkedIn in embed
 ||platform.linkedin.com/$tag=linked-in-embeds
 @@||platform.linkedin.com/$tag=linked-in-embeds
