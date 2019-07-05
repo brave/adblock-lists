@@ -154,9 +154,15 @@
 @@||captcha.vresp.com^$domain=lawfirmkpi.com
 ! https://community.brave.com/t/ad-not-bloked-properly/63628
 ||readthedocs.org/api/v2/sustainability/$script,domain=pyexcel.org
+<<<<<<< HEAD
 ! Embedded vidible.tv video
 ||delivery.vidible.tv/jsonp/$script
 @@||delivery.vidible.tv/jsonp/$script
+=======
+! Embedded video on engadget.com
+||delivery.vidible.tv/jsonp/$script,domain=engadget.com
+@@||delivery.vidible.tv/jsonp/$script,domain=engadget.com
+>>>>>>> parent of 045fa73... Fix a few more delivery.vidible.tv embedded video sites
 ! LinkedIn in embed
 ||platform.linkedin.com/$tag=linked-in-embeds
 @@||platform.linkedin.com/$tag=linked-in-embeds
@@ -231,8 +237,6 @@
 @@||reddit.com/r/$script,domain=deora.dev
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
-! Adblock-Tracking: speedtest.com
-@@||speedtest.net/javascript/ads.js
 ! drudgereport.com (images not shown)
 ||twimg.com^$image,domain=drudgereport.com
 @@||twimg.com^$image,domain=drudgereport.com
