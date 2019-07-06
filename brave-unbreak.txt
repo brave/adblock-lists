@@ -237,9 +237,11 @@
 ||static.maxmind.com^$~third-party
 @@||blog.maxmind.com^$~third-party
 @@||static.maxmind.com^$~third-party
-! Allow reddit on https://deora.dev/corgi/
+! Allow reddit extensions to be used
 ||reddit.com/r/$script,domain=deora.dev
+||reddit.com/comments/$domain=batcommunity.org
 @@||reddit.com/r/$script,domain=deora.dev
+@@||reddit.com/comments/$domain=batcommunity.org
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! Fix twitter images 
