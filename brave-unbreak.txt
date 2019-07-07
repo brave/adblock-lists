@@ -237,6 +237,8 @@
 ||static.maxmind.com^$~third-party
 @@||blog.maxmind.com^$~third-party
 @@||static.maxmind.com^$~third-party
+! ABP Japanese blocking Aliexpress (https://github.com/k2jp/abp-japanese-filters/issues?utf8=✓&q=is%3Aissue+aliexpress)
+@@||aliexpress.com^
 ! Allow reddit on https://deora.dev/corgi/
 ||reddit.com/r/$script,domain=deora.dev
 @@||reddit.com/r/$script,domain=deora.dev
