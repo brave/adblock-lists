@@ -274,7 +274,6 @@
 ||yomiuri.co.jp/media/2019/06/190530_1000x240_B-002.jpg
 ||ismedia.jp/common/money-gendai/images/header/sponsored.png
 ||yads.yahoo.co.jp^$third-party
-||r10s.jp^$third-party
 ||addlv.smt.docomo.ne.jp^$third-party
 ||chosunonline.com/common/ifr01/$subdocument
 ||top.bcdn.jp/i/hd_banner/
