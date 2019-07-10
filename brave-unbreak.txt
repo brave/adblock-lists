@@ -156,9 +156,13 @@
 @@||captcha.vresp.com^$domain=lawfirmkpi.com
 ! https://community.brave.com/t/ad-not-bloked-properly/63628
 ||readthedocs.org/api/v2/sustainability/$script,domain=pyexcel.org
-! Embedded video on engadget.com
-||delivery.vidible.tv/jsonp/$script,domain=engadget.com
-@@||delivery.vidible.tv/jsonp/$script,domain=engadget.com
+! Embedded vidible video's
+@@||vidible.tv/prod/$xmlhttprequest,media,image
+||vidible.tv/prod/$xmlhttprequest,media,image
+@@||vidible.tv/prod/player/js/$script
+||vidible.tv/prod/player/js/$script
+||delivery.vidible.tv/jsonp/$script
+@@||delivery.vidible.tv/jsonp/$script
 ! LinkedIn in embed
 ||platform.linkedin.com/$tag=linked-in-embeds
 @@||platform.linkedin.com/$tag=linked-in-embeds
@@ -179,6 +183,8 @@
 ||washingtonpost.com/pb/api/*/adblocker-feature$xmlhttprequest,first-party
 ! Fix blankpage issue https://github.com/brave/brave-browser/issues/4049
 ||dianomi.com/cgi-bin/smartads.pl$xmlhttprequest,domain=inc.com
+! Adblock-Tracking: healthline.com
+@@||healthline.com/scripts/advertising.js
 ! Adblock-Tracking: jpost.com
 @@||bitsngo.net/widget-scripts/extra_content/ads.js$script,domain=jpost.com
 ! Adblock-Tracking: thedailybeast.com
@@ -205,6 +211,8 @@
 @@||nyt.com/ads/google/adsbygoogle.js$script,domain=nytimes.com
 ! Anti-adblock: dreamdth.com
 @@||dreamdth.com/js/wutime_adblock/ads.js$script
+! Adblock-Tracking: wired.co.uk
+@@||wired.co.uk/static/js/ads.js
 ! Anti-adblock: notebookcheck.net / notebookcheck.com
 @@||notebook-check.com/ads.min.js$script,domain=notebookcheck.net|notebookcheck.com
 @@||static.h-bid.com/prebid/$script,domain=notebookcheck.net|notebookcheck.com
@@ -237,6 +245,8 @@
 ||static.maxmind.com^$~third-party
 @@||blog.maxmind.com^$~third-party
 @@||static.maxmind.com^$~third-party
+! ABP Japanese blocking Aliexpress (https://github.com/k2jp/abp-japanese-filters/issues?utf8=✓&q=is%3Aissue+aliexpress)
+@@||aliexpress.com^$~third-party
 ! Allow reddit extensions to be used
 ||reddit.com/r/$script,domain=deora.dev
 ||reddit.com/comments/$domain=batcommunity.org
@@ -255,3 +265,52 @@
 ! Allow ads on DDG: brave-browser/issues#4533
 @@||duckduckgo.com/m.js
 @@||duckduckgo.com/share/spice/amazon/
+! Japanese specific rules below (temporarily)
+/ad/alliance_
+/loadPopIn.
+/itsads/*
+||nikkeibp.co.jp/images/n/hr/2018/banner/bnr_
+||sankei2ad.durasite.net^
+||pia.jp/uploads5/files/5415/4478/4511/ticket_bnr03_1.jpg
+||pia.jp/uploads5/files/9215/6082/1152/ticket_top_B3002501906.jpg
+||4gamer.net/img/*_jack_
+||4gamer.net/img/blackdesert_
+||asahicom.jp/ad/
+||r10s.jp/com/rat/js/rat-main.js
+||yomiuri.co.jp/media/2019/06/190530_1000x240_B-002.jpg
+||ismedia.jp/common/money-gendai/images/header/sponsored.png
+||yads.yahoo.co.jp^$third-party
+||addlv.smt.docomo.ne.jp^$third-party
+||chosunonline.com/common/ifr01/$subdocument
+||top.bcdn.jp/i/hd_banner/
+||its-mo.com^$third-party
+||estlier.net^$third-party
+||netmile.co.jp/images/bnr/sugutama_640_120.png
+||netmile.co.jp/user/images/regist-sub-bnr.png
+||potora.jp/images/banner/
+||pt.appirits.com^$third-party
+||potora.jp/myd_top/
+||yads.c.yimg.jp^$third-party
+||logly.co.jp/lift_widget.js
+||yimg.jp^*/loader.js
+||hbb.afl.rakuten.co.jp^$image
+||cvote.a-ch.net^$third-party
+||cheqzone.com^$third-party
+||contents.oricon.co.jp/pc/img/_parts/news/fig-news03.jpg
+||nikkei.com/.resources/static/nad/
+||reemo-ad.jp^$third-party
+||orca-pass.net^$third-party
+||probo.biz^$third-party
+||pitadtag.jp^$third-party
+||itmedia.co.jp/spv/images/career_en_300x250.jpg
+||itmedia.co.jp/spv/images/career_en_320x50.jpg
+||zucks.net^$third-party
+@@||vippers.jp/settings/ad.js
+@@||netmile.co.jp/ad/images/banner/$image
+@@||netmile.co.jp/features/catchpig/images/bnr_120_60.png
+@@||netmile.co.jp/features/furufuru/images/$image
+@@||samplefan.com/img/ad/$image
+@@||netmile.co.jp/features/jan/images/bnr_120_60.png
+@@||ad.pr.ameba.jp/tpc/$xmlhttprequest
+@@||amebame.com/pub/ads/$domain=ameblo.jp
+@@||stat100.ameba.jp/blogportal/img/banner/$image
