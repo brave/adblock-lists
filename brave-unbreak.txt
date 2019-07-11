@@ -254,6 +254,8 @@
 @@||reddit.com/comments/$domain=batcommunity.org
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
+! stop wp.pl ads from generating (https://github.com/brave/brave-browser/issues/4914)
+||wpcdn.pl/wpjslib/$script,third-party
 ! Fix twitter images 
 ||twimg.com^$image,domain=drudgereport.com|batcommunity.org
 @@||twimg.com^$image,domain=drudgereport.com|batcommunity.org
