@@ -189,6 +189,8 @@
 @@||bitsngo.net/widget-scripts/extra_content/ads.js$script,domain=jpost.com
 ! Adblock-Tracking: thedailybeast.com
 @@||thedailybeast.com/static/advert.js$script
+! Adblock-Tracking: vice.com
+@@||web-scripts.vice.com/ad.vice.com/$script
 ! Anti-adblock: stream2watch.ws
 @@||stream2watch.ws/js/advertisement.js$script
 ! Fix facebook logins on messenger.com https://github.com/brave/brave-browser/issues/4173
