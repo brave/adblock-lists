@@ -272,6 +272,21 @@
 ! Allow ads on DDG: brave-browser/issues#4533
 @@||duckduckgo.com/m.js
 @@||duckduckgo.com/share/spice/amazon/
+! Taboola scripts
+-taboola-article.
+-taboola-loader.
+/components/taboola/*
+/modulo/taboola/*
+/taboola-iframe/*
+/taboola.js
+/taboola/footer.
+/taboola/head.
+/taboola_header.
+/taboolaArticleFooter.
+/taboolaArticleHead.
+/taboolaBottomBody.
+/taboolaHead.
+||taboolasyndication.com^$third-party
 ! Outbrain scripts
 /cdn-cgi/pe/bag2?*odb.outbrain.com
 /outbrain-load-
