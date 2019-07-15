@@ -272,6 +272,13 @@
 ! Allow ads on DDG: brave-browser/issues#4533
 @@||duckduckgo.com/m.js
 @@||duckduckgo.com/share/spice/amazon/
+! Outbrain scripts
+/cdn-cgi/pe/bag2?*odb.outbrain.com
+/outbrain-load-
+/outbrain.js
+/outbrain/base?
+/outbrain?
+||outbrainimg.com^$third-party
 ! Japanese specific rules below (temporarily)
 /ad/alliance_
 /loadPopIn.
