@@ -257,6 +257,9 @@
 ||reddit.com/comments/$domain=batcommunity.org
 @@||reddit.com/r/$script,domain=deora.dev
 @@||reddit.com/comments/$domain=batcommunity.org
+! ssrn.com login fix
+||assets.adobedtm.com^$script,domain=ssrn.com
+@@||assets.adobedtm.com^$script,domain=ssrn.com
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! stop wp.pl ads from generating (https://github.com/brave/brave-browser/issues/4914)
