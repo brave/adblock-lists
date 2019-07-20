@@ -188,7 +188,7 @@
 ! Adblock-Tracking: jpost.com
 @@||bitsngo.net/widget-scripts/extra_content/ads.js$script,domain=jpost.com
 ! Adblock-Tracking:  mediaite.com
-@@||mediaite.com/adbaitplus/adsbygoogle.js$script,~third-party
+@@||mediaite.com/adbaitplus/adsbygoogle.js$script,domain=mediaite.com
 ! Adblock-Tracking: thedailybeast.com
 @@||thedailybeast.com/static/advert.js$script
 ! Adblock-Tracking: vice.com
