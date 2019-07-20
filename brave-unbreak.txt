@@ -217,6 +217,9 @@
 @@||dreamdth.com/js/wutime_adblock/ads.js$script
 ! Adblock-Tracking: wired.co.uk
 @@||wired.co.uk/static/js/ads.js
+! Anti-adblock: 9anime
+@@||9anime.vip/assets/js/ads.js$script,domain=9anime.vip
+@@||animecdn.xyz/js/ads.js$script,domain=9animes.ru
 ! Anti-adblock: notebookcheck.net / notebookcheck.com
 @@||notebook-check.com/ads.min.js$script,domain=notebookcheck.net|notebookcheck.com
 @@||static.h-bid.com/prebid/$script,domain=notebookcheck.net|notebookcheck.com
