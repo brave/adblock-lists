@@ -216,8 +216,8 @@
 ! Anti-adblock: mediaite.com
 @@||mediaite.com/adbait/adsbygoogle.js
 ! rambler.ru css issues (https://community.brave.com/t/broken-formatting-on-specific-websites-when-using-brave-or-firefox/68023)
-||rambler.ru^$stylesheet,domain=lenta.ru
-@@||rambler.ru^$stylesheet,domain=lenta.ru
+||rambler.ru^$stylesheet,xmlhttprequest,domain=lenta.ru
+@@||rambler.ru^$stylesheet,xmlhttprequest,domain=lenta.ru
 ! Adblock-Tracking: nytimes.com
 @@||nyt.com/ads/google/adsbygoogle.js$script,domain=nytimes.com
 ! Anti-adblock: dreamdth.com
