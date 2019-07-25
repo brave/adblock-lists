@@ -208,6 +208,8 @@
 @@||wallpapershome.com/scripts/ads.js$script
 ! Anti-adblock: haaretz.com
 @@||haaretz.com/htz/js/advertisement.js
+! animeflv.com
+@@||animeflv.com/js/adsbygoogle.js$script,domain=animeflv.com
 ! Fix Playback on http://v6.player.abacast.net/6508 (https://community.brave.com/t/problem-loading-http-v6-player-abacast-net-6508/71822)
 ||imasdk.googleapis.com/js/core/$subdocument,domain=player.abacast.net
 @@||imasdk.googleapis.com/js/core/$subdocument,domain=player.abacast.net
