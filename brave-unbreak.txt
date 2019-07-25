@@ -208,7 +208,7 @@
 @@||wallpapershome.com/scripts/ads.js$script
 ! Anti-adblock: haaretz.com
 @@||haaretz.com/htz/js/advertisement.js
-! animeflv
+! Adblock-Tracking: animeflv.net/animeflv.com
 @@||animeflv.net/js/adsbygoogle.js$script,domain=animeflv.net
 @@||animeflv.com/js/adsbygoogle.js$script,domain=animeflv.com
 ! Fix Playback on http://v6.player.abacast.net/6508 (https://community.brave.com/t/problem-loading-http-v6-player-abacast-net-6508/71822)
