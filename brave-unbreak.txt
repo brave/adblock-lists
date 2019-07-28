@@ -233,7 +233,7 @@
 @@||9anime.vip/assets/js/ads.js$script,domain=9anime.vip
 @@||animecdn.xyz/js/ads.js$script,domain=9animes.ru
 ! Adblock-Tracking: softonic.com
-@@||sftcdn.net/statics/ads.min.js$script,domain=softonic.com
+@@||sftcdn.net/statics/ads.min.js$xmlhttprequest,domain=softonic.com
 ! Anti-adblock: thehindu.com
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! Anti-adblock: notebookcheck.net / notebookcheck.com
