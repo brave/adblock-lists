@@ -280,6 +280,13 @@
 ||reddit.com/comments/$domain=batcommunity.org
 @@||reddit.com/r/$script,domain=deora.dev
 @@||reddit.com/comments/$domain=batcommunity.org
+! Adblock-Tracking: idg sites 
+@@||networkworld.com/www/js/ads/ads.js$script,domain=networkworld.com
+@@||cio.com/www/js/ads/ads.js$script,domain=cio.com
+@@||csoonline.com/www/js/ads/ads.js$script,domain=csoonline.com
+@@||infoworld.com/www/js/ads/ads.js$script,domain=infoworld.com
+@@||itwhitepapers.com/www/js/ads/ads.js$script,domain=itwhitepapers.com
+@@||javaworld.com/www/js/ads/ads.js$script,domain=javaworld.com
 ! ssrn.com login fix
 ||assets.adobedtm.com^$script,domain=ssrn.com
 @@||assets.adobedtm.com^$script,domain=ssrn.com
