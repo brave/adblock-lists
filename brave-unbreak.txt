@@ -296,8 +296,9 @@
 @@||assets.adobedtm.com^$script,domain=ssrn.com
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
-! stop wp.pl ads from generating (https://github.com/brave/brave-browser/issues/4914)
-||wpcdn.pl/wpjslib/$script,third-party
+! wp.pl / dobreprogramy.pl (https://github.com/brave/brave-browser/issues/5456)
+||wp.pl/mtgx$script,domain=dobreprogramy.pl
+@@||wp.pl/mtgx$script,domain=dobreprogramy.pl
 ! gifycat.com ads (https://community.brave.com/t/pages-loads-3rd-party-ads-after-page-loads/71472/10)
 ||ga.gfycat.com^$script,domain=gfycat.com
 ! Fix twitter images 
