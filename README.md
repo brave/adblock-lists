@@ -9,3 +9,8 @@ Combined with all lists, including regional.
 ## coin-miners.txt
 
 Tracks URLs that do coin mining.
+
+## brave-disconnect.txt
+
+Rules from the [Mozilla's version of the Disconnect lists](https://github.com/mozilla-services/shavar-prod-lists/)
+converted to AdBlock Plus syntax.
