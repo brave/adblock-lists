@@ -242,6 +242,7 @@
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! Anti-adblock: notebookcheck.net / notebookcheck.com
 @@||notebook-check.com/ads.min.js$script,domain=notebookcheck.net|notebookcheck.com
+@@||notebookcheck-ru.com/ads.min.js$script,domain=notebookcheck.net|notebookcheck.com
 @@||static.h-bid.com/prebid/$script,domain=notebookcheck.net|notebookcheck.com
 @@||static.h-bid.com/notebookcheck.net/$script,domain=notebookcheck.net|notebookcheck.com
 ! spiegel.de (https://github.com/brave/brave-browser/issues/4201)
