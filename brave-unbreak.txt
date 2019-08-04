@@ -268,6 +268,11 @@
 ! redditcommentsearch.com (https://community.brave.com/t/redditcommentsearch-doesnt-work-with-shields-on/66496)
 ||pay.reddit.com/user/$script,domain=redditcommentsearch.com
 @@||pay.reddit.com/user/$script,domain=redditcommentsearch.com
+! mailchi.mp form fix (https://github.com/brave/brave-browser/issues/5522)
+||list-manage.com/signup-form/subscribe?$domain=mailchi.mp
+@@||list-manage.com/signup-form/subscribe?$domain=mailchi.mp
+||list-manage.com/signup-form/settings?$domain=mailchi.mp
+@@||list-manage.com/signup-form/settings?$domain=mailchi.mp
 ! ebay.co.uk + ebay.com and other ebay regions (https://github.com/brave/brave-browser/issues/5019)
 ||ebay.com/experience/listing_auto_complete/$xmlhttprequest
 @@||ebay.com/experience/listing_auto_complete/$xmlhttprequest
