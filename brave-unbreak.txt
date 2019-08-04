@@ -298,6 +298,8 @@
 @@||infoworld.com/www/js/ads/ads.js$script,domain=infoworld.com
 @@||itwhitepapers.com/www/js/ads/ads.js$script,domain=itwhitepapers.com
 @@||javaworld.com/www/js/ads/ads.js$script,domain=javaworld.com
+! adziff ad tracking
+@@||adziff.com/ab/ads.js$xmlhttprequest,domain=pcmag.com|geek.com|extremetech.com
 ! ssrn.com login fix
 ||assets.adobedtm.com^$script,domain=ssrn.com
 @@||assets.adobedtm.com^$script,domain=ssrn.com
