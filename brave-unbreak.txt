@@ -273,7 +273,7 @@
 ||ebay.com/ws/$xmlhttprequest
 @@||ebay.com/ws/$xmlhttprequest
 ! Anti-adblock ign.com
-||g01.ign.com^$script
+||g01.ign.com^$script,domain=ign.com
 ! fix first-party items on maxmind.com (https://community.brave.com/t/stop-blocking-the-website-for-maxmind-com/68326)
 ||blog.maxmind.com^$~third-party
 ||static.maxmind.com^$~third-party
