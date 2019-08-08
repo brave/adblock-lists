@@ -269,7 +269,7 @@
 ||pay.reddit.com/user/$script,domain=redditcommentsearch.com
 @@||pay.reddit.com/user/$script,domain=redditcommentsearch.com
 ! Adblock-Tracking: vg247.com
-@@||vg247.com/wp-content/themes/vg247/scripts/AdsLoad.js
+@@||vg247.com/wp-content/themes/vg247/scripts/AdsLoad.js$script,domain=vg247.com
 ! mailchi.mp form fix (https://github.com/brave/brave-browser/issues/5522)
 ||list-manage.com/signup-form/subscribe?$domain=mailchi.mp
 @@||list-manage.com/signup-form/subscribe?$domain=mailchi.mp
