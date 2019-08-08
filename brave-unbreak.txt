@@ -229,6 +229,8 @@
 @@||nyt.com/ads/google/adsbygoogle.js$script,domain=nytimes.com
 ! Anti-adblock: dreamdth.com
 @@||dreamdth.com/js/wutime_adblock/ads.js$script
+! Anti-adblock: transparentcalifornia.com
+@@||transparentcalifornia.com/static/js/ads.js$script,domain=transparentcalifornia.com
 ! Adblock-Tracking: dslreports.com
 @@||dslr.net/css/ads.js$script,domain=dslreports.com
 ! Adblock-Tracking: wired.co.uk
