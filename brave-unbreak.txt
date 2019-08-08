@@ -244,6 +244,8 @@
 @@||sftcdn.net/statics/ads.min.js$xmlhttprequest,domain=softonic.com
 ! Anti-adblock: thehindu.com
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
+! Anti-adblock: brainyquote.com
+@@||brainyquote.com/st/js/3425190/displayad.js$script,domain=brainyquote.com
 ! Anti-adblock: notebookcheck.net / notebookcheck.com
 @@||notebook-check.com/ads.min.js$script,domain=notebookcheck.net|notebookcheck.com
 @@||static.h-bid.com/prebid/$script,domain=notebookcheck.net|notebookcheck.com
