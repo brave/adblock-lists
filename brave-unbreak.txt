@@ -235,6 +235,8 @@
 @@||dslr.net/css/ads.js$script,domain=dslreports.com
 ! Adblock-Tracking: wired.co.uk
 @@||wired.co.uk/static/js/ads.js
+! ip-approval bug
+||ip-approval.com^$third-party,domain=mufon.com
 ! Anti-adblock: 9anime
 @@||9anime.vip/assets/js/ads.js$script,domain=9anime.vip
 @@||animecdn.xyz/js/ads.js$script,domain=9animes.ru
