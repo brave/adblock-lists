@@ -187,6 +187,8 @@
 ||washingtonpost.com/pb/api/*/adblocker-feature$xmlhttprequest,first-party
 ! Fix blankpage issue https://github.com/brave/brave-browser/issues/4049
 ||dianomi.com/cgi-bin/smartads.pl$xmlhttprequest,domain=inc.com
+! Anti-adblock: newsmax.com
+@@||newsmax.com/js/ads.adblock.js$script,domain=newsmax.com
 ! Adblock-Tracking: healthline.com
 @@||healthline.com/scripts/advertising.js
 ! Adblock-Tracking: jpost.com
