@@ -203,6 +203,9 @@
 ||mdn.neowin.net^$domain=neowin.net
 ! Anti-adblock: stream2watch.ws
 @@||stream2watch.ws/js/advertisement.js$script
+! Adblock-Tracking: sourceforge.net / slashdot.org 
+@@||fsdn.com/con/js/adframe.js$script,domain=sourceforge.net
+@@||fsdn.com/sd/js/scripts/ad.js$script,domain=slashdot.org
 ! Fix facebook logins on messenger.com https://github.com/brave/brave-browser/issues/4173
 ||facebook.com/login/$domain=messenger.com
 ||connect.facebook.net^$domain=messenger.com
