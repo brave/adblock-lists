@@ -273,6 +273,8 @@
 @@||fncstatic.com/static/isa/app/lib/VisitorAPI.js$script,domain=foxbusiness.com|foxnews.com
 ! Adblock-Tracking: ieee.org
 @@||ieee.org/assets/dist/js/ads.js$script,domain=ieee.org
+! Adblock-Tracking: motherjones.com
+@@||motherjones.com/wp-content/themes/motherjones/js/ads.min.js$script,domain=motherjones.com
 ! Adblock-Tracking: foxnews.com / foxbusiness.com
 @@||fncstatic.com/static/v/all/js/ads.js$script,domain=foxbusiness.com|foxnews.com
 ! redditcommentsearch.com (https://community.brave.com/t/redditcommentsearch-doesnt-work-with-shields-on/66496)
