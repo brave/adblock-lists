@@ -357,6 +357,8 @@
 /outbrain/base?
 /outbrain?
 ||outbrainimg.com^$third-party
+! Chinese specific rules
+||asset.bixjf.com/2019/tv/*.jpg|$image,domain=imkan.tv
 ! Japanese specific rules below (temporarily)
 /ad/alliance_
 /loadPopIn.
