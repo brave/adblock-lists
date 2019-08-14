@@ -287,6 +287,8 @@
 @@||list-manage.com/signup-form/subscribe?$domain=mailchi.mp
 ||list-manage.com/signup-form/settings?$domain=mailchi.mp
 @@||list-manage.com/signup-form/settings?$domain=mailchi.mp
+! Adblock-Tracking: salon.com
+@@||salon.com/design/assets/ads.js$script,domain=salon.com
 ! ebay.co.uk + ebay.com and other ebay regions (https://github.com/brave/brave-browser/issues/5019)
 ||ebay.com/experience/listing_auto_complete/$xmlhttprequest
 @@||ebay.com/experience/listing_auto_complete/$xmlhttprequest
