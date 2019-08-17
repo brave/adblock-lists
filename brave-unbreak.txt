@@ -339,6 +339,9 @@
 ! wp.pl / dobreprogramy.pl (https://github.com/brave/brave-browser/issues/5456)
 ||wp.pl/mtgx$script,domain=dobreprogramy.pl
 @@||wp.pl/mtgx$script,domain=dobreprogramy.pl
+! wp.pl stylesheet issues on https://prawo.money.pl/
+||wp.pl^$stylesheet,third-party
+@@||wp.pl^$stylesheet,third-party
 ! gifycat.com ads (https://community.brave.com/t/pages-loads-3rd-party-ads-after-page-loads/71472/10)
 ||ga.gfycat.com^$script,domain=gfycat.com
 ! Fix twitter images 
