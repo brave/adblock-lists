@@ -337,6 +337,8 @@
 @@||techworld.com/scripts/ads.js$script,domain=techworld.com
 ! adziff ad tracking
 @@||adziff.com/ab/ads.js$xmlhttprequest,domain=pcmag.com|geek.com|extremetech.com
+! Anti-adblock: geoguessr.com
+@@||geoguessr.com/_ads/$script,xmlhttprequest,domain=geoguessr.com
 ! ssrn.com login fix
 ||assets.adobedtm.com^$script,domain=ssrn.com
 @@||assets.adobedtm.com^$script,domain=ssrn.com
