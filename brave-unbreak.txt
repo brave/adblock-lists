@@ -191,8 +191,8 @@
 ! Fix blankpage issue https://github.com/brave/brave-browser/issues/4049
 ||dianomi.com/cgi-bin/smartads.pl$xmlhttprequest,domain=inc.com
 ! Fix onesignal.com example push notifications
-||www.googletagmanager.com/gtm.js$script,domain=onesignal.com
-@@||www.googletagmanager.com/gtm.js$script,domain=onesignal.com
+||googletagmanager.com/gtm.js$script,domain=onesignal.com
+@@||googletagmanager.com/gtm.js$script,domain=onesignal.com
 ! Anti-adblock: newsmax.com
 @@||newsmax.com/js/ads.adblock.js$script,domain=newsmax.com
 ! Adblock-Tracking: healthline.com
