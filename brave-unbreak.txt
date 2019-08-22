@@ -195,6 +195,8 @@
 @@||googletagmanager.com/gtm.js$script,domain=onesignal.com
 ! Anti-adblock: newsmax.com
 @@||newsmax.com/js/ads.adblock.js$script,domain=newsmax.com
+! Anti-adblock: thehindu.com
+@@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! Adblock-Tracking: healthline.com
 @@||healthline.com/scripts/advertising.js
 ! Adblock-Tracking: jpost.com
