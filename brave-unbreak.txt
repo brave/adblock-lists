@@ -246,6 +246,8 @@
 @@||dreamdth.com/js/wutime_adblock/ads.js$script
 ! Anti-adblock: transparentcalifornia.com
 @@||transparentcalifornia.com/static/js/ads.js$script,domain=transparentcalifornia.com
+! Broken search on https://www.capitalone.com/search
+@@||nexus.ensighten.com/capitalone/Bootstrap.js$script,domain=capitalone.com
 ! Adblock-Tracking: dslreports.com
 @@||dslr.net/css/ads.js$script,domain=dslreports.com
 ! Adblock-Tracking: wired.co.uk
