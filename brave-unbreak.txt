@@ -87,7 +87,7 @@
 ||reddit.com^*/.json?$script,third-party
 @@||reddit.com^*/.json?$script,third-party
 ! Adblock Tracking
-@@||redditstatic.com/desktop2x/js/ads.js$script,domain=reddit.com
+@@/^https?:\/\/www.redditstatic.com\/[a-z0-9]{4,}\/.*\/ads.js/$script,domain=reddit.com
 ! Allow twitter.com readahead (using the twitter api)
 ||twitter.com/i/search/typeahead.json$$third-party
 @@||twitter.com/i/search/typeahead.json$third-party
