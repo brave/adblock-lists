@@ -193,6 +193,9 @@
 ! Fix onesignal.com example push notifications
 ||googletagmanager.com/gtm.js$script,domain=onesignal.com
 @@||googletagmanager.com/gtm.js$script,domain=onesignal.com
+! Fix for https://www.home.neustar/ (blank page)
+||neustar.biz^$domain=home.neustar
+@@||neustar.biz^$domain=home.neustar
 ! Anti-adblock: newsmax.com
 @@||newsmax.com/js/ads.adblock.js$script,domain=newsmax.com
 ! Anti-adblock: thehindu.com
