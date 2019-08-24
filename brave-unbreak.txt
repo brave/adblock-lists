@@ -208,6 +208,9 @@
 @@||explosm.net/js/adsense.js$script,domain=explosm.net
 ! Adblock-Tracking:  mediaite.com
 @@||mediaite.com/adbaitplus/adsbygoogle.js$script,domain=mediaite.com
+! Broken video playback on tn.com.ar (https://community.brave.com/t/the-blocker-does-not-allow-you-to-watch-the-video/76691)
+||googletagmanager.com/gtm.js$script,domain=tn.com.ar
+@@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 ! Adblock-Tracking: thedailybeast.com
 @@||thedailybeast.com/static/advert.js$script
 ! Adblock-Tracking: vice.com
