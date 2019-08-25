@@ -373,6 +373,10 @@
 @@||wp.pl^$stylesheet,third-party
 ! gifycat.com ads (https://community.brave.com/t/pages-loads-3rd-party-ads-after-page-loads/71472/10)
 ||ga.gfycat.com^$script,domain=gfycat.com
+! Anti-adblock tracking: nfl.com
+@@||nflcdn.com^*/ad.js$script,domain=nfl.com
+! Fix nfl.com video playback
+@@||googletagservices.com/tag/js/gpt.js$script,domain=nfl.com
 ! Fix twitter images 
 ||twimg.com^$image,domain=drudgereport.com|batcommunity.org
 @@||twimg.com^$image,domain=drudgereport.com|batcommunity.org
