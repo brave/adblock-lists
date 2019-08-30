@@ -383,8 +383,10 @@
 @@||computerbase.de/js/ads.$script,xmlhttprequest,domain=computerbase.de
 ! Adblock-Tracking: (News corp AU sites)
 @@||tags.news.com.au/prod/adblock/adblock.js$script,domain=cairnspost.com.au|ntnews.com.au|goldcoastbulletin.com.au|townsvillebulletin.com.au|themercury.com.au|news.com.au|taste.com.au|heraldsun.com.au|dailytelegraph.com.au|adelaidenow.com.au|bodyandsoul.com.au|bestrecipes.com.au|whimn.com.au|vogue.com.au|delicious.com.au|escape.com.au|weeklytimesnow.com.au|geelongadvertiser.com.au
-! Adblock-Tracking: ocregister.com
+! Adblock-Tracking: MediaNews Group
 @@||ocregister.com/wp-content/themes/wp-mason/static/js/ads.js$script,domain=ocregister.com
+@@||bostonherald.com/wp-content/themes/wp-mason/static/js/ads.js$script,domain=bostonherald.com
+@@||denverpost.com/wp-content/themes/wp-mason/static/js/ads.js$script,domain=bostonherald.com
 ! Fix nfl.com video playback
 @@||googletagservices.com/tag/js/gpt.js$script,domain=nfl.com
 ! Fix twitter images 
