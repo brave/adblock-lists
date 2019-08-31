@@ -277,7 +277,7 @@
 ! Anti-adblock: brainyquote.com
 @@||brainyquote.com/st/js/3425190/displayad.js$script,domain=brainyquote.com
 ! Anti-adblock: notebookcheck.net / notebookcheck.com
-@@||notebook-check.com/ads.min.js$script,domain=notebookcheck.net|notebookcheck.com
+@@||notebookcheck-ru.com/ads.js$script,domain=notebookcheck.net|notebookcheck.com
 @@||static.h-bid.com/prebid/$script,domain=notebookcheck.net|notebookcheck.com
 @@||static.h-bid.com/notebookcheck.net/$script,domain=notebookcheck.net|notebookcheck.com
 ! spiegel.de (https://github.com/brave/brave-browser/issues/4201)
