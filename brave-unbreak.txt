@@ -322,6 +322,8 @@
 ! api.ebay.com (https://community.brave.com/t/referral-not-getting-download-and-comfirmed/75898)
 ||api.ebay.com^$xmlhttprequest,subdocument
 @@||api.ebay.com^$xmlhttprequest,subdocument
+! Adblock Tracking: thetimes.co.uk
+@@||thetimes.co.uk/d/js/ads-$script,domain=thetimes.co.uk
 ! Anti-adblock ign.com
 ||g01.ign.com^$script,domain=ign.com
 ! fix first-party items on maxmind.com (https://community.brave.com/t/stop-blocking-the-website-for-maxmind-com/68326)
