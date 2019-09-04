@@ -164,7 +164,6 @@
 ! Fix onesignal.com example push notifications
 @@||googletagmanager.com/gtm.js$script,domain=onesignal.com
 ! Fix for https://www.home.neustar/ (blank page)
-||neustar.biz^$domain=home.neustar
 @@||neustar.biz^$domain=home.neustar
 ! Anti-adblock: newsmax.com
 @@||newsmax.com/js/ads.adblock.js$script,domain=newsmax.com
@@ -344,7 +343,6 @@
 ! Fix abcnews.go.com video playback
 @@||akamaihd.net/player/2.106.5/akamai/amp/chartbeatanalytics/Chartbeatanalytics.min.js$domain=abcnews.go.com
 ! Fix blank page on flipp.com
-||wishabi.net^$image,domain=flipp.com
 @@||wishabi.net^$image,domain=flipp.com
 ! Allow ads on DDG: brave-browser/issues#4533
 @@||duckduckgo.com/m.js
