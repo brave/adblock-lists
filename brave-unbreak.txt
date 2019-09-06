@@ -240,11 +240,6 @@
 @@||notebookcheck-ru.com/ads.js$script,domain=notebookcheck.net|notebookcheck.com
 @@||static.h-bid.com/prebid/$script,domain=notebookcheck.net|notebookcheck.com
 @@||static.h-bid.com/notebookcheck.net/$script,domain=notebookcheck.net|notebookcheck.com
-! spiegel.de (https://github.com/brave/brave-browser/issues/4201)
-@@||doubleclick.net/ddm/$image,domain=spiegel.de
-@@||googletagservices.com/tag/js/gpt.js$script,domain=spiegel.de
-@@||mxcdn.net/bb-mx/$script,domain=spiegel.de
-@@||imagesrv.adition.com/banners/$image,domain=spiegel.de
 ! Video playback on maxpreps.com (script source on cbssports.com)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=cbssports.com
 ! Fix foxnews video playback
