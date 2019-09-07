@@ -213,6 +213,8 @@
 @@||rambler.ru^$stylesheet,xmlhttprequest,domain=lenta.ru
 ! Adblock-Tracking: nytimes.com
 @@||nyt.com/ads/google/adsbygoogle.js$script,domain=nytimes.com
+! Fix content on asus.com (https://community.brave.com/t/asus-japan-store-images-will-not-load-default-shields/81228 )
+@@||digitalriver.com^$domain=asus.com
 ! Anti-adblock: dreamdth.com
 @@||dreamdth.com/js/wutime_adblock/ads.js$script
 ! Anti-adblock: transparentcalifornia.com
