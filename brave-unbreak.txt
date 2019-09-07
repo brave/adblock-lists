@@ -213,6 +213,10 @@
 @@||rambler.ru^$stylesheet,xmlhttprequest,domain=lenta.ru
 ! Adblock-Tracking: nytimes.com
 @@||nyt.com/ads/google/adsbygoogle.js$script,domain=nytimes.com
+! Fix digitalriver.com content on various shoping sites.
+@@||api.digitalriver.com^$script,third-party
+@@||img.digitalriver.com/store?$script,image,stylesheet,third-party
+@@||img.digitalriver.com/DRHM/$script,image,stylesheet,third-party
 ! Anti-adblock: dreamdth.com
 @@||dreamdth.com/js/wutime_adblock/ads.js$script
 ! Anti-adblock: transparentcalifornia.com
