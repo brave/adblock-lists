@@ -269,6 +269,8 @@
 @@||indiatoday.in/sites/all/modules/custom/itg_ads_blocker/js/ads.js$script,domain=indiatoday.in
 ! Adblock-Tracking: salon.com
 @@||salon.com/design/assets/ads.js$script,domain=salon.com
+! Adblock-Tracking: infowars.com
+@@||infowars.com/ads.js$script,domain=infowars.com
 ! ebay.co.uk + ebay.com and other ebay regions (https://github.com/brave/brave-browser/issues/5019)
 @@||ebay.com/experience/listing_auto_complete/$xmlhttprequest
 ! ebay image upload issue (https://github.com/brave/brave-browser/issues/5190)
