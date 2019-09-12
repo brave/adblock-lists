@@ -230,8 +230,6 @@
 ! Anti-adblock: 9anime
 @@||9anime.vip/assets/js/ads.js$script,domain=9anime.vip
 @@||animecdn.xyz/js/ads.js$script,domain=9animes.ru
-! Coin-miner Whitelist (Fixes https://superpowered.com/js-wasm-sdk/example_timestretching/)
-@@||superpowered.com^*/processor.js$script,domain=superpowered.com
 ! Anti-adblock: securenetsystems.net
 @@||securenetsystems.net/v5/scripts/ads/prebid.js$script,domain=securenetsystems.net
 ! Adblock-Tracking: softonic.com

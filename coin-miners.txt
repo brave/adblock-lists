@@ -222,7 +222,6 @@
 /nano.wasm
 /noblock.js
 /obfus.min.js
-/processor.js
 /projectpoi.min.js
 /safelinkconverter.js
 /streambeam-jw.js
