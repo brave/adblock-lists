@@ -339,6 +339,8 @@
 @@||twimg.com^$image,domain=drudgereport.com|batcommunity.org
 ! Anti-adblock tracking Prometheus Global Media
 @@||pgmcdn.com/advertisement.js$script,domain=billboard.com|hollywoodreporter.com|vibe.com
+! Adblock tradcking: defenseone.com
+@@||defenseone.com/b/js/adframe.js$script,domain=defenseone.com
 ! Anti-adblock: washingtonpost.com
 @@||pubads.g.doubleclick.net^$xmlhttprequest,domain=washingtonpost.com
 ! Fix abcnews.go.com video playback
