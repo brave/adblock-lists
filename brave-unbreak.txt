@@ -308,6 +308,8 @@
 @@||digitalartsonline.co.uk/scripts/ads.js$script,domain=digitalartsonline.co.uk
 @@||cio.co.uk/scripts/ads.js$script,domain=cio.co.uk
 @@||techworld.com/scripts/ads.js$script,domain=techworld.com
+! Adblock-Tracking: hanime.tv
+@@||hanime.tv/exoclick.ads.$script,domain=hanime.tv
 ! Adblock-Tracking: esportsheaven.com
 @@||esportsheaven.com/wp-content/themes/esportsheaven/js/advertisement.js$script,domain=esportsheaven.com
 ! adziff ad tracking
