@@ -326,6 +326,8 @@
 ||ga.gfycat.com^$script,domain=gfycat.com
 ! Anti-adblock tracking: nfl.com
 @@||nflcdn.com^*/ad.js$script,domain=nfl.com
+! Adblock-Tracking: cbc.ca
+@@||cbc.ca/g/stats/js/ads.js
 ! Adblock-Tracking: computerbase.de
 @@||computerbase.de/js/ads.$script,xmlhttprequest,domain=computerbase.de
 ! Adblock-Tracking: (News corp AU sites)
