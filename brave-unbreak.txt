@@ -151,6 +151,8 @@
 @@||theintercept.com/ads.js$script,domain=theintercept.com
 ! Adblock-Tracking: imgbox.com
 @@||imgbox.com/site_ads.js$script,domain=imgbox.com
+! thothub.tv (NSFW)
+@@||awemwh.com^$media,domain=thothub.tv
 ! Adblock-Tracking: cbs sites
 @@||cbsistatic.com^*/advertisement*.js$script,domain=zdnet.com|techrepublic.com
 ! Fix https://github.com/brave/brave-browser/issues/4507 (mirrors uBO fix, rewritten so that brave/ad-block supports)
