@@ -213,6 +213,7 @@
 @@||rambler.ru^$stylesheet,xmlhttprequest,domain=lenta.ru
 ! rambler.ru issues on gazeta.ru
 @@||myqualification.rambler.ru^$domain=gazeta.ru
+@@||rambler.ru/api/$xmlhttprequest,domain=gazeta.ru
 @@||subscriptions.rambler.ru^$subdocument,domain=gazeta.ru
 @@||rambler.ru/widget.js$script,domain=gazeta.ru
 ! Adblock-Tracking: gazeta.ru
