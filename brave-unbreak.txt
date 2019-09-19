@@ -283,7 +283,7 @@
 ! Anti-adblock: xiaomitoday.com
 @@||xiaomitoday.com/wp-content/themes/jannah/assets/js/advertisement.js$script,domain=xiaomitoday.com
 ! Anti-adblock ign.com
-||bwtjhnrr.g02.ign.com^$script,domain=ign.com
+||b8n5kh.g02.ign.com^$script,xmlhttprequest,domain=ign.com
 ! fix first-party items on maxmind.com (https://community.brave.com/t/stop-blocking-the-website-for-maxmind-com/68326)
 @@||blog.maxmind.com^$~third-party
 @@||static.maxmind.com^$~third-party
