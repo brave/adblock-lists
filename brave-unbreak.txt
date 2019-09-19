@@ -211,6 +211,12 @@
 @@||mediaite.com/adbait/adsbygoogle.js
 ! rambler.ru css issues (https://community.brave.com/t/broken-formatting-on-specific-websites-when-using-brave-or-firefox/68023)
 @@||rambler.ru^$stylesheet,xmlhttprequest,domain=lenta.ru
+! rambler.ru issues on gazeta.ru
+@@||myqualification.rambler.ru^$domain=gazeta.ru
+@@||subscriptions.rambler.ru^$subdocument,domain=gazeta.ru
+@@||rambler.ru/widget.js$script,domain=gazeta.ru
+! Adblock-Tracking: gazeta.ru
+@@||gazeta.ru^*/advertising.js$script,domain=gazeta.ru
 ! Adblock-Tracking: nytimes.com
 @@||nyt.com/ads/google/adsbygoogle.js$script,domain=nytimes.com
 ! Fix digitalriver.com content on various shoping sites.
