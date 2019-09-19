@@ -357,6 +357,7 @@
 ! Adblock tradcking: defenseone.com
 @@||defenseone.com/b/js/adframe.js$script,domain=defenseone.com
 ! Anti-adblock: washingtonpost.com
+@@||d2ty8gaf6rmowa.cloudfront.net/ad/$domain=washingtonpost.com
 @@||pubads.g.doubleclick.net^$xmlhttprequest,domain=washingtonpost.com
 ! Fix abcnews.go.com video playback
 @@||akamaihd.net/player/2.106.5/akamai/amp/chartbeatanalytics/Chartbeatanalytics.min.js$domain=abcnews.go.com
