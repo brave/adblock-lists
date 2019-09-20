@@ -271,6 +271,8 @@
 ! mailchi.mp form fix (https://github.com/brave/brave-browser/issues/5522)
 @@||list-manage.com/signup-form/subscribe?$domain=mailchi.mp
 @@||list-manage.com/signup-form/settings?$domain=mailchi.mp
+! Allow sites to use signup forms from list-manage
+@@||list-manage.com/subscribe/$script,third-party
 ! Adblock-Tracking:indiatoday.in
 @@||indiatoday.in/sites/all/modules/custom/itg_ads_blocker/js/ads.js$script,domain=indiatoday.in
 ! Adblock-Tracking: salon.com
