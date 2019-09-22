@@ -167,6 +167,8 @@
 @@||neustar.biz^$domain=home.neustar
 ! Anti-adblock: newsmax.com
 @@||newsmax.com/js/ads.adblock.js$script,domain=newsmax.com
+! Adblock-Tracking: imgur.com
+@@||imgur.com/min/advertising.js$script,domain=imgur.com
 ! Anti-adblock: thehindu.com
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! Adblock-Tracking: healthline.com
