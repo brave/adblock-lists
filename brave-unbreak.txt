@@ -203,6 +203,8 @@
 @@||wallpapershome.com/scripts/ads.js$script
 ! Anti-adblock: haaretz.com
 @@||haaretz.com/htz/js/advertisement.js
+! Anti-adblock: space.com (Cosmetic)
+||ttauri.space.com^$script,domain=space.com
 ! Anti-adblock: theverge.com (vox sites)
 @@||vox-cdn.com/packs/concert_ads-$script,domain=theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com
 ! Adblock-Tracking: animeflv.net/animeflv.com
