@@ -75,6 +75,8 @@
 ! content blocking
 ||seattletimes.com/wp-content/plugins/st-user-messaging^$script
 ||theatlantic.com/packages/adsjs^$script
+! Temp filter, uBO is overriding the whitelist, which Brave is blocking by default until we implement redirect
+||npttech.com/advertising.js$important,script,redirect=fuckadblock.js-3.2.0,badfilter
 ! tracking
 ||optimizely.com^$third-party
 ! crypto ad network
