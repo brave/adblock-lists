@@ -194,7 +194,7 @@
 ! Anti-adblock: neowin.net
 ||mdn.neowin.net^$domain=neowin.net
 ! Anti-adblock: stream2watch.ws
-@@||stream2watch.ws/js/advertisement.js$script
+@@||tellerium.com/showads.js$script,domain=telerium.tv
 ! Adblock-Tracking: sourceforge.net / slashdot.org 
 @@||fsdn.com/con/js/adframe.js$script,domain=sourceforge.net
 @@||fsdn.com/sd/js/scripts/ad.js$script,domain=slashdot.org
