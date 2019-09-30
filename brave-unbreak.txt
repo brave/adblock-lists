@@ -203,6 +203,9 @@
 @@||wallpapershome.com/scripts/ads.js$script
 ! Anti-adblock: haaretz.com
 @@||haaretz.com/htz/js/advertisement.js
+! Anti-adblock: Future INC websites (Cosmetic)
+||ttauri.space.com^$script,domain=space.com
+||ttauri.tomsguide.com^$script,domain=tomsguide.com
 ! Anti-adblock: theverge.com (vox sites)
 @@||vox-cdn.com/packs/concert_ads-$script,domain=theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com
 ! Adblock-Tracking: animeflv.net/animeflv.com
