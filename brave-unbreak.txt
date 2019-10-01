@@ -310,6 +310,8 @@
 @@||geoip-js.maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net
 ! ABP Japanese blocking Aliexpress (https://github.com/k2jp/abp-japanese-filters/issues?utf8=✓&q=is%3Aissue+aliexpress)
 @@||aliexpress.com^$~third-party
+! Anti-adblock: nbc.com
+@@||nbc.com/generetic/scripts/ads.js$script,domain=nbc.com
 ! Anti-adblock: cnbc.com
 @@||cnbc.com/staticContent/showads.js$script,domain=cnbc.com
 ! Allow reddit extensions to be used
