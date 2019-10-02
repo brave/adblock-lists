@@ -223,9 +223,9 @@
 ! Anti-adblock: mediaite.com
 @@||mediaite.com/adbait/adsbygoogle.js
 ! rambler.ru issues
-@@||myqualification.rambler.ru^$xmlhttprequest,domain=gazeta.ru|lenta.ru
+@@||myqualification.rambler.ru^$xmlhttprequest,image,stylesheet,domain=gazeta.ru|lenta.ru
 @@||rambler.ru/api/$xmlhttprequest,domain=gazeta.ru
-@@||subscriptions.rambler.ru^$subdocument,domain=gazeta.ru
+@@||subscriptions.rambler.ru^$subdocument,script,domain=gazeta.ru
 @@||rambler.ru/widget.js$script,domain=gazeta.ru
 ! Adblock-Tracking: gazeta.ru
 @@||gazeta.ru^*/advertising.js$script,domain=gazeta.ru
