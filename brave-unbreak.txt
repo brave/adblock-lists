@@ -367,6 +367,8 @@
 ! Adblock-Tracking: MediaNews Group
 @@||townnews.com^*/flex/components/ads/$script,domain=southernchestercountyweeklies.com|dailylocal.com|delcotimes.com|morningjournal.com|delconewsnetwork.com|montgomerynews.com|mainlinemedianews.com|news-herald.com|cnweekly.com|troyrecord.com|southjerseylocalnews.com|saratogian.com|oneidadispatch.com|dailyfreeman.com|trentonian.com|berksmontnews.com|thenewsherald.com|dailytribune.com|theoaklandpress.com|voicenews.com|themorningsun.com|pottsmerc.com|phoenixvillenews.com|timesherald.com|thereporteronline.com|pvnews.com|tbrnews.com|pressandguide.com|gazettes.com|macombdaily.com
 @@/static/js/ads.js$script,domain=redlandsdailyfacts.com|pasadenastarnews.com|dailybulletin.com|marinij.com|montereyherald.com|presstelegram.com|times-standard.com|chicoer.com|whittierdailynews.com|dailydemocrat.com|dailynews.com|ocregister.com|pe.com|buffzone.com|orovillemr.com|journal-advocate.com|reporterherald.com|broomfieldenterprise.com|record-bee.com|sentinelandenterprise.com|bostonherald.com|nashobavalleyvoice.com|eptrail.com|akronnewsreporter.com|willitsnews.com|redbluffdailynews.com|thevalleydispatch.com|twincities.com|burlington-record.com|fortmorgantimes.com|coloradodaily.com|lamarledger.com|timescall.com|canoncitydailyrecord.com|excelsiorcalifornia.com|advocate-news.com|paradisepost.com|redwoodtimes.com|denverpost.com|mendocinobeacon.com
+! Fix endless loading on epaper.timesgroup.com
+@@||googletagservices.com/tag/js/gpt.js$script,domain=epaper.timesgroup.com
 ! Fix nfl.com video playback
 @@||googletagservices.com/tag/js/gpt.js$script,domain=nfl.com
 ! Fix twitter images 
