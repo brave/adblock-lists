@@ -122,7 +122,7 @@
 @@||www.facebook.com/ajax/bz$tag=fb-embeds
 ! Twitter embeds
 @@||platform.twitter.com/$tag=twitter-embeds
-@@||syndication.twitter.com/$tag=twitter-embeds
+@@||syndication.twitter.com/$xmlhttprequest,tag=twitter-embeds
 @@||pbs.twimg.com/$tag=twitter-embeds
 @@||cdn.syndication.twimg.com/$tag=twitter-embeds
 @@||twitter.com/i/videos/tweet/$tag=twitter-embeds
