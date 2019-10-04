@@ -108,18 +108,19 @@
 ! are added both as a blocking rule and as an exception rule so that
 ! an exception is hit and will override what's in tracking protection protection.
 ! Facebook logins and embeds
-@@||connect.facebook.com/*/sdk.js$script,tag=fb-embeds
-@@||connect.facebook.net/*/sdk.js$script,tag=fb-embeds
-@@||facebook.com/connect/$tag=fb-embeds
-@@||www.facebook.com/connect$tag=fb-embeds
-@@||staticxx.facebook.com/connect/$tag=fb-embeds
-@@||graph.facebook.com/$tag=fb-embeds
-@@||staticxx.facebook.com/$tag=fb-embeds
-@@||xx.fbcdn.net/$tag=fb-embeds
-@@||www.facebook.com/*/plugin$tag=fb-embeds
-@@||www.facebook.com/plugins/$tag=fb-embeds
-@@||www.facebook.com/rsrc.php$tag=fb-embeds
-@@||www.facebook.com/ajax/bz$tag=fb-embeds
+@@||facebook.com^*/sdk.js$tag=fb-embeds
+@@||facebook.net^*/sdk.js$tag=fb-embeds 
+@@||facebook.com/connect$tag=fb-embed
+@@||staticxx.facebook.com^$tag=fb-embeds
+@@||graph.facebook.com^$tag=fb-embeds
+@@||xx.fbcdn.net^$tag=fb-embeds
+@@||facebook.com^*/plugins/$tag=fb-embeds
+@@||facebook.com/plugins/$tag=fb-embeds
+@@||facebook.com/rsrc.php$tag=fb-embeds
+@@||facebook.com/ajax/$tag=fb-embed
+@@||facebook.com/login/$tag=fb-embed
+@@||fbsbx.com^$tag=fb-embeds
+@@||facebook.com/x/oauth/$tag=fb-embeds
 ! Twitter embeds
 @@||platform.twitter.com/$tag=twitter-embeds
 @@||syndication.twitter.com/$tag=twitter-embeds
@@ -200,9 +201,6 @@
 ! Adblock-Tracking: sourceforge.net / slashdot.org 
 @@||fsdn.com/con/js/adframe.js$script,domain=sourceforge.net
 @@||fsdn.com/sd/js/scripts/ad.js$script,domain=slashdot.org
-! Fix facebook logins on messenger.com https://github.com/brave/brave-browser/issues/4173
-@@||facebook.com/login/$domain=messenger.com
-@@||connect.facebook.net^$domain=messenger.com
 ! Anti-adblock: wallpapersite.com (https://www.reddit.com/r/brave_browser/comments/bx784t/websites_detecting_adblocker_even_when_shield/)
 @@||wallpapersite.com/scripts/ads.js$script
 ! Anti-adblock: wallpapershome.com
