@@ -24,12 +24,7 @@
 ||aps.hearstnp.com^$script,image
 ! Sailthru native ad aggregator fix
 ||ak.sail-horizon.com^$script,image
-! gRPC client ad tracking data fix boston.com sfgate.com
-||g.3gl.net^$domain=sfgate.com|boston.com
-! 123movies.is video player display banner overlay fix
-||123clouds.ru/*/custombanner.js^$script,domain=123movies.is
 ! vendors serving video ads and tracking via proxied requests
-||track.atom-data.io^$third-party
 ||vidazoo.com/aggregate^$third-party
 ||vidazoo.com/proxy^$third-party
 ||mediabong.net^$third-party
@@ -42,43 +37,29 @@
 ! theatlantic.com anti-blocker filters
 ||theatlantic.blueconic.net$domain=theatlantic.com
 ||theatlantic.com/please-support-us^
-! murdoog submission tracking
-||murdoog.com^$third-party
 ! Admiral anti-ad blocking fix
 ||functionalclam.com^$third-party
-||ctnet2.in$third-party
 ! adops.com unusable without this
 @@||adops.com^$~third-party
 @@||www.scrumpoker.online^$~third-party
 ! fixes for several requests bypassing default blocklists
-||bounceexchange.com^$third-party
-||npttech.com/advertising.js$important,script
 ||aolcdn.com/*/adsWrapper.js$script
-||keywee.co$third-party
-||summerhamster.com^
 ||zergnet.com^$script,third-party
 ! intermediary domains used for malware payload delivery
 ||centerbluray.info^
 ||newcyclevaults.com^
 ! block scripts that profile user behavior using password managers
-||audienceinsights.net^$third-party
-||behavioralengine.com^$third-party
 @@||api.huobi.pro^$domain=www.huobi.pro
 ! fixes calls bypassing shields on salon.com
 ||salon.com/jobs.js
 ||carambo.la^$third-party
-! key logger
-||turner.com/*/keypress.js$domain=cnn.com
 ! fixes ad blocking bypass
-||zdbb.net^$third-party
 ||adiode.com^$third-party
 ! content blocking
 ||seattletimes.com/wp-content/plugins/st-user-messaging^$script
 ||theatlantic.com/packages/adsjs^$script
 ! Temp filter, uBO is overriding the whitelist, which Brave is blocking by default until we implement redirect
 ||npttech.com/advertising.js$important,script,redirect=fuckadblock.js-3.2.0,badfilter
-! tracking
-||optimizely.com^$third-party
 ! crypto ad network
 ||ctnetload.com^$third-party
 ! Internal reddit API that breaks reddit for many users
@@ -102,7 +83,6 @@
 ! Block additional trackers
 ||sp1.nypost.com$third-party
 ||sp.nasdaq.com$third-party
-||assets.lesechos.com/common/js/xtcore.js$third-party
 ||y8.com/js/sdkloader/outstream.js$third-party
 ! Note that options will be added to exclude these filters soon. They
 ! are added both as a blocking rule and as an exception rule so that
