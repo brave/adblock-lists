@@ -101,14 +101,16 @@
 @@||www.facebook.com/rsrc.php$tag=fb-embeds
 @@||www.facebook.com/ajax/bz$tag=fb-embeds
 ! Twitter embeds
-@@||platform.twitter.com/$tag=twitter-embeds
-@@||syndication.twitter.com/$tag=twitter-embeds
-@@||pbs.twimg.com/$tag=twitter-embeds
-@@||cdn.syndication.twimg.com/$tag=twitter-embeds
-@@||twitter.com/i/videos/tweet/$tag=twitter-embeds
+@@||twitter.com/sw.js$tag=twitter-embeds
+@@||ton.twimg.com^$tag=twitter-embeds
+@@||platform.twitter.com^$tag=twitter-embeds
+@@||syndication.twitter.com^$xmlhttprequest,tag=twitter-embeds 
+@@||pbs.twimg.com^$tag=twitter-embeds
+@@||cdn.syndication.twimg.com^$tag=twitter-embeds
+@@||twitter.com/i/videos/tweet/$tag=twitter-embeds 
 @@||abs.twimg.com/web-video-player/$tag=twitter-embeds
-@@||api.twitter.com/1.1/$tag=twitter-embeds
-@@||video.twimg.com/$tag=twitter-embeds
+@@||api.twitter.com^$tag=twitter-embeds
+@@||video.twimg.com^$tag=twitter-embeds
 ! Fix sign in icon on https://app.mysms.com/#login
 @@||developers.google.com/identity/$image,domain=mysms.com
 ! Adblock-Tracking: speedtest.com
