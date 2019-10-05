@@ -244,6 +244,8 @@
 ! Fix foxnews video playback
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=foxbusiness.com|foxnews.com
 @@||fncstatic.com/static/isa/app/lib/VisitorAPI.js$script,domain=foxbusiness.com|foxnews.com
+! Anti-adblock: rarbg
+@@||dyncdn.me^*/showads.js$script,domain=rarbg2019.org|rarbgaccess.org|rarbgmirror.com|rarbgproxied.org|rarbgmirrored.org|rarbgproxied.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|rarbg.to|rarbgunblock.com
 ! Adblock-Tracking: thenextweb.com
 @@||thenextweb.com/wp-content/advertisement.js$script,domain=thenextweb.com
 ! Adblock-Tracking: tumblr
