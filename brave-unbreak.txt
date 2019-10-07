@@ -283,7 +283,9 @@
 @@||thetimes.co.uk/d/js/ads-$script,domain=thetimes.co.uk
 ! Anti-adblock: xiaomitoday.com
 @@||xiaomitoday.com/wp-content/themes/jannah/assets/js/advertisement.js$script,domain=xiaomitoday.com
-! Anti-adblock ign.com
+! Anti-adblock metacritic.com  (instart ads)
+||c-9pruhskhx78v49x24vwdwlfx2ephwdfulwlfx2efrp.g00.metacritic.com^$script,domain=metacritic.com
+! Anti-adblock ign.com  (instart ads)
 ||b8n5kh.g02.ign.com^$script,xmlhttprequest,domain=ign.com
 ! fix first-party items on maxmind.com (https://community.brave.com/t/stop-blocking-the-website-for-maxmind-com/68326)
 @@||blog.maxmind.com^$~third-party
