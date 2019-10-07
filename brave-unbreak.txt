@@ -173,6 +173,10 @@
 @@||thedailybeast.com/static/advert.js$script
 ! Adblock-Tracking: vice.com
 @@||web-scripts.vice.com/ad.vice.com/$script
+! Anti-adblock: golem.de / pcwelt.de
+@@/ad-time/*$image,domain=golem.de|pcwelt.de
+@@||golem.de/*&adserv$script,domain=golem.de
+@@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
 ! Anti-adblock: neowin.net
 ||mdn.neowin.net^$domain=neowin.net
 ! Anti-adblock: stream2watch.ws
