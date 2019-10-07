@@ -87,6 +87,8 @@
 ! Facebook logins and embeds
 @@||facebook.com^*/sdk.js$tag=fb-embeds
 @@||facebook.net^*/sdk.js$tag=fb-embeds 
+@@||facebook.net^*/fbds.js$tag=fb-embeds
+@@||facebook.com^*/fbds.js$tag=fb-embeds
 @@||facebook.com/connect$tag=fb-embed
 @@||staticxx.facebook.com^$tag=fb-embeds
 @@||graph.facebook.com^$tag=fb-embeds
