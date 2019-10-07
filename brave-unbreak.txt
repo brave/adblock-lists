@@ -179,6 +179,7 @@
 @@||tellerium.com/showads.js$script,domain=telerium.tv
 ! Fix use of salesforce 
 @@||my.salesforce.com^$subdocument,third-party
+@@||salesforce.com/jslibrary/$script,third-party
 ! Adblock-Tracking: sourceforge.net / slashdot.org 
 @@||fsdn.com/con/js/adframe.js$script,domain=sourceforge.net
 @@||fsdn.com/sd/js/scripts/ad.js$script,domain=slashdot.org
