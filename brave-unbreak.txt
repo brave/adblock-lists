@@ -208,6 +208,8 @@
 ! Fix Playback on http://v6.player.abacast.net/6508 (https://community.brave.com/t/problem-loading-http-v6-player-abacast-net-6508/71822)
 @@||imasdk.googleapis.com/js/core/$subdocument,domain=player.abacast.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=player.abacast.net
+! Anti-adblock: cyberciti.biz
+@@||cyberciti.biz/js/ads.js$script,domain=cyberciti.biz
 ! Anti-adblock: mediaite.com
 @@||mediaite.com/adbait/adsbygoogle.js
 ! rambler.ru issues
