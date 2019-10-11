@@ -65,6 +65,8 @@
 @@||alb.reddit.com^
 ! Allow sites to use reddit api
 @@||reddit.com^*/.json?$script,third-party
+@@||reddit.com^*/access_token$xmlhttprequest,third-party
+@@||oauth.reddit.com^$xmlhttprequest,third-party
 ! Adblock Tracking
 @@||redditstatic.com^*/ads.js$script,domain=reddit.com
 ! Allow twitter.com readahead (using the twitter api)
