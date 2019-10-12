@@ -282,6 +282,8 @@
 @@||list-manage.com/subscribe/$script,third-party
 ! Adblock-Tracking:indiatoday.in
 @@||indiatoday.in/sites/all/modules/custom/itg_ads_blocker/js/ads.js$script,domain=indiatoday.in
+! Adblock-Tracking: amazon.com + amazon regional
+@@||media-amazon.com^*/showads.$script,third-party
 ! Adblock-Tracking: salon.com
 @@||salon.com/design/assets/ads.js$script,domain=salon.com
 ! Adblock-Tracking: infowars.com
