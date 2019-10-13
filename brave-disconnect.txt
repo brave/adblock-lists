@@ -172,7 +172,6 @@
 ||adnium.com^$third-party
 ||adnologies.com^$third-party,domain=~heias.com
 ||adnxs.com^$third-party,domain=~adlantic.nl|~adrdgt.com|~appnexus.com
-||adobedtm.com^$third-party,domain=~adobe.com|~livefyre.com|~typekit.com
 ||adocean-global.com^$third-party,domain=~adocean.pl
 ||adocean.pl^$third-party,domain=~adocean-global.com
 ||adoftheyear.com^$third-party,domain=~crm-metrix.com|~customerconversio.com|~metrixlab.com|~opinionbar.com
@@ -377,6 +376,7 @@
 ||applovin.com^$third-party
 ||appmetrx.com^$third-party,domain=~engago.com
 ||appnexus.com^$third-party,domain=~adlantic.nl|~adnxs.com|~adrdgt.com
+||apps.fbsbx.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~messenger.com
 ||appsflyer.com^$third-party
 ||appssavvy.com^$third-party
 ||aprecision.net^$third-party,domain=~adprecision.net|~adprs.net
@@ -976,8 +976,8 @@
 ||groceryshopping.net^$third-party
 ||groovinads.com^$third-party
 ||groupm.com^$third-party,domain=~compete.com|~decdna.net|~kantarmedia.com|~mecglobal.com|~mindshareworld.com|~themig.com|~wpp.com|~xaxis.com
-||gsicommerce.com^$third-party,domain=~pepperjam.com
-||gsimedia.net^$third-party,domain=~gsicommerce.com|~pepperjam.com
+||gsicommerce.com^$third-party,domain=~radial.com
+||gsimedia.net^$third-party,domain=~radial.com
 ||gssprt.jp^$third-party,domain=~geniee.co.jp
 ||gtop.ro^$third-party,domain=~arenaweb.ro
 ||gtopstats.com^$third-party,domain=~arenaweb.ro|~gtop.ro
@@ -1480,7 +1480,6 @@
 ||peer39.net^$third-party,domain=~peer39.com
 ||peerfly.com^$third-party
 ||peerset.com^$third-party,domain=~kitd.com
-||pepperjam.com^$third-party,domain=~gsicommerce.com
 ||percentmobile.com^$third-party,domain=~delivr.com
 ||perfectmarket.com^$third-party,domain=~taboola.com
 ||perfiliate.com^$third-party,domain=~awin.com
@@ -1501,17 +1500,17 @@
 ||pixel.sg^$third-party
 ||piximedia.com^$third-party
 ||pixlee.com^$third-party
-||pjatr.com^$third-party,domain=~gsicommerce.com|~pepperjam.com
-||pjtra.com^$third-party,domain=~gsicommerce.com|~pepperjam.com
+||pjatr.com^$third-party,domain=~radial.com
+||pjtra.com^$third-party,domain=~radial.com
 ||platform-one.co.jp^$third-party,domain=~www.platform-one.co.jp
 ||plista.com^$third-party
 ||plugin.management^$third-party,domain=~salesintelligence.pl
 ||plus.google.com^$third-party
 ||plusone.google.com^$third-party
 ||pm14.com^$third-party,domain=~compete.com|~decdna.net|~groupm.com|~kantarmedia.com|~mecglobal.com|~mindshareworld.com|~themig.com|~wpp.com|~xaxis.com
-||pntra.com^$third-party,domain=~gsicommerce.com|~pepperjam.com
-||pntrac.com^$third-party,domain=~gsicommerce.com|~pepperjam.com
-||pntrs.com^$third-party,domain=~gsicommerce.com|~pepperjam.com
+||pntra.com^$third-party,domain=~radial.com
+||pntrac.com^$third-party,domain=~radial.com
+||pntrs.com^$third-party,domain=~radial.com
 ||po.st^$third-party
 ||pocketcents.com^$third-party
 ||pointroll.com^$third-party,domain=~gannett.com
