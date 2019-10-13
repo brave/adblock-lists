@@ -176,7 +176,7 @@
 ! Adblock-Tracking: vice.com
 @@||web-scripts.vice.com/ad.vice.com/$script
 ! Anti-adblock: dianomi-anti-adblock
-@@/ad-time/*$image,domain=golem.de|pcwelt.de|reuters.com
+@@/ad-time/*$image,domain=golem.de|pcwelt.de|reuters.com|formel1.de
 @@||golem.de/*&adserv$script,domain=golem.de
 @@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
 ! Anti-adblock: neowin.net
