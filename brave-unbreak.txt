@@ -198,6 +198,7 @@
 ! Anti-adblock: Future INC websites (Cosmetic)
 ||ttauri.space.com^$script,domain=space.com
 ||ttauri.tomsguide.com^$script,domain=tomsguide.com
+||pcgamer-gb.pcgamer.com^$domain=pcgamer.com
 ! Anti-adblock: theverge.com (vox sites)
 @@||vox-cdn.com/packs/concert_ads-$script,domain=theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com
 ! Adblock-Tracking: tweakers.net
