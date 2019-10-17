@@ -197,6 +197,8 @@
 @@||wallpapershome.com/scripts/ads.js$script
 ! Anti-adblock: haaretz.com
 @@||haaretz.com/htz/js/advertisement.js
+! Anti-adblock: mmo-champion.com
+@@||mmo-champion.com^*/adsense.js$script,domain=mmo-champion.com
 ! Anti-adblock: Future INC websites (Cosmetic)
 ||ttauri.space.com^$script,domain=space.com
 ||ttauri.tomsguide.com^$script,domain=tomsguide.com
