@@ -203,7 +203,6 @@
 ||pcgamer-gb.pcgamer.com^$domain=pcgamer.com
 ! Anti-adblock: concert.io (vox sites)
 @@||vox-cdn.com/packs/concert_ads-$script,third-party
-@@||concert.io^*/concert_ads.js$script,third-party
 ! Adblock-Tracking: tweakers.net
 ||tweakimg.net/x/scripts/min/banners.js$script,domain=tweakers.net
 ! Adblock-Tracking: animeflv.net/animeflv.com
