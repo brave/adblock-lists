@@ -331,6 +331,9 @@
 @@||phandroid.com/ads.js$script,domain=phandroid.com
 ! Adblock-Tracking: idg sites 
 @@||networkworld.com/www/js/ads/ads.js$script,domain=networkworld.com
+@@||techadvisor.fr/scripts/ads.js$script,domain=techadvisor.fr
+@@||pcworld.com/www/js/ads/ads.js$script,domain=pcworld.com
+@@||techconnect.com/www/js/ads/ads.js$script,domain=techconnect.com
 @@||cio.com/www/js/ads/ads.js$script,domain=cio.com
 @@||csoonline.com/www/js/ads/ads.js$script,domain=csoonline.com
 @@||infoworld.com/www/js/ads/ads.js$script,domain=infoworld.com
