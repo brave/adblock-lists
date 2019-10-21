@@ -48,13 +48,13 @@
 ! block scripts that profile user behavior using password managers
 @@||api.huobi.pro^$domain=www.huobi.pro
 ! fixes calls bypassing shields on salon.com
-||salon.com/jobs.js
+||salon.com/jobs.js$domain=salon.com
 ||carambo.la^$third-party
 ! fixes ad blocking bypass
 ||adiode.com^$third-party
 ! content blocking
-||seattletimes.com/wp-content/plugins/st-user-messaging^$script
-||theatlantic.com/packages/adsjs^$script
+||seattletimes.com/wp-content/plugins/st-user-messaging^$script,domain=seattletimes.com
+||theatlantic.com/packages/adsjs^$script,domain=theatlantic.com
 ! Temp filter, uBO is overriding the whitelist, which Brave is blocking by default until we implement redirect
 ||npttech.com/advertising.js$important,script,redirect=fuckadblock.js-3.2.0,badfilter
 ! crypto ad network
@@ -116,7 +116,7 @@
 ! Fix sign in icon on https://app.mysms.com/#login
 @@||developers.google.com/identity/$image,domain=mysms.com
 ! Adblock-Tracking: speedtest.com
-@@||speedtest.net/javascript/ads.js
+@@||speedtest.net/javascript/ads.js$script,domain=speedtest.net
 ! vresp.com (https://community.brave.com/t/cant-see-captcha-on-form/67187)
 @@||captcha.vresp.com^$domain=lawfirmkpi.com
 ! https://community.brave.com/t/ad-not-bloked-properly/63628
@@ -174,9 +174,9 @@
 ! Adblock-Tracking: silvergames.com
 @@||veedi.com^*/advert.js$script,domain=veedi.com
 ! Adblock-Tracking: thedailybeast.com
-@@||thedailybeast.com/static/advert.js$script
+@@||thedailybeast.com/static/advert.js$script,domain=thedailybeast.com
 ! Adblock-Tracking: vice.com
-@@||web-scripts.vice.com/ad.vice.com/$script
+@@||web-scripts.vice.com/ad.vice.com/$script,domain=vice.com
 ! Anti-adblock: dianomi-anti-adblock
 @@/ad-time/*$image,domain=golem.de|pcwelt.de|reuters.com|formel1.de
 @@||golem.de/*&adserv$script,domain=golem.de
@@ -192,11 +192,11 @@
 @@||fsdn.com/con/js/adframe.js$script,domain=sourceforge.net
 @@||fsdn.com/sd/js/scripts/ad.js$script,domain=slashdot.org
 ! Anti-adblock: wallpapersite.com (https://www.reddit.com/r/brave_browser/comments/bx784t/websites_detecting_adblocker_even_when_shield/)
-@@||wallpapersite.com/scripts/ads.js$script
+@@||wallpapersite.com/scripts/ads.js$script,domain=wallpapersite.com
 ! Anti-adblock: wallpapershome.com
-@@||wallpapershome.com/scripts/ads.js$script
+@@||wallpapershome.com/scripts/ads.js$script,domain=wallpapershome.com
 ! Anti-adblock: haaretz.com
-@@||haaretz.com/htz/js/advertisement.js
+@@||haaretz.com/htz/js/advertisement.js$script,domain=haaretz.com
 ! Anti-adblock: mmo-champion.com
 @@||mmo-champion.com^*/adsense.js$script,domain=mmo-champion.com
 ! Anti-adblock: Future INC websites (Cosmetic)
@@ -218,7 +218,7 @@
 ! Anti-adblock: cyberciti.biz
 @@||cyberciti.biz/js/ads.js$script,domain=cyberciti.biz
 ! Anti-adblock: mediaite.com
-@@||mediaite.com/adbait/adsbygoogle.js
+@@||mediaite.com/adbait/adsbygoogle.js$script,domain=mediaite.com
 ! rambler.ru issues
 @@||myqualification.rambler.ru^$xmlhttprequest,image,stylesheet,domain=gazeta.ru|lenta.ru
 @@||rambler.ru/api/$xmlhttprequest,domain=gazeta.ru
@@ -233,7 +233,7 @@
 @@||img.digitalriver.com/store?$script,image,stylesheet,third-party
 @@||img.digitalriver.com/DRHM/$script,image,stylesheet,third-party
 ! Anti-adblock: dreamdth.com
-@@||dreamdth.com/js/wutime_adblock/ads.js$script
+@@||dreamdth.com/js/wutime_adblock/ads.js$script,domain=dreamdth.com
 ! Anti-adblock: transparentcalifornia.com
 @@||transparentcalifornia.com/static/js/ads.js$script,domain=transparentcalifornia.com
 ! Broken search on https://www.capitalone.com/search
@@ -241,7 +241,7 @@
 ! Adblock-Tracking: dslreports.com
 @@||dslr.net/css/ads.js$script,domain=dslreports.com
 ! Adblock-Tracking: wired.co.uk
-@@||wired.co.uk/static/js/ads.js
+@@||wired.co.uk/static/js/ads.js$script,domain=wired.co.uk
 ! ip-approval bug
 ||ip-approval.com^$third-party,domain=mufon.com
 ! Anti-adblock: 9anime
