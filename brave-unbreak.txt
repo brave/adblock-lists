@@ -296,6 +296,8 @@
 @@||media-amazon.com^*/showads.$script,third-party
 ! Adblock-Tracking: salon.com
 @@||salon.com/design/assets/ads.js$script,domain=salon.com
+! Adblock-Tracking: rocket-league.com
+@@||rocket-league.com/scripts/advert.js$script,domain=rocket-league.com
 ! Adblock-Tracking: infowars.com
 @@||infowars.com/ads.js$script,domain=infowars.com
 ! ebay.co.uk + ebay.com and other ebay regions (https://github.com/brave/brave-browser/issues/5019)
