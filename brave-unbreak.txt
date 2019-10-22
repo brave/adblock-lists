@@ -195,6 +195,8 @@
 @@||wallpapersite.com/scripts/ads.js$script,domain=wallpapersite.com
 ! Anti-adblock: wallpapershome.com
 @@||wallpapershome.com/scripts/ads.js$script,domain=wallpapershome.com
+! Anti-adblock: nexusmods.com
+@@||nexusmods.com/Contents/Scripts/advert.js$script,domain=nexusmods.com
 ! Anti-adblock: haaretz.com
 @@||haaretz.com/htz/js/advertisement.js$script,domain=haaretz.com
 ! Anti-adblock: mmo-champion.com
