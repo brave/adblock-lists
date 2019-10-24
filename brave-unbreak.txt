@@ -209,6 +209,8 @@
 @@||vox-cdn.com/packs/concert_ads-$script,domain=theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com|theringer.com|mmafighting.com|racked.com|mmamania.com|funnyordie.com|riftherald.com
 ! Adblock-Tracking: tweakers.net
 ||tweakimg.net/x/scripts/min/banners.js$script,domain=tweakers.net
+! Adblock-Tracking: dailystar.co.uk
+@@||dailystar.co.uk^*/ads.js$script,domain=dailystar.co.uk
 ! Adblock-Tracking: animeflv.net/animeflv.com
 @@||animeflv.net/js/adsbygoogle.js$script,domain=animeflv.net
 @@||animeflv.com/js/adsbygoogle.js$script,domain=animeflv.com
