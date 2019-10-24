@@ -251,6 +251,8 @@
 @@||animecdn.xyz/js/ads.js$script,domain=9animes.ru
 ! Anti-adblock: securenetsystems.net
 @@||securenetsystems.net/v5/scripts/ads/prebid.js$script,domain=securenetsystems.net
+! Adblock-Tracking: cheatsheet.com
+@@||cheatsheet.com^*/ads.js$script,domain=cheatsheet.com
 ! Adblock-Tracking: softonic.com
 @@||sftcdn.net/statics/ads.min.js$xmlhttprequest,domain=softonic.com
 ! Anti-adblock: thehindu.com
