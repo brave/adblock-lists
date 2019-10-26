@@ -242,6 +242,8 @@
 @@||dreamdth.com/js/wutime_adblock/ads.js$script,domain=dreamdth.com
 ! Anti-adblock: transparentcalifornia.com
 @@||transparentcalifornia.com/static/js/ads.js$script,domain=transparentcalifornia.com
+! Anti-adblock: theawesomer.com
+@@||theawesomer.com/js/ads.js$script,domain=theawesomer.com
 ! Broken search on https://www.capitalone.com/search
 @@||nexus.ensighten.com/capitalone/Bootstrap.js$script,domain=capitalone.com
 ! Adblock-Tracking: dslreports.com
