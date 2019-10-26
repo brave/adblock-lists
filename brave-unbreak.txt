@@ -332,6 +332,8 @@
 @@||aliexpress.com^$~third-party
 ! Anti-adblock: laptopmedia.com
 @@||laptopmedia.com/ads.js$script,domain=laptopmedia.com
+! Anti-adblock: ratemyteachers.com
+@@||ratemyteachers.com/ads.js$script,domain=ratemyteachers.com
 ! Anti-adblock: nbc.com
 @@||nbc.com/generetic/scripts/ads.js$script,domain=nbc.com
 ! Anti-adblock: cnbc.com
