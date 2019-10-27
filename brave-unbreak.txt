@@ -300,6 +300,8 @@
 ! Anti-adblock: indiatimes.com
 @@||indiatimes.com/ads.cms$script,domain=indiatimes.com
 @@/ad-banner-zedo/*$image,domain=indiatimes.com
+@@||timesofindia.indiatimes.com/acms/$xmlhttprequest,domain=indiatimes.com
+@@||timesofindia.indiatimes.com/manageads/$xmlhttprequest,domain=indiatimes.com
 ! Adblock-Tracking:indiatoday.in
 @@||indiatoday.in/sites/all/modules/custom/itg_ads_blocker/js/ads.js$script,domain=indiatoday.in
 ! Adblock-Tracking: amazon.com + amazon regional
