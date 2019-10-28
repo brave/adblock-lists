@@ -310,7 +310,8 @@
 ! Adblock-Tracking: rocket-league.com
 @@||rocket-league.com/scripts/advert.js$script,domain=rocket-league.com
 ! Anti-adblock: Instart
-||c-9pruhskhx78v49x24vhfx78uhsx78edgvx2ejx2egrx78eohfolfnx2eqhw.g01.webmd.com^$xmlhttprequest,domain=webmd.com
+||nanovisor.io/i10c@p1^$xmlhttprequest,domain=webmd.com|gamespot.com
+||sdad.guru/i10c@p1^$xmlhttprequest,domain=webmd.com
 ||c-5uwzmx78pmca09x24amkczmx78cjilax2eox2elwcjtmktqksx2evmb.g00.gamespot.com^$script,domain=gamespot.com
 ! Adblock-Tracking: infowars.com
 @@||infowars.com/ads.js$script,domain=infowars.com
