@@ -488,6 +488,7 @@
 @@||netmile.co.jp/ad/images/banner/$image
 @@||netmile.co.jp/features/catchpig/images/bnr_120_60.png
 @@||netmile.co.jp/features/furufuru/images/$image
+@@||apple.com^*/promos/$domain=apple.com
 @@||samplefan.com/img/ad/$image
 @@||netmile.co.jp/features/jan/images/bnr_120_60.png
 @@||ad.pr.ameba.jp/tpc/$xmlhttprequest
