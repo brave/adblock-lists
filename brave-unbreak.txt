@@ -115,6 +115,8 @@
 @@||video.twimg.com^$tag=twitter-embeds
 ! Fix sign in icon on https://app.mysms.com/#login
 @@||developers.google.com/identity/$image,domain=mysms.com
+! Fix incorrectly blocked stripe.com on kickstarter.com
+@@||stripe.com^*/outer.html$subdocument,domain=kickstarter.com
 ! Adblock-Tracking: speedtest.com
 @@||speedtest.net/javascript/ads.js$script,domain=speedtest.net
 ! vresp.com (https://community.brave.com/t/cant-see-captcha-on-form/67187)
