@@ -337,7 +337,7 @@
 @@||geoip-js.maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net
 ! ABP Japanese blocking: Google
 @@||googleusercontent.com/videoplayback?$domain=google.com
-@@||googlevideo.com/videoplayback?$xmlhttprequest
+@@||googlevideo.com/videoplayback?$xmlhttprequest,domain=youtube.com
 ! ABP Japanese blocking Aliexpress (https://github.com/k2jp/abp-japanese-filters/issues?utf8=✓&q=is%3Aissue+aliexpress)
 @@||aliexpress.com^$~third-party
 ! Anti-adblock: laptopmedia.com
