@@ -311,7 +311,13 @@
 @@||rocket-league.com/scripts/advert.js$script,domain=rocket-league.com
 ! Anti-adblock: Instart
 ||nanovisor.io/i10c@p1^$xmlhttprequest,domain=webmd.com|gamespot.com
+||x2py3z.kgy.pockettactics.com^$xmlhttprequest,domain=pockettactics.com
+||9j7blw.jba.tribunnews.com^$xmlhttprequest,domain=tribunnews.com
 ||sdad.guru/i10c@p1^$xmlhttprequest,domain=webmd.com
+||vxq18c.g02.ign.com^$script,domain=ign.com
+||earzxzsl.g02.ign.com^$subdocument,domain=ign.com
+||c-6rtwjumjzx7868x24x78jhzwjuzgfix78x2elx2eitzgqjhqnhpx2esjy.g01.webmd.com^$xmlhttprequest,domain=webmd.com
+||c-9pruhskhx78v49x24vhfx78uhsx78edgvx2ejx2egrx78eohfolfnx2eqhw.g01.webmd.com^$xmlhttprequest,domain=webmd.com
 ||c-5uwzmx78pmca09x24amkczmx78cjilax2eox2elwcjtmktqksx2evmb.g00.gamespot.com^$script,domain=gamespot.com
 ! Adblock-Tracking: infowars.com
 @@||infowars.com/ads.js$script,domain=infowars.com
@@ -325,8 +331,6 @@
 @@||thetimes.co.uk/d/js/ads-$script,domain=thetimes.co.uk
 ! Anti-adblock: xiaomitoday.com
 @@||xiaomitoday.com/wp-content/themes/jannah/assets/js/advertisement.js$script,domain=xiaomitoday.com
-! Anti-adblock ign.com
-||b8n5kh.g02.ign.com^$script,xmlhttprequest,domain=ign.com
 ! fix first-party items on maxmind.com (https://community.brave.com/t/stop-blocking-the-website-for-maxmind-com/68326)
 @@||blog.maxmind.com^$~third-party
 @@||static.maxmind.com^$~third-party
