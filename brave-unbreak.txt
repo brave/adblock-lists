@@ -177,6 +177,7 @@
 @@||web-scripts.vice.com/ad.vice.com/$script
 ! Anti-adblock: dianomi-anti-adblock
 @@/ad-time/*$image,domain=golem.de|pcwelt.de|reuters.com
+@@||reuters.com/ads.js$script,domain=reuters.com
 @@||golem.de/*&adserv$script,domain=golem.de
 @@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
 ! Anti-adblock: neowin.net
