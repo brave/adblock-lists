@@ -178,6 +178,7 @@
 ! Adblock-Tracking: vice.com
 @@||web-scripts.vice.com/ad.vice.com/$script,domain=vice.com
 ! Anti-adblock: dianomi-anti-adblock
+@@||reuters.com/ads.js$script,domain=reuters.com
 @@/ad-time/*$image,domain=golem.de|pcwelt.de|reuters.com|formel1.de|hardwareluxx.de
 @@||golem.de/*&adserv$script,domain=golem.de
 @@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
