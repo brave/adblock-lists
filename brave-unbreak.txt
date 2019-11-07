@@ -48,13 +48,13 @@
 ! block scripts that profile user behavior using password managers
 @@||api.huobi.pro^$domain=www.huobi.pro
 ! fixes calls bypassing shields on salon.com
-||salon.com/jobs.js
+||salon.com/jobs.js$domain=salon.com
 ||carambo.la^$third-party
 ! fixes ad blocking bypass
 ||adiode.com^$third-party
 ! content blocking
-||seattletimes.com/wp-content/plugins/st-user-messaging^$script
-||theatlantic.com/packages/adsjs^$script
+||seattletimes.com/wp-content/plugins/st-user-messaging^$script,domain=seattletimes.com
+||theatlantic.com/packages/adsjs^$script,domain=theatlantic.com
 ! Temp filter, uBO is overriding the whitelist, which Brave is blocking by default until we implement redirect
 ||npttech.com/advertising.js$important,script,redirect=fuckadblock.js-3.2.0,badfilter
 ! crypto ad network
@@ -65,6 +65,8 @@
 @@||alb.reddit.com^
 ! Allow sites to use reddit api
 @@||reddit.com^*/.json?$script,third-party
+@@||reddit.com^*/access_token$xmlhttprequest,third-party
+@@||oauth.reddit.com^$xmlhttprequest,third-party
 ! Adblock Tracking
 @@||redditstatic.com^*/ads.js$script,domain=reddit.com
 ! Allow twitter.com readahead (using the twitter api)
@@ -114,7 +116,7 @@
 ! Fix sign in icon on https://app.mysms.com/#login
 @@||developers.google.com/identity/$image,domain=mysms.com
 ! Adblock-Tracking: speedtest.com
-@@||speedtest.net/javascript/ads.js
+@@||speedtest.net/javascript/ads.js$script,domain=speedtest.net
 ! vresp.com (https://community.brave.com/t/cant-see-captcha-on-form/67187)
 @@||captcha.vresp.com^$domain=lawfirmkpi.com
 ! https://community.brave.com/t/ad-not-bloked-properly/63628
@@ -158,7 +160,7 @@
 ! Anti-adblock: thehindu.com
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! Adblock-Tracking: healthline.com
-@@||healthline.com/scripts/advertising.js
+@@||healthline.com^*/advertising.js$script,domain=healthline.com
 ! Adblock-Tracking: jpost.com
 @@||bitsngo.net/widget-scripts/extra_content/ads.js$script,domain=jpost.com
 ! Adblock-Tracking: rateyourmusic.com
@@ -166,18 +168,18 @@
 ! Adblock-Tracking: explosm.net
 @@||explosm.net/js/adsense.js$script,domain=explosm.net
 ! Adblock-Tracking:  mediaite.com
-@@||mediaite.com/adbaitplus/adsbygoogle.js$script,domain=mediaite.com
+@@||mediaite.com^*/adsbygoogle.js$script,domain=mediaite.com
 ! Broken video playback on tn.com.ar (https://community.brave.com/t/the-blocker-does-not-allow-you-to-watch-the-video/76691)
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 ! Adblock-Tracking: silvergames.com
 @@||veedi.com^*/advert.js$script,domain=veedi.com
 ! Adblock-Tracking: thedailybeast.com
-@@||thedailybeast.com/static/advert.js$script
+@@||thedailybeast.com/static/advert.js$script,domain=thedailybeast.com
 ! Adblock-Tracking: vice.com
-@@||web-scripts.vice.com/ad.vice.com/$script
+@@||web-scripts.vice.com/ad.vice.com/$script,domain=vice.com
 ! Anti-adblock: dianomi-anti-adblock
-@@/ad-time/*$image,domain=golem.de|pcwelt.de|reuters.com
 @@||reuters.com/ads.js$script,domain=reuters.com
+@@/ad-time/*$image,domain=golem.de|pcwelt.de|reuters.com|formel1.de|hardwareluxx.de
 @@||golem.de/*&adserv$script,domain=golem.de
 @@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
 ! Anti-adblock: neowin.net
@@ -187,32 +189,43 @@
 ! Fix use of salesforce 
 @@||my.salesforce.com^$subdocument,third-party
 @@||salesforce.com/jslibrary/$script,third-party
+! Adblock-Tracking: pagesix.com
+@@||wp.com^*/show-ads.js$script,domain=pagesix.com
 ! Adblock-Tracking: sourceforge.net / slashdot.org 
 @@||fsdn.com/con/js/adframe.js$script,domain=sourceforge.net
 @@||fsdn.com/sd/js/scripts/ad.js$script,domain=slashdot.org
 ! Anti-adblock: wallpapersite.com (https://www.reddit.com/r/brave_browser/comments/bx784t/websites_detecting_adblocker_even_when_shield/)
-@@||wallpapersite.com/scripts/ads.js$script
+@@||wallpapersite.com/scripts/ads.js$script,domain=wallpapersite.com
 ! Anti-adblock: wallpapershome.com
-@@||wallpapershome.com/scripts/ads.js$script
+@@||wallpapershome.com/scripts/ads.js$script,domain=wallpapershome.com
+! Anti-adblock: nexusmods.com
+@@||nexusmods.com/Contents/Scripts/advert.js$script,domain=nexusmods.com
 ! Anti-adblock: haaretz.com
-@@||haaretz.com/htz/js/advertisement.js
+@@||haaretz.com/htz/js/advertisement.js$script,domain=haaretz.com
+! Anti-adblock: mmo-champion.com
+@@||mmo-champion.com^*/adsense.js$script,domain=mmo-champion.com
 ! Anti-adblock: Future INC websites (Cosmetic)
 ||ttauri.space.com^$script,domain=space.com
 ||ttauri.tomsguide.com^$script,domain=tomsguide.com
-! Anti-adblock: theverge.com (vox sites)
-@@||vox-cdn.com/packs/concert_ads-$script,domain=theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com
+||pcgamer-gb.pcgamer.com^$domain=pcgamer.com
+! Anti-adblock: concert.io (vox sites)
+@@||vox-cdn.com/packs/concert_ads-$script,domain=theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com|theringer.com|mmafighting.com|racked.com|mmamania.com|funnyordie.com|riftherald.com
 ! Adblock-Tracking: tweakers.net
 ||tweakimg.net/x/scripts/min/banners.js$script,domain=tweakers.net
+! Adblock-Tracking: dailystar.co.uk
+@@||dailystar.co.uk^*/ads.js$script,domain=dailystar.co.uk
 ! Adblock-Tracking: animeflv.net/animeflv.com
 @@||animeflv.net/js/adsbygoogle.js$script,domain=animeflv.net
 @@||animeflv.com/js/adsbygoogle.js$script,domain=animeflv.com
 ! Fix Playback on http://v6.player.abacast.net/6508 (https://community.brave.com/t/problem-loading-http-v6-player-abacast-net-6508/71822)
 @@||imasdk.googleapis.com/js/core/$subdocument,domain=player.abacast.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=player.abacast.net
+! Anti-adblock: cellmapper.net
+@@||cellmapper.net/js/ads.js$script,domain=cellmapper.net
 ! Anti-adblock: cyberciti.biz
 @@||cyberciti.biz/js/ads.js$script,domain=cyberciti.biz
 ! Anti-adblock: mediaite.com
-@@||mediaite.com/adbait/adsbygoogle.js
+@@||mediaite.com/adbait/adsbygoogle.js$script,domain=mediaite.com
 ! rambler.ru issues
 @@||myqualification.rambler.ru^$xmlhttprequest,image,stylesheet,domain=gazeta.ru|lenta.ru
 @@||rambler.ru/api/$xmlhttprequest,domain=gazeta.ru
@@ -227,15 +240,17 @@
 @@||img.digitalriver.com/store?$script,image,stylesheet,third-party
 @@||img.digitalriver.com/DRHM/$script,image,stylesheet,third-party
 ! Anti-adblock: dreamdth.com
-@@||dreamdth.com/js/wutime_adblock/ads.js$script
+@@||dreamdth.com/js/wutime_adblock/ads.js$script,domain=dreamdth.com
 ! Anti-adblock: transparentcalifornia.com
 @@||transparentcalifornia.com/static/js/ads.js$script,domain=transparentcalifornia.com
+! Anti-adblock: theawesomer.com
+@@||theawesomer.com/js/ads.js$script,domain=theawesomer.com
 ! Broken search on https://www.capitalone.com/search
 @@||nexus.ensighten.com/capitalone/Bootstrap.js$script,domain=capitalone.com
 ! Adblock-Tracking: dslreports.com
 @@||dslr.net/css/ads.js$script,domain=dslreports.com
 ! Adblock-Tracking: wired.co.uk
-@@||wired.co.uk/static/js/ads.js
+@@||wired.co.uk/static/js/ads.js$script,domain=wired.co.uk
 ! ip-approval bug
 ||ip-approval.com^$third-party,domain=mufon.com
 ! Anti-adblock: 9anime
@@ -243,6 +258,8 @@
 @@||animecdn.xyz/js/ads.js$script,domain=9animes.ru
 ! Anti-adblock: securenetsystems.net
 @@||securenetsystems.net/v5/scripts/ads/prebid.js$script,domain=securenetsystems.net
+! Adblock-Tracking: cheatsheet.com
+@@||cheatsheet.com^*/ads.js$script,domain=cheatsheet.com
 ! Adblock-Tracking: softonic.com
 @@||sftcdn.net/statics/ads.min.js$xmlhttprequest,domain=softonic.com
 ! Anti-adblock: thehindu.com
@@ -281,10 +298,28 @@
 @@||list-manage.com/signup-form/settings?$domain=mailchi.mp
 ! Allow sites to use signup forms from list-manage
 @@||list-manage.com/subscribe/$script,third-party
+! Anti-adblock: indiatimes.com
+@@||indiatimes.com/ads.cms$script,domain=indiatimes.com
+@@/ad-banner-zedo/*$image,domain=indiatimes.com
+@@||timesofindia.indiatimes.com/acms/$xmlhttprequest,domain=indiatimes.com
 ! Adblock-Tracking:indiatoday.in
 @@||indiatoday.in/sites/all/modules/custom/itg_ads_blocker/js/ads.js$script,domain=indiatoday.in
+! Adblock-Tracking: amazon.com + amazon regional
+@@||media-amazon.com^*/showads.$script,third-party
 ! Adblock-Tracking: salon.com
 @@||salon.com/design/assets/ads.js$script,domain=salon.com
+! Adblock-Tracking: rocket-league.com
+@@||rocket-league.com/scripts/advert.js$script,domain=rocket-league.com
+! Anti-adblock: Instart
+||nanovisor.io/i10c@p1^$xmlhttprequest,domain=webmd.com|gamespot.com
+||x2py3z.kgy.pockettactics.com^$xmlhttprequest,domain=pockettactics.com
+||9j7blw.jba.tribunnews.com^$xmlhttprequest,domain=tribunnews.com
+||sdad.guru/i10c@p1^$xmlhttprequest,domain=webmd.com
+||vxq18c.g02.ign.com^$script,domain=ign.com
+||earzxzsl.g02.ign.com^$subdocument,domain=ign.com
+||c-6rtwjumjzx7868x24x78jhzwjuzgfix78x2elx2eitzgqjhqnhpx2esjy.g01.webmd.com^$xmlhttprequest,domain=webmd.com
+||c-9pruhskhx78v49x24vhfx78uhsx78edgvx2ejx2egrx78eohfolfnx2eqhw.g01.webmd.com^$xmlhttprequest,domain=webmd.com
+||c-5uwzmx78pmca09x24amkczmx78cjilax2eox2elwcjtmktqksx2evmb.g00.gamespot.com^$script,domain=gamespot.com
 ! Adblock-Tracking: infowars.com
 @@||infowars.com/ads.js$script,domain=infowars.com
 ! ebay.co.uk + ebay.com and other ebay regions (https://github.com/brave/brave-browser/issues/5019)
@@ -297,8 +332,6 @@
 @@||thetimes.co.uk/d/js/ads-$script,domain=thetimes.co.uk
 ! Anti-adblock: xiaomitoday.com
 @@||xiaomitoday.com/wp-content/themes/jannah/assets/js/advertisement.js$script,domain=xiaomitoday.com
-! Anti-adblock ign.com
-||b8n5kh.g02.ign.com^$script,xmlhttprequest,domain=ign.com
 ! fix first-party items on maxmind.com (https://community.brave.com/t/stop-blocking-the-website-for-maxmind-com/68326)
 @@||blog.maxmind.com^$~third-party
 @@||static.maxmind.com^$~third-party
@@ -307,8 +340,15 @@
 ! bandai-hobby.net (maxmind check causing blank pages)
 @@||js.maxmind.com/js/apis/geoip2/v2.1/geoip2.js$script,domain=bandai-hobby.net
 @@||geoip-js.maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net
+! ABP Japanese blocking: Google
+@@||googleusercontent.com/videoplayback?$domain=google.com
+@@||googlevideo.com/videoplayback?$xmlhttprequest,domain=youtube.com
 ! ABP Japanese blocking Aliexpress (https://github.com/k2jp/abp-japanese-filters/issues?utf8=✓&q=is%3Aissue+aliexpress)
 @@||aliexpress.com^$~third-party
+! Anti-adblock: laptopmedia.com
+@@||laptopmedia.com/ads.js$script,domain=laptopmedia.com
+! Anti-adblock: ratemyteachers.com
+@@||ratemyteachers.com/ads.js$script,domain=ratemyteachers.com
 ! Anti-adblock: nbc.com
 @@||nbc.com/generetic/scripts/ads.js$script,domain=nbc.com
 ! Anti-adblock: cnbc.com
@@ -322,6 +362,9 @@
 @@||phandroid.com/ads.js$script,domain=phandroid.com
 ! Adblock-Tracking: idg sites 
 @@||networkworld.com/www/js/ads/ads.js$script,domain=networkworld.com
+@@||techadvisor.fr/scripts/ads.js$script,domain=techadvisor.fr
+@@||pcworld.com/www/js/ads/ads.js$script,domain=pcworld.com
+@@||techconnect.com/www/js/ads/ads.js$script,domain=techconnect.com
 @@||cio.com/www/js/ads/ads.js$script,domain=cio.com
 @@||csoonline.com/www/js/ads/ads.js$script,domain=csoonline.com
 @@||infoworld.com/www/js/ads/ads.js$script,domain=infoworld.com
@@ -407,6 +450,11 @@
 ! Chinese specific rules
 /^https?:\/\/asset.bixjf.com\/[0-9]{4}\/[a-z]{2,}\/[0-9].*(.jpg$)/$image,domain=imkan.tv
 /^https?:\/\/asset.bixjf.com\/[0-9]{4}\/ad\/[0-9].*/$domain=imkan.tv
+! 5ch.net (Japanese) Desktop/Mobile IOS/Android-specific blocks
+||thench.net^$third-party
+||proparm.jp^$third-party
+||i2ad.jp^$third-party
+||socdm.com^$third-party
 ! Japanese specific rules below (temporarily)
 /ad/alliance_
 /loadPopIn.
@@ -451,6 +499,7 @@
 @@||netmile.co.jp/ad/images/banner/$image
 @@||netmile.co.jp/features/catchpig/images/bnr_120_60.png
 @@||netmile.co.jp/features/furufuru/images/$image
+@@||apple.com^*/promos/$domain=apple.com
 @@||samplefan.com/img/ad/$image
 @@||netmile.co.jp/features/jan/images/bnr_120_60.png
 @@||ad.pr.ameba.jp/tpc/$xmlhttprequest
