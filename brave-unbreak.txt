@@ -446,6 +446,12 @@
 /outbrain/base?
 /outbrain?
 ||outbrainimg.com^$third-party
+! Russian specific rules
+@@||vk.com/video_ext.php$subdocument
+@@||vk.com/js/api/openapi.js$script
+@@||vk.com/share.php$script,third-party
+@@||vkontakte.ru/js/api/openapi.js$script
+@@||vk.com/images/$image,third-party
 ! Chinese specific rules
 /^https?:\/\/asset.bixjf.com\/[0-9]{4}\/[a-z]{2,}\/[0-9].*(.jpg$)/$image,domain=imkan.tv
 /^https?:\/\/asset.bixjf.com\/[0-9]{4}\/ad\/[0-9].*/$domain=imkan.tv
