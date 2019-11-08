@@ -449,7 +449,7 @@
 ||caringzinc.com^$third-party
 ||functionalclam.com^$third-party
 ||carscannon.com^$third-party
-||coordinatedcub.com^$third-partyy
+||coordinatedcub.com^$third-party
 ||desiredirt.com^$third-party
 ||endurablecrayon.com^third-party
 ||forecasttiger.com^$third-party
