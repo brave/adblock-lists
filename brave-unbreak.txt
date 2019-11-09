@@ -448,6 +448,13 @@
 ||acridtwist.com^$third-party
 ||caringzinc.com^$third-party
 ||functionalclam.com^$third-party
+||parsimoniouspolice.com^$third-party
+||conditioncrush.com^$third-party
+||steadfastsound.com^$third-party
+||parcelcreature.com^$third-party
+||damdoor.com^$third-party
+||spottednoise.com^$third-party
+||falseframe.com^$third-party
 ||carscannon.com^$third-party
 ||coordinatedcub.com^$third-party
 ||desiredirt.com^$third-party
