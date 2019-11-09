@@ -233,6 +233,9 @@
 @@||gazeta.ru^*/advertising.js$script,domain=gazeta.ru
 ! Adblock-Tracking: nytimes.com
 @@||nytimes.com/ads/google/adsbygoogle.js$script,domain=nytimes.com
+! Adblock-Tracking: cpubenchmark.net / videocardbenchmark.net
+@@||videocardbenchmark.net/js/ads.js$script,domain=videocardbenchmark.net
+@@||cpubenchmark.net/js/ads.js$script,domain=cpubenchmark.net
 ! Fix digitalriver.com content on various shoping sites.
 @@||api.digitalriver.com^$script,third-party
 @@||img.digitalriver.com/store?$script,image,stylesheet,third-party
