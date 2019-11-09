@@ -447,6 +447,16 @@
 ! Admiral Tracking (for ios)
 ||acridtwist.com^$third-party
 ||caringzinc.com^$third-party
+||ringplayground.com^$third-party
+||jamexistence.com^$third-party
+||roofrelation.com^$third-party
+||gulliblecamp.com^$third-party
+||puffypull.com^$third-party
+||stupendoussleet.com^$third-party
+||burnbubble.com^$third-party
+||butterbulb.com^$third-party
+||allowmailbox.com^$third-party
+||colorfulafterthought.com^$third-party
 ||functionalclam.com^$third-party
 ||parsimoniouspolice.com^$third-party
 ||conditioncrush.com^$third-party
