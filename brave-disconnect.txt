@@ -901,6 +901,7 @@
 ||foxnetworks.com^$third-party,domain=~fimserve.com|~foxonestop.com|~mobsmith.com|~myads.com|~othersonline.com
 ||foxonestop.com^$third-party,domain=~fimserve.com|~foxnetworks.com|~mobsmith.com|~myads.com|~othersonline.com
 ||franecki.net^$third-party,domain=~clickfrog.ru
+||fraudjs.io^$third-party,domain=~gleam.io
 ||fraudmetrix.cn^$third-party,domain=~tongdun.cn
 ||free-pagerank.com^$third-party
 ||freecontent.bid^$third-party,domain=~jsecoin.com
