@@ -131,7 +131,7 @@
 ! Fix addthis.com issues on rhmodern.com  https://github.com/brave/brave-browser/issues/3653
 @@||s7.addthis.com^$script,domain=rhmodern.com
 ! Fix video playback on ctv.ca
-@@||9c9media.ca^$script,domain=ctv.ca
+@@||9c9media.ca^$script,xmlhttprequest,domain=ctv.ca
 ! 2mdn video playback script
 @@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com|techrepublic.com
 ! Adblock-Tracking: theintercept.com
