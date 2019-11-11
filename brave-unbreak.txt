@@ -122,7 +122,7 @@
 ! Embedded vidible video's
 @@||vidible.tv/prod/$xmlhttprequest,media,image
 @@||vidible.tv/prod/player/js/$script
-@@||delivery.vidible.tv/placement/$xhr
+@@||delivery.vidible.tv/placement/$xmlhttprequest
 @@||delivery.vidible.tv/jsonp/$script
 ! LinkedIn in embed
 @@||platform.linkedin.com/$tag=linked-in-embeds
