@@ -186,6 +186,8 @@
 @@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
 ! Anti-adblock: neowin.net
 ||mdn.neowin.net^$domain=neowin.net
+! Anti-adblock: grapevine.is
+@@||cloudfront.net/ad/ads.js$script,domain=grapevine.is
 ! Anti-adblock: zdnet.de
 @@||zdnet.de^*/advertising.js$script,domain=zdnet.de
 ! Anti-adblock: stream2watch.ws
