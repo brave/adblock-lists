@@ -167,6 +167,8 @@
 @@||bitsngo.net/widget-scripts/extra_content/ads.js$script,domain=jpost.com
 ! Adblock-Tracking: rateyourmusic.com
 @@||snmc.io^*/advertisement.js$script,domain=rateyourmusic.com
+! Adblock-Tracking: kijiji.ca
+@@||classistatic.com^*/ads.js$script,domain=kijiji.ca
 ! Adblock-Tracking: explosm.net
 @@||explosm.net/js/adsense.js$script,domain=explosm.net
 ! Adblock-Tracking:  mediaite.com
