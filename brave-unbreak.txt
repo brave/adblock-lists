@@ -179,6 +179,8 @@
 @@||veedi.com^*/advert.js$script,domain=veedi.com
 ! Adblock-Tracking: thedailybeast.com
 @@||thedailybeast.com/static/advert.js$script,domain=thedailybeast.com
+! Adblock-Tracking: snapdeal.com
+@@||sdlcdn.com^*/ads.js$script,domain=snapdeal.com
 ! Anti-adblock: realclear
 @@/doubleclick.js$xmlhttprequest,domain=realclearpolitics.com|realclearpolitics.com|realclearhealth.com|realclearreligion.org|realclearenergy.org|realclearhistory.com|realclearpolicy.com|realclearworld.com|realclearmarkets.com|realclearbooks.com|realcleareducation.com|realclearscience.com|realcleardefense.com
 ! Adblock-Tracking: vice.com
