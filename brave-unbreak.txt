@@ -389,6 +389,8 @@
 @@||digitalartsonline.co.uk/scripts/ads.js$script,domain=digitalartsonline.co.uk
 @@||cio.co.uk/scripts/ads.js$script,domain=cio.co.uk
 @@||techworld.com/scripts/ads.js$script,domain=techworld.com
+! Anti-adblock: dagbladet.no
+@@||dagbladet.no^*/prebid.js$script,domain=dagbladet.no
 ! Adblock-Tracking: hanime.tv
 @@||hanime.tv/exoclick.ads.$script,domain=hanime.tv
 ! Adblock-Tracking: esportsheaven.com
