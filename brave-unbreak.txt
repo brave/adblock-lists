@@ -199,6 +199,8 @@
 ! Fix use of salesforce 
 @@||my.salesforce.com^$subdocument,third-party
 @@||salesforce.com/jslibrary/$script,third-party
+! Adblock-Tracking: biblegateway.com
+@@||biblegateway.com/assets/js/ads.js$xmlhttprequest,domain=biblegateway.com
 ! Adblock-Tracking: pagesix.com
 @@||wp.com^*/show-ads.js$script,domain=pagesix.com
 ! Adblock-Tracking: sourceforge.net / slashdot.org 
