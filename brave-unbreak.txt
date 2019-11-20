@@ -220,6 +220,8 @@
 ||pcgamer-gb.pcgamer.com^$domain=pcgamer.com
 ! Anti-adblock: concert.io (vox sites)
 @@||vox-cdn.com/packs/concert_ads-$script,domain=theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com|theringer.com|mmafighting.com|racked.com|mmamania.com|funnyordie.com|riftherald.com
+! Anti-adblock: shush.se
+@@||shush.se/_ads.js$script,domain=shush.se
 ! Adblock-Tracking: tweakers.net
 ||tweakimg.net/x/scripts/min/banners.js$script,domain=tweakers.net
 ! Adblock-Tracking: dailystar.co.uk
