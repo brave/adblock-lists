@@ -445,6 +445,8 @@
 ! Anti-adblock: washingtonpost.com
 @@||d2ty8gaf6rmowa.cloudfront.net/ad/$domain=washingtonpost.com
 @@||pubads.g.doubleclick.net^$xmlhttprequest,domain=washingtonpost.com
+! shapeways.com (google-sign)
+@@||plus.google.com/js/$script,domain=shapeways.com
 ! Anti-adblock tracking: abc.com
 @@||edgedatg.com^*/ads.min.js$script,domain=abc.com
 ! Fix abcnews.go.com video playback
