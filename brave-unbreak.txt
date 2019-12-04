@@ -64,7 +64,7 @@
 ! Allow sites to use reddit api
 @@||reddit.com^*/.json?$script,third-party
 @@||reddit.com^*/access_token$xmlhttprequest,third-party
-@@||oauth.reddit.com^$xmlhttprequest,third-party
+@@||oauth.reddit.com^$xmlhttprequest
 ! reddit share buttons
 @@||reddit.com/static/button/$subdocument,third-party
 ! Adblock Tracking
