@@ -137,6 +137,8 @@
 @@||auth.9c9media.ca^$script,domain=ctv.ca
 ! 2mdn video playback script
 @@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com|techrepublic.com
+! ups.com fix (ios)
+@@||usps.com/go/scripts/tracking.js$script,domain=usps.com
 ! Adblock-Tracking: theintercept.com
 @@||theintercept.com/ads.js$script,domain=theintercept.com
 ! Adblock-Tracking: irishmirror.ie
