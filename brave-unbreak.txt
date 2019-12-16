@@ -57,6 +57,8 @@
 ||npttech.com/advertising.js$important,script,redirect=fuckadblock.js-3.2.0,badfilter
 ! crypto ad network
 ||ctnetload.com^$third-party
+! Fix UBO addition (https://github.com/uBlockOrigin/uAssets/commit/dc12acd80d1d64be596272c66ceb0b7925828347)
+||tags.tiqcdn.com^$3p,badfilter
 ! Internal reddit API that breaks reddit for many users
 @@||gateway.reddit.com^
 ! https://github.com/brave/adblock-lists/issues/39
