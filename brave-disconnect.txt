@@ -261,7 +261,6 @@
 ||adthink.com^$third-party
 ||adtiger.de^$third-party
 ||adtoll.com^$third-party,domain=~clickbooth.com
-||adtotal.pl^$third-party,domain=~wp.pl
 ||adtrgt.com^$third-party,domain=~primevisibility.com
 ||adtruth.com^$third-party
 ||adultadworld.com^$third-party
@@ -773,7 +772,7 @@
 ||e-kolay.net^$third-party,domain=~ekolay.net|~hurriyet.com.tr
 ||e-planning.net^$third-party,domain=~caraytech.com.ar|~www.caraytech.com.ar
 ||earnify.com^$third-party
-||ebay.com^$third-party,domain=~ebay.at|~ebay.ba|~ebay.be|~ebay.ca|~ebay.ch|~ebay.cn|~ebay.co.jp|~ebay.co.kr|~ebay.co.uk|~ebay.com.au|~ebay.com.hk|~ebay.com.my|~ebay.com.ph|~ebay.com.sg|~ebay.com.tw|~ebay.de|~ebay.es|~ebay.fr|~ebay.ie|~ebay.in|~ebay.it|~ebay.nl|~ebay.pl|~gopjn.com
+||ebay.com^$third-party,domain=~ebay.at|~ebay.ba|~ebay.be|~ebay.ca|~ebay.ch|~ebay.cn|~ebay.co.jp|~ebay.co.kr|~ebay.co.uk|~ebay.com.au|~ebay.com.hk|~ebay.com.my|~ebay.com.ph|~ebay.com.sg|~ebay.com.tw|~ebay.de|~ebay.es|~ebay.fr|~ebay.ie|~ebay.in|~ebay.it|~ebay.nl|~ebay.pl
 ||ebuzzing.com^$third-party,domain=~teads.tv
 ||echosearch.com^$third-party,domain=~thinkrealtime.com
 ||ecsanalytics.com^$third-party,domain=~theecsinc.com
@@ -966,7 +965,6 @@
 ||googlemail.com^$third-party,domain=~abc.xyz|~admeld.com|~blogger.com|~crashlytics.com|~google-melange.com|~google.ad|~google.ae|~google.al|~google.am|~google.as|~google.at|~google.az|~google.ba|~google.be|~google.bf|~google.bg|~google.bi|~google.bj|~google.bs|~google.bt|~google.by|~google.ca|~google.cat|~google.cd|~google.cf|~google.cg|~google.ch|~google.ci|~google.cl|~google.cm|~google.cn|~google.co.ao|~google.co.bw|~google.co.ck|~google.co.cr|~google.co.id|~google.co.il|~google.co.in|~google.co.jp|~google.co.ke|~google.co.kr|~google.co.ls|~google.co.ma|~google.co.mz|~google.co.nz|~google.co.th|~google.co.tz|~google.co.ug|~google.co.uk|~google.co.uz|~google.co.ve|~google.co.vi|~google.co.za|~google.co.zm|~google.co.zw|~google.com|~google.com.af|~google.com.ag|~google.com.ai|~google.com.ar|~google.com.au|~google.com.bd|~google.com.bh|~google.com.bn|~google.com.bo|~google.com.br|~google.com.bz|~google.com.co|~google.com.cu|~google.com.cy|~google.com.do|~google.com.ec|~google.com.eg|~google.com.et|~google.com.fj|~google.com.gh|~google.com.gi|~google.com.gt|~google.com.hk|~google.com.jm|~google.com.kh|~google.com.kw|~google.com.lb|~google.com.ly|~google.com.mm|~google.com.mt|~google.com.mx|~google.com.my|~google.com.na|~google.com.nf|~google.com.ng|~google.com.ni|~google.com.np|~google.com.om|~google.com.pa|~google.com.pe|~google.com.pg|~google.com.ph|~google.com.pk|~google.com.pr|~google.com.py|~google.com.qa|~google.com.sa|~google.com.sb|~google.com.sg|~google.com.sl|~google.com.sv|~google.com.tj|~google.com.tr|~google.com.tw|~google.com.ua|~google.com.uy|~google.com.vc|~google.com.vn|~google.cv|~google.cz|~google.de|~google.dj|~google.dk|~google.dm|~google.dz|~google.ee|~google.es|~google.fi|~google.fm|~google.fr|~google.ga|~google.ge|~google.gg|~google.gl|~google.gm|~google.gp|~google.gr|~google.gy|~google.hn|~google.hr|~google.ht|~google.hu|~google.ie|~google.im|~google.iq|~google.is|~google.it|~google.je|~google.jo|~google.kg|~google.ki|~google.kz|~google.la|~google.li|~google.lk|~google.lt|~google.lu|~google.lv|~google.md|~google.me|~google.mg|~google.mk|~google.ml|~google.mn|~google.ms|~google.mu|~google.mv|~google.mw|~google.ne|~google.nl|~google.no|~google.nr|~google.nu|~google.pl|~google.pn|~google.ps|~google.pt|~google.ro|~google.rs|~google.ru|~google.rw|~google.sc|~google.se|~google.sh|~google.si|~google.sk|~google.sm|~google.sn|~google.so|~google.st|~google.td|~google.tg|~google.tk|~google.tl|~google.tm|~google.tn|~google.to|~google.tt|~google.vg|~google.vu|~google.ws|~ingress.com|~panoramio.com|~youtube.com
 ||googlesyndication.com^$third-party,domain=~abc.xyz|~admeld.com|~blogger.com|~crashlytics.com|~google-melange.com|~google.ad|~google.ae|~google.al|~google.am|~google.as|~google.at|~google.az|~google.ba|~google.be|~google.bf|~google.bg|~google.bi|~google.bj|~google.bs|~google.bt|~google.by|~google.ca|~google.cat|~google.cd|~google.cf|~google.cg|~google.ch|~google.ci|~google.cl|~google.cm|~google.cn|~google.co.ao|~google.co.bw|~google.co.ck|~google.co.cr|~google.co.id|~google.co.il|~google.co.in|~google.co.jp|~google.co.ke|~google.co.kr|~google.co.ls|~google.co.ma|~google.co.mz|~google.co.nz|~google.co.th|~google.co.tz|~google.co.ug|~google.co.uk|~google.co.uz|~google.co.ve|~google.co.vi|~google.co.za|~google.co.zm|~google.co.zw|~google.com|~google.com.af|~google.com.ag|~google.com.ai|~google.com.ar|~google.com.au|~google.com.bd|~google.com.bh|~google.com.bn|~google.com.bo|~google.com.br|~google.com.bz|~google.com.co|~google.com.cu|~google.com.cy|~google.com.do|~google.com.ec|~google.com.eg|~google.com.et|~google.com.fj|~google.com.gh|~google.com.gi|~google.com.gt|~google.com.hk|~google.com.jm|~google.com.kh|~google.com.kw|~google.com.lb|~google.com.ly|~google.com.mm|~google.com.mt|~google.com.mx|~google.com.my|~google.com.na|~google.com.nf|~google.com.ng|~google.com.ni|~google.com.np|~google.com.om|~google.com.pa|~google.com.pe|~google.com.pg|~google.com.ph|~google.com.pk|~google.com.pr|~google.com.py|~google.com.qa|~google.com.sa|~google.com.sb|~google.com.sg|~google.com.sl|~google.com.sv|~google.com.tj|~google.com.tr|~google.com.tw|~google.com.ua|~google.com.uy|~google.com.vc|~google.com.vn|~google.cv|~google.cz|~google.de|~google.dj|~google.dk|~google.dm|~google.dz|~google.ee|~google.es|~google.fi|~google.fm|~google.fr|~google.ga|~google.ge|~google.gg|~google.gl|~google.gm|~google.gp|~google.gr|~google.gy|~google.hn|~google.hr|~google.ht|~google.hu|~google.ie|~google.im|~google.iq|~google.is|~google.it|~google.je|~google.jo|~google.kg|~google.ki|~google.kz|~google.la|~google.li|~google.lk|~google.lt|~google.lu|~google.lv|~google.md|~google.me|~google.mg|~google.mk|~google.ml|~google.mn|~google.ms|~google.mu|~google.mv|~google.mw|~google.ne|~google.nl|~google.no|~google.nr|~google.nu|~google.pl|~google.pn|~google.ps|~google.pt|~google.ro|~google.rs|~google.ru|~google.rw|~google.sc|~google.se|~google.sh|~google.si|~google.sk|~google.sm|~google.sn|~google.so|~google.st|~google.td|~google.tg|~google.tk|~google.tl|~google.tm|~google.tn|~google.to|~google.tt|~google.vg|~google.vu|~google.ws|~ingress.com|~panoramio.com|~youtube.com
 ||googletagservices.com^$third-party,domain=~abc.xyz|~admeld.com|~blogger.com|~crashlytics.com|~google-melange.com|~google.ad|~google.ae|~google.al|~google.am|~google.as|~google.at|~google.az|~google.ba|~google.be|~google.bf|~google.bg|~google.bi|~google.bj|~google.bs|~google.bt|~google.by|~google.ca|~google.cat|~google.cd|~google.cf|~google.cg|~google.ch|~google.ci|~google.cl|~google.cm|~google.cn|~google.co.ao|~google.co.bw|~google.co.ck|~google.co.cr|~google.co.id|~google.co.il|~google.co.in|~google.co.jp|~google.co.ke|~google.co.kr|~google.co.ls|~google.co.ma|~google.co.mz|~google.co.nz|~google.co.th|~google.co.tz|~google.co.ug|~google.co.uk|~google.co.uz|~google.co.ve|~google.co.vi|~google.co.za|~google.co.zm|~google.co.zw|~google.com|~google.com.af|~google.com.ag|~google.com.ai|~google.com.ar|~google.com.au|~google.com.bd|~google.com.bh|~google.com.bn|~google.com.bo|~google.com.br|~google.com.bz|~google.com.co|~google.com.cu|~google.com.cy|~google.com.do|~google.com.ec|~google.com.eg|~google.com.et|~google.com.fj|~google.com.gh|~google.com.gi|~google.com.gt|~google.com.hk|~google.com.jm|~google.com.kh|~google.com.kw|~google.com.lb|~google.com.ly|~google.com.mm|~google.com.mt|~google.com.mx|~google.com.my|~google.com.na|~google.com.nf|~google.com.ng|~google.com.ni|~google.com.np|~google.com.om|~google.com.pa|~google.com.pe|~google.com.pg|~google.com.ph|~google.com.pk|~google.com.pr|~google.com.py|~google.com.qa|~google.com.sa|~google.com.sb|~google.com.sg|~google.com.sl|~google.com.sv|~google.com.tj|~google.com.tr|~google.com.tw|~google.com.ua|~google.com.uy|~google.com.vc|~google.com.vn|~google.cv|~google.cz|~google.de|~google.dj|~google.dk|~google.dm|~google.dz|~google.ee|~google.es|~google.fi|~google.fm|~google.fr|~google.ga|~google.ge|~google.gg|~google.gl|~google.gm|~google.gp|~google.gr|~google.gy|~google.hn|~google.hr|~google.ht|~google.hu|~google.ie|~google.im|~google.iq|~google.is|~google.it|~google.je|~google.jo|~google.kg|~google.ki|~google.kz|~google.la|~google.li|~google.lk|~google.lt|~google.lu|~google.lv|~google.md|~google.me|~google.mg|~google.mk|~google.ml|~google.mn|~google.ms|~google.mu|~google.mv|~google.mw|~google.ne|~google.nl|~google.no|~google.nr|~google.nu|~google.pl|~google.pn|~google.ps|~google.pt|~google.ro|~google.rs|~google.ru|~google.rw|~google.sc|~google.se|~google.sh|~google.si|~google.sk|~google.sm|~google.sn|~google.so|~google.st|~google.td|~google.tg|~google.tk|~google.tl|~google.tm|~google.tn|~google.to|~google.tt|~google.vg|~google.vu|~google.ws|~ingress.com|~panoramio.com|~youtube.com
-||gopjn.com^$third-party,domain=~ebay.at|~ebay.ba|~ebay.be|~ebay.ca|~ebay.ch|~ebay.cn|~ebay.co.jp|~ebay.co.kr|~ebay.co.uk|~ebay.com|~ebay.com.au|~ebay.com.hk|~ebay.com.my|~ebay.com.ph|~ebay.com.sg|~ebay.com.tw|~ebay.de|~ebay.es|~ebay.fr|~ebay.ie|~ebay.in|~ebay.it|~ebay.nl|~ebay.pl
 ||gorillanation.com^$third-party,domain=~evolvemediacorp.com
 ||gosquared.com^$third-party
 ||gostats.com^$third-party
@@ -1012,7 +1010,7 @@
 ||hittail.com^$third-party,domain=~thenumagroup.com
 ||hlserve.com^$third-party,domain=~criteo.com|~criteo.net
 ||hooklogic.com^$third-party,domain=~criteo.com|~criteo.net
-||horyzon-media.com^$third-party,domain=~meetic-partners.com|~smartadserver.com
+||horyzon-media.com^$third-party
 ||hostingcloud.racing^$third-party,domain=~jsecoin.com
 ||hostingcloud.science^$third-party,domain=~jsecoin.com
 ||hotelchamp.com^$third-party
@@ -1275,7 +1273,7 @@
 ||medley.com^$third-party,domain=~amigos.com|~getiton.com|~nostringsattached.com|~various.com
 ||meebo.com^$third-party
 ||meebocdn.net^$third-party,domain=~meebo.com
-||meetic-partners.com^$third-party,domain=~horyzon-media.com|~smartadserver.com
+||meetic-partners.com^$third-party,domain=~chemistry.com|~match.com
 ||megaindex.ru^$third-party
 ||mepirtedic.com^$third-party,domain=~mineralt.io|~vidzi.nu|~vidzi.tv
 ||mercadopago.com^$third-party,domain=~mercadolibre.cl|~mercadolibre.co.cr|~mercadolibre.com|~mercadolibre.com.ar|~mercadolibre.com.bo|~mercadolibre.com.co|~mercadolibre.com.do|~mercadolibre.com.ec|~mercadolibre.com.gt|~mercadolibre.com.hn|~mercadolibre.com.mx|~mercadolibre.com.ni|~mercadolibre.com.pa|~mercadolibre.com.pe|~mercadolibre.com.py|~mercadolibre.com.sv|~mercadolibre.com.uy|~mercadolibre.com.ve|~mercadolivre.com.br
@@ -1502,17 +1500,12 @@
 ||pixel.sg^$third-party
 ||piximedia.com^$third-party
 ||pixlee.com^$third-party
-||pjatr.com^$third-party,domain=~radial.com
-||pjtra.com^$third-party,domain=~radial.com
 ||platform-one.co.jp^$third-party,domain=~www.platform-one.co.jp
 ||plista.com^$third-party
 ||plugin.management^$third-party,domain=~salesintelligence.pl
 ||plus.google.com^$third-party
 ||plusone.google.com^$third-party
 ||pm14.com^$third-party,domain=~compete.com|~decdna.net|~groupm.com|~kantarmedia.com|~mecglobal.com|~mindshareworld.com|~themig.com|~wpp.com|~xaxis.com
-||pntra.com^$third-party,domain=~radial.com
-||pntrac.com^$third-party,domain=~radial.com
-||pntrs.com^$third-party,domain=~radial.com
 ||po.st^$third-party
 ||pocketcents.com^$third-party
 ||pointroll.com^$third-party,domain=~gannett.com
@@ -1733,7 +1726,7 @@
 ||skimresources.com^$third-party,domain=~skimlinks.com
 ||skupenet.com^$third-party,domain=~adcentriconline.com
 ||smaato.com^$third-party
-||smartadserver.com^$third-party,domain=~horyzon-media.com|~meetic-partners.com
+||smartadserver.com^$third-party
 ||smartclip.com^$third-party,domain=~amobee.com
 ||smartlook.com^$third-party
 ||smartyads.com^$third-party
@@ -1809,6 +1802,7 @@
 ||successfultogether.co.uk^$third-party,domain=~affili.net|~affilinet-inside.de
 ||suite66.com^$third-party
 ||summitmedia.co.uk^$third-party,domain=~summit.co.uk|~www.summit.co.uk
+||superfish.com^$third-party
 ||supersonicads.com^$third-party
 ||survata.com^$third-party
 ||svlu.net^$third-party,domain=~seevolution.com
@@ -2032,7 +2026,6 @@
 ||woopra.com^$third-party,domain=~woopra-ns.com
 ||wordstream.com^$third-party
 ||wowanalytics.co.uk^$third-party
-||wp.pl^$third-party,domain=~adtotal.pl
 ||wpp.com^$third-party,domain=~compete.com|~decdna.net|~groupm.com|~kantarmedia.com|~mecglobal.com|~mindshareworld.com|~themig.com|~xaxis.com
 ||wrethicap.info^$third-party,domain=~ad-maven.com
 ||wsservices.org^$third-party,domain=~authedmine.com|~coinhive.com
