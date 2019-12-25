@@ -426,6 +426,8 @@
 @@||nflcdn.com^*/ad.js$script,domain=nfl.com
 ! Adblock-Tracking: cbc.ca
 @@||cbc.ca/g/stats/js/ads.js$script,domain=cbc.ca
+! Anti-Adblock: bild.de
+@@||asadcdn.com/adlib/$script,stylesheet,domain=bild.de
 ! Adblock-Tracking: computerbase.de
 @@||computerbase.de/js/ads.$script,xmlhttprequest,domain=computerbase.de
 ! Adblock-Tracking: (News corp AU sites)
