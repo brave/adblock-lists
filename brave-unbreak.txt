@@ -191,7 +191,7 @@
 @@||web-scripts.vice.com/ad.vice.com/$script,domain=vice.com
 ! Anti-adblock: dianomi-anti-adblock
 @@||reuters.com/ads.js$script,domain=reuters.com
-@@/adframe/*$image,domain=golem.de|pcwelt.de|reuters.com|formel1.de|hardwareluxx.de
+@@/adiframe/*$image,domain=golem.de|pcwelt.de|reuters.com|formel1.de|hardwareluxx.de
 @@||golem.de/*&adserv$script,domain=golem.de
 @@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
 ! Anti-adblock: neowin.net
