@@ -385,9 +385,10 @@
 ||arkwrightshomebrew.com^$third-party,domain=~whiskyandwines.com
 ||assoc-amazon.com^$third-party,domain=~6pm.com|~abebooks.co.uk|~abebooks.com|~abebooks.de|~abebooks.fr|~abebooks.it|~acx.com|~alexa.com|~amazon.ae|~amazon.ca|~amazon.cn|~amazon.co.jp|~amazon.co.uk|~amazon.com|~amazon.com.au|~amazon.com.br|~amazon.com.mx|~amazon.com.sg|~amazon.com.tr|~amazon.de|~amazon.es|~amazon.fr|~amazon.in|~amazon.it|~amazon.nl|~amazon.sa|~amazonaws.com|~amazoninspire.com|~audible.co.jp|~audible.co.uk|~audible.com|~audible.de|~audible.fr|~audible.in|~audible.it|~bookdepository.com|~boxofficemojo.com|~brilliancepublishing.com|~comixology.com|~createspace.com|~dpreview.com|~dpreview.in|~eastdane.com|~fabric.com|~goodreads.com|~iberlibro.com|~imdb.com|~imdb.de|~junglee.com|~look.com|~pillpack.com|~shopbop.com|~souq.com|~twitch.com|~twitch.tv|~wholefoodsmarket.com|~withoutabox.com|~woot.com|~yoyo.com|~zappos.com|~zvab.com
 ||aster18cdn.nl^$third-party,domain=~mineralt.io|~vidzi.nu|~vidzi.tv
+||at-o.net^$third-party,domain=~atinternet.com|~xiti.com
 ||atdmt.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~messenger.com|~oculus.com|~workplace.com
 ||atemda.com^$third-party,domain=~admeta.com
-||atinternet.com^$third-party,domain=~hit-parade.com|~xiti.com
+||atinternet.com^$third-party,domain=~xiti.com
 ||atlassolutions.com^$third-party,domain=~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~messenger.com|~oculus.com|~workplace.com
 ||atoomic.com^$third-party
 ||atrinsic.com^$third-party
@@ -727,6 +728,7 @@
 ||digitaltarget.ru^$third-party
 ||digitalwindow.com^$third-party,domain=~awin.com
 ||digitize.ie^$third-party
+||digitru.st^$third-party,domain=~iabtechlab.com
 ||dinclinx.com^$third-party,domain=~madisonlogic.com
 ||dinorslick.icu^$third-party,domain=~mineralt.io|~vidzi.nu|~vidzi.tv
 ||directadvert.ru^$third-party
@@ -1038,6 +1040,7 @@
 ||ic-live.com^$third-party,domain=~hearst.com|~iclive.com|~icrossing.com|~raasnet.com
 ||iclive.com^$third-party,domain=~hearst.com|~ic-live.com|~icrossing.com|~raasnet.com
 ||icrossing.com^$third-party,domain=~hearst.com|~ic-live.com|~iclive.com|~raasnet.com
+||id5-sync.com^$third-party,domain=~id5.io
 ||idg.com^$third-party,domain=~idgtechnetwork.com
 ||idgtechnetwork.com^$third-party,domain=~idg.com
 ||ientry.com^$third-party,domain=~600z.com
@@ -1131,6 +1134,7 @@
 ||kenshoo.com^$third-party,domain=~xg4ken.com
 ||keyade.com^$third-party
 ||keymetric.net^$third-party
+||keywee.co^$third-party
 ||keywordmax.com^$third-party,domain=~digitalriver.com|~netflame.cc
 ||kissinsights.com^$third-party,domain=~qualaroo.com
 ||kissmetrics.com^$third-party
@@ -1728,6 +1732,7 @@
 ||smaato.com^$third-party
 ||smartadserver.com^$third-party
 ||smartclip.com^$third-party,domain=~amobee.com
+||smartlock.google.com^$third-party
 ||smartlook.com^$third-party
 ||smartyads.com^$third-party
 ||smileymedia.com^$third-party
@@ -1787,6 +1792,7 @@
 ||steelhousemedia.com^$third-party,domain=~steelhouse.com
 ||stickyadstv.com^$third-party,domain=~freewheel.tv|~fwmrm.net
 ||storeland.ru^$third-party
+||storetail.io^$third-party,domain=~criteo.com|~criteo.net
 ||stormiq.com^$third-party,domain=~dc-storm.com
 ||storygize.com^$third-party
 ||storygize.net^$third-party,domain=~storygize.com
@@ -1801,6 +1807,7 @@
 ||sublimemedia.net^$third-party,domain=~eyeconomy.co.uk
 ||successfultogether.co.uk^$third-party,domain=~affili.net|~affilinet-inside.de
 ||suite66.com^$third-party
+||summerhamster.com^$third-party,domain=~sourcepoint.com
 ||summitmedia.co.uk^$third-party,domain=~summit.co.uk|~www.summit.co.uk
 ||superfish.com^$third-party
 ||supersonicads.com^$third-party
@@ -1827,6 +1834,7 @@
 ||tattomedia.com^$third-party
 ||teadma.com^$third-party
 ||teads.tv^$third-party
+||tealiumiq.com^$third-party,domain=~tealium.com
 ||technorati.com^$third-party
 ||technoratimedia.com^$third-party,domain=~technorati.com
 ||techsolutions.com.tw^$third-party
@@ -2041,7 +2049,7 @@
 ||xg4ken.com^$third-party,domain=~kenshoo.com
 ||xgraph.com^$third-party,domain=~addthis.com
 ||xgraph.net^$third-party,domain=~addthis.com
-||xiti.com^$third-party,domain=~atinternet.com|~hit-parade.com
+||xiti.com^$third-party,domain=~atinternet.com
 ||xmladed.com^$third-party,domain=~quisma.com
 ||xplosion.de^$third-party
 ||xplusone.com^$third-party,domain=~rfihub.com|~rfihub.net|~rocketfuel.com
