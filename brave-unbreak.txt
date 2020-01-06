@@ -326,10 +326,10 @@
 @@||list-manage.com/signup-form/settings?$domain=mailchi.mp
 ! Allow sites to use signup forms from list-manage
 @@||list-manage.com/subscribe/$script,third-party
-! Anti-adblock: indiatimes.com
+! Anti-adblock: indiatimes.com / timesofindia.com
 @@||indiatimes.com/ads.cms$script,domain=indiatimes.com
-@@/ad-banner-zedo/*$image,domain=indiatimes.com
-@@||timesofindia.indiatimes.com/acms/$xmlhttprequest,domain=indiatimes.com
+@@/ad-banner-zedo/*$image,domain=indiatimes.com|timesofindia.com
+@@||timesofindia.com/acms/$xmlhttprequest,domain=timesofindia.com
 ! Adblock-Tracking:indiatoday.in
 @@||indiatoday.in/sites/all/modules/custom/itg_ads_blocker/js/ads.js$script,domain=indiatoday.in
 ! Adblock-Tracking: amazon.com + amazon regional
