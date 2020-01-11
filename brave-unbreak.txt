@@ -449,6 +449,7 @@
 ! Fix twitter images 
 @@||pbs.twimg.com/media/$image,third-party
 @@||pbs.twimg.com/profile_images/$image,third-party
+@@||pbs.twimg.com/amplify_video_thumb/$image,third-party
 ! Anti-adblock tracking Prometheus Global Media
 @@||pgmcdn.com/advertisement.js$script,domain=billboard.com|hollywoodreporter.com|vibe.com
 ! Adblock tradcking: defenseone.com
