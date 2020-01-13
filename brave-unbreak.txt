@@ -34,6 +34,8 @@
 ! theatlantic.com anti-blocker filters
 ||theatlantic.blueconic.net$domain=theatlantic.com
 ||theatlantic.com/please-support-us^
+! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
+||skepticalscience.net/widgets/heat_widget/js/heat_content.js$script,domain=skepticalscience.com
 ! adops.com unusable without this
 @@||adops.com^$~third-party
 @@||www.scrumpoker.online^$~third-party
