@@ -377,6 +377,20 @@
 ! ABP Japanese blocking: Google
 @@||googleusercontent.com/videoplayback?$domain=google.com
 @@||googlevideo.com/videoplayback?$xmlhttprequest,domain=youtube.com
+! ABP Japanese blocking: Youtube (reverse ABP-JPN filters)
+|http:*?*&ip=$third-party,badfilter
+|https:*?*&ip=$third-party,badfilter
+/annotations_$domain=youtube.com,badfilter
+/watch_autoplayrenderer.$script,domain=youtube.com,badfilter
+||s.youtube.com^$domain=youtube.com,badfilter
+||s2.youtube.com^$domain=youtube.com,badfilter
+||youtube.com/api/stats/$domain=youtube.com,badfilter
+||youtube.com/youtubei/$domain=youtube.com,badfilter
+||youtube.com/set_awesome?$domain=youtube.com,badfilter
+||youtube.com/get_video?$domain=youtube.com,badfilter
+||ytimg.com^*_background_$image,object,subdocument,badfilter
+||ytimg.com^*_banner.$image,object,subdocument,badfilter
+||ytimg.com^*_banner_$image,object,subdocument,badfilter
 ! ABP Japanese blocking Aliexpress (https://github.com/k2jp/abp-japanese-filters/issues?utf8=✓&q=is%3Aissue+aliexpress)
 @@||aliexpress.com^$~third-party
 ! Anti-adblock: laptopmedia.com
