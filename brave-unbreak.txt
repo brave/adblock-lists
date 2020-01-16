@@ -323,6 +323,8 @@
 ! Adblock-Tracking: foxnews.com / foxbusiness.com
 ||fncstatic.com^*/google-funding-choices.js$script,domain=foxbusiness.com|foxnews.com
 @@||fncstatic.com/static/v/all/js/ads.js$script,domain=foxbusiness.com|foxnews.com
+! Anti-adblock message (fundingchoices)
+@@||fundingchoicesmessages.google.com^$script,domain=marca.com
 ! redditcommentsearch.com (https://community.brave.com/t/redditcommentsearch-doesnt-work-with-shields-on/66496)
 @@||pay.reddit.com/user/$script,domain=redditcommentsearch.com
 ! Adblock-Tracking: vg247.com
