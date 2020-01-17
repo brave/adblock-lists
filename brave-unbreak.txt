@@ -376,6 +376,16 @@
 ! bandai-hobby.net (maxmind check causing blank pages)
 @@||js.maxmind.com/js/apis/geoip2/v2.1/geoip2.js$script,domain=bandai-hobby.net
 @@||geoip-js.maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net
+! ABP Japanese problematic filters
+|http:*^ad-$badfilter
+|https:*^ad-$badfilter
+|http:*^ad.$badfilter
+|https:*^ad.$badfilter
+|http:*^ad^$badfilter
+|https:*^ad^$badfilter
+|http:*^ad_$badfilter
+|https:*^ad_$badfilter
+|https:*_ad_$badfilter
 ! ABP Japanese blocking: Google
 @@||googleusercontent.com/videoplayback?$domain=google.com
 @@||googlevideo.com/videoplayback?$xmlhttprequest,domain=youtube.com
