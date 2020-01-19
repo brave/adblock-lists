@@ -62,7 +62,7 @@
 ! https://github.com/brave/adblock-lists/issues/39
 @@||alb.reddit.com^
 ! Allow sites to use reddit api
-@@||reddit.com^*/.json?$script,xmlhttprequest,third-party
+@@||reddit.com^*.json?$script,xmlhttprequest,third-party
 @@||reddit.com^*/access_token$xmlhttprequest,third-party
 @@||oauth.reddit.com^$xmlhttprequest
 @@||reddit.com/mediaembed/$subdocument,third-party
