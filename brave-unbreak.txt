@@ -478,6 +478,7 @@
 ! Fix twitter images 
 @@||pbs.twimg.com/media/$image,third-party
 @@||pbs.twimg.com/ext_tw_video_thumb/$image,third-party
+@@||abs.twimg.com/emoji/$image,third-party
 @@||pbs.twimg.com/profile_images/$image,third-party
 @@||pbs.twimg.com/amplify_video_thumb/$image,third-party
 ! Anti-adblock tracking Prometheus Global Media
