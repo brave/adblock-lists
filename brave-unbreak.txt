@@ -72,6 +72,8 @@
 @@||reddit.com/static/button/$subdocument,third-party
 ! Adblock Tracking
 @@||redditstatic.com^*/ads.js$script,domain=reddit.com
+! Non-clickable links due to uBo/unbreak
+@@||elconfidencial.com/*/EventTracker.js$script,1p,badfilter
 ! Allow twitter.com readahead (using the twitter api)
 @@||twitter.com/i/search/typeahead.json$third-party
 ! DDG 1P analytics and optimization
