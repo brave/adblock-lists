@@ -24,6 +24,7 @@
 ||aps.hearstnp.com^$script,image
 ! Sailthru native ad aggregator fix
 ||ak.sail-horizon.com^$script,image
+@@||ak.sail-horizon.com/spm/$script,domain=wwe.com
 ! vendors serving video ads and tracking via proxied requests
 ||vidazoo.com/aggregate^$third-party
 ||vidazoo.com/proxy^$third-party
