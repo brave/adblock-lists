@@ -449,6 +449,8 @@
 @@||adziff.com/ab/ads.js$xmlhttprequest,domain=pcmag.com|geek.com|extremetech.com
 ! Fix nudatasecurity.com (captcha)
 @@||nudatasecurity.com^*/captcha?$image,third-party
+! Anti-adblock: gazzetta.it
+@@||rcsobjects.it^*/openx/$script,domain=gazzetta.it
 ! Anti-adblock: geoguessr.com
 @@||geoguessr.com/_ads/$script,xmlhttprequest,domain=geoguessr.com
 ! ssrn.com login fix
