@@ -194,12 +194,15 @@
 ! Adblock-Tracking: vice.com
 @@||web-scripts.vice.com/ad.vice.com/$script,domain=vice.com
 ! Anti-adblock: dianomi-anti-adblock
+@@||pcwelt.de^$generichide
+@@||formel1.de^$generichide
+@@||finanzen.net^$generichide
+@@||hardwareluxx.de^$generichide
+@@||golem.de^$generichide
+@@/ad*.$image,domain=hardwareluxx.de|formel1.de|reuters.com|golem.de|finanzen.net|autobild.de
 @@||reuters.com/ads.js$script,domain=reuters.com
-@@||hardwareluxx.de/images/$image,domain=hardwareluxx.de
-@@||formel1.de/public/$image,domain=formel1.de
-@@||reutersmedia.net/resources/$image,domain=reuters.com
-@@||isondled.net^$image,domain=pcwelt.de
 @@||golem.de/*&adserv$script,domain=golem.de
+@@||autobild.de/*&adserv$script,domain=autobild.de
 @@||golem.de^*/showAds.js$script,domain=golem.de
 @@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
 ! Anti-adblock: neowin.net
