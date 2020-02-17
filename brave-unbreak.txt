@@ -199,9 +199,10 @@
 @@||finanzen.net^$generichide
 @@||hardwareluxx.de^$generichide
 @@||golem.de^$generichide
-@@/ad*.$image,domain=hardwareluxx.de|formel1.de|reuters.com|golem.de|finanzen.net
+@@/ad*.$image,domain=hardwareluxx.de|formel1.de|reuters.com|golem.de|finanzen.net|autobild.de
 @@||reuters.com/ads.js$script,domain=reuters.com
 @@||golem.de/*&adserv$script,domain=golem.de
+@@||autobild.de/*&adserv$script,domain=autobild.de
 @@||golem.de^*/showAds.js$script,domain=golem.de
 @@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
 ! Anti-adblock: neowin.net
