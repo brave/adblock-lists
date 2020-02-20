@@ -262,10 +262,11 @@
 ! Fix yandex.ru blocking on 3dnews.ru
 ||aflt.market.yandex.ru^$script,third-party
 ! rambler.ru issues
-@@||myqualification.rambler.ru^$xmlhttprequest,image,stylesheet,domain=gazeta.ru|lenta.ru
-@@||rambler.ru/api/$xmlhttprequest,domain=gazeta.ru
-@@||subscriptions.rambler.ru^$subdocument,script,domain=gazeta.ru
-@@||rambler.ru/widget.js$script,domain=gazeta.ru
+@@||myqualification.rambler.ru^$xmlhttprequest,image,stylesheet
+@@||rambler.ru/api/$xmlhttprequest
+@@||id.rambler.ru^$script,xmlhttprequest
+@@||subscriptions.rambler.ru^$subdocument,script
+@@||rambler.ru/widget.js$script
 ! Adblock-Tracking: gazeta.ru
 @@||gazeta.ru^*/advertising.js$script,domain=gazeta.ru
 ! Adblock-Tracking: nytimes.com
