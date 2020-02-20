@@ -151,6 +151,8 @@
 @@||imgbox.com/site_ads.js$script,domain=imgbox.com
 ! thothub.tv (NSFW)
 @@||awemwh.com^$media,domain=thothub.tv
+! Allow godaddy signup forums
+@@||godaddy.com/signups/$subdocument
 ! Adblock-Tracking: cbs sites
 @@||cbsistatic.com^*/advertisement*.js$script,domain=zdnet.com|techrepublic.com
 ! Fix https://github.com/brave/brave-browser/issues/4507 (mirrors uBO fix, rewritten so that brave/ad-block supports)
