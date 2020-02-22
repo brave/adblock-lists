@@ -22,6 +22,9 @@
 ||aka-cdn-ns.adtech.de^$script,image,domain=aftonbladet.se|expressen.se
 ! Hearst anti-ad blocking fix
 ||aps.hearstnp.com^$script,image
+! stats.brave.com
+stats.brave.com#@#adsContent
+@@||stats.brave.com/local/img/publisher-icons/$domain=stats.brave.com
 ! Sailthru native ad aggregator fix
 ||ak.sail-horizon.com^$script,image
 @@||ak.sail-horizon.com/spm/$script,domain=wwe.com
