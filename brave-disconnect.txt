@@ -326,6 +326,7 @@
 ||aidata.me^$third-party,domain=~advombat.ru
 ||aim4media.com^$third-party
 ||aimatch.com^$third-party,domain=~sas.com
+||airpr.com^$third-party,domain=~onclusive.com
 ||airpush.com^$third-party
 ||aivalabs.com^$third-party
 ||akncdn.com^$third-party,domain=~adkeeper.com|~keep.com
@@ -337,6 +338,7 @@
 ||alflying.win^$third-party,domain=~alflying.date|~anybest.site|~flightsy.bid|~flightsy.win|~flightzy.bid|~flightzy.date|~flightzy.win|~zymerget.bid|~zymerget.faith
 ||allstarmediagroup.com^$third-party
 ||aloodo.com^$third-party
+||altergeo.ru^$third-party
 ||am.ua^$third-party,domain=~autocentre.ua
 ||amadesa.com^$third-party
 ||amazingcounters.com^$third-party
@@ -377,7 +379,7 @@
 ||applovin.com^$third-party
 ||appmetrx.com^$third-party,domain=~engago.com
 ||appnexus.com^$third-party,domain=~adlantic.nl|~adnxs.com|~adrdgt.com
-||apps.fbsbx.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~messenger.com|~oculus.com|~workplace.com
+||apps.fbsbx.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~workplace.com
 ||appsflyer.com^$third-party
 ||appssavvy.com^$third-party
 ||aprecision.net^$third-party,domain=~adprecision.net|~adprs.net
@@ -387,10 +389,10 @@
 ||assoc-amazon.com^$third-party,domain=~6pm.com|~abebooks.co.uk|~abebooks.com|~abebooks.de|~abebooks.fr|~abebooks.it|~acx.com|~alexa.com|~amazon.ae|~amazon.ca|~amazon.cn|~amazon.co.jp|~amazon.co.uk|~amazon.com|~amazon.com.au|~amazon.com.br|~amazon.com.mx|~amazon.com.sg|~amazon.com.tr|~amazon.de|~amazon.es|~amazon.fr|~amazon.in|~amazon.it|~amazon.nl|~amazon.sa|~amazonaws.com|~amazoninspire.com|~audible.co.jp|~audible.co.uk|~audible.com|~audible.de|~audible.fr|~audible.in|~audible.it|~bookdepository.com|~boxofficemojo.com|~brilliancepublishing.com|~comixology.com|~createspace.com|~dpreview.com|~dpreview.in|~eastdane.com|~fabric.com|~goodreads.com|~iberlibro.com|~imdb.com|~imdb.de|~junglee.com|~look.com|~pillpack.com|~shopbop.com|~souq.com|~twitch.com|~twitch.tv|~wholefoodsmarket.com|~withoutabox.com|~woot.com|~yoyo.com|~zappos.com|~zvab.com
 ||aster18cdn.nl^$third-party,domain=~mineralt.io|~vidzi.nu|~vidzi.tv
 ||at-o.net^$third-party,domain=~atinternet.com|~xiti.com
-||atdmt.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~messenger.com|~oculus.com|~workplace.com
+||atdmt.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~workplace.com
 ||atemda.com^$third-party,domain=~admeta.com
 ||atinternet.com^$third-party,domain=~xiti.com
-||atlassolutions.com^$third-party,domain=~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~messenger.com|~oculus.com|~workplace.com
+||atlassolutions.com^$third-party,domain=~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~workplace.com
 ||atoomic.com^$third-party
 ||atrinsic.com^$third-party
 ||att.com^$third-party,domain=~yp.com
@@ -667,6 +669,7 @@
 ||criteo.com^$third-party,domain=~criteo.net
 ||criteo.net^$third-party,domain=~criteo.com
 ||crm-metrix.com^$third-party,domain=~customerconversio.com|~metrixlab.com|~opinionbar.com
+||crm4d.com^$third-party,domain=~graphinium.com
 ||crosspixel.net^$third-party
 ||crosspixelmedia.com^$third-party,domain=~crosspixel.net
 ||crowdscience.com^$third-party
@@ -858,10 +861,10 @@
 ||eyeviewdigital.com^$third-party
 ||eyewonder.com^$third-party,domain=~dgit.com|~sizmek.com
 ||eztargetmedia.com^$third-party,domain=~terra.com.br|~www.terra.com.br
-||facebook.com^$third-party,domain=~atlassolutions.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~messenger.com|~oculus.com|~workplace.com
-||facebook.de^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~messenger.com|~oculus.com|~workplace.com
-||facebook.fr^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~messenger.com|~oculus.com|~workplace.com
-||facebook.net^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~messenger.com|~oculus.com|~workplace.com
+||facebook.com^$third-party,domain=~atlassolutions.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~workplace.com
+||facebook.de^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~workplace.com
+||facebook.fr^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~workplace.com
+||facebook.net^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~workplace.com
 ||facilitatedigital.com^$third-party,domain=~adsfac.eu|~adsfac.net|~adsfac.us
 ||factortg.com^$third-party
 ||fairfax.com.au^$third-party,domain=~fxj.com.au|~www.fxj.com.au
@@ -871,8 +874,8 @@
 ||fastclick.net^$third-party,domain=~conversantmedia.com
 ||fathomdelivers.com^$third-party,domain=~fathomseo.com
 ||fathomseo.com^$third-party,domain=~fathomdelivers.com
-||fb.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~messenger.com|~oculus.com|~workplace.com
-||fbsbx.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~messenger.com|~oculus.com|~workplace.com
+||fb.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~workplace.com
+||fbsbx.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~workplace.com
 ||federatedmedia.net^$third-party,domain=~hyfn.com|~lijit.com
 ||feedjit.com^$third-party
 ||feedperfect.com^$third-party,domain=~web.com
@@ -911,7 +914,8 @@
 ||freecontent.stream^$third-party,domain=~jsecoin.com
 ||freedom.com^$third-party
 ||freeonlineusers.com^$third-party
-||friendfeed.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~instagram.com|~messenger.com|~oculus.com|~workplace.com
+||freeskreen.com^$third-party,domain=~telaria.com
+||friendfeed.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~workplace.com
 ||frogsex.com^$third-party,domain=~double-check.com
 ||ftjcfx.com^$third-party,domain=~cj.com
 ||fuel451.com^$third-party,domain=~fuelx.com
@@ -1097,6 +1101,8 @@
 ||ioam.de^$third-party,domain=~infonline.de
 ||ipcounter.de^$third-party,domain=~directcorp.de
 ||iperceptions.com^$third-party
+||iponweb.com^$third-party
+||iponweb.net^$third-party,domain=~iponweb.com
 ||ipredictive.com^$third-party,domain=~adelphic.com
 ||iprom.net^$third-party,domain=~centraliprom.com|~iprom.si|~mediaiprom.com
 ||iprom.si^$third-party,domain=~centraliprom.com|~iprom.net|~mediaiprom.com
@@ -1186,7 +1192,7 @@
 ||liveintent.com^$third-party
 ||liveinternet.ru^$third-party,domain=~yadro.ru
 ||liveperson.com^$third-party,domain=~liveperson.net
-||liveramp.com^$third-party,domain=~rapleaf.com|~rlcdn.com
+||liveramp.com^$third-party
 ||lkqd.com^$third-party,domain=~lkqd.net
 ||lkqd.net^$third-party,domain=~lkqd.com
 ||localyokelmedia.com^$third-party
@@ -1392,6 +1398,7 @@
 ||nielsen.com^$third-party,domain=~glanceguide.com|~imrworldwide.com|~imrworldwide.net
 ||ninua.com^$third-party,domain=~networkedblogs.com
 ||noktamedya.com^$third-party,domain=~virgul.com
+||nonstoppartner.net^$third-party
 ||nostringsattached.com^$third-party,domain=~amigos.com|~getiton.com|~medley.com|~various.com
 ||notepad.yahoo.com^$third-party
 ||nowspots.com^$third-party
@@ -1478,6 +1485,7 @@
 ||payhit.com^$third-party
 ||paymentsmb.com^$third-party
 ||paypopup.com^$third-party
+||pbbl.co^$third-party,domain=~pebblepost.com
 ||pch.com^$third-party
 ||peer39.com^$third-party,domain=~peer39.net
 ||peer39.net^$third-party,domain=~peer39.com
@@ -1586,7 +1594,7 @@
 ||radiumone.com^$third-party
 ||radiusmarketing.com^$third-party
 ||rambler.ru^$third-party
-||rapleaf.com^$third-party,domain=~liveramp.com|~rlcdn.com
+||rapleaf.com^$third-party,domain=~rlcdn.com
 ||ratevoice.com^$third-party,domain=~socialinterface.com
 ||reachlocal.com^$third-party,domain=~rlcdn.net
 ||react2media.com^$third-party
@@ -1634,7 +1642,7 @@
 ||rimmkaufman.com^$third-party,domain=~merkleinc.com|~rkdms.com
 ||ringier.cz^$third-party
 ||rkdms.com^$third-party,domain=~merkleinc.com
-||rlcdn.com^$third-party,domain=~liveramp.com|~rapleaf.com
+||rlcdn.com^$third-party,domain=~rapleaf.com
 ||rlcdn.net^$third-party,domain=~reachlocal.com
 ||rmbn.net^$third-party,domain=~traforet.com
 ||rmbn.ru^$third-party,domain=~rmbn.net|~traforet.com
@@ -1891,6 +1899,7 @@
 ||trafmag.com^$third-party
 ||traveladnetwork.com^$third-party,domain=~travoramedia.com
 ||traveladvertising.com^$third-party,domain=~travoramedia.com
+||traversedlp.com^$third-party,domain=~traversedata.com
 ||travoramedia.com^$third-party
 ||tremorhub.com^$third-party,domain=~tremorvideo.com
 ||tremormedia.com^$third-party,domain=~tremorvideo.com
@@ -1905,6 +1914,7 @@
 ||tumri.com^$third-party,domain=~collective.com
 ||tumri.net^$third-party,domain=~collective.com
 ||turn.com^$third-party,domain=~amobee.com|~smartclip.com
+||tvpixel.com^$third-party,domain=~liveramp.com
 ||tweetdeck.com^$third-party,domain=~digits.com|~fabric.io|~twitter.com|~twitter.jp
 ||twelvefold.com^$third-party,domain=~buzzlogic.com
 ||twimg.com^$third-party,domain=~digits.com|~fabric.io|~tweetdeck.com|~twitter.com|~twitter.jp
@@ -1997,6 +2007,7 @@
 ||wanmo.com^$third-party,domain=~51network.com|~uniqlick.com
 ||waterfrontmedia.com^$third-party,domain=~everydayhealth.com
 ||wave.google.com^$third-party
+||wayfair.com^$third-party
 ||web-stat.com^$third-party,domain=~webtrackingservices.com
 ||web-visor.com^$third-party,domain=~kinopoisk.ru|~moikrug.ru|~yadi.sk|~yandex.by|~yandex.com|~yandex.com.tr|~yandex.ru|~yandex.st|~yandex.ua
 ||web.com^$third-party,domain=~feedperfect.com
