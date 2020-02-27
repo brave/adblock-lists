@@ -463,6 +463,8 @@ stats.brave.com#@#adsContent
 @@||nudatasecurity.com^*/captcha?$image,third-party
 ! Anti-adblock: gazzetta.it
 @@||rcsobjects.it^*/openx/$script,domain=gazzetta.it
+! Anti-adblock: investing.com
+@@||akamaized.net/js/ads.js$script,domain=investing.com
 ! Anti-adblock: geoguessr.com
 @@||geoguessr.com/_ads/$script,xmlhttprequest,domain=geoguessr.com
 ! ssrn.com login fix
