@@ -313,6 +313,9 @@ stats.brave.com#@#adsContent
 @@||sftcdn.net/statics/ads.min.js$xmlhttprequest,domain=softonic.com
 ! Anti-adblock: thehindu.com
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
+! Anti-adblock: lapresse.ca
+||lapresse-ca.lapresse.ca^$domain=lapresse.ca
+@@||static.lpcdn.ca/lpweb/common/scripts/advertisement.js$script,domain=lapresse.ca
 ! Anti-adblock: brainyquote.com
 @@||brainyquote.com/st/js/3425190/displayad.js$script,domain=brainyquote.com
 ! Anti-adblock: notebookcheck.net / notebookcheck.com
