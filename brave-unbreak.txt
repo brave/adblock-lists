@@ -200,6 +200,8 @@ stats.brave.com#@#adsContent
 @@/doubleclick.js$xmlhttprequest,domain=realclearpolitics.com|realclearpolitics.com|realclearhealth.com|realclearreligion.org|realclearenergy.org|realclearhistory.com|realclearpolicy.com|realclearworld.com|realclearmarkets.com|realclearbooks.com|realcleareducation.com|realclearscience.com|realcleardefense.com
 ! Adblock-Tracking: vice.com
 @@||web-scripts.vice.com/ad.vice.com/$script,domain=vice.com
+! Anti-adblock: heise.de
+||usercentrics.eu^$third-party
 ! Anti-adblock: dianomi-anti-adblock
 @@||pcwelt.de^$generichide
 @@||formel1.de^$generichide
