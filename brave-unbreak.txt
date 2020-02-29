@@ -220,6 +220,8 @@ stats.brave.com#@#adsContent
 ||mdn.neowin.net^$domain=neowin.net
 ! Anti-adblock: grapevine.is
 @@||cloudfront.net/ad/ads.js$script,domain=grapevine.is
+! Anti-adblock: lewat.club
+@@||lewat.club/js/ads.js$script,domain=lewat.club
 ! Anti-adblock: zdnet.de
 @@||zdnet.de^*/advertising.js$script,domain=zdnet.de
 ! Anti-adblock: stream2watch.ws
