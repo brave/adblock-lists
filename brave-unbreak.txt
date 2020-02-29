@@ -182,6 +182,8 @@ stats.brave.com#@#adsContent
 @@||snmc.io^*/advertisement.js$script,domain=rateyourmusic.com
 ! Adblock-Tracking: kijiji.ca
 @@||classistatic.com^*/ads.js$script,domain=kijiji.ca
+! Anti-adblock: lewat.club
+@@||lewat.club/js/ads.js$script,domain=lewat.club
 ! Adblock-Tracking: explosm.net
 @@||explosm.net/js/adsense.js$script,domain=explosm.net
 ! Adblock-Tracking:  mediaite.com
