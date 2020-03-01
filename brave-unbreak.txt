@@ -88,8 +88,6 @@ stats.brave.com#@#adsContent
 @@||improving.duckduckgo.com^$~third-party
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
-! Allow 1P piwik since it's no different than server logs
-@@https://analytics.*/piwik.$~third-party
 ! Fix for Suicide Prevention Lifeline Chat (brave/brave-browser#3492)
 @@||geoplugin.net/javascript.gp$script,xmlhttprequest,domain=suicidepreventionlifeline.org
 ! Block additional trackers
