@@ -44,11 +44,11 @@ stats.brave.com#@#adsContent
 @@||adops.com^$~third-party
 @@||www.scrumpoker.online^$~third-party
 ! piwick/matomo
-@@/piwik.js$~third-party
-@@/piwik.php$~third-party
-@@/matomo-tracking.$~third-party
-@@/matomo.js$~third-party
-@@/matomo/*$~third-party
+@@/piwik.js$first-party
+@@/piwik.php$first-party
+@@/matomo-tracking.$first-party
+@@/matomo.js$first-party
+@@/matomo/*$first-party
 ! fixes for several requests bypassing default blocklists
 ||aolcdn.com/*/adsWrapper.js$script
 ||zergnet.com^$script,third-party
