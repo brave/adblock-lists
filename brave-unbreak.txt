@@ -325,6 +325,9 @@ stats.brave.com#@#adsContent
 @@||static.lpcdn.ca/lpweb/common/scripts/advertisement.js$script,domain=lapresse.ca
 ! Anti-adblock: brainyquote.com
 @@||brainyquote.com/st/js/3425190/displayad.js$script,domain=brainyquote.com
+! gleam.io
+@@||gleam.io/images/$image,third-party
+@@||gleam.io^*/embed?$subdocument,third-party
 ! Anti-adblock: notebookcheck.net / notebookcheck.com
 @@||notebookcheck-ru.com/ads.js$script,domain=notebookcheck.net|notebookcheck.com
 @@||static.h-bid.com/prebid/$script,domain=notebookcheck.net|notebookcheck.com
