@@ -141,9 +141,10 @@ stats.brave.com#@#adsContent
 @@||static.licdn.com/sc/p$tag=linked-in-embeds
 ! Fix addthis.com issues on rhmodern.com  https://github.com/brave/brave-browser/issues/3653
 @@||s7.addthis.com^$script,domain=rhmodern.com
-! Fix video playback on ctv.ca
-@@||license.9c9media.ca^$xmlhttprequest,domain=ctv.ca
-@@||auth.9c9media.ca^$script,domain=ctv.ca
+! 9c9media fixes
+@@||entpay.9c9media.ca^$image,xmlhttprequest,domain=crave.ca
+@@||license.9c9media.ca^$xmlhttprequest,domain=ctv.ca|crave.ca
+@@||auth.9c9media.ca^$script,domain=ctv.ca|crave.ca
 ! 2mdn video playback script
 @@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com|techrepublic.com
 ! suumo.jp (ios)
