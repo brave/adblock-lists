@@ -1947,7 +1947,6 @@
 ||usebutton.com^$third-party
 ||usemax.de^$third-party
 ||userapi.com^$third-party,domain=~vk.com
-||usocial.pro^$third-party
 ||v12data.com^$third-party,domain=~v12group.com
 ||v12group.com^$third-party,domain=~v12data.com
 ||valuead.com^$third-party
