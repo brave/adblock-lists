@@ -745,8 +745,8 @@ stats.brave.com#@#adsContent
 ! Russian specific rules
 mail.ru##.tgb__link
 mail.ru##.trg-banners
-mail.ru##.pulse-lenta
 mail.ru##.trg-b-banner
+||pulse.mail.ru^$script,domain=mail.ru
 ! Chinese specific rules
 /^https?:\/\/asset.bixjf.com\/[0-9]{4}\/[a-z]{2,}\/[0-9].*(.jpg$)/$image,domain=imkan.tv
 /^https?:\/\/asset.bixjf.com\/[0-9]{4}\/ad\/[0-9].*/$domain=imkan.tv
