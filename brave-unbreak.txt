@@ -158,7 +158,7 @@ stats.brave.com#@#adsContent
 ! Adblock-Tracking: imgbox.com
 @@||imgbox.com/site_ads.js$script,domain=imgbox.com
 ! weather.com "Your privacy" dialogbox
-||weather.com/weather/*.PrivacyDataNotice.$domain=weather.com
+||weather.com/*.PrivacyDataNotice.$domain=weather.com
 ! thothub.tv (NSFW)
 @@||awemwh.com^$media,domain=thothub.tv
 ! Allow godaddy signup forums
