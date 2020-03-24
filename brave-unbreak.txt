@@ -157,6 +157,8 @@ stats.brave.com#@#adsContent
 @@||irishmirror.ie^*/ads.js$script,domain=irishmirror.ie
 ! Adblock-Tracking: imgbox.com
 @@||imgbox.com/site_ads.js$script,domain=imgbox.com
+! weather.com "Your privacy" dialogbox
+||weather.com/weather/*.PrivacyDataNotice.$domain=weather.com
 ! thothub.tv (NSFW)
 @@||awemwh.com^$media,domain=thothub.tv
 ! Allow godaddy signup forums
