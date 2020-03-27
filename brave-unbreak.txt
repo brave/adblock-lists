@@ -147,6 +147,8 @@ stats.brave.com#@#adsContent
 @@||auth.9c9media.ca^$script,domain=ctv.ca|crave.ca|much.com
 ! 2mdn video playback script
 @@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com|techrepublic.com
+! Allow doubleclick clickthrough (ios)
+@@||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ! suumo.jp (ios)
 @@||suumo.jp/sp/js/beacon.js$script,domain=suumo.jp
 ! ups.com fix (ios)
