@@ -143,8 +143,8 @@ stats.brave.com#@#adsContent
 @@||s7.addthis.com^$script,domain=rhmodern.com
 ! 9c9media fixes
 @@||entpay.9c9media.ca^$image,xmlhttprequest,domain=crave.ca
-@@||license.9c9media.ca^$xmlhttprequest,domain=ctv.ca|crave.ca
-@@||auth.9c9media.ca^$script,domain=ctv.ca|crave.ca
+@@||license.9c9media.ca^$xmlhttprequest,domain=ctv.ca|crave.ca|much.com
+@@||auth.9c9media.ca^$script,domain=ctv.ca|crave.ca|much.com
 ! 2mdn video playback script
 @@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com|techrepublic.com
 ! suumo.jp (ios)
