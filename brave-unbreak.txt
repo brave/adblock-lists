@@ -149,6 +149,8 @@ stats.brave.com#@#adsContent
 @@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com|techrepublic.com
 ! Allow doubleclick clickthrough (ios)
 @@||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
+! ca.yahoo.com (ios)
+/av/ads/*$domain=yahoo.com
 ! suumo.jp (ios)
 @@||suumo.jp/sp/js/beacon.js$script,domain=suumo.jp
 ! ups.com fix (ios)
