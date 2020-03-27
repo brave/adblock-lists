@@ -148,7 +148,7 @@ stats.brave.com#@#adsContent
 ! 2mdn video playback script
 @@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com|techrepublic.com
 ! ca.yahoo.com (ios)
-/av/ads/*
+/av/ads/*$domain=yahoo.com
 ! suumo.jp (ios)
 @@||suumo.jp/sp/js/beacon.js$script,domain=suumo.jp
 ! ups.com fix (ios)
