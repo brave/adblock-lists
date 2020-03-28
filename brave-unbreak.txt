@@ -153,8 +153,8 @@ stats.brave.com#@#adsContent
 /av/ads/*$domain=yahoo.com
 ! suumo.jp (ios)
 @@||suumo.jp/sp/js/beacon.js$script,domain=suumo.jp
-! ups.com fix (ios)
-@@||usps.com/go/scripts/tracking.js$script,domain=usps.com
+! usps.com fix (ios)
+@@||tools.usps.com/go/scripts/tracking.js$script,domain=tools.usps.com
 ! Adblock-Tracking: theintercept.com
 @@||theintercept.com/ads.js$script,domain=theintercept.com
 ! Adblock-Tracking: irishmirror.ie
