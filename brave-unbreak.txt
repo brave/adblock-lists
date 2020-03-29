@@ -441,6 +441,8 @@ stats.brave.com#@#adsContent
 ||ytimg.com^*_banner_$image,object,subdocument,badfilter
 ! ABP Japanese blocking Aliexpress (https://github.com/k2jp/abp-japanese-filters/issues?utf8=✓&q=is%3Aissue+aliexpress)
 @@||aliexpress.com^$~third-party
+! Anti-adblock: pandora.com
+@@||pandora.com/web-version/*/ads.json$xmlhttprequest,domain=pandora.com
 ! Anti-adblock: laptopmedia.com
 @@||laptopmedia.com/ads.js$script,domain=laptopmedia.com
 ! Anti-adblock: ratemyteachers.com
