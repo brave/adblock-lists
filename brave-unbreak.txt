@@ -346,6 +346,8 @@ stats.brave.com#@#adsContent
 @@||fncstatic.com/static/isa/app/lib/VisitorAPI.js$script,domain=foxbusiness.com|foxnews.com
 ! Anti-adblock: thesaurus.com
 @@||thesaurus.com/assets/ads.js$xmlhttprequest,domain=thesaurus.com
+! Anti-adblock: filehorse.com
+@@||static.filehorse.com/js/ads.js$script,domain=filehorse.com
 ! Anti-adblock: rarbg
 @@||dyncdn.me^*/showads.js$script,domain=rarbg2019.org|rarbgaccess.org|rarbgmirror.com|rarbgproxied.org|rarbgmirrored.org|rarbgproxied.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|rarbg.to|rarbgunblock.com
 ! Adblock-Tracking: thenextweb.com
