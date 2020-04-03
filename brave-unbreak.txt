@@ -229,6 +229,7 @@ stats.brave.com#@#adsContent
 @@||autobild.de/*&adserv$script,domain=autobild.de
 @@||golem.de^*/showAds.js$script,domain=golem.de
 @@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
+hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamestar.de,tagesspiegel.de##+js(acis, parseInt)
 ! Anti-adblock: neowin.net
 ||mdn.neowin.net^$domain=neowin.net
 ! Anti-adblock: grapevine.is
