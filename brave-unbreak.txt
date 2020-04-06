@@ -28,6 +28,17 @@ stats.brave.com#@#adsContent
 ! Sailthru native ad aggregator fix
 ||ak.sail-horizon.com^$script,image
 @@||ak.sail-horizon.com/spm/$script,domain=wwe.com
+! (Cosmetic, Anti-adblock) forbes.com
+forbes.com#@#.AD355125
+forbes.com#@#.AD300x600-wrapper
+forbes.com#@#.AD300x250A
+forbes.com#@#.AD300x250
+forbes.com#@#.AD300Block
+forbes.com#@#.AD300
+forbes.com#@#.AD-POST
+forbes.com#@#.AD-RC-300x250
+forbes.com#@#.AD-Rotate
+forbes.com#@#.AD-label300x250
 ! vendors serving video ads and tracking via proxied requests
 ||vidazoo.com/aggregate^$third-party
 ||vidazoo.com/proxy^$third-party
