@@ -2,7 +2,7 @@
 @@||adm.fwmrm.net^*/AdManager.js$domain=msnbc.com|sky.com|cnbc.com
 ||novately.com^$third-party
 ||webspectator.com^$third-party
-! Twitch main video
+! Twitch main video 2
 ||cloudfront.net/esf.js$domain=twitch.tv
 ! LA Times forced-whitelisting modal fix
 ||tribdss.com/meter/assets$script,domain=www.latimes.com
