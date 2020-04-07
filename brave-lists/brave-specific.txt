@@ -1,0 +1,1 @@
+! Specific filters (Tracking or ads) for Brave
