@@ -109,6 +109,7 @@ forbes.com#@#.AD-label300x250
 ! Facebook logins and embeds
 @@||facebook.com^*/sdk.js$tag=fb-embeds
 @@||facebook.net^*/sdk.js$tag=fb-embeds 
+@@||facebook.net^*/all.js$tag=fb-embeds
 @@||facebook.net^*/fbds.js$tag=fb-embeds
 @@||facebook.com^*/fbds.js$tag=fb-embeds
 @@||facebook.com/connect$tag=fb-embed
