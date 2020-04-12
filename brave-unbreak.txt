@@ -439,6 +439,11 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 |http:*^ad_$badfilter
 |https:*^ad_$badfilter
 |https:*_ad_$badfilter
+|http:*-ad-$badfilter
+|https:*-ad-$badfilter
+|http:*-ad^$badfilter
+|https:*-ad^$badfilter
+|https:*-ad_$badfilter
 ! ABP Japanese blocking: Google
 @@||googleusercontent.com/videoplayback?$domain=google.com
 @@||googlevideo.com/videoplayback?$xmlhttprequest,domain=youtube.com
