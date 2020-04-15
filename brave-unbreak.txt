@@ -465,6 +465,8 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 ||ytimg.com^*_banner_$image,object,subdocument,badfilter
 ! ABP Japanese blocking Aliexpress (https://github.com/k2jp/abp-japanese-filters/issues?utf8=✓&q=is%3Aissue+aliexpress)
 @@||aliexpress.com^$~third-party
+! ABP Japanese https://github.com/brave/brave-browser/issues/9217
+@@||thedailybeast.com/static/js/vendors~account~advertising~$script,domain=thedailybeast.com
 ! Anti-adblock: pandora.com
 @@||pandora.com/web-version/*/ads.json$xmlhttprequest,domain=pandora.com
 ! Anti-adblock: laptopmedia.com
