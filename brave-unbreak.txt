@@ -429,6 +429,8 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 ! bandai-hobby.net (maxmind check causing blank pages)
 @@||js.maxmind.com/js/apis/geoip2/v2.1/geoip2.js$script,domain=bandai-hobby.net
 @@||geoip-js.maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net
+! KOR: Korean Adblock List problematic filters 
+/ad.js^$badfilter,domain=~betanews.net
 ! ABP Japanese problematic filters
 |http:*^ad-$badfilter
 |https:*^ad-$badfilter
