@@ -374,6 +374,7 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 @@||motherjones.com/wp-content/themes/motherjones/js/ads.min.js$script,domain=motherjones.com
 ! Adblock-Tracking: foxnews.com / foxbusiness.com
 ||fncstatic.com^*/google-funding-choices.js$script,domain=foxbusiness.com|foxnews.com
+||foxnews.com/static/strike/scripts/libs/google.funding.choices.js$script,domain=foxbusiness.com|foxnews.com
 @@||fncstatic.com/static/v/all/js/ads.js$script,domain=foxbusiness.com|foxnews.com
 ! Anti-adblock message (fundingchoices)
 ||fundingchoicesmessages.google.com^$3p,badfilter
