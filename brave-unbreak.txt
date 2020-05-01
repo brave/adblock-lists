@@ -243,6 +243,8 @@ forbes.com#@#.AD-label300x250
 @@||golem.de^*/showAds.js$script,domain=golem.de
 @@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
 hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamestar.de,tagesspiegel.de##+js(acis, parseInt)
+! chip.de
+||mms.chip.de^
 ! Anti-adblock: neowin.net
 ||mdn.neowin.net^$domain=neowin.net
 ! Anti-adblock: grapevine.is
