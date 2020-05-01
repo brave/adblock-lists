@@ -254,6 +254,7 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 ! Fix use of salesforce 
 @@||my.salesforce.com^$subdocument,third-party
 @@||salesforce.com/jslibrary/$script,third-party
+@@||salesforce.com/embeddedservice/$third-party
 ! Adblock-Tracking: biblegateway.com
 @@||biblegateway.com/assets/js/ads.js$xmlhttprequest,domain=biblegateway.com
 ! Adblock-Tracking: pagesix.com
