@@ -117,9 +117,7 @@ forbes.com#@#.AD-label300x250
 @@||graph.facebook.com^$tag=fb-embeds
 @@||connect.facebook.net^$tag=fb-embeds,domain=apps.fbsbx.com
 @@||xx.fbcdn.net^$tag=fb-embeds
-@@||graph.facebook.com^*width=$tag=fb-embeds
 @@||fbsbx.com/platform/$tag=fb-embeds
-@@||graph.facebook.com^*?access_token=$tag=fb-embeds
 @@||facebook.com^*/plugins/$tag=fb-embeds
 @@||facebook.com/plugins/$tag=fb-embeds
 @@||facebook.com/rsrc.php$tag=fb-embeds
