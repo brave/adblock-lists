@@ -761,13 +761,11 @@ mail.ru##.trg-b-banner
 ||ad-stir.com^$third-party
 ||proparm.jp^$third-party
 ||i2ad.jp^$third-party
-||socdm.com^$third-party
 ! Japanese specific rules below (temporarily)
 /ad/alliance_
 /loadPopIn.
 /itsads/*
 ||nikkeibp.co.jp/images/n/hr/2018/banner/bnr_
-||sankei2ad.durasite.net^
 ||pia.jp/uploads5/files/5415/4478/4511/ticket_bnr03_1.jpg
 ||pia.jp/uploads5/files/9215/6082/1152/ticket_top_B3002501906.jpg
 ||4gamer.net/img/*_jack_
@@ -790,7 +788,6 @@ mail.ru##.trg-b-banner
 ||yads.c.yimg.jp^$third-party
 ||logly.co.jp/lift_widget.js
 ||yimg.jp^*/loader.js
-||hbb.afl.rakuten.co.jp^$image
 ||cvote.a-ch.net^$third-party
 ||cheqzone.com^$third-party
 ||contents.oricon.co.jp/pc/img/_parts/news/fig-news03.jpg
