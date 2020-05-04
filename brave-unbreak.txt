@@ -438,53 +438,6 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 @@||geoip-js.maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net
 ! KOR: Korean Adblock List problematic filters 
 /ad.js^$badfilter,domain=~betanews.net
-! ABP Japanese problematic filters
-|http:*^ad-$badfilter
-|https:*^ad-$badfilter
-|http:*^ad.$badfilter
-|https:*^ad.$badfilter
-|http:*^ad^$badfilter
-|https:*^ad^$badfilter
-|http:*^ad_$badfilter
-|https:*^ad_$badfilter
-|https:*_ad_$badfilter
-|http:*-ad-$badfilter
-|https:*-ad-$badfilter
-|http:*-ad^$badfilter
-|https:*-ad^$badfilter
-|https:*-ad_$badfilter
-/annotations_$badfilter,domain=youtube.com
-/watch_autoplayrenderer.$badfilter,script,domain=youtube.com
-||youtube.com/set_awesome?$badfilter,domain=youtube.com
-||youtube.com/youtubei/$badfilter,domain=youtube.com
-||s.youtube.com^$badfilter,domain=youtube.com
-||s2.youtube.com^$badfilter,domain=youtube.com
-! ABP Japanese blocking: Google
-||youtube.com/youtubei/$domain=youtube.com,badfilter
-||youtube.com/api/stats/$domain=youtube.com,badfilter
-@@||googleusercontent.com/videoplayback?$domain=google.com
-@@||youtube.com^*/watch_autoplayrenderer.js$script,domain=youtube.com
-@@||youtube.com/yts/jsbin/*-pagead-$script,domain=youtube.com
-@@||youtube.com^*/ad.js
-@@||googlevideo.com/videoplayback?$xmlhttprequest,domain=youtube.com
-! ABP Japanese blocking: Youtube (reverse ABP-JPN filters)
-|http:*?*&ip=$third-party,badfilter
-|https:*?*&ip=$third-party,badfilter
-/annotations_$domain=youtube.com,badfilter
-/watch_autoplayrenderer.$script,domain=youtube.com,badfilter
-||s.youtube.com^$domain=youtube.com,badfilter
-||s2.youtube.com^$domain=youtube.com,badfilter
-||youtube.com/api/stats/$domain=youtube.com,badfilter
-||youtube.com/youtubei/$domain=youtube.com,badfilter
-||youtube.com/set_awesome?$domain=youtube.com,badfilter
-||youtube.com/get_video?$domain=youtube.com,badfilter
-||ytimg.com^*_background_$image,object,subdocument,badfilter
-||ytimg.com^*_banner.$image,object,subdocument,badfilter
-||ytimg.com^*_banner_$image,object,subdocument,badfilter
-! ABP Japanese blocking Aliexpress (https://github.com/k2jp/abp-japanese-filters/issues?utf8=✓&q=is%3Aissue+aliexpress)
-@@||aliexpress.com^$~third-party
-! ABP Japanese https://github.com/brave/brave-browser/issues/9217
-@@||thedailybeast.com/static/js/vendors~account~advertising~$script,domain=thedailybeast.com
 ! Anti-adblock: pandora.com
 @@||pandora.com/web-version/*/ads.json$xmlhttprequest,domain=pandora.com
 ! Anti-adblock: laptopmedia.com
@@ -808,13 +761,11 @@ mail.ru##.trg-b-banner
 ||ad-stir.com^$third-party
 ||proparm.jp^$third-party
 ||i2ad.jp^$third-party
-||socdm.com^$third-party
 ! Japanese specific rules below (temporarily)
 /ad/alliance_
 /loadPopIn.
 /itsads/*
 ||nikkeibp.co.jp/images/n/hr/2018/banner/bnr_
-||sankei2ad.durasite.net^
 ||pia.jp/uploads5/files/5415/4478/4511/ticket_bnr03_1.jpg
 ||pia.jp/uploads5/files/9215/6082/1152/ticket_top_B3002501906.jpg
 ||4gamer.net/img/*_jack_
@@ -837,7 +788,6 @@ mail.ru##.trg-b-banner
 ||yads.c.yimg.jp^$third-party
 ||logly.co.jp/lift_widget.js
 ||yimg.jp^*/loader.js
-||hbb.afl.rakuten.co.jp^$image
 ||cvote.a-ch.net^$third-party
 ||cheqzone.com^$third-party
 ||contents.oricon.co.jp/pc/img/_parts/news/fig-news03.jpg
