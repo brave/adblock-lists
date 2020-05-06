@@ -430,7 +430,7 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 ! Mailchimp issues
 ! Fix Mailchimp stylesheet issued (https://www.fallingsquirrel.com/post/the-demo-is-here)
 @@||mailchimp.com/embedcode/$stylesheet
-@@||downloads.mailchimp.com/js/signup-forms/$third-party,script
+@@||downloads.mailchimp.com^*/signup-forms/$third-party,script,stylesheet
 @@||gallery.mailchimp.com^$third-party,image
 @@||cdn-images.mailchimp.com^$third-party,image
 ! bandai-hobby.net (maxmind check causing blank pages)
