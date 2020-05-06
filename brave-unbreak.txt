@@ -530,6 +530,8 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 @@||plus.google.com/js/$script,domain=shapeways.com
 ! Anti-adblock tracking: abc.com
 @@||edgedatg.com^*/ads.min.js$script,domain=abc.com
+! Fix Costco (Disconnect block on channeladvisor.com)
+@@||channeladvisor.com/ImageDelivery/$image,third-party
 ! Fix yac.chat (Disconnect block on viral-loops.com)
 @@||app.viral-loops.com^$domain=yac.chat
 ! Fix abcnews.go.com video playback
