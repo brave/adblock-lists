@@ -126,6 +126,8 @@ forbes.com#@#.AD-label300x250
 @@||facebook.com/login/$tag=fb-embed
 @@||fbsbx.com^$tag=fb-embeds
 @@||facebook.com/x/oauth/$tag=fb-embeds
+@@||connect.facebook.com^$script,domain=apps.fbsbx.com
+@@||connect.facebook.net^$script,domain=apps.fbsbx.com
 ! Twitter embeds
 @@||twitter.com/sw.js$tag=twitter-embeds
 @@||ton.twimg.com^$tag=twitter-embeds
