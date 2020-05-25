@@ -471,6 +471,8 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 @@||digitalartsonline.co.uk/scripts/ads.js$script,domain=digitalartsonline.co.uk
 @@||cio.co.uk/scripts/ads.js$script,domain=cio.co.uk
 @@||techworld.com/scripts/ads.js$script,domain=techworld.com
+! blockadblock 
+blockadblock.com##+js(nobab)
 ! Anti-adblock: dagbladet.no
 @@||dagbladet.no^*/prebid.js$script,domain=dagbladet.no
 ! Adblock-Tracking: hanime.tv
