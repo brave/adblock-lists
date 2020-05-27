@@ -567,6 +567,10 @@ blockadblock.com##+js(nobab)
 /outbrain/base?
 /outbrain?
 ||outbrainimg.com^$third-party
+! Additional Adservers (for ios)
+||pushsar.com^
+||offerimage.com^
+||rtmark.net^
 ! Admiral Tracking (for ios)
 ||6ldu6qa.com^$third-party
 ||absorbingband.com^$third-party
