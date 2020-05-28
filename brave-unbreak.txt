@@ -543,7 +543,7 @@ blockadblock.com##+js(nobab)
 ! Fix blank page on flipp.com
 @@||wishabi.net^$image,domain=flipp.com
 ! Anti-adblock: docker.events.cube365.net 
-cube365.net##+js(aopr, Meteor.setTimeout)
+cube365.net##+js(aopr, bootbox.alert)
 ! Allow ads on DDG: brave-browser/issues#4533
 @@||duckduckgo.com/m.js
 @@||duckduckgo.com/share/spice/amazon/
