@@ -58,6 +58,7 @@ forbes.com#@#.AD-label300x250
 @@/piwik.js$first-party
 @@/piwik.php$first-party
 @@/matomo-tracking.$first-party
+@@/matomo.php$first-party
 @@/matomo.js$first-party
 @@/matomo/*$first-party
 ! fixes for several requests bypassing default blocklists
