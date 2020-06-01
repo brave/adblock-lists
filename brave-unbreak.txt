@@ -226,6 +226,8 @@ forbes.com#@#.AD-label300x250
 @@||sdlcdn.com^*/ads.js$script,domain=snapdeal.com
 ! myer.com.au (https://github.com/brave/brave-browser/issues/8434)
 @@||digitalexperience.ibm.com^$image,xmlhttprequest,domain=myer.com.au
+! megaup.net
+megaup.net#@#.adBanner
 ! Anti-adblock: realclear
 @@/doubleclick.js$xmlhttprequest,domain=realclearpolitics.com|realclearpolitics.com|realclearhealth.com|realclearreligion.org|realclearenergy.org|realclearhistory.com|realclearpolicy.com|realclearworld.com|realclearmarkets.com|realclearbooks.com|realcleareducation.com|realclearscience.com|realcleardefense.com
 ! Adblock-Tracking: vice.com
