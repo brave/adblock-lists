@@ -825,3 +825,5 @@ mail.ru##.trg-b-banner
 @@||ad.pr.ameba.jp/tpc/$xmlhttprequest
 @@||amebame.com/pub/ads/$domain=ameblo.jp
 @@||stat100.ameba.jp/blogportal/img/banner/$image
+! Unbreak login page for binance.com.
+@@||static.geetest.com/static/js/fullpage.*.js$domain=binance.com
