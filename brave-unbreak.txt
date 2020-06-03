@@ -825,5 +825,5 @@ mail.ru##.trg-b-banner
 @@||ad.pr.ameba.jp/tpc/$xmlhttprequest
 @@||amebame.com/pub/ads/$domain=ameblo.jp
 @@||stat100.ameba.jp/blogportal/img/banner/$image
-! Unbreak login page for binance.com.
+! Unbreak login page for binance.com. Remove after https://github.com/brave/brave-browser/issues/10063
 @@||static.geetest.com/static/js/fullpage.*.js$domain=binance.com
