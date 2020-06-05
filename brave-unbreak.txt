@@ -538,6 +538,8 @@ blockadblock.com##+js(nobab)
 @@||edgedatg.com^*/ads.min.js$script,domain=abc.com
 ! Fix consent issue on porsche.com (Disconnect block)
 @@||usercentrics.eu/latest/main.js$script,domain=porsche.com
+! Fix consent issue on porsche.com (IOS)
+@@||googletagmanager.com/gtm.js$script,domain=porsche.com
 ! Fix liveperson.com (Disconnect block) breaks website chat
 ||liveperson.com^$badfilter,third-party,domain=~liveperson.net
 ! Fix Costco (Disconnect block on channeladvisor.com)
