@@ -232,8 +232,6 @@ megaup.net#@#.adBanner
 @@/doubleclick.js$xmlhttprequest,domain=realclearpolitics.com|realclearpolitics.com|realclearhealth.com|realclearreligion.org|realclearenergy.org|realclearhistory.com|realclearpolicy.com|realclearworld.com|realclearmarkets.com|realclearbooks.com|realcleareducation.com|realclearscience.com|realcleardefense.com
 ! Adblock-Tracking: vice.com
 @@||web-scripts.vice.com/ad.vice.com/$script,domain=vice.com
-! Anti-adblock: heise.de
-||usercentrics.eu^$third-party
 ! Anti-adblock: dianomi-anti-adblock
 @@||pcwelt.de^$generichide
 @@||formel1.de^$generichide
@@ -536,8 +534,6 @@ blockadblock.com##+js(nobab)
 @@||plus.google.com/js/$script,domain=shapeways.com
 ! Anti-adblock tracking: abc.com
 @@||edgedatg.com^*/ads.min.js$script,domain=abc.com
-! Fix consent issue on porsche.com (Disconnect block)
-@@||usercentrics.eu/latest/main.js$script,domain=porsche.com
 ! Fix consent issue on porsche.com (IOS)
 @@||googletagmanager.com/gtm.js$script,domain=porsche.com
 ! Fix liveperson.com (Disconnect block) breaks website chat
