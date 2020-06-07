@@ -440,6 +440,9 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 @@||geoip-js.maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net
 ! KOR: Korean Adblock List problematic filters 
 /ad.js^$badfilter,domain=~betanews.net
+! Korean adblock (cosmetic) 
+newtoki64.com##.basic-banner
+newtoki64.com##.board-tail-banner
 ! Anti-adblock: pandora.com
 @@||pandora.com/web-version/*/ads.json$xmlhttprequest,domain=pandora.com
 ! Anti-adblock: laptopmedia.com
