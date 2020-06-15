@@ -526,6 +526,8 @@ blockadblock.com##+js(nobab)
 @@||abs.twimg.com/emoji/$image,third-party
 @@||pbs.twimg.com/profile_images/$image,third-party
 @@||pbs.twimg.com/amplify_video_thumb/$image,third-party
+! mycima.me
+mycima.me##+js(acis, Math, zfgloaded)
 ! Anti-adblock tracking Prometheus Global Media
 @@||pgmcdn.com/advertisement.js$script,domain=billboard.com|hollywoodreporter.com|vibe.com
 ! Adblock tradcking: defenseone.com
