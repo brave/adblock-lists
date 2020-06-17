@@ -22,6 +22,10 @@
 ||aka-cdn-ns.adtech.de^$script,image,domain=aftonbladet.se|expressen.se
 ! Hearst anti-ad blocking fix
 ||aps.hearstnp.com^$script,image
+! brave.com specfic filters
+@@||ads.brave.software^$first-party
+@@||ads.bravesoftware.com^$first-party
+@@||ads.brave.com^$first-party
 ! stats.brave.com
 stats.brave.com#@#adsContent
 @@||stats.brave.com/local/img/publisher-icons/$domain=stats.brave.com
