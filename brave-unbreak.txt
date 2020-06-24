@@ -433,6 +433,23 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 ! fix first-party items on maxmind.com (https://community.brave.com/t/stop-blocking-the-website-for-maxmind-com/68326)
 @@||blog.maxmind.com^$~third-party
 @@||static.maxmind.com^$~third-party
+! Fix for denyallow (badfilter ubO filters until denyallow is implemented)
+*$script,3p,denyallow=cloudflare.com,domain=pornhail.com,badfilter
+*$script,3p,denyallow=cloudflare.net|googleapis.com|jsdelivr.net,domain=3naked.com,badfilter
+*$script,3p,denyallow=cloudflare.com|cloudflare.net|googleapis.com|jquery.com|jsdelivr.net|rawgit.com,domain=sonorousporn.com,badfilter
+*$script,3p,denyallow=cloudflare.com|cloudflare.net|googleapis.com|jquery.com|jsdelivr.net|netdna-cdn.com|rawgit.com,domain=reamporn.com,badfilter
+*$3p,frame,denyallow=solvemedia.com,domain=btc2019.tk,badfilter
+*$3p,denyallow=google.com|gstatic.com|googleusercontent.com|recaptcha.net|googleapis.com,domain=linkshorten.xyz,badfilter
+*$3p,denyallow=googleapis.com|cdn.jsdelivr.net|solvemedia.com|google.com|gstatic.com,domain=cryptoads.space,badfilter
+*$3p,script,domain=boards.4channel.org,denyallow=4cdn.org|4chan.org|google.com|gstatic.com|cdn.mathjax.org|cdnjs.cloudflare.com|hcaptcha.com,badfilter
+*$script,3p,denyallow=fontawesome.com|cloudflare.com,domain=mp4upload.com,badfilter
+*$script,3p,denyallow=recaptcha.net|gstatic.com,domain=hclips.com,badfilter
+*$script,3p,denyallow=gstatic.com,domain=vjav.com,badfilter
+*$3p,script,denyallow=cdnjs.cloudflare.com|code.jquery.com,domain=japscan.co,badfilter
+*$script,3p,denyallow=cloudflare.com|bootstrapcdn.com|fluidplayer.com|twitter.com|hwcdn.net|platform.twitter.map.fastly.net,domain=babesxworld.com,badfilter
+*$script,3p,denyallow=jwpcdn.com|jsdelivr.net|cloudflare.net|fastly.net,domain=wstream.video,badfilter
+*$script,3p,denyallow=gstatic.com|recaptcha.net,domain=shorten.sh,badfilter
+*$script,3p,denyallow=chatango.com|facebook.net|googleapis.com|fbcdn.net|disqus.com|fastlylb.net|facebook.net,domain=sektekomik.com,badfilter
 ! Mailchimp issues
 ! Fix Mailchimp stylesheet issued (https://www.fallingsquirrel.com/post/the-demo-is-here)
 @@||mailchimp.com/embedcode/$stylesheet
