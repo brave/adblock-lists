@@ -117,7 +117,7 @@ forbes.com#@#.AD-label300x250
 @@||facebook.net^*/all.js$tag=fb-embeds
 @@||facebook.net^*/fbds.js$tag=fb-embeds
 @@||facebook.com^*/fbds.js$tag=fb-embeds
-@@||facebook.com/connect$tag=fb-embed
+@@||facebook.com/connect$tag=fb-embeds
 @@||staticxx.facebook.com^$tag=fb-embeds
 @@||graph.facebook.com^$tag=fb-embeds
 @@||xx.fbcdn.net^$tag=fb-embeds
@@ -127,8 +127,8 @@ forbes.com#@#.AD-label300x250
 @@||facebook.com^*/plugins/$tag=fb-embeds
 @@||facebook.com/plugins/$tag=fb-embeds
 @@||facebook.com/rsrc.php$tag=fb-embeds
-@@||facebook.com/ajax/$tag=fb-embed
-@@||facebook.com/login/$tag=fb-embed
+@@||facebook.com/ajax/$tag=fb-embeds
+@@||facebook.com/login/$tag=fb-embeds
 @@||fbsbx.com^$tag=fb-embeds
 @@||facebook.com/x/oauth/$tag=fb-embeds
 ! Twitter embeds
