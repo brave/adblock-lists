@@ -53,6 +53,11 @@ forbes.com#@#.AD-label300x250
 ! theatlantic.com anti-blocker filters
 ||theatlantic.blueconic.net$domain=theatlantic.com
 ||theatlantic.com/please-support-us^
+! youtube ads
+youtube.com##+js(json-prune, playerResponse.adPlacements)
+youtube.com##+js(json-prune, playerResponse.playerAds)
+youtube.com##+js(json-prune, adPlacements)
+youtube.com##+js(json-prune, playerAds)
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
 ||skepticalscience.net/widgets/heat_widget/js/heat_content.js$script,domain=skepticalscience.com
 ! adops.com unusable without this
