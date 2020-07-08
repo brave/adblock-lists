@@ -223,6 +223,8 @@ youtube.com##+js(json-prune, playerAds)
 @@||lewat.club/js/ads.js$script,domain=lewat.club
 ! Adblock-Tracking: explosm.net
 @@||explosm.net/js/adsense.js$script,domain=explosm.net
+! Blockfi Notifcations
+@@||braze.com^$third-party,domain=blockfi.com
 ! Adblock-Tracking:  mediaite.com
 @@||mediaite.com^*/adsbygoogle.js$script,domain=mediaite.com
 ! Broken video playback on tn.com.ar (https://community.brave.com/t/the-blocker-does-not-allow-you-to-watch-the-video/76691)
