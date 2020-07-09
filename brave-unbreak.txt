@@ -582,6 +582,8 @@ mycima.me##+js(acis, Math, zfgloaded)
 @@||edgedatg.com^*/ads.min.js$script,domain=abc.com
 ! Fix consent issue on porsche.com (IOS)
 @@||googletagmanager.com/gtm.js$script,domain=porsche.com
+! VK.com fix (Disconnect block)
+@@||vk.com/video_ext.php$subdocument,third-party
 ! Fix liveperson.com (Disconnect block) breaks website chat
 ||liveperson.com^$badfilter,third-party,domain=~liveperson.net
 ! Fix Costco (Disconnect block on channeladvisor.com)
