@@ -442,36 +442,6 @@ krunker.io##+js(aopw, navigator.brave)
 ! fix first-party items on maxmind.com (https://community.brave.com/t/stop-blocking-the-website-for-maxmind-com/68326)
 @@||blog.maxmind.com^$~third-party
 @@||static.maxmind.com^$~third-party
-! Fix for denyallow (badfilter ubO filters until denyallow is implemented)
-*$script,3p,denyallow=cloudflare.com,domain=pornhail.com,badfilter
-*$script,3p,denyallow=cloudflare.net|googleapis.com|jsdelivr.net,domain=3naked.com,badfilter
-*$script,3p,denyallow=cloudflare.com|cloudflare.net|googleapis.com|jquery.com|jsdelivr.net|rawgit.com,domain=sonorousporn.com,badfilter
-*$script,3p,denyallow=cloudflare.com|cloudflare.net|googleapis.com|jquery.com|jsdelivr.net|netdna-cdn.com|rawgit.com,domain=reamporn.com,badfilter
-*$3p,frame,denyallow=solvemedia.com,domain=btc2019.tk,badfilter
-*$3p,denyallow=google.com|gstatic.com|googleusercontent.com|recaptcha.net|googleapis.com,domain=linkshorten.xyz,badfilter
-*$3p,denyallow=googleapis.com|cdn.jsdelivr.net|solvemedia.com|google.com|gstatic.com,domain=cryptoads.space,badfilter
-*$3p,script,domain=boards.4channel.org,denyallow=4cdn.org|4chan.org|google.com|gstatic.com|cdn.mathjax.org|cdnjs.cloudflare.com|hcaptcha.com,badfilter
-*$script,3p,denyallow=fontawesome.com|cloudflare.com,domain=mp4upload.com,badfilter
-*$script,3p,denyallow=recaptcha.net|gstatic.com,domain=hclips.com,badfilter
-*$script,3p,denyallow=gstatic.com,domain=vjav.com,badfilter
-*$3p,script,denyallow=cdnjs.cloudflare.com|code.jquery.com,domain=japscan.co,badfilter
-*$script,3p,denyallow=cloudflare.com|bootstrapcdn.com|fluidplayer.com|twitter.com|hwcdn.net|platform.twitter.map.fastly.net,domain=babesxworld.com,badfilter
-*$script,3p,denyallow=jwpcdn.com|jsdelivr.net|cloudflare.net|fastly.net,domain=wstream.video,badfilter
-*$script,3p,denyallow=gstatic.com|recaptcha.net,domain=shorten.sh,badfilter
-*$script,3p,denyallow=chatango.com|facebook.net|googleapis.com|fbcdn.net|disqus.com|fastlylb.net|facebook.net,domain=sektekomik.com,badfilter
-*$script,xhr,frame,3p,denyallow=hwcdn.net|bootstrapcdn.com|googleapis.com|cloudflare.net|jwpcdn.com|jsdelivr.net|fastly.net|fontawesome.com|anitube.info,domain=anitube.cx,badfilter
-*$3p,script,domain=4chan.org,denyallow=4cdn.org|4channel.org|google.com|gstatic.com|cdn.mathjax.org|cdnjs.cloudflare.com|hcaptcha.com,badfilter
-*$3p,denyallow=googleapis.com|google.com|gstatic.com|recaptcha.net,domain=fun4earn.xyz,badfilter
-*$3p,denyallow=googleapis.com|google.com|gstatic.com|recaptcha.net|hcaptcha.com,domain=linkurl.me,badfilter
-*$3p,denyallow=googleapis.com|gstatic.com|recaptcha.net|hcaptcha.com,domain=shorthitz.com,badfilter
-@@*$image,3p,domain=stgeorgeutah.com,denyallow=jwpltx.com,badfilter
-@@*$script,3p,domain=stgeorgeutah.com,denyallow=addthis.com|facebook.net|googletagmanager.com|google-analytics.com|scorecardresearch.com|izooto.com|googletagservices.com|doubleclick.net|automaticside.com,badfilter
-*$xhr,frame,3p,domain=streamp1ay.cc,denyallow=spcdn.cc,badfilter
-*$3p,denyallow=googleapis.com|google.com|gstatic.com|recaptcha.net|hcaptcha.com|ajax.cloudflare.com,domain=stfly.me|stfly.io|stfly.press,badfilter
-*$3p,denyallow=googleapis.com|google.com|gstatic.com|recaptcha.net|hcaptcha.com|ajax.cloudflare.com,domain=shortzon.com,badfilter
-*$3p,script,denyallow=google.com|gstatic.com|recaptcha.net|hcaptcha.com,domain=mexa.sh,badfilter
-*$3p,domain=clicknupload.co,denyallow=fontawesome.com|bootstrapcdn.com|netdna-cdn.com|hwcdn.net,badfilter
-*$script,3p,denyallow=cloudflare.com|cloudflare.net|disqus.com|disquscdn.com|fastlylb.net|jsdelivr.net,domain=animesvision.biz,badfilter
 ! Mailchimp issues
 ! Fix Mailchimp stylesheet issued (https://www.fallingsquirrel.com/post/the-demo-is-here)
 @@||mailchimp.com/embedcode/$stylesheet
