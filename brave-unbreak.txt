@@ -665,10 +665,12 @@ cube365.net##+js(aopr, bootbox.alert)
 ||butterburst.com^$third-party
 ||calculatorstatement.com^$third-party
 ||callousbrake.com^$third-party
+||calmcactus.com^$third-party
 ||cannontwin.com^$third-party
 ||capriciouscorn.com^$third-party
 ||capsquirrel.com^$third-party
 ||caringzinc.com^$third-party
+||carpentercomparison.com^$third-party
 ||carscannon.com^$third-party
 ||cautiouscrate.com^$third-party
 ||cautiouscredit.com^$third-party
@@ -721,6 +723,7 @@ cube365.net##+js(aopr, bootbox.alert)
 ||greyinstrument.com^$third-party
 ||guiltlessbasketball.com^$third-party
 ||gulliblecamp.com^$third-party
+||haltingbadge.com^$third-party
 ||hammerhearing.com^$third-party
 ||hilariouszinc.com^$third-party
 ||historicalbeam.com^$third-party
@@ -736,6 +739,7 @@ cube365.net##+js(aopr, bootbox.alert)
 ||j93557g.com^$third-party
 ||jadeitite.com^$third-party
 ||jamexistence.com^$third-party
+||lameletters.com^$third-party
 ||lamplow.com^$third-party
 ||laughcloth.com^$third-party
 ||leaplunchroom.com^$third-party
@@ -756,6 +760,7 @@ cube365.net##+js(aopr, bootbox.alert)
 ||neighborlywatch.com^$third-party
 ||nervoussummer.com^$third-party
 ||niftyhospital.com^$third-party
+||overconfidentfood.com^$third-party
 ||parcelcreature.com^$third-party
 ||parsimoniouspolice.com^$third-party
 ||partplanes.com^$third-party
@@ -766,6 +771,7 @@ cube365.net##+js(aopr, bootbox.alert)
 ||photographpan.com^$third-party
 ||pietexture.com^$third-party
 ||plantdigestion.com^$third-party
+||pleasantpump.com^$third-party
 ||prepareplanes.com^$third-party
 ||profusesupport.com^$third-party
 ||puffyloss.com^$third-party
