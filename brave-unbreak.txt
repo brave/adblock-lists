@@ -56,6 +56,8 @@ forbes.com#@#.AD-label300x250
 ! youtube ads
 youtube.com##+js(json-prune, playerResponse.adPlacements)
 youtube.com##+js(json-prune, playerResponse.playerAds)
+youtube.com##+js(json-prune, adPlacementRenderer)
+youtube.com##+js(json-prune, adPlacementConfig)
 youtube.com##+js(json-prune, adPlacements)
 youtube.com##+js(json-prune, playerAds)
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
