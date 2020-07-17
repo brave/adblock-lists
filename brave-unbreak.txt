@@ -175,6 +175,9 @@ youtube.com##+js(json-prune, playerAds)
 @@||datacrunch.9c9media.ca^$xmlhttprequest,domain=tsn.ca
 ! 2mdn video playback script
 @@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com|techrepublic.com
+! Adservers (ios)
+||pixfuture.com^$third-party
+||taboola.com^$third-party
 ! Allow doubleclick clickthrough (ios)
 @@||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
 ! ca.yahoo.com (ios)
