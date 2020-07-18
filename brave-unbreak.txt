@@ -56,10 +56,10 @@ forbes.com#@#.AD-label300x250
 ! youtube ads
 youtube.com##+js(json-prune, playerResponse.adPlacements)
 youtube.com##+js(json-prune, playerResponse.playerAds)
-youtube.com##+js(json-prune, adPlacementRenderer)
-youtube.com##+js(json-prune, adPlacementConfig)
 youtube.com##+js(json-prune, adPlacements)
 youtube.com##+js(json-prune, playerAds)
+youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
+youtube.com##+js(set, adPlacements, undefined)
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
 ||skepticalscience.net/widgets/heat_widget/js/heat_content.js$script,domain=skepticalscience.com
 ! adops.com unusable without this
