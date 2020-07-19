@@ -215,7 +215,7 @@ youtube.com##+js(set, adPlacements, undefined)
 ! Adblock-Tracking: imgur.com
 @@||imgur.com/min/advertising.js$script,domain=imgur.com
 ! Anti-adblock: thehindu.com
-@@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
+@@||thgim.com/static/js/adsframe.min.js$script,domain=thehindu.com
 ! Adblock-Tracking: healthline.com
 @@||healthline.com^*/advertising.js$script,domain=healthline.com
 ! Adblock-Tracking: jpost.com
