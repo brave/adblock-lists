@@ -568,8 +568,8 @@ mycima.me##+js(acis, Math, zfgloaded)
 ! Fix yac.chat (Disconnect block on viral-loops.com)
 @@||app.viral-loops.com^$domain=yac.chat
 ! Polldaddy (Disconnect block)
-@@||polldaddy.com/ratings/$domain=cb01.trade|cb01.design
-@@||polldaddy.com/images/$image,domain=cb01.trade|cb01.design
+@@||polldaddy.com/ratings/$domain=cb01.events
+@@||polldaddy.com/images/$domain=cb01.events
 ! Fix abcnews.go.com video playback
 @@||akamaihd.net/player/2.106.5/akamai/amp/chartbeatanalytics/Chartbeatanalytics.min.js$domain=abcnews.go.com
 ! Fix blank page on flipp.com
