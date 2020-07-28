@@ -103,6 +103,8 @@ youtube.com##+js(set, adPlacements, undefined)
 @@||reddit.com/static/button/$subdocument,third-party
 ! Adblock Tracking
 @@||redditstatic.com^*/ads.js$script,domain=reddit.com
+! Twitter ad cosmetic element 
+twitter.com##[style]>div>div>[data-testid=placementTracking]
 ! Allow twitter.com readahead (using the twitter api)
 @@||twitter.com/i/search/typeahead.json$third-party
 ! DDG 1P analytics and optimization
