@@ -130,6 +130,7 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ||platform.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
 ! Linkedin
 ||licdn.com^$third-party,domain=~linkedin.com
+@@||licdn.com^$domain=linkedin.com
 ||linkedin.com^$third-party
 ! Outbrain
 ||outbrain.com^$third-party,domain=~sphere.com
