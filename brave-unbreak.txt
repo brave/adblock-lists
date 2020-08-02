@@ -62,8 +62,6 @@ youtube.com##+js(json-prune, adPlacements)
 youtube.com##+js(json-prune, playerAds)
 youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com##+js(set, playerResponse.adPlacements undefined)
-youtube.com##.ytp-ad-module
-youtube.com##.video-ads
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
 ||skepticalscience.net/widgets/heat_widget/js/heat_content.js$script,domain=skepticalscience.com
 ! adops.com unusable without this
