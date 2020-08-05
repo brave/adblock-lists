@@ -320,6 +320,8 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 ||pcgamer-gb.pcgamer.com^$domain=pcgamer.com
 ! Anti-adblock: concert.io (vox sites)
 @@||vox-cdn.com/packs/concert_ads-$script,domain=theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com|theringer.com|mmafighting.com|racked.com|mmamania.com|funnyordie.com|riftherald.com
+theverge.com##+js(nostif, (), 1500)
+vox.com,theverge.com##+js(nostif, adsBlocked)
 ! Anti-adblock: shush.se
 @@||shush.se/_ads.js$script,domain=shush.se
 ! Adblock-Tracking: tweakers.net
