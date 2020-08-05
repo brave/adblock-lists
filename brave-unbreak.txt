@@ -96,13 +96,6 @@ youtube.com##+js(set, playerResponse.adPlacements undefined)
 @@||gateway.reddit.com^
 ! https://github.com/brave/adblock-lists/issues/39
 @@||alb.reddit.com^
-! Allow sites to use reddit api
-@@||reddit.com^*.json?$script,xmlhttprequest,third-party
-@@||reddit.com^*/access_token$xmlhttprequest,third-party
-@@||oauth.reddit.com^$xmlhttprequest
-@@||reddit.com/mediaembed/$subdocument,third-party
-! reddit share buttons
-@@||reddit.com/static/button/$subdocument,third-party
 ! Adblock Tracking
 @@||redditstatic.com^*/ads.js$script,domain=reddit.com
 ! Twitter ad cosmetic element 
@@ -190,11 +183,6 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||static.licdn.com/sc/p$tag=linked-in-embeds
 ! Fix addthis.com issues on rhmodern.com  https://github.com/brave/brave-browser/issues/3653
 @@||s7.addthis.com^$script,domain=rhmodern.com
-! 9c9media fixes
-@@||entpay.9c9media.ca^$image,xmlhttprequest,domain=crave.ca
-@@||license.9c9media.ca^$xmlhttprequest,domain=ctv.ca|crave.ca|much.com|tsn.ca
-@@||auth.9c9media.ca^$script,domain=ctv.ca|crave.ca|much.com|tsn.ca
-@@||datacrunch.9c9media.ca^$xmlhttprequest,domain=tsn.ca
 ! 2mdn video playback script
 @@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com|techrepublic.com
 ! Adservers (ios)
@@ -218,8 +206,6 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ||weather.com/*.PrivacyDataNotice.$domain=weather.com
 ! thothub.tv (NSFW)
 @@||awemwh.com^$media,domain=thothub.tv
-! Allow godaddy signup forums
-@@||godaddy.com/signups/$subdocument
 ! Adblock-Tracking: cbs sites
 @@||cbsistatic.com^*/advertisement*.js$script,domain=zdnet.com|techrepublic.com
 ! Fix https://github.com/brave/brave-browser/issues/4507 (mirrors uBO fix, rewritten so that brave/ad-block supports)
@@ -262,8 +248,6 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||thedailybeast.com/static/advert.js$script,domain=thedailybeast.com
 ! Adblock-Tracking: snapdeal.com
 @@||sdlcdn.com^*/ads.js$script,domain=snapdeal.com
-! myer.com.au (https://github.com/brave/brave-browser/issues/8434)
-@@||digitalexperience.ibm.com^$image,xmlhttprequest,domain=myer.com.au
 ! megaup.net
 megaup.net#@#.adBanner
 ! Anti-adblock: realclear
@@ -293,10 +277,6 @@ hardwareluxx.de,formel1.de,reuters.com,golem.de,finanzen.net,autobild.de,gamesta
 @@||zdnet.de^*/advertising.js$script,domain=zdnet.de
 ! Anti-adblock: stream2watch.ws
 @@||tellerium.com/showads.js$script,domain=telerium.tv
-! Fix use of salesforce 
-@@||my.salesforce.com^$subdocument,third-party
-@@||salesforce.com/jslibrary/$script,third-party
-@@||salesforce.com/embeddedservice/$third-party
 ! Adblock-Tracking: biblegateway.com
 @@||biblegateway.com/assets/js/ads.js$xmlhttprequest,domain=biblegateway.com
 ! Adblock-Tracking: pagesix.com
@@ -345,12 +325,6 @@ krunker.io##+js(aopw, navigator.brave)
 @@||mediaite.com/adbait/adsbygoogle.js$script,domain=mediaite.com
 ! Fix yandex.ru blocking on 3dnews.ru
 ||aflt.market.yandex.ru^$script,third-party
-! rambler.ru issues
-@@||myqualification.rambler.ru^$xmlhttprequest,image,stylesheet
-@@||rambler.ru/api/$xmlhttprequest
-@@||id.rambler.ru^$script,xmlhttprequest
-@@||subscriptions.rambler.ru^$subdocument,script
-@@||rambler.ru/widget.js$script
 ! Adblock-Tracking: gazeta.ru
 @@||gazeta.ru^*/advertising.js$script,domain=gazeta.ru
 ! Adblock-Tracking: nytimes.com
@@ -358,10 +332,6 @@ krunker.io##+js(aopw, navigator.brave)
 ! Adblock-Tracking: cpubenchmark.net / videocardbenchmark.net
 @@||videocardbenchmark.net/js/ads.js$script,domain=videocardbenchmark.net
 @@||cpubenchmark.net/js/ads.js$script,domain=cpubenchmark.net
-! Fix digitalriver.com content on various shoping sites.
-@@||api.digitalriver.com^$script,third-party
-@@||img.digitalriver.com/store?$script,image,stylesheet,third-party
-@@||img.digitalriver.com/DRHM/$script,image,stylesheet,third-party
 ! Anti-adblock: dreamdth.com
 @@||dreamdth.com/js/wutime_adblock/ads.js$script,domain=dreamdth.com
 ! Anti-adblock: transparentcalifornia.com
@@ -392,9 +362,6 @@ krunker.io##+js(aopw, navigator.brave)
 @@||static.lpcdn.ca/lpweb/common/scripts/advertisement.js$script,domain=lapresse.ca
 ! Anti-adblock: brainyquote.com
 @@||brainyquote.com/st/js/3425190/displayad.js$script,domain=brainyquote.com
-! gleam.io
-@@||gleam.io/images/$image,third-party
-@@||gleam.io^*/embed?$subdocument,third-party
 ! Anti-adblock: notebookcheck.net / notebookcheck.com
 @@||notebookcheck-ru.com/ads.js$script,domain=notebookcheck.net|notebookcheck.com
 @@||static.h-bid.com/prebid/$script,domain=notebookcheck.net|notebookcheck.com
@@ -425,14 +392,8 @@ krunker.io##+js(aopw, navigator.brave)
 ! Anti-adblock message (fundingchoices)
 ||fundingchoicesmessages.google.com^$3p,badfilter
 ||fundingchoicesmessages.google.com^$xmlhttprequest
-! redditcommentsearch.com (https://community.brave.com/t/redditcommentsearch-doesnt-work-with-shields-on/66496)
-@@||pay.reddit.com/user/$script,domain=redditcommentsearch.com
 ! Adblock-Tracking: vg247.com
 @@||vg247.com/wp-content/themes/vg247/scripts/AdsLoad.js$script,domain=vg247.com
-! Allow sites to use signup forms from list-manage (https://github.com/brave/brave-browser/issues/5522)
-@@||list-manage.com/signup-form/subscribe?$script,third-party
-@@||list-manage.com/signup-form/settings?$script,third-party
-@@||list-manage.com/subscribe/$script,third-party
 ! Anti-adblock: indiatimes.com / timesofindia.com
 @@||indiatimes.com/ads.cms$script,domain=indiatimes.com
 @@/ad-banner-zedo/*$image,domain=indiatimes.com|timesofindia.com
@@ -470,12 +431,6 @@ krunker.io##+js(aopw, navigator.brave)
 ! fix first-party items on maxmind.com (https://community.brave.com/t/stop-blocking-the-website-for-maxmind-com/68326)
 @@||blog.maxmind.com^$~third-party
 @@||static.maxmind.com^$~third-party
-! Mailchimp issues
-! Fix Mailchimp stylesheet issued (https://www.fallingsquirrel.com/post/the-demo-is-here)
-@@||mailchimp.com/embedcode/$stylesheet
-@@||downloads.mailchimp.com^*/signup-forms/$third-party,script,stylesheet
-@@||gallery.mailchimp.com^$third-party,image
-@@||cdn-images.mailchimp.com^$third-party,image
 ! bandai-hobby.net (maxmind check causing blank pages)
 @@||js.maxmind.com/js/apis/geoip2/v2.1/geoip2.js$script,domain=bandai-hobby.net
 @@||geoip-js.maxmind.com/geoip/$xmlhttprequest,domain=bandai-hobby.net
@@ -527,8 +482,6 @@ blockadblock.com##+js(nobab)
 @@||esportsheaven.com/wp-content/themes/esportsheaven/js/advertisement.js$script,domain=esportsheaven.com
 ! adziff ad tracking
 @@||adziff.com/ab/ads.js$xmlhttprequest,domain=pcmag.com|geek.com|extremetech.com
-! Fix nudatasecurity.com (captcha)
-@@||nudatasecurity.com^*/captcha?$image,third-party
 ! Anti-adblock: gazzetta.it
 @@||rcsobjects.it^*/openx/$script,domain=gazzetta.it
 ! Anti-adblock: investing.com
@@ -576,23 +529,10 @@ mycima.me##+js(acis, Math, zfgloaded)
 ! Anti-adblock: washingtonpost.com
 @@||d2ty8gaf6rmowa.cloudfront.net/ad/$domain=washingtonpost.com
 @@||pubads.g.doubleclick.net^$xmlhttprequest,domain=washingtonpost.com
-! shapeways.com (google-sign)
-@@||plus.google.com/js/$script,domain=shapeways.com
 ! Anti-adblock tracking: abc.com
 @@||edgedatg.com^*/ads.min.js$script,domain=abc.com
 ! Fix consent issue on porsche.com (IOS)
 @@||googletagmanager.com/gtm.js$script,domain=porsche.com
-! VK.com fix (Disconnect block)
-@@||vk.com/video_ext.php$subdocument,third-party
-! Fix liveperson.com (Disconnect block) breaks website chat
-||liveperson.com^$badfilter,third-party,domain=~liveperson.net
-! Fix Costco (Disconnect block on channeladvisor.com)
-@@||channeladvisor.com/ImageDelivery/$image,third-party
-! Fix yac.chat (Disconnect block on viral-loops.com)
-@@||app.viral-loops.com^$domain=yac.chat
-! Polldaddy (Disconnect block)
-@@||polldaddy.com/ratings/$domain=cb01.events
-@@||polldaddy.com/images/$domain=cb01.events
 ! Fix abcnews.go.com video playback
 @@||akamaihd.net/player/2.106.5/akamai/amp/chartbeatanalytics/Chartbeatanalytics.min.js$domain=abcnews.go.com
 ! Fix blank page on flipp.com
