@@ -92,12 +92,10 @@ youtube.com##+js(set, playerResponse.adPlacements undefined)
 ||theatlantic.com/packages/adsjs^$script,domain=theatlantic.com
 ! crypto ad network
 ||ctnetload.com^$third-party
-! Internal reddit API that breaks reddit for many users
-@@||gateway.reddit.com^
 ! https://github.com/brave/adblock-lists/issues/39
 @@||alb.reddit.com^
 ! Adblock Tracking
-@@||redditstatic.com^*/ads.js$script,domain=reddit.com
+@@||redditstatic.com^*/xads.js$script,domain=reddit.com
 ! Twitter ad cosmetic element 
 twitter.com##[style]>div>div>[data-testid=placementTracking]
 ! Allow twitter.com readahead (using the twitter api)
