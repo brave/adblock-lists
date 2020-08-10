@@ -124,9 +124,9 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ||api.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
 ||platform.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
 ! Linkedin
+||platform.linkedin.com^$third-party
 ||licdn.com^$third-party,domain=~linkedin.com
 @@||licdn.com^$domain=linkedin.com
-||linkedin.com^$third-party
 ! Outbrain
 ||outbrain.com^$third-party,domain=~sphere.com
 !
@@ -134,36 +134,15 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ! are added both as a blocking rule and as an exception rule so that
 ! an exception is hit and will override what's in tracking protection protection.
 ! Facebook logins and embeds
-@@||facebook.com^*/sdk.js$tag=fb-embeds
-@@||facebook.net^*/sdk.js$tag=fb-embeds 
-@@||facebook.net^*/all.js$tag=fb-embeds
-@@||facebook.net^*/fbds.js$tag=fb-embeds
-@@||facebook.com^*/fbds.js$tag=fb-embeds
-@@||facebook.com/connect$tag=fb-embeds
-@@||staticxx.facebook.com^$tag=fb-embeds
-@@||graph.facebook.com^$tag=fb-embeds
-@@||xx.fbcdn.net^$tag=fb-embeds
-@@||graph.facebook.com^*width=$tag=fb-embeds
-@@||fbsbx.com/platform/$tag=fb-embeds
-@@||graph.facebook.com^*?access_token=$tag=fb-embeds
-@@||facebook.com^*/plugins/$tag=fb-embeds
+@@||connect.facebook.net^$tag=fb-embeds
+@@||connect.facebook.com^$tag=fb-embeds
 @@||facebook.com/plugins/$tag=fb-embeds
-@@||facebook.com/rsrc.php$tag=fb-embeds
-@@||facebook.com/ajax/$tag=fb-embeds
-@@||facebook.com/login/$tag=fb-embeds
-@@||fbsbx.com^$tag=fb-embeds
-@@||facebook.com/x/oauth/$tag=fb-embeds
 ! Twitter embeds
-@@||twitter.com/sw.js$tag=twitter-embeds
-@@||ton.twimg.com^$tag=twitter-embeds
-@@||platform.twitter.com^$tag=twitter-embeds
-@@||syndication.twitter.com^$xmlhttprequest,tag=twitter-embeds 
-@@||pbs.twimg.com^$tag=twitter-embeds
-@@||cdn.syndication.twimg.com^$tag=twitter-embeds
-@@||twitter.com/i/videos/tweet/$tag=twitter-embeds 
-@@||abs.twimg.com/web-video-player/$tag=twitter-embeds
 @@||api.twitter.com^$tag=twitter-embeds
-@@||video.twimg.com^$tag=twitter-embeds
+@@||platform.twitter.com^$tag=twitter-embeds
+! LinkedIn in embeds
+@@||licdn.com^$tag=linked-in-embeds
+@@||platform.linkedin.com^$tag=linked-in-embeds
 ! Fix sign in icon on https://app.mysms.com/#login
 @@||developers.google.com/identity/$image,domain=mysms.com
 ! Adblock-Tracking: speedtest.com
@@ -177,10 +156,6 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||vidible.tv/prod/player/js/$script
 @@||delivery.vidible.tv/placement/$xmlhttprequest
 @@||delivery.vidible.tv/jsonp/$script
-! LinkedIn in embed
-@@||platform.linkedin.com/$tag=linked-in-embeds
-@@||www.linkedin.com/pages-extensions/FollowCompany$tag=linked-in-embeds
-@@||static.licdn.com/sc/p$tag=linked-in-embeds
 ! Fix addthis.com issues on rhmodern.com  https://github.com/brave/brave-browser/issues/3653
 @@||s7.addthis.com^$script,domain=rhmodern.com
 ! 2mdn video playback script
