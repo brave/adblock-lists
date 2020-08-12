@@ -273,7 +273,7 @@ theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com
 ! Potential Tracker, Annoyance
 ||govdelivery.com^$third-party
 ! Anti-Brave checks
-krunker.io##+js(aopw, navigator.brave)
+krunker.io,archive.is,archive.today,archive.vn,archive.fo##+js(aopw, navigator.brave)
 ! Anti-adblock: cellmapper.net
 @@||cellmapper.net/js/ads.js$script,domain=cellmapper.net
 ! Anti-adblock: cyberciti.biz
