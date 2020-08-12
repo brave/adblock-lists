@@ -6,12 +6,6 @@
 ||cloudfront.net/esf.js$domain=twitch.tv
 ! LA Times forced-whitelisting modal fix
 ||tribdss.com/meter/assets$script,domain=www.latimes.com
-! LA Times and Chicago Tribune native ads fixes
-||aggrego.org^$script,image,domain=latimes.com|chicagotribune.com
-||jadserve.postrelease.com^$script,image,domain=latimes.com|chicagotribune.com
-||troncdata.com^$script,image,domain=latimes.com
-||polarmobile.com^$script,image,domain=latimes.com|chicagotribune.com
-||ntv.io^$script,image,domain=latimes.com|chicagotribune.com
 ! Hearst anti-ad blocking fix
 ||aps.hearstnp.com^$script,image
 ! brave.com specfic filters
