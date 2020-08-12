@@ -2,8 +2,6 @@
 @@||adm.fwmrm.net^*/AdManager.js$domain=msnbc.com|sky.com|cnbc.com
 ||novately.com^$third-party
 ||webspectator.com^$third-party
-! Twitch main video
-||cloudfront.net/esf.js$domain=twitch.tv
 ! Hearst anti-ad blocking fix
 ||aps.hearstnp.com^$script,image
 ! brave.com specfic filters
