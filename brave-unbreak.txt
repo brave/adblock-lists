@@ -357,6 +357,8 @@ krunker.io,archive.is,archive.today,archive.vn,archive.fo##+js(aopw, navigator.b
 @@||timesofindia.com/acms/$xmlhttprequest,domain=timesofindia.com
 ! Adblock-Tracking:indiatoday.in
 @@||indiatoday.in/sites/all/modules/custom/itg_ads_blocker/js/ads.js$script,domain=indiatoday.in
+! /track/view| fix for amazon tracking
+@@||amazon.*/shiptrack/view.html$~third-party
 ! Adblock-Tracking: amazon.com + amazon regional
 @@||media-amazon.com^*/showads.$script,third-party
 ! Adblock-Tracking: salon.com
