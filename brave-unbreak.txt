@@ -147,8 +147,9 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ||taboola.com^$third-party
 ! Allow doubleclick clickthrough (ios)
 @@||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
-! Fix protomail clickthrough on ios
-@@||proton.go2cloud.org^$domain=protonmail.com
+! Fix nordpass/protomail clickthrough on ios
+@@/aff_c?offer_id=
+@@?offer_id=*&aff_id=
 ! ca.yahoo.com (ios)
 /av/ads/*$domain=yahoo.com
 ! suumo.jp (ios)
