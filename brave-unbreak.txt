@@ -42,8 +42,6 @@ youtube.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements)
 youtube.com,youtube-nocookie.com##+js(json-prune, playerResponse.playerAds)
 youtube.com,youtube-nocookie.com##+js(json-prune, adPlacements)
 youtube.com,youtube-nocookie.com##+js(json-prune, playerAds)
-youtube.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements undefined)
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
 ||skepticalscience.net/widgets/heat_widget/js/heat_content.js$script,domain=skepticalscience.com
 ! adops.com unusable without this
