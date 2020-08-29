@@ -865,11 +865,9 @@ livejournal.com##+js(aopr, webpackJsonpSSPjs)
 @@||stat100.ameba.jp/blogportal/img/banner/$image
 itest.5ch.net###instant_ad
 itest.5ch.net###js-bottom-ad-300x250
-itest.5ch.net###js-bottom-ad-320x250
 itest.5ch.net###js-cardview_ad
 itest.5ch.net##.js-cardview_ad-320x180 > iframe
 itest.5ch.net##.js-cardview_ad-320x50
 itest.5ch.net##.js-overlay_ad
 itest.5ch.net##.ad_320x50
 itest.5ch.net##div[class^="sproutad_"]
-itest.5ch.net##.res_ad
