@@ -277,7 +277,6 @@ theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com
 krunker.io,archive.is,archive.today,archive.vn,archive.fo##+js(aopw, navigator.brave)
 archive.is,archive.today,archive.vn,archive.fo##+js(acis, navigator.brave)
 archive.is,archive.today,archive.vn,archive.fo##+js(acis, Object.getPrototypeOf, join) 
-archive.is,archive.today,archive.vn,archive.fo##+js(acis, document.cookie)
 ! Anti-adblock: cellmapper.net
 @@||cellmapper.net/js/ads.js$script,domain=cellmapper.net
 ! Anti-adblock: cyberciti.biz
