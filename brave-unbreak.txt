@@ -502,6 +502,7 @@ mycima.me##+js(acis, Math, zfgloaded)
 ! Peter Lowe fixes
 ||criteo.com^$badfilter
 ||pubmatic.com^$badfilter
+||tapfiliate.com^$badfilter
 ! Fix blank page on flipp.com
 @@||wishabi.net^$image,domain=flipp.com
 ! Anti-adblock: docker.events.cube365.net 
