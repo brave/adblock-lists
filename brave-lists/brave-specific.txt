@@ -1,4 +1,1 @@
 ! Specific filters (Tracking or ads) for Brave
-||localhost^$third-party,domain=~127.0.0.1|~[::1]
-||127.0.0.1^$third-party,domain=~localhost|~[::1]
-||[::1]^$third-party,domain=~localhost|~127.0.0.1
