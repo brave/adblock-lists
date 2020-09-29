@@ -869,3 +869,4 @@ livejournal.com##+js(aopr, webpackJsonpSSPjs)
 @@||ad.pr.ameba.jp/tpc/$xmlhttprequest
 @@||amebame.com/pub/ads/$domain=ameblo.jp
 @@||stat100.ameba.jp/blogportal/img/banner/$image
+supleks.jp##+js(acis, document.getElementsByClassName, adBlocked)
