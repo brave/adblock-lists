@@ -470,6 +470,8 @@ blockadblock.com##+js(nobab)
 ! Adblock-Tracking: MediaNews Group
 @@||townnews.com^*/flex/components/ads/$script,domain=southernchestercountyweeklies.com|dailylocal.com|delcotimes.com|morningjournal.com|delconewsnetwork.com|montgomerynews.com|mainlinemedianews.com|news-herald.com|cnweekly.com|troyrecord.com|southjerseylocalnews.com|saratogian.com|oneidadispatch.com|dailyfreeman.com|trentonian.com|berksmontnews.com|thenewsherald.com|dailytribune.com|theoaklandpress.com|voicenews.com|themorningsun.com|pottsmerc.com|phoenixvillenews.com|timesherald.com|thereporteronline.com|pvnews.com|tbrnews.com|pressandguide.com|gazettes.com|macombdaily.com
 @@/static/js/ads.js$script,domain=redlandsdailyfacts.com|pasadenastarnews.com|dailybulletin.com|marinij.com|montereyherald.com|presstelegram.com|times-standard.com|chicoer.com|whittierdailynews.com|dailydemocrat.com|dailynews.com|ocregister.com|pe.com|buffzone.com|orovillemr.com|journal-advocate.com|reporterherald.com|broomfieldenterprise.com|record-bee.com|sentinelandenterprise.com|bostonherald.com|nashobavalleyvoice.com|eptrail.com|akronnewsreporter.com|willitsnews.com|redbluffdailynews.com|thevalleydispatch.com|twincities.com|burlington-record.com|fortmorgantimes.com|coloradodaily.com|lamarledger.com|timescall.com|canoncitydailyrecord.com|excelsiorcalifornia.com|advocate-news.com|paradisepost.com|redwoodtimes.com|denverpost.com|mendocinobeacon.com
+! Rambler Network
+lenta.ru,championat.com,passion.ru,wmj.ru,eda.ru,rambler.ru,motor.ru,autorambler.ru,letidor.ru,quto.ru,rns.online,gazeta.ru##+js(json-prune, Blocks)
 ! rutracker.net (regional)
 ||rutrk.org^$domain=rutracker.net
 ||betsonsport.ru^$domain=rutracker.net
