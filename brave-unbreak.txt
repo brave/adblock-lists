@@ -200,6 +200,8 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||mediaite.com^*/adsbygoogle.js$script,domain=mediaite.com
 ! Broken video playback on tn.com.ar (https://community.brave.com/t/the-blocker-does-not-allow-you-to-watch-the-video/76691)
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
+! ebay portscanning script
+ebay.com##+js(acis, tmx_post_session_params_fixed)
 ! Adblock-Tracking: silvergames.com
 @@||veedi.com^*/advert.js$script,domain=veedi.com
 ! Adblock-Tracking: thedailybeast.com
