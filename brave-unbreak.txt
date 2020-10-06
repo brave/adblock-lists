@@ -358,8 +358,8 @@ archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,a
 ! Temp fix for Google funding Yellow Bar (https://github.com/brave/brave-browser/issues/11945)
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ! To counter $ghide in uBO
-geekzone.co.nz,elpais.com,abc.es##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
-geekzone.co.nz,elpais.com,abc.es##+js(nostif, removeChild(f), 100)
+geekzone.co.nz,elpais.com,abc.es,lapresse.ca##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
+geekzone.co.nz,elpais.com,abc.es,lapresse.ca##+js(nostif, removeChild(f), 100)
 ! Adblock-Tracking: vg247.com
 @@||vg247.com/wp-content/themes/vg247/scripts/AdsLoad.js$script,domain=vg247.com
 ! Anti-adblock: indiatimes.com / timesofindia.com
