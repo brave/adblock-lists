@@ -248,6 +248,8 @@ cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 @@||fsdn.com/sd/js/scripts/ad.js$script,domain=slashdot.org
 ! Anti-adblock: wallpapersite.com (https://www.reddit.com/r/brave_browser/comments/bx784t/websites_detecting_adblocker_even_when_shield/)
 @@||wallpapersite.com/scripts/ads.js$script,domain=wallpapersite.com
+! Anti-adblock: cocomanhua.com (https://community.brave.com/t/brave-shlieds-doesn-t-work-properly/168535/7)
+@@||cocomanhua.com/js/ad_/$domain=cocomanhua.com
 ! Anti-adblock: wallpapershome.com
 @@||wallpapershome.com/scripts/ads.js$script,domain=wallpapershome.com
 ! Anti-adblock: nexusmods.com
