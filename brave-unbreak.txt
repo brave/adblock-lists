@@ -186,6 +186,9 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ||taboola.com^$third-party
 ! Allow doubleclick clickthrough (ios)
 @@||ad.doubleclick.net/ddm/clk/$domain=ad.doubleclick.net
+! google adsettings (ios)
+@@||www.google.com/ads/preferences/$first-party
+@@||adssettings.google.com^$first-party
 ! Fix nordpass/protomail clickthrough on ios
 @@/aff_c?offer_id=
 @@?offer_id=*&aff_id=
