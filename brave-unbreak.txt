@@ -564,6 +564,8 @@ mycima.me##+js(acis, Math, zfgloaded)
 ||tapfiliate.com^$badfilter
 ! Fix blank page on flipp.com
 @@||wishabi.net^$image,domain=flipp.com
+! Fix "Alien Warning" script check on dslreports.com https://community.brave.com/t/alien-script-detected-inline-code-at-dslreports-com-speedtest/173716/
+dslreports.com###errorlog
 ! Anti-adblock: docker.events.cube365.net 
 cube365.net##+js(aopr, bootbox.alert)
 ! Allow ads on DDG: brave-browser/issues#4533
