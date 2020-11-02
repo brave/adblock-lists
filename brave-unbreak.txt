@@ -426,6 +426,8 @@ geekzone.co.nz,elpais.com,abc.es,lapresse.ca##+js(nostif, removeChild(f), 100)
 @@||salon.com/design/assets/ads.js$script,domain=salon.com
 ! Adblock-Tracking: rocket-league.com
 @@||rocket-league.com/scripts/advert.js$script,domain=rocket-league.com
+! Disable twitch.js (due to https://old.reddit.com/r/uBlockOrigin/comments/jlquxz/twitch_now_shows_this_if_you_have_ublock_enabled/ )
+twitch.tv#@#+js(twitch-videoad)
 ! Anti-adblock: Instart
 ||nanovisor.io/i10c@p1^$xmlhttprequest,domain=webmd.com|gamespot.com
 ||x2py3z.kgy.pockettactics.com^$xmlhttprequest,domain=pockettactics.com
