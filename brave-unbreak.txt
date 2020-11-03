@@ -86,6 +86,11 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ||pdfjs.robwu.nl
 ! Fix for Suicide Prevention Lifeline Chat (brave/brave-browser#3492)
 @@||geoplugin.net/javascript.gp$script,xmlhttprequest,domain=suicidepreventionlifeline.org
+! Consent trackers
+||opencmp.net^$script,third-party
+||privacy-mgmt.com^$script,third-party
+||sp-prod.net^$third-party
+@@||notice.sp-prod.net^$subdocument,domain=telegraph.co.uk
 ! Block additional trackers
 ||sp1.nypost.com$third-party
 ||sp.nasdaq.com$third-party
