@@ -1,0 +1,1 @@
+! Brave Android specific filters
