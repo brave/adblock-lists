@@ -565,6 +565,7 @@ mycima.me##+js(acis, Math, zfgloaded)
 ! Fix abcnews.go.com video playback
 @@||akamaihd.net/player/2.106.5/akamai/amp/chartbeatanalytics/Chartbeatanalytics.min.js$domain=abcnews.go.com
 ! Peter Lowe fixes
+||blockthrough.com^$badfilter
 ||criteo.com^$badfilter
 ||pubmatic.com^$badfilter
 ||appsflyer.com^$badfilter
