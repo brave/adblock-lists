@@ -14,17 +14,6 @@ stats.brave.com#@#adsContent
 ! Sailthru native ad aggregator fix
 ||ak.sail-horizon.com^$script,image
 @@||ak.sail-horizon.com/spm/$script,domain=wwe.com
-! (Cosmetic, Anti-adblock) forbes.com
-forbes.com#@#.AD355125
-forbes.com#@#.AD300x600-wrapper
-forbes.com#@#.AD300x250A
-forbes.com#@#.AD300x250
-forbes.com#@#.AD300Block
-forbes.com#@#.AD300
-forbes.com#@#.AD-POST
-forbes.com#@#.AD-RC-300x250
-forbes.com#@#.AD-Rotate
-forbes.com#@#.AD-label300x250
 ! vendors serving video ads and tracking via proxied requests
 ||vidazoo.com/aggregate^$third-party
 ||vidazoo.com/proxy^$third-party
@@ -70,8 +59,6 @@ youtube.com,youtube-nocookie.com##+js(json-prune, playerAds)
 ! content blocking
 ||seattletimes.com/wp-content/plugins/st-user-messaging^$script,domain=seattletimes.com
 ||theatlantic.com/packages/adsjs^$script,domain=theatlantic.com
-! crypto ad network
-||ctnetload.com^$third-party
 ! https://github.com/brave/adblock-lists/issues/39
 @@||alb.reddit.com^
 ! Adblock Tracking
@@ -205,21 +192,13 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||suumo.jp/sp/js/beacon.js$script,domain=suumo.jp
 ! usps.com fix (ios)
 @@||tools.usps.com/go/scripts/tracking.js$script,domain=tools.usps.com
-! Adblock-Tracking: theintercept.com
-@@||theintercept.com/ads.js$script,domain=theintercept.com
-! Adblock-Tracking: irishmirror.ie
-@@||irishmirror.ie^*/ads.js$script,domain=irishmirror.ie
 ! Adblock-Tracking: imgbox.com
 @@||imgbox.com/site_ads.js$script,domain=imgbox.com
 ! weather.com "Your privacy" dialogbox
 ||weather.com/*.PrivacyDataNotice.$domain=weather.com
 ! thothub.tv (NSFW)
 @@||awemwh.com^$media,domain=thothub.tv
-! Adblock-Tracking: cbs sites
-@@||cbsistatic.com^*/advertisement*.js$script,domain=zdnet.com|techrepublic.com
 ! Fix https://github.com/brave/brave-browser/issues/4507 (mirrors uBO fix, rewritten so that brave/ad-block supports)
-! Adblock-Tracking: videoadex.com
-@@||videoadex.com/jw/advertisement.js$domain=techradar.com|gamesradar.com
 ||washingtonpost.com/pb/api/*/adblocker-feature$xmlhttprequest,first-party
 ! Fix blankpage issue https://github.com/brave/brave-browser/issues/4049
 ||dianomi.com/cgi-bin/smartads.pl$xmlhttprequest,domain=inc.com
@@ -229,36 +208,14 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||neustar.biz^$domain=home.neustar
 ! Anti-adblock: newsmax.com
 @@||newsmax.com/js/ads.adblock.js$script,domain=newsmax.com
-! Adblock-Tracking: imgur.com
-@@||imgur.com/min/advertising.js$script,domain=imgur.com
 ! Anti-adblock: thehindu.com
 @@||thgim.com/static/js/adsframe.min.js$script,domain=thehindu.com
-! Adblock-Tracking: healthline.com
-@@||healthline.com^*/advertising.js$script,domain=healthline.com
-! Adblock-Tracking: jpost.com
-@@||bitsngo.net/widget-scripts/extra_content/ads.js$script,domain=jpost.com
-! Adblock-Tracking: rateyourmusic.com
-@@||snmc.io^*/advertisement.js$script,domain=rateyourmusic.com
-! Adblock-Tracking: kijiji.ca
-@@||classistatic.com^*/ads.js$script,domain=kijiji.ca
-! Anti-adblock: lewat.club
-@@||lewat.club/js/ads.js$script,domain=lewat.club
-! Adblock-Tracking: explosm.net
-@@||explosm.net/js/adsense.js$script,domain=explosm.net
 ! Blockfi Notifcations
 @@||braze.com^$third-party,domain=blockfi.com
-! Adblock-Tracking:  mediaite.com
-@@||mediaite.com^*/adsbygoogle.js$script,domain=mediaite.com
 ! Broken video playback on tn.com.ar (https://community.brave.com/t/the-blocker-does-not-allow-you-to-watch-the-video/76691)
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 ! ebay portscanning script
 ebay.com,ebay-kleinanzeigen.de##+js(acis, tmx_post_session_params_fixed)
-! Adblock-Tracking: silvergames.com
-@@||veedi.com^*/advert.js$script,domain=veedi.com
-! Adblock-Tracking: thedailybeast.com
-@@||thedailybeast.com/static/advert.js$script,domain=thedailybeast.com
-! Adblock-Tracking: snapdeal.com
-@@||sdlcdn.com^*/ads.js$script,domain=snapdeal.com
 ! megaup.net
 megaup.net#@#.adBanner
 ! Anti-adblock: realclear
@@ -324,9 +281,6 @@ theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com
 ||tweakimg.net/x/scripts/min/banners.js$script,domain=tweakers.net
 ! Adblock-Tracking: dailystar.co.uk
 @@||dailystar.co.uk^*/ads.js$script,domain=dailystar.co.uk
-! Adblock-Tracking: animeflv.net/animeflv.com
-@@||animeflv.net/js/adsbygoogle.js$script,domain=animeflv.net
-@@||animeflv.com/js/adsbygoogle.js$script,domain=animeflv.com
 ! Fix Playback on http://v6.player.abacast.net/6508 (https://community.brave.com/t/problem-loading-http-v6-player-abacast-net-6508/71822)
 @@||imasdk.googleapis.com/js/core/$subdocument,domain=player.abacast.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=player.abacast.net
