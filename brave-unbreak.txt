@@ -59,8 +59,6 @@ youtube.com,youtube-nocookie.com##+js(json-prune, playerAds)
 ! content blocking
 ||seattletimes.com/wp-content/plugins/st-user-messaging^$script,domain=seattletimes.com
 ||theatlantic.com/packages/adsjs^$script,domain=theatlantic.com
-! crypto ad network
-||ctnetload.com^$third-party
 ! https://github.com/brave/adblock-lists/issues/39
 @@||alb.reddit.com^
 ! Adblock Tracking
@@ -194,10 +192,6 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||suumo.jp/sp/js/beacon.js$script,domain=suumo.jp
 ! usps.com fix (ios)
 @@||tools.usps.com/go/scripts/tracking.js$script,domain=tools.usps.com
-! Adblock-Tracking: theintercept.com
-@@||theintercept.com/ads.js$script,domain=theintercept.com
-! Adblock-Tracking: irishmirror.ie
-@@||irishmirror.ie^*/ads.js$script,domain=irishmirror.ie
 ! Adblock-Tracking: imgbox.com
 @@||imgbox.com/site_ads.js$script,domain=imgbox.com
 ! weather.com "Your privacy" dialogbox
