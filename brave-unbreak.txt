@@ -216,8 +216,8 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 ! uptostream
 uptostream.com##+js(acis, window.a)
-! ebay portscanning script
-ebay.com,ebay-kleinanzeigen.de##+js(acis, tmx_post_session_params_fixed)
+! portscanning script
+sciencedirect.com,ebay.com,ebay-kleinanzeigen.de##+js(acis, tmx_post_session_params_fixed)
 ! megaup.net
 megaup.net#@#.adBanner
 ! Anti-adblock: realclear
