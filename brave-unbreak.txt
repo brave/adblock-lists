@@ -236,8 +236,7 @@ megaup.net#@#.adBanner
 @@||golem.de^*/showAds.js$script,domain=golem.de
 @@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
 reuters.com,hardwareluxx.de,formel1.de,golem.de,finanzen.net,autobild.de,gamestar.de,tagesspiegel.de##+js(acis, parseInt)
-reuters.com##+js(acis, insertAdjacentElement)
-reuters.com##+js(acis, innerHTML)
+||s3.reutersmedia.net/resources/$image
 ! Anti-adblock message cinemablend.com (ported from uBO Annoyances)
 cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 ! chip.de
