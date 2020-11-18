@@ -2,3 +2,15 @@
 ||localhost^$third-party,domain=~127.0.0.1|~[::1]
 ||127.0.0.1^$third-party,domain=~localhost|~[::1]
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1
+
+! Re-enable 1p scripts for Yandex after finding no privacy concerns for
+! Brave users.
+! Privacy Review: https://github.com/brave/brave-browser/issues/11591
+! Main Issue: https://github.com/brave/brave-browser/issues/12327
+@@||yandex.ru/log?$~script
+@@||yandex.com/clck/$~script
+@@||yandex.ru/clck/click$~script
+@@||mc.yandex.ru^$~script
+@@||yandex.*/count/$~script
+@@||yandex.ru/clck/jclck/$~script
+@@||yandex.*/clck/$xmlhttprequest
