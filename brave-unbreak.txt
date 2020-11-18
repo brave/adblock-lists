@@ -262,6 +262,8 @@ cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 @@||cocomanhua.com/js/ad_/$domain=cocomanhua.com
 ! Anti-adblock: wallpapershome.com
 @@||wallpapershome.com/scripts/ads.js$script,domain=wallpapershome.com
+! Anti-adblock (Brave fix on  https://github.com/brave/brave-browser/issues/12737)
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=motorsport.com
 ! Anti-adblock: nexusmods.com
 @@||nexusmods.com/Contents/Scripts/advert.js$script,domain=nexusmods.com
 ! Anti-adblock: haaretz.com
