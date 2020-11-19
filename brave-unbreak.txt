@@ -46,9 +46,6 @@ youtube.com,youtube-nocookie.com##+js(json-prune, playerAds)
 ! fixes for several requests bypassing default blocklists
 ||aolcdn.com/*/adsWrapper.js$script
 ||zergnet.com^$script,third-party
-! intermediary domains used for malware payload delivery
-||centerbluray.info^
-||newcyclevaults.com^
 ! block scripts that profile user behavior using password managers
 @@||api.huobi.pro^$domain=www.huobi.pro
 ! fixes ad blocking bypass
