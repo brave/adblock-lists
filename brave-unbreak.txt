@@ -427,26 +427,6 @@ newtoki64.com##.board-tail-banner
 ! Allow reddit extensions to be used
 @@||reddit.com/r/$script,domain=deora.dev
 @@||reddit.com/comments/$domain=batcommunity.org
-! Adblock-Tracking: buzzfeed.com / buzzfeednews.com
-@@||buzzfeed.com/static/js/advertiser/ads.js$script,domain=buzzfeednews.com|buzzfeed.com
-! Adblock-Tracking: phandroid.com
-@@||phandroid.com/ads.js$script,domain=phandroid.com
-! Adblock-Tracking: idg sites 
-@@||networkworld.com/www/js/ads/ads.js$script,domain=networkworld.com
-@@||techadvisor.fr/scripts/ads.js$script,domain=techadvisor.fr
-@@||pcworld.com/www/js/ads/ads.js$script,domain=pcworld.com
-@@||techconnect.com/www/js/ads/ads.js$script,domain=techconnect.com
-@@||cio.com/www/js/ads/ads.js$script,domain=cio.com
-@@||csoonline.com/www/js/ads/ads.js$script,domain=csoonline.com
-@@||infoworld.com/www/js/ads/ads.js$script,domain=infoworld.com
-@@||itwhitepapers.com/www/js/ads/ads.js$script,domain=itwhitepapers.com
-@@||javaworld.com/www/js/ads/ads.js$script,domain=javaworld.com
-! Adblock-Tracking: idg UK sites
-@@||techadvisor.co.uk/scripts/ads.js$script,domain=techadvisor.co.uk
-@@||macworld.co.uk/scripts/ads.js$script,domain=macworld.co.uk
-@@||digitalartsonline.co.uk/scripts/ads.js$script,domain=digitalartsonline.co.uk
-@@||cio.co.uk/scripts/ads.js$script,domain=cio.co.uk
-@@||techworld.com/scripts/ads.js$script,domain=techworld.com
 ! blockadblock 
 blockadblock.com##+js(nobab)
 ! Anti-adblock: dagbladet.no
