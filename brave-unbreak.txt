@@ -216,39 +216,10 @@ reuters.com,hardwareluxx.de,formel1.de,golem.de,finanzen.net,autobild.de,gamesta
 cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 ! chip.de
 ||mms.chip.de^
-! Anti-adblock: neowin.net
-||mdn.neowin.net^$domain=neowin.net
-! Anti-adblock: grapevine.is
-@@||cloudfront.net/ad/ads.js$script,domain=grapevine.is
-! Anti-adblock: zdnet.de
-@@||zdnet.de^*/advertising.js$script,domain=zdnet.de
-! Anti-adblock: stream2watch.ws
-@@||tellerium.com/showads.js$script,domain=telerium.tv
-! Adblock-Tracking: biblegateway.com
-@@||biblegateway.com/assets/js/ads.js$xmlhttprequest,domain=biblegateway.com
-! Adblock-Tracking: pagesix.com
-@@||wp.com^*/show-ads.js$script,domain=pagesix.com
-! Adblock-Tracking: sourceforge.net / slashdot.org 
-@@||fsdn.com/con/js/adframe.js$script,domain=sourceforge.net
-@@||fsdn.com/sd/js/scripts/ad.js$script,domain=slashdot.org
-! Anti-adblock: wallpapersite.com (https://www.reddit.com/r/brave_browser/comments/bx784t/websites_detecting_adblocker_even_when_shield/)
-@@||wallpapersite.com/scripts/ads.js$script,domain=wallpapersite.com
 ! Anti-adblock: cocomanhua.com (https://community.brave.com/t/brave-shlieds-doesn-t-work-properly/168535/7)
 @@||cocomanhua.com/js/ad_/$domain=cocomanhua.com
-! Anti-adblock: wallpapershome.com
-@@||wallpapershome.com/scripts/ads.js$script,domain=wallpapershome.com
 ! Anti-adblock (Brave fix on  https://github.com/brave/brave-browser/issues/12737)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=motorsport.com
-! Anti-adblock: nexusmods.com
-@@||nexusmods.com/Contents/Scripts/advert.js$script,domain=nexusmods.com
-! Anti-adblock: haaretz.com
-@@||haaretz.com/htz/js/advertisement.js$script,domain=haaretz.com
-! Anti-adblock: mmo-champion.com
-@@||mmo-champion.com^*/adsense.js$script,domain=mmo-champion.com
-! Anti-adblock: Future INC websites (Cosmetic)
-||ttauri.space.com^$script,domain=space.com
-||ttauri.tomsguide.com^$script,domain=tomsguide.com
-||pcgamer-gb.pcgamer.com^$domain=pcgamer.com
 ! Temp fix for CBS All Access (https://github.com/brave/brave-browser/issues/12705)
 @@||s0.2mdn.net/instream/video/client.js$script,domain=cbs.com
 @@||adservice.google.com/adsid/integrator.js$script,domain=cbs.com
@@ -263,8 +234,6 @@ theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com
 @@||shush.se/_ads.js$script,domain=shush.se
 ! Adblock-Tracking: tweakers.net
 ||tweakimg.net/x/scripts/min/banners.js$script,domain=tweakers.net
-! Adblock-Tracking: dailystar.co.uk
-@@||dailystar.co.uk^*/ads.js$script,domain=dailystar.co.uk
 ! Fix Playback on http://v6.player.abacast.net/6508 (https://community.brave.com/t/problem-loading-http-v6-player-abacast-net-6508/71822)
 @@||imasdk.googleapis.com/js/core/$subdocument,domain=player.abacast.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=player.abacast.net
