@@ -189,10 +189,6 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||googletagmanager.com/gtm.js$script,domain=onesignal.com
 ! Fix for https://www.home.neustar/ (blank page)
 @@||neustar.biz^$domain=home.neustar
-! Anti-adblock: newsmax.com
-@@||newsmax.com/js/ads.adblock.js$script,domain=newsmax.com
-! Anti-adblock: thehindu.com
-@@||thgim.com/static/js/adsframe.min.js$script,domain=thehindu.com
 ! Blockfi Notifcations
 @@||braze.com^$third-party,domain=blockfi.com
 ! Broken video playback on tn.com.ar (https://community.brave.com/t/the-blocker-does-not-allow-you-to-watch-the-video/76691)
@@ -203,10 +199,6 @@ uptostream.com##+js(acis, window.a)
 sciencedirect.com,ebay.com,ebay-kleinanzeigen.de##+js(acis, tmx_post_session_params_fixed)
 ! megaup.net
 megaup.net#@#.adBanner
-! Anti-adblock: realclear
-@@/doubleclick.js$domain=realclearpolitics.com|realclearpolitics.com|realclearhealth.com|realclearreligion.org|realclearenergy.org|realclearhistory.com|realclearpolicy.com|realclearworld.com|realclearmarkets.com|realclearbooks.com|realcleareducation.com|realclearscience.com|realcleardefense.com
-! Adblock-Tracking: vice.com
-@@||web-scripts.vice.com/ad.vice.com/$script,domain=vice.com
 ! Anti-adblock: dianomi-anti-adblock
 @@||pcwelt.de^$generichide
 @@||formel1.de^$generichide
