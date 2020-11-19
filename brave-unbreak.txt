@@ -48,8 +48,6 @@ youtube.com,youtube-nocookie.com##+js(json-prune, playerAds)
 ||zergnet.com^$script,third-party
 ! block scripts that profile user behavior using password managers
 @@||api.huobi.pro^$domain=www.huobi.pro
-! fixes ad blocking bypass
-||adiode.com^$third-party
 ! content blocking
 ||seattletimes.com/wp-content/plugins/st-user-messaging^$script,domain=seattletimes.com
 ||theatlantic.com/packages/adsjs^$script,domain=theatlantic.com
