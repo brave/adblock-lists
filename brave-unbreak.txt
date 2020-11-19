@@ -51,9 +51,6 @@ youtube.com,youtube-nocookie.com##+js(json-prune, playerAds)
 ||newcyclevaults.com^
 ! block scripts that profile user behavior using password managers
 @@||api.huobi.pro^$domain=www.huobi.pro
-! fixes calls bypassing shields on salon.com
-||salon.com/jobs.js$domain=salon.com
-||carambo.la^$third-party
 ! fixes ad blocking bypass
 ||adiode.com^$third-party
 ! content blocking
