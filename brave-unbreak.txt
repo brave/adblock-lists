@@ -66,10 +66,6 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ||privacy-mgmt.com^$third-party
 ||sp-prod.net^$third-party
 @@||notice.sp-prod.net^$subdocument,domain=telegraph.co.uk
-! Block additional trackers
-||sp1.nypost.com$third-party
-||sp.nasdaq.com$third-party
-||y8.com/js/sdkloader/outstream.js$third-party
 ! Brave-social (temp)
 ! List used by Brave for preventing social elements from loading
 !
