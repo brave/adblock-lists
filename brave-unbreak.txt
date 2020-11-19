@@ -51,8 +51,6 @@ youtube.com,youtube-nocookie.com##+js(json-prune, playerAds)
 ! content blocking
 ||seattletimes.com/wp-content/plugins/st-user-messaging^$script,domain=seattletimes.com
 ||theatlantic.com/packages/adsjs^$script,domain=theatlantic.com
-! https://github.com/brave/adblock-lists/issues/39
-@@||alb.reddit.com^
 ! Adblock Tracking
 @@||redditstatic.com^*/xads.js$script,domain=reddit.com
 ! Twitter ad cosmetic element 
