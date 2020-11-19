@@ -49,7 +49,6 @@ youtube.com,youtube-nocookie.com##+js(json-prune, playerAds)
 ! block scripts that profile user behavior using password managers
 @@||api.huobi.pro^$domain=www.huobi.pro
 ! content blocking
-||seattletimes.com/wp-content/plugins/st-user-messaging^$script,domain=seattletimes.com
 ||theatlantic.com/packages/adsjs^$script,domain=theatlantic.com
 ! Adblock Tracking
 @@||redditstatic.com^*/xads.js$script,domain=reddit.com
