@@ -75,7 +75,7 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||geoplugin.net/javascript.gp$script,xmlhttprequest,domain=suicidepreventionlifeline.org
 ! Consent trackers
 ||opencmp.net^$script,third-party
-||privacy-mgmt.com^$script,third-party
+||privacy-mgmt.com^$third-party
 ||sp-prod.net^$third-party
 @@||notice.sp-prod.net^$subdocument,domain=telegraph.co.uk
 ! Block additional trackers
