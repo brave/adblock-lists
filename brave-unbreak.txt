@@ -377,31 +377,16 @@ newtoki64.com##.basic-banner
 newtoki64.com##.board-tail-banner
 ! Anti-adblock: pandora.com
 @@||pandora.com/web-version/*/ads.json$xmlhttprequest,domain=pandora.com
-! Anti-adblock: laptopmedia.com
-@@||laptopmedia.com/ads.js$script,domain=laptopmedia.com
-! Anti-adblock: ratemyteachers.com
-@@||ratemyteachers.com/ads.js$script,domain=ratemyteachers.com
-! Anti-adblock: nbc.com
-@@||nbc.com/generetic/scripts/ads.js$script,domain=nbc.com
-! Anti-adblock: cnbc.com
-@@||cnbc.com/staticContent/showads.js$script,domain=cnbc.com
-! Allow reddit extensions to be used
-@@||reddit.com/r/$script,domain=deora.dev
-@@||reddit.com/comments/$domain=batcommunity.org
 ! blockadblock 
 blockadblock.com##+js(nobab)
 ! Anti-adblock: dagbladet.no
 @@||dagbladet.no^*/prebid.js$script,domain=dagbladet.no
 ! Adblock-Tracking: hanime.tv
 @@||hanime.tv/exoclick.ads.$script,domain=hanime.tv
-! Adblock-Tracking: esportsheaven.com
-@@||esportsheaven.com/wp-content/themes/esportsheaven/js/advertisement.js$script,domain=esportsheaven.com
 ! adziff ad tracking
 @@||adziff.com/ab/ads.js$xmlhttprequest,domain=pcmag.com|geek.com|extremetech.com
 ! Anti-adblock: gazzetta.it
 @@||rcsobjects.it^*/openx/$script,domain=gazzetta.it
-! Anti-adblock: investing.com
-@@||akamaized.net/js/ads.js$script,domain=investing.com
 ! Anti-adblock: geoguessr.com
 @@||geoguessr.com/_ads/$script,xmlhttprequest,domain=geoguessr.com
 ! ssrn.com login fix
@@ -410,14 +395,8 @@ blockadblock.com##+js(nobab)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! gifycat.com ads (https://community.brave.com/t/pages-loads-3rd-party-ads-after-page-loads/71472/10)
 ||ga.gfycat.com^$script,domain=gfycat.com
-! Anti-adblock tracking: nfl.com
-@@||nflcdn.com^*/ad.js$script,domain=nfl.com
-! Adblock-Tracking: cbc.ca
-@@||cbc.ca/g/stats/js/ads.js$script,domain=cbc.ca
 ! Anti-Adblock: bild.de
 @@||asadcdn.com/adlib/$script,stylesheet,domain=bild.de
-! Adblock-Tracking: computerbase.de
-@@||computerbase.de/js/ads.$script,xmlhttprequest,domain=computerbase.de
 ! Adblock-Tracking: (News corp AU sites)
 @@||tags.news.com.au/prod/adblock/adblock.js$script,domain=foxsports.com.au|kidspot.com.au|cairnspost.com.au|ntnews.com.au|goldcoastbulletin.com.au|townsvillebulletin.com.au|themercury.com.au|news.com.au|taste.com.au|heraldsun.com.au|dailytelegraph.com.au|adelaidenow.com.au|bodyandsoul.com.au|bestrecipes.com.au|whimn.com.au|vogue.com.au|delicious.com.au|escape.com.au|weeklytimesnow.com.au|geelongadvertiser.com.au
 ! Adblock-Tracking: MediaNews Group
