@@ -247,6 +247,8 @@ archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,a
 archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion##+js(acis, document.cookie, document.location.href)
 ! Anti-Brave checks (jaysndees.com)
 jaysndees.com##+js(acis, detectBBrowser)
+! Anti-Brave checks (bellasephina.com/tecknity.com/ebook-searcher.com)
+bellasephina.com,tecknity.com,ebook-searcher.com##+js(acis, request)
 ! Anti-adblock: cellmapper.net
 @@||cellmapper.net/js/ads.js$script,domain=cellmapper.net
 ! Anti-adblock: cyberciti.biz
