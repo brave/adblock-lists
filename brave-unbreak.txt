@@ -250,6 +250,9 @@ archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,a
 jaysndees.com##+js(acis, detectBBrowser)
 ! Anti-Brave checks (bellasephina.com/tecknity.com/ebook-searcher.com)
 bellasephina.com,tecknity.com,ebook-searcher.com##+js(acis, request)
+! Anti-Brave checks (uploadbank.com)
+||uploadbank.com/js/checkbrave.js
+uploadbank.com##+js(set, XMLHttpRequest, noopFunc)
 ! y2mate popup 
 y2mate.com##+js(acis, spro)
 y2mate.com##+js(acis, clickAds)
