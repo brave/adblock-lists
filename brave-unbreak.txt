@@ -194,8 +194,8 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ! Broken video playback on tn.com.ar (https://community.brave.com/t/the-blocker-does-not-allow-you-to-watch-the-video/76691)
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 ! uptostream
-uptostream.com,tirexo.cc##+js(acis, window.a)
-@@||tirexo.cc^$generichide
+uptostream.com,tirexo.lol##+js(acis, window.a)
+@@||tirexo.lol^$generichide
 ! portscanning script
 sciencedirect.com,ebay.com,ebay-kleinanzeigen.de##+js(acis, tmx_post_session_params_fixed)
 ! megaup.net
