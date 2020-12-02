@@ -19,6 +19,8 @@ stats.brave.com#@#adsContent
 ||vidazoo.com/proxy^$third-party
 ||mediabong.net^$third-party
 ||imprvdosrv.com^$third-party
+! https://yab.yomiuri.co.jp/adv/presage/3.html
+@@||yab.yomiuri.co.jp/adv/$first-party
 ! yt embed exceptions
 @@||youtube.com/yts/jsbin^$domain=thegatewaypundit.com|godlikeproductions.com|techcrunch.com
 ! theatlantic.com anti-blocker filters
