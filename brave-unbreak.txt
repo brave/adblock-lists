@@ -179,6 +179,8 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||tools.usps.com/go/scripts/tracking.js$script,domain=tools.usps.com
 ! Adblock-Tracking: imgbox.com
 @@||imgbox.com/site_ads.js$script,domain=imgbox.com
+! Fix startpage ads
+startpage.com###gcsa-top
 ! weather.com "Your privacy" dialogbox
 ||weather.com/*.PrivacyDataNotice.$domain=weather.com
 ! thothub.tv (NSFW)
