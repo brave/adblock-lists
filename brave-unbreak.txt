@@ -341,6 +341,11 @@ y2mate.com##+js(acis, clickAds)
 ! To counter $ghide in uBO
 geekzone.co.nz,elpais.com,abc.es,lapresse.ca##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 geekzone.co.nz,elpais.com,abc.es,lapresse.ca##+js(nostif, removeChild(f), 100)
+! all3dp.com (google funding)
+@@||all3dp.com^$generichide
+all3dp.com##.ad-container--loaded
+all3dp.com##.ad-container--horizontal
+all3dp.com##.ad-container__provider
 ! googlefunding popup
 gizbot.com,drivespark.com,goodreturns.in,nativeplanet.com,careerindia.com,click.in,filmibeat.com,boldsky.com##+js(acis, JSON.stringify)
 ! Adblock-Tracking: vg247.com
