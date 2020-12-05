@@ -198,6 +198,9 @@ startpage.com###gcsa-top
 @@||neustar.biz^$domain=home.neustar
 ! Blockfi Notifcations
 @@||braze.com^$third-party,domain=blockfi.com
+! Fix livemint.com (anti-adblock)
+livemint.com##+js(aeld, DOMContentLoaded)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=livemint.com
 ! Broken video playback on tn.com.ar (https://community.brave.com/t/the-blocker-does-not-allow-you-to-watch-the-video/76691)
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 ! uptostream
