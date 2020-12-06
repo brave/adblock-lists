@@ -30,10 +30,10 @@ stats.brave.com#@#adsContent
 ||theatlantic.blueconic.net$domain=theatlantic.com
 ||theatlantic.com/please-support-us^
 ! youtube ads
-! youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements)
-! youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.playerAds)
-! youtube.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements)
-! youtube.com,youtube-nocookie.com##+js(json-prune, playerResponse.playerAds)
+youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.adPlacements)
+youtube.com,youtube-nocookie.com##+js(json-prune, [].playerResponse.playerAds)
+youtube.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements)
+youtube.com,youtube-nocookie.com##+js(json-prune, playerResponse.playerAds)
 youtube.com,youtube-nocookie.com##+js(json-prune, adPlacements)
 youtube.com,youtube-nocookie.com##+js(json-prune, playerAds)
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
