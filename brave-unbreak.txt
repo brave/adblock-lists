@@ -346,14 +346,17 @@ y2mate.com##+js(acis, clickAds)
 ||fundingchoicesmessages.google.com^$third-party,badfilter
 ! To counter $ghide in uBO
 geekzone.co.nz,elpais.com,abc.es,lapresse.ca##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
-geekzone.co.nz,elpais.com,abc.es,lapresse.ca##+js(nostif, removeChild(f), 100)
+geekzone.co.nz##.fc-ab-root > .fc-dialog-container
 ! all3dp.com (google funding)
 @@||all3dp.com^$generichide
 all3dp.com##.ad-container--loaded
 all3dp.com##.ad-container--horizontal
 all3dp.com##.ad-container__provider
+! googlefunding (non-overlay, bottom window) as seen on geekzone.co.nz
+##.fc-ab-root > .fc-dialog-container
 ! googlefunding popup
-gizbot.com,drivespark.com,goodreturns.in,nativeplanet.com,careerindia.com,click.in,filmibeat.com,boldsky.com##+js(acis, JSON.stringify)
+nativeplanet.com,elmundo.es,abc.es,elpais.com,goodreturns.in,drivespark.com,gizbot.com,telva.com,geekzone.co.nz,lapresse.ca,all3dp.com,click.in,filmibeat.com,boldsky.com,careerindia.com##+js(acis, trustedTypes, console)
+nativeplanet.com,elmundo.es,abc.es,elpais.com,goodreturns.in,drivespark.com,gizbot.com,telva.com,lapresse.ca,click.in,filmibeat.com,boldsky.com,careerindia.com##+js(acis, JSON.stringify, instanceof)
 ! Adblock-Tracking: vg247.com
 @@||vg247.com/wp-content/themes/vg247/scripts/AdsLoad.js$script,domain=vg247.com
 ! Anti-adblock: indiatimes.com / timesofindia.com
