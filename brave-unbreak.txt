@@ -172,6 +172,8 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ! Fix nordpass/protomail clickthrough on ios
 @@/aff_c?offer_id=
 @@?offer_id=*&aff_id=
+! Fix Anti-adblock message https://github.com/uBlockOrigin/uAssets/pull/8276
+mail.yahoo.com##.gl_C.ab_C.I_Zjpytw.Z_3mRud
 ! ca.yahoo.com (ios)
 /av/ads/*$domain=yahoo.com
 ! https://www.nintendo.co.jp/ring/index.html (https://github.com/brave/brave-browser/issues/11448)
