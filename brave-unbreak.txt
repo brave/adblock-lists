@@ -200,6 +200,9 @@ startpage.com###gcsa-top
 @@||neustar.biz^$domain=home.neustar
 ! Blockfi Notifcations
 @@||braze.com^$third-party,domain=blockfi.com
+! https://canyoublockit.com/extreme-test/ (https://github.com/brave/brave-browser/issues/12929)
+canyoublockit.com##+js(aopr, atob)
+canyoublockit.com##+js(acis, atob, decodeURIComponent)
 ! Fix livemint.com (anti-adblock)
 livemint.com##+js(aeld, DOMContentLoaded)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=livemint.com
