@@ -285,6 +285,9 @@ y2mate.com##+js(acis, clickAds)
 @@||gazeta.ru^*/advertising.js$script,domain=gazeta.ru
 ! Adblock-Tracking: nytimes.com
 @@||nytimes.com/ads/google/adsbygoogle.js$script,domain=nytimes.com
+! Nytimes/Wirecutter Disqus https://github.com/brave/brave-browser/issues/13241
+nytimes.com##+js(cookie-remover, nyt-purr)
+nytimes.com##+js(acis, document.cookie, PURR_COOKIE_NAME)
 ! Adblock-Tracking: cpubenchmark.net / videocardbenchmark.net
 @@||videocardbenchmark.net/js/ads.js$script,domain=videocardbenchmark.net
 @@||cpubenchmark.net/js/ads.js$script,domain=cpubenchmark.net
