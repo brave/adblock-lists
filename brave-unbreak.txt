@@ -235,7 +235,7 @@ cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 ! Anti-adblock: cocomanhua.com (https://community.brave.com/t/brave-shlieds-doesn-t-work-properly/168535/7)
 @@||cocomanhua.com/js/ad_/$domain=cocomanhua.com
 ! Anti-adblock (Brave fix on  https://github.com/brave/brave-browser/issues/12737)
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=motorsport.com
+@@||static.adsafeprotected.com/vans-adapter-google-ima.js$script,domain=motorsport.tv
 ! Temp fix for CBS All Access (https://github.com/brave/brave-browser/issues/12705)
 @@||s0.2mdn.net/instream/video/client.js$script,domain=cbs.com
 @@||adservice.google.com/adsid/integrator.js$script,domain=cbs.com
