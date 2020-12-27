@@ -285,26 +285,10 @@ y2mate.com##+js(acis, clickAds)
 ! Nytimes/Wirecutter Disqus https://github.com/brave/brave-browser/issues/13241
 nytimes.com##+js(cookie-remover, nyt-purr)
 nytimes.com##+js(acis, document.cookie, PURR_COOKIE_NAME)
-! Adblock-Tracking: cpubenchmark.net / videocardbenchmark.net
-@@||videocardbenchmark.net/js/ads.js$script,domain=videocardbenchmark.net
-@@||cpubenchmark.net/js/ads.js$script,domain=cpubenchmark.net
-! Anti-adblock: dreamdth.com
-@@||dreamdth.com/js/wutime_adblock/ads.js$script,domain=dreamdth.com
-! Anti-adblock: transparentcalifornia.com
-@@||transparentcalifornia.com/static/js/ads.js$script,domain=transparentcalifornia.com
-! Anti-adblock: theawesomer.com
-@@||theawesomer.com/js/ads.js$script,domain=theawesomer.com
 ! Broken search on https://www.capitalone.com/search
 @@||nexus.ensighten.com/capitalone/Bootstrap.js$script,domain=capitalone.com
-! Adblock-Tracking: dslreports.com
-@@||dslr.net/css/ads.js$script,domain=dslreports.com
-! Adblock-Tracking: wired.co.uk
-@@||wired.co.uk/static/js/ads.js$script,domain=wired.co.uk
 ! ip-approval bug
 ||ip-approval.com^$third-party,domain=mufon.com
-! Anti-adblock: 9anime
-@@||9anime.vip/assets/js/ads.js$script,domain=9anime.vip
-@@||animecdn.xyz/js/ads.js$script,domain=9animes.ru
 ! Anti-adblock: securenetsystems.net
 @@||securenetsystems.net/v5/scripts/ads/prebid.js$script,domain=securenetsystems.net
 ! Adblock-Tracking: cheatsheet.com
