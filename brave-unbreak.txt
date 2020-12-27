@@ -224,16 +224,12 @@ megaup.net#@#.adBanner
 @@||gamestar.de^$generichide
 @@||tagesspiegel.de^$generichide
 @@||autobild.de/*&adserv$script,domain=autobild.de
-@@||golem.de^*/showAds.js$script,domain=golem.de
-@@||pcwelt.de/js/advert.js$script,domain=pcwelt.de
 reuters.com,hardwareluxx.de,formel1.de,golem.de,finanzen.net,autobild.de,gamestar.de,tagesspiegel.de##+js(acis, parseInt)
 ||s3.reutersmedia.net/resources/*&rtn=$image
 ! Anti-adblock message cinemablend.com (ported from uBO Annoyances)
 cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 ! chip.de
 ||mms.chip.de^
-! Anti-adblock: cocomanhua.com (https://community.brave.com/t/brave-shlieds-doesn-t-work-properly/168535/7)
-@@||cocomanhua.com/js/ad_/$domain=cocomanhua.com
 ! Anti-adblock (Brave fix on  https://github.com/brave/brave-browser/issues/12737)
 @@||static.adsafeprotected.com/vans-adapter-google-ima.js$script,domain=motorsport.tv
 ! Temp fix for CBS All Access (https://github.com/brave/brave-browser/issues/12705)
@@ -248,10 +244,6 @@ theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com
 ||concert.io/lib/adblock/$subdocument
 ! uBO-redirect work around ovagames.com 
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=ovagames.com
-! Anti-adblock: shush.se
-@@||shush.se/_ads.js$script,domain=shush.se
-! Adblock-Tracking: tweakers.net
-||tweakimg.net/x/scripts/min/banners.js$script,domain=tweakers.net
 ! Fix Playback on http://v6.player.abacast.net/6508 (https://community.brave.com/t/problem-loading-http-v6-player-abacast-net-6508/71822)
 @@||imasdk.googleapis.com/js/core/$subdocument,domain=player.abacast.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=player.abacast.net
@@ -270,77 +262,22 @@ uploadbank.com##+js(set, XMLHttpRequest, noopFunc)
 ! y2mate popup 
 y2mate.com##+js(acis, spro)
 y2mate.com##+js(acis, clickAds)
-! Anti-adblock: cellmapper.net
-@@||cellmapper.net/js/ads.js$script,domain=cellmapper.net
-! Anti-adblock: cyberciti.biz
-@@||cyberciti.biz/js/ads.js$script,domain=cyberciti.biz
-! Anti-adblock: mediaite.com
-@@||mediaite.com/adbait/adsbygoogle.js$script,domain=mediaite.com
 ! Fix yandex.ru blocking on 3dnews.ru
 ||aflt.market.yandex.ru^$script,third-party
-! Adblock-Tracking: gazeta.ru
-@@||gazeta.ru^*/advertising.js$script,domain=gazeta.ru
-! Adblock-Tracking: nytimes.com
-@@||nytimes.com/ads/google/adsbygoogle.js$script,domain=nytimes.com
 ! Nytimes/Wirecutter Disqus https://github.com/brave/brave-browser/issues/13241
 nytimes.com##+js(cookie-remover, nyt-purr)
 nytimes.com##+js(acis, document.cookie, PURR_COOKIE_NAME)
-! Adblock-Tracking: cpubenchmark.net / videocardbenchmark.net
-@@||videocardbenchmark.net/js/ads.js$script,domain=videocardbenchmark.net
-@@||cpubenchmark.net/js/ads.js$script,domain=cpubenchmark.net
-! Anti-adblock: dreamdth.com
-@@||dreamdth.com/js/wutime_adblock/ads.js$script,domain=dreamdth.com
-! Anti-adblock: transparentcalifornia.com
-@@||transparentcalifornia.com/static/js/ads.js$script,domain=transparentcalifornia.com
-! Anti-adblock: theawesomer.com
-@@||theawesomer.com/js/ads.js$script,domain=theawesomer.com
 ! Broken search on https://www.capitalone.com/search
 @@||nexus.ensighten.com/capitalone/Bootstrap.js$script,domain=capitalone.com
-! Adblock-Tracking: dslreports.com
-@@||dslr.net/css/ads.js$script,domain=dslreports.com
-! Adblock-Tracking: wired.co.uk
-@@||wired.co.uk/static/js/ads.js$script,domain=wired.co.uk
 ! ip-approval bug
 ||ip-approval.com^$third-party,domain=mufon.com
-! Anti-adblock: 9anime
-@@||9anime.vip/assets/js/ads.js$script,domain=9anime.vip
-@@||animecdn.xyz/js/ads.js$script,domain=9animes.ru
-! Anti-adblock: securenetsystems.net
-@@||securenetsystems.net/v5/scripts/ads/prebid.js$script,domain=securenetsystems.net
-! Adblock-Tracking: cheatsheet.com
-@@||cheatsheet.com^*/ads.js$script,domain=cheatsheet.com
-! Adblock-Tracking: softonic.com
-@@||sftcdn.net/statics/ads.min.js$xmlhttprequest,domain=softonic.com
-! Anti-adblock: thehindu.com
-@@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! Anti-adblock: lapresse.ca
 ||lapresse-ca.lapresse.ca^$domain=lapresse.ca
-@@||static.lpcdn.ca/lpweb/common/scripts/advertisement.js$script,domain=lapresse.ca
-! Anti-adblock: brainyquote.com
-@@||brainyquote.com/st/js/3425190/displayad.js$script,domain=brainyquote.com
-! Anti-adblock: notebookcheck.net / notebookcheck.com
-@@||notebookcheck-ru.com/ads.js$script,domain=notebookcheck.net|notebookcheck.com
-@@||static.h-bid.com/prebid/$script,domain=notebookcheck.net|notebookcheck.com
-@@||static.h-bid.com/notebookcheck.net/$script,domain=notebookcheck.net|notebookcheck.com
 ! Video playback on maxpreps.com (script source on cbssports.com)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=cbssports.com
 ! Fix foxnews video playback
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=foxbusiness.com|foxnews.com
 @@||fncstatic.com/static/isa/app/lib/VisitorAPI.js$script,domain=foxbusiness.com|foxnews.com
-! Anti-adblock: thesaurus.com
-@@||thesaurus.com/assets/ads.js$xmlhttprequest,domain=thesaurus.com
-! Anti-adblock: filehorse.com
-@@||static.filehorse.com/js/ads.js$script,domain=filehorse.com
-! Anti-adblock: rarbg
-@@||dyncdn.me^*/showads.js$script,domain=rarbg2019.org|rarbgaccess.org|rarbgmirror.com|rarbgproxied.org|rarbgmirrored.org|rarbgproxied.org|rarbgproxy.org|rarbgprx.org|rarbgto.org|rarbg.to|rarbgunblock.com
-! Adblock-Tracking: thenextweb.com
-@@||thenextweb.com/wp-content/advertisement.js$script,domain=thenextweb.com
-! Adblock-Tracking: tumblr
-@@/assets/scripts/tumblr/dashboard/showads.js$script,~third-party
-! Adblock-Tracking: ieee.org
-@@||ieee.org/assets/dist/js/ads.js$script,domain=ieee.org
-! Adblock-Tracking: motherjones.com
-@@||motherjones.com/wp-content/themes/motherjones/js/ads.min.js$script,domain=motherjones.com
 ! Adblock-Tracking: foxnews.com / foxbusiness.com
 ||fncstatic.com^*/google-funding-choices.js$script,domain=foxbusiness.com|foxnews.com
 ||foxnews.com/static/strike/scripts/libs/google.funding.choices.js$script,domain=foxnews.com
