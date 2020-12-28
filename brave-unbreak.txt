@@ -231,7 +231,8 @@ cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 ! chip.de
 ||mms.chip.de^
 ! Anti-adblock (Brave fix on  https://github.com/brave/brave-browser/issues/12737)
-@@||static.adsafeprotected.com/vans-adapter-google-ima.js$script,domain=motorsport.tv
+@@||static.adsafeprotected.com/vans-adapter-google-ima.js$script,domain=motorsport.tv|motorsport.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=motorsport.tv|motorsport.com
 ! Temp fix for CBS All Access (https://github.com/brave/brave-browser/issues/12705)
 @@||s0.2mdn.net/instream/video/client.js$script,domain=cbs.com
 @@||adservice.google.com/adsid/integrator.js$script,domain=cbs.com
