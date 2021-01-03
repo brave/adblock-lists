@@ -26,6 +26,9 @@ stats.brave.com#@#adsContent
 @@||cloudfront.net^$domain=imdb.com|media-imdb.com
 ! yt embed exceptions
 @@||youtube.com/yts/jsbin^$domain=thegatewaypundit.com|godlikeproductions.com|techcrunch.com
+! CNAME: https://darknetdiaries.com/episode/78/
+@@||traffic.megaphone.fm^$domain=megaphone.fm|darknetdiaries.com
+@@||adserver.va3.megaphone.cloud.$domain=megaphone.fm|darknetdiaries.com
 ! theatlantic.com anti-blocker filters
 ||theatlantic.blueconic.net$domain=theatlantic.com
 ||theatlantic.com/please-support-us^
