@@ -22,3 +22,4 @@
 @@/adsense/*$domain=startpage.com
 @@/afs/ads/*$domain=startpage.com
 @@&adsafe=$domain=startpage.com
+@@/gen_204?$image,domain=startpage.com
