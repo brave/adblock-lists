@@ -3,11 +3,16 @@
 ||127.0.0.1^$third-party,domain=~localhost|~[::1]
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1
 
-! Localhost exceptions
-! slate.host = https://github.com/brave/brave-browser/issues/13641
-@@||127.0.0.1^$third-party,domain=slate.host
-@@||localhost^$third-party,domain=slate.host
-@@||[::1]^$third-party,domain=slate.host
+! ipfs localhost exceptions
+! https://github.com/brave/brave-browser/issues/13641
+@@||127.0.0.1*/ipfs/$third-party
+@@||127.0.0.1*/ipns/$third-party
+@@||localhost*/ipfs/$third-party
+@@||localhost*/ipns/$third-party
+@@||ipfs.localhost^$third-party
+@@||ipns.localhost^$third-party
+@@||[::1]*/ipfs/$third-party
+@@||[::1]*/ipns/$third-party
 
 ! Re-enable scripts for Yandex after finding no privacy concerns (given
 ! other Brave privacy protections)
