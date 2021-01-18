@@ -9,6 +9,8 @@
 @@||127.0.0.1*/ipns/$third-party
 @@||localhost*/ipfs/$third-party
 @@||localhost*/ipns/$third-party
+@@||ipfs.localhost^$third-party
+@@||ipns.localhost^$third-party
 @@||[::1]*/ipfs/$third-party
 @@||[::1]*/ipns/$third-party
 
