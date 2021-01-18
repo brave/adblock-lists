@@ -1,1 +1,6 @@
 ! Brave IOS specific filters
+
+! coveryourtracks.eff.org
+||trackersimulator.org^$subdocument
+||eviltracker.net^$subdocument
+||do-not-tracker.org^$subdocument
