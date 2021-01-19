@@ -3,17 +3,6 @@
 ||127.0.0.1^$third-party,domain=~localhost|~[::1]
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1
 
-! ipfs localhost exceptions
-! https://github.com/brave/brave-browser/issues/13641
-@@||127.0.0.1^*/ipfs/$third-party
-@@||127.0.0.1^*/ipns/$third-party
-@@||localhost^*/ipfs/$third-party
-@@||localhost^*/ipns/$third-party
-@@||ipfs.localhost^$third-party
-@@||ipns.localhost^$third-party
-@@||[::1]^*/ipfs/$third-party
-@@||[::1]^*/ipns/$third-party
-
 ! Re-enable scripts for Yandex after finding no privacy concerns (given
 ! other Brave privacy protections)
 ! Privacy Review: https://github.com/brave/brave-browser/issues/11591
