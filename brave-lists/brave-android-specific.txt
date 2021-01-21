@@ -1,1 +1,6 @@
 ! Brave Android specific filters
+
+! fmovies
+fmovies.to##+js(acis, JSON.parse)
+fmovies.to##+js(acis, atob)
+fmovies.to##+js(acis, XMLHttpRequest)
