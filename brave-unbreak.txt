@@ -251,7 +251,13 @@ theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com
 ! uBO-redirect work around ovagames.com 
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=ovagames.com
 ! uBO-redirect work around livehindustan.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=livehindustan.com|hindustantimes.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=livehindustan.com
+! uBO-redirect work around hindustantimes.com
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=hindustantimes.com
+! uBO-redirect work around livexlive.com (IOS, Desktop)
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=livexlive.com
+@@||www.googletagservices.com/tag/js/gpt.js$script,domain=livexlive.com
+@@||securepubads.g.doubleclick.net^$script,domain=livexlive.com
 ! Fix Playback on http://v6.player.abacast.net/6508 (https://community.brave.com/t/problem-loading-http-v6-player-abacast-net-6508/71822)
 @@||imasdk.googleapis.com/js/core/$subdocument,domain=player.abacast.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=player.abacast.net
