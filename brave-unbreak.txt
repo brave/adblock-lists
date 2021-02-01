@@ -316,7 +316,7 @@ all3dp.com##.ad-container__provider
 ! googlefunding (non-overlay, bottom window) as seen on geekzone.co.nz
 ##.fc-ab-root > .fc-dialog-container
 ! googlefunding popup
-nativeplanet.com,elmundo.es,abc.es,elpais.com,goodreturns.in,drivespark.com,gizbot.com,telva.com,geekzone.co.nz,lapresse.ca,all3dp.com,click.in,filmibeat.com,boldsky.com,careerindia.com##+js(acis, trustedTypes, console)
+nativeplanet.com,elmundo.es,livejournal.com,abc.es,elpais.com,goodreturns.in,drivespark.com,gizbot.com,telva.com,geekzone.co.nz,lapresse.ca,all3dp.com,click.in,filmibeat.com,boldsky.com,careerindia.com##+js(acis, trustedTypes, console)
 nativeplanet.com,elmundo.es,abc.es,elpais.com,goodreturns.in,drivespark.com,gizbot.com,telva.com,lapresse.ca,click.in,filmibeat.com,boldsky.com,careerindia.com##+js(acis, JSON.stringify, instanceof)
 ! googlefunding (latimes.com) (fix scroll)
 latimes.com##body:style(overflow: auto !important;)
@@ -747,7 +747,6 @@ mail.ru##.tgb__link
 mail.ru##.trg-banners
 mail.ru##.trg-b-banner
 ! livejournal fix
-||livejournal.naydex.net^$xmlhttprequest,domain=livejournal.com
 livejournal.com##+js(aopr, window.webpackJsonpSSPjs)
 livejournal.com##+js(aopr, webpackJsonpSSPjs)
 ! Chinese specific rules
