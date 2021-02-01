@@ -92,8 +92,6 @@ collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !
 ||platform.linkedin.com^$third-party
 ||licdn.com^$third-party,domain=~linkedin.com
 @@||licdn.com^$domain=linkedin.com
-! Outbrain
-||outbrain.com^$third-party,domain=~sphere.com
 ! Outbrain elements
 ###around-the-web
 ###g-outbrain
