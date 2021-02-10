@@ -316,7 +316,7 @@ latimes.com##body:style(overflow: auto !important;)
 latimes.com##.fc-dialog-container
 latimes.com##.fc-ab-root
 ! googlefunding (foxnews / foxbusiness)
-||foxnews.com/static/strike/scripts/libs/google.funding.choices.js$script,domain=foxnews.com|foxbusiness.com
+||foxnews.com^*choices.js$script,domain=foxnews.com|foxbusiness.com
 ! Adblock-Tracking: vg247.com
 @@||vg247.com/wp-content/themes/vg247/scripts/AdsLoad.js$script,domain=vg247.com
 ! Anti-adblock: indiatimes.com / timesofindia.com
