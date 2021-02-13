@@ -245,6 +245,8 @@ cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##+js(nostif, adsBlocked)
 theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##.adblock-allowlist-messaging__wrapper
 ||concert.io/lib/adblock/$subdocument
+! uBO-redirect work around vpnstunnel.com
+@@||google.com/adsense/start/images/favicon.ico$image,domain=vpnstunnel.com
 ! uBO-redirect work around ovagames.com 
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=ovagames.com
 ! uBO-redirect work around livehindustan.com
