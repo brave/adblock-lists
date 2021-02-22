@@ -19,6 +19,9 @@ stats.brave.com#@#adsContent
 ||vidazoo.com/proxy^$third-party
 ||mediabong.net^$third-party
 ||imprvdosrv.com^$third-party
+! CNAME: linkvertise.com
+@@||taboola.com/libtrc/linkvertise-link-to/loader.js$domain=linkvertise.com
+@@||taboola.map.fastly.net^$domain=linkvertise.com
 ! CNAME: https://yab.yomiuri.co.jp/adv/presage/3.html
 @@||yab.yomiuri.co.jp/adv/$first-party
 @@||omicroncdn.net^$domain=yab.yomiuri.co.jp
