@@ -4,3 +4,6 @@
 ||trackersimulator.org^$subdocument
 ||eviltracker.net^$subdocument
 ||do-not-tracker.org^$subdocument
+
+! Anti-adblock: concert.io (vox sites)
+@@||vox-cdn.com/packs/concert_ads-$script,domain=chicago.suntimes.com|theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com|theringer.com|mmafighting.com|racked.com|mmamania.com|funnyordie.com|riftherald.com
