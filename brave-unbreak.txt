@@ -244,9 +244,8 @@ cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 @@||tags.tiqcdn.com/utag/cbsi/cbscomsite/prod/utag.js$script,domain=cbs.com
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=cbs.com
 ! Anti-adblock: concert.io (vox sites)
-@@||vox-cdn.com/packs/concert_ads-$script,domain=theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com|theringer.com|mmafighting.com|racked.com|mmamania.com|funnyordie.com|riftherald.com
-theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##+js(nostif, adsBlocked)
-theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##.adblock-allowlist-messaging__wrapper
+chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##+js(nostif, adsBlocked)
+chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##.adblock-allowlist-messaging__wrapper
 ||concert.io/lib/adblock/$subdocument
 ! uBO-redirect work around vpnstunnel.com
 @@||google.com/adsense/start/images/favicon.ico$image,domain=vpnstunnel.com
