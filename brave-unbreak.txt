@@ -218,6 +218,8 @@ uptostream.com,tirexo.lol##+js(acis, window.a)
 @@||tirexo.lol^$generichide
 ! portscanning script
 sciencedirect.com,ebay.com,ebay-kleinanzeigen.de##+js(acis, tmx_post_session_params_fixed)
+! 1p Tracking/fingerprinting
+academy.com,att.com,backcountry.com.bestbuy.com,buybuybaby.com,discover.com,discovercard.com,eddiebauer.com,finishline.com,kohls.com,macys.com,marshalls.com,mouser.com,pnc.com,publix.com,sierra.com,staples.com,usbank.com##+js(acis, _cf)
 ! megaup.net
 megaup.net#@#.adBanner
 ! Anti-adblock: dianomi-anti-adblock
