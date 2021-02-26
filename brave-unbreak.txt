@@ -8,6 +8,8 @@
 @@||ads.brave.software^$first-party
 @@||ads-admin.bravesoftware.com^$first-party
 @@||ads.bravesoftware.com^$first-party
+@@||ads-admin.brave.com^$first-party
+@@||ads-admin.brave.software^$first-party
 @@||ads.brave.com^$first-party
 ! stats.brave.com
 stats.brave.com#@#adsContent
