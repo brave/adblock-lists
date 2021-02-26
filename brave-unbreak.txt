@@ -6,6 +6,7 @@
 ||aps.hearstnp.com^$script,image
 ! brave.com specfic filters
 @@||ads.brave.software^$first-party
+@@||ads-admin.bravesoftware.com^$first-party
 @@||ads.bravesoftware.com^$first-party
 @@||ads.brave.com^$first-party
 ! stats.brave.com
