@@ -308,17 +308,14 @@ nytimes.com##+js(acis, document.cookie, PURR_COOKIE_NAME)
 ||fundingchoicesmessages.google.com^$third-party,badfilter
 ! To counter $ghide in uBO
 geekzone.co.nz,elpais.com,abc.es,lapresse.ca##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
-geekzone.co.nz##.fc-ab-root > .fc-dialog-container
 ! all3dp.com (google funding)
 @@||all3dp.com^$generichide
 all3dp.com##.ad-container--loaded
 all3dp.com##.ad-container--horizontal
 all3dp.com##.ad-container__provider
-! googlefunding (non-overlay, bottom window) as seen on geekzone.co.nz
-##.fc-ab-root > .fc-dialog-container
 ! googlefunding popup
 nativeplanet.com,elmundo.es,abc.es,elpais.com,goodreturns.in,drivespark.com,gizbot.com,telva.com,geekzone.co.nz,lapresse.ca,all3dp.com,click.in,filmibeat.com,boldsky.com,careerindia.com##+js(acis, trustedTypes, console)
-nativeplanet.com,elmundo.es,livejournal.com,abc.es,elpais.com,goodreturns.in,drivespark.com,gizbot.com,telva.com,lapresse.ca,click.in,filmibeat.com,boldsky.com,careerindia.com##+js(acis, JSON.stringify, instanceof)
+natlawreview.com,nativeplanet.com,elmundo.es,livejournal.com,abc.es,elpais.com,goodreturns.in,drivespark.com,gizbot.com,telva.com,lapresse.ca,click.in,filmibeat.com,boldsky.com,careerindia.com##+js(acis, JSON.stringify, instanceof)
 ! googlefunding (latimes.com) (fix scroll)
 latimes.com##body:style(overflow: auto !important;)
 ! hide google fc popup and overlay
