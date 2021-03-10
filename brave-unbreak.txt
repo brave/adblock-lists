@@ -243,6 +243,7 @@ cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=motorsport.tv|motorsport.com
 ! Temp fix for CBS/Paramountplus (https://github.com/brave/brave-browser/issues/12705)
 @@||s0.2mdn.net/instream/video/client.js$script,domain=cbs.com|paramountplus.com
+||ad.doubleclick.net^$image,redirect=1x1.gif,domain=cbs.com|paramountplus.com
 ! Anti-adblock: concert.io (vox sites)
 chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##+js(nostif, adsBlocked)
 chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##.adblock-allowlist-messaging__wrapper
