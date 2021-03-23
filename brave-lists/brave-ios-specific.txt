@@ -1,5 +1,9 @@
 ! Brave IOS specific filters
 
+! Counter Peter Lowes Filters
+||doubleclick.net^$badfilter
+||googleadservices.com^$badfilter
+
 ! coveryourtracks.eff.org
 ||trackersimulator.org^$subdocument
 ||eviltracker.net^$subdocument
