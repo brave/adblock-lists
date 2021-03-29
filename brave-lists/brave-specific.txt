@@ -26,3 +26,7 @@
 ! Fix localhost block on Trezor Bridge/Connect
 ! https://community.brave.com/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544/
 @@||127.0.0.1^$domain=trezor.io
+
+! Fix localhost block on https://apps.crust.network/
+! https://community.brave.com/t/specific-filter-whitelist-application/223212
+@@||127.0.0.1^$domain=crust.network
