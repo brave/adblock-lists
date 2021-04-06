@@ -80,6 +80,9 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ||privacy-mgmt.com^$third-party
 ||sp-prod.net^$third-party
 @@||notice.sp-prod.net^$subdocument,domain=telegraph.co.uk
+@@||cdn.privacy-mgmt.com/wrapper/$xmlhttprequest,domain=spiegel.de
+@@||cdn.privacy-mgmt.com/index.html$subdocument,domain=spiegel.de
+@@||cdn.privacy-mgmt.com/consent/$subdocument,domain=spiegel.de
 ! Scroll bar-consent
 collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !important;)
 ! Brave-social (temp)
