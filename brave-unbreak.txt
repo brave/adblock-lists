@@ -251,6 +251,9 @@ cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##+js(nostif, adsBlocked)
 chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##.adblock-allowlist-messaging__wrapper
 ||concert.io/lib/adblock/$subdocument
+! uBO-redirect work around akwam.cc (Anti-adblock) 
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akwam.cc
+akwam.cc##+js(acis, eval, ignielAdBlock)
 ! uBO-redirect work around golf.com https://github.com/uBlockOrigin/uAssets/pull/8805
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=golf.com
 ! uBO-redirect work around vpnstunnel.com
