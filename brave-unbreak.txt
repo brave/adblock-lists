@@ -85,6 +85,8 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||cdn.privacy-mgmt.com/consent/$subdocument,domain=spiegel.de
 ! Scroll bar-consent
 collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !important;)
+! Fix preloader (facebook check)
+igniteunmc.com##.preloader
 ! Brave-social (temp)
 ! List used by Brave for preventing social elements from loading
 !
