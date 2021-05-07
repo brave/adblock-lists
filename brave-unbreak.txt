@@ -367,6 +367,11 @@ blockadblock.com##+js(nobab)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! gifycat.com ads (https://community.brave.com/t/pages-loads-3rd-party-ads-after-page-loads/71472/10)
 ||ga.gfycat.com^$script,domain=gfycat.com
+! Cosmetic fixes (https://github.com/brave/brave-browser/issues/14825)
+! Counter blocked by extension warnings
+naver.com###veta_top
+naver.com###veta_branding
+naver.com##.banner_area
 ! Anti-Adblock: bild.de
 @@||asadcdn.com/adlib/$script,stylesheet,domain=bild.de
 ! Adblock-Tracking: (News corp AU sites)
