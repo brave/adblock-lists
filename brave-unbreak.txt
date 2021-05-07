@@ -161,8 +161,6 @@ igniteunmc.com##.preloader
 @@||platform.linkedin.com^$tag=linked-in-embeds
 ! Fix sign in icon on https://app.mysms.com/#login
 @@||developers.google.com/identity/$image,domain=mysms.com
-! Adblock-Tracking: speedtest.com
-@@||speedtest.net/javascript/ads.js$script,domain=speedtest.net
 ! vresp.com (https://community.brave.com/t/cant-see-captcha-on-form/67187)
 @@||captcha.vresp.com^$domain=lawfirmkpi.com
 ! https://community.brave.com/t/ad-not-bloked-properly/63628
@@ -195,8 +193,6 @@ igniteunmc.com##.preloader
 @@||suumo.jp/sp/js/beacon.js$script,domain=suumo.jp
 ! usps.com fix (ios)
 @@||tools.usps.com/go/scripts/tracking.js$script,domain=tools.usps.com
-! Adblock-Tracking: imgbox.com
-@@||imgbox.com/site_ads.js$script,domain=imgbox.com
 ! Fix startpage ads
 startpage.com###gcsa-top
 ! weather.com "Your privacy" dialogbox
@@ -205,8 +201,6 @@ startpage.com###gcsa-top
 @@||awemwh.com^$media,domain=thothub.tv
 ! Fix https://github.com/brave/brave-browser/issues/4507 (mirrors uBO fix, rewritten so that brave/ad-block supports)
 ||washingtonpost.com/pb/api/*/adblocker-feature$xmlhttprequest,first-party
-! Fix blankpage issue https://github.com/brave/brave-browser/issues/4049
-||dianomi.com/cgi-bin/smartads.pl$xmlhttprequest,domain=inc.com
 ! Fix onesignal.com example push notifications
 @@||googletagmanager.com/gtm.js$script,domain=onesignal.com
 ! Fix for https://www.home.neustar/ (blank page)
@@ -351,12 +345,6 @@ newtoki64.com##.board-tail-banner
 @@||pandora.com/web-version/*/ads.json$xmlhttprequest,domain=pandora.com
 ! blockadblock 
 blockadblock.com##+js(nobab)
-! Anti-adblock: dagbladet.no
-@@||dagbladet.no^*/prebid.js$script,domain=dagbladet.no
-! Adblock-Tracking: hanime.tv
-@@||hanime.tv/exoclick.ads.$script,domain=hanime.tv
-! adziff ad tracking
-@@||adziff.com/ab/ads.js$xmlhttprequest,domain=pcmag.com|geek.com|extremetech.com
 ! Anti-adblock: gazzetta.it
 @@||rcsobjects.it^*/openx/$script,domain=gazzetta.it
 ! Anti-adblock: geoguessr.com
@@ -396,15 +384,6 @@ lenta.ru,championat.com,passion.ru,wmj.ru,eda.ru,rambler.ru,motor.ru,autorambler
 @@||pbs.twimg.com/amplify_video_thumb/$image,third-party
 ! mycima.me
 mycima.me##+js(acis, Math, zfgloaded)
-! Anti-adblock tracking Prometheus Global Media
-@@||pgmcdn.com/advertisement.js$script,domain=billboard.com|hollywoodreporter.com|vibe.com
-! Adblock tradcking: defenseone.com
-@@||defenseone.com/b/js/adframe.js$script,domain=defenseone.com
-! Anti-adblock: washingtonpost.com
-@@||d2ty8gaf6rmowa.cloudfront.net/ad/$domain=washingtonpost.com
-@@||pubads.g.doubleclick.net^$xmlhttprequest,domain=washingtonpost.com
-! Anti-adblock tracking: abc.com
-@@||edgedatg.com^*/ads.min.js$script,domain=abc.com
 ! Fix consent issue on porsche.com (IOS)
 @@||googletagmanager.com/gtm.js$script,domain=porsche.com
 ! Fix abcnews.go.com video playback
