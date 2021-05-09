@@ -222,6 +222,8 @@ uptostream.com,tirexo.lol##+js(acis, window.a)
 sciencedirect.com,ebay.com,ebay-kleinanzeigen.de,tdbank.com##+js(acis, tmx_post_session_params_fixed)
 ! megaup.net
 megaup.net#@#.adBanner
+! slate.com Anti-adblock workaround https://github.com/brave/brave-browser/issues/15702
+||tinypass.com^$domain=slate.com
 ! Anti-adblock: dianomi-anti-adblock
 @@||pcwelt.de^$generichide
 @@||formel1.de^$generichide
