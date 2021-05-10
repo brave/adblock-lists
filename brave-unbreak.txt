@@ -224,6 +224,7 @@ sciencedirect.com,ebay.com,ebay-kleinanzeigen.de,tdbank.com##+js(acis, tmx_post_
 megaup.net#@#.adBanner
 ! slate.com Anti-adblock workaround https://github.com/brave/brave-browser/issues/15702
 ||tinypass.com^$domain=slate.com
+@@||id.tinypass.com^$domain=slate.com
 ! Anti-adblock: dianomi-anti-adblock
 @@||pcwelt.de^$generichide
 @@||formel1.de^$generichide
