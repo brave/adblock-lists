@@ -14,3 +14,6 @@
 
 ! Anti-adblock: concert.io (vox sites)
 @@||vox-cdn.com/packs/concert_ads-$script,domain=chicago.suntimes.com|theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com|theringer.com|mmafighting.com|racked.com|mmamania.com|funnyordie.com|riftherald.com
+
+!temp fix (prevent errors showing up)
+@@||youtube.com/watch?

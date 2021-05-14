@@ -4,3 +4,6 @@
 fmovies.to##+js(acis, JSON.parse)
 fmovies.to##+js(acis, atob)
 fmovies.to##+js(acis, XMLHttpRequest)
+
+!temp fix (prevent errors showing up)
+@@||youtube.com/watch?
