@@ -257,6 +257,8 @@ chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,cur
 ! uBO-redirect work around akwam.cc (Anti-adblock) 
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akwam.cc
 akwam.cc##+js(acis, eval, ignielAdBlock)
+! uBO-redirect work around scat.gold
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=scat.gold
 ! uBO-redirect work around golf.com https://github.com/uBlockOrigin/uAssets/pull/8805
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=golf.com
 ! uBO-redirect work around vpnstunnel.com
