@@ -258,6 +258,8 @@ chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,cur
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=turreta.com
 ! uBO-redirect work around akwam.cc (Anti-adblock) 
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akwam.cc
+! uBO-redirect work around gbnews.uk (Anti-adblock)
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gbnews.uk
 akwam.cc##+js(acis, eval, ignielAdBlock)
 ! uBO-redirect work around scat.gold
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=scat.gold
