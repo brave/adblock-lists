@@ -240,6 +240,9 @@ reuters.com,hardwareluxx.de,formel1.de,golem.de,finanzen.net,autobild.de,gamesta
 ||s3.reutersmedia.net/resources/*&rtn=$image
 ! Anti-adblock message cinemablend.com (ported from uBO Annoyances)
 cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
+! Anti-adblock message suncalc.org (ported from uBO Annoyances)
+###adsGross1
+###adsKlein
 ! chip.de
 ||mms.chip.de^
 ! Anti-adblock (Brave fix on  https://github.com/brave/brave-browser/issues/12737)
