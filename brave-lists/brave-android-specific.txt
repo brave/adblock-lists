@@ -4,4 +4,5 @@
 fmovies.to##+js(acis, JSON.parse)
 fmovies.to##+js(acis, atob)
 fmovies.to##+js(acis, XMLHttpRequest)
-
+! https://github.com/brave/brave-browser/issues/16629
+01net.com##.mrf-adv__wrapper
