@@ -220,6 +220,8 @@ livemint.com##+js(aeld, DOMContentLoaded)
 ! uptostream
 uptostream.com,tirexo.lol##+js(acis, window.a)
 @@||tirexo.lol^$generichide
+! kinox.cloud
+kinox.cloud##+js(acis, indexOf)
 ! portscanning script
 sciencedirect.com,ebay.com,ebay-kleinanzeigen.de,tdbank.com##+js(acis, tmx_post_session_params_fixed)
 ! megaup.net
