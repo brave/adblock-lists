@@ -280,6 +280,8 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=livexlive.com
 @@||www.googletagservices.com/tag/js/gpt.js$script,domain=livexlive.com
 @@||securepubads.g.doubleclick.net^$script,domain=livexlive.com
+! uBO-redirect work around rp5.ru
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rp5.ru
 ! uBO-redirect work around onlinefreecourse.net 
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=onlinefreecourse.net
 ! Fix Playback on http://v6.player.abacast.net/6508 (https://community.brave.com/t/problem-loading-http-v6-player-abacast-net-6508/71822)
