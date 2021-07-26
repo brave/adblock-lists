@@ -380,6 +380,9 @@ blockadblock.com##+js(nobab)
 naver.com###veta_top
 naver.com###veta_branding
 naver.com##.banner_area
+! Strick block (Adguard Japanese)
+! https://github.com/brave/adblock-lists/issues/614
+||gorin.jp/tokyo-assets/static/entrance/gorin_tead_prd/$subdocument,badfilter
 ! Anti-Adblock: bild.de
 @@||asadcdn.com/adlib/$script,stylesheet,domain=bild.de
 ! Adblock-Tracking: (News corp AU sites)
