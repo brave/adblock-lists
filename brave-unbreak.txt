@@ -303,7 +303,7 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 $websocket,domain=whatleaks.com 
 whatleaks.com##+js(acis, init_port_check_waiting)
 ! Anti-Brave checks
-krunker.io,filecr.com,lyckansforskola.com,gommonauti.it,nowtype.com.br,gugo.site,sybertrek.com,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion##+js(aopw, navigator.brave)
+krunker.io,kodekloud.com,filecr.com,lyckansforskola.com,gommonauti.it,nowtype.com.br,gugo.site,sybertrek.com,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion##+js(aopw, navigator.brave)
 archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion##+js(acis, document.cookie, document.location.href)
 ! Anti-Brave checks (jaysndees.com)
 jaysndees.com##+js(acis, detectBBrowser)
