@@ -32,4 +32,4 @@ modalina.jp###ggleadv:style(height: 60px!important;)
 modalina.jp###header:style(margin-top: 60px!important;)
 
 ! Used for Brave QA tests
-/static/images/test.jpg?335962573013224749$image,domain=dev-pages.brave.software|dev-pages.bravesoftware.com
+?335962573013224749$image,domain=dev-pages.brave.software|dev-pages.bravesoftware.com
