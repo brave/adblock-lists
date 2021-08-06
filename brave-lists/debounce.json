@@ -86,7 +86,8 @@
   },
   {
     "include": [
-      "*://*.facebook.com/1.php"
+      "*://*.facebook.com/1.php",
+      "*://*.facebook.com/l.php"
     ],
     "exclude": [
     ],
