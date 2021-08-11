@@ -311,7 +311,7 @@ archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,a
 ! Anti-Brave checks (jaysndees.com)
 jaysndees.com##+js(acis, detectBBrowser)
 ! Anti-Brave checks (bellasephina.com/tecknity.com/ebook-searcher.com)
-texas-time-gifts.com,attleer.top,2gilberta.top,rwillk.top,i-rotary.com,ach-photos.com,bellasephina.com,tecknity.com,ebook-searcher.com##+js(acis, request)
+texas-time-gifts.com,i-rotary.com,ach-photos.com,tecknity.com##+js(acis, request)
 ! Anti-Brave checks (uploadbank.com)
 ||uploadbank.com/js/checkbrave.js
 uploadbank.com##+js(set, XMLHttpRequest, noopFunc)
