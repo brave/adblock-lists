@@ -308,13 +308,8 @@ whatleaks.com##+js(acis, init_port_check_waiting)
 ! Anti-Brave checks
 krunker.io,kodekloud.com,filecr.com,lyckansforskola.com,gommonauti.it,nowtype.com.br,gugo.site,sybertrek.com,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion##+js(aopw, navigator.brave)
 archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion##+js(acis, document.cookie, document.location.href)
-! Anti-Brave checks (jaysndees.com)
-jaysndees.com##+js(acis, detectBBrowser)
-! Anti-Brave checks (bellasephina.com/tecknity.com/ebook-searcher.com)
-texas-time-gifts.com,i-rotary.com,ach-photos.com,tecknity.com##+js(acis, request)
-! Anti-Brave checks (uploadbank.com)
-||uploadbank.com/js/checkbrave.js
-uploadbank.com##+js(set, XMLHttpRequest, noopFunc)
+! Anti-Brave checks (DuckDuckGo UA check)
+||api.duckduckgo.com/?q=useragent$domain=i-rotary.com|mynewsmedia.co|tecknity.com|jaysndees.com
 ! globalnews.ca Anti-adblock
 @@||globalnews.ca^$ghide
 globalnews.ca##.l-headerAd__container
