@@ -310,8 +310,6 @@ krunker.io,kodekloud.com,filecr.com,lyckansforskola.com,gommonauti.it,nowtype.co
 archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion##+js(acis, document.cookie, document.location.href)
 ! Anti-Brave checks (DuckDuckGo UA check)
 ||api.duckduckgo.com/?q=useragent$domain=i-rotary.com|mynewsmedia.co|tecknity.com|jaysndees.com
-! Anti-Brave checks (jaysndees.com)
-jaysndees.com##+js(acis, detectBBrowser)
 ! globalnews.ca Anti-adblock
 @@||globalnews.ca^$ghide
 globalnews.ca##.l-headerAd__container
