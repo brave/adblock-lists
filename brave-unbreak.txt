@@ -33,8 +33,6 @@ stats.brave.com#@#adsContent
 @@||omicroncdn.net^$domain=yab.yomiuri.co.jp
 ! CNAME: https://www.imdb.com/video/vi935705113?playlistId=tt1568346
 @@||cloudfront.net^$domain=imdb.com|media-imdb.com
-! yt embed exceptions
-@@||youtube.com/yts/jsbin^$domain=thegatewaypundit.com|godlikeproductions.com|techcrunch.com
 ! CNAME: https://darknetdiaries.com/episode/78/
 @@||traffic.megaphone.fm^$domain=megaphone.fm|darknetdiaries.com
 @@||adserver.va3.megaphone.cloud.$domain=megaphone.fm|darknetdiaries.com
@@ -306,7 +304,7 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 $websocket,domain=whatleaks.com 
 whatleaks.com##+js(acis, init_port_check_waiting)
 ! Anti-Brave checks
-krunker.io,kodekloud.com,filecr.com,lyckansforskola.com,gommonauti.it,nowtype.com.br,gugo.site,sybertrek.com,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,caratoday.com,sybertrek.com,pethouse.com.au##+js(aopw, navigator.brave)
+krunker.io,kodekloud.com,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,caratoday.com,sybertrek.com,pethouse.com.au##+js(aopw, navigator.brave)
 archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion##+js(acis, document.cookie, document.location.href)
 ! Anti-Brave checks (DuckDuckGo UA check)
 ||api.duckduckgo.com/?q=useragent$domain=i-rotary.com|mynewsmedia.co|tecknity.com|jaysndees.com|recherche-ebook.fr|bellasephina.com|pokedi.xyz|unitythemovement.world|thebeautyboothe.com
@@ -314,9 +312,6 @@ archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,a
 @@||globalnews.ca^$ghide
 globalnews.ca##.l-headerAd__container
 globalnews.ca##.c-newsletterSignup
-! y2mate popup 
-y2mate.com##+js(acis, spro)
-y2mate.com##+js(acis, clickAds)
 ! Fix yandex.ru blocking on 3dnews.ru
 ||aflt.market.yandex.ru^$script,third-party
 ! Nytimes/Wirecutter Disqus https://github.com/brave/brave-browser/issues/13241
