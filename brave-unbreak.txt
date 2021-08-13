@@ -33,8 +33,6 @@ stats.brave.com#@#adsContent
 @@||omicroncdn.net^$domain=yab.yomiuri.co.jp
 ! CNAME: https://www.imdb.com/video/vi935705113?playlistId=tt1568346
 @@||cloudfront.net^$domain=imdb.com|media-imdb.com
-! yt embed exceptions
-@@||youtube.com/yts/jsbin^$domain=thegatewaypundit.com|godlikeproductions.com|techcrunch.com
 ! CNAME: https://darknetdiaries.com/episode/78/
 @@||traffic.megaphone.fm^$domain=megaphone.fm|darknetdiaries.com
 @@||adserver.va3.megaphone.cloud.$domain=megaphone.fm|darknetdiaries.com
@@ -314,9 +312,6 @@ archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,a
 @@||globalnews.ca^$ghide
 globalnews.ca##.l-headerAd__container
 globalnews.ca##.c-newsletterSignup
-! y2mate popup 
-y2mate.com##+js(acis, spro)
-y2mate.com##+js(acis, clickAds)
 ! Fix yandex.ru blocking on 3dnews.ru
 ||aflt.market.yandex.ru^$script,third-party
 ! Nytimes/Wirecutter Disqus https://github.com/brave/brave-browser/issues/13241
