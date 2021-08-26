@@ -236,7 +236,6 @@ megaup.net#@#.adBanner
 @@||tagesspiegel.de^$generichide
 @@||autobild.de/*&adserv$script,domain=autobild.de
 wetter.com,spiegel.de##[referrerpolicy]
-spiegel.de##[referrerpolicy]
 reuters.com,hardwareluxx.de,formel1.de,golem.de,finanzen.net,autobild.de,gamestar.de,tagesspiegel.de##+js(acis, parseInt)
 ||s3.reutersmedia.net/resources/*&rtn=$image
 ! Anti-adblock message cinemablend.com (ported from uBO Annoyances)
