@@ -83,9 +83,7 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 ||privacy-mgmt.com^$third-party
 ||sp-prod.net^$third-party
 @@||notice.sp-prod.net^$subdocument,domain=telegraph.co.uk
-@@||cdn.privacy-mgmt.com/wrapper/$xmlhttprequest,domain=spiegel.de
-@@||cdn.privacy-mgmt.com/index.html$subdocument,domain=spiegel.de
-@@||cdn.privacy-mgmt.com/consent/$subdocument,domain=spiegel.de
+@@||sp-spiegel-de.spiegel.de^$domain=spiegel.de
 ! Scroll bar-consent
 collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !important;)
 ! Fix preloader (facebook check)
@@ -237,6 +235,7 @@ megaup.net#@#.adBanner
 @@||gamestar.de^$generichide
 @@||tagesspiegel.de^$generichide
 @@||autobild.de/*&adserv$script,domain=autobild.de
+wetter.com,spiegel.de##[referrerpolicy]
 reuters.com,hardwareluxx.de,formel1.de,golem.de,finanzen.net,autobild.de,gamestar.de,tagesspiegel.de##+js(acis, parseInt)
 ||s3.reutersmedia.net/resources/*&rtn=$image
 ! Anti-adblock message cinemablend.com (ported from uBO Annoyances)
