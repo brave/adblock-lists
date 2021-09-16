@@ -1,0 +1,16 @@
+{
+    "name": "adblock-lists",
+    "version": "1.0.0",
+    "description": "Ad blocking and related lists for Brave",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brave/adblock-lists.git"
+    },
+    "author": "Ryan Brown <rbrown@brave.com>",
+    "license": "MPL-2.0",
+    "gypfile": true,
+    "bugs": {
+        "url": "https://github.com/brave/adblock-lists/issues"
+    },
+    "homepage": "https://github.com/brave/adblock-lists#adblock-lists"
+}
