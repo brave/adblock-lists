@@ -3,5 +3,7 @@
 #
 ||akamaized.net/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
 ||scdn.co/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
+||ads-api.twitter.com^
 #
 # Trackers
+||twitter.com/1.1/jot/client_event.json
