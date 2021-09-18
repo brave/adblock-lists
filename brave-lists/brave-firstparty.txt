@@ -23,6 +23,17 @@
 ||rta.dailymail.co.uk^
 ||t.dailymail.co.uk^
 ||ted.dailymail.co.uk^
+# Facebook/Instagram
+||facebook.com/a/bz?
+||facebook.com/ajax/*/log.php
+||facebook.com/ajax/*logging.
+||facebook.com/ajax/mtouch_perf_page_load_timings/
+||facebook.com/ajax/qm/
+||facebook.com/ct.php
+||facebook.com/search/web/instrumentation.php?
+||facebook.com/xti.php?
+||pixel.facebook.com^
+||instagram.com/ajax/bz
 # Youtube
 ||youtube-nocookie.com/api/stats/delayplay?
 ||youtube-nocookie.com/api/stats/qoe?
