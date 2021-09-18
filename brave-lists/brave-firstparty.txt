@@ -111,7 +111,6 @@
 ! Consent/GDPR tracking
 ://a02342.
 ||cb-mms.carbuyer.co.uk^
-||cdn-alliancegravity.s3.amazonaws.com^
 ||cmp.courrierinternational.com^
 ||cmp.dmgmediaprivacy.co.uk^
 ||cmp.finn.no^
@@ -124,17 +123,13 @@
 ||commsvc.stern.de^
 ||d.sourcepoint.capitalfm.com^
 ||fuse.forbes.com^
-||h-bid.com^$third-party
 ||isgprivacy.cbsi.com^
 ||mms.wwe.com^
-||quantcast.mgr.consensu.org/cmp.js
-||quantcast.mgr.consensu.org^*/cmp.js
 ||services.hmhost.co.uk^
 ||sourcepoint-mms.aetv.com^
 ||sourcepoint-mms.history.com^
 ||sourcepoint-mms.mylifetime.com^
 ||sourcepoint.theguardian.com^
 ||telegraph.co.uk/telegraph-advertising/tmg-cmp.min.js
-||trustarc.mgr.consensu.org/get?
 ||twus-mms.theweek.com^
 ||vg247.com/wp-content/themes/vg247/scripts/mvg247-fsm.js
