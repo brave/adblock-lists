@@ -6,7 +6,49 @@
 ||ads-api.twitter.com^
 #
 # Trackers
+#
 ||twitter.com/1.1/jot/client_event.json
+# Amazon
+||amazon.*/action-impressions/
+||amazon.*/ajax/counter?
+||amazon.com/1/events/$domain=~aws.amazon.com
+||amazon.com/1/remote-weblab-triggers/
+||amazon.com/empty.gif?$image
+||amazon.com^*/impress.html
+||aax-eu-dub.amazon.com^
+||aax-us-iad.amazon.com^
+# Dailymail
+||dailymail.co.uk/geo/
+||dailymail.co.uk/rta2/
+||rta.dailymail.co.uk^
+||t.dailymail.co.uk^
+||ted.dailymail.co.uk^
+# Youtube
+||youtube-nocookie.com/api/stats/delayplay?
+||youtube-nocookie.com/api/stats/qoe?
+||youtube-nocookie.com/ptracking?
+||youtube-nocookie.com/robots.txt?
+||youtube.com/api/stats/ads?
+||youtube.com/api/stats/delayplay?
+||youtube.com/api/stats/qoe?
+||youtube.com/get_video?
+||youtube.com/ptracking?
+||youtube.com/set_awesome?
+# Reddit
+||alb.reddit.com^
+||events.reddit.com^
+||events.redditmedia.com^
+||reddit.com/counters/$xmlhttprequest
+||reddit.com/static/pixel.png$image
+||reddit.com/timings/
+||redditmedia.com/gtm/jail?
+# Nytimes
+||a-reporting.nytimes.com^
+||als-svc.nytimes.com^
+||et.nytimes.com^
+||nyt.com/ads/tpc-check.html$domain=nytimes.com
+||nytimes.com/svc/nyt/data-layer?
+||nytimes.com/v1/purr-cache
 # Anti-adblock consent trackers
 ||mms.cnn.com^
 ||sp.app.com^
