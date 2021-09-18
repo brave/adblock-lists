@@ -43,6 +43,8 @@
 ||youtube.com/api/stats/delayplay?
 ||youtube.com/api/stats/qoe?
 ||youtube.com/get_video?
+||youtube.com/youtubei/v1/log_event?
+||youtube.com/generate_204?
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
 # Reddit
