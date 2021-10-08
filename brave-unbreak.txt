@@ -238,6 +238,8 @@ megaup.net#@#.adBanner
 wetter.com,spiegel.de##[referrerpolicy]
 reuters.com,hardwareluxx.de,formel1.de,golem.de,finanzen.net,autobild.de,gamestar.de,tagesspiegel.de##+js(acis, parseInt)
 ||s3.reutersmedia.net/resources/*&rtn=$image
+! Anti-adblock message allmusic.com (ported from uBO Annoyances)
+allmusic.com##+js(abort-current-script, $, adblock)
 ! Anti-adblock message cinemablend.com (ported from uBO Annoyances)
 cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 ! Anti-adblock message suncalc.org (ported from uBO Annoyances)
