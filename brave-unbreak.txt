@@ -351,8 +351,6 @@ latimes.com##body:style(overflow: auto !important;)
 @@||timesofindia.com/acms/$xmlhttprequest,domain=timesofindia.com
 ! /track/view| fix for amazon tracking
 @@||amazon.*/shiptrack/view.html$~third-party
-! Disable twitch.js (due to https://old.reddit.com/r/uBlockOrigin/comments/jlquxz/twitch_now_shows_this_if_you_have_ublock_enabled/ )
-twitch.tv#@#+js(twitch-videoad)
 ! Anti-adblock: Instart
 ||vxq18c.g02.ign.com^$script,domain=ign.com
 ||earzxzsl.g02.ign.com^$subdocument,domain=ign.com
