@@ -78,7 +78,7 @@
   },
   {
     "include": [
-      "*://*.youtube.com/redirect"
+      "*://*.youtube.com/redirect*"
     ],
     "exclude": [
     ],
@@ -87,8 +87,8 @@
   },
   {
     "include": [
-      "*://*.facebook.com/1.php",
-      "*://*.facebook.com/l.php"
+      "*://*.facebook.com/1.php*",
+      "*://*.facebook.com/l.php*"
     ],
     "exclude": [
     ],
