@@ -115,6 +115,15 @@
   },
   {
     "include": [
+      "*://assoc-redirect.amazon.com/g/r/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "u"
+  },
+  {
+    "include": [
       "*://*.linksynergy.com/*"
     ],
     "exclude": [
