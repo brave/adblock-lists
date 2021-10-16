@@ -120,7 +120,7 @@
     "exclude": [
     ],
     "action": "redirect",
-    "param": "u"
+    "param": "r"
   },
   {
     "include": [
