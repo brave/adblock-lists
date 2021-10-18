@@ -312,7 +312,7 @@ techpowerup.com##[href*=".xlz"]
 techpowerup.com##.mnnusjsddg
 techpowerup.com##.nkuzlfvdywj
 ! Anti-Brave checks
-apple.com,krunker.io,kodekloud.com,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,caratoday.com,sybertrek.com,pethouse.com.au##+js(aopw, navigator.brave)
+apple.com,krunker.io,kodekloud.com,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,caratoday.com,sybertrek.com,pethouse.com.au,sessions.psychologytoday.com##+js(aopw, navigator.brave)
 archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion##+js(acis, document.cookie, document.location.href)
 ! Anti-Brave checks (DuckDuckGo UA check)
 ||api.duckduckgo.com/?q=useragent$domain=i-rotary.com|mynewsmedia.co|tecknity.com|jaysndees.com|recherche-ebook.fr|bellasephina.com|pokedi.xyz|unitythemovement.world|thebeautyboothe.com
