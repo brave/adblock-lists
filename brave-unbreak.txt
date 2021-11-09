@@ -25,6 +25,8 @@ stats.brave.com#@#adsContent
 ||vidazoo.com/proxy^$third-party
 ||mediabong.net^$third-party
 ||imprvdosrv.com^$third-party
+! CNAME: pol.dk
+@@||www.pol.dk^
 ! CNAME: linkvertise.com
 @@||taboola.com/libtrc/linkvertise-link-to/loader.js$domain=linkvertise.com
 @@||taboola.map.fastly.net^$domain=linkvertise.com
