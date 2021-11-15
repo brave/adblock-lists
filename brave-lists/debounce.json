@@ -22,7 +22,7 @@
       "*://freetutsdownload.net/redirect-to/?url=*",
       "*://mcpedl.com/leaving/?url=*",
       "*://track.adtraction.com/t/*&url=*",
-      "*://track.effiliation.com/servlet/effi.redir*&url="
+      "*://track.effiliation.com/servlet/effi.redir*&url=*"
     ],
     "exclude": [
     ],
