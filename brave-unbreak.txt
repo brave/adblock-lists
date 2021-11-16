@@ -325,9 +325,6 @@ globalnews.ca##.l-headerAd__container
 globalnews.ca##.c-newsletterSignup
 ! Fix yandex.ru blocking on 3dnews.ru
 ||aflt.market.yandex.ru^$script,third-party
-! Nytimes/Wirecutter Disqus https://github.com/brave/brave-browser/issues/13241
-nytimes.com##+js(cookie-remover, nyt-purr)
-nytimes.com##+js(acis, document.cookie, PURR_COOKIE_NAME)
 ! Broken search on https://www.capitalone.com/search
 @@||nexus.ensighten.com/capitalone/Bootstrap.js$script,domain=capitalone.com
 ! ip-approval bug
