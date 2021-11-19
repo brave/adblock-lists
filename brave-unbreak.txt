@@ -301,6 +301,8 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=player.abacast.net
 ! uBO-redirect work around filecr.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=filecr.com
+! uBO-redirect work around rockmods.net
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=rockmods.net
 ! uBO-redirect work around, Fixes Blank page 
 @@||googletagservices.com/tag/js/gpt.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
 @@||googletagmanager.com/gtm.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
