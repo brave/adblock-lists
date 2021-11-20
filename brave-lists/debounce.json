@@ -23,7 +23,8 @@
       "*://mcpedl.com/leaving/?url=*",
       "*://track.adtraction.com/t/*&url=*",
       "*://track.effiliation.com/servlet/effi.redir*&url=*",
-      "*://go.skimresources.com/?id=*&url=*"
+      "*://go.skimresources.com/?id=*&url=*",
+      "*://go.redirectingat.com/?id=*&url=*"
     ],
     "exclude": [
     ],
