@@ -80,12 +80,6 @@ twitter.com##[style]>div>div>[data-testid=placementTracking]
 @@||improving.duckduckgo.com^$~third-party
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
-! Consent trackers
-||opencmp.net^$script,third-party
-||privacy-mgmt.com^$third-party
-||sp-prod.net^$third-party
-@@||notice.sp-prod.net^$subdocument,domain=telegraph.co.uk
-@@||sp-spiegel-de.spiegel.de^$domain=spiegel.de
 ! Scroll bar-consent
 collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !important;)
 ! Fix preloader (facebook check)
