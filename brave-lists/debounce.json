@@ -81,6 +81,15 @@
   },
   {
     "include": [
+      "*://click.icptrack.com/icp/relay.php*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "destination"
+  },
+  {
+    "include": [
       "*://*.youtube.com/redirect*"
     ],
     "exclude": [
