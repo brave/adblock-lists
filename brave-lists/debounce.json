@@ -24,7 +24,8 @@
       "*://track.adtraction.com/t/*&url=*",
       "*://track.effiliation.com/servlet/effi.redir*&url=*",
       "*://go.skimresources.com/?id=*&url=*",
-      "*://go.redirectingat.com/?id=*&url=*"
+      "*://go.redirectingat.com/?id=*&url=*",
+      "*://shop-links.co/link/?url=*"
     ],
     "exclude": [
     ],
