@@ -101,15 +101,7 @@
   {
     "include": [
       "*://*.facebook.com/1.php*",
-      "*://*.facebook.com/l.php*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "u"
-  },
-  {
-    "include": [
+      "*://*.facebook.com/l.php*",
       "*://*.instagram.com/*"
     ],
     "exclude": [
