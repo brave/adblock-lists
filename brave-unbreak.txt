@@ -290,6 +290,9 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=shineads.in
 ! uBO-redirect work around photopea.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=photopea.com
+! uBO-redirect work around bluedrake42.com (https://drakelings.bluedrake42.com/)
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bluedrake42.com
+@@||googleads.g.doubleclick.net/pagead/html/$domain=bluedrake42.com
 ! Fix Playback on http://v6.player.abacast.net/6508 (https://community.brave.com/t/problem-loading-http-v6-player-abacast-net-6508/71822)
 @@||imasdk.googleapis.com/js/core/$subdocument,domain=player.abacast.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=player.abacast.net
