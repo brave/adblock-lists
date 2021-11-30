@@ -134,6 +134,15 @@
   },
   {
     "include": [
+      "*://target.georiot.com/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "GR_URL"
+  },
+  {
+    "include": [
       "*://*.linksynergy.com/*"
     ],
     "exclude": [
