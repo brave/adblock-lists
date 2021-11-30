@@ -36,6 +36,24 @@
   },
   {
     "include": [
+      "*://*.demdex.net/event?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "d_rd"
+  },
+  {
+    "include": [
+      "*://*.doubleclick.net/ddm/clk/*"
+     ],
+     "exclude": [
+     ],
+     "action": "redirect",
+     "param": "l"
+  },
+  {
+    "include": [
       "*://*.spaste.com/r/*link=*"
     ],
     "exclude": [
