@@ -65,6 +65,16 @@
   },
   {
     "include": [
+      "*://*.shareasale.com/r.cfm?*",
+      "*://shareasale.com/r.cfm?*"
+   ],
+   "exclude": [
+   ],
+   "action": "redirect",
+   "param": "urllink"
+  },
+  {
+    "include": [
       "*://*.maranhesduve.club/?*",
       "*://*.sparbuttantowa.pro/*?*"
     ],
