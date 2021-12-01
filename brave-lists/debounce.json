@@ -27,7 +27,8 @@
       "*://go.redirectingat.com/?id=*&url=*",
       "*://shop-links.co/link/*",
       "*://*.jdoqocy.com/click-*",
-      "*://*.kqzyfj.com/click-*"
+      "*://*.kqzyfj.com/click-*",
+      "*://*.narrativ.com/*client_redirect/*"
     ],
     "exclude": [
     ],
