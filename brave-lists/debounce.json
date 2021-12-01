@@ -56,6 +56,15 @@
   },
   {
     "include": [
+      "*://*.awin1.com/cread.php?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "ued"
+  },
+  {
+    "include": [
       "*://*.spaste.com/r/*link=*"
     ],
     "exclude": [
