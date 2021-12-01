@@ -36,6 +36,15 @@
   },
   {
     "include": [
+      "*://amzn.to/*asc_refurl=*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "asc_refurl"
+  },
+  {
+    "include": [
       "*://*.demdex.net/event?*"
     ],
     "exclude": [
