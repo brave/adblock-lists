@@ -29,7 +29,8 @@
       "*://*.jdoqocy.com/click-*",
       "*://*.kqzyfj.com/click-*",
       "*://*.pjtra.com/t/*",
-      "*://*.narrativ.com/*client_redirect/*"
+      "*://*.narrativ.com/*client_redirect/*",
+      "*://c.pepperjamnetwork.com/*"
     ],
     "exclude": [
     ],
