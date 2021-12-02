@@ -15,6 +15,10 @@
 ! Anti-adblock: concert.io (vox sites)
 @@||vox-cdn.com/packs/concert_ads-$script,domain=chicago.suntimes.com|theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com|theringer.com|mmafighting.com|racked.com|mmamania.com|funnyordie.com|riftherald.com
 
+! appsflyer.com adjustment https://github.com/easylist/easylist/commit/c608be1
+||appsflyer.com^$badfilter
+||appsflyer.com^$third-party,badfilter
+||websdk.appsflyer.com^
 ! Foxnews/business
 @@||js.taplytics.com/jssdk/$domain=foxnews.com|foxbusiness.com
 @@||static.foxnews.com/static/$domain=foxnews.com|foxbusiness.com
