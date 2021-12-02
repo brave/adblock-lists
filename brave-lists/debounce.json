@@ -30,7 +30,12 @@
       "*://*.kqzyfj.com/click-*",
       "*://*.pjtra.com/t/*",
       "*://*.narrativ.com/*client_redirect/*",
-      "*://c.pepperjamnetwork.com/*"
+      "*://c.pepperjamnetwork.com/*",
+      "*://*.avantlink.com/click.php?*",
+      "*://t.cfjump.com/*",
+      "*://*.pjatr.com/t/*",
+      "*://*.pntrs.com/t/*",
+      "*://*.nordstrom.com/Linkshare?*"
     ],
     "exclude": [
     ],
