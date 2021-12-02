@@ -377,6 +377,8 @@ blockadblock.com##+js(nobab)
 @@||geoguessr.com/_ads/$script,xmlhttprequest,domain=geoguessr.com
 ! ssrn.com login fix
 @@||assets.adobedtm.com^$script,domain=ssrn.com
+! Mixpanel 1p issues (due to peter lowes). https://github.com/easylist/easylist/issues/9920
+||mixpanel.com^$badfilter
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! gifycat.com ads (https://community.brave.com/t/pages-loads-3rd-party-ads-after-page-loads/71472/10)
