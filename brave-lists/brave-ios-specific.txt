@@ -20,6 +20,9 @@
 @@||app.appsflyer.com^$third-party
 ||appsflyer.com^$third-party,badfilter
 ||websdk.appsflyer.com^
+! google fixes
+@@||googletagmanager.com/gtm.js$domain=rednoseday.org|verygoodvault.com
+@@||googletagmanager.com/gtag/$domain=rednoseday.org|verygoodvault.com
 ! Foxnews/business
 @@||js.taplytics.com/jssdk/$domain=foxnews.com|foxbusiness.com
 @@||static.foxnews.com/static/$domain=foxnews.com|foxbusiness.com
