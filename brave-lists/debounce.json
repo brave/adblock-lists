@@ -172,7 +172,14 @@
       "://*.lvuv.net/c/*",
       "://*.xibx.net/c/*",
       "://*.attfm2.net/c/*",
-      "://*.tkjf.net/c/*"
+      "://*.tkjf.net/c/*",
+      "://*.datafeedfile.com/sl/*",
+      "://*.a9yw.net/c/*",
+      "://*.pfm4.net/c/*",
+      "://*.i254217.net/c/*",
+      "://*.i182465.net/c/*",
+      "://*.vthnbx.net/c/*",
+      "://*.ryvx.net/c/*"
     ],
     "exclude": [
     ],
