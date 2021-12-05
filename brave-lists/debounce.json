@@ -53,6 +53,15 @@
   },
   {
     "include": [
+      "*://t.myvisualiq.net/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "red"
+  },
+  {
+    "include": [
       "*://*.demdex.net/event?*"
     ],
     "exclude": [
