@@ -304,6 +304,8 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||googletagservices.com/tag/js/gpt.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
 @@||googletagmanager.com/gtm.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
 @@||google-analytics.com/analytics.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
+! uBO-redirect work around wyse.com (https://github.com/uBlockOrigin/uAssets/commit/7ee72dd4d6a641c040b9098f11006cb6c53b05ba)
+@@||wyze.com^$script,first-party
 ! uBO-redirect work around Fixes Anti-Adblock detection in player
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
 ! uBO-redirect work around (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
