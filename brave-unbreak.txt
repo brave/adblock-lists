@@ -306,6 +306,13 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||google-analytics.com/analytics.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
 ! uBO-redirect work around Fixes Anti-Adblock detection in player
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
+! uBO-redirect work around (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
+@@||v1sts.me^$image
+! uBO-domain wildcard workaround (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
+vipbox.lc,v1sts.me##+js(acis, JSON.parse, break;case)
+vipbox.lc,tvply.me,v1sts.me,vipboxtv.se##+js(aopw, _pop)
+tvply.me,vipbox.lc,vipboxtv.se,viprow.me##+js(acis, JSON.parse, break;case $.)
+vipbox.lc##.position-absolute
 ! uBO-domain wildcard workaround
 @@||cdn.gotraffic.net^$domain=bloomberg.com|bloomberg.co.jp
 ! Potential Tracker, Annoyance
