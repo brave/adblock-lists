@@ -35,7 +35,9 @@
       "*://t.cfjump.com/*",
       "*://*.pjatr.com/t/*",
       "*://*.pntrs.com/t/*",
-      "*://*.nordstrom.com/Linkshare?*"
+      "*://*.nordstrom.com/Linkshare?*",
+      "*://*.nutribullet.com/t/*",
+      "*://*.gopjn.com/t/*"
     ],
     "exclude": [
     ],
@@ -80,7 +82,8 @@
   },
   {
     "include": [
-      "*://*.spaste.com/r/*link=*"
+      "*://*.spaste.com/r/*link=*",
+      "*://*.getprice.com.au/prodhits.aspx?*"
     ],
     "exclude": [
     ],
@@ -194,7 +197,14 @@
       "://*.i312864.net/c/*",
       "://*.tmfhgn.net/c/*",
       "://*.obak77.net/c/*",
-      "://*.yvzx.net/c/*"
+      "://*.yvzx.net/c/*",
+      "://*.carters.com/c/*",
+      "://*.ioym.net/c/*",
+      "://*.ntaf.net/c/*",
+      "://*.zlwlj8.net/c/*",
+      "://*.uvwgb9.net/c/*",
+      "://*.3anx.net/c/*",
+      "://*.rrmo.net/c/*"
     ],
     "exclude": [
     ],
