@@ -55,12 +55,23 @@
   },
   {
     "include": [
-      "*://t.myvisualiq.net/*"
+      "*://t.myvisualiq.net/*",
+      "*://.dartsearch.net/link/*",
+      "*://.doubleclick.net/ddm/clk/*"
     ],
     "exclude": [
     ],
     "action": "redirect",
     "param": "red"
+  },
+  {
+    "include": [
+      "*://ad.atdmt.com/s/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "h"
   },
   {
     "include": [
