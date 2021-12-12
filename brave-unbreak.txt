@@ -329,11 +329,9 @@ techpowerup.com##.site-headr > section > div > [href]
 techpowerup.com##[class^="side-"] > .sidebar-item img
 techpowerup.com##[class*="-bar"] > .sidebar-item img
 ! Anti-Brave checks
-psychologytoday.com,apple.com,krunker.io,kodekloud.com,thera-link.com,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,caratoday.com,sybertrek.com,pethouse.com.au##+js(bf)
-apple.com,krunker.io,kodekloud.com,thera-link.com,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,caratoday.com,sybertrek.com,pethouse.com.au##+js(aopw, navigator.brave)
-archive.is,btdig.com,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion##+js(acis, document.cookie, document.location.href)
+saramart.com,html-code-generator.com,caratoday.sale,caratoday.shop,caratoday.pub,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,bookadom.ru,playl2.net,volcom.ca,helocloth.com,itrum.org,thunder-io.com,unitythemovement.world,nothing.tech,sisimore.net,pythonstudy.xyz,brandongomes.com,faucet.today,snowsportdeals.com,calcolastipendionetto.it,psychologytoday.com,krunker.io,kodekloud.com,thera-link.com,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,caratoday.com,sybertrek.com,pethouse.com.au##+js(bf)
 ! Anti-Brave checks (DuckDuckGo UA check)
-||api.duckduckgo.com/?q=useragent$domain=i-rotary.com|mynewsmedia.co|tecknity.com|jaysndees.com|recherche-ebook.fr|bellasephina.com|pokedi.xyz|unitythemovement.world|thebeautyboothe.com
+||api.duckduckgo.com/?q=useragent$domain=kosataga.in|minibayong.com|i-rotary.com|tecknity.com|jaysndees.com|recherche-ebook.fr|unitythemovement.world|thebeautyboothe.com|brandongomes.com|faucet.today|thesassyclub.com
 ! globalnews.ca Anti-adblock
 @@||globalnews.ca^$ghide
 globalnews.ca##.l-headerAd__container
