@@ -161,7 +161,8 @@
   },
   {
     "include": [
-      "*://*.youtube.com/redirect*"
+      "*://*.youtube.com/redirect*",
+      "*://*.google.com/url?q=*"
     ],
     "exclude": [
     ],
