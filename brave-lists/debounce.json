@@ -124,7 +124,8 @@
   {
     "include": [
       "*://*.shareasale.com/r.cfm?*",
-      "*://shareasale.com/r.cfm?*"
+      "*://shareasale.com/r.cfm?*",
+      "*://*.shareasale-analytics.com/r.cfm?*"
    ],
    "exclude": [
    ],
