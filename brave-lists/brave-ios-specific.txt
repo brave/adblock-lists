@@ -20,6 +20,9 @@
 @@||app.appsflyer.com^$third-party
 ||appsflyer.com^$third-party,badfilter
 ||websdk.appsflyer.com^
+! coinmarketcap.com censor tracking https://www.reddit.com/r/brave_browser/comments/rip7ce/works_just_fine/
+/sensorsdata.min.js
+||sensors.binance.cloud^
 ! google fixes
 @@||googletagmanager.com/gtm.js$domain=rednoseday.org|verygoodvault.com
 @@||googletagmanager.com/gtag/$domain=rednoseday.org|verygoodvault.com
