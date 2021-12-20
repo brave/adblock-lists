@@ -1,10 +1,6 @@
-||googletagservices.com/tag/js/gpt.js$script,important,domain=vimeo.com,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-83c6e054eb06b453d56c97b9ddd181d6.js
-||z.moatads.com/reutersheader194883552024/moatheader.js$script,important,domain=reuters.com,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-7754008b0da848856cddb20094976335.js
-||sourcepointcmp.bloomberg.com/ccpa.js$script,important,domain=bloomberg.com,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-1e156c8652627e444cc63b54d4de0ffb.js
-||quantcast.mgr.consensu.org/tcfv2/23/cmp2.js$script,important,domain=researchgate.net,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-1290d064f0a1f106f4c14d0dbd0aca60.js
-||assets.adobedtm.com/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js$script,important,domain=amazon.jobs,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-dd32890a88dc14e37c80777ca67c1e2e.js
-||assets.adobedtm.com/launch-EN3932511771fb4e5e9dd852ae89372b59.min.js$script,important,domain=fedex.com,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-7754fade75bed02e4097bf3d7fff178c.js
-||assets.adobedtm.com/extensions/EPbde2f7ca14e540399dcc1f8208860b7b/AppMeasurement_Module_AudienceManagement.min.js$script,important,domain=bmw.com.au,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-4c15a27239807d1629304fcae3cf6ce3.js
-||assets.adobedtm.com/extensions/EPbde2f7ca14e540399dcc1f8208860b7b/AppMeasurement_Module_AudienceManagement.min.js$script,important,domain=virginmobile.ca,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-d357b361eae50395667a4c91732192fd.js
-||quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=einthusan.tv$script,important,domain=einthusan.tv,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-968076ccecd06aaae1ffcb1e3d26399f.js
-||googletagservices.com/tag/js/gpt.js$script,important,domain=downdetector.com,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-a8badcefe5197e12ea29f0f5d0db1cc9.js
+! https://dell.com
+||ensighten.com/dell/marketing/code/280f261e277ca609b7450f5304929274.js$script,important,domain=dell.com,redirect=sugarcoat-66f37d8826a205d80bfecf95b02f66a84454d13c
+||ensighten.com/dell/marketing/code/4e4433a8038ee7de59e2e5a4dcbdfdd7.js$script,important,domain=dell.com,redirect=sugarcoat-53a06df3b0c0d1b6a08d5d7b5d0bf7de23a4e5ae
+||ensighten.com/dell/marketing/code/61c444c2c7442ad675f6e5877277a7db.js$script,important,domain=dell.com,redirect=sugarcoat-948a939d3e7b68881a54857b053773bb531c4c43
+||ensighten.com/dell/marketing/code/83f8d19a3e462af2103df2027d1d1563.js$script,important,domain=dell.com,redirect=sugarcoat-00f5a12eea4cb0e50317bb26047120e743505b6f
+||ensighten.com/dell/marketing/code/ee81a2127179a34e968ac5cf93bff1e7.js$script,important,domain=dell.com,redirect=sugarcoat-21cfa211cabfd4c985ef7e70f683146c437a53ff
