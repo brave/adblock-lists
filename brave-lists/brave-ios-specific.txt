@@ -38,7 +38,11 @@ diariodocentrodomundo.com.br,01net.com,gizchina.com,pocketpc.ch##.mrf-adv__wrapp
 @@||player.vodgc.net^
 ! Random adservers
 ||closureevaporatefume.com^
+||pub.network^
 ||revcontent.com^$third-party
+! Trackers
+||pagefair.com^
+||pagefair.net^
 ! Admiral
 ||6ldu6qa.com^$third-party
 ||absorbingband.com^$third-party
