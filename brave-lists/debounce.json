@@ -46,6 +46,15 @@
   },
   {
     "include": [
+      "*://*.f9tmep.net/c/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "srcref"
+  },
+  {
+    "include": [
       "*://amzn.to/*asc_refurl=*"
     ],
     "exclude": [
@@ -217,7 +226,6 @@
       "://*.uvwgb9.net/c/*",
       "://*.3anx.net/c/*",
       "://*.rrmo.net/c/*",
-      "://*.f9tmep.net/c/*",
       "://*.i308314.net/c/*",
       "://*.uqhv.net/c/*",
       "://redirect.viglink.com/*"
