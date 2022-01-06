@@ -81,6 +81,7 @@ diariodocentrodomundo.com.br,01net.com,gizchina.com,pocketpc.ch##.mrf-adv__wrapp
 ||revcontent.com^$third-party
 ! Trackers
 ||pagefair.com^
+||google.com/log?format=
 ||pagefair.net^
 ! Admiral
 ||2znp09oa.com^
