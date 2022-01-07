@@ -36,6 +36,9 @@ diariodocentrodomundo.com.br,01net.com,gizchina.com,pocketpc.ch##.mrf-adv__wrapp
 @@||cdn.cxense.com^$domain=tn.com.ar
 @@||api.cxense.com/public/widget/$domain=tn.com.ar
 @@||player.vodgc.net^
+! ign.com
+||ign.com/zdadkit2.js
+||ign.com/s/js/zad.js
 ! Invideo ads
 ||api.fw.tv^
 ||avantisvideo.com/avm/js/video-loader.js$script,third-party
