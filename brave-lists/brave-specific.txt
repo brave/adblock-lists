@@ -31,6 +31,11 @@
 ! https://community.brave.com/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544/
 @@||127.0.0.1^$domain=trezor.io
 
+! $ping 3p
+$ping,badfilter
+$ping,domain=~hey.com,badfilter
+$ping,3p
+
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85641
 modalina.jp###ggleadv:style(height: 60px!important;)
 modalina.jp###header:style(margin-top: 60px!important;)
