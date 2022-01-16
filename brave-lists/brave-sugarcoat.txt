@@ -1,10 +1,32 @@
-||googletagservices.com/tag/js/gpt.js$script,important,domain=vimeo.com,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-83c6e054eb06b453d56c97b9ddd181d6.js
-||z.moatads.com/reutersheader194883552024/moatheader.js$script,important,domain=reuters.com,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-7754008b0da848856cddb20094976335.js
-||sourcepointcmp.bloomberg.com/ccpa.js$script,important,domain=bloomberg.com,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-1e156c8652627e444cc63b54d4de0ffb.js
-||quantcast.mgr.consensu.org/tcfv2/23/cmp2.js$script,important,domain=researchgate.net,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-1290d064f0a1f106f4c14d0dbd0aca60.js
-||assets.adobedtm.com/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js$script,important,domain=amazon.jobs,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-dd32890a88dc14e37c80777ca67c1e2e.js
-||assets.adobedtm.com/launch-EN3932511771fb4e5e9dd852ae89372b59.min.js$script,important,domain=fedex.com,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-7754fade75bed02e4097bf3d7fff178c.js
-||assets.adobedtm.com/extensions/EPbde2f7ca14e540399dcc1f8208860b7b/AppMeasurement_Module_AudienceManagement.min.js$script,important,domain=bmw.com.au,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-4c15a27239807d1629304fcae3cf6ce3.js
-||assets.adobedtm.com/extensions/EPbde2f7ca14e540399dcc1f8208860b7b/AppMeasurement_Module_AudienceManagement.min.js$script,important,domain=virginmobile.ca,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-d357b361eae50395667a4c91732192fd.js
-||quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=einthusan.tv$script,important,domain=einthusan.tv,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-968076ccecd06aaae1ffcb1e3d26399f.js
-||googletagservices.com/tag/js/gpt.js$script,important,domain=downdetector.com,redirect-url=https://pcdn.brave.com/sugarcoat/async-sugarcoat-a8badcefe5197e12ea29f0f5d0db1cc9.js
+! https://vimeo.com
+||googletagservices.com/tag/js/gpt.js$script,important,domain=vimeo.com,redirect=sugarcoat-3dc9d6b794b426bc5fc667e1e74ff826cfb33cf4
+! https://reuters.com
+||adsafeprotected.com/iasPET.1.js$script,important,domain=reuters.com,redirect=sugarcoat-b5a1b5d24286a4578e1098b3aa540245eebb02cc
+! https://researchgate.net
+||consensu.org/tcfv2/23/cmp2.js$script,important,domain=researchgate.net,redirect=sugarcoat-a1eed43f5ccde26a8382ed3730021b8d396c47bd
+! https://amazon.jobs
+||adobedtm.com/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js$script,important,domain=amazon.jobs,redirect=sugarcoat-b6376debf362b840c550a59ef4e3b5c5cf4f7c2c
+! https://fedex.com
+||adobedtm.com/686b8f0c4520/4ce401c51b51/68076acba2cc/EX63a3e7a2131747b6b4470d7e23aabb0b-libraryCode_source.min.js$script,important,domain=fedex.com,redirect=sugarcoat-dec9efe0897865d3526a123338788ff4123011a0
+||adobedtm.com/launch-EN3932511771fb4e5e9dd852ae89372b59.min.js$script,important,domain=fedex.com,redirect=sugarcoat-1ef1f94ce1bb9486295e8732197f48a703f854d1
+! https://einthusan.tv
+||d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js$script,important,domain=einthusan.tv,redirect=sugarcoat-e20052aa938db9250e0945a0af6ae84158e6e63f
+||consensu.org/tcfv2/cmp2.js$script,important,domain=einthusan.tv,redirect=sugarcoat-f51f44bf0b50059d3a6b014531f7157a0a1dcfc5
+||einthusan.tv/prebid.js$script,important,domain=einthusan.tv,redirect=sugarcoat-d220b2cfd975cda023386ee327cf53833f4516d7
+! https://downdetector.com
+||googletagservices.com/tag/js/gpt.js$script,important,domain=downdetector.com,redirect=sugarcoat-c9f1ac6a4f5bfa6f99c6b3e3ef4bd0d524e486ed
+||doubleclick.net/gpt/pubads_impl_2022011002.js$script,important,domain=downdetector.com,redirect=sugarcoat-e55d2b3d76ed461d0aaee31bf8e6bd574ec9ce29
+! https://sky.it
+||adform.net/Serving/TrackPoint/$script,important,domain=sky.it,redirect=sugarcoat-dc2d91a93b49f3fcb8b29e30d7d30305709d80ae
+||adform.net/audiencetag/adformat.js$script,important,domain=sky.it,redirect=sugarcoat-e9d72954ac67739b3dcf469e215f7c3669f8ac56
+||adform.net/serving/scripts/trackpoint/async/$script,important,domain=sky.it,redirect=sugarcoat-9cff3a61617419bbc590afefcc20fa089313f4ab
+||adobedtm.com/27331c16692c/33a862a7054a/launch-f0db629de596.min.js$script,important,domain=sky.it,redirect=sugarcoat-3bc74c9fcd25a781d3d111f273c243053c783369
+! https://live.house.gov
+||house.gov/js/analytics.a113b136ebdce01cf16d.js$script,important,domain=house.gov,redirect=sugarcoat-3019758da0b2f72726356078df3efe0263636609
+||google-analytics.com/analytics.js$script,important,domain=house.gov,redirect=sugarcoat-5373d159beb8f8687e353687a789a3242859d0df
+! https://dell.com
+||ensighten.com/dell/marketing/code/18d0725d2cf927be2cd6e1ccb8d8670e.js$script,important,domain=dell.com,redirect=sugarcoat-3de3031f1aa3267e1b865450d80e5ca42b976be4
+||ensighten.com/dell/marketing/code/4e4433a8038ee7de59e2e5a4dcbdfdd7.js$script,important,domain=dell.com,redirect=sugarcoat-468948b3ebdea5580eb7c581d75aeace4cc1c074
+||ensighten.com/dell/marketing/code/61c444c2c7442ad675f6e5877277a7db.js$script,important,domain=dell.com,redirect=sugarcoat-cf4919fa91427642d958e8d7b941031046da92df
+||ensighten.com/dell/marketing/code/7efc0023a1092e83a068ea49f3c96587.js$script,important,domain=dell.com,redirect=sugarcoat-71a2451148409bd43b1da226f3f26a41b865151a
+||ensighten.com/dell/marketing/code/ee81a2127179a34e968ac5cf93bff1e7.js$script,important,domain=dell.com,redirect=sugarcoat-deb4cdf5b2c6fa93e6358699373a91d6d66860ce
