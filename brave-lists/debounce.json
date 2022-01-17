@@ -183,6 +183,7 @@
     "include": [
       "*://*.facebook.com/1.php*",
       "*://*.facebook.com/l.php*",
+      "*://l.instagram.com/?u=*",
       "*://goto.target.com/c/*",
       "*://goto.walmart.com/c/*",
       "*://*.sjv.io/c/*",
