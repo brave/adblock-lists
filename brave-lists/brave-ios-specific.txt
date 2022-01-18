@@ -14,6 +14,8 @@
 
 ! Anti-adblock: concert.io (vox sites)
 @@||vox-cdn.com/packs/concert_ads-$script,domain=chicago.suntimes.com|theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com|theringer.com|mmafighting.com|racked.com|mmamania.com|funnyordie.com|riftherald.com
+! uBO-redirect work around imperfectcomic.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imperfectcomic.com
 
 ! appsflyer.com adjustment https://github.com/easylist/easylist/commit/c608be1
 @@||appsflyer.com^$third-party
