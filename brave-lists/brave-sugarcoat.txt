@@ -1,4 +1,34 @@
-! dell.com
-||ensighten.com/dell/marketing/code/280f261e277ca609b7450f5304929274.js$script,important,domain=dell.com,redirect=async-sugarcoat-04394153a7ce417b88e3fe1790a4e6a269bfebe5
-! live.house.gov
-||google-analytics.com/analytics.js$script,important,domain=house.gov,redirect=async-sugarcoat-8a459c41783885dc83d30f5b7da2359091f4e607
+! https://vimeo.com
+||googletagservices.com/tag/js/gpt.js$script,important,domain=vimeo.com,redirect=sugarcoat-0df9436bcc867b94a71bac256f2dba3713a377a0
+! https://reuters.com
+||adsafeprotected.com/iasPET.1.js$script,important,domain=reuters.com,redirect=sugarcoat-dfc7510b217a08b434f81d37728e218b563e02e5
+! https://researchgate.net
+||consensu.org/tcfv2/23/cmp2.js$script,important,domain=researchgate.net,redirect=sugarcoat-821a7439b994eb58f64748b0553bf1d5b78a731d
+||consensu.org/tcfv2/23/cmp2ui-en.js$script,important,domain=researchgate.net,redirect=sugarcoat-cce8c1365e310397573f250aac085a12a8319bb7
+! https://amazon.jobs
+||adobedtm.com/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js$script,important,domain=amazon.jobs,redirect=sugarcoat-d46a0542506f49cf865d98cb5ffd6c7a7854adb7
+! https://fedex.com
+||adobedtm.com/686b8f0c4520/4ce401c51b51/68076acba2cc/EX63a3e7a2131747b6b4470d7e23aabb0b-libraryCode_source.min.js$script,important,domain=fedex.com,redirect=sugarcoat-01f64c522910b028219e9cec1cc1847395faeead
+||adobedtm.com/launch-EN3932511771fb4e5e9dd852ae89372b59.min.js$script,important,domain=fedex.com,redirect=sugarcoat-646e5b5090e12bb4f057679af94c25920631ff46
+! https://einthusan.tv
+||d2wy8f7a9ursnm.cloudfront.net/v4/bugsnag.min.js$script,important,domain=einthusan.tv,redirect=sugarcoat-0034123910e2a05f7a8ad0c58ef06f3bd4542217
+||consensu.org/tcfv2/cmp2.js$script,important,domain=einthusan.tv,redirect=sugarcoat-20d16a205863d5a0eb56d0490a10be62d27324b9
+||einthusan.tv/prebid.js$script,important,domain=einthusan.tv,redirect=sugarcoat-7ef6938db3b17aa422131955b7760870bc69ac0c
+! https://downdetector.com
+||googletagservices.com/tag/js/gpt.js$script,important,domain=downdetector.com,redirect=sugarcoat-f7ada209562e58fd31703fb8f6187652f7e75ed2
+||cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js$script,important,domain=downdetector.com,redirect=sugarcoat-e40cf8b1b251a846b2adda42a1521d0b92745c79
+||doubleclick.net/gpt/pubads_impl_2022011002.js$script,important,domain=downdetector.com,redirect=sugarcoat-972e8be011822bca0cb25ecca1f34fd347ca4875
+! https://sky.it
+||adform.net/Serving/TrackPoint/$script,important,domain=sky.it,redirect=sugarcoat-7cf18f09d6a063650697adab76d51d51cddc3f58
+||adform.net/audiencetag/adformat.js$script,important,domain=sky.it,redirect=sugarcoat-f542409ccbdc9bf05ab43353222723e26ac37628
+||adform.net/serving/scripts/trackpoint/async/$script,important,domain=sky.it,redirect=sugarcoat-8a781a44c232f576b9148f440e69f1a64d74d543
+||adobedtm.com/27331c16692c/33a862a7054a/launch-f0db629de596.min.js$script,important,domain=sky.it,redirect=sugarcoat-076c7980e90e3f4c811295e17dcec5de21c8fd79
+! https://live.house.gov
+||house.gov/js/analytics.a113b136ebdce01cf16d.js$script,important,domain=house.gov,redirect=sugarcoat-78a233d465e2385b4f1804ca5bfbacecc08cc23b
+||google-analytics.com/analytics.js$script,important,domain=house.gov,redirect=sugarcoat-ef97e7e3be5379b2e3627791e936581f734402bd
+! https://dell.com
+||ensighten.com/dell/marketing/code/18d0725d2cf927be2cd6e1ccb8d8670e.js$script,important,domain=dell.com,redirect=sugarcoat-8c173320401d8fc5291c1ea5e26e89a50fb17a42
+||ensighten.com/dell/marketing/code/4e4433a8038ee7de59e2e5a4dcbdfdd7.js$script,important,domain=dell.com,redirect=sugarcoat-bc51028c5fccd8dec101b0f2fc0e2887b1e7ef5e
+||ensighten.com/dell/marketing/code/61c444c2c7442ad675f6e5877277a7db.js$script,important,domain=dell.com,redirect=sugarcoat-8db49593133758f7fe84678381f329915b2ccbe3
+||ensighten.com/dell/marketing/code/7efc0023a1092e83a068ea49f3c96587.js$script,important,domain=dell.com,redirect=sugarcoat-a8259f1424fe238ddadb822d18e5b54e9da87475
+||ensighten.com/dell/marketing/code/ee81a2127179a34e968ac5cf93bff1e7.js$script,important,domain=dell.com,redirect=sugarcoat-501fa30f9f8155b71c084d4272d83dbd84a50120
