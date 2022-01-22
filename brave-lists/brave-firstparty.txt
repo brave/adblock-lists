@@ -33,6 +33,9 @@
 ||facebook.com/search/web/instrumentation.php?
 ||facebook.com/xti.php?
 ||pixel.facebook.com^
+! Instagram
+||instagram.com/logging/
+||instagram.com/logging_client_events
 ||instagram.com/ajax/bz
 # Youtube
 ||youtube-nocookie.com/api/stats/delayplay?
