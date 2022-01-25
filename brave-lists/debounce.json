@@ -102,6 +102,15 @@
   },
   {
     "include": [
+      "://*.awin1.com/awclick.php?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "p"
+  },
+  {
+    "include": [
       "*://*.spaste.com/r/*link=*",
       "*://*.getprice.com.au/prodhits.aspx?*"
     ],
