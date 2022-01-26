@@ -153,6 +153,15 @@
   },
   {
     "include": [
+      "*://track.webgains.com/click.html*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "wgtarget"
+  },
+  {
+    "include": [
       "*://*.maranhesduve.club/?*",
       "*://*.sparbuttantowa.pro/*?*"
     ],
