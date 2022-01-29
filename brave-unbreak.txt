@@ -313,6 +313,10 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||wyze.com^$script,first-party
 ! uBO-redirect work around, Fixes BlockAdblock blocked via ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5
 @@||havoc-os.com^$ghide
+! uBO-redirect work around soranews24.com (uBO unbreak)
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=soranews24.com
+@@||fundingchoicesmessages.google.com/f/$script,domain=soranews24.com
+@@||c.amazon-adsystem.com/aax2/apstag.js$domain=soranews24.com
 ! uBO-redirect work around Fixes Anti-Adblock detection in player
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
 ! uBO-redirect work around (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
