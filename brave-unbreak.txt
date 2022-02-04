@@ -36,6 +36,8 @@ stats.brave.com#@#adsContent
 @@||omicroncdn.net^$domain=yab.yomiuri.co.jp
 ! CNAME: https://www.imdb.com/video/vi935705113?playlistId=tt1568346
 @@||cloudfront.net^$domain=imdb.com|media-imdb.com
+! CNAME: xing.com
+@@||cloudfront.net^$domain=xing.com
 ! CNAME: https://darknetdiaries.com/episode/78/
 @@||traffic.megaphone.fm^$domain=megaphone.fm|darknetdiaries.com
 @@||adserver.va3.megaphone.cloud.$domain=megaphone.fm|darknetdiaries.com
