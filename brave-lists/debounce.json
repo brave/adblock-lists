@@ -75,6 +75,15 @@
   },
   {
     "include": [
+      "*://rd.bizrate.com/rd?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "t"
+  },
+  {
+    "include": [
       "*://ad.atdmt.com/s/*"
     ],
     "exclude": [
