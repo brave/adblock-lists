@@ -74,8 +74,8 @@
   {
     "include": [
       "*://t.myvisualiq.net/*",
-      "*://.dartsearch.net/link/*",
-      "*://.doubleclick.net/ddm/clk/*"
+      "*://*.dartsearch.net/link/*",
+      "*://*.doubleclick.net/ddm/clk/*"
     ],
     "exclude": [
     ],
