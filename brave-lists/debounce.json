@@ -55,6 +55,15 @@
   },
   {
     "include": [
+      "*://*.clixgalore.com/Lead.aspx*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "AffDirectURL"
+  },
+  {
+    "include": [
       "*://amzn.to/*asc_refurl=*"
     ],
     "exclude": [
