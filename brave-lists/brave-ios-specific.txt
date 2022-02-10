@@ -36,8 +36,6 @@
 ! Foxnews/business
 @@||js.taplytics.com/jssdk/$domain=foxnews.com|foxbusiness.com
 @@||static.foxnews.com/static/$domain=foxnews.com|foxbusiness.com
-! https://github.com/brave/brave-browser/issues/16629
-diariodocentrodomundo.com.br,01net.com,gizchina.com,pocketpc.ch##.mrf-adv__wrapper 
 ! 5ch.net (japanese)
 ||thench.net^$third-party
 ! tn.com.ar 
