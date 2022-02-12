@@ -31,6 +31,9 @@ stats.brave.com#@#adsContent
 ! CNAME: linkvertise.com
 @@||taboola.com/libtrc/linkvertise-link-to/loader.js$domain=linkvertise.com
 @@||taboola.map.fastly.net^$domain=linkvertise.com
+! CNAME: https://api.atlassian.com/metal/ingest
+! https://github.com/brave/adblock-lists/issues/752
+@@||api.atlassian.com^$first-party
 ! CNAME: https://yab.yomiuri.co.jp/adv/presage/3.html
 @@||yab.yomiuri.co.jp/adv/$first-party
 @@||omicroncdn.net^$domain=yab.yomiuri.co.jp
