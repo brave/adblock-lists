@@ -326,6 +326,17 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
 ! uBO-redirect work around (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
 @@||v1sts.me^$image
+! uBO-domain wildcard workaround tube8/pornhub
+tube8.com,tube8.es,tube8.fr##+js(acis, Object.defineProperty, trafficjunky)
+tube8.com,tube8.es,tube8.fr##+js(aeld, , _0x)
+tube8.com,tube8.es,tube8.fr##+js(aopw, IS_ADBLOCK)
+tube8.com,tube8.es,tube8.fr##+js(aopr, _goat)
+tube8.com,tube8.es,tube8.fr##+js(nowoif)
+tube8.com,tube8.es,tube8.fr##+js(set, page_params.holiday_promo, true)
+pornhub.com##.realsex
+pornhub.com,pornhubthbh7ap3u.onion##.premiumPromoBanner
+pornhub.com,pornhubthbh7ap3u.onion###pb_template
+pornhub.com##+js(set, page_params.holiday_promo, true)
 ! uBO-domain wildcard workaround (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
 vipbox.lc,v1sts.me##+js(acis, JSON.parse, break;case)
 vipbox.lc,tvply.me,v1sts.me,vipboxtv.se##+js(aopw, _pop)
