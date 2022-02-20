@@ -39,12 +39,22 @@
       "*://*.nutribullet.com/t/*",
       "*://*.gopjn.com/t/*",
       "*://*.mediamarkt.de/trck/*",
-      "*://*.saturn.de/trck/*"
+      "*://*.saturn.de/trck/*",
+      "*://*.tradedoubler.com/click?*"
     ],
     "exclude": [
     ],
     "action": "redirect",
     "param": "url"
+  },
+  {
+    "include": [
+      "*://redir.tradedoubler.com/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "_td_deeplink"
   },
   {
     "include": [
