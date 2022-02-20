@@ -37,7 +37,9 @@
       "*://*.pntrs.com/t/*",
       "*://*.nordstrom.com/Linkshare?*",
       "*://*.nutribullet.com/t/*",
-      "*://*.gopjn.com/t/*"
+      "*://*.gopjn.com/t/*",
+      "*://*.mediamarkt.de/trck/*",
+      "*://*.saturn.de/trck/*"
     ],
     "exclude": [
     ],
