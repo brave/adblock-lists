@@ -318,6 +318,7 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||wyze.com^$script,first-party
 ! uBO-redirect work around, Fixes BlockAdblock blocked via ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5
 @@||havoc-os.com^$ghide
+@@||fluttercampus.com^$ghide
 ! uBO-redirect work around soranews24.com (uBO unbreak)
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=soranews24.com
 @@||fundingchoicesmessages.google.com/f/$script,domain=soranews24.com
