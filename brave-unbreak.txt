@@ -339,6 +339,14 @@ pornhub.com##.realsex
 pornhub.com,pornhubthbh7ap3u.onion##.premiumPromoBanner
 pornhub.com,pornhubthbh7ap3u.onion###pb_template
 pornhub.com##+js(set, page_params.holiday_promo, true)
+! uBO-domain wildcard workaround animepahe.com/mmkvcage.site/pahe.li
+animepahe.com,mmkvcage.site,pahe.li##+js(aopw, _pop)
+animepahe.com,kwik.cx##+js(acis, String.fromCharCode, 'shift')
+animepahe.com,kwik.cx##+js(aopr, open)
+animepahe.com,kwik.cx##+js(aopr, PopAds)
+pahe.li##+js(acis, JSON.parse, break;case $.)
+pahe.li##+js(aeld, , _0x)
+@@||pahe.li^$ghide
 ! uBO-domain wildcard workaround (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
 vipbox.lc,v1sts.me##+js(acis, JSON.parse, break;case)
 vipbox.lc,tvply.me,v1sts.me,vipboxtv.se##+js(aopw, _pop)
