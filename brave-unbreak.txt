@@ -244,6 +244,11 @@ reuters.com,hardwareluxx.de,formel1.de,golem.de,finanzen.net,autobild.de,gamesta
 allmusic.com##+js(abort-current-script, $, adblock)
 ! Anti-adblock message cinemablend.com (ported from uBO Annoyances)
 cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
+! Anti-adblock message topspeed.com (ported from uBO Annoyances)
+@@||topspeed.com^$ghide
+topspeed.com##.txt-ad
+topspeed.com##.daily-vid-ad
+topspeed.com##.top-horizontal-ad-content
 ! Anti-adblock message suncalc.org (ported from uBO Annoyances)
 ###adsGross1
 ###adsKlein
