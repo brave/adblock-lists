@@ -6,3 +6,14 @@ fmovies.to##+js(acis, atob)
 fmovies.to##+js(acis, XMLHttpRequest)
 ! https://github.com/brave/brave-browser/issues/16629
 diariodocentrodomundo.com.br,01net.com,gizchina.com,pocketpc.ch##.mrf-adv__wrapper 
+! reddit (App requirements)
+reddit.com##.XPromoBlockingModal
+reddit.com##.XPromoPopup__overlay
+reddit.com##.PreviewDrawer
+reddit.com##.XPromoPopup
+reddit.com##.XPromoPill
+reddit.com##body:style(overflow: auto !important;)
+reddit.com##body.scroll-disabled:style(overflow: visible!important; position: static!important;)
+reddit.com##.XPromoInFeed
+amp.reddit.com##.AppSelectorModal__body
+amp.reddit.com##.upsell_banner
