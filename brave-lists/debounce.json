@@ -67,6 +67,15 @@
   },
   {
     "include": [
+      "*://*.zenaps.com/rclick.php*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "pr"
+  },
+  {
+    "include": [
       "*://*.clixgalore.com/Lead.aspx*"
     ],
     "exclude": [
