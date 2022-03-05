@@ -14,7 +14,7 @@
 @@||ads.brave.com^$first-party
 @@||brave.com^$image,stylesheet,first-party
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/privacy.txt#L260
-search.brave.com#@#+js(no-fetch-if, body:cohort)
+search.brave.com#@#+js(no-fetch-if, body:browser)
 ! stats.brave.com
 stats.brave.com#@#adsContent
 @@||stats.brave.com/local/img/publisher-icons/$domain=stats.brave.com
