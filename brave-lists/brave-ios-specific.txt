@@ -14,6 +14,7 @@
 
 ! Cosmetic test (ads and overlay)
 theblockcrypto.com##.articleIAB
+theblockcrypto.com##.sponsorFooter
 theblockcrypto.com##.mobileView
 theblockcrypto.com##.modal-container
 theblockcrypto.com##body:style(overflow: auto !important;)
