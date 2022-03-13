@@ -250,7 +250,7 @@ topspeed.com##.txt-ad
 topspeed.com##.daily-vid-ad
 topspeed.com##.top-horizontal-ad-content
 ! 1st-party fix for cnn.com
-cnn.com##+js(aopr, window._sp_)
+cnn.com##+js(aopw, window._sp_.writeCookie)
 ! Anti-adblock message suncalc.org (ported from uBO Annoyances)
 ###adsGross1
 ###adsKlein
