@@ -229,6 +229,15 @@
   },
   {
     "include": [
+      "*://*.criteo.com/beacon?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "dest"
+  },
+  {
+    "include": [
       "*://*.youtube.com/redirect*"
     ],
     "exclude": [
