@@ -67,6 +67,15 @@
   },
   {
     "include": [
+      "*://*.zoom.us/web_client/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "ref"
+  },
+  {
+    "include": [
       "*://*.zenaps.com/rclick.php*"
     ],
     "exclude": [
