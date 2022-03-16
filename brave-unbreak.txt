@@ -301,6 +301,8 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=onlinefreecourse.net
 ! uBO-redirect work around shineads.in
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=shineads.in
+! uBO-redirect work around games-manuals.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=games-manuals.com
 ! uBO-redirect work around photopea.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=photopea.com
 ! uBO-redirect work around bluedrake42.com (https://drakelings.bluedrake42.com/)
