@@ -36,6 +36,8 @@ theblockcrypto.com##body:style(overflow: auto !important;)
 ! coinmarketcap.com censor tracking https://www.reddit.com/r/brave_browser/comments/rip7ce/works_just_fine/
 /sensorsdata.min.js
 ||sensors.binance.cloud^
+! https://app.starbucks.com/account/cards (Blank page)
+@@||app.starbucks.com/weblx/static/$domain=starbucks.com
 ! google fixes
 @@||googletagmanager.com/gtm.js$domain=rednoseday.org|verygoodvault.com
 @@||googletagmanager.com/gtag/$domain=rednoseday.org|verygoodvault.com
