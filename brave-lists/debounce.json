@@ -342,7 +342,8 @@
   },
   {
     "include": [
-      "*://*.linksynergy.com/*"
+      "*://*.linksynergy.com/*",
+      "://redirect.viglink.com/*"
     ],
     "exclude": [
     ],
