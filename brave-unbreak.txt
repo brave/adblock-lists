@@ -41,6 +41,9 @@ stats.brave.com#@#adsContent
 @@||cloudfront.net^$domain=imdb.com|media-imdb.com
 ! CNAME: xing.com
 @@||cloudfront.net^$domain=xing.com
+! CNAME: iraiser.eu
+@@||iraiser.eu^$image,stylesheet,subdocument
+@@||cdn.iraiser.eu^
 ! CNAME: https://darknetdiaries.com/episode/78/
 @@||traffic.megaphone.fm^$domain=megaphone.fm|darknetdiaries.com
 @@||adserver.va3.megaphone.cloud.$domain=megaphone.fm|darknetdiaries.com
