@@ -114,6 +114,15 @@
   },
   {
     "include": [
+      "*://*.dartsearch.net/link/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "ds_dest_url"
+  },
+  {
+    "include": [
       "*://rd.bizrate.com/rd?*"
     ],
     "exclude": [
