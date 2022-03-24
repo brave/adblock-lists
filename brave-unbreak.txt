@@ -341,6 +341,22 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
 ! uBO-redirect work around (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
 @@||v1sts.me^$image
+! uBO-domain wildcard workaround kissanime
+kissanime.com.ru,kissanime.fr,kissanime.org.ru,kissanime.co,kissanime.mx##+js(acis, String.fromCharCode, /btoa|break/)
+kissanime.com.ru,kissanime.fr,kissanime.org.ru,kissanime.co,kissanime.mx##+js(acis, JSON.parse, break;case $.)
+kissanime.com.ru,kissanime.fr,kissanime.org.ru,kissanime.co,kissanime.mx##+js(window.open-defuser)
+! uBO-domain wildcard workaround kissasian
+kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(acis, String.fromCharCode, /btoa|break/)
+kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(acis, JSON.parse, break;case $.)
+kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(window.open-defuser)
+kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(aeld, /^(?:click|mousedown)$/, _0x)
+kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(nostif, (), 45000)
+kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(set, check_adblock, true)
+@@||kissasian.ac^$ghide
+@@||kissasian.io^$ghide
+@@||kissasian.es^$ghide
+@@||kissasian.nz^$ghide
+@@||kissasian.es^$ghide
 ! uBO-domain wildcard workaround tube8/pornhub
 redtube.camp,redtube.com,redtube.net##+js(acis, Object.defineProperty, trafficjunky)
 redtube.camp,redtube.com,redtube.net##+js(set, page_params.holiday_promo, true)
