@@ -229,15 +229,6 @@
   },
   {
     "include": [
-      "*://*.googleadservices.com/*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "adurl"
-  },
-  {
-    "include": [
       "*://click.icptrack.com/icp/relay.php*"
     ],
     "exclude": [
