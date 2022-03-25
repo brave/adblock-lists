@@ -37,6 +37,8 @@ theblockcrypto.com##body:style(overflow: auto !important;)
 /sensorsdata.min.js
 ||sensors.binance.cloud^
 ! https://app.starbucks.com/account/cards (Blank page)
+@@||cdn.optimizely.com/datafiles/$domain=starbucks.com
+@@||starbucks.com/app-assets/
 @@||app.starbucks.com/weblx/static/$domain=starbucks.com
 ! google fixes
 @@||googletagmanager.com/gtm.js$domain=rednoseday.org|verygoodvault.com
