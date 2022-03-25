@@ -286,6 +286,9 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=scat.gold
 ! uBO-redirect work around golf.com https://github.com/uBlockOrigin/uAssets/pull/8805
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=golf.com
+! uBO-redirect / Bab work around rottenlibrary.net 
+@@||$image,script,domain=rottenlibrary.net
+@@||pagead2.googlesyndication.com^$xhr,domain=rottenlibrary.net
 ! uBO-redirect work around vpnstunnel.com
 @@||google.com/adsense/start/images/favicon.ico$image,domain=vpnstunnel.com
 ! uBO-redirect work around ovagames.com 
