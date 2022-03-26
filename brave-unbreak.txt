@@ -243,6 +243,39 @@ megaup.net#@#.adBanner
 wetter.com,spiegel.de##[referrerpolicy]
 reuters.com,hardwareluxx.de,formel1.de,golem.de,finanzen.net,autobild.de,gamestar.de,tagesspiegel.de##+js(acis, parseInt)
 ||s3.reutersmedia.net/resources/*&rtn=$image
+! Anti-adblock message codehelppro.com (ported from uBO Annoyances)
+@@||codehelppro.com^$ghide
+codehelppro.com##.adsbygoogle
+! warning message elitepvpers.com (ported from uBO Annoyances)
+elitepvpers.com##+js(nostif, $)
+elitepvpers.com##+js(acis, $, Promise)
+! https://github.com/uBlockOrigin/uAssets/issues/10252 (ported from uBO Annoyances)
+affbank.com##+js(set, canRunAds, true)
+! https://www.reddit.com/r/uBlockOrigin/comments/qbcvtc/nbc_sports_anti_ad_block_workaround/ (ported from uBO Annoyances)
+nbcsportsedge.com##+js(aopw, admrlWpJsonP)
+! https://github.com/uBlockOrigin/uAssets/issues/10233 (ported from uBO Annoyances)
+epn.bz##+js(set, ab, false)
+! https://www.reddit.com/r/uBlockOrigin/comments/q31fnc/mocahorg_adblocker_detection/ (ported from uBO Annoyances)
+mocah.org##+js(nosiif, adsbygoogle)
+! https://forums.lanik.us/viewtopic.php?f=91&t=46783 (ported from uBO Annoyances)
+developpez.com##+js(acis, document.getElementById, cookie)
+! https://github.com/uBlockOrigin/uAssets/issues/11815 (ported from uBO Annoyances)
+pushsquare.com##+js(aopr, _sp_._networkListenerData)
+! Anti-adblock message gamingsinners.com,grandoldteam.com (ported from uBO Annoyances)
+gamingsinners.com,grandoldteam.com##+js(acis, $, test)
+! Anti-adblock blur meteoblue.com (ported from uBO Annoyances)
+meteoblue.com##+js(set, mb.advertisingShouldBeEnabled, false)
+! https://github.com/uBlockOrigin/uAssets/issues/11517 (ported from uBO Annoyances)
+funnygames.eu##.is-blocked
+! https://github.com/uBlockOrigin/uAssets/issues/10781 (ported from uBO Annoyances)
+@@||coinpayu.com^$ghide
+! Anti-adblock message geektyper.com (ported from uBO Annoyances)
+geektyper.com###itemz[style^="position:fixed; top:10px"]
+!  Anti-adblock message dhd24.com (ported from uBO Annoyances)
+dhd24.com#@#.adunit  
+! https://www.reddit.com/r/uBlockOrigin/comments/qkf91l/timeanddatecom/ (ported from uBO Annoyances)
+@@||timeanddate.com^$ghide
+timeanddate.com###ad300
 ! Anti-adblock message allmusic.com (ported from uBO Annoyances)
 allmusic.com##+js(abort-current-script, $, adblock)
 ! Anti-adblock message cinemablend.com (ported from uBO Annoyances)
