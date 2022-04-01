@@ -315,6 +315,16 @@
   },
   {
     "include": [
+      "*.valuecommerce.com/servlet/*",
+      "*.valuecommerce.com/resolve/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "vc_url"
+  },
+  {
+    "include": [
       "*://out.reddit.com/*"
     ],
     "exclude": [
