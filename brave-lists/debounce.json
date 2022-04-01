@@ -316,7 +316,8 @@
   {
     "include": [
       "*.valuecommerce.com/servlet/*",
-      "*.valuecommerce.com/resolve/*"
+      "*.valuecommerce.com/resolve/*",
+      "*.valuecommerce.ne.jp/cgi-bin/*"
     ],
     "exclude": [
     ],
