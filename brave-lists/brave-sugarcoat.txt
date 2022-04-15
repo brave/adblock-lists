@@ -1,4 +1,24 @@
-! dell.com
-||ensighten.com/dell/marketing/code/280f261e277ca609b7450f5304929274.js$script,important,domain=dell.com,redirect=async-sugarcoat-04394153a7ce417b88e3fe1790a4e6a269bfebe5
-! live.house.gov
-||google-analytics.com/analytics.js$script,important,domain=house.gov,redirect=async-sugarcoat-8a459c41783885dc83d30f5b7da2359091f4e607
+! https://amazon.jobs
+||adobedtm.com/launch-ENb97d7f9d2d4b4720ac9782a711994995.min.js$script,important,domain=amazon.jobs,redirect=sugarcoat-a29c5b2962763587e8b857e44d1f103db6b3f947
+! https://fedex.com
+||adobedtm.com/686b8f0c4520/4ce401c51b51/644664e5f513/EX7f79980deda04ac6a9bdf72b49ef51cd-libraryCode_source.min.js$script,important,domain=fedex.com,redirect=sugarcoat-e98e9932d67ed60bc8585cb33a345275c7dbfd10
+||adobedtm.com/launch-EN3932511771fb4e5e9dd852ae89372b59.min.js$script,important,domain=fedex.com,redirect=sugarcoat-076d311a91d510e3ac2bd464fcc52bb10339bbce
+! https://einthusan.tv
+||einthusan.tv/prebid.js$script,important,domain=einthusan.tv,redirect=sugarcoat-7d29986c00d91bd97167d8bf3283690d21116dce
+! https://sky.it
+||adform.net/Serving/TrackPoint/$script,important,domain=sky.it,redirect=sugarcoat-ea18d4c3c823caa8adf3d80ed16b195fb2ad1238
+||adform.net/audiencetag/adformat.js$script,important,domain=sky.it,redirect=sugarcoat-15e14d9be88ddf14cd11b214aee549a06541a13f
+||adform.net/serving/scripts/trackpoint/async/$script,important,domain=sky.it,redirect=sugarcoat-4d9b0ec8bc4dd7fc1f0028db2d4c1cd42f893852
+||tiktok.com/i18n/pixel/events.js$script,important,domain=sky.it,redirect=sugarcoat-5b7d4ebefcabb1a02ed31a45f547d46a36c55ac7
+||adobedtm.com/27331c16692c/d6621d9f42c4/launch-19ddb1c8c4b6.min.js$script,important,domain=sky.it,redirect=sugarcoat-35b8f386d95a8ab206cd150f88930558075ab7ff
+||sky.it/_next/static/chunks/webpack-9531fa4e055e3de6cb0c.js$script,important,domain=sky.it,redirect=sugarcoat-086a86e126a872ac4cfc708e4b5ad43878202513
+! https://live.house.gov
+||house.gov/js/analytics.a113b136ebdce01cf16d.js$script,important,domain=house.gov,redirect=sugarcoat-90c6f966d201fddfa6b9a58c3bdb3ce3261415e7
+||google-analytics.com/analytics.js$script,important,domain=house.gov,redirect=sugarcoat-a71f166c958e99971cd281e79354ab56f23c32af
+! https://dell.com
+||ensighten.com/dell/marketing/code/28779f23628edc16b9d0eaa7f6b69903.js$script,important,domain=dell.com,redirect=sugarcoat-28b7848d3f3942aa4606b9e832b0f59305b17591
+||ensighten.com/dell/marketing/code/28ed5e6f79d1871f887df4f4565b4b52.js$script,important,domain=dell.com,redirect=sugarcoat-18eca7196d92d8a32791dbfc4320e49d1ac722c5
+||ensighten.com/dell/marketing/code/4fd1f33758089123c8bb1bc2c03fdf08.js$script,important,domain=dell.com,redirect=sugarcoat-670bb63cb4152d15c72e6915d4e3b263bdf6e0e5
+||ensighten.com/dell/marketing/code/b50b68d536ec399c1d8ea80a674f7fc2.js$script,important,domain=dell.com,redirect=sugarcoat-4d4d06bb1718f5f86bf25f7f89e8512e1c36d96f
+||ensighten.com/dell/marketing/code/c324b36f0072d4a09a0b2f165c413666.js$script,important,domain=dell.com,redirect=sugarcoat-ff921990f3b6fadb15fbf650c43c6c7071605b30
+||ensighten.com/dell/marketing/code/f3d6d6d3effcb387da5bb42fa237a44b.js$script,important,domain=dell.com,redirect=sugarcoat-b3f47a8cf323faa8d724a80a09c79daab0d57d9e
