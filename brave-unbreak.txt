@@ -105,10 +105,6 @@ igniteunmc.com##.preloader
 ! Twitter
 ||api.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
 ||platform.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
-! Linkedin
-||platform.linkedin.com^$third-party
-||licdn.com^$third-party,domain=~linkedin.com
-@@||licdn.com^$domain=linkedin.com
 ! Outbrain elements
 ###around-the-web
 ###g-outbrain
