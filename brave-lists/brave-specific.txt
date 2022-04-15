@@ -38,3 +38,5 @@ modalina.jp###header:style(margin-top: 60px!important;)
 ! Used for Brave QA tests
 ?335962573013224749$image,domain=dev-pages.brave.software|dev-pages.bravesoftware.com
 
+! De-AMP rule that uses the De-AMP scriptlet
+google.*##+js(de-amp)
