@@ -40,7 +40,8 @@
       "*://*.gopjn.com/t/*",
       "*://*.mediamarkt.de/trck/*",
       "*://*.saturn.de/trck/*",
-      "*://*.tradedoubler.com/click?*"
+      "*://*.tradedoubler.com/click?*",
+      "*://*.xg4ken.com/trk/*"
     ],
     "exclude": [
     ],
