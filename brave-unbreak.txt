@@ -624,6 +624,26 @@ mycima.me##+js(acis, Math, zfgloaded)
 @@||googletagmanager.com/gtm.js$script,domain=porsche.com
 ! Fix abcnews.go.com video playback
 @@||akamaihd.net/player/2.106.5/akamai/amp/chartbeatanalytics/Chartbeatanalytics.min.js$domain=abcnews.go.com
+! Debounce fixes 
+! https://github.com/brave/brave-browser/issues/22437
+||tradedoubler.com^$third-party,badfilter
+||doubleclick.net^$third-party,badfilter
+||atdmt.com^$badfilter
+||demdex.net^$badfilter
+||awin1.com^$third-party,badfilter
+||shareasale.com^$third-party,badfilter
+||valuecommerce.com^$third-party,badfilter
+||linksynergy.com^$third-party,badfilter
+! Debounce fixes (image,script,xml) Which will allow the debounce.
+||tradedoubler.com^$image,script,xmlhttprequest,third-party
+||doubleclick.net^$image,script,xmlhttprequest,third-party
+||atdmt.com^$image,script,xmlhttprequest
+||demdex.net^$image,script,xmlhttprequest
+||awin1.com^$image,script,xmlhttprequest,third-party
+||shareasale.com^$image,script,xmlhttprequest,third-party
+||valuecommerce.com^$image,script,xmlhttprequest,third-party
+||linksynergy.com^$image,script,xmlhttprequest,third-party
+!
 ! Peter Lowe fixes
 ||blockthrough.com^$badfilter
 ||criteo.com^$badfilter
