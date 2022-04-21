@@ -40,8 +40,7 @@
       "*://*.gopjn.com/t/*",
       "*://*.mediamarkt.de/trck/*",
       "*://*.saturn.de/trck/*",
-      "*://*.tradedoubler.com/click?*",
-      "*://*.xg4ken.com/trk/*"
+      "*://*.tradedoubler.com/click?*"
     ],
     "exclude": [
     ],
@@ -112,15 +111,6 @@
     ],
     "action": "redirect",
     "param": "red"
-  },
-  {
-    "include": [
-      "*://*.dartsearch.net/link/*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "ds_dest_url"
   },
   {
     "include": [
