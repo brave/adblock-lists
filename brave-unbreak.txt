@@ -183,6 +183,11 @@ tamilblasters.wiki##+js(acis, JSON.parse, break;case $.)
 tamilblasters.wiki##+js(aopw, _pop)
 tamilblasters.wiki##+js(aeld, , break;case $.)
 tamilblasters.wiki##+js(aopr, btoa)
+||rescuephrase.com^
+||dexpredict.com^
+||myrrhicfoeman.com^
+||cheeradvise.com^
+||iclickcdn.com^
 ! Adservers (ios)
 ||pixfuture.com^$third-party
 ||taboola.com^$third-party
