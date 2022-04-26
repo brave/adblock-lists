@@ -237,7 +237,7 @@ sofi.com,53.com,ameriprise.com,cibc.com,citi.com,discover.com,fidelity.com,homed
 ! megaup.net
 megaup.net#@#.adBanner
 ! slate.com Anti-adblock workaround https://github.com/brave/brave-browser/issues/15702
-||tinypass.com^$domain=slate.com
+||buy.tinypass.com^$domain=slate.com
 @@||id.tinypass.com^$domain=slate.com
 ! Anti-adblock: dianomi-anti-adblock
 @@||pcwelt.de^$generichide
