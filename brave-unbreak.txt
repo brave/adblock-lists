@@ -646,14 +646,14 @@ mycima.me##+js(acis, Math, zfgloaded)
 ||linksynergy.com^$third-party,badfilter
 ||clickserve.dartsearch.net^$badfilter
 ! Debounce fixes (image,script,xml) Which will allow the debounce.
-||tradedoubler.com^$image,script,xmlhttprequest,third-party
-||doubleclick.net^$image,script,xmlhttprequest,third-party
-||atdmt.com^$image,script,xmlhttprequest
-||demdex.net^$image,script,xmlhttprequest
-||awin1.com^$image,script,xmlhttprequest,third-party
-||shareasale.com^$image,script,xmlhttprequest,third-party
-||valuecommerce.com^$image,script,xmlhttprequest,third-party
-||linksynergy.com^$image,script,xmlhttprequest,third-party
+||tradedoubler.com^$image,script,subdocument,xmlhttprequest,third-party
+||doubleclick.net^$image,subdocument,script,subdocument,xmlhttprequest,third-party
+||atdmt.com^$image,script,subdocument,xmlhttprequest
+||demdex.net^$image,script,subdocument,xmlhttprequest
+||awin1.com^$image,script,xmlhttprequest,subdocument,third-party
+||shareasale.com^$image,script,xmlhttprequest,subdocument,third-party
+||valuecommerce.com^$image,script,xmlhttprequest,subdocument,third-party
+||linksynergy.com^$image,script,xmlhttprequest,subdocument,third-party
 !
 ! Peter Lowe fixes
 ||blockthrough.com^$badfilter
