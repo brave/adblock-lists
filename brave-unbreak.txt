@@ -644,7 +644,6 @@ mycima.me##+js(acis, Math, zfgloaded)
 ||shareasale.com^$third-party,badfilter
 ||valuecommerce.com^$third-party,badfilter
 ||linksynergy.com^$third-party,badfilter
-||clickserve.dartsearch.net^$badfilter
 ! Debounce fixes (image,script,xml) Which will allow the debounce.
 ||tradedoubler.com^$image,script,subdocument,xmlhttprequest,third-party
 ||doubleclick.net^$image,subdocument,script,subdocument,xmlhttprequest,third-party
