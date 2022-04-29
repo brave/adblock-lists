@@ -400,20 +400,17 @@ chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,cur
 @@||evolok.net/acd/api/$xmlhttprequest,domain=nation.africa
 ! uBO-redirect work pagead2.googlesyndication.com/pagead/js/adsbygoogle.js  
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=turreta.com|akwam.cc|scat.gold|ovagames.com|livehindustan.com|rp5.ru|onlinefreecourse.net|shineads.in|games-manuals.com|photopea.com|bluedrake42.com|filecr.com|arkadium.com|rockmods.net|paraphraser.io|sportsguild.net|imperfectcomic.com|invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
-! uBO-redirect work around gbnews.uk (Anti-adblock)
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gbnews.uk
+! uBO-redirect work imasdk.googleapis.com/js/sdkloader/ima3.js
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gbnews.uk|livexlive.com|soranews24.com
+! uBO-redirect work securepubads.g.doubleclick.net/tag/js/gpt.js
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=hindustantimes.com|golf.com
 akwam.cc##+js(acis, eval, ignielAdBlock)
-! uBO-redirect work around golf.com https://github.com/uBlockOrigin/uAssets/pull/8805
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=golf.com
 ! uBO-redirect / Bab work around rottenlibrary.net 
 @@||$image,script,domain=rottenlibrary.net
 @@||pagead2.googlesyndication.com^$xhr,domain=rottenlibrary.net
 ! uBO-redirect work around vpnstunnel.com
 @@||google.com/adsense/start/images/favicon.ico$image,domain=vpnstunnel.com
-! uBO-redirect work around hindustantimes.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=hindustantimes.com
 ! uBO-redirect work around livexlive.com (IOS, Desktop)
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=livexlive.com
 @@||www.googletagservices.com/tag/js/gpt.js$script,domain=livexlive.com
 @@||securepubads.g.doubleclick.net^$script,domain=livexlive.com
 ! uBO-redirect work around bluedrake42.com (https://drakelings.bluedrake42.com/)
@@ -434,7 +431,6 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||googletagmanager.com/gtag/js$domain=streamingcommunity.bar
 @@||google-analytics.com/analytics.js$domain=streamingcommunity.bar
 ! uBO-redirect work around soranews24.com (uBO unbreak)
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=soranews24.com
 @@||fundingchoicesmessages.google.com/f/$script,domain=soranews24.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=soranews24.com
 ! uBO-redirect work around (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
