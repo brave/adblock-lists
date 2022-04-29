@@ -398,60 +398,26 @@ chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,cur
 @@||googletagmanager.com/gtm.js$script,domain=simon.com
 ! uBO-redirect work around nation.africa (Anti-adblock)
 @@||evolok.net/acd/api/$xmlhttprequest,domain=nation.africa
-! uBO-redirect work around turreta.com (Anti-adblock)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=turreta.com
-! uBO-redirect work around akwam.cc (Anti-adblock) 
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=akwam.cc
-! uBO-redirect work around gbnews.uk (Anti-adblock)
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=gbnews.uk
+! uBO-redirect work pagead2.googlesyndication.com/pagead/js/adsbygoogle.js  
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=turreta.com|akwam.cc|scat.gold|ovagames.com|livehindustan.com|rp5.ru|onlinefreecourse.net|shineads.in|games-manuals.com|photopea.com|bluedrake42.com|filecr.com|arkadium.com|rockmods.net|paraphraser.io|sportsguild.net|imperfectcomic.com|invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
+! uBO-redirect work imasdk.googleapis.com/js/sdkloader/ima3.js
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gbnews.uk|livexlive.com
+! uBO-redirect work securepubads.g.doubleclick.net/tag/js/gpt.js
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=hindustantimes.com|golf.com
 akwam.cc##+js(acis, eval, ignielAdBlock)
-! uBO-redirect work around scat.gold
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=scat.gold
-! uBO-redirect work around golf.com https://github.com/uBlockOrigin/uAssets/pull/8805
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=golf.com
 ! uBO-redirect / Bab work around rottenlibrary.net 
 @@||$image,script,domain=rottenlibrary.net
 @@||pagead2.googlesyndication.com^$xhr,domain=rottenlibrary.net
 ! uBO-redirect work around vpnstunnel.com
 @@||google.com/adsense/start/images/favicon.ico$image,domain=vpnstunnel.com
-! uBO-redirect work around ovagames.com 
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=ovagames.com
-! uBO-redirect work around livehindustan.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=livehindustan.com
-! uBO-redirect work around hindustantimes.com
-@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=hindustantimes.com
 ! uBO-redirect work around livexlive.com (IOS, Desktop)
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=livexlive.com
 @@||www.googletagservices.com/tag/js/gpt.js$script,domain=livexlive.com
 @@||securepubads.g.doubleclick.net^$script,domain=livexlive.com
-! uBO-redirect work around rp5.ru
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=rp5.ru
-! uBO-redirect work around onlinefreecourse.net 
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=onlinefreecourse.net
-! uBO-redirect work around shineads.in
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=shineads.in
-! uBO-redirect work around games-manuals.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=games-manuals.com
-! uBO-redirect work around photopea.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=photopea.com
 ! uBO-redirect work around bluedrake42.com (https://drakelings.bluedrake42.com/)
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bluedrake42.com
 @@||googleads.g.doubleclick.net/pagead/html/$domain=bluedrake42.com
 ! Fix Playback on http://v6.player.abacast.net/6508 (https://community.brave.com/t/problem-loading-http-v6-player-abacast-net-6508/71822)
 @@||imasdk.googleapis.com/js/core/$subdocument,domain=player.abacast.net
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=player.abacast.net
-! uBO-redirect work around filecr.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=filecr.com
-! uBO-redirect work around arkadium.com
-@@||googlesyndication.com/pagead/js/adsbygoogle.js$domain=arkadium.com
-! uBO-redirect work around rockmods.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=rockmods.net
-! uBO-redirect work around paraphraser.io
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=paraphraser.io
-! uBO-redirect work around sportsguild.net
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sportsguild.net
-! uBO-redirect work around imperfectcomic.com
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imperfectcomic.com
 ! uBO-redirect work around, Fixes Blank page 
 @@||googletagservices.com/tag/js/gpt.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
 @@||googletagmanager.com/gtm.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
@@ -468,8 +434,6 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=soranews24.com
 @@||fundingchoicesmessages.google.com/f/$script,domain=soranews24.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=soranews24.com
-! uBO-redirect work around Fixes Anti-Adblock detection in player
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
 ! uBO-redirect work around (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
 @@||v1sts.me^$image
 ! uBO-domain wildcard workaround rnbxclusive1.* https://github.com/uBlockOrigin/uAssets/pull/12579
