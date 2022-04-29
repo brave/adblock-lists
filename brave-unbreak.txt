@@ -401,7 +401,7 @@ chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,cur
 ! uBO-redirect work pagead2.googlesyndication.com/pagead/js/adsbygoogle.js  
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=turreta.com|akwam.cc|scat.gold|ovagames.com|livehindustan.com|rp5.ru|onlinefreecourse.net|shineads.in|games-manuals.com|photopea.com|bluedrake42.com|filecr.com|arkadium.com|rockmods.net|paraphraser.io|sportsguild.net|imperfectcomic.com|invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
 ! uBO-redirect work imasdk.googleapis.com/js/sdkloader/ima3.js
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gbnews.uk|livexlive.com|soranews24.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gbnews.uk|livexlive.com
 ! uBO-redirect work securepubads.g.doubleclick.net/tag/js/gpt.js
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=hindustantimes.com|golf.com
 akwam.cc##+js(acis, eval, ignielAdBlock)
@@ -431,6 +431,7 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||googletagmanager.com/gtag/js$domain=streamingcommunity.bar
 @@||google-analytics.com/analytics.js$domain=streamingcommunity.bar
 ! uBO-redirect work around soranews24.com (uBO unbreak)
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=soranews24.com
 @@||fundingchoicesmessages.google.com/f/$script,domain=soranews24.com
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=soranews24.com
 ! uBO-redirect work around (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
