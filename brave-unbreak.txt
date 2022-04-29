@@ -178,11 +178,11 @@ igniteunmc.com##.preloader
 @@||s7.addthis.com^$script,domain=rhmodern.com
 ! 2mdn video playback script
 @@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com|techrepublic.com
-! tamilblasters.wiki (ios)
-tamilblasters.wiki##+js(acis, JSON.parse, break;case $.)
-tamilblasters.wiki##+js(aopw, _pop)
-tamilblasters.wiki##+js(aeld, , break;case $.)
-tamilblasters.wiki##+js(aopr, btoa)
+! tamilblasters.tel (ios)
+tamilblasters.tel##+js(acis, JSON.parse, break;case $.)
+tamilblasters.tel##+js(aopw, _pop)
+tamilblasters.tel##+js(aeld, , break;case $.)
+tamilblasters.tel##+js(aopr, btoa)
 ||rescuephrase.com^
 ||dexpredict.com^
 ||myrrhicfoeman.com^
