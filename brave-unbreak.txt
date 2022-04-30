@@ -405,6 +405,8 @@ chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,cur
 ! uBO-redirect work securepubads.g.doubleclick.net/tag/js/gpt.js
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=hindustantimes.com|golf.com
 akwam.cc##+js(acis, eval, ignielAdBlock)
+! uBO-redirect work around https://rugbystreams.me/ 
+@@||vip.rtsts.me^$image
 ! uBO-redirect / Bab work around rottenlibrary.net 
 @@||$image,script,domain=rottenlibrary.net
 @@||pagead2.googlesyndication.com^$xhr,domain=rottenlibrary.net
