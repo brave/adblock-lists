@@ -132,6 +132,15 @@
   },
   {
     "include": [
+      "*://t.umblr.com/redirect?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "z"
+  },
+  {
+    "include": [
       "*://*.demdex.net/event?*"
     ],
     "exclude": [
