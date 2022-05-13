@@ -53,6 +53,9 @@ stats.brave.com#@#adsContent
 ||theatlantic.blueconic.net$domain=theatlantic.com
 ||theatlantic.com/please-support-us^
 ! youtube ads
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.adPlacements)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.playerAds)
+youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, 2.playerResponse.adPlacements)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(set, ytInitialPlayerResponse.adPlacements, null)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.adPlacements)
