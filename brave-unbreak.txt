@@ -52,6 +52,8 @@ stats.brave.com#@#adsContent
 ! theatlantic.com anti-blocker filters
 ||theatlantic.blueconic.net$domain=theatlantic.com
 ||theatlantic.com/please-support-us^
+! navigator.connection checks
+userlytics.com##+js(set, navigator.connection, true)
 ! youtube ads
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.adPlacements)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.playerAds)
