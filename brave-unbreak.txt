@@ -54,6 +54,7 @@ stats.brave.com#@#adsContent
 ||theatlantic.com/please-support-us^
 ! navigator.connection checks
 userlytics.com##+js(set, navigator.connection, {})
+userlytics.com##+js(set, navigator.connection.effectiveType, '')
 ! youtube ads
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.adPlacements)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, [].playerResponse.playerAds)
