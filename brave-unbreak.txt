@@ -79,14 +79,8 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 ||zergnet.com^$script,third-party
 ! block scripts that profile user behavior using password managers
 @@||api.huobi.pro^$domain=www.huobi.pro
-! content blocking
-||theatlantic.com/packages/adsjs^$script,domain=theatlantic.com
-! Adblock Tracking
-@@||redditstatic.com^*/xads.js$script,domain=reddit.com
 ! Twitter ad cosmetic element 
 twitter.com##[style]>div>div>[data-testid=placementTracking]
-! Allow twitter.com readahead (using the twitter api)
-@@||twitter.com/i/search/typeahead.json$third-party
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
 ! Scroll bar-consent
@@ -165,15 +159,6 @@ igniteunmc.com##.preloader
 @@||developers.google.com/identity/$image,domain=mysms.com
 ! vresp.com (https://community.brave.com/t/cant-see-captcha-on-form/67187)
 @@||captcha.vresp.com^$domain=lawfirmkpi.com
-! https://community.brave.com/t/ad-not-bloked-properly/63628
-||readthedocs.org/api/v2/sustainability/$script,domain=pyexcel.org
-! Embedded vidible video's
-@@||vidible.tv/prod/$xmlhttprequest,media,image
-@@||vidible.tv/prod/player/js/$script
-@@||delivery.vidible.tv/placement/$xmlhttprequest
-@@||delivery.vidible.tv/jsonp/$script
-! Fix addthis.com issues on rhmodern.com  https://github.com/brave/brave-browser/issues/3653
-@@||s7.addthis.com^$script,domain=rhmodern.com
 ! 2mdn video playback script
 @@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com|techrepublic.com
 ! tamilblasters.tel (ios)
@@ -209,8 +194,6 @@ tamilblasters.tel##+js(aopr, btoa)
 startpage.com###gcsa-top
 ! weather.com "Your privacy" dialogbox
 ||weather.com/*.PrivacyDataNotice.$domain=weather.com
-! thothub.tv (NSFW)
-@@||awemwh.com^$media,domain=thothub.tv
 ! Fix https://github.com/brave/brave-browser/issues/4507 (mirrors uBO fix, rewritten so that brave/ad-block supports)
 ||washingtonpost.com/pb/api/*/adblocker-feature$xmlhttprequest,first-party
 ! Fix onesignal.com example push notifications
@@ -231,8 +214,6 @@ uptostream.com,tirexo.lol##+js(acis, window.a)
 @@||tirexo.lol^$generichide
 ! portscanning script
 intuit.com,sofi.com,53.com,ameriprise.com,cibc.com,citi.com,discover.com,fidelity.com,homedepot.com,sciencedirect.com,ebay.com,ebay-kleinanzeigen.de,tdbank.com,walmart.com##+js(acis, tmx_post_session_params_fixed)
-! megaup.net
-megaup.net#@#.adBanner
 ! slate.com Anti-adblock workaround https://github.com/brave/brave-browser/issues/15702
 ||buy.tinypass.com^$domain=slate.com
 @@||id.tinypass.com^$domain=slate.com
@@ -489,10 +470,6 @@ vipbox.lc##.position-absolute
 ! Whatleaks nullifer
 $websocket,domain=whatleaks.com 
 whatleaks.com##+js(acis, init_port_check_waiting)
-! techpowerup.com
-techpowerup.com##.site-headr > section > div > [href]
-techpowerup.com##[class^="side-"] > .sidebar-item img
-techpowerup.com##[class*="-bar"] > .sidebar-item img
 ! Anti-Brave checks
 healthrangerstore.com,redux-toolkit.js.org,practicebetter.io,saramart.com,html-code-generator.com,caratoday.sale,caratoday.shop,caratoday.pub,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,bookadom.ru,playl2.net,volcom.ca,helocloth.com,itrum.org,thunder-io.com,unitythemovement.world,nothing.tech,sisimore.net,pythonstudy.xyz,brandongomes.com,faucet.today,snowsportdeals.com,calcolastipendionetto.it,psychologytoday.com,krunker.io,kodekloud.com,thera-link.com,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,caratoday.com,sybertrek.com,pethouse.com.au,uploadbank.com,divnil.com,html.it,mistx.io,rari.app##+js(brave-fix)
 ! Anti-Brave checks (DuckDuckGo UA check)
@@ -509,8 +486,6 @@ globalnews.ca##.c-newsletterSignup
 ||ip-approval.com^$third-party,domain=mufon.com
 ! Anti-adblock: lapresse.ca
 ||lapresse-ca.lapresse.ca^$domain=lapresse.ca
-! Video playback on maxpreps.com (script source on cbssports.com)
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=cbssports.com
 ! Fix foxnews video playback
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$script,domain=foxbusiness.com|foxnews.com
 @@||fncstatic.com/static/isa/app/lib/VisitorAPI.js$script,domain=foxbusiness.com|foxnews.com
@@ -538,22 +513,17 @@ latimes.com##body:style(overflow: auto !important;)
 @@||ebay.com/ws/$xmlhttprequest
 ! api.ebay.com (https://community.brave.com/t/referral-not-getting-download-and-comfirmed/75898)
 @@||api.ebay.com^$xmlhttprequest,subdocument
-! fix first-party items on maxmind.com (https://community.brave.com/t/stop-blocking-the-website-for-maxmind-com/68326)
-@@||blog.maxmind.com^$~third-party
-@@||static.maxmind.com^$~third-party
 ! Korean adblock (cosmetic) 
 newtoki64.com##.basic-banner
 newtoki64.com##.board-tail-banner
-! Anti-adblock: pandora.com
-@@||pandora.com/web-version/*/ads.json$xmlhttprequest,domain=pandora.com
+! Anti-adblock: pandora.com (IoS)
+@@||pandora.com/static/ads/
 ! blockadblock 
 blockadblock.com##+js(nobab)
 ! Anti-adblock: gazzetta.it
 @@||rcsobjects.it^*/openx/$script,domain=gazzetta.it
 ! Anti-adblock: geoguessr.com
 @@||geoguessr.com/_ads/$script,xmlhttprequest,domain=geoguessr.com
-! ssrn.com login fix
-@@||assets.adobedtm.com^$script,domain=ssrn.com
 ! Mixpanel 1p issues (due to peter lowes). https://github.com/easylist/easylist/issues/9920
 ||mixpanel.com^$badfilter
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
@@ -597,8 +567,6 @@ lenta.ru,championat.com,passion.ru,wmj.ru,eda.ru,rambler.ru,motor.ru,autorambler
 mycima.me##+js(acis, Math, zfgloaded)
 ! Fix consent issue on porsche.com (IOS)
 @@||googletagmanager.com/gtm.js$script,domain=porsche.com
-! Fix abcnews.go.com video playback
-@@||akamaihd.net/player/2.106.5/akamai/amp/chartbeatanalytics/Chartbeatanalytics.min.js$domain=abcnews.go.com
 ! Debounce fixes 
 ! https://github.com/brave/brave-browser/issues/22437
 ||tradedoubler.com^$third-party,badfilter
