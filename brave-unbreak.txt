@@ -87,8 +87,6 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 twitter.com##[style]>div>div>[data-testid=placementTracking]
 ! Allow twitter.com readahead (using the twitter api)
 @@||twitter.com/i/search/typeahead.json$third-party
-! DDG 1P analytics and optimization
-@@||improving.duckduckgo.com^$~third-party
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
 ! Scroll bar-consent
