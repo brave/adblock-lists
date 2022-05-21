@@ -552,6 +552,41 @@ whatleaks.com##+js(acis, init_port_check_waiting)
 healthrangerstore.com,redux-toolkit.js.org,practicebetter.io,saramart.com,html-code-generator.com,caratoday.sale,caratoday.shop,caratoday.pub,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,bookadom.ru,playl2.net,volcom.ca,helocloth.com,itrum.org,thunder-io.com,unitythemovement.world,nothing.tech,sisimore.net,pythonstudy.xyz,brandongomes.com,faucet.today,snowsportdeals.com,calcolastipendionetto.it,psychologytoday.com,krunker.io,kodekloud.com,thera-link.com,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,caratoday.com,sybertrek.com,pethouse.com.au,uploadbank.com,divnil.com,html.it,mistx.io,rari.app##+js(brave-fix)
 ! Anti-Brave checks (DuckDuckGo UA check)
 ||api.duckduckgo.com/?q=useragent$domain=kosataga.in|minibayong.com|i-rotary.com|tecknity.com|jaysndees.com|recherche-ebook.fr|unitythemovement.world|thebeautyboothe.com|brandongomes.com|faucet.today|thesassyclub.com
+!
+! EasyDutch https://github.com/EasyDutch-uBO/EasyDutch/blob/main/EasyDutch/Anti-Adblock.txt (START)
+! https://github.com/AdguardTeam/AdguardFilters/issues/115542
+@@||kijk.nl^$ghide
+@@||ads-talpa.adhese.com/json/$xhr,domain=kijk.nl
+*$image,domain=kijk.nl,redirect-rule=1x1.gif
+! 2022-01-29
+autoweek.nl##+js(set, isAdBlockActive, false)
+! 2021-11-09
+@@||looopings.nl/wp-banners.js
+looopings.nl##+js(acis, document.getElementById, .style.display=)
+! 2021-10-29
+dumpert.nl##+js(setTimeout-defuser, AdBlockerCheck)
+dumpert.nl#@#.ads_box
+! 2021-08-09
+doorbraak.be,gowiththevlo.nl##+js(aopw, advanced_ads_check_adblocker)
+! 2021-08-07
+@@||hb.improvedigital.com/pbw/headerlift.min.js$script,3p,domain=funnygames.be|funnygames.nl|spele.be|spele.nl
+! 2021-08-06
+funnygames.nl,funnygames.be,spele.be,spele.nl##.is-billboard
+funnygames.nl,funnygames.be,spele.be,spele.nl##.is-skyscraper
+marokko.nl##+js(set, ads_toegestaan, true)
+@@*$ghide,domain=modekoninginmaxima.nl|quickclaims.nl
+! 2021-06-01
+notebookcheck.nl##+js(acis, document.getElementById, send)
+! 2021-05-04
+112midden-zeeland.nl##+js(aopr, anOptions)
+! 2021-04-28
+webwereld.nl##+js(set, adBlockStatus, false)
+nu.nl##+js(set, isAdBlockEnabled, false)
+! 2021-04-27
+@@||partner.googleadservices.com/gpt/pubads_impl_$script,domain=vtm.be
+directwonen.nl#@#.adsbox
+girlscene.nl##+js(set, adblock, 0)
+! EasyDutch https://github.com/EasyDutch-uBO/EasyDutch/blob/main/EasyDutch/Anti-Adblock.txt (END)
 ! globalnews.ca Anti-adblock
 @@||globalnews.ca^$ghide
 globalnews.ca##.l-headerAd__container
