@@ -229,135 +229,213 @@ intuit.com,sofi.com,53.com,ameriprise.com,cibc.com,citi.com,discover.com,fidelit
 wetter.com,spiegel.de##[referrerpolicy]
 reuters.com,hardwareluxx.de,formel1.de,golem.de,finanzen.net,autobild.de,gamestar.de,tagesspiegel.de##+js(acis, parseInt)
 ||s3.reutersmedia.net/resources/*&rtn=$image
-! Anti-adblock message codehelppro.com (ported from uBO Annoyances)
+!! -- ported from uBO Annoyances filters (START)
+! Anti-adblock message codehelppro.com
 @@||codehelppro.com^$ghide
 codehelppro.com##.adsbygoogle
-! https://github.com/AdguardTeam/AdguardFilters/issues/70801 (ported from uBO Annoyances)
+! https://github.com/AdguardTeam/AdguardFilters/issues/70801
 tusubtitulo.com###bannerAdBlock
-! 2iptv .com warning anti adb (ported from uBO Annoyances)
+! 2iptv .com warning anti adb
 2iptv.com##+js(nostif, google_jobrunner)
-! https://github.com/uBlockOrigin/uAssets/issues/7811 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/7811
 keybr.com##+js(nostif, , 5000)
 keybr.com##+js(nostif, [native code])
-! edmontonjournal .com anti adb warning (ported from uBO Annoyances)
+! edmontonjournal .com anti adb warning
 @@||edmontonjournal.com^$ghide
-! gamebanana anti adblock notice (ported from uBO Annoyances)
+! gamebanana anti adblock notice
 gamebanana.com##+js(aopr, adBlockDetected)
-! https://github.com/NanoMeow/QuickReports/issues/2767 (ported from uBO Annoyances)
+! https://github.com/NanoMeow/QuickReports/issues/2767
 includehelp.com##+js(acis, document.getElementById, banner)
-! https://github.com/NanoMeow/QuickReports/issues/2787 (ported from uBO Annoyances)
+! https://github.com/NanoMeow/QuickReports/issues/2787
 hedgeaccordingly.com##+js(aopw, ABD)
-! https://forums.lanik.us/viewtopic.php?f=62&t=44254 (ported from uBO Annoyances)
+! https://forums.lanik.us/viewtopic.php?f=62&t=44254
 @@||linux.org^$ghide
-! https://github.com/NanoMeow/QuickReports/issues/2981 (ported from uBO Annoyances)
+! https://github.com/NanoMeow/QuickReports/issues/2981
 @@||queer.pl^$ghide
 queer.pl#@#[class^="ad-"]
 queer.pl##.box-adv
-! https://github.com/uBlockOrigin/uAssets/issues/6956 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/6956
 mocospace.com##+js(nostif, adblocker)
-! bigten .org anti adb warning (ported from uBO Annoyances)
+! bigten .org anti adb warning
 @@||bigten.org^$xhr,1p
-! https://github.com/AdguardTeam/AdguardFilters/issues/50013 (ported from uBO Annoyances)
+! https://github.com/AdguardTeam/AdguardFilters/issues/50013
 strangermeetup.com##+js(set, adsEnabled, true)
-! https://www.reddit.com/r/uBlockOrigin/comments/f879lv/whathifi_antiadblock_not_blocked/ (ported from uBO Annoyances)
+! https://www.reddit.com/r/uBlockOrigin/comments/f879lv/whathifi_antiadblock_not_blocked/
 @@||whathifi.com^$ghide
 whathifi.com##.ad-unit
 whathifi.com##.sponsored-post
-! mt07-forum/auto-treff anti-adb (ported from uBO Annoyances)
+! mt07-forum/auto-treff anti-adb
 mt07-forum.de,auto-treff.com##+js(acis, $, offsetHeight)
-! Steady anti adb warning (ported from uBO Annoyances)
+! Steady anti adb warning 
 handball-world.news,mobiflip.de,titanic-magazin.de##+js(nostif, Delay)
 handball-world.news##small
-! fiscomania .com anti adb notice (ported from uBO Annoyances)
+! fiscomania .com anti adb notice 
 @@||fiscomania.com^$ghide
-! playbill .com anti adb warning (ported from uBO Annoyances)
+! playbill .com anti adb warning
 playbill.com##+js(nostif, offsetHeight)
-! thegatewaypundit .com anti adb warning (ported from uBO Annoyances)
+! thegatewaypundit .com anti adb warning
 thegatewaypundit.com##+js(aeld, , adtoniq)
-! https://github.com/uBlockOrigin/uAssets/issues/7396 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/7396
 yaledailynews.com##+js(acis, $, undefined)
-! https://github.com/NanoMeow/QuickReports/issues/3846 (ported from uBO Annoyances)
+! https://github.com/NanoMeow/QuickReports/issues/3846
 4x4earth.com##+js(set, adBlockDetected, false)
 4x4earth.com##+js(nostif, samOverlay)
-! https://github.com/uBlockOrigin/uAssets/issues/3877 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/3877
 endorfinese.com.br##+js(nostif, google_jobrunner)
-! https://github.com/uBlockOrigin/uAssets/issues/7411 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/7411
 ivoox.com##+js(set, getCookie, trueFunc)
-! https://github.com/AdguardTeam/AdguardFilters/issues/56652 (ported from uBO Annoyances)
+! https://github.com/AdguardTeam/AdguardFilters/issues/56652
 poedb.tw##+js(aopr, adBlockDetected)
-! https://github.com/NanoMeow/QuickReports/issues/3169 (ported from uBO Annoyances)
+! https://github.com/NanoMeow/QuickReports/issues/3169
 malekal.com##+js(nostif, adb)
-! warning message elitepvpers.com (ported from uBO Annoyances)
+! warning message elitepvpers.com
 elitepvpers.com##+js(nostif, $)
 elitepvpers.com##+js(acis, $, Promise)
-! https://github.com/uBlockOrigin/uAssets/issues/10252 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/10252
 affbank.com##+js(set, canRunAds, true)
-! https://www.reddit.com/r/uBlockOrigin/comments/qbcvtc/nbc_sports_anti_ad_block_workaround/ (ported from uBO Annoyances)
+! https://www.reddit.com/r/uBlockOrigin/comments/qbcvtc/nbc_sports_anti_ad_block_workaround/
 nbcsportsedge.com##+js(aopw, admrlWpJsonP)
-! https://github.com/uBlockOrigin/uAssets/issues/10233 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/10233
 ! https://github.com/NanoAdblocker/NanoFilters/issues/540
 epn.bz,longecity.org##+js(set, ab, false)
-! https://github.com/AdguardTeam/AdguardFilters/issues/103536 (ported from uBO Annoyances)
+! https://github.com/AdguardTeam/AdguardFilters/issues/103536
 otomobilgunluklerim.com##.adblockalert
 otomobilgunluklerim.com##.ad_block_detected:style(overflow: auto !important;)
-! https://github.com/uBlockOrigin/uAssets/issues/11129 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/11129
 ssuathletics.com##+js(acis, document.querySelector, adblock)
-! https://www.reddit.com/r/uBlockOrigin/comments/q31fnc/mocahorg_adblocker_detection/ (ported from uBO Annoyances)
+! https://www.reddit.com/r/uBlockOrigin/comments/q31fnc/mocahorg_adblocker_detection/ 
 mocah.org##+js(nosiif, adsbygoogle)
-! https://forums.lanik.us/viewtopic.php?f=91&t=46783 (ported from uBO Annoyances)
+! https://forums.lanik.us/viewtopic.php?f=91&t=46783 
 developpez.com##+js(acis, document.getElementById, cookie)
-! https://github.com/uBlockOrigin/uAssets/issues/11815 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/11815
 pushsquare.com##+js(aopr, _sp_._networkListenerData)
-! Anti-adblock message gamingsinners.com,grandoldteam.com (ported from uBO Annoyances)
+! Anti-adblock message gamingsinners.com,grandoldteam.com
 gamingsinners.com,grandoldteam.com##+js(acis, $, test)
-! anti adb warning the-food-story. com (ported from uBO Annoyances)
+! anti adb warning the-food-story. com 
 the-food-story.com##+js(aost, String.prototype.charCodeAt, ai_)
-! https://github.com/uBlockOrigin/uAssets/issues/9878 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/9878
 hendersonville.com##.adblock-detected
-! https://github.com/uBlockOrigin/uAssets/issues/9666 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/9666 
 tiermaker.com##+js(nostif, &adslot)
-! https://github.com/uBlockOrigin/uAssets/issues/9583 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/9583
 fimfiction.net##+js(aeld, load, adLazy)
-! https://github.com/uBlockOrigin/uAssets/issues/2060 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/2060
 nicematin.com##+js(aeld, , AdB)
-! https://github.com/AdguardTeam/AdguardFilters/issues/57758 (ported from uBO Annoyances)
+! https://github.com/AdguardTeam/AdguardFilters/issues/57758
 audiostereo.pl##+js(nostif, adb)
-! https://www.reddit.com/r/uBlockOrigin/comments/o7bhur/problem_ubo_detected_on_fauxid/ (ported from uBO Annoyances)
+! https://www.reddit.com/r/uBlockOrigin/comments/o7bhur/problem_ubo_detected_on_fauxid/
 fauxid.com##+js(aeld, error)
-! https://github.com/AdguardTeam/AdguardFilters/issues/85350 (ported from uBO Annoyances)
+! https://github.com/AdguardTeam/AdguardFilters/issues/85350 
 babiato.co##+js(acis, $, test)
 @@||babiato.co^$ghide
 babiato.co##.adsbygoogle
-! https://github.com/uBlockOrigin/uAssets/issues/10458 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/10458 
 buondua.com##.noblock-modal
 buondua.com##body.tingle-enabled:style(position: static!important;overflow: auto!important;)
-! Anti-adblock blur meteoblue.com (ported from uBO Annoyances)
+! Anti-adblock blur meteoblue.com 
 meteoblue.com##+js(set, mb.advertisingShouldBeEnabled, false)
-! https://github.com/uBlockOrigin/uAssets/issues/11517 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/11517 
 funnygames.eu##.is-blocked
-! https://github.com/uBlockOrigin/uAssets/issues/10781 (ported from uBO Annoyances)
+! https://github.com/uBlockOrigin/uAssets/issues/10781
 @@||coinpayu.com^$ghide
-! Anti-adblock message geektyper.com (ported from uBO Annoyances)
+! Anti-adblock message geektyper.com
 geektyper.com###itemz[style^="position:fixed; top:10px"]
-!  Anti-adblock message dhd24.com (ported from uBO Annoyances)
+!  Anti-adblock message dhd24.com 
 dhd24.com#@#.adunit  
-! https://www.reddit.com/r/uBlockOrigin/comments/qkf91l/timeanddatecom/ (ported from uBO Annoyances)
+! https://www.reddit.com/r/uBlockOrigin/comments/qkf91l/timeanddatecom/
 @@||timeanddate.com^$ghide
 timeanddate.com###ad300
-! Anti-adblock message allmusic.com (ported from uBO Annoyances)
+! Anti-adblock message allmusic.com 
 allmusic.com##+js(abort-current-script, $, adblock)
-! Anti-adblock message cinemablend.com (ported from uBO Annoyances)
+! Anti-adblock message cinemablend.com 
 cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
-! Anti-adblock message topspeed.com (ported from uBO Annoyances)
+! Anti-adblock message topspeed.com
 @@||topspeed.com^$ghide
 topspeed.com##.txt-ad
 topspeed.com##.daily-vid-ad
 topspeed.com##.top-horizontal-ad-content
 ! 1st-party fix for cnn.com
 cnn.com##+js(aopw, window._sp_.writeCookie)
-! Anti-adblock message suncalc.org (ported from uBO Annoyances)
+! Anti-adblock message suncalc.org 
 ###adsGross1
 ###adsKlein
+! light.gg soft anti-adb
+light.gg##.items-right-square
+light.gg##.remove-turtles
+! e-words.jp anti-adb
+e-words.jp###forvisitors
+! https://digital.elmercurio.com/2022/05/02/A/SN44A2B9 private mode detection
+||digital.elmercurio.com/assets/js/detectPrivateMode.js$script,1p
+! https://github.com/uBlockOrigin/uAssets/issues/12861
+telewebgram.com#@#.adsbygoogle
+! https://github.com/uBlockOrigin/uAssets/issues/12768
+||dl.gmx.*/uim/connector/live/v2/nonfriendlyiframe.html$frame,1p
+! techus. website anti adb soft
+techus.website##+js(nostif, ai_)
+! waves4you. com anti adblock
+waves4you.com##+js(aost, String.prototype.charCodeAt, ai_)
+! https://ww3.watchgintama.com/gintama-episode-367-subbed/ preroll video
+animecruzers.com##+js(set, Object.prototype.preroll, [])
+! https://github.com/uBlockOrigin/uAssets/issues/12623
+valid.x86.fr##.widget-advert-300-600
+! https://www.reddit.com/r/uBlockOrigin/comments/tydsev/adblocker_detected_on_unidiversfr/
+unidivers.fr##+js(no-xhr-if, googlesyndication)
+! allthingsvegas. com anti adb warning
+@@||allthingsvegas.com^$ghide
+! fnbrjp.com anti-adb
+fnbrjp.com##+js(nostif, 広告)
+! https://github.com/uBlockOrigin/uAssets/issues/12462
+coolwallpapers.me##+js(nosiif, dfgh-adsbygoogle)
+! codehelppro.com anti-adblock
+@@||codehelppro.com^$ghide
+codehelppro.com##.adsbygoogle
+! https://github.com/uBlockOrigin/uAssets/issues/12119
+101soundboards.com##.blocked-notice-small
+! https://github.com/uBlockOrigin/uAssets/issues/12012
+academy.hackthebox.com##.show.fade
+academy.hackthebox.com##body:style(overflow:auto !important)
+! eshentai. tv warning
+eshentai.tv##.aviso
+! https://github.com/uBlockOrigin/uAssets/issues/11785
+allhorror.com##.ad-placeholder-wrapper
+! https://github.com/uBlockOrigin/uAssets/issues/13094
+photopea.com##+js(no-fetch-if, /googlesyndication|uniconsent/)
+photopea.com##+js(set, console.clear, noopFunc)
+! https://github.com/uBlockOrigin/uAssets/issues/13037
+@@||ruyamanga.com^$ghide
+! https://github.com/uBlockOrigin/uAssets/issues/3885
+northwestfirearms.com,techkings.org##+js(set, samDetected, true)
+cafesaxophone.com##+js(aopw, XF)
+! https://github.com/uBlockOrigin/uAssets/issues/3908
+@@||enfsolar.com^$ghide
+! https://github.com/uBlockOrigin/uAssets/issues/3905
+hayum.in##+js(set, detectAdBlock, noopFunc)
+! https://github.com/uBlockOrigin/uAssets/issues/3901
+bronze-bravery.com,ultimate-bravery.net##+js(nostif, (), 2000)
+! https://github.com/uBlockOrigin/uAssets/issues/3900
+fabricjs.com##+js(nostif, (), 4000)
+! https://github.com/uBlockOrigin/uAssets/issues/3913
+@@||brightonandhovenews.org^$ghide
+! https://github.com/uBlockOrigin/uAssets/issues/3912
+japancamerahunter.com##+js(acis, jQuery, ads)
+! https://github.com/uBlockOrigin/uAssets/issues/3918
+remotelyawesomejobs.com###ad-plea
+! https://github.com/uBlockOrigin/uAssets/issues/3919
+@@||rightwingtribune.com^$ghide
+! https://github.com/uBlockOrigin/uAssets/issues/3920
+htmlreference.io##+js(nostif, (), 2000)
+htmlreference.io##.header-carbon
+! https://github.com/uBlockOrigin/uAssets/issues/3922
+wildstarlogs.com##+js(nostif, (), 1000)
+! https://github.com/uBlockOrigin/uAssets/issues/10636
+zwei-euro.com##+js(nostif, Delay)
+! https://forums.lanik.us/viewtopic.php?f=62&t=40602
+@@||html-online.com^$ghide
+! https://github.com/uBlockOrigin/uAssets/issues/2185
+@@||socialblade.com^$ghide
+! https://github.com/NanoAdblocker/NanoFilters/issues/63
+sportsnet.ca##+js(aopr, uxGuid)
+!! -- ported from uBO Annoyances filters (END)
 ! chip.de
 ||mms.chip.de^
 ! Anti-adblock (Brave fix on  https://github.com/brave/brave-browser/issues/12737)
