@@ -341,7 +341,7 @@ funnygames.eu##.is-blocked
 ! Anti-adblock message geektyper.com
 geektyper.com###itemz[style^="position:fixed; top:10px"]
 !  Anti-adblock message dhd24.com 
-dhd24.com#@#.adunit  
+dhd24.com#@#.adunit
 ! https://www.reddit.com/r/uBlockOrigin/comments/qkf91l/timeanddatecom/
 @@||timeanddate.com^$ghide
 timeanddate.com###ad300
@@ -386,9 +386,6 @@ unidivers.fr##+js(no-xhr-if, googlesyndication)
 fnbrjp.com##+js(nostif, 広告)
 ! https://github.com/uBlockOrigin/uAssets/issues/12462
 coolwallpapers.me##+js(nosiif, dfgh-adsbygoogle)
-! codehelppro.com anti-adblock
-@@||codehelppro.com^$ghide
-codehelppro.com##.adsbygoogle
 ! https://github.com/uBlockOrigin/uAssets/issues/12119
 101soundboards.com##.blocked-notice-small
 ! https://github.com/uBlockOrigin/uAssets/issues/12012
@@ -513,7 +510,6 @@ kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(nostif, ()
 kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(set, check_adblock, true)
 @@||kissasian.ac^$ghide
 @@||kissasian.io^$ghide
-@@||kissasian.es^$ghide
 @@||kissasian.nz^$ghide
 @@||kissasian.es^$ghide
 ! uBO-domain wildcard workaround tube8/pornhub
@@ -546,7 +542,7 @@ vipbox.lc##.position-absolute
 ! Potential Tracker, Annoyance
 ||govdelivery.com^$third-party
 ! Whatleaks nullifer
-$websocket,domain=whatleaks.com 
+$websocket,domain=whatleaks.com
 whatleaks.com##+js(acis, init_port_check_waiting)
 ! Anti-Brave checks
 healthrangerstore.com,redux-toolkit.js.org,practicebetter.io,saramart.com,html-code-generator.com,caratoday.sale,caratoday.shop,caratoday.pub,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,bookadom.ru,playl2.net,volcom.ca,helocloth.com,itrum.org,thunder-io.com,unitythemovement.world,nothing.tech,sisimore.net,pythonstudy.xyz,brandongomes.com,faucet.today,snowsportdeals.com,calcolastipendionetto.it,psychologytoday.com,krunker.io,kodekloud.com,thera-link.com,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,caratoday.com,sybertrek.com,pethouse.com.au,uploadbank.com,divnil.com,html.it,mistx.io,rari.app##+js(brave-fix)
