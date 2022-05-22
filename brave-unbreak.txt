@@ -498,16 +498,16 @@ crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(aopr, AaDetector)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(acis, JSON.parse, break;case $.)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(aopw, _pop)
 ! uBO-domain wildcard workaround kissanime
-kissanime.com.ru,kissanime.fr,kissanime.org.ru,kissanime.co,kissanime.mx##+js(acis, String.fromCharCode, /btoa|break/)
-kissanime.com.ru,kissanime.fr,kissanime.org.ru,kissanime.co,kissanime.mx##+js(acis, JSON.parse, break;case $.)
-kissanime.com.ru,kissanime.fr,kissanime.org.ru,kissanime.co,kissanime.mx##+js(window.open-defuser)
+kimcartoon.li,kisscartoon.sh,kisscartoon.io,kisscartoon.is,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co,kissanime.mx##+js(acis, String.fromCharCode, /btoa|break/)
+kimcartoon.li,kisscartoon.sh,kisscartoon.io,kisscartoon.is,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co,kissanime.mx##+js(acis, JSON.parse, break;case $.)
+kimcartoon.li,kisscartoon.sh,kisscartoon.io,kisscartoon.is,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co,kissanime.mx##+js(window.open-defuser)
 ! uBO-domain wildcard workaround kissasian
-kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(acis, String.fromCharCode, /btoa|break/)
-kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(acis, JSON.parse, break;case $.)
-kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(window.open-defuser)
-kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(aeld, /^(?:click|mousedown)$/, _0x)
-kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(nostif, (), 45000)
-kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(set, check_adblock, true)
+kissasian.fan,kissasian.pe,kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(acis, String.fromCharCode, /btoa|break/)
+kissasian.fan,kissasian.pe,kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(acis, JSON.parse, break;case $.)
+kissasian.fan,kissasian.pe,kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(window.open-defuser)
+kissasian.fan,kissasian.pe,kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(aeld, /^(?:click|mousedown)$/, _0x)
+kissasian.fan,kissasian.pe,kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(nostif, (), 45000)
+kissasian.fan,kissasian.pe,kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(set, check_adblock, true)
 @@||kissasian.ac^$ghide
 @@||kissasian.io^$ghide
 @@||kissasian.nz^$ghide
