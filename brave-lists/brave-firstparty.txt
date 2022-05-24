@@ -1,14 +1,14 @@
-# Firstparty specific filters
-# Ads
-#
+! Firstparty specific filters
+! Ads
+!
 ||akamaized.net/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
 ||scdn.co/audio/*$media,redirect=noopmp3-0.1s,domain=open.spotify.com
 ||ads-api.twitter.com^
-#
-# Trackers
-#
+!
+! Trackers
+!
 ||twitter.com/1.1/jot/client_event.json
-# Amazon
+! Amazon
 ||amazon.*/action-impressions/
 ||amazon.*/ajax/counter?
 ||amazon.com/1/events/$domain=~aws.amazon.com
@@ -17,13 +17,19 @@
 ||amazon.com^*/impress.html
 ||aax-eu-dub.amazon.com^
 ||aax-us-iad.amazon.com^
-# Dailymail
+! Bing
+||bing.com/fd/ls/l?ig=
+||bing.com/fd/ls/glinkping.aspx?
+||msn.com/onecollector/
+||bing.com/fd/ls/lsp.aspx
+||bing.com/mouselog
+! Dailymail
 ||dailymail.co.uk/geo/
 ||dailymail.co.uk/rta2/
 ||rta.dailymail.co.uk^
 ||t.dailymail.co.uk^
 ||ted.dailymail.co.uk^
-# Facebook/Instagram
+! Facebook/Instagram
 ||facebook.com/a/bz?
 ||facebook.com/ajax/*/log.php
 ||facebook.com/ajax/*logging.
@@ -37,7 +43,7 @@
 ||instagram.com/logging/
 ||instagram.com/logging_client_events
 ||instagram.com/ajax/bz
-# Youtube
+! Youtube
 ||youtube-nocookie.com/api/stats/delayplay?
 ||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/ptracking?
@@ -50,7 +56,7 @@
 ||youtube.com/generate_204?
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
-# Reddit
+! Reddit
 ||alb.reddit.com^
 ||events.reddit.com^
 ||events.redditmedia.com^
@@ -58,14 +64,14 @@
 ||reddit.com/static/pixel.png$image
 ||reddit.com/timings/
 ||redditmedia.com/gtm/jail?
-# Nytimes
+! Nytimes
 ||a-reporting.nytimes.com^
 ||als-svc.nytimes.com^
 ||et.nytimes.com^
 ||nyt.com/ads/tpc-check.html$domain=nytimes.com
 ||nytimes.com/svc/nyt/data-layer?
 ||nytimes.com/v1/purr-cache
-# Anti-adblock consent trackers
+! Anti-adblock consent trackers
 ||mms.cnn.com^
 ||sp.app.com^
 ||sp.argusleader.com^
