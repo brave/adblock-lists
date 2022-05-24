@@ -98,6 +98,8 @@ theblockcrypto.com##body:style(overflow: auto !important;)
 ! Random adservers
 ||closureevaporatefume.com^
 ||pub.network^
+||d2o03z2xnyxlz5.cloudfront.net^
+||papayads.net^$third-party
 ||revcontent.com^$third-party
 ! Trackers
 ||pagefair.com^
