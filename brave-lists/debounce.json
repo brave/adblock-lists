@@ -93,15 +93,6 @@
   },
   {
     "include": [
-      "*://amzn.to/*asc_refurl=*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "asc_refurl"
-  },
-  {
-    "include": [
       "*://t.myvisualiq.net/*",
       "*://*.dartsearch.net/link/*",
       "*://*.doubleclick.net/ddm/clk/*"
@@ -128,15 +119,6 @@
     ],
     "action": "redirect",
     "param": "h"
-  },
-  {
-    "include": [
-      "*://t.umblr.com/redirect?*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "z"
   },
   {
     "include": [
@@ -246,17 +228,6 @@
   },
   {
     "include": [
-      "*://*.youtube.com/redirect*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "q"
-  },
-  {
-    "include": [
-      "*://*.facebook.com/l.php*",
-      "*://l.instagram.com/?u=*",
       "*://goto.target.com/c/*",
       "*://goto.walmart.com/c/*",
       "*://*.sjv.io/c/*",
@@ -322,24 +293,6 @@
     ],
     "action": "redirect",
     "param": "vc_url"
-  },
-  {
-    "include": [
-      "*://out.reddit.com/*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "url"
-  },
-  {
-    "include": [
-      "*://assoc-redirect.amazon.com/g/r/*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "r"
   },
   {
     "include": [
