@@ -84,15 +84,6 @@
   },
   {
     "include": [
-      "*://*.doubleclick.net/ddm/clk/*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "red"
-  },
-  {
-    "include": [
       "*://rd.bizrate.com/rd?*"
     ],
     "exclude": [
