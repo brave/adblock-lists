@@ -84,7 +84,6 @@
   },
   {
     "include": [
-      "*://*.dartsearch.net/link/*",
       "*://*.doubleclick.net/ddm/clk/*"
     ],
     "exclude": [
