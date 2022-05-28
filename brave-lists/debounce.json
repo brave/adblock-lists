@@ -20,7 +20,6 @@
       "*://gate.sc/?url=*",
       "*://freetutsdownload.net/redirect-to/?url=*",
       "*://mcpedl.com/leaving/?url=*",
-      "*://track.adtraction.com/t/*&url=*",
       "*://track.effiliation.com/servlet/effi.redir*&url=*",
       "*://go.skimresources.com/?id=*&url=*",
       "*://go.redirectingat.com/?id=*&url=*",
@@ -81,17 +80,6 @@
     ],
     "action": "redirect",
     "param": "AffDirectURL"
-  },
-  {
-    "include": [
-      "*://t.myvisualiq.net/*",
-      "*://*.dartsearch.net/link/*",
-      "*://*.doubleclick.net/ddm/clk/*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "red"
   },
   {
     "include": [
