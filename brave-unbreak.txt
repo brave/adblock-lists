@@ -454,7 +454,7 @@ chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,cur
 ! uBO-redirect work around nation.africa (Anti-adblock)
 @@||evolok.net/acd/api/$xmlhttprequest,domain=nation.africa
 ! uBO-redirect work pagead2.googlesyndication.com/pagead/js/adsbygoogle.js  
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sprintally.com|uploadbank.com|kitguru.net|imagetotext.info|jojo-themes.net|turreta.com|akwam.cc|scat.gold|ovagames.com|livehindustan.com|rp5.ru|onlinefreecourse.net|shineads.in|games-manuals.com|photopea.com|bluedrake42.com|filecr.com|arkadium.com|rockmods.net|paraphraser.io|sportsguild.net|imperfectcomic.com|invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=mangawt.com|sprintally.com|uploadbank.com|kitguru.net|imagetotext.info|jojo-themes.net|turreta.com|akwam.cc|scat.gold|ovagames.com|livehindustan.com|rp5.ru|onlinefreecourse.net|shineads.in|games-manuals.com|photopea.com|bluedrake42.com|filecr.com|arkadium.com|rockmods.net|paraphraser.io|sportsguild.net|imperfectcomic.com|invisibleoranges.com|nj1015.com|tasteofcountry.com|wyrk.com|xxlmag.com|ultimateclassicrock.com
 ! uBO-redirect work imasdk.googleapis.com/js/sdkloader/ima3.js
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=gbnews.uk|livexlive.com
 ! uBO-redirect work securepubads.g.doubleclick.net/tag/js/gpt.js
