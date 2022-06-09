@@ -56,15 +56,6 @@
   },
   {
     "include": [
-      "*://*.f9tmep.net/c/*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "srcref"
-  },
-  {
-    "include": [
       "*://*.zenaps.com/rclick.php*"
     ],
     "exclude": [
