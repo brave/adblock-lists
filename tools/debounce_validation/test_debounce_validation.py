@@ -2,6 +2,7 @@
 from urlmatch import urlmatch
 
 import json
+import os
 import unittest
 
 
@@ -10,7 +11,10 @@ NEVERMATCHES = "https://this-never-matches-but-should-never-throw.com"
 
 class DebounceTester(unittest.TestCase):
     def setUp(self):
-        with open("../../brave-lists/debounce.json") as fd:
+        basedir = os.path.dirname(__file__)
+        debounce_json = os.path.join(basedir, "..", "..",
+                                     "brave-lists", "debounce.json")
+        with open(debounce_json) as fd:
             debounce_raw = json.load(fd)
 
         rules = []
