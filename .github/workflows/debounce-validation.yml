@@ -18,9 +18,8 @@ jobs:
           python-version: "3.10"
           cache: "pip"
 
-      - run: pip install -r tools/debounce_validation/requirements.txt
+      - name: Install requirements
+        run: pip install -r tools/debounce_validation/requirements.txt
 
       - name: Run test suite
-        run: |
-          cd tools/debounce_validation/
-          python3 -m unittest main
+        run: python3 -m unittest discover -s tools/debounce_validation
