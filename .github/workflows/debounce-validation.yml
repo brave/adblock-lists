@@ -1,0 +1,23 @@
+name: Debounce Validation
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+          cache: "pip"
+      - run: pip install -r tools/debounce_validation/requirements.txt
+      - name: Run test suite
+        run: |
+          cd tools/debounce_validation/
+          python3 -m unittest main
