@@ -609,6 +609,9 @@ geekzone.co.nz,elpais.com,abc.es,lapresse.ca##div[style*="box-shadow: rgb(136, 1
 ! Fix googlefunding issues (Android) https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters.txt#L21331
 ! googlefunding (latimes.com) (fix scroll)
 latimes.com##body:style(overflow: auto !important;)
+! Cookie consent :remove fix
+computerbase.de#@#+js(rc, consent-dialog-open, body)
+computerbase.de#@#.js-consent.consent
 ! googlefunding (foxnews / foxbusiness)
 ||foxnews.com^*choices.js$script,domain=foxnews.com|foxbusiness.com
 ! Anti-adblock: indiatimes.com / timesofindia.com
