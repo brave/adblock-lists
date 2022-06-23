@@ -392,5 +392,33 @@
     ],
     "action": "base64,redirect",
     "param": "a"
+  },
+  {
+    "include": [
+      "https://fmarier.github.io/brave-testing/debouncer/redirect.html?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "brave_testing"
+  },
+  {
+    "include": [
+      "https://fmarier.github.io/brave-testing/debouncer/redirect.html?*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "brave_testing_base64"
+  },
+  {
+    "include": [
+      "https://fmarier.github.io/brave-testing/debouncer/*"
+    ],
+    "exclude": [
+    ],
+    "prepend_scheme": "https",
+    "action": "regex-path",
+    "param": "^/brave-testing/debouncer/(.*);.html$"
   }
 ]
