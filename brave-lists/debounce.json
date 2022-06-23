@@ -30,7 +30,6 @@
       "*://*.narrativ.com/*client_redirect/*",
       "*://c.pepperjamnetwork.com/*",
       "*://*.avantlink.com/click.php?*",
-      "*://t.cfjump.com/*",
       "*://*.pjatr.com/t/*",
       "*://*.pntrs.com/t/*",
       "*://*.nordstrom.com/Linkshare?*",
@@ -44,6 +43,15 @@
     ],
     "action": "redirect",
     "param": "url"
+  },
+  {
+    "include": [
+      "*://t.cfjump.com/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "Url"
   },
   {
     "include": [
