@@ -20,9 +20,9 @@
       "*://gate.sc/?url=*",
       "*://freetutsdownload.net/redirect-to/?url=*",
       "*://mcpedl.com/leaving/?url=*",
-      "*://track.effiliation.com/servlet/effi.redir*&url=*",
-      "*://go.skimresources.com/?id=*&url=*",
-      "*://go.redirectingat.com/?id=*&url=*",
+      "*://track.effiliation.com/servlet/effi.redir*",
+      "*://go.skimresources.com/*",
+      "*://go.redirectingat.com/*",
       "*://shop-links.co/link/*",
       "*://*.jdoqocy.com/click-*",
       "*://*.kqzyfj.com/click-*",
@@ -378,7 +378,7 @@
   },
   {
     "include": [
-      "*://*.ouo.today/?*"
+      "*://*.ouo.today/*"
     ],
     "exclude": [
     ],
