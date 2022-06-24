@@ -65,12 +65,23 @@
   },
   {
     "include": [
-      "*://*.clixgalore.com/Lead.aspx*"
+      "*://www.clixgalore.com/Lead.aspx*"
     ],
     "exclude": [
     ],
+    "prepend_scheme": "http",
     "action": "redirect",
     "param": "AffDirectURL"
+  },
+  {
+    "include": [
+      "*://www.clixgalore.com/Lead.aspx*"
+    ],
+    "exclude": [
+    ],
+    "prepend_scheme": "http",
+    "action": "redirect",
+    "param": "LP"
   },
   {
     "include": [
