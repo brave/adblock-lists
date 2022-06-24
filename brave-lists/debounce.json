@@ -38,6 +38,7 @@
       "*://*.gopjn.com/t/*",
       "*://*.mediamarkt.de/trck/*",
       "*://*.saturn.de/trck/*",
+      "*://api.bam-x.com/api/v1/clickmate/*",
       "*://*.tradedoubler.com/click?*"
     ],
     "exclude": [
