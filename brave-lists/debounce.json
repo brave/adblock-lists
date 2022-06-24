@@ -6,38 +6,38 @@
       "*://*.mobile01.com/redirect.php?*",
       "*://*.nurhamka.com/*?url=*",
       "*://*.linepc.site/*?url=*",
-      "*://*.sopasti.com/anime.php?*",
+      "*://www.sopasti.com/anime.php?*",
       "*://*.zxro.com/u/*?url=*",
       "*://*.macdownload.org/redirect/?url=*",
       "*://*.forek.info/*?url=*",
-      "*://*.creditcable.info/*/*?*",
+      "*://flake.creditcable.info/*",
       "*://*.adfoc.us/serve/sitelinks/?*",
       "*://*.made-by.org/redirection/?url=*",
       "*://*.itsbx.com/redirect/?url=*",
-      "*://*.forocoches.com/link.php?url=*",
+      "*://www.forocoches.com/link.php?*",
       "*://*.pixiv.net/jump.php?url=*",
       "*://hdblurayindir.com/git.php?url=*",
       "*://gate.sc/?url=*",
       "*://freetutsdownload.net/redirect-to/?url=*",
-      "*://mcpedl.com/leaving/?url=*",
+      "*://mcpedl.com/leaving/?*",
       "*://track.effiliation.com/servlet/effi.redir*",
       "*://go.skimresources.com/*",
       "*://go.redirectingat.com/*",
       "*://shop-links.co/link/*",
-      "*://*.jdoqocy.com/click-*",
-      "*://*.kqzyfj.com/click-*",
-      "*://*.pjtra.com/t/*",
-      "*://*.narrativ.com/*client_redirect/*",
-      "*://c.pepperjamnetwork.com/*",
+      "*://www.jdoqocy.com/click-*",
+      "*://www.kqzyfj.com/click-*",
+      "*://www.pjtra.com/t/*",
+      "*://*.narrativ.com/api/v0/client_redirect/*",
+      "*://c.pepperjamnetwork.com/click*",
       "*://*.avantlink.com/click.php?*",
       "*://t.cfjump.com/*",
       "*://*.pjatr.com/t/*",
-      "*://*.pntrs.com/t/*",
+      "*://www.pntrs.com/t/*",
       "*://*.nordstrom.com/Linkshare?*",
-      "*://*.nutribullet.com/t/*",
-      "*://*.gopjn.com/t/*",
-      "*://*.mediamarkt.de/trck/*",
-      "*://*.saturn.de/trck/*",
+      "*://pj.nutribullet.com/t/*",
+      "*://www.gopjn.com/t/*",
+      "*://pvn.mediamarkt.de/trck/eclick/*",
+      "*://pvn.saturn.de/trck/eclick/*",
       "*://api.bam-x.com/api/v1/clickmate/*",
       "*://*.tradedoubler.com/click?*"
     ],
@@ -57,7 +57,7 @@
   },
   {
     "include": [
-      "*://*.zenaps.com/rclick.php*"
+      "*://www.zenaps.com/rclick.php*"
     ],
     "exclude": [
     ],
@@ -84,7 +84,7 @@
   },
   {
     "include": [
-      "*://ad.atdmt.com/s/*"
+      "*://ad.atdmt.com/s/go;*"
     ],
     "exclude": [
     ],
@@ -102,7 +102,7 @@
   },
   {
     "include": [
-      "*://*.awin1.com/cread.php?*"
+      "*://www.awin1.com/cread.php?*"
     ],
     "exclude": [
     ],
@@ -111,7 +111,7 @@
   },
   {
     "include": [
-      "*://*.awin1.com/awclick.php?*"
+      "*://www.awin1.com/awclick.php?*"
     ],
     "exclude": [
     ],
@@ -190,7 +190,7 @@
   },
   {
     "include": [
-      "*://*.criteo.com/beacon?*"
+      "*://cat.criteo.com/beacon?*"
     ],
     "exclude": [
     ],
@@ -222,8 +222,8 @@
       "*://*.xibx.net/c/*",
       "*://*.attfm2.net/c/*",
       "*://*.tkjf.net/c/*",
-      "*://*.datafeedfile.com/sl/*",
-      "*://*.datafeedfile.com/sl?*",
+      "*://deeplink-bh.datafeedfile.com/sl/*",
+      "*://deeplink-bh.datafeedfile.com/sl?*",
       "*://*.a9yw.net/c/*",
       "*://*.pfm4.net/c/*",
       "*://*.i254217.net/c/*",
@@ -231,12 +231,12 @@
       "*://*.vthnbx.net/c/*",
       "*://*.ryvx.net/c/*",
       "*://*.7eer.net/c/*",
-      "*://*.msafflnk.net/c/*",
+      "*://microsoft.msafflnk.net/c/*",
       "*://*.i312864.net/c/*",
       "*://*.tmfhgn.net/c/*",
       "*://*.obak77.net/c/*",
       "*://*.yvzx.net/c/*",
-      "*://*.carters.com/c/*",
+      "*://goto.carters.com/c/*",
       "*://*.ioym.net/c/*",
       "*://*.ntaf.net/c/*",
       "*://*.zlwlj8.net/c/*",
@@ -257,8 +257,8 @@
   },
   {
     "include": [
-      "*://*.valuecommerce.com/servlet/*",
-      "*://*.valuecommerce.com/resolve/*",
+      "*://ck.jp.ap.valuecommerce.com/servlet/referral?*",
+      "*://atrrd.valuecommerce.com/resolve/*",
       "*://*.valuecommerce.ne.jp/cgi-bin/*"
     ],
     "exclude": [
@@ -277,7 +277,7 @@
   },
   {
     "include": [
-      "*://*.linksynergy.com/*"
+      "*://click.linksynergy.com/deeplink*"
     ],
     "exclude": [
     ],
