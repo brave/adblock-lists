@@ -395,7 +395,8 @@
   },
   {
     "include": [
-      "https://fmarier.github.io/brave-testing/debouncer/redirect.html?*"
+      "https://dev-pages.brave.software/navigation-tracking/error.html?*",
+      "https://dev-pages.bravesoftware.com/navigation-tracking/error.html?*"
     ],
     "exclude": [
     ],
@@ -404,7 +405,8 @@
   },
   {
     "include": [
-      "https://fmarier.github.io/brave-testing/debouncer/redirect.html?*"
+      "https://dev-pages.brave.software/navigation-tracking/error.html?*",
+      "https://dev-pages.bravesoftware.com/navigation-tracking/error.html?*"
     ],
     "exclude": [
     ],
@@ -413,12 +415,13 @@
   },
   {
     "include": [
-      "https://fmarier.github.io/brave-testing/debouncer/*"
+      "https://dev-pages.brave.software/navigation-tracking/*",
+      "https://dev-pages.bravesoftware.com/navigation-tracking/*"
     ],
     "exclude": [
     ],
     "prepend_scheme": "https",
     "action": "regex-path",
-    "param": "^/brave-testing/debouncer/(.*);.html$"
+    "param": "^/navigation-tracking/(.*);.html$"
   }
 ]
