@@ -157,6 +157,7 @@
    ],
    "exclude": [
    ],
+   "prepend_scheme": "https",
    "action": "redirect",
    "param": "urllink"
   },
