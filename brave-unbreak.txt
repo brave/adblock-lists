@@ -67,13 +67,6 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse
 ! adops.com unusable without this
 @@||adops.com^$~third-party
 @@||www.scrumpoker.online^$~third-party
-! piwick/matomo
-@@/piwik.js$first-party
-@@/piwik.php$first-party
-@@/matomo-tracking.$first-party
-@@/matomo.php$first-party
-@@/matomo.js$first-party
-@@/matomo/*$first-party
 ! fixes for several requests bypassing default blocklists
 ||aolcdn.com/*/adsWrapper.js$script
 ||zergnet.com^$script,third-party
