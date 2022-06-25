@@ -396,6 +396,24 @@
   },
   {
     "include": [
+      "*://www.ojrq.net/p/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "return"
+  },
+  {
+    "include": [
+      "*://d.agkn.com/pixel/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "l1"
+  },
+  {
+    "include": [
       "https://dev-pages.brave.software/navigation-tracking/error.html?*",
       "https://dev-pages.bravesoftware.com/navigation-tracking/error.html?*"
     ],
