@@ -3,12 +3,8 @@
     "include": [
       "*://*.leechall.com/redirect.php?url=*",
       "*://*.news-gg.com/l/?*",
-      "*://*.mobile01.com/redirect.php?*",
-      "*://*.nurhamka.com/*?url=*",
-      "*://*.linepc.site/*?url=*",
       "*://www.sopasti.com/anime.php?*",
       "*://*.zxro.com/u/*?url=*",
-      "*://*.macdownload.org/redirect/?url=*",
       "*://flake.creditcable.info/*",
       "*://*.adfoc.us/serve/sitelinks/?*",
       "*://*.itsbx.com/redirect/?url=*",
@@ -294,11 +290,7 @@
   },
   {
     "include": [
-      "*://*.safelinku.icu/*?url=*",
-      "*://*.infotekno.net/vga?url=*",
-      "*://*.sehuruf.com/linkku/?url=*",
-      "*://*.blackmod.net/dl/?url=*",
-      "*://*.omglyrics.com/*/?url=*"
+      "*://*.blackmod.net/dl/?url=*"
     ],
     "exclude": [
     ],
@@ -307,8 +299,6 @@
   },
   {
     "include": [
-      "*://*.masreyhan.com/*?site=*",
-      "*://*.vius.info/*?site=*",
       "*://*.losstor.com/ini/?site=*"
     ],
     "exclude": [
@@ -319,23 +309,12 @@
   {
     "include": [
       "*://*.leechpremium.link/cheat/?link=*",
-      "*://*.bdzone.xyz/cheat.php?link=*",
-      "*://*.extramovies.casa/download.php?name=*&link=*",
-      "*://sekolahgan.my.id/?link=*"
+      "*://*.extramovies.casa/download.php?name=*&link=*"
     ],
     "exclude": [
     ],
     "action": "base64,redirect",
     "param": "link"
-  },
-  {
-    "include": [
-      "*://*.infosia.xyz/?kesehatan=*"
-    ],
-    "exclude": [
-    ],
-    "action": "base64,redirect",
-    "param": "kesehatan"
   },
   {
     "include": [
