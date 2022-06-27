@@ -194,8 +194,7 @@
   },
   {
     "include": [
-      "*://*.maranhesduve.club/?*",
-      "*://*.sparbuttantowa.pro/*?*"
+      "*://*.maranhesduve.club/?*"
     ],
     "exclude": [
     ],
@@ -310,9 +309,7 @@
   {
     "include": [
       "*://*.blogspot.com/*/*/*?url=*",
-      "*://*.mispuani.xyz/*?url=*",
       "*://*.safelinku.icu/*?url=*",
-      "*://*.ad4msan.win/safe?url=*",
       "*://*.infotekno.net/vga?url=*",
       "*://*.sehuruf.com/linkku/?url=*",
       "*://*.novicearea.com/*/?url=*",
@@ -332,7 +329,6 @@
     "include": [
       "*://*.telolet.in/?go=*",
       "*://*.lompat.in/?go=*",
-      "*://*.grandmovie21.com/?go=*",
       "*://*.postku.org/?go=*"
     ],
     "exclude": [
@@ -347,9 +343,7 @@
       "*://*.vius.info/*?site=*",
       "*://*.cariskuy.com/*?site=*",
       "*://*.losstor.com/ini/?site=*",
-      "*://*.giga74.com/*?site=*",
-      "*://*.hfiz.site/?site=*",
-      "*://*.cemiw.net/*?site=*"
+      "*://*.giga74.com/*?site=*"
     ],
     "exclude": [
     ],
@@ -358,8 +352,6 @@
   },
   {
     "include": [
-      "*://*.remiyu.me/*?reff=*",
-      "*://*.ceksite.id/*?reff=*",
       "*://*.postku.org/*?reff=*"
     ],
     "exclude": [
@@ -369,20 +361,9 @@
   },
   {
     "include": [
-      "*://*.kharismanews.com/?rel=*",
-      "*://out.x-forex.site/?rel=*"
-    ],
-    "exclude": [
-    ],
-    "action": "base64,redirect",
-    "param": "rel"
-  },
-  {
-    "include": [
       "*://*.leechpremium.link/cheat/?link=*",
       "*://*.bdzone.xyz/cheat.php?link=*",
       "*://*.extramovies.casa/download.php?name=*&link=*",
-      "*://*.gilakerja.com/*/?link=*",
       "*://sekolahgan.my.id/?link=*"
     ],
     "exclude": [
