@@ -308,7 +308,6 @@
   },
   {
     "include": [
-      "*://*.blogspot.com/*/*/*?url=*",
       "*://*.safelinku.icu/*?url=*",
       "*://*.infotekno.net/vga?url=*",
       "*://*.sehuruf.com/linkku/?url=*",
