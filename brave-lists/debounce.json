@@ -465,6 +465,15 @@
   },
   {
     "include": [
+      "*://pvn.mediamarkt.de/trck/eclick/*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "url64fb"
+  },
+  {
+    "include": [
       "https://dev-pages.brave.software/navigation-tracking/error.html?*",
       "https://dev-pages.bravesoftware.com/navigation-tracking/error.html?*"
     ],
