@@ -133,7 +133,6 @@
   },
   {
     "include": [
-      "*://*.spaste.com/r/*link=*",
       "*://*.getprice.com.au/prodhits.aspx?*"
     ],
     "exclude": [
@@ -149,17 +148,6 @@
     ],
     "action": "redirect",
     "param": "aurl"
-  },
-  {
-    "include": [
-      "*://*.ouo.io/*?s=*",
-      "*://*.cpmlink.net/s/*?s=*",
-      "*://*.shon.xyz/s/*?s=*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "s"
   },
   {
     "include": [
@@ -290,26 +278,7 @@
   },
   {
     "include": [
-      "*://*.blackmod.net/dl/?url=*"
-    ],
-    "exclude": [
-    ],
-    "action": "base64,redirect",
-    "param": "url"
-  },
-  {
-    "include": [
-      "*://*.losstor.com/ini/?site=*"
-    ],
-    "exclude": [
-    ],
-    "action": "base64,redirect",
-    "param": "site"
-  },
-  {
-    "include": [
-      "*://*.leechpremium.link/cheat/?link=*",
-      "*://*.extramovies.casa/download.php?name=*&link=*"
+      "*://*.leechpremium.link/cheat/?link=*"
     ],
     "exclude": [
     ],
@@ -324,15 +293,6 @@
     ],
     "action": "base64,redirect",
     "param": "cr"
-  },
-  {
-    "include": [
-      "*://*.adsafelink.net/generate?a=*"
-    ],
-    "exclude": [
-    ],
-    "action": "base64,redirect",
-    "param": "a"
   },
   {
     "include": [
