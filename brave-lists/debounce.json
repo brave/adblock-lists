@@ -38,6 +38,9 @@
       "*://pvn.mediamarkt.de/trck/eclick/*",
       "*://pvn.saturn.de/trck/eclick/*",
       "*://api.bam-x.com/api/v1/clickmate/*",
+      "*://go.redirectingat.com/*",
+      "*://x.chip.de/linktrack/button/*",
+      "*://*.mailchimp.com/mctx/clicks?*",
       "*://*.tradedoubler.com/click?*"
     ],
     "exclude": [
@@ -94,6 +97,7 @@
   },
   {
     "include": [
+      "*://rd.connexity.net/rd?*",
       "*://rd.bizrate.com/rd?*"
     ],
     "exclude": [
@@ -431,6 +435,33 @@
     ],
     "action": "redirect",
     "param": "l1"
+  },
+  {
+    "include": [
+      "*://t.mailpgn.com/l/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "fl"
+  },
+  {
+    "include": [
+      "*://jsv3.recruitics.com/redirect?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "rx_url"
+  },
+  {
+    "include": [
+      "*://app.adjust.com/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "redirect"
   },
   {
     "include": [
