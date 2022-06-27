@@ -1,15 +1,9 @@
 [
   {
     "include": [
-      "*://*.leechall.com/redirect.php?url=*",
-      "*://*.news-gg.com/l/?*",
       "*://www.sopasti.com/anime.php?*",
-      "*://*.zxro.com/u/*?url=*",
       "*://flake.creditcable.info/*",
-      "*://*.adfoc.us/serve/sitelinks/?*",
-      "*://*.itsbx.com/redirect/?url=*",
       "*://www.forocoches.com/link.php?*",
-      "*://gate.sc/?url=*",
       "*://mcpedl.com/leaving/?*",
       "*://track.effiliation.com/servlet/effi.redir*",
       "*://go.skimresources.com/*",
@@ -142,15 +136,6 @@
   },
   {
     "include": [
-      "*://*.folderenius.com/*/*?*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "aurl"
-  },
-  {
-    "include": [
       "*://www.shareasale.com/r.cfm?*",
       "*://shareasale.com/r.cfm?*",
       "*://www.shareasale-analytics.com/r.cfm?*",
@@ -275,15 +260,6 @@
     ],
     "action": "redirect",
     "param": "murl"
-  },
-  {
-    "include": [
-      "*://*.leechpremium.link/cheat/?link=*"
-    ],
-    "exclude": [
-    ],
-    "action": "base64,redirect",
-    "param": "link"
   },
   {
     "include": [
