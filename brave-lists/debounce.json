@@ -9,16 +9,11 @@
       "*://www.sopasti.com/anime.php?*",
       "*://*.zxro.com/u/*?url=*",
       "*://*.macdownload.org/redirect/?url=*",
-      "*://*.forek.info/*?url=*",
       "*://flake.creditcable.info/*",
       "*://*.adfoc.us/serve/sitelinks/?*",
-      "*://*.made-by.org/redirection/?url=*",
       "*://*.itsbx.com/redirect/?url=*",
       "*://www.forocoches.com/link.php?*",
-      "*://*.pixiv.net/jump.php?url=*",
-      "*://hdblurayindir.com/git.php?url=*",
       "*://gate.sc/?url=*",
-      "*://freetutsdownload.net/redirect-to/?url=*",
       "*://mcpedl.com/leaving/?*",
       "*://track.effiliation.com/servlet/effi.redir*",
       "*://go.skimresources.com/*",
@@ -194,15 +189,6 @@
   },
   {
     "include": [
-      "*://*.maranhesduve.club/?*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "href"
-  },
-  {
-    "include": [
       "*://click.icptrack.com/icp/relay.php*"
     ],
     "exclude": [
@@ -311,13 +297,8 @@
       "*://*.safelinku.icu/*?url=*",
       "*://*.infotekno.net/vga?url=*",
       "*://*.sehuruf.com/linkku/?url=*",
-      "*://*.novicearea.com/*/?url=*",
-      "*://*.dikatekno.com/go/?url=*",
       "*://*.blackmod.net/dl/?url=*",
-      "*://*.hulblog.com/*/?url=*",
-      "*://*.omglyrics.com/*/?url=*",
-      "*://*.nyantaidulu.com/linknya/?url=*",
-      "*://*.pixelshost.com/?url=*"
+      "*://*.omglyrics.com/*/?url=*"
     ],
     "exclude": [
     ],
@@ -326,37 +307,14 @@
   },
   {
     "include": [
-      "*://*.telolet.in/?go=*",
-      "*://*.lompat.in/?go=*",
-      "*://*.postku.org/?go=*"
-    ],
-    "exclude": [
-    ],
-    "action": "base64,redirect",
-    "param": "go"
-  },
-  {
-    "include": [
       "*://*.masreyhan.com/*?site=*",
-      "*://*.pasardownload.com/*?site=*",
       "*://*.vius.info/*?site=*",
-      "*://*.cariskuy.com/*?site=*",
-      "*://*.losstor.com/ini/?site=*",
-      "*://*.giga74.com/*?site=*"
+      "*://*.losstor.com/ini/?site=*"
     ],
     "exclude": [
     ],
     "action": "base64,redirect",
     "param": "site"
-  },
-  {
-    "include": [
-      "*://*.postku.org/*?reff=*"
-    ],
-    "exclude": [
-    ],
-    "action": "base64,redirect",
-    "param": "reff"
   },
   {
     "include": [
