@@ -355,6 +355,7 @@ cnn.com##+js(aopw, window._sp_.writeCookie)
 ! light.gg soft anti-adb
 light.gg##.items-right-square
 light.gg##.remove-turtles
+light.gg###ad-blocker-nudge
 ! e-words.jp anti-adb
 e-words.jp###forvisitors
 ! https://digital.elmercurio.com/2022/05/02/A/SN44A2B9 private mode detection
@@ -425,6 +426,25 @@ zwei-euro.com##+js(nostif, Delay)
 @@||socialblade.com^$ghide
 ! https://github.com/NanoAdblocker/NanoFilters/issues/63
 sportsnet.ca##+js(aopr, uxGuid)
+! phys.org anti-adblock nag
+@@||phys.org^$ghide
+phys.org##.amp-unresolved
+phys.org##.adsbygoogle
+phys.org##.ads-336x280
+! https://github.com/AdguardTeam/AdguardFilters/issues/122484
+iskandinavya.com##+js(aopr, kan_vars.adblock)
+! kryptografie. de anti adblock notice
+||kryptografie.de/js/wb_dead.js
+! anti adb warning leekduck. com
+leekduck.com##+js(nostif, abp)
+! https://github.com/uBlockOrigin/uAssets/issues/13418
+/wp-content/themes/*/public/js/detect-adblock.js$script,1p
+! https://github.com/AdguardTeam/AdguardFilters/issues/78541
+*$xhr,redirect-rule=noopjs,domain=maxedtech.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=maxedtech.com
+@@||googlesyndication.com^$xhr,domain=maxedtech.com
+! Admiral popups
+boston.com,britannica.com,download.mokeedev.com,freep.com,ijr.com,inquirer.net,legacy.com,nationalreview.com,nofilmschool.com,order-order.com,savvytime.com,techlicious.com,technicpack.net,thedraftnetwork.com,wrestlezone.com##+js(acis, document.createElement, admiral)
 !! -- ported from uBO Annoyances filters (END)
 ! chip.de
 ||mms.chip.de^
