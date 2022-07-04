@@ -25,7 +25,8 @@
       "*://go.redirectingat.com/*",
       "*://x.chip.de/linktrack/button/*",
       "*://*.mailchimp.com/mctx/clicks?*",
-      "*://*.tradedoubler.com/click?*"
+      "*://*.tradedoubler.com/click?*",
+      "*://cc.techbargains.com/*"
     ],
     "exclude": [
     ],
