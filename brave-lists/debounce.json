@@ -327,6 +327,15 @@
   },
   {
     "include": [
+      "*://www.googleadservices.com/pagead/aclk?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "adurl"
+  },
+  {
+    "include": [
       "https://dev-pages.brave.software/navigation-tracking/error.html?*",
       "https://dev-pages.bravesoftware.com/navigation-tracking/error.html?*"
     ],
