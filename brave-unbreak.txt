@@ -446,6 +446,8 @@ leekduck.com##+js(nostif, abp)
 ! Admiral popups
 boston.com,britannica.com,download.mokeedev.com,freep.com,ijr.com,inquirer.net,legacy.com,nationalreview.com,nofilmschool.com,order-order.com,savvytime.com,techlicious.com,technicpack.net,thedraftnetwork.com,wrestlezone.com##+js(acis, document.createElement, admiral)
 !! -- ported from uBO Annoyances filters (END)
+!! -- ported from uBO Quick Fixes --
+megaup.net##.metaRedirectWrapperBottomAds > div > a > img:style(margin-top: 10000px !important; pointer-events: none !important;)
 ! chip.de
 ||mms.chip.de^
 ! Anti-adblock (Brave fix on  https://github.com/brave/brave-browser/issues/12737)
