@@ -729,6 +729,7 @@ mycima.me##+js(acis, Math, zfgloaded)
 ! Peter Lowe fixes
 ||blockthrough.com^$badfilter
 ||criteo.com^$badfilter
+||app.pendo.io^$badfilter
 ||pubmatic.com^$badfilter
 ||appsflyer.com^$badfilter
 ||tapfiliate.com^$badfilter
