@@ -518,6 +518,9 @@ faucetbtc.net##+js(aopr, TestAd)
 @@||c.amazon-adsystem.com/aax2/apstag.js$domain=soranews24.com
 ! uBO-redirect work around (https://community.brave.com/t/kindly-remove-disable-adblock-and-reload-the-page/308756)
 @@||v1sts.me^$image
+! uBO-redirect work around :5
+! ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5,domain=~zipextractor.app
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=itscybertech.com
 ! uBO-domain wildcard workaround rnbxclusive1.* https://github.com/uBlockOrigin/uAssets/pull/12579
 rnbxclusive1.biz##+js(aopw, _pop)
 ! uBO-domain wildcard workaround crichd
