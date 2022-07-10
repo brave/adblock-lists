@@ -454,6 +454,8 @@ boston.com,britannica.com,download.mokeedev.com,freep.com,ijr.com,inquirer.net,l
 !! -- ported from uBO Annoyances filters (END)
 !! -- ported from uBO Quick Fixes --
 megaup.net##.metaRedirectWrapperBottomAds > div > a > img:style(margin-top: 10000px !important; pointer-events: none !important;)
+canale.live##+js(set-constant, moneyAbovePrivacyByvCDN, true)
+canale.live##+js(no-setInterval-if, href)
 ! luscious. net anti adb
 @@*$xhr,domain=luscious.net,3p
 ! chip.de
