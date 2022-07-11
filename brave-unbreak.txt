@@ -449,6 +449,32 @@ langweiledich.net##+js(nostif, Delay)
 nulljungle.com##+js(nostif, innerHTML)
 ! nullphpscript.com anti adb
 nullphpscript.com##+js(nostif, show)
+! https://github.com/uBlockOrigin/uAssets/issues/9159
+olarila.com##+js(nostif, offsetHeight)
+! https://github.com/uBlockOrigin/uAssets/issues/8968
+revistavanityfair.es##+js(aopr, initAdBlockerPanel)
+! https://github.com/uBlockOrigin/uAssets/issues/8866
+gmx.net##+js(set, document.documentElement.AdBlockDetection, noopFunc)
+! https://github.com/AdguardTeam/AdguardFilters/issues/82216
+lcpdfr.com##+js(acis, $, AdBlock)
+! https://github.com/uBlockOrigin/uAssets/issues/8554
+htmlgames.com##.banner
+! https://www.phoronix.com/scan.php?page=news_item&px=Linux-5.9-AMDGPU-Stats
+phoronix.com##+js(acis, onload, setTimeout)
+! https://github.com/AdguardTeam/AdguardFilters/issues/65000
+telefon-treff.de,dodge-forum.eu##+js(acis, $, offsetHeight)
+! https://github.com/AdguardTeam/AdguardFilters/issues/64268
+routinehub.co###ethad
+! https://github.com/NanoMeow/QuickReports/issues/4545
+randomlists.com##.whine
+! https://github.com/NanoMeow/QuickReports/issues/4511
+webcamtaxi.com##+js(nostif, blocker)
+! https://github.com/uBlockOrigin/uAssets/issues/186#issuecomment-486142318
+wired.co.uk##+js(set, ads_not_blocked, true)
+! https://github.com/uBlockOrigin/uAssets/issues/9183
+drawasaurus.org##+js(nostif, forceRefresh)
+! katholisches. info warning popup
+katholisches.info##+js(nostif, pop)
 ! Admiral popups
 boston.com,britannica.com,download.mokeedev.com,freep.com,ijr.com,inquirer.net,legacy.com,nationalreview.com,nofilmschool.com,order-order.com,savvytime.com,techlicious.com,technicpack.net,thedraftnetwork.com,wrestlezone.com##+js(acis, document.createElement, admiral)
 !! -- ported from uBO Annoyances filters (END)
@@ -468,8 +494,8 @@ canale.live##+js(no-setInterval-if, href)
 @@||adservice.google.com/adsid/integrator.js$script,domain=paramountplus.com|cbs.com
 ||ad.doubleclick.net^$image,redirect=1x1.gif,domain=cbs.com|paramountplus.com
 ! Anti-adblock: concert.io (vox sites)
-chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##+js(nostif, adsBlocked)
-chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##.adblock-allowlist-messaging__wrapper
+twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##+js(nostif, adsBlocked)
+twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##.adblock-allowlist-messaging__wrapper
 ||concert.io/lib/adblock/$subdocument
 ! uBO-redirect work around (www3.doubleclick.net)
 @@||www3.doubleclick.net^$xhr,domain=lineups.fun|13tv.co.il
