@@ -548,7 +548,7 @@ faucetbtc.net##+js(aopr, TestAd)
 @@||v1sts.me^$image
 ! uBO-redirect work around :5
 ! ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5,domain=~zipextractor.app
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=itscybertech.com|anysubtitle.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=itscybertech.com|anysubtitle.com|filedb.io
 ! uBO-domain wildcard workaround rnbxclusive1.* https://github.com/uBlockOrigin/uAssets/pull/12579
 rnbxclusive1.biz##+js(aopw, _pop)
 ! uBO-domain wildcard workaround crichd
