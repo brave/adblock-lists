@@ -551,25 +551,27 @@ faucetbtc.net##+js(aopr, TestAd)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=itscybertech.com|anysubtitle.com|filedb.io|ibomma.bar|sunucutanitim.com|movierulzhd.art
 @@||sunucutanitim.com^$ghide
 ! uBO-domain wildcard workaround rnbxclusive1.* https://github.com/uBlockOrigin/uAssets/pull/12579
-rnbxclusive1.biz##+js(aopw, _pop)
+@@||rnbxclusive1.me^$ghide
+rnbxclusive1.me##+js(aopw, _pop)
 ! uBO-domain wildcard workaround crichd
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(aopr, AaDetector)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(acis, JSON.parse, break;case $.)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(aopw, _pop)
 ! uBO-domain wildcard workaround kissanime
-kimcartoon.li,kisscartoon.sh,kisscartoon.io,kisscartoon.is,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co,kissanime.mx##+js(acis, String.fromCharCode, /btoa|break/)
-kimcartoon.li,kisscartoon.sh,kisscartoon.io,kisscartoon.is,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co,kissanime.mx##+js(acis, JSON.parse, break;case $.)
-kimcartoon.li,kisscartoon.sh,kisscartoon.io,kisscartoon.is,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co,kissanime.mx##+js(window.open-defuser)
+kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co,kissanime.mx##+js(acis, String.fromCharCode, /btoa|break/)
+kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co,kissanime.mx##+js(acis, JSON.parse, break;case $.)
+kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co,kissanime.mx##+js(window.open-defuser)
 ! uBO-domain wildcard workaround kissasian
-kissasian.fan,kissasian.pe,kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(acis, String.fromCharCode, /btoa|break/)
-kissasian.fan,kissasian.pe,kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(acis, JSON.parse, break;case $.)
-kissasian.fan,kissasian.pe,kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(window.open-defuser)
-kissasian.fan,kissasian.pe,kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(aeld, /^(?:click|mousedown)$/, _0x)
-kissasian.fan,kissasian.pe,kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(nostif, (), 45000)
-kissasian.fan,kissasian.pe,kissasian.ac,kissasian.io,kissasian.es,kissasian.nz,kissasian.es##+js(set, check_adblock, true)
-@@||kissasian.ac^$ghide
-@@||kissasian.io^$ghide
-@@||kissasian.nz^$ghide
+kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(acis, String.fromCharCode, /btoa|break/)
+kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(acis, JSON.parse, break;case $.)
+kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(window.open-defuser)
+kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(aeld, /^(?:click|mousedown)$/, _0x)
+kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(nostif, (), 45000)
+kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(set, check_adblock, true)
+@@||kissasian.pe^$ghide
+@@||kissasian.li^$ghide
+@@||kissasian.fan^$ghide
+@@||kissasian.com.ru^$ghide
 @@||kissasian.es^$ghide
 ! uBO-domain wildcard workaround tube8/pornhub
 redtube.camp,redtube.com,redtube.net##+js(acis, Object.defineProperty, trafficjunky)
@@ -600,9 +602,6 @@ vipbox.lc##.position-absolute
 @@||cdn.gotraffic.net^$domain=bloomberg.com|bloomberg.co.jp
 ! Potential Tracker, Annoyance
 ||govdelivery.com^$third-party
-! Whatleaks nullifer
-$websocket,domain=whatleaks.com
-whatleaks.com##+js(acis, init_port_check_waiting)
 ! Anti-Brave checks
 healthrangerstore.com,redux-toolkit.js.org,practicebetter.io,saramart.com,html-code-generator.com,caratoday.sale,caratoday.shop,caratoday.pub,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,bookadom.ru,playl2.net,volcom.ca,helocloth.com,itrum.org,thunder-io.com,unitythemovement.world,nothing.tech,sisimore.net,pythonstudy.xyz,brandongomes.com,faucet.today,snowsportdeals.com,calcolastipendionetto.it,psychologytoday.com,krunker.io,kodekloud.com,thera-link.com,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,caratoday.com,sybertrek.com,pethouse.com.au,uploadbank.com,divnil.com,html.it,mistx.io,rari.app##+js(brave-fix)
 ! Anti-Brave checks (DuckDuckGo UA check)
@@ -695,8 +694,6 @@ blockadblock.com##+js(nobab)
 @@||rcsobjects.it^*/openx/$script,domain=gazzetta.it
 ! Anti-adblock: geoguessr.com
 @@||geoguessr.com/_ads/$script,xmlhttprequest,domain=geoguessr.com
-! Mixpanel 1p issues (due to peter lowes). https://github.com/easylist/easylist/issues/9920
-||mixpanel.com^$badfilter
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! gifycat.com ads (https://community.brave.com/t/pages-loads-3rd-party-ads-after-page-loads/71472/10)
@@ -709,9 +706,6 @@ aftonbladet.se##.css-1d3w5wq
 naver.com###veta_top
 naver.com###veta_branding
 naver.com##.banner_area
-! Strick block (Adguard Japanese)
-! https://github.com/brave/adblock-lists/issues/614
-||gorin.jp/tokyo-assets/static/entrance/gorin_tead_prd/$subdocument,badfilter
 ! Anti-Adblock: bild.de
 @@||asadcdn.com/adlib/$script,stylesheet,domain=bild.de
 ! Adblock-Tracking: (News corp AU sites)
@@ -721,6 +715,8 @@ naver.com##.banner_area
 @@/static/js/ads.js$script,domain=redlandsdailyfacts.com|pasadenastarnews.com|dailybulletin.com|marinij.com|montereyherald.com|presstelegram.com|times-standard.com|chicoer.com|whittierdailynews.com|dailydemocrat.com|dailynews.com|ocregister.com|pe.com|buffzone.com|orovillemr.com|journal-advocate.com|reporterherald.com|broomfieldenterprise.com|record-bee.com|sentinelandenterprise.com|bostonherald.com|nashobavalleyvoice.com|eptrail.com|akronnewsreporter.com|willitsnews.com|redbluffdailynews.com|thevalleydispatch.com|twincities.com|burlington-record.com|fortmorgantimes.com|coloradodaily.com|lamarledger.com|timescall.com|canoncitydailyrecord.com|excelsiorcalifornia.com|advocate-news.com|paradisepost.com|redwoodtimes.com|denverpost.com|mendocinobeacon.com
 ! Rambler Network
 lenta.ru,championat.com,passion.ru,wmj.ru,eda.ru,rambler.ru,motor.ru,autorambler.ru,letidor.ru,quto.ru,rns.online,gazeta.ru##+js(json-prune, Blocks)
+! Rambler (imported from Adguard)
+afisha.ru,letidor.ru,autorambler.ru,wmj.ru,motor.ru,passion.ru,quto.ru,eda.ru,rns.online,championat.com,gazeta.ru,lenta.ru,rambler.ru##+js(aopw, Object.prototype.getPlaceSelectorByBannerId)
 ! rutracker.net (regional)
 ||rutrk.org^$domain=rutracker.net
 ||betsonsport.ru^$domain=rutracker.net
@@ -735,7 +731,7 @@ lenta.ru,championat.com,passion.ru,wmj.ru,eda.ru,rambler.ru,motor.ru,autorambler
 @@||pbs.twimg.com/profile_images/$image,third-party
 @@||pbs.twimg.com/amplify_video_thumb/$image,third-party
 ! mycima.me
-mycima.me##+js(acis, Math, zfgloaded)
+mycima.biz##+js(acis, parseInt, break;case $.)
 ! Fix consent issue on porsche.com (IOS)
 @@||googletagmanager.com/gtm.js$script,domain=porsche.com
 ! Debounce fixes 
