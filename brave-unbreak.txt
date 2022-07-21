@@ -228,6 +228,27 @@ reuters.com,hardwareluxx.de,formel1.de,golem.de,finanzen.net,autobild.de,gamesta
 codehelppro.com##.adsbygoogle
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70801
 tusubtitulo.com###bannerAdBlock
+! https://github.com/uBlockOrigin/uAssets/issues/3921
+topomap.co.nz###modal-adblocker
+topomap.co.nz##.modal-backdrop
+! https://github.com/uBlockOrigin/uAssets/issues/3931
+spookshow.net##+js(set, adBlockFunction, trueFunc)
+! fosshub.com/PSPad.html warning antiadb
+fosshub.com##+js(set, checkAds, trueFunc)
+! https://github.com/uBlockOrigin/uAssets/issues/3962
+juancarlosmolinos.net##+js(aopw, ABDSettings)
+! https://github.com/uBlockOrigin/uAssets/issues/3963
+stoneyroads.com##.ad-container
+! https://github.com/NanoMeow/QuickReports/issues/266
+discord.club##+js(acis, document.getElementById, adsChecker)
+! https://github.com/uBlockOrigin/uAssets/issues/4043
+||navcomic.com/wp-content/uploads/*/ad-blocking.gif$image,1p
+! https://github.com/uBlockOrigin/uAssets/issues/4045
+steptalk.org##+js(nostif, (), 3000)
+! https://github.com/uBlockOrigin/uAssets/issues/4046
+short-story.net##+js(nostif, (), 2000)
+! https://github.com/uBlockOrigin/uAssets/issues/3964
+pokemonforever.com##+js(set, google_jobrunner, true)
 ! 2iptv .com warning anti adb
 2iptv.com##+js(nostif, google_jobrunner)
 ! https://github.com/uBlockOrigin/uAssets/issues/7811
@@ -382,6 +403,9 @@ fnbrjp.com##+js(nostif, 広告)
 coolwallpapers.me##+js(nosiif, dfgh-adsbygoogle)
 ! https://github.com/uBlockOrigin/uAssets/issues/12119
 101soundboards.com##.blocked-notice-small
+! https://github.com/uBlockOrigin/uAssets/issues/3068
+pornhub.com##+js(rc, hasAdAlert, header)
+pornhub.com###js-abContainterMain
 ! https://github.com/uBlockOrigin/uAssets/issues/12012
 academy.hackthebox.com##.show.fade
 academy.hackthebox.com##body:style(overflow:auto !important)
@@ -445,10 +469,6 @@ leekduck.com##+js(nostif, abp)
 @@||googlesyndication.com^$xhr,domain=maxedtech.com
 ! langweiledich. net anti adblock
 langweiledich.net##+js(nostif, Delay)
-! https://www.reddit.com/r/uBlockOrigin/comments/nu8tr3/adbloker_enable_and_website_not_accessible/
-nulljungle.com##+js(nostif, innerHTML)
-! nullphpscript.com anti adb
-nullphpscript.com##+js(nostif, show)
 ! https://github.com/uBlockOrigin/uAssets/issues/9159
 olarila.com##+js(nostif, offsetHeight)
 ! https://github.com/uBlockOrigin/uAssets/issues/8968
@@ -475,6 +495,8 @@ wired.co.uk##+js(set, ads_not_blocked, true)
 drawasaurus.org##+js(nostif, forceRefresh)
 ! katholisches. info warning popup
 katholisches.info##+js(nostif, pop)
+! newscon.net soft anti-adb
+newscon.net###adblock-warning
 ! Admiral popups
 boston.com,britannica.com,download.mokeedev.com,freep.com,ijr.com,inquirer.net,legacy.com,nationalreview.com,nofilmschool.com,order-order.com,savvytime.com,techlicious.com,technicpack.net,thedraftnetwork.com,wrestlezone.com##+js(acis, document.createElement, admiral)
 !! -- ported from uBO Annoyances filters (END)
