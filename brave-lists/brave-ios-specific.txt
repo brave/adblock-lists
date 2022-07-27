@@ -22,9 +22,6 @@ theblockcrypto.com##body:style(overflow: auto !important;)
 @@||vox-cdn.com/packs/concert_ads-$script,domain=chicago.suntimes.com|theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com|theringer.com|mmafighting.com|racked.com|mmamania.com|funnyordie.com|riftherald.com
 ! uBO-redirect work around imperfectcomic.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imperfectcomic.com
-! Bait (anti-adblock)
-! https://cmp.uniconsent.mgr.consensu.org/ads.js?a=1&ad_block=1
-@@||uniconsent.mgr.consensu.org/ads.js
 ! Bait (https://www.planetf1.com/)
 @@||ad.doubleclick.net/favicon.ico$domain=planetf1.com
 ! appsflyer.com adjustment https://github.com/easylist/easylist/commit/c608be1
