@@ -24,6 +24,9 @@ theblockcrypto.com##body:style(overflow: auto !important;)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imperfectcomic.com
 ! Bait (https://www.planetf1.com/)
 @@||ad.doubleclick.net/favicon.ico$domain=planetf1.com
+! https://mobile.donanimhaber.com/ 
+||eksiup.com^
+||donanimhaber.com/ads/$script
 ! appsflyer.com adjustment https://github.com/easylist/easylist/commit/c608be1
 @@||appsflyer.com^$third-party
 @@||app.appsflyer.com^$third-party
