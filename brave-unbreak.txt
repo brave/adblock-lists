@@ -572,6 +572,8 @@ faucetbtc.net##+js(aopr, TestAd)
 ! ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5,domain=~zipextractor.app
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=itscybertech.com|anysubtitle.com|filedb.io|ibomma.bar|sunucutanitim.com|movierulzhd.art|anhdep24.com
 @@||sunucutanitim.com^$ghide
+! chp anti-adblock
+fresheroffcampus.com,cizzyscripts.com##+js(aopw, startCheckingAdblock)
 ! uBO-domain wildcard workaround rnbxclusive1.* https://github.com/uBlockOrigin/uAssets/pull/12579
 @@||rnbxclusive1.me^$ghide
 rnbxclusive1.me##+js(aopw, _pop)
