@@ -50,6 +50,10 @@ theblockcrypto.com##body:style(overflow: auto !important;)
 @@||static.foxnews.com/static/$domain=foxnews.com|foxbusiness.com
 ! 5ch.net (japanese)
 ||thench.net^$third-party
+! cookpad.com (japanese)
+||flux-cdn.com/plugin/common/analytics/
+||cookpad-ads.com^
+/assets/ad/*
 ! tn.com.ar 
 @@||scdn.cxense.com^$domain=tn.com.ar
 @@||cdn.cxense.com^$domain=tn.com.ar
