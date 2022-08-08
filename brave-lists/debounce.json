@@ -364,5 +364,16 @@
     "prepend_scheme": "https",
     "action": "regex-path",
     "param": "^/navigation-tracking/(.*);.html$"
+  },
+  {
+    "include": [
+      "*://*.cdn.ampproject.org/c/s/*"
+    ],
+    "pref": "brave.de_amp.enabled",
+    "exclude": [
+    ],
+    "prepend_scheme": "https",
+    "action": "regex-path",
+    "param": "^/c/s/(.*)$"
   }
 ]
