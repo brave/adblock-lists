@@ -336,6 +336,17 @@
   },
   {
     "include": [
+      "*://*.cdn.ampproject.org/c/s/*"
+    ],
+    "pref": "brave.de_amp.enabled",
+    "exclude": [
+    ],
+    "prepend_scheme": "https",
+    "action": "regex-path",
+    "param": "^/c/s/(.*)$"
+  },
+  {
+    "include": [
       "https://dev-pages.brave.software/navigation-tracking/error.html?*",
       "https://dev-pages.bravesoftware.com/navigation-tracking/error.html?*"
     ],
@@ -364,16 +375,5 @@
     "prepend_scheme": "https",
     "action": "regex-path",
     "param": "^/navigation-tracking/(.*);.html$"
-  },
-  {
-    "include": [
-      "*://*.cdn.ampproject.org/c/s/*"
-    ],
-    "pref": "brave.de_amp.enabled",
-    "exclude": [
-    ],
-    "prepend_scheme": "https",
-    "action": "regex-path",
-    "param": "^/c/s/(.*)$"
   }
 ]
