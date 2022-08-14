@@ -206,7 +206,7 @@ canyoublockit.com##+js(acis, atob, decodeURIComponent)
 uptostream.com,tirexo.lol##+js(acis, window.a)
 @@||tirexo.lol^$generichide
 ! portscanning script
-tiaabank.com,tiaa.org,directpay.irs.gov,t-mobile.com,simplii.com,citibank.com.au,fisglobal.com,adp.com,skyid.sky.com,onehealthcareid.com,betfair.es,betfair.com.au,paddypower.com,healthsafe-id.com,canadiantire.ca,sportchek.ca,ingbank.pl,optumbank.com,mbna.ca,tdcommercialbanking.com,coastcapitalsavings.com,my100bank.com,royalbank.com,td.com,spectrum.net,quicken.com,citibankonline.com,bmo.com,eftps.gov,optumbank.com,samsclub.com,intuit.com,betfair.com,sofi.com,53.com,ameriprise.com,cibc.com,citi.com,discover.com,fidelity.com,homedepot.com,sciencedirect.com,ebay.com,ebay-kleinanzeigen.de,tdbank.com,walmart.com##+js(acis, tmx_post_session_params_fixed)
+tsb.co.uk,tiaabank.com,tiaa.org,directpay.irs.gov,t-mobile.com,simplii.com,citibank.com.au,fisglobal.com,adp.com,skyid.sky.com,onehealthcareid.com,betfair.es,betfair.com.au,paddypower.com,healthsafe-id.com,canadiantire.ca,sportchek.ca,ingbank.pl,optumbank.com,mbna.ca,tdcommercialbanking.com,coastcapitalsavings.com,my100bank.com,royalbank.com,td.com,spectrum.net,quicken.com,citibankonline.com,bmo.com,eftps.gov,optumbank.com,samsclub.com,intuit.com,betfair.com,sofi.com,53.com,ameriprise.com,cibc.com,citi.com,discover.com,fidelity.com,homedepot.com,sciencedirect.com,ebay.com,ebay-kleinanzeigen.de,tdbank.com,walmart.com##+js(acis, tmx_post_session_params_fixed)
 ! slate.com Anti-adblock workaround https://github.com/brave/brave-browser/issues/15702
 ||buy.tinypass.com^$domain=slate.com
 @@||id.tinypass.com^$domain=slate.com
@@ -570,7 +570,7 @@ faucetbtc.net##+js(aopr, TestAd)
 @@||v1sts.me^$image
 ! uBO-redirect work around :5
 ! ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5,domain=~zipextractor.app
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=lifefeeling.in|itscybertech.com|anysubtitle.com|filedb.io|ibomma.bar|sunucutanitim.com|movierulzhd.art|anhdep24.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=sevenjournals.com|movierulzhd.wtf|lifefeeling.in|itscybertech.com|anysubtitle.com|filedb.io|ibomma.bar|sunucutanitim.com|movierulzhd.art|anhdep24.com
 @@||sunucutanitim.com^$ghide
 ! chp anti-adblock
 fresheroffcampus.com,cizzyscripts.com##+js(aopw, startCheckingAdblock)
