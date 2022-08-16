@@ -787,6 +787,17 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 ||tapfiliate.com^$badfilter
 ! Fix blank page on flipp.com
 @@||wishabi.net^$image,domain=flipp.com
+! redirect rule (with priority # removed)
+! Converted from: https://github.com/uBlockOrigin/uAssets/blob/master/filters/privacy.txt 
+||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
+||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
+||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js
+||pagead2.googlesyndication.com/tag/js/gpt.js$script,redirect=googletagservices_gpt.js
+||scorecardresearch.com/beacon.js$script,redirect=scorecardresearch.com/beacon.js
+||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js
+||googletagmanager.com/gtm.js$script,redirect=googletagmanager_gtm.js
+||widgets.outbrain.com/outbrain.js$script,redirect=outbrain-widget.js,domain=~mainichi.jp|~vice.com
 ! Fix "Alien Warning" script check on dslreports.com https://community.brave.com/t/alien-script-detected-inline-code-at-dslreports-com-speedtest/173716/
 dslreports.com###errorlog
 ! Anti-adblock: docker.events.cube365.net 
