@@ -220,7 +220,6 @@ tsb.co.uk,tiaabank.com,tiaa.org,directpay.irs.gov,t-mobile.com,simplii.com,citib
 @@||tagesspiegel.de^$generichide
 @@||autobild.de/*&adserv$script,domain=autobild.de
 wetter.com,spiegel.de##[referrerpolicy]
-reuters.com,hardwareluxx.de,formel1.de,golem.de,finanzen.net,autobild.de,gamestar.de,tagesspiegel.de##+js(acis, parseInt)
 ||s3.reutersmedia.net/resources/*&rtn=$image
 !! -- ported from uBO Annoyances filters (START)
 ! Anti-adblock message codehelppro.com
