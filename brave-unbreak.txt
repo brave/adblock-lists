@@ -369,7 +369,7 @@ topspeed.com##.txt-ad
 topspeed.com##.daily-vid-ad
 topspeed.com##.top-horizontal-ad-content
 ! 1st-party fix for cnn.com
-cnn.com##+js(aopw, window._sp_.writeCookie)
+cnn.com##+js(set, _sp_.msg.displayMessage, noopFunc)
 ! Anti-adblock message suncalc.org 
 ###adsGross1
 ###adsKlein
