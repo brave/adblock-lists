@@ -27,6 +27,11 @@ theblockcrypto.com##body:style(overflow: auto !important;)
 ! https://mobile.donanimhaber.com/ 
 ||eksiup.com^
 ||donanimhaber.com/ads/$script
+mobile.donanimhaber.com##.ondabir
+mobile.donanimhaber.com##.cookie-kutu
+mobile.donanimhaber.com##.mobil_forum_kategori_300x100
+mobile.donanimhaber.com###tmInfiniteAd
+mobile.donanimhaber.com##.arareklam
 ! appsflyer.com adjustment https://github.com/easylist/easylist/commit/c608be1
 @@||appsflyer.com^$third-party
 @@||app.appsflyer.com^$third-party
