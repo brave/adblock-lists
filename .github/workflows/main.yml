@@ -28,5 +28,5 @@ jobs:
       - name: Install yajl-tools
         run: sudo apt-get install -qq yajl-tools
 
-      - name: Check that the debounce list is valid JSON
-        run: json_verify < $GITHUB_WORKSPACE/brave-lists/debounce.json
+      - name: Check that JSON lists are valid
+        run: for f in $GITHUB_WORKSPACE/brave-lists/*.json; do json_verify < $f ; done
