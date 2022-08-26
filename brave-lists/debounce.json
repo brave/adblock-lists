@@ -177,6 +177,8 @@
   },
   {
     "include": [
+      "*://*.engage.squarespace-mail.com/r?*",
+      "*://engage.squarespace-mail.com/r?*",
       "*://goto.target.com/c/*",
       "*://goto.walmart.com/c/*",
       "*://*.sjv.io/c/*",
