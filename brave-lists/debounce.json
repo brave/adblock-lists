@@ -119,6 +119,7 @@
   },
   {
     "include": [
+      "*://www.awin1.com/cread.php?*",
       "*://www.awin1.com/awclick.php?*"
     ],
     "exclude": [
