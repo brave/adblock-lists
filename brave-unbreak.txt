@@ -630,6 +630,8 @@ healthrangerstore.com,redux-toolkit.js.org,practicebetter.io,saramart.com,html-c
 ! Anti-Brave checks (DuckDuckGo UA check)
 ||api.duckduckgo.com/?q=useragent$domain=kosataga.in|minibayong.com|i-rotary.com|tecknity.com|jaysndees.com|recherche-ebook.fr|unitythemovement.world|thebeautyboothe.com|brandongomes.com|faucet.today|thesassyclub.com
 !
+! Standard blocking of Bing mouselog tracker (is blocked in Aggressive)
+||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
 ! EasyDutch https://github.com/EasyDutch-uBO/EasyDutch/blob/main/EasyDutch/Anti-Adblock.txt (START)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/115542
 @@||kijk.nl^$ghide
