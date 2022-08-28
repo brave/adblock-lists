@@ -52,6 +52,8 @@ stats.brave.com#@#adsContent
 ! theatlantic.com anti-blocker filters
 ||theatlantic.blueconic.net$domain=theatlantic.com
 ||theatlantic.com/please-support-us^
+! navigator.clipboard checks
+webplatform.news##+js(aopw, navigator.clipboard)
 ! navigator.connection checks
 userlytics.com##+js(set, navigator.connection, {})
 ! youtube ads
