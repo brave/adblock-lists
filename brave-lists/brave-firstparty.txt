@@ -29,6 +29,9 @@
 ||rta.dailymail.co.uk^
 ||t.dailymail.co.uk^
 ||ted.dailymail.co.uk^
+! stoodnt.com
+stoodnt.com##.boxzilla-center-container
+stoodnt.com##.boxzilla-overlay
 ! Facebook/Instagram
 ||facebook.com/a/bz?
 ||facebook.com/ajax/*/log.php
