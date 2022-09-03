@@ -49,7 +49,12 @@
             "utm_term",
             "utm_umguk",
             "utm_userid",
-            "utm_viz_id"
+            "utm_viz_id",
+            "gbraid",
+            "wbraid",
+            "gclsrc",
+            "gclid",
+            "usqp"
         ]
     },
     {
