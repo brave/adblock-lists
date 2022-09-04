@@ -60,7 +60,18 @@
             "bsft_mid",
             "bsft_uid",
             "bsft_aaid",
-            "bsft_ek"
+            "bsft_ek",
+            "mtm_campaign",
+            "mtm_cid",
+            "mtm_content",
+            "mtm_group",
+            "mtm_keyword",
+            "mtm_medium",
+            "mtm_placement",
+            "mtm_source",
+            "pk_campaign",
+            "pk_medium",
+            "pk_source"
         ]
     },
     {
