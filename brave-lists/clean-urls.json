@@ -73,7 +73,9 @@
             "pk_medium",
             "pk_source",
             "_branch_match_id",
-            "vc_lpp"
+            "vc_lpp",
+            "ml_subscriber",
+            "ml_subscriber_hash"
         ]
     },
     {
