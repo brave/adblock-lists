@@ -71,7 +71,8 @@
             "mtm_source",
             "pk_campaign",
             "pk_medium",
-            "pk_source"
+            "pk_source",
+            "_branch_match_id"
         ]
     },
     {
