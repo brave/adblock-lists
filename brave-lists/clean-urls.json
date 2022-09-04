@@ -54,7 +54,13 @@
             "wbraid",
             "gclsrc",
             "gclid",
-            "usqp"
+            "usqp",
+            "bsft_clkid",
+            "bsft_eid",
+            "bsft_mid",
+            "bsft_uid",
+            "bsft_aaid",
+            "bsft_ek"
         ]
     },
     {
