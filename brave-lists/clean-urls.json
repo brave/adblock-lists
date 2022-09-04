@@ -75,7 +75,12 @@
             "_branch_match_id",
             "vc_lpp",
             "ml_subscriber",
-            "ml_subscriber_hash"
+            "ml_subscriber_hash",
+            "itm_source",
+            "itm_medium",
+            "itm_campaign",
+            "itm_content",
+            "itm_term"
         ]
     },
     {
