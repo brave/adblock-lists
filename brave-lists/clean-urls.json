@@ -72,7 +72,8 @@
             "pk_campaign",
             "pk_medium",
             "pk_source",
-            "_branch_match_id"
+            "_branch_match_id",
+            "vc_lpp"
         ]
     },
     {
