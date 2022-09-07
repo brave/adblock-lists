@@ -381,17 +381,6 @@
   },
   {
     "include": [
-      "https://dev-pages.brave.software/navigation-tracking/*",
-      "https://dev-pages.bravesoftware.com/navigation-tracking/*"
-    ],
-    "exclude": [
-    ],
-    "prepend_scheme": "https",
-    "action": "regex-path",
-    "param": "^/navigation-tracking/(.*);.html$"
-  },
-  {
-    "include": [
       "https://dev-pages.brave.software/navigation-tracking/regex-multiple-capture-groups/*",
       "https://dev-pages.bravesoftware.com/navigation-tracking/regex-multiple-capture-groups/*"
     ],
@@ -400,5 +389,16 @@
     "prepend_scheme": "https",
     "action": "regex-path",
     "param": "^/navigation-tracking/regex-multiple-capture-groups/(.*)/test/(.*);.html$"
+  },
+  {
+    "include": [
+      "https://dev-pages.brave.software/navigation-tracking/*",
+      "https://dev-pages.bravesoftware.com/navigation-tracking/*"
+    ],
+    "exclude": [
+    ],
+    "prepend_scheme": "https",
+    "action": "regex-path",
+    "param": "^/navigation-tracking/(.*);.html$"
   }
 ]
