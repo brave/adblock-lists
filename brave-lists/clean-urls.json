@@ -1,6 +1,17 @@
 [
     {
         "include": [
+            "*://*.bandcamp.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "from"
+        ]
+    },
+    {
+        "include": [
             "*://*.twitter.com/*"
         ],
         "exclude": [
