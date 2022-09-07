@@ -1,4 +1,4 @@
-[Adblock Plus 2.0]
+[Adblock Plus 2.0; uBlock Origin]
 !-------------------------------------------------------------------------------
 ! Title: NoCoin Filter List
 ! Expires: 2 days (update frequency)
