@@ -1,3 +1,4 @@
+[Adblock Plus 2.0; uBlock Origin]
 ||ntv.io^$third-party
 @@||adm.fwmrm.net^*/AdManager.js$domain=msnbc.com|sky.com|cnbc.com
 ||novately.com^$third-party
