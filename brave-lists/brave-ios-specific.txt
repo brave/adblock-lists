@@ -59,6 +59,9 @@ mobile.donanimhaber.com##.arareklam
 ||flux-cdn.com/plugin/common/analytics/
 ||cookpad-ads.com^
 /assets/ad/*
+! Cleabit tracking
+||clearbit.com^$3p
+||clearbitjs.com^
 ! tn.com.ar 
 @@||scdn.cxense.com^$domain=tn.com.ar
 @@||cdn.cxense.com^$domain=tn.com.ar
