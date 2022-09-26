@@ -517,9 +517,7 @@ canale.live##+js(no-setInterval-if, href)
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=paramountplus.com|cbs.com
 @@||adservice.google.com/adsid/integrator.js$script,domain=paramountplus.com|cbs.com
 ||ad.doubleclick.net^$image,redirect=1x1.gif,domain=cbs.com|paramountplus.com
-! cbs.com,paramountplus.com,nbc (Video Ads fixes)
-cbs.com,paramountplus.com##+js(cbs)
-cbs.com,paramountplus.com##+js(cbs0)
+! nbc (Video Ads fixes)
 player.theplatform.com##+js(nbc)
 ! Anti-adblock: concert.io (vox sites)
 twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##+js(nostif, adsBlocked)
