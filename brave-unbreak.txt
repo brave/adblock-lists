@@ -502,6 +502,13 @@ newscon.net###adblock-warning
 ! Admiral popups
 boston.com,britannica.com,download.mokeedev.com,freep.com,ijr.com,inquirer.net,legacy.com,nationalreview.com,nofilmschool.com,order-order.com,savvytime.com,techlicious.com,technicpack.net,thedraftnetwork.com,wrestlezone.com##+js(acis, document.createElement, admiral)
 !! -- ported from uBO Annoyances filters (END)
+!! -- ported from Fanboy Annoyances filters (START)
+! theblock.co (newsletter blocks, overlays)
+theblock.co##.newsletterModal
+theblock.co##.newsletterBox
+theblock.co##.modal-container
+theblock.co##body:style(overflow: auto !important;)
+!! -- ported from Fanboy Annoyances filters (END)
 !! -- ported from uBO Quick Fixes --
 megaup.net##.metaRedirectWrapperBottomAds > div > a > img:style(margin-top: 10000px !important; pointer-events: none !important;)
 canale.live##+js(set-constant, moneyAbovePrivacyByvCDN, true)
