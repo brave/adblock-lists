@@ -583,7 +583,7 @@ faucetbtc.net##+js(aopr, TestAd)
 @@||v1sts.me^$image
 ! uBO-redirect work around :5
 ! ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5,domain=~zipextractor.app
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bizjournals.com|spigotunlocked.org|anycodings.com|sevenjournals.com|movierulzhd.wtf|lifefeeling.in|itscybertech.com|anysubtitle.com|filedb.io|ibomma.bar|sunucutanitim.com|movierulzhd.art|anhdep24.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=thememypc.net|bizjournals.com|spigotunlocked.org|anycodings.com|sevenjournals.com|movierulzhd.wtf|lifefeeling.in|itscybertech.com|anysubtitle.com|filedb.io|ibomma.bar|sunucutanitim.com|movierulzhd.art|anhdep24.com
 @@||sunucutanitim.com^$ghide
 ! chp anti-adblock
 fresheroffcampus.com,cizzyscripts.com##+js(aopw, startCheckingAdblock)
