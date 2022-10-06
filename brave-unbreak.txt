@@ -145,6 +145,12 @@ igniteunmc.com##.preloader
 @@||connect.facebook.com^$tag=fb-embeds
 @@||facebook.com/plugins/$tag=fb-embeds
 @@||graph.facebook.com^$tag=fb-embeds
+! Facebook tracking events
+/fbevents-amd.js$important
+/fbevents.js$important
+/fbevents.min.js$important
+||facebook.com/tr/$important
+||facebook.com/tr?$important
 ! Twitter embeds
 @@||api.twitter.com^$tag=twitter-embeds
 @@||platform.twitter.com^$tag=twitter-embeds
