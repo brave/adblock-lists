@@ -234,6 +234,8 @@ wetter.com,spiegel.de##[referrerpolicy]
 ! Anti-adblock message codehelppro.com
 @@||codehelppro.com^$ghide
 codehelppro.com##.adsbygoogle
+! Anti-adblock message ckk.ai
+@@||ckk.ai^$ghide
 ! https://github.com/AdguardTeam/AdguardFilters/issues/70801
 tusubtitulo.com###bannerAdBlock
 ! https://github.com/uBlockOrigin/uAssets/issues/3921
