@@ -1,0 +1,9 @@
+! List used by Brave for the OTR purposes
+!
+||ceta.tech.cornell.edu/
+||ceta.tech.cornell.edu/clinic
+||ceta.tech.cornell.edu/resources
+||tcmujer.org/
+||navegandolibres.org/
+||tallpoppy.com/
+||ipvtechbib.randhome.io/
