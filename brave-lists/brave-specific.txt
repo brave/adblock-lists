@@ -35,8 +35,10 @@
 modalina.jp###ggleadv:style(height: 60px!important;)
 modalina.jp###header:style(margin-top: 60px!important;)
 
-! Used for Brave QA tests
-?335962573013224749$image,domain=dev-pages.brave.software|dev-pages.bravesoftware.com
-
 ! De-AMP rule that uses the De-AMP scriptlet
 google.*##+js(de-amp)
+
+! Used for Brave QA tests
+?335962573013224749$image,domain=dev-pages.brave.software|dev-pages.bravesoftware.com
+! Rules for testing cosmetic filters in frames
+dev-pages.brave.software,dev-pages.bravesoftware.com##+js(set, window.BRAVE_TEST_VALUE, true)

@@ -65,7 +65,10 @@
             "wbraid",
             "gclsrc",
             "gclid",
-            "usqp"
+            "usqp",
+            "guccounter",
+            "guce_referrer",
+            "guce_referrer_sig"
         ]
     },
     {
