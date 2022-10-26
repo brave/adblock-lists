@@ -24,12 +24,27 @@
     },
     {
         "include": [
+            "*://techcrunch.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "tpcc"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
 
         ],
         "params": [
+            "ss_campaign_id",
+            "ss_campaign_name",
+            "ss_campaign_sent_date",
+            "ss_source",
             "utm_ad",
             "utm_affiliate",
             "utm_brand",
