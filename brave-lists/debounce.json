@@ -340,6 +340,31 @@
   },
   {
     "include": [
+      "*://*.lt.acemlna.com/Prod/link-tracker?*",
+      "*://*.lt.acemlnb.com/Prod/link-tracker?*",
+      "*://*.lt.acemlnc.com/Prod/link-tracker?*",
+      "*://*.lt.acemlnd.com/Prod/link-tracker?*",
+      "*://*.lt.emlnk.com/Prod/link-tracker?*",
+      "*://*.lt.emlnk1.com/Prod/link-tracker?*",
+      "*://*.lt.emlnk2.com/Prod/link-tracker?*",
+      "*://*.lt.emlnk3.com/Prod/link-tracker?*",
+      "*://*.lt.emlnk4.com/Prod/link-tracker?*",
+      "*://*.lt.emlnk5.com/Prod/link-tracker?*",
+      "*://*.lt.emlnk6.com/Prod/link-tracker?*",
+      "*://*.lt.emlnk7.com/Prod/link-tracker?*",
+      "*://*.lt.emlnk8.com/Prod/link-tracker?*",
+      "*://*.lt.emlnk9.com/Prod/link-tracker?*",
+      "*://*.bluelena.io/Prod/link-tracker?*",
+      "*://*.golfbacksolutions.com/Prod/link-tracker?*",
+      "*://*.prospect2.com/Prod/link-tracker?*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "redirectUrl"
+  },
+  {
+    "include": [
       "*://*.cdn.ampproject.org/c/s/*"
     ],
     "pref": "brave.de_amp.enabled",
