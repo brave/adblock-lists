@@ -539,7 +539,7 @@ twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,
 twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##.adblock-allowlist-messaging__wrapper
 ||concert.io/lib/adblock/$subdocument
 ! uBO-redirect work around (www3.doubleclick.net)
-@@||www3.doubleclick.net^$xhr,domain=lineups.fun|13tv.co.il
+@@||www3.doubleclick.net^$xhr,domain=lineups.fun|13tv.co.il|writesonic.com
 ! uBO-redirect work around simon.com
 @@||google-analytics.com/analytics.js$script,domain=simon.com
 @@||googletagmanager.com/gtm.js$script,domain=simon.com
