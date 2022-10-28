@@ -509,6 +509,8 @@ katholisches.info##+js(nostif, pop)
 newscon.net###adblock-warning
 ! Admiral popups
 boston.com,britannica.com,download.mokeedev.com,freep.com,ijr.com,inquirer.net,legacy.com,nationalreview.com,nofilmschool.com,order-order.com,savvytime.com,techlicious.com,technicpack.net,thedraftnetwork.com,wrestlezone.com##+js(acis, document.createElement, admiral)
+! Admiral Anti-adblock (gamerevolution.com/playstationlifestyle.net/probably others)
+@@||succeedscene.com/ads_*/ads.load.js$script
 !! -- ported from uBO Annoyances filters (END)
 !! -- ported from Fanboy Annoyances filters (START)
 ! theblock.co (newsletter blocks, overlays)
