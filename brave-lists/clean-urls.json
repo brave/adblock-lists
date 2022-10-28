@@ -41,6 +41,7 @@
 
         ],
         "params": [
+            "mc_cid",
             "ss_campaign_id",
             "ss_campaign_name",
             "ss_campaign_sent_date",
