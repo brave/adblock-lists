@@ -734,6 +734,8 @@ computerbase.de#@#.js-consent.consent
 @@||ebay.com/ws/$xmlhttprequest
 ! api.ebay.com (https://community.brave.com/t/referral-not-getting-download-and-comfirmed/75898)
 @@||api.ebay.com^$xmlhttprequest,subdocument
+! Empty spaces due to shields/standard
+arstechnica.com##+js(rc, ad, , stay)
 ! Korean adblock (cosmetic) 
 newtoki64.com##.basic-banner
 newtoki64.com##.board-tail-banner
