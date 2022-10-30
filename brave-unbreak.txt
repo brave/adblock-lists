@@ -737,7 +737,7 @@ computerbase.de#@#.js-consent.consent
 ! Empty spaces due to shields/standard
 arstechnica.com##+js(rc, ad, , stay)
 cnn.com##+js(rc, ad-slot-header, , stay)
-forbes.com##+js(rc, top-ad-container, body, stay)
+forbes.com##+js(rc, top-ad-container, , stay)
 ! Korean adblock (cosmetic) 
 newtoki64.com##.basic-banner
 newtoki64.com##.board-tail-banner
