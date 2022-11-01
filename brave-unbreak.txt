@@ -735,6 +735,7 @@ computerbase.de#@#.js-consent.consent
 ! api.ebay.com (https://community.brave.com/t/referral-not-getting-download-and-comfirmed/75898)
 @@||api.ebay.com^$xmlhttprequest,subdocument
 ! Empty spaces due to shields/standard
+theregister.com##+js(rc, adun, , stay)
 businessinsider.com,insider.com##+js(rc, l-ad, , stay)
 businessinsider.com,insider.com##+js(rc, subnav-ad-layout, , stay) 
 arstechnica.com##+js(rc, ad, , stay)
