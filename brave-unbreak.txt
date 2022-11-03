@@ -717,6 +717,8 @@ accuweather.com,kupujemprodajem.com,polovniautomobili.com##+js(remove-attr, clas
 ! Cookie consent :remove fix
 computerbase.de#@#+js(rc, consent-dialog-open, body)
 computerbase.de#@#.js-consent.consent
+! async-hide delay
+ibotta.com,polovniautomobili.com##+js(rc, async-hide, , stay)
 ! googlefunding (foxnews / foxbusiness)
 ||foxnews.com^*choices.js$script,domain=foxnews.com|foxbusiness.com
 ! Anti-adblock: indiatimes.com / timesofindia.com
