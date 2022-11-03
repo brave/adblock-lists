@@ -35,6 +35,17 @@
     },
     {
         "include": [
+            "*://actionnetwork.org/petitions/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "source"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
