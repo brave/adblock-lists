@@ -46,6 +46,17 @@
     },
     {
         "include": [
+            "*://www.zillow.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "rtoken"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
