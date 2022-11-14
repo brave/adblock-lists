@@ -1,10 +1,4 @@
 [Adblock Plus 2.0; uBlock Origin]
-||ntv.io^$third-party
-@@||adm.fwmrm.net^*/AdManager.js$domain=msnbc.com|sky.com|cnbc.com
-||novately.com^$third-party
-||webspectator.com^$third-party
-! Hearst anti-ad blocking fix
-||aps.hearstnp.com^$script,image
 ! brave.com specfic filters
 @@||ads.brave.software^$first-party
 @@||ads-admin.bravesoftware.com^$first-party
@@ -960,9 +954,7 @@ livejournal.com##+js(aopr, webpackJsonpSSPjs)
 ||estlier.net^$third-party
 ||netmile.co.jp/images/bnr/sugutama_640_120.png
 ||netmile.co.jp/user/images/regist-sub-bnr.png
-||potora.jp/images/banner/
 ||pt.appirits.com^$third-party
-||potora.jp/myd_top/
 ||yads.c.yimg.jp^$third-party
 ||logly.co.jp/lift_widget.js
 ||yimg.jp^*/loader.js
