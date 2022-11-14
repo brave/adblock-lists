@@ -19,7 +19,7 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 ||basicattentiontoken.claims^
 ! stats.brave.com
 @@||stats.brave.com^$ghide
-@@||stats.brave.com/local/img/publisher-icons/$domain=stats.brave.com
+@@||stats.brave.com^$first-party
 ! community.brave.com
 @@||community.brave.com^$ghide
 ! vendors serving video ads and tracking via proxied requests
