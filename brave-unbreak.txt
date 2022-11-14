@@ -9,7 +9,6 @@
 @@||ads.brave.software^$first-party
 @@||ads-admin.bravesoftware.com^$first-party
 @@||ads.bravesoftware.com^$first-party
-@@||search.brave.com/api/$first-party
 @@||ads-admin.brave.com^$first-party
 @@||ads-admin.brave.software^$first-party
 @@||ads.brave.com^$first-party
@@ -17,13 +16,18 @@
 ! basicattentiontoken.org specfic filters
 @@||basicattentiontoken.org^$ghide
 @@||basicattentiontoken.org^$first-party
+! search.brave.com specfic filters
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/privacy.txt#L260
+@@||search.brave.com^$ghide
+@@||search.brave.com/api/$first-party
 search.brave.com#@#+js(no-fetch-if, body:browser)
 ! Fake BAT site
 ||basicattentiontoken.claims^
 ! stats.brave.com
-stats.brave.com#@#adsContent
+@@||stats.brave.com^$ghide
 @@||stats.brave.com/local/img/publisher-icons/$domain=stats.brave.com
+! community.brave.com
+@@||community.brave.com^$ghide
 ! Sailthru native ad aggregator fix
 ||ak.sail-horizon.com^$script,image
 @@||ak.sail-horizon.com/spm/$script,domain=wwe.com
