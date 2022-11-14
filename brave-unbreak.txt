@@ -19,12 +19,9 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 ||basicattentiontoken.claims^
 ! stats.brave.com
 @@||stats.brave.com^$ghide
-@@||stats.brave.com/local/img/publisher-icons/$domain=stats.brave.com
+@@||stats.brave.com^$first-party
 ! community.brave.com
 @@||community.brave.com^$ghide
-! Sailthru native ad aggregator fix
-||ak.sail-horizon.com^$script,image
-@@||ak.sail-horizon.com/spm/$script,domain=wwe.com
 ! vendors serving video ads and tracking via proxied requests
 ||vidazoo.com/aggregate^$third-party
 ||vidazoo.com/proxy^$third-party
@@ -103,6 +100,7 @@ igniteunmc.com##.preloader
 ###js-outbrain-relateds
 ###js-outbrain-under-article
 ###outbrain
+###outbrain-section
 ###outbrain1
 ###outbrainWidget
 ###outbrain_widget_0
@@ -125,7 +123,9 @@ igniteunmc.com##.preloader
 ##.outbrain-recommended
 ##.outbrain-relateds
 ##.outbrain-widget
+##.outbrain-wrap
 ##.outbrain-wrapper
+##.outbrain-wrapper-outer
 ##.outbrainWidget
 ##.outbrain__main
 ##.outbrain_container
@@ -136,6 +136,7 @@ igniteunmc.com##.preloader
 ##.sics-component__outbrain
 ##.tr-outbrain-container
 ##.widget_ione-outbrain
+##.widget_outbrain
 ##.yom-outbrain
 !
 ! Note that options will be added to exclude these filters soon. They
@@ -169,11 +170,6 @@ tamilblasters.tel##+js(acis, JSON.parse, break;case $.)
 tamilblasters.tel##+js(aopw, _pop)
 tamilblasters.tel##+js(aeld, , break;case $.)
 tamilblasters.tel##+js(aopr, btoa)
-||rescuephrase.com^
-||dexpredict.com^
-||myrrhicfoeman.com^
-||cheeradvise.com^
-||iclickcdn.com^
 ! Adservers (ios)
 ||pixfuture.com^$third-party
 ||taboola.com^$third-party
@@ -845,13 +841,16 @@ cube365.net##+js(aopr, bootbox.alert)
 ! Taboola scripts
 -taboola-article.
 -taboola-loader.
+-widget-taboola-
+/ad-taboola.min.js
 /components/taboola/*
 /modulo/taboola/*
+/taboola-header.js
 /taboola-iframe/*
+/taboola-module.
 /taboola.js
 /taboola/footer.
 /taboola/head.
-/taboola_header.
 /taboolaArticleFooter.
 /taboolaArticleHead.
 /taboolaBottomBody.
@@ -863,6 +862,7 @@ cube365.net##+js(aopr, bootbox.alert)
 /outbrain.js
 /outbrain/base?
 /outbrain?
+/outbrainAd.
 ||outbrainimg.com^$third-party
 ! Easyprivacy Notifcations (For ios)
 ||accengage.net^$third-party
