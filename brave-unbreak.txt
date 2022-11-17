@@ -86,9 +86,15 @@ igniteunmc.com##.preloader
 !
 ! Facebook
 ||graph.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
-||connect.facebook.net^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
-||connect.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||static.ak.connect.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.net^*/sdk.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.net^*/all.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.com^*/all.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.com^*/sdk.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.net^*/sdk/$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
+||connect.facebook.net^*/fp.js$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ! Facebook Plugins (3rd-party embedded plugins)
+||facebook.com^*/plugins/$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ||facebook.com/plugins/$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ! Twitter
 ||api.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
@@ -143,16 +149,22 @@ igniteunmc.com##.preloader
 ! are added both as a blocking rule and as an exception rule so that
 ! an exception is hit and will override what's in tracking protection protection.
 ! Facebook logins and embeds
-@@||connect.facebook.net^$tag=fb-embeds
-@@||connect.facebook.com^$tag=fb-embeds
+@@||connect.facebook.net^*/sdk/$tag=fb-embeds
+@@||connect.facebook.net^*/sdk.js$tag=fb-embeds
+@@||connect.facebook.net^*/all.js$tag=fb-embeds
+@@||connect.facebook.com^*/all.js$tag=fb-embeds
+@@||connect.facebook.com^*/sdk.js$tag=fb-embeds
+@@||connect.facebook.net^*/fp.js$tag=fb-embeds
+@@||static.ak.connect.facebook.com^$tag=fb-embeds
 @@||facebook.com/plugins/$tag=fb-embeds
+@@||facebook.com^*/plugins/$tag=fb-embeds
 @@||graph.facebook.com^$tag=fb-embeds
 ! Facebook tracking events
-/fbevents-amd.js$important
-/fbevents.js$important
-/fbevents.min.js$important
-||facebook.com/tr/$important
-||facebook.com/tr?$important
+/fbevents-amd.js
+/fbevents.js
+/fbevents.min.js
+||facebook.com/tr/
+||facebook.com/tr?
 ! Twitter embeds
 @@||api.twitter.com^$tag=twitter-embeds
 @@||platform.twitter.com^$tag=twitter-embeds
