@@ -835,6 +835,7 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 ! redirect rule (with priority # removed)
 ! Converted from: https://github.com/uBlockOrigin/uAssets/blob/master/filters/privacy.txt 
 ||google-analytics.com/analytics.js$script,redirect=google-analytics.com/analytics.js
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js
 ||google-analytics.com/cx/api.js$script,redirect=google-analytics.com/cx/api.js
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices.com/gpt.js
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js
