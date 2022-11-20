@@ -586,9 +586,12 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||wyze.com^$script,first-party
 ! uBO-redirect work around, Fixes BlockAdblock blocked via ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect-rule=googlesyndication_adsbygoogle.js:5
 @@||havoc-os.com^$ghide
+@@||compuhoy.com^$ghide
 @@||spigotunlocked.org^$ghide
 @@||filmybro.top^$ghide
 @@||fluttercampus.com^$ghide
+! cosmetic
+compuhoy.com##.ezoic-ad
 ! uBO-redirect work around faucetbtc.net 
 faucetbtc.net##+js(aopr, TestAd)
 ! uBO-redirect work around streamingcommunity.bar
