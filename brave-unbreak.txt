@@ -750,6 +750,7 @@ ibotta.com,polovniautomobili.com##+js(rc, async-hide, , stay)
 @@||api.ebay.com^$xmlhttprequest,subdocument
 ! Empty spaces due to shields/standard
 theregister.com##+js(rc, adun, , stay)
+9gag.com##+js(rc, block-ad, , stay)
 businessinsider.com,insider.com##+js(rc, l-ad, , stay)
 businessinsider.com,insider.com##+js(rc, subnav-ad-layout, , stay) 
 arstechnica.com##+js(rc, ad, , stay)
