@@ -18,6 +18,12 @@
 
         ],
         "params": [
+            "pf_rd_m",
+            "pf_rd_p",
+            "pf_rd_r",
+            "pf_rd_s",
+            "pf_rd_t",
+            "pf_rd_i",
             "ref_"
         ]
     },
