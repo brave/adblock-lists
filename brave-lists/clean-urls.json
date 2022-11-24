@@ -12,6 +12,17 @@
     },
     {
         "include": [
+            "*://*.imdb.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "ref_"
+        ]
+    },
+    {
+        "include": [
             "*://*.twitter.com/*"
         ],
         "exclude": [
