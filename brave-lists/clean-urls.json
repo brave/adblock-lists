@@ -18,6 +18,9 @@
 
         ],
         "params": [
+            "cxt",
+            "ref_src",
+            "ref_url",
             "s",
             "t"
         ]
