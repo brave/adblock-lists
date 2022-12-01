@@ -757,6 +757,8 @@ businessinsider.com,insider.com##+js(rc, subnav-ad-layout, , stay)
 arstechnica.com##+js(rc, ad, , stay)
 cnn.com##+js(rc, ad-slot-header, , stay)
 forbes.com##+js(rc, top-ad-container, , stay)
+cnet.com##+js(rc, c-adSkyBox, , stay)
+cnet.com##+js(rc, c-adSkyBox_expanded, , stay)
 ! Korean adblock (cosmetic) 
 newtoki64.com##.basic-banner
 newtoki64.com##.board-tail-banner
