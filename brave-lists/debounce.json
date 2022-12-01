@@ -83,7 +83,8 @@
   {
     "include": [
       "*://rd.connexity.net/rd?*",
-      "*://rd.bizrate.com/rd?*"
+      "*://rd.bizrate.com/rd?*",
+      "*://rd.bizrate.com/rd2?*"
     ],
     "exclude": [
     ],
