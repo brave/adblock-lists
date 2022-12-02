@@ -238,7 +238,6 @@ ibanking-services.com,connectonebank.com,tescobank.com,sbisec.co.jp,tsb.co.uk,ti
 @@||tagesspiegel.de^$generichide
 @@||autobild.de/*&adserv$script,domain=autobild.de
 wetter.com,spiegel.de##[referrerpolicy]
-||s3.reutersmedia.net/resources/*&rtn=$image
 !! -- ported from uBO Annoyances filters (START)
 ! Anti-adblock message codehelppro.com
 @@||codehelppro.com^$ghide
@@ -759,6 +758,7 @@ cnn.com##+js(rc, ad-slot-header, , stay)
 forbes.com##+js(rc, top-ad-container, , stay)
 cnet.com##+js(rc, c-adSkyBox, , stay)
 cnet.com##+js(rc, c-adSkyBox_expanded, , stay)
+reuters.com##+js(rc, ad-slot__container__FEnoz, , stay)
 ! Korean adblock (cosmetic) 
 newtoki64.com##.basic-banner
 newtoki64.com##.board-tail-banner
