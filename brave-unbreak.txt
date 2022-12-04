@@ -760,6 +760,10 @@ forbes.com##+js(rc, top-ad-container, , stay)
 cnet.com##+js(rc, c-adSkyBox, , stay)
 cnet.com##+js(rc, c-adSkyBox_expanded, , stay)
 reuters.com##+js(rc, ad-slot__container__FEnoz, , stay)
+! Regex fix (counter complex ubo regex)
+$script,3p,domain=animixplay.to
+@@||disqus.com/count-data.js$script,domain=animixplay.to
+@@||disqus.com/embed.js$script,domain=animixplay.to
 ! Korean adblock (cosmetic) 
 newtoki64.com##.basic-banner
 newtoki64.com##.board-tail-banner
