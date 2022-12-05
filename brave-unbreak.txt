@@ -856,6 +856,73 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 ||google-analytics.com/ga.js$script,redirect=google-analytics.com/ga.js
 ||googletagmanager.com/gtm.js$script,redirect=googletagmanager_gtm.js
 ||widgets.outbrain.com/outbrain.js$script,redirect=outbrain-widget.js,domain=~mainichi.jp|~vice.com
+! remove param (GENERIC)
+! https://github.com/brave/brave-browser/issues/4239
+$removeparam=fbclid
+$removeparam=gclid
+$removeparam=msclkid
+$removeparam=mc_eid
+!https://github.com/brave/brave-browser/issues/9879
+$removeparam=dclid
+! https://github.com/brave/brave-browser/issues/13644
+$removeparam=oly_anon_id
+$removeparam=oly_enc_id
+! https://github.com/brave/brave-browser/issues/11579
+$removeparam=_openstat
+! https://github.com/brave/brave-browser/issues/11817
+$removeparam=vero_conv
+$removeparam=vero_id
+! https://github.com/brave/brave-browser/issues/13647
+$removeparam=wickedid
+! https://github.com/brave/brave-browser/issues/11578
+$removeparam=yclid
+! https://github.com/brave/brave-browser/issues/8975
+$removeparam=__s
+! https://github.com/brave/brave-browser/issues/17451
+$removeparam=rb_clickid
+! https://github.com/brave/brave-browser/issues/17452
+$removeparam=s_cid
+! https://github.com/brave/brave-browser/issues/17507
+$removeparam=ml_subscriber
+$removeparam=ml_subscriber_hash
+! https://github.com/brave/brave-browser/issues/18020
+$removeparam=twclid
+! https://github.com/brave/brave-browser/issues/18758
+$removeparam=gbraid
+$removeparam=wbraid
+! https://github.com/brave/brave-browser/issues/9019
+$removeparam=_hsenc
+$removeparam=__hssc
+$removeparam=__hstc
+$removeparam=__hsfp
+$removeparam=hsCtaTracking
+! https://github.com/brave/brave-browser/issues/22082
+$removeparam=oft_id
+$removeparam=oft_k
+$removeparam=oft_lk
+$removeparam=oft_d
+$removeparam=oft_c
+$removeparam=oft_ck
+$removeparam=oft_ids
+$removeparam=oft_sk
+! https://github.com/brave/brave-browser/issues/24988
+$removeparam=ss_email_id
+! https://github.com/brave/brave-browser/issues/25238
+$removeparam=bsft_uid
+$removeparam=bsft_clkid
+! https://github.com/brave/brave-browser/issues/25691
+$removeparam=guce_referrer
+$removeparam=guce_referrer_sig
+! https://github.com/brave/brave-browser/issues/26295
+$removeparam=vgo_ee
+! remove param (SPECIFIC)
+! https://github.com/brave/brave-browser/issues/26756
+twitter.com^$removeparam=t
+! https://github.com/brave/brave-browser/issues/26966
+twitter.com^$removeparam=ref_src
+twitter.com^$removeparam=ref_url
+! https://github.com/brave/brave-browser/issues/11580
+instagram.com^$removeparam=igshid
 ! Fix "Alien Warning" script check on dslreports.com https://community.brave.com/t/alien-script-detected-inline-code-at-dslreports-com-speedtest/173716/
 dslreports.com###errorlog
 ! Anti-adblock: docker.events.cube365.net 
