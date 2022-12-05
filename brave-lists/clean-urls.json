@@ -83,6 +83,8 @@
 
         ],
         "params": [
+            "ml_subscriber",
+            "ml_subscriber_hash",
             "mc_cid",
             "ss_campaign_id",
             "ss_campaign_name",
