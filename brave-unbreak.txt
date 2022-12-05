@@ -915,6 +915,9 @@ $removeparam=guce_referrer
 $removeparam=guce_referrer_sig
 ! https://github.com/brave/brave-browser/issues/26295
 $removeparam=vgo_ee
+! https://github.com/brave/brave-browser/issues/9018
+$removeparam=mkt_tok
+@@^mkt_unsubscribe=$removeparam=mkt_tok
 ! remove param (SPECIFIC)
 ! https://github.com/brave/brave-browser/issues/26756
 twitter.com^$removeparam=t
