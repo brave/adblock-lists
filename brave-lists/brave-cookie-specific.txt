@@ -1,2 +1,6 @@
 ! Cookie-snippet list
 ! Used with cookie snippets, set-local-storage-item, set-cookie, set-cookie-reload, set-ession-storage-item
+! Test filter 
+pepper.pl##+js(brave-set-cookie, cookie_policy_agreement, 3)
+pepper.pl##.popover--layout-fixed-bottomSheet
+pepper.pl##.zIndex--modal.popover-cover
