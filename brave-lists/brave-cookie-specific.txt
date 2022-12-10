@@ -1,7 +1,21 @@
 ! Cookie-snippet list
 ! Used with cookie snippets, set-local-storage-item, set-cookie, set-cookie-reload, set-ession-storage-item
-! Test filter 
+!
+! dealabs mirrors
 chollometro.com,dealabs.com,hotukdeals.com,pepper.it,pepper.pl,preisjaeger.at,mydealz.de##+js(brave-set-cookie, cookie_policy_agreement, 3)
 chollometro.com,dealabs.com,hotukdeals.com,pepper.it,pepper.pl,preisjaeger.at,mydealz.de##.popover--layout-fixed-bottomSheet
 chollometro.com,dealabs.com,hotukdeals.com,pepper.it,pepper.pl,preisjaeger.at,mydealz.de##.zIndex--modal.popover-cover
 chollometro.com,dealabs.com,hotukdeals.com,pepper.it,pepper.pl,preisjaeger.at,mydealz.de##body:style(overflow: auto !important;)
+! brave-set-cookie
+filen.io##+js(brave-set-cookie, cookieConsent, yes)
+scaleway.com##+js(brave-set-cookie, consent-analytics, false)
+hellotv.nl##+js(brave-set-cookie, cookieConsentClosed, true)
+qatarairways.com##+js(brave-set-cookie, cookie_visited, true)
+lasestrellas.tv##+js(brave-set-cookie, _tvsPrivacy, true)
+officesuite.com##+js(brave-set-cookie, intro, true)
+calendly.com##+js(brave-set-cookie, gdpr_dismissal, true)
+ubereats.com##+js(brave-set-cookie, uev2.gg, true)
+leki.com##+js(brave-set-cookie, cookie-preference, 1)
+101internet.ru##+js(brave-set-cookie, closeNotificationAboutCookie, true)
+tunnelmb.net##+js(brave-set-cookie, cookie-policy, true)
+bitso.com##+js(brave-set-cookie, bitso_cc, 1)
