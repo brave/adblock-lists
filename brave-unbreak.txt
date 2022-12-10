@@ -590,6 +590,8 @@ akwam.cc##+js(acis, eval, ignielAdBlock)
 @@||spigotunlocked.org^$ghide
 @@||filmybro.top^$ghide
 @@||fluttercampus.com^$ghide
+@@||cultura-informatica.com^$ghide
+!
 ! cosmetic
 compuhoy.com##.ezoic-ad
 ! uBO-redirect work around faucetbtc.net 
