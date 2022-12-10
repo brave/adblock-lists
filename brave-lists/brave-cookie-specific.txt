@@ -19,4 +19,3 @@ leki.com##+js(brave-set-cookie, cookie-preference, 1)
 101internet.ru##+js(brave-set-cookie, closeNotificationAboutCookie, true)
 tunnelmb.net##+js(brave-set-cookie, cookie-policy, true)
 bitso.com##+js(brave-set-cookie, bitso_cc, 1)
-
