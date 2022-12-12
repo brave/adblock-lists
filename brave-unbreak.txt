@@ -619,9 +619,9 @@ crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(aopr, AaDetector)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(acis, JSON.parse, break;case $.)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(aopw, _pop)
 ! uBO-domain wildcard workaround kissanime
-kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co,kissanime.mx##+js(acis, String.fromCharCode, /btoa|break/)
-kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co,kissanime.mx##+js(acis, JSON.parse, break;case $.)
-kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co,kissanime.mx##+js(window.open-defuser)
+kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co##+js(acis, String.fromCharCode, /btoa|break/)
+kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co##+js(acis, JSON.parse, break;case $.)
+kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co##+js(window.open-defuser)
 ! uBO-domain wildcard workaround kissasian
 kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(acis, String.fromCharCode, /btoa|break/)
 kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(acis, JSON.parse, break;case $.)
@@ -634,6 +634,11 @@ kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(set, 
 @@||kissasian.fan^$ghide
 @@||kissasian.com.ru^$ghide
 @@||kissasian.es^$ghide
+! Anti-adblock (https://old.reddit.com/r/brave_browser/comments/zjtfyg/adblock_adblockers/)
+! https://github.com/brave/adblock-rust/issues/194
+*$script,redirect-rule=noopjs,domain=kimcartoon.si|9animes.ru|kisscartoon.sh|kimcartoon.li|kisscartoon.nz|kissanime.com.ru|kissanime.sx|kissanime.org.ru|kissanime.co|gogoanime.gs|animesuge.to|kiss-anime.su|kissasian.pe|kissasian.li|kissasian.fan|kissasian.com.ru|kissasian.es
+! Hide ads in standard blocking mode
+kimcartoon.si,9animes.ru,kisscartoon.sh,kimcartoon.li,kisscartoon.nz,kissanime.com.ru,kissanime.sx,kissanime.org.ru,kissanime.co,gogoanime.gs,animesuge.to,kissasian.pe,kissasian.li,kissasian.fan,kissasian.com.ru,kissasian.es##div[style*="position:relative;text-align:"]
 ! uBO-domain wildcard workaround tube8/pornhub
 redtube.camp,redtube.com,redtube.net##+js(acis, Object.defineProperty, trafficjunky)
 redtube.camp,redtube.com,redtube.net##+js(set, page_params.holiday_promo, true)
