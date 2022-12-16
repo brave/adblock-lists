@@ -636,7 +636,7 @@ kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(set, 
 @@||kissasian.es^$ghide
 ! Anti-adblock (https://old.reddit.com/r/brave_browser/comments/zjtfyg/adblock_adblockers/)
 ! https://github.com/brave/adblock-rust/issues/194
-*$script,redirect-rule=noopjs,domain=kimcartoon.si|9animes.ru|kisscartoon.sh|kimcartoon.li|kisscartoon.nz|kissanime.com.ru|kissanime.sx|kissanime.org.ru|kissanime.co|gogoanime.gs|animesuge.to|kiss-anime.su|kissasian.pe|kissasian.li|kissasian.fan|kissasian.com.ru|kissasian.es
+*$script,redirect-rule=noopjs,domain=igg-games.com|kimcartoon.si|9animes.ru|kisscartoon.sh|kimcartoon.li|kisscartoon.nz|kissanime.com.ru|kissanime.sx|kissanime.org.ru|kissanime.co|gogoanime.gs|animesuge.to|kiss-anime.su|kissasian.pe|kissasian.li|kissasian.fan|kissasian.com.ru|kissasian.es
 ! Hide ads in standard blocking mode
 kimcartoon.si,9animes.ru,kisscartoon.sh,kimcartoon.li,kisscartoon.nz,kissanime.com.ru,kissanime.sx,kissanime.org.ru,kissanime.co,gogoanime.gs,animesuge.to,kissasian.pe,kissasian.li,kissasian.fan,kissasian.com.ru,kissasian.es##div[style*="position:relative;text-align:"]
 ! uBO-domain wildcard workaround tube8/pornhub
@@ -664,6 +664,11 @@ vipbox.lc,v1sts.me##+js(acis, JSON.parse, break;case)
 vipbox.lc,tvply.me,v1sts.me,vipboxtv.se##+js(aopw, _pop)
 tvply.me,vipbox.lc,vipboxtv.se,viprow.me##+js(acis, JSON.parse, break;case $.)
 vipbox.lc##.position-absolute
+! uBO-domain wildcard workaround
+*$script,3p,domain=igg-games.com
+*$xhr,subdocument,3p,domain=igg-games.com
+@@||cdn.fastcomments.com^$script,domain=igg-games.com
+@@||ajax.googleapis.com^$script,domain=igg-games.com
 ! uBO-domain wildcard workaround
 @@||cdn.gotraffic.net^$domain=bloomberg.com|bloomberg.co.jp
 ! Potential Tracker, Annoyance
