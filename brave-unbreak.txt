@@ -972,6 +972,7 @@ livejournal.com##+js(aopr, webpackJsonpSSPjs)
 ||proparm.jp^$third-party
 ||i2ad.jp^$third-party
 ! Japanese specific rules below (temporarily)
+9ketsuki.info,ta36.com##+js(aopr, adsBlocked)
 /ad/alliance_
 /loadPopIn.
 /itsads/*
