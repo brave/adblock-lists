@@ -513,12 +513,53 @@ wired.co.uk##+js(set, ads_not_blocked, true)
 drawasaurus.org##+js(nostif, forceRefresh)
 ! katholisches. info warning popup
 katholisches.info##+js(nostif, pop)
-! newscon.net soft anti-adb
-newscon.net###adblock-warning
 ! Admiral popups
 boston.com,britannica.com,download.mokeedev.com,freep.com,ijr.com,inquirer.net,legacy.com,nationalreview.com,nofilmschool.com,order-order.com,savvytime.com,techlicious.com,technicpack.net,thedraftnetwork.com,wrestlezone.com##+js(acis, document.createElement, admiral)
 ! Admiral Anti-adblock (gamerevolution.com/playstationlifestyle.net/probably others)
 ||succeedscene.com/ads_*/ads.load.js$script,redirect=noop.js
+! https://github.com/uBlockOrigin/uAssets/pull/14563
+warcraftlogs.com##+js(aopr, onAdScriptFailure)
+! https://github.com/uBlockOrigin/uAssets/issues/14550
+||hbzb111.com/api/advert/
+! https://github.com/uBlockOrigin/uAssets/issues/14580
+protopage.com##+js(aost, document.createElement, createAdblockFallbackSubscribeToProtopageAdDiv)
+! https://github.com/uBlockOrigin/uAssets/issues/14674
+||georgiadogs.com/js/prebid-$xhr,1p,redirect=noop.txt
+! https://www.iphoneincanada.ca/ anti-adb
+@@||iphoneincanada.ca^$ghide
+! www.dailyprincetonian.com anti-adb
+||blink.net/iframe.html$domain=dailyprincetonian.com
+! www.anisearch.com ad reinjection
+||privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$script,redirect-rule=noop.js,domain=anisearch.com
+! https://github.com/uBlockOrigin/uAssets/issues/15106
+*$script,domain=geotastic.net,redirect-rule=noopjs
+! https://github.com/uBlockOrigin/uAssets/issues/15142
+knowyourmeme.com##+js(acis, document.createElement, admiral)
+! https://www.reddit.com/r/uBlockOrigin/comments/xy6lh0/
+pixwox.com##+js(nostif, length, 3000)
+! www.lamusica.com anti-adb
+lamusica.com##.modal-open:style(overflow: auto !important;)
+lamusica.com##div[id$="___BV_modal_outer_"]
+! https://profreehost.com/ anti-adb
+||profreehost.com/includes/js/customBottom.js$script,1p
+! https://github.com/uBlockOrigin/uAssets/issues/14749
+modrinth.com##.info-wrapper[ethical-ads-big=""]
+modrinth.com##.content-wrapper[ethical-ads-big]
+modrinth.com##.info-wrapper[data-v-7cd21295]
+! https://www.slideshare.net/secret/r4TGJDeZF0s9jt anti adb
+slideshare.net##+js(acis, ab_tests)
+! https://github.com/uBlockOrigin/uAssets/issues/15598
+startpage.com#@#.ad.widget
+! tarnkappe. info anti adblock annoyance
+tarnkappe.info##+js(set, traffective, true)
+tarnkappe.info##section[style="min-height: 304px;"]
+! https://github.com/uBlockOrigin/uAssets/issues/15784
+@@||discordbotlist.com^$ghide
+! ganohr.net anti-adb
+@@||ganohr.net^$ghide
+ganohr.net###gnr-modal
+! https://github.com/uBlockOrigin/uAssets/issues/15861
+hidemywp.co##+js(acs, jQuery, userAgent)
 !! -- ported from uBO Annoyances filters (END)
 !! -- ported from Fanboy Annoyances filters (START)
 ! theblock.co (newsletter blocks, overlays)
