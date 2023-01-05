@@ -55,6 +55,17 @@
     },
     {
         "include": [
+            "*://www.wsj.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "mod"
+        ]
+    },
+    {
+        "include": [
             "*://actionnetwork.org/petitions/*"
         ],
         "exclude": [
