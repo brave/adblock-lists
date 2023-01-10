@@ -558,8 +558,12 @@ tarnkappe.info##section[style="min-height: 304px;"]
 ! ganohr.net anti-adb
 @@||ganohr.net^$ghide
 ganohr.net###gnr-modal
+! https://github.com/uBlockOrigin/uAssets/issues/16251
+memoryhackers.org##+js(acs, RegExp, googlebot)
 ! https://github.com/uBlockOrigin/uAssets/issues/15861
 hidemywp.co##+js(acs, jQuery, userAgent)
+! grabify. link anti adb warning
+@@||grabify.link^$ghide
 !! -- ported from uBO Annoyances filters (END)
 !! -- ported from Fanboy Annoyances filters (START)
 ! theblock.co (newsletter blocks, overlays)
