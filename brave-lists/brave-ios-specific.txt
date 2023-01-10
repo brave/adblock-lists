@@ -13,7 +13,7 @@
 ||fundingchoicesmessages.google.com^$third-party,badfilter
 
 ! twitch
-@@||ingest.sentry.io/api/$xhr,domain=m.twitch.tv
+@@||ingest.sentry.io/api/$xhr,domain=twitch.tv
 @@||reporting.cdndex.io^$xhr,domain=twitch.tv
 
 ! Cosmetic test (ads and overlay)
