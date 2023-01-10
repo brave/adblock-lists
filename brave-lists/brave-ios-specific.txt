@@ -12,6 +12,10 @@
 ! Prevent googlefunding error message (ios)
 ||fundingchoicesmessages.google.com^$third-party,badfilter
 
+! twitch
+@@||ingest.sentry.io/api/$xhr,domain=twitch.tv
+@@||reporting.cdndex.io^$xhr,domain=twitch.tv
+
 ! Cosmetic test (ads and overlay)
 theblockcrypto.com##.articleIAB
 theblockcrypto.com##.sponsorFooter
