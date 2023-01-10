@@ -388,6 +388,17 @@
   },
   {
     "include": [
+      "*://www.google.com/amp/s/*"
+    ],
+    "pref": "brave.de_amp.enabled",
+    "exclude": [
+    ],
+    "prepend_scheme": "https",
+    "action": "regex-path",
+    "param": "^/amp/s/(.*)$"
+  },
+  {
+    "include": [
       "https://dev-pages.brave.software/navigation-tracking/error.html?*",
       "https://dev-pages.bravesoftware.com/navigation-tracking/error.html?*"
     ],
