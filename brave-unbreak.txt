@@ -24,6 +24,9 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||community.brave.com^$ghide
 ! Remove google login popup nag
 ||accounts.google.com/gsi/iframe/select$subdocument,third-party
+! google login popup nag
+@@||accounts.google.com/gsi/iframe/select$subdocument,domain=vrbo.com
+vrbo.com###credential_picker_container
 ! vendors serving video ads and tracking via proxied requests
 ||vidazoo.com/aggregate^$third-party
 ||vidazoo.com/proxy^$third-party
