@@ -28,7 +28,6 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 ||vidazoo.com/aggregate^$third-party
 ||vidazoo.com/proxy^$third-party
 ||mediabong.net^$third-party
-||imprvdosrv.com^$third-party
 ! CNAME: pol.dk
 @@||www.pol.dk^
 ! CNAME: linkvertise.com
@@ -302,7 +301,7 @@ whathifi.com##.sponsored-post
 ! mt07-forum/auto-treff anti-adb
 mt07-forum.de,auto-treff.com##+js(acis, $, offsetHeight)
 ! Steady anti adb warning 
-handball-world.news,mobiflip.de,titanic-magazin.de##+js(nostif, Delay)
+handball-world.news,mobiflip.de,titanic-magazin.de,mimikama.org,langweiledich.net##+js(nostif, Delay)
 handball-world.news##small
 ! fiscomania .com anti adb notice 
 @@||fiscomania.com^$ghide
@@ -386,6 +385,7 @@ allmusic.com##+js(abort-current-script, $, adblock)
 cinemablend.com##+js(abort-on-property-read, __cmpGdprAppliesGlobally)
 ! Anti-adblock message topspeed.com
 @@||topspeed.com^$ghide
+topspeed.com##.adsninja-ad-zone
 topspeed.com##.txt-ad
 topspeed.com##.daily-vid-ad
 topspeed.com##.top-horizontal-ad-content
@@ -488,8 +488,6 @@ leekduck.com##+js(nostif, abp)
 *$xhr,redirect-rule=noopjs,domain=maxedtech.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=maxedtech.com
 @@||googlesyndication.com^$xhr,domain=maxedtech.com
-! langweiledich. net anti adblock
-langweiledich.net##+js(nostif, Delay)
 ! https://github.com/uBlockOrigin/uAssets/issues/9159
 olarila.com##+js(nostif, offsetHeight)
 ! https://github.com/uBlockOrigin/uAssets/issues/8968
@@ -567,6 +565,9 @@ memoryhackers.org##+js(acs, RegExp, googlebot)
 hidemywp.co##+js(acs, jQuery, userAgent)
 ! grabify. link anti adb warning
 @@||grabify.link^$ghide
+! https://www.reddit.com/r/uBlockOrigin/comments/10acynj/
+steamcollector.com##+js(acs, document.querySelectorAll, adblock)
+steamcollector.com##.abg-card
 !! -- ported from uBO Annoyances filters (END)
 !! -- ported from Fanboy Annoyances filters (START)
 ! theblock.co (newsletter blocks, overlays)
