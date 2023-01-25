@@ -377,6 +377,16 @@
   },
   {
     "include": [
+      "*://streaklinks.com/*"
+    ],
+    "exclude": [
+    ],
+    "prepend_scheme": "https",
+    "action": "regex-path",
+    "param": "^/streaklinks.com/(.*)$"
+  },
+  {
+    "include": [
       "*://*.turbopages.org/*/s/*"
     ],
     "pref": "brave.de_amp.enabled",
