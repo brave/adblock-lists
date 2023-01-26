@@ -382,7 +382,7 @@
     "exclude": [
     ],
     "action": "regex-path",
-    "param": "^/([^/]+)/s(/.*)$"
+    "param": "^/[^/]+/(.*)$"
   },
   {
     "include": [
