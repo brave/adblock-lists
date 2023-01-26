@@ -381,9 +381,8 @@
     ],
     "exclude": [
     ],
-    "prepend_scheme": "https",
     "action": "regex-path",
-    "param": "^/streaklinks.com/(.*)$"
+    "param": "^\/[^\/]+\/(.*)$"
   },
   {
     "include": [
