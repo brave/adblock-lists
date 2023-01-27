@@ -88,6 +88,17 @@
     },
     {
         "include": [
+            "*://www.linkedin.com/in/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "original_referer"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
