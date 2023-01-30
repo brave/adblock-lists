@@ -99,6 +99,21 @@
     },
     {
         "include": [
+            "*://*.youtube.com/watch?*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "embeds_euri",
+            "embeds_loader_url_for_pings",
+            "embeds_origin",
+            "feature",
+            "source_ve_path"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
