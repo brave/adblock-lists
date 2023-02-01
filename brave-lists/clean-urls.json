@@ -32,7 +32,7 @@
             "*://*.twitter.com/*"
         ],
         "exclude": [
-
+            "*://*.twitter.com/i/redirect?*"
         ],
         "params": [
             "cxt",
