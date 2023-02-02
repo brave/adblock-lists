@@ -24,6 +24,10 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 @@||community.brave.com^$ghide
 ! Remove google login popup nag
 ###credential_picker_container
+###credential_picker_iframe
+! Google signin popup (fixes)
+thebetterindia.com##.vspl__gtap-notification-content
+thebetterindia.com##.vspl__gtap-notification-overlay
 ! vendors serving video ads and tracking via proxied requests
 ||vidazoo.com/aggregate^$third-party
 ||vidazoo.com/proxy^$third-party
