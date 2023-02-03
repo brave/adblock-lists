@@ -68,6 +68,9 @@ youtubekids.com,youtube-nocookie.com,youtube.com##+js(set, ytInitialPlayerRespon
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(set, playerResponse.adPlacements, undefined)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.adPlacements)
 youtubekids.com,youtube-nocookie.com,youtube.com##+js(json-prune, playerResponse.playerAds)
+! :has
+youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
+9gag.com##article:has(.promoted)
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
 ||skepticalscience.net/widgets/heat_widget/js/heat_content.js$script,domain=skepticalscience.com
 ! adops.com unusable without this
