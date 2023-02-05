@@ -28,6 +28,7 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 ! Google signin popup (fixes)
 thebetterindia.com##.vspl__gtap-notification-content
 thebetterindia.com##.vspl__gtap-notification-overlay
+dashboard.razorpay.com#@##credential_picker_container
 ! vendors serving video ads and tracking via proxied requests
 ||vidazoo.com/aggregate^$third-party
 ||vidazoo.com/proxy^$third-party
