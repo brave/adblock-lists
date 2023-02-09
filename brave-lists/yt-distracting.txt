@@ -1,1 +1,12 @@
 ! Youtube Distractions
+! Sign in / Menu Header
+m.youtube.com##.mobile-topbar-header-sign-in-button
+m.youtube.com##.mobile-topbar-header-content > ytm-menu
+! Header v3
+m.youtube.com##ytm-topbar-menu-button-renderer
+! Bottom slide in
+m.youtube.com##.pivot-bar-slide-in
+! comments
+m.youtube.com##ytm-comments-entry-point-header-renderer
+! metadata
+m.youtube.com##ytm-slim-video-metadata-section-renderer
