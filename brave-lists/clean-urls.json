@@ -213,5 +213,16 @@
             "brave_testing1",
             "brave_testing2"
         ]
-    }
+    },
+    {
+        "include": [
+            "*://medium.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "source"
+        ]
+    },
 ]
