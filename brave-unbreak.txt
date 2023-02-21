@@ -300,7 +300,7 @@ whathifi.com##.sponsored-post
 ! mt07-forum/auto-treff anti-adb
 mt07-forum.de,auto-treff.com##+js(acis, $, offsetHeight)
 ! Steady anti adb warning 
-handball-world.news,mobiflip.de,titanic-magazin.de,mimikama.org,langweiledich.net##+js(nostif, Delay)
+handball-world.news,mobiflip.de,titanic-magazin.de,mimikama.org,langweiledich.net,der-postillon.com,perlentaucher.de,lwlies.com,serieslyawesome.tv,critic.de,mediotejo.net,nahrungsmittel-intoleranz.com##+js(nostif, Delay)
 handball-world.news##small
 ! fiscomania .com anti adb notice 
 @@||fiscomania.com^$ghide
@@ -567,6 +567,16 @@ hidemywp.co##+js(acs, jQuery, userAgent)
 ! https://www.reddit.com/r/uBlockOrigin/comments/10acynj/
 steamcollector.com##+js(acs, document.querySelectorAll, adblock)
 steamcollector.com##.abg-card
+! jojoy.io anti-adb - triggered only on mobile
+jojoy.io###ad_block_reminder_dialog
+! https://github.com/uBlockOrigin/uAssets/issues/16689
+virustotal.com##.alert-info
+! sneakernews.com anti-adb
+sneakernews.com##+js(aopr, sneakerGoogleTag)
+! twitcasting.tv anti-adb (login needed)
+@@||ads.twitcasting.tv/js/env_test/ads.js$script,1p
+! https://raider.io/ anti-adb
+||intergient.com^$script,domain=raider.io,redirect-rule=noopjs
 !! -- ported from uBO Annoyances filters (END)
 !! -- ported from Fanboy Annoyances filters (START)
 ! theblock.co (newsletter blocks, overlays)
