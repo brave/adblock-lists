@@ -148,6 +148,17 @@
     },
     {
         "include": [
+            "*://medium.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "source"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
