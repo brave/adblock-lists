@@ -159,6 +159,17 @@
     },
     {
         "include": [
+            "*://*.kickstarter.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "ref"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
