@@ -170,6 +170,17 @@
     },
     {
         "include": [
+            "*://*.reddit.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "context"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
