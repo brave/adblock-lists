@@ -19,14 +19,6 @@
 @@||yandex.ru/clck/jclck/$~script
 @@||yandex.*/clck/$xmlhttprequest
 
-! Add exceptions for first-party, brave-audited start-page resources
-! https://github.com/brave/brave-browser/issues/12257
-@@?adType=$domain=startpage.com
-@@/adsense/*$domain=startpage.com
-@@/afs/ads/*$domain=startpage.com
-@@&adsafe=$domain=startpage.com
-@@/gen_204?$image,domain=startpage.com
-
 ! Fix localhost block on Trezor Bridge/Connect
 ! https://community.brave.com/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544/
 @@||127.0.0.1^$domain=trezor.io
