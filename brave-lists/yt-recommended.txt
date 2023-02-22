@@ -1,1 +1,11 @@
 ! Youtube recommendations
+! Up next (a bit buggy)
+m.youtube.com##lazy-list > ytm-video-with-context-renderer
+! home feed
+m.youtube.com##ytm-rich-grid-renderer > .rich-grid-renderer-contents
+! top bar
+m.youtube.com##.chip-bar
+! bottom bar
+m.youtube.com##ytm-pivot-bar-renderer
+! End Card
+m.youtube.com##.ytm-player-endscreen
