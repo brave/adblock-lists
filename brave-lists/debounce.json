@@ -1,6 +1,7 @@
 [
   {
     "include": [
+      "*://backerkit.com/ahoy/messages/*/click?*",
       "*://www.sopasti.com/anime.php?*",
       "*://flake.creditcable.info/*",
       "*://www.forocoches.com/link.php?*",
