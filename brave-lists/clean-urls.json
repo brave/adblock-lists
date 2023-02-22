@@ -159,6 +159,28 @@
     },
     {
         "include": [
+            "*://*.kickstarter.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "ref"
+        ]
+    },
+    {
+        "include": [
+            "*://*.reddit.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "context"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
