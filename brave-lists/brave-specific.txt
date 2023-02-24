@@ -7,6 +7,18 @@
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::ffff:7f00:1]
 ||[::ffff:7f00:1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]
 
+! Re-enable scripts for Yandex after finding no privacy concerns (given
+! other Brave privacy protections)
+! Privacy Review: https://github.com/brave/brave-browser/issues/11591
+! Main Issue: https://github.com/brave/brave-browser/issues/12327
+@@||yandex.ru/log?$~script
+@@||yandex.com/clck/$~script
+@@||yandex.ru/clck/click$~script
+@@||mc.yandex.ru^$~script
+@@||yandex.*/count/$~script
+@@||yandex.ru/clck/jclck/$~script
+@@||yandex.*/clck/$xmlhttprequest
+
 ! Fix localhost block on Trezor Bridge/Connect
 ! https://community.brave.com/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544/
 @@||127.0.0.1^$domain=trezor.io
