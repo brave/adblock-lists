@@ -295,10 +295,6 @@ mocospace.com##+js(nostif, adblocker)
 @@||bigten.org^$xhr,1p
 ! https://github.com/AdguardTeam/AdguardFilters/issues/50013
 strangermeetup.com##+js(set, adsEnabled, true)
-! https://www.reddit.com/r/uBlockOrigin/comments/f879lv/whathifi_antiadblock_not_blocked/
-@@||whathifi.com^$ghide
-whathifi.com##.ad-unit
-whathifi.com##.sponsored-post
 ! mt07-forum/auto-treff anti-adb
 mt07-forum.de,auto-treff.com##+js(acis, $, offsetHeight)
 ! Steady anti adb warning 
