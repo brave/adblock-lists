@@ -584,7 +584,6 @@ theblock.co##.modal-container
 theblock.co##body:style(overflow: auto !important;)
 !! -- ported from Fanboy Annoyances filters (END)
 !! -- ported from uBO Quick Fixes --
-megaup.net##.metaRedirectWrapperBottomAds > div > a > img:style(margin-top: 10000px !important; pointer-events: none !important;)
 canale.live##+js(set-constant, moneyAbovePrivacyByvCDN, true)
 canale.live##+js(no-setInterval-if, href)
 ! luscious. net anti adb
