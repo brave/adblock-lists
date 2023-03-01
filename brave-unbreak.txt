@@ -954,6 +954,10 @@ cube365.net##+js(aopr, bootbox.alert)
 /outbrain/base?
 /outbrain?
 /outbrainAd.
+! https://github.com/uBlockOrigin/uAssets/commit/835b74295e8550d75cc9e36e81084908724f129a
+||connatix.com^$3p,domain=~accuweather.com|~elnuevoherald.com|~loot.tv|~miamiherald.com,important
+@@||cd.connatix.com/connatix.player.js^$script,badfilter
+@@||cds.connatix.com/p/*/connatix.player.dc.js^$script,badfilter
 ||outbrainimg.com^$third-party
 ! Easyprivacy Notifcations (For ios)
 ||accengage.net^$third-party
