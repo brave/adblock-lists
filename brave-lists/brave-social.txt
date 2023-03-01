@@ -9,7 +9,7 @@
 ||api.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
 ||platform.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
 ! Linkedin
-||licdn.com^$third-party,domain=~linkedin.com
+||licdn.com^$third-party,domain=~linkedin.com|~lnkd.in
 ||linkedin.com^$third-party
 ! Outbrain
 ||outbrain.com^$third-party,domain=~sphere.com
