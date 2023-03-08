@@ -232,7 +232,8 @@
       "*://*.vzew.net/c/*",
       "*://*.qflm.net/c/*",
       "*://*.rfvk.net/c/*",
-      "*://redirect.viglink.com/*"
+      "*://redirect.viglink.com/*",
+      "*://*.am3t9s.net/*"
     ],
     "exclude": [
     ],
