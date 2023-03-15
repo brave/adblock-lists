@@ -182,6 +182,8 @@ igniteunmc.com##.preloader
 ! LinkedIn in embeds
 @@||licdn.com^$tag=linked-in-embeds
 @@||platform.linkedin.com^$tag=linked-in-embeds
+! jcrew.com reviews not showing
+jcrew.com##+js(cookie-remover.js, dns_cookie)
 ! Fix sign in icon on https://app.mysms.com/#login
 @@||developers.google.com/identity/$image,domain=mysms.com
 ! vresp.com (https://community.brave.com/t/cant-see-captcha-on-form/67187)
