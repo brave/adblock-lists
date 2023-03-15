@@ -241,6 +241,8 @@ gap.com,ibanking-services.com,connectonebank.com,tescobank.com,sbisec.co.jp,tsb.
 ||buy.tinypass.com^$domain=slate.com|thehindu.com
 @@||id.tinypass.com^$domain=slate.com
 wetter.com,spiegel.de##[referrerpolicy]
+! Warning message
+||spiegel.de/public/shared/generated/3rdparty/js/msg_without_detection.
 !! -- ported from uBO Annoyances filters (START)
 ! Anti-adblock message codehelppro.com
 @@||codehelppro.com^$ghide
