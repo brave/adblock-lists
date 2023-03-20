@@ -381,6 +381,7 @@
   },
   {
     "include": [
+      "*://click.redditmail.com/*",
       "*://streaklinks.com/*"
     ],
     "exclude": [
