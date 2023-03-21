@@ -381,6 +381,15 @@
   },
   {
     "include": [
+      "*://click.redditmail.com/*"
+    ],
+    "exclude": [
+    ],
+    "action": "regex-path",
+    "param": "^/CL0/([^/]+)/.*$"
+  },
+  {
+    "include": [
       "*://streaklinks.com/*"
     ],
     "exclude": [
