@@ -848,6 +848,9 @@ blockadblock.com##+js(nobab)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
 ! gifycat.com ads (https://community.brave.com/t/pages-loads-3rd-party-ads-after-page-loads/71472/10)
 ||ga.gfycat.com^$script,domain=gfycat.com
+! *#@#div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
+! Anti-adblock kbizoom.com
+kbizoom.com##div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
 ! Blank spaces aftonbladet.se (:upward)
 aftonbladet.se##.css-4thb3o
 aftonbladet.se##.css-1d3w5wq
