@@ -854,6 +854,8 @@ mylivewallpapers.com,kbizoom.com##div.adsbygoogle.Ad-Container.sidebar-ad:style(
 ! Blank spaces aftonbladet.se (:upward)
 aftonbladet.se##.css-4thb3o
 aftonbladet.se##.css-1d3w5wq
+! scrolller.com (anti-adblock, upward)
+scrolller.com##.popup--fixed
 ! Cosmetic fixes (https://github.com/brave/brave-browser/issues/14825)
 ! Counter blocked by extension warnings
 naver.com###veta_top
