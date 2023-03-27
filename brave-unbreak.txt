@@ -850,7 +850,7 @@ blockadblock.com##+js(nobab)
 ||ga.gfycat.com^$script,domain=gfycat.com
 ! *#@#div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
 ! Anti-adblock kbizoom.com
-mylivewallpapers.com,kbizoom.com##div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
+mylivewallpapers.com,nsw2u.com,kbizoom.com##div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
 ! Blank spaces aftonbladet.se (:upward)
 aftonbladet.se##.css-4thb3o
 aftonbladet.se##.css-1d3w5wq
