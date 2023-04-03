@@ -28,6 +28,8 @@
 
         ],
         "params": [
+            "linkCode",
+            "tag",
             "crid",
             "qid",
             "sprefix"
