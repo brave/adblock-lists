@@ -964,8 +964,6 @@ livejournal.com##+js(aopr, webpackJsonpSSPjs)
 ||ad-stir.com^$third-party
 ||proparm.jp^$third-party
 ||i2ad.jp^$third-party
-! Japanese specific rules below (temporarily)
-9ketsuki.info,ta36.com##+js(aopr, adsBlocked)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/85641
 modalina.jp##+js(aopr, AdBlockLimitation)
 /ad/alliance_
