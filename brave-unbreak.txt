@@ -15,8 +15,6 @@
 @@||search.brave.com^$ghide
 @@||search.brave.com/api/$first-party
 search.brave.com#@#+js(no-fetch-if, body:browser)
-! Fake BAT site
-||basicattentiontoken.claims^
 ! stats.brave.com
 @@||stats.brave.com^$ghide
 @@||stats.brave.com^$first-party
@@ -29,10 +27,6 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 thebetterindia.com##.vspl__gtap-notification-content
 thebetterindia.com##.vspl__gtap-notification-overlay
 grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
-! vendors serving video ads and tracking via proxied requests
-||vidazoo.com/aggregate^$third-party
-||vidazoo.com/proxy^$third-party
-||mediabong.net^$third-party
 ! CNAME: pol.dk
 @@||www.pol.dk^
 ! CNAME: linkvertise.com
@@ -188,13 +182,6 @@ jcrew.com##+js(cookie-remover.js, dns_cookie)
 @@||developers.google.com/identity/$image,domain=mysms.com
 ! vresp.com (https://community.brave.com/t/cant-see-captcha-on-form/67187)
 @@||captcha.vresp.com^$domain=lawfirmkpi.com
-! 2mdn video playback script
-@@||2mdn.net/instream/html5/ima3.js$script,domain=zdnet.com|techrepublic.com
-! tamilblasters.tel (ios)
-tamilblasters.tel##+js(acis, JSON.parse, break;case $.)
-tamilblasters.tel##+js(aopw, _pop)
-tamilblasters.tel##+js(aeld, , break;case $.)
-tamilblasters.tel##+js(aopr, btoa)
 ! Adservers (ios)
 ||pixfuture.com^$third-party
 ||taboola.com^$third-party
@@ -216,10 +203,6 @@ tamilblasters.tel##+js(aopr, btoa)
 @@||tools.usps.com/go/scripts/tracking.js$script,domain=tools.usps.com
 ! Fix startpage ads
 startpage.com###gcsa-top
-! weather.com "Your privacy" dialogbox
-||weather.com/*.PrivacyDataNotice.$domain=weather.com
-! Fix https://github.com/brave/brave-browser/issues/4507 (mirrors uBO fix, rewritten so that brave/ad-block supports)
-||washingtonpost.com/pb/api/*/adblocker-feature$xmlhttprequest,first-party
 ! Fix onesignal.com example push notifications
 @@||googletagmanager.com/gtm.js$script,domain=onesignal.com
 ! Fix for https://www.home.neustar/ (blank page)
