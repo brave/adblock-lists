@@ -527,7 +527,7 @@ protopage.com##+js(aost, document.createElement, createAdblockFallbackSubscribeT
 ! https://github.com/uBlockOrigin/uAssets/issues/14674
 ||georgiadogs.com/js/prebid-$xhr,1p,redirect=noop.txt
 ! https://www.iphoneincanada.ca/ anti-adb
-@@||iphoneincanada.ca^$ghide
+iphoneincanada.ca##.slbElement
 ! www.dailyprincetonian.com anti-adb
 ||blink.net/iframe.html$domain=dailyprincetonian.com
 ! www.anisearch.com ad reinjection
@@ -578,6 +578,14 @@ sneakernews.com##+js(aopr, sneakerGoogleTag)
 @@||ads.twitcasting.tv/js/env_test/ads.js$script,1p
 ! https://raider.io/ anti-adb
 ||intergient.com^$script,domain=raider.io,redirect-rule=noopjs
+! https://github.com/uBlockOrigin/uAssets/issues/17354
+geeksforgeeks.org##.ad-blocker-modal
+geeksforgeeks.org##body:style(overflow: auto !important;)
+! https://github.com/uBlockOrigin/uAssets/issues/4241#issuecomment-1468322284
+actiongame.com,brain-games.co.uk,classicgame.com,games-site.co.uk,hiddenobjectgames.com,mahjong.co.uk,mahjong.com,match3.co.uk,match3games.com,mindgames.com,neongames.co.uk,neongames.com,solitaireonline.com,timemanagementgame.com##.adBlocked
+actiongame.com,brain-games.co.uk,classicgame.com,games-site.co.uk,hiddenobjectgames.com,mahjong.co.uk,mahjong.com,match3.co.uk,match3games.com,mindgames.com,neongames.co.uk,neongames.com,solitaireonline.com,timemanagementgame.com##.banner
+! romviet.com anti adblock annoyance
+romviet.com##+js(noeval-if, AdBlocker)
 !! -- ported from uBO Annoyances filters (END)
 !! -- ported from Fanboy Annoyances filters (START)
 ! theblock.co (newsletter blocks, overlays)
