@@ -750,7 +750,7 @@ davidstea.com,ibotta.com,polovniautomobili.com##+js(rc, async-hide, , stay)
 ! api.ebay.com (https://community.brave.com/t/referral-not-getting-download-and-comfirmed/75898)
 @@||api.ebay.com^$xmlhttprequest,subdocument
 ! Empty spaces due to shields/standard
-cultofmac.com##+js(rc, ezoic-ad, , stay)
+cultofmac.com,futuregaming.io,cydiageeks.com,askdavetaylor.com,pedigreedatabase.com,greatamericandaily.com,basquetplus.com,liverampup.com,q4interview.com,happybirthdaymsg.com,gerweck.net,smartwatchspecifications.com,toutandroid.fr,wikinetworth.com,tutorials-raspberrypi.com##+js(rc, ezoic-ad, , stay)
 theregister.com##+js(rc, adun, , stay)
 9gag.com##+js(rc, block-ad, , stay)
 businessinsider.com,insider.com##+js(rc, l-ad, , stay)
