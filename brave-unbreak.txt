@@ -578,8 +578,39 @@ theblock.co##.modal-container
 theblock.co##body:style(overflow: auto !important;)
 !! -- ported from Fanboy Annoyances filters (END)
 !! -- ported from uBO Quick Fixes --
+! filecr.com
+*$image,domain=filecr.com,redirect-rule=1x1.gif
+@@||scriptcdn.net/code/$xhr,domain=filecr.com
+@@||googleads.g.doubleclick.net/pagead/ads$subdocument,domain=filecr.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,domain=filecr.com
+@@||pagead2.googlesyndication.com/pagead/managed/js/adsense/*/show_ads_impl*$script,domain=filecr.com
+@@||pagead2.googlesyndication.com/getconfig/sodar$xhr,domain=filecr.com
+filecr.com#@#ins.adsbygoogle
+filecr.com##ins.adsbygoogle:style(height: 0px !important;)
+filecr.com##div[id^="aswift"]
+! https://github.com/uBlockOrigin/uAssets/issues/17356
+filecr.com##+js(no-fetch-if, scriptcdn)
+! https://twitter.com/HFL_fan/status/1632275022197981184
+miitus.jp#@#.new-ad-box
+! https://github.com/AdguardTeam/AdguardFilters/commit/de31889b8fdd2a1b4717119395f3ebcaf1b26735#commitcomment-103396170
+rocketnews24.com#@#.ad
+! https://github.com/uBlockOrigin/uAssets/issues/16909
+@@||googletagmanager.com/gtm.js$script,domain=abczdrowie.pl
+behealthymagazine.abczdrowie.pl##[href*="/?utm_source="]
+! https://github.com/uBlockOrigin/uAssets/issues/16616
+autosport.com,motorsport.com##+js(aeld, load, length)
+@@||mstm.motorsport.com/mstm.js
+! https://github.com/uBlockOrigin/uAssets/issues/17254
+||run.app/events$badfilter
+||run.app/events$domain=imgur.com
 canale.live##+js(set-constant, moneyAbovePrivacyByvCDN, true)
 canale.live##+js(no-setInterval-if, href)
+! https://github.com/uBlockOrigin/uAssets/issues/14142
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=10play.com.au
+@@||global.ssl.fastly.net^$domain=10play.com.au
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10play.com.au
+@@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams$xhr,domain=10play.com.au
+10play.com.au##+js(m3u-prune, /^https?:\/\/redirector\.googlevideo\.com.*/, /.*m3u8/)
 ! luscious. net anti adb
 @@*$xhr,domain=luscious.net,3p
 ! chip.de
