@@ -47,6 +47,8 @@ mobile.donanimhaber.com##.arareklam
 ! coinmarketcap.com censor tracking https://www.reddit.com/r/brave_browser/comments/rip7ce/works_just_fine/
 /sensorsdata.min.js
 ||sensors.binance.cloud^
+! Temp filter for https://github.com/brave/brave-ios/issues/7294
+search.brave.com#@#[data-type="ad"]
 ! https://app.starbucks.com/account/cards (Blank page)
 @@||cdn.optimizely.com/datafiles/$domain=starbucks.com
 @@||starbucks.com/app-assets/
