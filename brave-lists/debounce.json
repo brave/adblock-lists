@@ -156,15 +156,6 @@
   },
   {
     "include": [
-      "*://track.webgains.com/click.html*"
-    ],
-    "exclude": [
-    ],
-    "action": "redirect",
-    "param": "wgtarget"
-  },
-  {
-    "include": [
       "*://click.icptrack.com/icp/relay.php*"
     ],
     "exclude": [
