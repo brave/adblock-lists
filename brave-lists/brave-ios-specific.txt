@@ -66,6 +66,11 @@ mobile.donanimhaber.com##.arareklam
 ! Cleabit tracking
 ||clearbit.com^$3p
 ||clearbitjs.com^
+! bookoffonline.co.jp (japanese) https://community.brave.com/t/topic/483981
+||d.adlpo.com^
+||h-cast.jp^$3p
+||a-cast.jp^$3p
+||reproio.com^
 ! tn.com.ar 
 @@||scdn.cxense.com^$domain=tn.com.ar
 @@||cdn.cxense.com^$domain=tn.com.ar
