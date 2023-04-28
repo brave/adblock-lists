@@ -498,7 +498,7 @@ drawasaurus.org##+js(nostif, forceRefresh)
 ! katholisches. info warning popup
 katholisches.info##+js(nostif, pop)
 ! Admiral popups
-boston.com,britannica.com,download.mokeedev.com,freep.com,ijr.com,inquirer.net,legacy.com,nationalreview.com,nofilmschool.com,order-order.com,savvytime.com,techlicious.com,technicpack.net,thedraftnetwork.com,wrestlezone.com##+js(acis, document.createElement, admiral)
+arstechnica.com,audiodoceo.com,audiotools.pro,audizine.com,blackenterprise.com,boston.com,cheatsheet.com,cwtv.com,esportstales.com,forums.hfboards.com,freep.com,golfdigest.com,hancinema.net,hemmings.com,ijr.com,informazionefiscale.it,inquirer.net,knowyourmeme.com,magesypro.pro,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nofilmschool.com,omg.blog,order-order.com,pastes.io,savvytime.com,techlicious.com,technicpack.net,thedraftnetwork.com,thenerdstash.com,titantv.com,twinfinite.net,usatoday.com,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com##+js(acis, document.createElement, admiral)
 ! Admiral Anti-adblock (gamerevolution.com/playstationlifestyle.net/probably others)
 ||succeedscene.com/ads_*/ads.load.js$script,redirect=noop.js
 ! https://github.com/uBlockOrigin/uAssets/pull/14563
@@ -517,8 +517,6 @@ iphoneincanada.ca##.slbElement
 ||privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js$script,redirect-rule=noop.js,domain=anisearch.com
 ! https://github.com/uBlockOrigin/uAssets/issues/15106
 *$script,domain=geotastic.net,redirect-rule=noopjs
-! https://github.com/uBlockOrigin/uAssets/issues/15142
-knowyourmeme.com##+js(acis, document.createElement, admiral)
 ! https://www.reddit.com/r/uBlockOrigin/comments/xy6lh0/
 pixwox.com##+js(nostif, length, 3000)
 ! www.lamusica.com anti-adb
