@@ -1,0 +1,6 @@
+! https://community.brave.com/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544
+trezor.io
+! https://github.com/brave/brave-browser/issues/27346#issuecomment-1435404209
+razroo.com
+! https://community.brave.com/t/intel-driver-support-assistant-doesnt-work-with-shields-on/212468
+intel.com
