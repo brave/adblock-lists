@@ -172,6 +172,20 @@
     },
     {
         "include": [
+            "*://*.tiktok.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "embed_source",
+            "refer",
+            "referer_url",
+            "referer_video_id"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
