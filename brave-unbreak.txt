@@ -18,6 +18,11 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 ! stats.brave.com
 @@||stats.brave.com^$ghide
 @@||stats.brave.com^$first-party
+! Temp fix of first-party cosmetic filtering on Brave Search on IOS.
+! Will be removed when brave/brave-ios#7294 is rolled out to everyone
+@@||search.brave.com/serp/v1/static/serp-js/paid/
+@@||search.brave.com/serp/v1/static/serp-js/shopping/
+search.brave.com#@##shopping
 ! community.brave.com
 @@||community.brave.com^$ghide
 ! Remove google login popup nag
