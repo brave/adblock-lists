@@ -1,5 +1,8 @@
 ! Brave IOS specific filters
 
+! Workaround for lack of aggressive/standard blocking modes on iOS
+@@||search.brave.com$first-party
+
 ! Counter Peter Lowes Filters
 ||doubleclick.net^$badfilter
 ||googleadservices.com^$badfilter
