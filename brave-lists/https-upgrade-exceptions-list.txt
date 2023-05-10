@@ -12,6 +12,7 @@ aralego.com
 cri.cn
 frontwing.jp
 chatwork.com
+vger.kernel.org
 fisglobal.com
 fonts.net
 ilive.cn
