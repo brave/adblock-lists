@@ -186,6 +186,19 @@
     },
     {
         "include": [
+            "*://*.bloomberg.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "in_source",
+            "leadSource",
+            "srnd"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
