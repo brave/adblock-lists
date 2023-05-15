@@ -807,6 +807,8 @@ cnet.com##+js(rc, c-adSkyBox, , stay)
 cnet.com##+js(rc, c-adSkyBox_expanded, , stay)
 reuters.com##+js(rc, ad-slot__container__FEnoz, , stay)
 darkreading.com##*:style(opacity: 1 !important;)
+bloomberg.com##+js(rc, leaderboard-wrapper, , stay)
+bloomberg.com##+js(rc, FullWidthAd_fullWidthAdWrapper-fClHZteIk3k-, , stay)
 npr.org##[aria-label="advertisement"]
 npr.org##+js(rc, ad-standard, , stay)
 ! Regex fix (counter complex ubo regex)
