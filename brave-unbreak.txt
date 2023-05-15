@@ -18,14 +18,6 @@ search.brave.com#@#+js(no-fetch-if, body:browser)
 ! stats.brave.com
 @@||stats.brave.com^$ghide
 @@||stats.brave.com^$first-party
-! Temp fix of first-party cosmetic filtering on Brave Search on IOS.
-! Will be removed when brave/brave-ios#7294 is rolled out to everyone
-! Exception added to un-break Amazon results and integration on Brave Search. 
-! The Amazon integration does not involve collecting user data, profiling, or sharing information with Amazon.
-! More information about the privacy policy and commitments with Brave Search can be found at https://search.brave.com/help/privacy-policy
-@@||search.brave.com/serp/v1/static/serp-js/paid/
-@@||search.brave.com/serp/v1/static/serp-js/shopping/
-search.brave.com#@##shopping
 ! community.brave.com
 @@||community.brave.com^$ghide
 ! Remove google login popup nag
