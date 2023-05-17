@@ -650,11 +650,13 @@ rnbxclusive1.me##+js(aopw, _pop)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(aopr, AaDetector)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(acis, JSON.parse, break;case $.)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(aopw, _pop)
-!  uBO-domain wildcard workaround lightnovelpub
-lightnovelpub.com##+js(no-setTimeout-if, =>)
-lightnovelpub.com##+js(no-setTimeout-if, /appendChild|e\("/)
-lightnovelpub.com##.FJCbkSro
-lightnovelpub.com##.IKuOHDYt
+!  uBO-domain wildcard workaround lightnovelpub/webnovelpub.com/other mirrors
+@@*$ghide,domain=lightnovelpub.com|lightnovelworld.com|novelpub.com|webnovelpub.com
+lightnovelpub.com,webnovelpub.com,novelpub.com,lightnovelworld.com,lightnovelspot.com##.sticky-body
+lightnovelpub.com,webnovelpub.com##+js(no-setTimeout-if, =>)
+lightnovelpub.com,webnovelpub.com##+js(no-setTimeout-if, /appendChild|e\("/)
+lightnovelpub.com,webnovelpub.com,novelpub.com,lightnovelworld.com,lightnovelspot.com##.FJCbkSro
+lightnovelpub.com,webnovelpub.com,novelpub.com,lightnovelworld.com,lightnovelspot.com##.IKuOHDYt
 ! uBO-domain wildcard workaround kissanime
 kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co##+js(acis, String.fromCharCode, /btoa|break/)
 kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co##+js(acis, JSON.parse, break;case $.)
