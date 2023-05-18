@@ -199,6 +199,18 @@
     },
     {
         "include": [
+            "*://*.seek.com.au/*",
+            "*://*.seek.co.nz/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "tracking"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
