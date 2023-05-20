@@ -16,6 +16,15 @@
 @@||ingest.sentry.io/api/$xhr,domain=twitch.tv
 @@||reporting.cdndex.io^$xhr,domain=twitch.tv
 
+! youtubevanced.com
+||mordoops.com^
+||gloaphoo.net^
+||optyruntchan.com^
+||vmxqgmefynoep.xyz^
+||cdnativepush.com^
+||fleraprt.com^
+||tzegilo.com^
+
 ! Cosmetic test (ads and overlay)
 theblockcrypto.com##.articleIAB
 theblockcrypto.com##.sponsorFooter
