@@ -37,6 +37,8 @@ thebetterindia.com##.vspl__gtap-notification-overlay
 grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ! CNAME: pol.dk
 @@||www.pol.dk^
+! CNAME: autonews.com (https://community.brave.com/t/autonews-com-images-dont-load/488276)
+@@||s3-prod.autonews.com^$domain=autonews.com
 ! CNAME: linkvertise.com
 @@||taboola.com/libtrc/linkvertise-link-to/loader.js$domain=linkvertise.com
 @@||taboola.map.fastly.net^$domain=linkvertise.com
