@@ -31,6 +31,15 @@
             "linkCode",
             "tag",
             "crid",
+            "pd_rd_r",
+            "pd_rd_w",
+            "pd_rd_wg",
+            "pf_rd_i",
+            "pf_rd_m",
+            "pf_rd_p",
+            "pf_rd_r",
+            "pf_rd_s",
+            "pf_rd_t",
             "qid",
             "sprefix"
         ]
