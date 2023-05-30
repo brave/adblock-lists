@@ -7,6 +7,7 @@ chollometro.com,dealabs.com,hotukdeals.com,pepper.it,pepper.pl,preisjaeger.at,my
 chollometro.com,dealabs.com,hotukdeals.com,pepper.it,pepper.pl,preisjaeger.at,mydealz.de##.zIndex--modal.popover-cover
 chollometro.com,dealabs.com,hotukdeals.com,pepper.it,pepper.pl,preisjaeger.at,mydealz.de##body:style(overflow: auto !important;)
 ! brave-set-cookie
+colourbox.com##+js(brave-set-cookie, cookie_consent_all, 1)
 ebilet.pl##+js(brave-set-cookie, eb_cookie_agree, 1)
 snap.com##+js(brave-set-cookie, sc-cookies-accepted, true)
 ratemyprofessors.com##+js(brave-set-cookie, ccpa-notice-viewed-02, true)
