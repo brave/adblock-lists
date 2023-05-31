@@ -168,6 +168,7 @@ mobile.donanimhaber.com##.arareklam
 ||actoramusement.com^
 ||actuallysheep.com^
 ||actuallysnake.com^
+||adamantsnail.com^
 ||additionant.com^$third-party
 ||adorableanger.com^
 ||advertisementafterthought.com^
@@ -191,9 +192,11 @@ mobile.donanimhaber.com##.arareklam
 ||amazingairplane.com^$third-party
 ||ambiguousalarm.com^
 ||ambiguousanger.com^
+||ambiguousdinosaurs.com^
 ||ambiguousincome.com^
 ||ambiguousquilt.com^
 ||ambitiousagreement.com^
+||amusedbucket.com^
 ||amusementmorning.com^
 ||amusinggirls.com^
 ||ancientact.com^
@@ -413,6 +416,7 @@ mobile.donanimhaber.com##.arareklam
 ||crawlclocks.com^
 ||crayoncompetition.com^
 ||critictruck.com^
+||crookedcreature.com^
 ||crowdedmass.com^
 ||cubchannel.com^
 ||cuddlycake.com^
@@ -631,7 +635,6 @@ mobile.donanimhaber.com##.arareklam
 ||glisteningguide.com^$third-party
 ||glisteningsign.com^
 ||gloriousbeef.com^$third-party
-||gloriouscracker.com^
 ||glossysense.com^
 ||godlygeese.com^
 ||gondolagnome.com^
@@ -651,6 +654,7 @@ mobile.donanimhaber.com##.arareklam
 ||grouchypush.com^
 ||grumpydrawer.com^
 ||guaranteelamp.com^
+||guardeddirection.com^
 ||guardedschool.com^
 ||guiltlessbasketball.com^
 ||guitargrandmother.com^
@@ -726,6 +730,7 @@ mobile.donanimhaber.com##.arareklam
 ||informengine.com^
 ||innocentinvention.com^$third-party
 ||innocentwax.com^
+||inquisitiveice.com^
 ||inquisitiveinvention.com^$third-party
 ||instrumentinsect.com^
 ||instrumentsponge.com^
@@ -813,7 +818,6 @@ mobile.donanimhaber.com##.arareklam
 ||meatydime.com^
 ||meddleplant.com^
 ||mediatescarf.com^
-||medusasailor.com^
 ||melodicminute.com^
 ||meltmilk.com^
 ||memopilot.com^
@@ -1005,6 +1009,7 @@ mobile.donanimhaber.com##.arareklam
 ||readysnails.com^
 ||realizerecess.com^$third-party
 ||realizevacation.com^$third-party
+||rebelhen.com^
 ||rebelsubway.com^
 ||receptivebranch.com^
 ||receptiveink.com^
@@ -1094,6 +1099,7 @@ mobile.donanimhaber.com##.arareklam
 ||seashoresociety.com^
 ||seatsmoke.com^
 ||secretivecub.com^
+||secretivesheep.com^
 ||secretspiders.com^
 ||secretturtle.com^
 ||seedscissors.com^
@@ -1184,6 +1190,7 @@ mobile.donanimhaber.com##.arareklam
 ||sortsail.com^
 ||sortstructure.com^
 ||sortsummer.com^
+||soundstocking.com^
 ||sowlettuce.com^
 ||spadelocket.com^
 ||sparklesleet.com^
