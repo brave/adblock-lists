@@ -48,6 +48,15 @@
   },
   {
     "include": [
+      "*://app.hive.co/email/elt/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "next"
+  },
+  {
+    "include": [
       "*://redir.tradedoubler.com/*"
     ],
     "exclude": [
