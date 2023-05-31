@@ -133,6 +133,17 @@
     },
     {
         "include": [
+            "*://feverup.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "CAMEFROM"
+        ]
+    },
+    {
+        "include": [
             "*://www.linkedin.com/in/*"
         ],
         "exclude": [
@@ -226,6 +237,8 @@
 
         ],
         "params": [
+            "h_sid",
+            "h_slt",
             "brave-campaign-id",
             "brave-creative-id",
             "brave-creative-set-id",
