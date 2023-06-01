@@ -822,7 +822,6 @@ tasteofhome.com##+js(rc, pre-article-ad, , stay)
 adelaidenow.com.au,heraldsun.com.au,couriermail.com.au,dailytelegraph.com.au,news.com.au,themercury.com.au,geelongadvertiser.com.au,cairnspost.com.au,goldcoastbulletin.com.au,townsvillebulletin.com.au,thechronicle.com.au,ntnews.com.au,weeklytimesnow.com.au##+js(rc, header_ads-container, , stay)
 adelaidenow.com.au,heraldsun.com.au,couriermail.com.au,dailytelegraph.com.au,news.com.au,themercury.com.au,geelongadvertiser.com.au,cairnspost.com.au,goldcoastbulletin.com.au,townsvillebulletin.com.au,thechronicle.com.au,ntnews.com.au,weeklytimesnow.com.au##+js(rc, ad-halfpage, , stay)
 theaustralian.com.au##+js(rc, header__ad, , stay)
-
 ! Regex fix (counter complex ubo regex)
 $xhr,3p,domain=nxbrew.com
 $script,3p,domain=animixplay.to|animepahe.ru|nxbrew.com
