@@ -45,6 +45,10 @@ mobile.donanimhaber.com##.cookie-kutu
 mobile.donanimhaber.com##.mobil_forum_kategori_300x100
 mobile.donanimhaber.com###tmInfiniteAd
 mobile.donanimhaber.com##.arareklam
+! https://github.com/easylist/easylist/commit/beaebab2da743aaeba7626ae6a36c74cc0bb71bc
+! Gannett sites
+courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgazette.com,jsonline.com,lohud.com,northjersey.com,sheboyganpress.com,tallahassee.com,theadvertiser.com##.partner-placement
+courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgazette.com,jsonline.com,lohud.com,northjersey.com,sheboyganpress.com,tallahassee.com,theadvertiser.com##promo-story-bucket-short[style="min-height: 335px;"]
 ! appsflyer.com adjustment https://github.com/easylist/easylist/commit/c608be1
 @@||appsflyer.com^$third-party
 @@||app.appsflyer.com^$third-party
