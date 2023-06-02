@@ -219,6 +219,18 @@
     },
     {
         "include": [
+            "*://*/*"
+        ],
+        "exclude": [
+            "*://app.hive.co/*"
+        ],
+        "params": [
+            "h_sid",
+            "h_slt"
+        ]
+    },
+    {
+        "include": [
             "*://*.seek.com.au/*",
             "*://*.seek.co.nz/*"
         ],
@@ -237,8 +249,6 @@
 
         ],
         "params": [
-            "h_sid",
-            "h_slt",
             "brave-campaign-id",
             "brave-creative-id",
             "brave-creative-set-id",
