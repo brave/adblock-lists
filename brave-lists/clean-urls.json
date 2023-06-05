@@ -297,7 +297,8 @@
             "usqp",
             "guccounter",
             "guce_referrer",
-            "guce_referrer_sig"
+            "guce_referrer_sig",
+            "ex_cid"
         ]
     },
     {
