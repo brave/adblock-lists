@@ -1,6 +1,184 @@
 ! Firstparty specific filters
 ! Ads
 !
+! the-scientist.com
+the-scientist.com##.advertisement
+the-scientist.com###preHeader
+the-scientist.com##.adverts
+the-scientist.com##.footer-ad
+the-scientist.com###Torpedo
+! arstechnica.com
+arstechnica.com##.ad_xrail
+arstechnica.com##.ad
+arstechnica.com##.ad_wrapper
+! gizmodo.com,jalopnik.com
+##.js_sticky-top-ad
+! businessinsider.com,insider.com
+businessinsider.com,insider.com##.l-ad
+businessinsider.com,insider.com##.in-post-sticky
+! anandtech.com
+anandtech.com###side_ad
+anandtech.com##.header_ad
+! nationalreview.com
+nationalreview.com##.ad-unit
+nationalreview.com##.article-connatix-wrap
+nationalreview.com##.ad-skeleton
+! pagesix.com
+pagesix.com##.recirc
+pagesix.com##.billboard-ad
+! screenrant.com
+screenrant.com##.adsninja-ad-zone
+! vice.com
+vice.com##.adph
+vice.com##.fixed-slot
+! krebsonsecurity.com
+krebsonsecurity.com##.themonic-ad3
+krebsonsecurity.com###sidebar_ad
+krebsonsecurity.com##.themonic-ad1
+! theguardian.com#
+theguardian.com##.top-banner-ad-container
+theguardian.com##.ad-slot-container
+! smithsonianmag.com
+smithsonianmag.com##.advertisement
+smithsonianmag.com##.ad-slot
+smithsonianmag.com##.ad-wrapper
+! ft.com
+ft.com##.o-ads
+! videogamer.com
+videogamer.com##.adthrive-ad
+videogamer.com##.adthrive
+! slate.com
+slate.com##.top-ad
+slate.com##.slate-ad
+! thedrive.com
+thedrive.com##.mtc-header__desktop__article-prefill-container
+! yahoo.com
+yahoo.com##.darla-container
+yahoo.com##.darla
+yahoo.com##.viewer-sda-container
+! bbc.com
+bbc.com###sticky-mpu
+bbc.com###sticky-leaderboard
+! wccftech.com
+wccftech.com##.main-background-wrap
+wccftech.com##.bg-vertical
+wccftech.com##.content-ad
+! diyphotography.net
+diyphotography.net##.adthrive-ad
+! reuters.com
+reuters.com##.ad-slot__container__FEnoz
+! techspot.com
+techspot.com##.cta
+techspot.com##.adContainerSide
+! apnews.com
+apnews.com##.advertisementTitle
+apnews.com##.Leaderboard
+apnews.com##.apnews_article_midarticle_1
+apnews.com##.apnews_article_midarticle_2
+! nationalgeographic.com
+nationalgeographic.com##.ArticleStickiness
+nationalgeographic.com##.ad-wrapper
+nationalgeographic.com##.InsertedAd
+! rollingstone.com
+rollingstone.com##.adma
+! uploadvr.com
+uploadvr.com##.ad-container
+! venturebeat.com
+venturebeat.com##.adslot
+venturebeat.com##.tude-cw-wrap
+! newyorker.com
+newyorker.com##.ad-container
+newyorker.com##.should-hold-space
+! newatlas.com
+newatlas.com##.OcelotAdModule
+newatlas.com###desktop_article_1
+newatlas.com###desktop_article_2
+newatlas.com###desktop_article_3
+newatlas.com###taboola-below-article-thumbnails
+! washingtonpost.com
+washingtonpost.com##.border-box.dn-hp-sm-to-mx
+washingtonpost.com##.border-box.dn-hp-xs
+washingtonpost.com##.pb-sm.pt-sm.b
+games.washingtonpost.com##[class^="DisplayAd_"]
+washingtonpost.com##[data-qa="article-body-ad"]
+washingtonpost.com##[data-qa="right-rail-ad"]
+washingtonpost.com##[data-sc-c="adslot"]
+washingtonpost.com##[data-testid="placeholder-box"]
+! coindesk.com
+coindesk.com##.ad-content
+coindesk.com##.ad-box
+coindesk.com##.gWUxIC
+coindesk.com##.at-rail-wrapper
+coindesk.com##.vert
+! cryptoslate.com
+cryptoslate.com##.code-block
+! crypto 
+theblock.co##.footerRoot
+theblock.co##.sponsoredArticle
+theblock.co##.fullWidthDisplay 
+coinspeaker.com##.aside-banner
+insidebitcoins.com##.adv-link
+crypto-news-flash.com##.adsBanner
+cryptonewsz.com##.stream-item-below-header
+cryptonewsz.com##.stream-item-above-header
+cryptonewsz.com##.stream-item
+cryptopolitan.com##.crp_ads_container
+cryptopolitan.com##.crp_sidebar_ads_container
+cryptopolitan.com##.crp_inarticle_ads_container
+beincrypto.com##.ad-wrapper
+beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com,insidebitcoins.com##[class*="clickout-"]
+! streetinsider.com
+streetinsider.com##.im-ad
+! investing.com
+investing.com##.dfpAdUnitContainer
+investing.com##.im-ad-visible
+investing.com###ad2
+investing.com###ad1
+investing.com###ad3
+! foxnews
+foxweather.com,foxnews.com,foxbusiness.com##.advert-txt
+foxweather.com,foxnews.com,foxbusiness.com##.ad
+foxweather.com,foxnews.com,foxbusiness.com##.ad-container
+! marketwatch.com
+marketwatch.com##.element--ad
+! gameshub.com
+gameshub.com##.ads-slot
+! mashable.com
+mashable.com###sidebar-1
+mashable.com###sidebar-2
+! reddit.com
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.promotedlink
+! economist.com
+economist.com##.adComponent_advert__V79Pp
+! oregonlive.com
+oregonlive.com##.below-toprail
+oregonlive.com##.rightRail-top-wrapper
+oregonlive.com###rightRail-Bottom-300xFlex
+oregonlive.com##.ad-unit
+! politico.com
+politico.com##.ad
+! petapixel.com
+petapixel.com##.banners
+petapixel.com##.instream_ad
+! cbsnews.com
+cbsnews.com##.top-ad-container
+! hawaiinewsnow.com
+hawaiinewsnow.com##.arc-ad-wrapper
+! nature.com
+nature.com##.u-lazy-ad-wrapper
+! autoevolution.com
+autoevolution.com##.ad
+autoevolution.com##.ad300x600
+autoevolution.com##.bgcutgrad
+! thehill.com
+thehill.com##.ad-unit
+! wired.com
+wired.com##.ad
+! androidcentral.com,pcgamer.com,space.com
+##.dfp-leaderboard-container
+! tomsguide.com,tomshardware.com,space.com,pcgamer.com 
+tomsguide.com,tomshardware.com,space.com,pcgamer.com##.ad-unit
+!
 ||ads-api.twitter.com^
 !
 ! Trackers
