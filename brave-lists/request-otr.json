@@ -19,7 +19,7 @@
   },
   {
     "include": [
-      "https://tallpoppy.com/*"
+      "https://www.tallpoppy.com/*"
     ],
     "exclude": []
   },
@@ -31,7 +31,7 @@
   },
   {
     "include": [
-      "https://loveisrespect.org/*"
+      "https://www.loveisrespect.org/*"
     ],
     "exclude": []
   },
