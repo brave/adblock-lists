@@ -5,6 +5,29 @@
 !
 ! Trackers
 !
+! Fingerprinting scripts (Threatmetrix)
+/fp-3.3.6.min.js
+/fp/check.js
+/fp/clear.png
+/fp/clear1.png
+/fp/clear2.png
+/fp/clear3.png
+/fp/es.js
+/fp/HP?session_id
+/fp/ls_fp.
+/fp/tags.js
+/fp/top_fp.
+/fp2.compressed.js
+/fp_204?
+/fpc.pl?a=
+/fpcookie?
+/fpcount.exe
+/fprnt.min.js
+/fps/check.
+/fpTracker/*
+/fptrk.min.js
+/fpv2.js
+! Twitter
 ||twitter.com/1.1/attribution
 ||twitter.com/1.1/jot
 ||twitter.com/1.1/promoted_content/log.json
