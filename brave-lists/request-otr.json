@@ -1,7 +1,7 @@
 [
   {
     "include": [
-      "https://ceta.tech.cornell.edu/*"
+      "https://www.ceta.tech.cornell.edu/*"
     ],
     "exclude": []
   },
