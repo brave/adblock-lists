@@ -29,6 +29,10 @@
 ||rta.dailymail.co.uk^
 ||t.dailymail.co.uk^
 ||ted.dailymail.co.uk^
+! mail.google.com
+mail.google.com##.nH.PS
+mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
+||mail-ads.google.com^
 ! stoodnt.com
 stoodnt.com##.boxzilla-center-container
 stoodnt.com##.boxzilla-overlay
