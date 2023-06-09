@@ -51,6 +51,12 @@ stoodnt.com##.boxzilla-overlay
 ||pixel.facebook.com^
 ! Instagram
 ||instagram.com/ajax/bz
+! tiktok.com
+||tiktok.com/captcha/report
+||tiktok.com/v1/list
+||tiktok.com/web/report?
+||tiktok.com/whale/
+||tiktokv.com/monitor_browser/
 ! imgur.com
 ||imgur.com/albumview.gif?
 ||t.imgur.com^
