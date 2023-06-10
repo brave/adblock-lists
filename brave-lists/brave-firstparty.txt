@@ -11,8 +11,105 @@ the-scientist.com###Torpedo
 arstechnica.com##.ad_xrail
 arstechnica.com##.ad_crown
 arstechnica.com##.ad_fullwidth
-arstechnica.com##.ad
 arstechnica.com##.ad_wrapper
+! nytimes.com
+nytimes.com##.css-bs95eu
+! cnbc.com
+cnbc.com##.TopBanner-container
+! people.com
+people.com##.mntl-leaderboard-header
+! .zone
+bellinghamherald.com,charlotteobserver.com,fresnobee.com,heraldonline.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,modbee.com,newsobserver.com,sacbee.com,sunherald.com,thenewstribune.com,thestate.com,tri-cityherald.com##.zone
+! clutchpoints.com
+clutchpoints.com##.cafemedia-clutchpoints-header
+! nba.com
+nba.com##[data-ad-type="banner"]
+! si.com
+si.com##.m-balloon-header--ad
+si.com##.m-sidebar-ad
+si.com##[data-ad-group]
+! digitaltrends.com
+digitaltrends.com##.dt-primis
+! mmanews.com / athlonsports.com
+##.m-sidebar-ad--slot
+##.m-header-ad
+##.m-sidebar-ad
+##.m-in-content-ad-row
+##.m-in-content-ad
+! sherdog.com
+sherdog.com##.top_ads
+sherdog.com###adViAi
+sherdog.com##.ads
+! ndtv.com
+ndtv.com##.add-wrp
+ndtv.com##.ads_tb-c
+ndtv.com##.add__wrp
+ndtv.com##.mastheadwrap
+ndtv.com###taboola-below-article-thumbnails
+ndtv.com##.adcont
+ndtv.com###jads
+! .insticator-ads
+##.insticator-ads
+! .ad
+usnews.com,skynews.com.au,flightglobal.com,foxweather.com,foxnews.com,foxbusiness.com,politico.com,autoevolution.com,wired.com,arstechnica.com,bleacherreport.com,newsday.com,barchart.com,barstoolsports.com,ktbs.com,time.com,seattletimes.com,nj.com##.ad
+! nj.com,nationalreview.com,oregonlive.com,thehill.com,tomsguide.com,tomshardware.com,space.com,pcgamer.com
+##.ad-unit
+! .ad-container
+tmz.com,sportskeeda.com,outkick.com,seattletimes.com,uploadvr.com,newyorker.com,foxweather.com,foxnews.com,foxbusiness.com##.ad-container
+! kdhnews.com,oanow.com,tucson.com
+##.tnt-ads-container
+##.tnt-ads
+! wamu.org
+##.ad-header-pencil
+! ksl.com
+##.leaderboard_ad
+! kokomotribune.com,goshennews.com
+###floorboard_block
+! cbc.ca
+cbc.ca##.ad-risingstar-container
+! tmz.com
+tmz.com###ad-header
+! nbcsports.com
+nbcsports.com###nbcsports-leaderboard
+! thoroughbreddailynews.com
+thoroughbreddailynews.com##.header-ad
+! paulickreport.com
+paulickreport.com##.s-teleaderboard-ad
+! sportskeeda.com
+sportskeeda.com##.primis-container
+! .ad-block
+bloodhorse.com,racingdudes.com##.ad-block
+! espn.com
+espn.com##.ad-center
+! courthousenews.com
+courthousenews.com##.ad-banner
+! nasdaq.com
+nasdaq.com##.taboola-placeholder
+nasdaq.com##.ads__inline
+nasdaq.com##.ads-placeholder
+nasdaq.com##.header-ads
+! thebodylockmma.com
+thebodylockmma.com##.adthrive-ad
+! bloodyelbow.com
+bloodyelbow.com##.snackStickyParent
+bloodyelbow.com##.c-inblog_ad
+! channelnewsasia.com
+channelnewsasia.com##.programtic-ads
+channelnewsasia.com##.block-ad-entity
+! express.co.uk
+express.co.uk##.taboola-above-article
+express.co.uk###div-gpt-ad-right-hand-slot
+express.co.u###div-gpt-ad-vip
+express.co.uk###ovp-primis
+express.co.uk###taboola-mid-article-thumbnails-outstream
+express.co.uk##.viafoura-standalone-mpu
+! hindustantimes.com
+hindustantimes.com##.desktopAd
+hindustantimes.com##.right-top-ad
+hindustantimes.com##.storyAd
+hindustantimes.com##.adHeight313
+hindustantimes.com##.adHeight270
+hindustantimes.com##.adMinHeight313
 ! dailymail.co.uk
 dailymail.co.uk##.billboard-container
 dailymail.co.uk##.mpu_puff_wrapper
@@ -42,10 +139,8 @@ huffpost.com##.top-ad-recirc
 huffpost.com##.bottom-right-sticky-container
 huffpost.com##.entry__right-rail-width-placeholder
 ! outkick.com
-outkick.com##.ad-container
 outkick.com##.g1-advertisement
 ! barstoolsports.com
-barstoolsports.com##.ad
 barstoolsports.com##.htl-ad__container
 ! spotim comment ad (huffpost.com/barstoolsports.com)
 ##.ads__index__adWrapper--tL6D_
@@ -62,7 +157,6 @@ odishatv.in##.otv-300-250-ad
 odishatv.in##.otv-970-250-ad
 ! ktbs.com
 ktbs.com##.dfp-ad
-ktbs.com##.ad
 ! kfdm.com
 kfdm.com##.index-module_adBeforeContent__UYZT
 kfdm.com###interstory_first_ddb_0
@@ -85,8 +179,6 @@ wsmv.com##.arc-ad
 ! dallasnews.com
 dallasnews.com##.htlad-dfpTop
 dallasnews.com##.htlad-dfpPosition1_article
-! time.com
-time.com##.ad
 ! vanityfair.com
 vanityfair.com##.ad-stickyhero
 ! newsweek.com
@@ -95,19 +187,19 @@ newsweek.com###right1ad
 ! dcist.com
 dcist.com##.advertisement-information-link
 ! seattletimes.com
-seattletimes.com##.ad-container
-seattletimes.com##.ad
 seattletimes.com##[data-zone="Sponsored"]
 ! weather.com
 weather.com##[title="Sponsored Content"]
 ! nj.com
 nj.com##.below-toprail
 nj.com##.rightRail-top-wrapper
-nj.com##.ad
 nj.com##.revenue-display
-nj.com##.ad-unit
 ! usatoday.com / abcnews.go.com
 ##[data-testid="prism-ad-wrapper"]
+##[aria-label="advertisement"]
+###ad--article-top-wrapper
+###ad--sidebar
+##.listicle-instream-ad-holder
 ! wionews.com
 wionews.com##.ads-box-300x300
 ! patch.com
@@ -116,7 +208,6 @@ patch.com##.js-ad
 anandtech.com###side_ad
 anandtech.com##.header_ad
 ! nationalreview.com
-nationalreview.com##.ad-unit
 nationalreview.com##.article-connatix-wrap
 nationalreview.com##.ad-skeleton
 ! pagesix.com
@@ -181,13 +272,10 @@ nationalgeographic.com##.ad-wrapper
 nationalgeographic.com##.InsertedAd
 ! rollingstone.com
 rollingstone.com##.adma
-! uploadvr.com
-uploadvr.com##.ad-container
 ! venturebeat.com
 venturebeat.com##.adslot
 venturebeat.com##.tude-cw-wrap
 ! newyorker.com
-newyorker.com##.ad-container
 newyorker.com##.should-hold-space
 ! newatlas.com
 newatlas.com##.OcelotAdModule
@@ -237,14 +325,12 @@ investing.com###ad1
 investing.com###ad3
 investing.com##.wideTopBanner
 ! usnews.com
-usnews.com##.ad
 usnews.com###bfad-slot
 usnews.com##.InartAd__FirstInartAdWrapper-sc-8wv8ky-0
 usnews.com##.Ad__Container-sc-1ah7c5n-0
 usnews.com##.ad-spacer__AdSpacer-sc-nwg9sv-0
 ! skynews.com.au
 skynews.com.au##.header_ads-container
-skynews.com.au##.ad
 ! examiner.com.au..
 examiner.com.au,canberratimes.com.au,theadvocate.com.au,thecourier.com.au,bordermail.com.au###billboard-container
 examiner.com.au,canberratimes.com.au,theadvocate.com.au,thecourier.com.au,bordermail.com.au##.bg-gray-100
@@ -280,14 +366,10 @@ forexlive.com##.top-forex-brokers__wrapper
 ! fxempire.com
 fxempire.com##.ddAwpw
 fxempire.com##.gAruxy
-! flightglobal.com
-flightglobal.com##.ad
 ! simpleflying.com
 simpleflying.com##.adsninja-ad-zone
 ! foxnews
 foxweather.com,foxnews.com,foxbusiness.com##.advert-txt
-foxweather.com,foxnews.com,foxbusiness.com##.ad
-foxweather.com,foxnews.com,foxbusiness.com##.ad-container
 ! marketwatch.com
 marketwatch.com##.element--ad
 ! gameshub.com
@@ -310,9 +392,6 @@ economist.com##.adComponent_advert__V79Pp
 oregonlive.com##.below-toprail
 oregonlive.com##.rightRail-top-wrapper
 oregonlive.com###rightRail-Bottom-300xFlex
-oregonlive.com##.ad-unit
-! politico.com
-politico.com##.ad
 ! petapixel.com
 petapixel.com##.banners
 petapixel.com##.instream_ad
@@ -323,17 +402,12 @@ hawaiinewsnow.com##.arc-ad-wrapper
 ! nature.com
 nature.com##.u-lazy-ad-wrapper
 ! autoevolution.com
-autoevolution.com##.ad
 autoevolution.com##.ad300x600
 autoevolution.com##.bgcutgrad
 ! thehill.com
-thehill.com##.ad-unit
-! wired.com
-wired.com##.ad
 ! androidcentral.com,pcgamer.com,space.com
 ##.dfp-leaderboard-container
 ! tomsguide.com,tomshardware.com,space.com,pcgamer.com 
-tomsguide.com,tomshardware.com,space.com,pcgamer.com##.ad-unit
 !
 ||ads-api.twitter.com^
 !
