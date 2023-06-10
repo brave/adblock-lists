@@ -10,13 +10,81 @@ the-scientist.com###Torpedo
 ! arstechnica.com
 arstechnica.com##.ad_xrail
 arstechnica.com##.ad_crown
+arstechnica.com##.ad_fullwidth
 arstechnica.com##.ad
 arstechnica.com##.ad_wrapper
+! dailymail.co.uk
+dailymail.co.uk##.billboard-container
+dailymail.co.uk##.mpu_puff_wrapper
+dailymail.co.uk##.connatix-wrapper
 ! gizmodo.com,jalopnik.com
 ##.js_sticky-top-ad
 ! businessinsider.com,insider.com
 businessinsider.com,insider.com##.l-ad
 businessinsider.com,insider.com##.in-post-sticky
+businessinsider.com,insider.com##.subnav-ad-position-sticky
+! thedailybeast.com
+thedailybeast.com##.SimpleAd
+thedailybeast.com##.PageTopAd
+thedailybeast.com##.AdSlot
+thedailybeast.com##.FooterAd
+thedailybeast.com##.ConnatixAd
+! local10.com
+local10.com##.topWrapper
+! fivethirtyeight.com
+fivethirtyeight.com##.master-ad
+! chron.com
+chron.com,mysanantonio.com##.adModule
+chron.com,mysanantonio.com##[aria-label*="Advertisement"]
+! kfdm.com
+kfdm.com##.index-module_adBeforeContent__UYZT
+kfdm.com###interstory_first_ddb_0
+kfdm.com###rightrail_pos1_ddb_0
+! houstonchronicle.com
+houstonchronicle.com##.belowMastheadWrapper
+! austinchronicle.com
+austinchronicle.com###top-leaderboard
+austinchronicle.com##.ad-right
+! click2houston.com
+click2houston.com##.topWrapper
+! texastribune.org
+texastribune.org##.js-ad-unit
+! salon.com
+salon.com##.sidebar_ad
+salon.com##.banner_ad_between_sections
+salon.com##.outer-ad-unit-wrapper
+! wsmv.com
+wsmv.com##.arc-ad
+! dallasnews.com
+dallasnews.com##.htlad-dfpTop
+dallasnews.com##.htlad-dfpPosition1_article
+! time.com
+time.com##.ad
+! vanityfair.com
+vanityfair.com##.ad-stickyhero
+! newsweek.com
+newsweek.com###topad
+newsweek.com###right1ad
+! dcist.com
+dcist.com##.advertisement-information-link
+! seattletimes.com
+seattletimes.com##.ad-container
+seattletimes.com##.ad
+seattletimes.com##[data-zone="Sponsored"]
+! weather.com
+weather.com##[title="Sponsored Content"]
+! nj.com
+nj.com##.below-toprail
+nj.com##.rightRail-top-wrapper
+nj.com##.ad
+nj.com##.revenue-display
+nj.com##.ad-unit
+! usatoday.com / abcnews.go.com
+##[data-testid="prism-ad-wrapper"]
+! wionews.com
+wionews.com##.ads-box-300x300
+! patch.com
+patch.com##.js-ad
 ! anandtech.com
 anandtech.com###side_ad
 anandtech.com##.header_ad
@@ -25,8 +93,8 @@ nationalreview.com##.ad-unit
 nationalreview.com##.article-connatix-wrap
 nationalreview.com##.ad-skeleton
 ! pagesix.com
-pagesix.com##.recirc
-pagesix.com##.billboard-ad
+pagesix.com,nypost.com###.recirc
+pagesix.com,nypost.com###.billboard-ad
 ! screenrant.com
 screenrant.com##.adsninja-ad-zone
 ! vice.com
