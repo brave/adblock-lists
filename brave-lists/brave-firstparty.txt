@@ -13,6 +13,105 @@ arstechnica.com##.ad_crown
 arstechnica.com##.ad_fullwidth
 arstechnica.com##.ad
 arstechnica.com##.ad_wrapper
+! nytimes.com
+nytimes.com##.css-bs95eu
+! cnbc.com
+cnbc.com##.TopBanner-container
+! people.com
+people.com##.mntl-leaderboard-header
+! .zone
+bellinghamherald.com,charlotteobserver.com,fresnobee.com,heraldonline.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,modbee.com,newsobserver.com,sacbee.com,sunherald.com,thenewstribune.com,thestate.com,tri-cityherald.com##.zone
+! clutchpoints.com
+clutchpoints.com##.cafemedia-clutchpoints-header
+! nba.com
+nba.com##[data-ad-type="banner"]
+! si.com
+si.com##.m-balloon-header--ad
+si.com##.m-sidebar-ad
+si.com##[data-ad-group]
+! bleacherreport.com
+bleacherreport.com##.ad
+! digitaltrends.com
+digitaltrends.com##.dt-primis
+! mmanews.com / athlonsports.com
+##.m-sidebar-ad--slot
+##.m-header-ad
+##.m-sidebar-ad
+##.m-in-content-ad-row
+##.m-in-content-ad
+! sherdog.com
+sherdog.com##.top_ads
+sherdog.com###adViAi
+sherdog.com##.ads
+sherdog.com##.insticator-ads
+! ndtv.com
+ndtv.com##.add-wrp
+ndtv.com##.ads_tb-c
+ndtv.com##.add__wrp
+ndtv.com##.mastheadwrap
+ndtv.com###taboola-below-article-thumbnails
+ndtv.com##.adcont
+ndtv.com###jads
+! kdhnews.com,oanow.com,tucson.com
+##.tnt-ads-container
+##.tnt-ads
+! wamu.org
+##.ad-header-pencil
+! ksl.com
+##.leaderboard_ad
+! kokomotribune.com,goshennews.com
+###floorboard_block
+! cbc.ca
+cbc.ca##.ad-risingstar-container
+! tmz.com
+tmz.com###ad-header
+tmz.com##.ad-container
+! nbcsports.com
+nbcsports.com###nbcsports-leaderboard
+! thoroughbreddailynews.com
+thoroughbreddailynews.com##.header-ad
+! paulickreport.com
+paulickreport.com##.s-teleaderboard-ad
+! newsday.com
+newsday.com##.ad
+! sportskeeda.com
+sportskeeda.com##.primis-container
+sportskeeda.com##.ad-container
+! .ad-block
+bloodhorse.com,racingdudes.com##.ad-block
+! espn.com
+espn.com##.ad-center
+! barchart.com
+barchart.com##.ad
+! courthousenews.com
+courthousenews.com##.ad-banner
+! nasdaq.com
+nasdaq.com##.taboola-placeholder
+nasdaq.com##.ads__inline
+nasdaq.com##.ads-placeholder
+nasdaq.com##.header-ads
+! thebodylockmma.com
+thebodylockmma.com##.adthrive-ad
+! bloodyelbow.com
+bloodyelbow.com##.snackStickyParent
+bloodyelbow.com##.c-inblog_ad
+! channelnewsasia.com
+channelnewsasia.com##.programtic-ads
+channelnewsasia.com##.block-ad-entity
+! express.co.uk
+express.co.uk##.taboola-above-article
+express.co.uk###div-gpt-ad-right-hand-slot
+express.co.u###div-gpt-ad-vip
+express.co.uk###ovp-primis
+express.co.uk###taboola-mid-article-thumbnails-outstream
+express.co.uk##.viafoura-standalone-mpu
+! hindustantimes.com
+hindustantimes.com##.desktopAd
+hindustantimes.com##.right-top-ad
+hindustantimes.com##.storyAd
+hindustantimes.com##.adHeight313
+hindustantimes.com##.adHeight270
+hindustantimes.com##.adMinHeight313
 ! dailymail.co.uk
 dailymail.co.uk##.billboard-container
 dailymail.co.uk##.mpu_puff_wrapper
@@ -108,6 +207,11 @@ nj.com##.revenue-display
 nj.com##.ad-unit
 ! usatoday.com / abcnews.go.com
 ##[data-testid="prism-ad-wrapper"]
+##[aria-label="advertisement"]
+! usatoday.com
+usatoday.com###ad--article-top-wrapper
+usatoday.com###ad--sidebar
+usatoday.com##.listicle-instream-ad-holder
 ! wionews.com
 wionews.com##.ads-box-300x300
 ! patch.com
