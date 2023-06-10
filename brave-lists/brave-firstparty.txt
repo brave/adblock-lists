@@ -36,6 +36,33 @@ fivethirtyeight.com##.master-ad
 ! chron.com
 chron.com,mysanantonio.com##.adModule
 chron.com,mysanantonio.com##[aria-label*="Advertisement"]
+! huffpost.com
+huffingtonpost.es##[data-adtype]
+huffpost.com##.top-ad-recirc
+huffpost.com##[class^="ads__index__adWrapper-"]
+huffpost.com##.bottom-right-sticky-container
+huffpost.com##.entry__right-rail-width-placeholder
+! outkick.com
+outkick.com##.ad-container
+outkick.com##.g1-advertisement
+! barstoolsports.com
+##.ads__index__adWrapper--tL6D_
+barstoolsports.com##.ad
+barstoolsports.com##.htl-ad__container
+! syfy.com
+syfy.com##.zergnet-widget__header
+! metro.co.uk
+metro.co.uk###mpu_bottom
+metro.co.uk##.ad-slot-large
+metro.co.uk##.ad-slot-container
+metro.co.uk##.ji-ad-slot-mpu
+metro.co.uk##.ad-slot
+! odishatv.in
+odishatv.in##.otv-300-250-ad
+odishatv.in##.otv-970-250-ad
+! ktbs.com
+ktbs.com##.dfp-ad
+ktbs.com##.ad
 ! kfdm.com
 kfdm.com##.index-module_adBeforeContent__UYZT
 kfdm.com###interstory_first_ddb_0
