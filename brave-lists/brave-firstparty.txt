@@ -39,16 +39,16 @@ chron.com,mysanantonio.com##[aria-label*="Advertisement"]
 ! huffpost.com
 huffingtonpost.es##[data-adtype]
 huffpost.com##.top-ad-recirc
-huffpost.com##[class^="ads__index__adWrapper-"]
 huffpost.com##.bottom-right-sticky-container
 huffpost.com##.entry__right-rail-width-placeholder
 ! outkick.com
 outkick.com##.ad-container
 outkick.com##.g1-advertisement
 ! barstoolsports.com
-##.ads__index__adWrapper--tL6D_
 barstoolsports.com##.ad
 barstoolsports.com##.htl-ad__container
+! spotim comment ad (huffpost.com/barstoolsports.com)
+##.ads__index__adWrapper--tL6D_
 ! syfy.com
 syfy.com##.zergnet-widget__header
 ! metro.co.uk
