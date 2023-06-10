@@ -162,7 +162,7 @@ theroar.com.au##.pm-ad-unit
 ! sportstar.thehindu.com
 sportstar.thehindu.com##.ad-section
 ! theage.com.au,smh.com.au
-theage.com.au,smh.com.au##.adWrapper
+theage.com.au,smh.com.au,watoday.com.au,brisbanetimes.com.au##.adWrapper
 ! worldtestchampionship.com
 worldtestchampionship.com##.mobile-banner
 ! 7news.com.au
