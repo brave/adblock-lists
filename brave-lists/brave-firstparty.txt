@@ -9,6 +9,7 @@ the-scientist.com##.footer-ad
 the-scientist.com###Torpedo
 ! arstechnica.com
 arstechnica.com##.ad_xrail
+arstechnica.com##.ad_crown
 arstechnica.com##.ad
 arstechnica.com##.ad_wrapper
 ! gizmodo.com,jalopnik.com
@@ -53,6 +54,10 @@ slate.com##.slate-ad
 ! thedrive.com
 thedrive.com##.mtc-header__desktop__article-prefill-container
 ! yahoo.com
+yahoo.com###sda-MAST
+yahoo.com##.viewer-sda-container
+yahoo.com###sda-LDRB2
+yahoo.com##.native-ad-item
 yahoo.com##.darla-container
 yahoo.com##.darla
 yahoo.com##.viewer-sda-container
@@ -135,6 +140,55 @@ investing.com##.im-ad-visible
 investing.com###ad2
 investing.com###ad1
 investing.com###ad3
+investing.com##.wideTopBanner
+! usnews.com
+usnews.com##.ad
+usnews.com###bfad-slot
+usnews.com##.InartAd__FirstInartAdWrapper-sc-8wv8ky-0
+usnews.com##.Ad__Container-sc-1ah7c5n-0
+usnews.com##.ad-spacer__AdSpacer-sc-nwg9sv-0
+! skynews.com.au
+skynews.com.au##.header_ads-container
+skynews.com.au##.ad
+! examiner.com.au..
+examiner.com.au,canberratimes.com.au,theadvocate.com.au,thecourier.com.au,bordermail.com.au###billboard-container
+examiner.com.au,canberratimes.com.au,theadvocate.com.au,thecourier.com.au,bordermail.com.au##.bg-gray-100
+! perthnow.com.au
+perthnow.com.au##.ad-article-mrec-one
+perthnow.com.au##.ad-sidebar-top
+! theroar.com.au
+theroar.com.au##.fuse-slot
+theroar.com.au##.pm-ad-unit
+! sportstar.thehindu.com
+sportstar.thehindu.com##.ad-section
+! theage.com.au,smh.com.au
+theage.com.au,smh.com.au##.adWrapper
+! worldtestchampionship.com
+worldtestchampionship.com##.mobile-banner
+! 7news.com.au
+7news.com.au##.ad-no-notice
+! sports.ndtv.com
+sports.ndtv.com##.ad-cnt
+sports.ndtv.com##.add-wrp
+! afr.com
+afr.com##.adWrapper
+! france24.com
+france24.com##.o-ad-container
+france24.com##.m-interstitial
+! timesofisrael.com
+timesofisrael.com##.banner-placeholder
+! dailyfx.com
+dailyfx.com##.dfx-adBlock1Wrapper
+! forexlive.com
+forexlive.com##.page-wrap__top-banner
+forexlive.com##.top-forex-brokers__wrapper
+! fxempire.com
+fxempire.com##.ddAwpw
+fxempire.com##.gAruxy
+! flightglobal.com
+flightglobal.com##.ad
+! simpleflying.com
+simpleflying.com##.adsninja-ad-zone
 ! foxnews
 foxweather.com,foxnews.com,foxbusiness.com##.advert-txt
 foxweather.com,foxnews.com,foxbusiness.com##.ad
@@ -146,6 +200,13 @@ gameshub.com##.ads-slot
 ! mashable.com
 mashable.com###sidebar-1
 mashable.com###sidebar-2
+mashable.com###top-1
+mashable.com###main-1
+mashable.com###footer-1
+mashable.com##.zmgad-full-width
+! marketscreener.com
+marketscreener.com###zppMiddle2
+marketscreener.com###zppRight2
 ! reddit.com
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.promotedlink
 ! economist.com
