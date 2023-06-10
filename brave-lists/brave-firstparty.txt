@@ -51,7 +51,7 @@ ndtv.com###jads
 ! .insticator-ads
 ##.insticator-ads
 ! .ad
-usnews.com,skynews.com.au,flightglobal.com,foxweather.com,foxnews.com,foxbusiness.com,politico.com,autoevolution.com,wired.com,arstechnica.com,bleacherreport.com,newsday.com,barchart.com,barstoolsports.com,ktbs.com,time.com,seattletimes.com,nj.com##.ad
+vanityfair.com,usnews.com,skynews.com.au,flightglobal.com,foxweather.com,foxnews.com,foxbusiness.com,politico.com,autoevolution.com,wired.com,arstechnica.com,bleacherreport.com,newsday.com,barchart.com,barstoolsports.com,ktbs.com,time.com,seattletimes.com,nj.com##.ad
 ! nj.com,nationalreview.com,oregonlive.com,thehill.com,tomsguide.com,tomshardware.com,space.com,pcgamer.com
 ##.ad-unit
 ! .ad-container
@@ -65,6 +65,8 @@ tmz.com,sportskeeda.com,outkick.com,seattletimes.com,uploadvr.com,newyorker.com,
 ##.leaderboard_ad
 ! kokomotribune.com,goshennews.com
 ###floorboard_block
+! hawaiinewsnow.com
+##.arc-ad-wrapper
 ! cbc.ca
 cbc.ca##.ad-risingstar-container
 ! tmz.com
@@ -158,6 +160,8 @@ odishatv.in##.otv-970-250-ad
 ! ktbs.com
 ktbs.com##.dfp-ad
 ! kfdm.com
+kfdm.com###premium_ddb_0
+kfdm.com##.sd-container
 kfdm.com##.index-module_adBeforeContent__UYZT
 kfdm.com###interstory_first_ddb_0
 kfdm.com###rightrail_pos1_ddb_0
@@ -210,6 +214,8 @@ anandtech.com##.header_ad
 ! nationalreview.com
 nationalreview.com##.article-connatix-wrap
 nationalreview.com##.ad-skeleton
+nationalreview.com##.aniview-inline-player
+nationalreview.com##.revcontent-wrap
 ! pagesix.com
 pagesix.com,nypost.com###.recirc
 pagesix.com,nypost.com###.billboard-ad
@@ -284,6 +290,7 @@ newatlas.com###desktop_article_2
 newatlas.com###desktop_article_3
 newatlas.com###taboola-below-article-thumbnails
 ! washingtonpost.com
+washingtonpost.com###leaderboard-overlay
 washingtonpost.com##.border-box.dn-hp-sm-to-mx
 washingtonpost.com##.border-box.dn-hp-xs
 washingtonpost.com##.pb-sm.pt-sm.b
@@ -317,6 +324,7 @@ beincrypto.com##.ad-wrapper
 beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com,insidebitcoins.com##[class*="clickout-"]
 ! streetinsider.com
 streetinsider.com##.im-ad
+streetinsider.com###bottom_ad_fixed
 ! investing.com
 investing.com##.dfpAdUnitContainer
 investing.com##.im-ad-visible
@@ -348,14 +356,17 @@ theage.com.au,smh.com.au,watoday.com.au,brisbanetimes.com.au##.adWrapper
 worldtestchampionship.com##.mobile-banner
 ! 7news.com.au
 7news.com.au##.ad-no-notice
+7news.com.au###taboola-mid-article-thumbnails
 ! sports.ndtv.com
 sports.ndtv.com##.ad-cnt
 sports.ndtv.com##.add-wrp
 ! afr.com
 afr.com##.adWrapper
+afr.com###stickyLeaderboard
 ! france24.com
 france24.com##.o-ad-container
 france24.com##.m-interstitial
+france24.com##.m-block-ad
 ! timesofisrael.com
 timesofisrael.com##.banner-placeholder
 ! dailyfx.com
@@ -366,15 +377,18 @@ forexlive.com##.top-forex-brokers__wrapper
 ! fxempire.com
 fxempire.com##.ddAwpw
 fxempire.com##.gAruxy
+fxempire.com##[data-cy="article-ad"]
 ! simpleflying.com
 simpleflying.com##.adsninja-ad-zone
 ! foxnews
 foxweather.com,foxnews.com,foxbusiness.com##.advert-txt
 ! marketwatch.com
 marketwatch.com##.element--ad
+marketwatch.com##.sponsored-content
 ! gameshub.com
 gameshub.com##.ads-slot
 ! mashable.com
+mashable.com##[data-pogo="top"]
 mashable.com###sidebar-1
 mashable.com###sidebar-2
 mashable.com###top-1
@@ -397,8 +411,6 @@ petapixel.com##.banners
 petapixel.com##.instream_ad
 ! cbsnews.com
 cbsnews.com##.top-ad-container
-! hawaiinewsnow.com
-hawaiinewsnow.com##.arc-ad-wrapper
 ! nature.com
 nature.com##.u-lazy-ad-wrapper
 ! autoevolution.com
@@ -407,7 +419,6 @@ autoevolution.com##.bgcutgrad
 ! thehill.com
 ! androidcentral.com,pcgamer.com,space.com
 ##.dfp-leaderboard-container
-! tomsguide.com,tomshardware.com,space.com,pcgamer.com 
 !
 ||ads-api.twitter.com^
 !
