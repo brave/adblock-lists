@@ -858,6 +858,9 @@ blockadblock.com##+js(nobab)
 ! *#@#div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
 ! Anti-adblock kbizoom.com
 mylivewallpapers.com,nsw2u.com,kbizoom.com##div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
+! thequint.com Anti-adblock (address thequint.com#@#span:has-text(ADVERTISEMENT))
+! Also other generic exceptions
+@@||thequint.com^$ghide
 ! Blank spaces aftonbladet.se (:upward)
 aftonbladet.se##.css-4thb3o
 aftonbladet.se##.css-1d3w5wq
