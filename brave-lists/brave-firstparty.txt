@@ -481,6 +481,10 @@ autoevolution.com##.bgcutgrad
 mail.google.com##.nH.PS
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
 ||mail-ads.google.com^
+! searchengineland.com
+##[id^="div-gpt-ad"]
+##div[id^="div-gpt-"]
+/gpt.js$script
 ! stoodnt.com
 stoodnt.com##.boxzilla-center-container
 stoodnt.com##.boxzilla-overlay
