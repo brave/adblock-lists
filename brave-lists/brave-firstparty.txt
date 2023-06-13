@@ -1,6 +1,9 @@
 ! Firstparty specific filters
 ! Ads
 !
+! Generic blocks
+/adservice.$from=~adservice.io|~github.com|~githubusercontent.com
+!
 ! the-scientist.com
 the-scientist.com##.advertisement
 the-scientist.com###preHeader
@@ -424,10 +427,29 @@ autoevolution.com##.bgcutgrad
 !
 ! Trackers
 !
+!
+/b/ss/*/js-
+/ruxitagentjs_
+/events/analytics/*
+/cls_report?
+/reporting/metrics
+/s.gif?
+/analytics-dotcom/*
+/optmzly/*
+/akam/13/*
+/appmeasurement.min.js
+/appmeasurement_module_
+/smetrics.*/b/ss/*
+/smetrics.*/id?
+/transparent.gif?ray=
+/analytics_www.
+/analytics_wbc.
+!
 ! Fingerprinting scripts (Threatmetrix)
 /fp-3.3.6.min.js
 /fp/check.js
 /fp/clear.png
+/sendLogs?cid=
 /fp/clear1.png
 /fp/clear2.png
 /fp/clear3.png
@@ -446,6 +468,15 @@ autoevolution.com##.bgcutgrad
 /fpTracker/*
 /fptrk.min.js
 /fpv2.js
+! wellsfargo.com
+||wellsfargo.com/dti_apg/
+||wellsfargo.com/aido/
+||wellsfargo.com/pido/
+||wellsfargo.com/jenny/
+! digital.bankaust.com.au
+||dii.bankaust.com.au^
+! westpac.com.au
+||smetrics.westpac.com.au^
 ! Twitter
 ||twitter.com/1.1/attribution
 ||twitter.com/1.1/jot
@@ -474,6 +505,7 @@ autoevolution.com##.bgcutgrad
 ||t.dailymail.co.uk^
 ! Google Tracking
 ||google.com/dssw.js
+||google.com/gen_204?
 ||google.com/images/phd/px.gif
 ||google.com/log?
 ||news.google.com/_/v
