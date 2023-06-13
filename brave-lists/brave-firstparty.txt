@@ -4,6 +4,26 @@
 ! Generic blocks
 /adservice.$from=~adservice.io|~github.com|~githubusercontent.com
 !
+! ezoic ads
+##.ezo_ad
+##.ezoic-ad
+##.ezoic-ad-adaptive
+##.ezoic-floating-bottom
+##.tmo-ad
+##.tmo-ad-ezoic
+##div[id^="ezoic-pub-ad-"]
+##span[id^="ezoic-pub-ad-placeholder-"]
+! Gannett https://github.com/easylist/easylist/issues/13015
+###gnt_atomsnc
+##.gnt_flp
+##.gnt_rr_xpst
+##.gnt_rr_xst
+##.gnt_tb.gnt_tbb
+##.gnt_tbr.gnt_tb
+##.gnt_x
+! Mgid
+##div[id*="MarketGid"]
+##div[id*="ScriptRoot"]
 ! the-scientist.com
 the-scientist.com##.advertisement
 the-scientist.com###preHeader
