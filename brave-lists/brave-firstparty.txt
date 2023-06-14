@@ -464,6 +464,8 @@ autoevolution.com##.bgcutgrad
 /transparent.gif?ray=
 /analytics_www.
 /analytics_wbc.
+/wa.gif?
+/id?d_visid_
 !
 ! Fingerprinting scripts (Threatmetrix)
 /fp-3.3.6.min.js
@@ -581,6 +583,41 @@ stoodnt.com##.boxzilla-overlay
 ||reddit.com/static/pixel.png$image
 ||reddit.com/timings/
 ||w3-reporting.reddit.com^
+! hotels.com
+/2x2.gif?$image
+/1x1.gif?
+/uisprime/track
+/egcs/v2/collect
+/uisprime/track
+||hotels.com/api/bucketing/v1/evaluateexperimentsandlog
+! airbnb
+_event_tracking?
+/tracking/airdog
+/tracking/jitney/*
+! delta
+||delta.com/datacollect
+||tms.delta.com/privacy/$image
+/e.gif?
+! southwest.com
+/__imp_apg__/*
+! booking.com
+/js_tracking?
+||booking.com/c360/v1/track
+||booking.com/navigation_times
+||booking.com/logo?
+! tripadvisor.
+||tripadvisor.*/wm/record
+||tripadvisor.*/GARecord
+/cookiepingback?
+! uber.com
+||uber.com/_track
+||uber.com/_events
+! skyscanner
+||skyscanner.*/slipstream/view
+/api/v2/collector
+! etsy.com
+||etsy.com/bcn/beacon
+/public/statsd
 ! Nytimes
 ||a-reporting.nytimes.com^
 ||als-svc.nytimes.com^
