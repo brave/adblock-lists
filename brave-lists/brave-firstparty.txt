@@ -466,6 +466,8 @@ autoevolution.com##.bgcutgrad
 /analytics_wbc.
 /wa.gif?
 /id?d_visid_
+/comscore_beacon/*
+/perf-vitals_
 !
 ! Fingerprinting scripts (Threatmetrix)
 /fp-3.3.6.min.js
@@ -590,6 +592,19 @@ stoodnt.com##.boxzilla-overlay
 /egcs/v2/collect
 /uisprime/track
 ||hotels.com/api/bucketing/v1/evaluateexperimentsandlog
+! mail.yahoo.com
+/log?count=
+/curveball/ads/*
+||jill.fc.yahoo.com^
+||beap.gemini.yahoo.com^
+||geo.yahoo.com^
+||mail.yahoo.com/f/track/
+||bats.video.yahoo.com^
+||yahoo.com/pdarla/
+! www.yahoo.com
+/p.gif?
+||analytics.yahoo.com^
+||yahoo.com/_td_api/beacon/
 ! airbnb
 _event_tracking?
 /tracking/airdog
