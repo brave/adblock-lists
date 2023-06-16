@@ -11,6 +11,7 @@
 ##.ezoic-floating-bottom
 ##.tmo-ad
 ##.tmo-ad-ezoic
+##.top-banner-advert
 ##div[id^="ezoic-pub-ad-"]
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ! Gannett https://github.com/easylist/easylist/issues/13015
@@ -458,6 +459,7 @@ autoevolution.com##.bgcutgrad
 /optmzly/*
 /akam/13/*
 /appmeasurement.min.js
+/cdn-cgi/apps/head/*$script,first-party
 /appmeasurement_module_
 /smetrics.*/b/ss/*
 /smetrics.*/id?
