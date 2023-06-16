@@ -617,6 +617,15 @@ _event_tracking?
 /e.gif?
 ! southwest.com
 /__imp_apg__/*
+! homedepot.com
+||swasc.homedepot.com^
+! ebay.com
+/roverclk/*
+/roverimp/*
+/v1/ads/*
+/dfpsvc?
+||ebay.com/scl/js/scandalloader.js
+||pages.ebay.com/identity/device/$subdocument
 ! booking.com
 /js_tracking?
 ||booking.com/c360/v1/track
