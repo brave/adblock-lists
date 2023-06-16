@@ -89,6 +89,7 @@
     },
     {
         "include": [
+            "*://hbr.org/*",
             "*://techcrunch.com/*"
         ],
         "exclude": [
