@@ -607,6 +607,64 @@ stoodnt.com##.boxzilla-overlay
 /p.gif?
 ||analytics.yahoo.com^
 ||yahoo.com/_td_api/beacon/
+! mail.yahoo.com
+/log?count=
+/px.gif?
+||beap.gemini.yahoo.com^
+! wccftech.com
+||wccftech.com/cnt7vfdvvwa3.js
+! apnews.com
+/newrelic.browser.
+! newatlas.com
+/bsp-analytics.
+/brightspot/analytics/*
+! nypost.com
+||t.nypost.com^
+/blaize/datalayer
+! usatoday.com
+/dcjs/prod/*
+! thehill.com
+://blue.*/script.js
+! thoroughbreddailynews.com
+/www/delivery/*
+! nbcsports.com
+||geo.nbcsports.com^
+! golfchannel.com
+/appmeasurement.js
+! businessinsider.com
+/t.gif?
+! espn.com
+||dcf.espn.com/privacy/
+! local10.com
+/dg/default/rest/*
+! ktbs.com
+/tncms/tracking.js
+/art/stats/*
+! kfdm.com
+/rest/analytics/*
+! houstonchronicle.com
+/hnpprivacy-min.
+! newsweek.com
+||gc.newsweek.com/front/js/counter.js
+! weather.com
+/eventproxy/track
+||mparticle.weather.com/identity/
+! nzherald.co.nz
+/newrelic.js
+! stuff.co.nz
+/adnostic/*
+||stuff.co.nz/static/stuff-adfliction/
+! patch.com
+||pixel.patch.com^
+! screenrant.com
+/valnet-header.
+/strpixel.png?
+! yahoo.com
+/px.gif?
+/p.gif?
+||analytics.yahoo.com^
+||geo.yahoo.com^
+||yahoo.com/_td_api/beacon/
 ! airbnb
 _event_tracking?
 /tracking/airdog
