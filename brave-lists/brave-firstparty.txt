@@ -12,6 +12,16 @@
 ##.tmo-ad
 ##.tmo-ad-ezoic
 ##.top-banner-advert
+##.collapsed-ad
+##.ad-top-banner
+##.ad-mobile-dynamic
+##.ad-mobile
+##.ad-left-top
+###leftrail_dynamic_ad_wrapper
+###splashy-ad-container-top
+###taboola-below-article-thumbnails
+##.js_desktop-horizontal-ad
+##.js_related-stories-inset
 ##div[id^="ezoic-pub-ad-"]
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ! Gannett https://github.com/easylist/easylist/issues/13015
@@ -687,6 +697,11 @@ _event_tracking?
 /dfpsvc?
 ||ebay.com/scl/js/scandalloader.js
 ||pages.ebay.com/identity/device/$subdocument
+! kotaku.com
+/new-client/trackers.
+/wrapper/metrics/! kotaku.com
+/new-client/trackers.
+/wrapper/metrics/*
 ! booking.com
 /js_tracking?
 ||booking.com/c360/v1/track
@@ -714,6 +729,7 @@ _event_tracking?
 ||nytimes.com/svc/nyt/data-layer?
 ||nytimes.com/v1/purr-cache
 ! cnn.com
+/optimizelyjs/*
 ://lightning.*/launch/
 ||z.cdp-dev.cnn.com^
 ! Port scanning Fingerprinting Trackers (Privacy and CPU abuse)
