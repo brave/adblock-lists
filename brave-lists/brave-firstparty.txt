@@ -80,7 +80,6 @@ theverge.com##div[data-concert]
 ##.c-adSkyBox
 zdnet.com##.c-avStickyVideo
 zdnet.com##.c-adDisplay_container_incontent-all-top
-
 ! mmanews.com / athlonsports.com
 ##.m-sidebar-ad--slot
 ##.m-header-ad
