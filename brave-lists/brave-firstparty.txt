@@ -699,8 +699,6 @@ _event_tracking?
 ||pages.ebay.com/identity/device/$subdocument
 ! kotaku.com
 /new-client/trackers.
-/wrapper/metrics/! kotaku.com
-/new-client/trackers.
 /wrapper/metrics/*
 ! booking.com
 /js_tracking?
