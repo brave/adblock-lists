@@ -10,6 +10,7 @@
 ##.ezoic-ad-adaptive
 ##.ezoic-floating-bottom
 ##.tmo-ad
+##.adhesiveAdWrapper
 ##.tmo-ad-ezoic
 ##.top-banner-advert
 ##.collapsed-ad
@@ -21,6 +22,7 @@
 ###splashy-ad-container-top
 ###taboola-below-article-thumbnails
 ##.js_desktop-horizontal-ad
+##.js_ad-sticky-footer
 ##.js_related-stories-inset
 ##div[id^="ezoic-pub-ad-"]
 ##span[id^="ezoic-pub-ad-placeholder-"]
@@ -41,6 +43,10 @@ the-scientist.com###preHeader
 the-scientist.com##.adverts
 the-scientist.com##.footer-ad
 the-scientist.com###Torpedo
+! dexerto.com
+dexerto.com##.top-10
+dexerto.com###\#primisplayer
+dexerto.com##.bg-neutral-grey-4.items-center
 ! arstechnica.com
 arstechnica.com##.ad_xrail
 arstechnica.com##.ad_crown
@@ -64,6 +70,16 @@ si.com##.m-sidebar-ad
 si.com##[data-ad-group]
 ! digitaltrends.com
 digitaltrends.com##.dt-primis
+! theverge.com
+##.m-ad
+##.OUTBRAIN
+theverge.com##div[data-concert]
+! zdnet.com
+##.c-adDisplay
+##.c-adDisplay_container
+##.c-adSkyBox
+zdnet.com##.c-avStickyVideo
+zdnet.com##.c-adDisplay_container_incontent-all-top
 ! mmanews.com / athlonsports.com
 ##.m-sidebar-ad--slot
 ##.m-header-ad
@@ -89,7 +105,7 @@ vanityfair.com,usnews.com,skynews.com.au,flightglobal.com,foxweather.com,foxnews
 ! nj.com,nationalreview.com,oregonlive.com,thehill.com,tomsguide.com,tomshardware.com,space.com,pcgamer.com
 ##.ad-unit
 ! .ad-container
-tmz.com,sportskeeda.com,outkick.com,seattletimes.com,uploadvr.com,newyorker.com,foxweather.com,foxnews.com,foxbusiness.com##.ad-container
+oneesports.gg,tmz.com,sportskeeda.com,outkick.com,seattletimes.com,uploadvr.com,newyorker.com,foxweather.com,foxnews.com,foxbusiness.com##.ad-container
 ! kdhnews.com,oanow.com,tucson.com
 ##.tnt-ads-container
 ##.tnt-ads
@@ -253,8 +269,13 @@ nationalreview.com##.revcontent-wrap
 ! pagesix.com
 pagesix.com,nypost.com###.recirc
 pagesix.com,nypost.com###.billboard-ad
-! screenrant.com
-screenrant.com##.adsninja-ad-zone
+! screenrant.com / gamerant
+##.adsninja-ad-zone
+##.ad-zone
+##.ad-current
+##.ad-zone-container
+! oneesports.gg
+##.ad-link
 ! vice.com
 vice.com##.adph
 vice.com##.fixed-slot
@@ -412,8 +433,6 @@ forexlive.com##.top-forex-brokers__wrapper
 fxempire.com##.ddAwpw
 fxempire.com##.gAruxy
 fxempire.com##[data-cy="article-ad"]
-! simpleflying.com
-simpleflying.com##.adsninja-ad-zone
 ! foxnews
 foxweather.com,foxnews.com,foxbusiness.com##.advert-txt
 ! marketwatch.com
@@ -549,6 +568,10 @@ autoevolution.com##.bgcutgrad
 mail.google.com##.nH.PS
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
 ||mail-ads.google.com^
+! scmp.com
+||tagger.ope.scmp.com^
+! aljazeera.com
+||aljazeera.com/thirdparty/nr.js
 ! searchengineland.com
 ##[id^="div-gpt-ad"]
 ##div[id^="div-gpt-"]
@@ -616,6 +639,7 @@ stoodnt.com##.boxzilla-overlay
 ! www.yahoo.com
 /p.gif?
 ||analytics.yahoo.com^
+||ras.yahoo.com^
 ||yahoo.com/_td_api/beacon/
 ! mail.yahoo.com
 /log?count=
