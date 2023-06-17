@@ -615,6 +615,9 @@ stoodnt.com##.boxzilla-overlay
 ||wccftech.com/cnt7vfdvvwa3.js
 ! apnews.com
 /newrelic.browser.
+! figma.com
+/?sentry_key=
+/web_logger/*
 ! newatlas.com
 /bsp-analytics.
 /brightspot/analytics/*
