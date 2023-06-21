@@ -256,6 +256,19 @@
     },
     {
         "include": [
+            "*://*.songkick.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "deep_link_campaign",
+            "deep_link_medium",
+            "deep_link_source"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
