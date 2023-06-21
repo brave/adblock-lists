@@ -182,6 +182,7 @@
     },
     {
         "include": [
+            "*://www.backerkit.com/*",
             "*://*.kickstarter.com/*"
         ],
         "exclude": [
