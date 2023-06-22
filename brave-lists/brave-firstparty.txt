@@ -387,6 +387,11 @@ investing.com###ad2
 investing.com###ad1
 investing.com###ad3
 investing.com##.wideTopBanner
+investing.com###__next > .fixed
+investing.com##[class*="adBlock"]
+investing.com##[class*="overlay_overlay"]
+investing.com##+js(nostif, offsetHeight)
+||investing.com/js/n/ad-blocker-popup$script
 ! usnews.com
 usnews.com###bfad-slot
 usnews.com##.InartAd__FirstInartAdWrapper-sc-8wv8ky-0
