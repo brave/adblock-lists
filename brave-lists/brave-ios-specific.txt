@@ -35,6 +35,8 @@ theblockcrypto.com##body:style(overflow: auto !important;)
 @@||vox-cdn.com/packs/concert_ads-$script,domain=chicago.suntimes.com|theverge.com|eater.com|polygon.com|vox.com|sbnation.com|curbed.com|theringer.com|mmafighting.com|racked.com|mmamania.com|funnyordie.com|riftherald.com
 ! Fix blogto.com bottom sticky banner (import from EL) 
 blogto.com##.blogto-sticky-banner
+! https://github.com/brave/brave-ios/issues/7624
+@@||townwork.net/js/appmeasurement.js
 ! uBO-redirect work around imperfectcomic.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=imperfectcomic.com
 ! Bait (https://www.planetf1.com/)
