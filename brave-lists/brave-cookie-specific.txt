@@ -1,5 +1,5 @@
 ! Title: Brave Cookie-snippet list
-! Description: Used with cookie snippets, set-local-storage-item, set-cookie, set-cookie-reload, set-ession-storage-item
+! Description: Brave-specific additions to Easylist Cookie
 ! Expires: 2 days
 
 ! dealabs mirrors
