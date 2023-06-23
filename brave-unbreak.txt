@@ -922,7 +922,8 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 ||shareasale.com^$image,script,xmlhttprequest,subdocument,third-party
 ||valuecommerce.com^$image,script,xmlhttprequest,subdocument,third-party
 ||linksynergy.com^$image,script,xmlhttprequest,subdocument,third-party
-!
+! nytimes.com (fixes no images)
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=nytimes.com
 ! Peter Lowe fixes
 ||blockthrough.com^$badfilter
 ||criteo.com^$badfilter
