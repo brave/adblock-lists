@@ -13,11 +13,20 @@
 ##.adhesiveAdWrapper
 ##.tmo-ad-ezoic
 ##.top-banner-advert
+##.upx-ad-placeholder
 ##.collapsed-ad
 ##.ad-top-banner
 ##.ad-mobile-dynamic
 ##.ad-mobile
 ##.ad-left-top
+##.apexAd
+##.ad-placeholder
+##.pmc-adm-boomerang-pub-div
+##.rail-ads-1
+##.primis-player
+###adm-inline-article-ad-1
+###adm-inline-article-ad-2
+###comments-standalone-mpu
 ###leftrail_dynamic_ad_wrapper
 ###splashy-ad-container-top
 ###taboola-below-article-thumbnails
@@ -43,6 +52,10 @@ the-scientist.com###preHeader
 the-scientist.com##.adverts
 the-scientist.com##.footer-ad
 the-scientist.com###Torpedo
+! gizmochina.com
+gizmochina.com##.adsbygoogle
+! clickondetroit.com
+clickondetroit.com##.topWrapper
 ! dexerto.com
 dexerto.com##.top-10
 dexerto.com###\#primisplayer
@@ -131,6 +144,11 @@ paulickreport.com##.s-teleaderboard-ad
 sportskeeda.com##.primis-container
 ! .ad-block
 bloodhorse.com,racingdudes.com##.ad-block
+! kutv.com
+###interstory_first_ddb_0
+###interstory_second_ddb_0
+! wegotthiscovered.com
+##[data-freestar-ad]
 ! espn.com
 espn.com##.ad-center
 ! courthousenews.com
@@ -174,6 +192,8 @@ businessinsider.com,insider.com##.in-post-sticky
 businessinsider.com,insider.com##.subnav-ad-position-sticky
 ! thedailybeast.com
 thedailybeast.com##.SimpleAd
+thedailybeast.com##.Cheat__top-ad
+thedailybeast.com##.Cheat__out-of-page-ads
 thedailybeast.com##.PageTopAd
 thedailybeast.com##.AdSlot
 thedailybeast.com##.FooterAd
@@ -196,6 +216,8 @@ outkick.com##.g1-advertisement
 barstoolsports.com##.htl-ad__container
 ! spotim comment ad (huffpost.com/barstoolsports.com)
 ##div[class^="ads__index__adWrapper-"]
+! fatherly.com
+fatherly.com##.adWrapper
 ! syfy.com
 syfy.com##.zergnet-widget__header
 ! metro.co.uk
