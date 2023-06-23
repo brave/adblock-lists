@@ -1,3 +1,6 @@
+! Title: Brave Specific
+! Expires: 2 days
+
 ! Specific filters (Tracking or ads) for Brave
 ||0.0.0.0^$third-party,domain=~[::]|~[::ffff:0:0]
 ||[::]^$third-party,domain=~0.0.0.0|~[::ffff:0:0]

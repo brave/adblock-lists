@@ -1,4 +1,5 @@
-! Brave Android specific filters
+! Title: Brave Android-Specific Rules
+! Expires: 2 days
 
 ! fmovies
 fmovies.to##+js(acis, JSON.parse)
