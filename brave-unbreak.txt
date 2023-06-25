@@ -643,6 +643,10 @@ fresheroffcampus.com,cizzyscripts.com##+js(aopw, startCheckingAdblock)
 ! uBO-domain wildcard workaround rnbxclusive1.* https://github.com/uBlockOrigin/uAssets/pull/12579
 @@||rnbxclusive1.me^$ghide
 rnbxclusive1.me##+js(aopw, _pop)
+! uBO-domain wildcard workaround fmovies.*
+fmovies.to,fmovies.world,fmovies.ps,fmovies.wtf,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.co##+js(aeld, , break;case $.)
+fmovies.to,fmovies.world,fmovies.ps,fmovies.wtf,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.co##+js(acs, JSON.parse, break;case $.)
+fmovies.to,fmovies.world,fmovies.ps,fmovies.wtf,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.co##+js(acs, parseInt, break;case $.)
 ! uBO-domain wildcard workaround crichd
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(aopr, AaDetector)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(acis, JSON.parse, break;case $.)
