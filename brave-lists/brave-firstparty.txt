@@ -233,7 +233,6 @@ bbc.com###mpu-side-aside-content
 bbc.com###leaderboard-aside-content
 ! consequence.net
 ##.ad.card
-##.ad-section
 ##.ad-title
 ##.horizontal.ad
 ##.native-ad
@@ -356,8 +355,6 @@ metro.co.uk##.ji-ad-slot-mpu
 ! odishatv.in
 odishatv.in##.otv-300-250-ad
 odishatv.in##.otv-970-250-ad
-! ktbs.com
-ktbs.com##.dfp-ad
 ! kfdm.com
 kfdm.com###premium_ddb_0
 kfdm.com##.sd-container
@@ -562,8 +559,6 @@ perthnow.com.au##.ad-sidebar-top
 ! theroar.com.au
 theroar.com.au##.fuse-slot
 theroar.com.au##.pm-ad-unit
-! sportstar.thehindu.com
-sportstar.thehindu.com##.ad-section
 ! theage.com.au,smh.com.au
 theage.com.au,smh.com.au,watoday.com.au,brisbanetimes.com.au##.adWrapper
 ! worldtestchampionship.com
