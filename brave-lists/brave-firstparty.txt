@@ -306,7 +306,6 @@ howtogeek.com##div[id^="purch_"]
 rottentomatoes.com##.leaderboard_wrapper
 ! memory-alpha.fandom.com
 ##.gpt-ad
-##.ad-slot
 ##.top-ads-container
 ##.ad-slot-placeholder
 ##.bottom-ads-container
@@ -354,7 +353,6 @@ metro.co.uk###mpu_bottom
 metro.co.uk##.ad-slot-large
 metro.co.uk##.ad-slot-container
 metro.co.uk##.ji-ad-slot-mpu
-metro.co.uk##.ad-slot
 ! odishatv.in
 odishatv.in##.otv-300-250-ad
 odishatv.in##.otv-970-250-ad
@@ -438,7 +436,6 @@ krebsonsecurity.com##.themonic-ad1
 theguardian.com##.top-banner-ad-container
 theguardian.com##.ad-slot-container
 ! smithsonianmag.com
-smithsonianmag.com##.ad-slot
 smithsonianmag.com##.ad-wrapper
 ! ft.com
 ft.com##.o-ads
@@ -786,7 +783,6 @@ bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
 ##.home-ad-region-1
 ##.channel-sidebar-big-box-ad
 ! militarytimes.com
-##.ad-slot
 ##.adBox
 ##.adunitContainer
 ##.dfp-ad
