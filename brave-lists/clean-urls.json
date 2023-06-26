@@ -182,6 +182,7 @@
     },
     {
         "include": [
+            "*://hackernoon.com/*",
             "*://www.backerkit.com/*",
             "*://*.kickstarter.com/*"
         ],
