@@ -25,6 +25,9 @@
 ||fleraprt.com^
 ||tzegilo.com^
 
+! apnews.com
+apnews.com##.Page-header-leaderboardAd
+apnews.com##.SovrnAd
 ! Cosmetic test (ads and overlay)
 theblockcrypto.com##.articleIAB
 theblockcrypto.com##.sponsorFooter
