@@ -90,7 +90,6 @@ clutchpoints.com##.cafemedia-clutchpoints-header
 nba.com##[data-ad-type="banner"]
 ! si.com
 si.com##.m-balloon-header--ad
-si.com##.m-sidebar-ad
 si.com##[data-ad-group]
 ! digitaltrends.com
 digitaltrends.com##.dt-primis
@@ -115,11 +114,11 @@ sherdog.com##.top_ads
 sherdog.com###adViAi
 sherdog.com##.ads
 ! ndtv.com
+ndtv.com##.ad-cnt
 ndtv.com##.add-wrp
 ndtv.com##.ads_tb-c
 ndtv.com##.add__wrp
 ndtv.com##.mastheadwrap
-ndtv.com###taboola-below-article-thumbnails
 ndtv.com##.adcont
 ndtv.com###jads
 ! .insticator-ads
@@ -181,8 +180,6 @@ channelnewsasia.com##.programtic-ads
 channelnewsasia.com##.block-ad-entity
 ! express.co.uk
 express.co.uk##.taboola-above-article
-express.co.uk###div-gpt-ad-right-hand-slot
-express.co.u###div-gpt-ad-vip
 express.co.uk###ovp-primis
 express.co.uk###taboola-mid-article-thumbnails-outstream
 express.co.uk##.viafoura-standalone-mpu
@@ -247,7 +244,6 @@ jpost.com##.line-one-row-before-and-after-container
 ! joblo.com
 ##.freestar-ad-container
 ##.ads-global-header
-##[data-freestar-ad]
 ! msn.com
 msn.com##div[class^="galleryPage_bannerAd"]
 msn.com##.galleryPage_eoabContent_new-DS-EntryPoint1-1
@@ -256,11 +252,7 @@ msn.com##div[class^="articlePage_topBannerAdContainer_"]
 msn.com##[class^="articlePage_eoabContent"]
 ##display-ads
 ! encyclopedia.com
-##.rail-ads-1
 ###skin-ad-left-rail-container
-##.pmc-adm-boomerang-pub-div
-###adm-inline-article-ad-2
-###adm-inline-article-ad-1
 ! medpagetoday.com
 ##.leaderboard-ad
 ##.leaderboard-ad-fixed
@@ -304,7 +296,6 @@ howtogeek.com##div[id^="purch_"]
 ! rottentomatoes.com
 rottentomatoes.com##.leaderboard_wrapper
 ! memory-alpha.fandom.com
-##.gpt-ad
 ##.top-ads-container
 ##.ad-slot-placeholder
 ##.bottom-ads-container
@@ -343,8 +334,6 @@ outkick.com##.g1-advertisement
 barstoolsports.com##.htl-ad__container
 ! spotim comment ad (huffpost.com/barstoolsports.com)
 ##div[class^="ads__index__adWrapper-"]
-! fatherly.com
-fatherly.com##.adWrapper
 ! syfy.com
 syfy.com##.zergnet-widget__header
 ! metro.co.uk
@@ -359,10 +348,7 @@ odishatv.in##.otv-970-250-ad
 kfdm.com###premium_ddb_0
 kfdm.com##.sd-container
 kfdm.com##.index-module_adBeforeContent__UYZT
-kfdm.com###interstory_first_ddb_0
 kfdm.com###rightrail_pos1_ddb_0
-! houstonchronicle.com
-houstonchronicle.com##.belowMastheadWrapper
 ! austinchronicle.com
 austinchronicle.com###top-leaderboard
 austinchronicle.com##.ad-right
@@ -379,8 +365,6 @@ wsmv.com##.arc-ad
 ! dallasnews.com
 dallasnews.com##.htlad-dfpTop
 dallasnews.com##.htlad-dfpPosition1_article
-! vanityfair.com
-vanityfair.com##.ad-stickyhero
 ! newsweek.com
 newsweek.com###topad
 newsweek.com###right1ad
@@ -402,8 +386,6 @@ nj.com##.revenue-display
 ##.listicle-instream-ad-holder
 ! wionews.com
 wionews.com##.ads-box-300x300
-! patch.com
-patch.com##.js-ad
 ! anandtech.com
 anandtech.com###side_ad
 anandtech.com##.header_ad
@@ -413,8 +395,8 @@ nationalreview.com##.ad-skeleton
 nationalreview.com##.aniview-inline-player
 nationalreview.com##.revcontent-wrap
 ! pagesix.com
-pagesix.com,nypost.com###.recirc
-pagesix.com,nypost.com###.billboard-ad
+pagesix.com,nypost.com##.recirc
+pagesix.com,nypost.com##.billboard-ad
 ! screenrant.com / gamerant
 ##.adsninja-ad-zone
 ##.ad-zone
@@ -432,8 +414,6 @@ krebsonsecurity.com##.themonic-ad1
 ! theguardian.com#
 theguardian.com##.top-banner-ad-container
 theguardian.com##.ad-slot-container
-! smithsonianmag.com
-smithsonianmag.com##.ad-wrapper
 ! ft.com
 ft.com##.o-ads
 ! videogamer.com
@@ -441,7 +421,6 @@ ft.com##.o-ads
 ##.adthrive
 ##.adthrive-content
 ! bleepingcomputer.com
-##[data-freestar-ad]
 bleepingcomputer.com##.cz-toa-wrapp
 bleepingcomputer.com##.s-ou-wrap
 ! theregister.com
@@ -458,7 +437,6 @@ yahoo.com###sda-LDRB2
 yahoo.com##.native-ad-item
 yahoo.com##.darla-container
 yahoo.com##.darla
-yahoo.com##.viewer-sda-container
 ! bbc.com
 bbc.com###sticky-mpu
 bbc.com###sticky-leaderboard
@@ -480,12 +458,10 @@ apnews.com##.apnews_article_midarticle_1
 apnews.com##.apnews_article_midarticle_2
 ! nationalgeographic.com
 nationalgeographic.com##.ArticleStickiness
-nationalgeographic.com##.ad-wrapper
 nationalgeographic.com##.InsertedAd
 ! rollingstone.com
 rollingstone.com##.adma
 ! venturebeat.com
-venturebeat.com##.adslot
 venturebeat.com##.tude-cw-wrap
 ! newyorker.com
 newyorker.com##.should-hold-space
@@ -494,7 +470,6 @@ newatlas.com##.OcelotAdModule
 newatlas.com###desktop_article_1
 newatlas.com###desktop_article_2
 newatlas.com###desktop_article_3
-newatlas.com###taboola-below-article-thumbnails
 ! washingtonpost.com
 washingtonpost.com###leaderboard-overlay
 washingtonpost.com##.border-box.dn-hp-sm-to-mx
@@ -511,8 +486,6 @@ coindesk.com##.ad-box
 coindesk.com##.gWUxIC
 coindesk.com##.at-rail-wrapper
 coindesk.com##.vert
-! cryptoslate.com
-cryptoslate.com##.code-block
 ! crypto 
 theblock.co##.footerRoot
 theblock.co##.sponsoredArticle
@@ -526,7 +499,6 @@ cryptonewsz.com##.stream-item
 cryptopolitan.com##.crp_ads_container
 cryptopolitan.com##.crp_sidebar_ads_container
 cryptopolitan.com##.crp_inarticle_ads_container
-beincrypto.com##.ad-wrapper
 beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com,insidebitcoins.com##[class*="clickout-"]
 ! streetinsider.com
 streetinsider.com##.im-ad
@@ -559,18 +531,12 @@ perthnow.com.au##.ad-sidebar-top
 ! theroar.com.au
 theroar.com.au##.fuse-slot
 theroar.com.au##.pm-ad-unit
-! theage.com.au,smh.com.au
-theage.com.au,smh.com.au,watoday.com.au,brisbanetimes.com.au##.adWrapper
 ! worldtestchampionship.com
 worldtestchampionship.com##.mobile-banner
 ! 7news.com.au
 7news.com.au##.ad-no-notice
 7news.com.au###taboola-mid-article-thumbnails
-! sports.ndtv.com
-sports.ndtv.com##.ad-cnt
-sports.ndtv.com##.add-wrp
 ! afr.com
-afr.com##.adWrapper
 afr.com###stickyLeaderboard
 ! france24.com
 france24.com##.o-ad-container
@@ -819,25 +785,19 @@ bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
 /1x1.gif?
 /uisprime/track
 /egcs/v2/collect
-/uisprime/track
 ||hotels.com/api/bucketing/v1/evaluateexperimentsandlog
 ! mail.yahoo.com
 /log?count=
 /curveball/ads/*
 ||jill.fc.yahoo.com^
-||beap.gemini.yahoo.com^
-||geo.yahoo.com^
 ||mail.yahoo.com/f/track/
 ||bats.video.yahoo.com^
 ||yahoo.com/pdarla/
 ! www.yahoo.com
-/p.gif?
 ||analytics.yahoo.com^
 ||ras.yahoo.com^
 ||yahoo.com/_td_api/beacon/
 ! mail.yahoo.com
-/log?count=
-/px.gif?
 ||beap.gemini.yahoo.com^
 ! wccftech.com
 ||wccftech.com/cnt7vfdvvwa3.js
@@ -895,7 +855,6 @@ bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
 /p.gif?
 ||analytics.yahoo.com^
 ||geo.yahoo.com^
-||yahoo.com/_td_api/beacon/
 ! airbnb
 _event_tracking?
 /tracking/airdog
