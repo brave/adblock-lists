@@ -2,7 +2,7 @@
 ! Ads
 !
 ! Generic blocks
-/adservice.$from=~adservice.io|~github.com|~githubusercontent.com
+/adservice.$domain=~adservice.io|~github.com|~githubusercontent.com
 !
 ! ezoic ads
 ##.ezo_ad
@@ -69,9 +69,6 @@
 ##.adSizer
 ##.pageAdSkin
 ##.pageAdSkinUrl
-
-
-
 ##.dfp-leaderboard-container
 ##.empire-unit-prefill-container
 ##.tadm_ad_unit
@@ -122,7 +119,6 @@
 ##.right_ad_4
 ##.ad--mid-content
 ##.header-ad-region
-##.ezo_ad
 ##.ezoic-adpicker-ad
 ##.adtester-container
 ##.ez-sidebar-wall-ad
@@ -250,8 +246,6 @@ cointelegraph.com##.ad-slot_NjPAE
 cointelegraph.com##.advertise-with-us-link_O9rIX
 cointelegraph.com##mm-collectors
 cointelegraph.com##.componentAdbutler_uF1zH
-!  ##[class*="clickout-"]
-beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com,insidebitcoins.com,cryptonews.com##[class*="clickout-"]
 ! tomshardware.com
 /hawklinks.js
 ! trulia.com
@@ -296,7 +290,6 @@ si.com##[data-ad-group]
 ! digitaltrends.com
 digitaltrends.com##.dt-primis
 ! theverge.com
-##.m-ad
 ##.OUTBRAIN
 theverge.com##div[data-concert]
 ! zdnet.com
@@ -307,10 +300,7 @@ zdnet.com##.c-avStickyVideo
 zdnet.com##.c-adDisplay_container_incontent-all-top
 ! mmanews.com / athlonsports.com
 ##.m-sidebar-ad--slot
-##.m-header-ad
 ##.m-sidebar-ad
-##.m-in-content-ad-row
-##.m-in-content-ad
 ! sherdog.com
 sherdog.com##.top_ads
 sherdog.com###adViAi
@@ -327,8 +317,6 @@ ndtv.com###jads
 ##.insticator-ads
 ! .ad
 vanityfair.com,usnews.com,skynews.com.au,flightglobal.com,cnn.com,foxweather.com,foxnews.com,foxbusiness.com,politico.com,autoevolution.com,wired.com,arstechnica.com,bleacherreport.com,newsday.com,barchart.com,barstoolsports.com,ktbs.com,time.com,seattletimes.com,nj.com##.ad
-! nj.com,nationalreview.com,oregonlive.com,thehill.com,tomsguide.com,tomshardware.com,space.com,pcgamer.com
-##.ad-unit
 ! .ad-container
 fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxla.com,ktvu.com,q13fox.com,wogx.com,oneesports.gg,tmz.com,sportskeeda.com,outkick.com,seattletimes.com,uploadvr.com,newyorker.com,foxweather.com,foxnews.com,foxbusiness.com##.ad-container
 ! .adBanner
@@ -379,7 +367,6 @@ bloodyelbow.com##.snackStickyParent
 bloodyelbow.com##.c-inblog_ad
 ! channelnewsasia.com
 channelnewsasia.com##.programtic-ads
-channelnewsasia.com##.block-ad-entity
 ! express.co.uk
 express.co.uk##.taboola-above-article
 express.co.uk###ovp-primis
@@ -480,7 +467,6 @@ brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,thespruce.com,ve
 ##.gpt-ad-container
 ##.ad-slot-1
 ##.ad-slot-2
-##.ad-slot-top
 ! thepointsguy.com
 thepointsguy.com##[aria-label="Advertisement"]
 ! variety.com
@@ -544,7 +530,6 @@ odishatv.in##.otv-970-250-ad
 kfdm.com###premium_ddb_0
 kfdm.com##.sd-container
 kfdm.com##.index-module_adBeforeContent__UYZT
-kfdm.com###rightrail_pos1_ddb_0
 ! austinchronicle.com
 austinchronicle.com###top-leaderboard
 austinchronicle.com##.ad-right
@@ -555,7 +540,6 @@ texastribune.org##.js-ad-unit
 ! salon.com
 salon.com##.sidebar_ad
 salon.com##.banner_ad_between_sections
-salon.com##.outer-ad-unit-wrapper
 ! wsmv.com
 wsmv.com##.arc-ad
 ! dallasnews.com
@@ -687,7 +671,7 @@ coindesk.com##.vert
 ! crypto 
 theblock.co##.footerRoot
 theblock.co##.sponsoredArticle
-theblock.co##.fullWidthDisplay 
+theblock.co##.fullWidthDisplay
 coinspeaker.com##.aside-banner
 insidebitcoins.com##.adv-link
 crypto-news-flash.com##.adsBanner
@@ -697,7 +681,7 @@ cryptonewsz.com##.stream-item
 cryptopolitan.com##.crp_ads_container
 cryptopolitan.com##.crp_sidebar_ads_container
 cryptopolitan.com##.crp_inarticle_ads_container
-beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com,insidebitcoins.com##[class*="clickout-"]
+beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com,insidebitcoins.com,cryptonews.com##[class*="clickout-"]
 ! streetinsider.com
 streetinsider.com##.im-ad
 streetinsider.com###bottom_ad_fixed
@@ -792,9 +776,6 @@ nature.com##.u-lazy-ad-wrapper
 ! autoevolution.com
 autoevolution.com##.ad300x600
 autoevolution.com##.bgcutgrad
-! thehill.com
-! androidcentral.com,pcgamer.com,space.com
-##.dfp-leaderboard-container
 !
 ||ads-api.twitter.com^
 !
@@ -922,7 +903,6 @@ stoodnt.com##.boxzilla-overlay
 ||facebook.com/ajax/mtouch_perf_page_load_timings/
 ||facebook.com/ajax/qm/
 ||pixel.facebook.com^
-facebook.com##.AdBox
 facebook.com##.RectangleAd
 facebook.com##.post-ads
 ! Instagram
@@ -1055,7 +1035,6 @@ bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
 ! yahoo.com
 /px.gif?
 /p.gif?
-||analytics.yahoo.com^
 ||geo.yahoo.com^
 ! airbnb
 _event_tracking?
