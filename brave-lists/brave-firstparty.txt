@@ -19,6 +19,117 @@
 ##.ad-mobile-dynamic
 ##.ad-mobile
 ##.ad-left-top
+##.td-adspot-title
+##.adMinHeight280
+###aniview-ads
+##.right-column-ad
+##.fs_ad
+##.proper-ad-unit
+##[data-testid="ad_testID"]
+##.ajdg_grpwidgets
+##.zergnet__container
+##.ad-space
+##.instoryAdBlock
+##.instoryAdNoBlock
+##.block-dfp
+##.ad_wrapper
+##.adRectangle-pos-medium
+##.ad--banner
+##.evolve-ad
+##.widget_evolve_ad_gpt_widget
+##.ad-entity-container
+##.crain-advertisement
+##.block-ad-entity
+##.top-ad-block
+##.longform-ad
+##.gallery-ad-lazyload-placeholder
+##.ad-inline
+##.js-ad-placement
+##.ad-leaderboard
+##.ad-rectangle
+##.ad-slot-top
+##.ad-slot-rail
+##.ad-slot-header
+###ad_rect_btf_02
+###ad_rect_btf_01
+###ad_bnr_atf_01
+##.ad-slot-header__wrapper
+##.primis-ad-wrap
+##.ad-mrec
+##.adsbyvli
+##.adSense
+##.latestStoriesAd
+##.GoogleDfpAd
+##.taboola-widget
+##.article-ad
+##.js-advert
+##.advert--header
+##.advert-label
+##.m1-header-ad
+##.adSizer
+##.pageAdSkin
+##.pageAdSkinUrl
+
+
+
+##.dfp-leaderboard-container
+##.empire-unit-prefill-container
+##.tadm_ad_unit
+###taboola-below-article-thumbnails-v2
+##.floating-preroll-ad
+##[class^="adm-inline-article-ad"]
+##[data-component="ad-unit"]
+##.ad-caption
+##.outer_ad_container
+##.outer-ad-unit-wrapper
+##.advertise_text
+##[data-rc-widget]
+##div[id^="rc-widget-"]
+###ad_lead1
+##.m-advert
+##.m-content-advert
+##.m-content-advert-wrap
+##.AdBox
+##.ad_background_true
+##.rj-ads-wrapper
+##.ad--container
+##.ad_300
+###banner_pos1_ddb_0
+###banner_pos2_ddb_0
+###banner_pos3_ddb_0
+###banner_pos4_ddb_0
+###rightrail_pos1_ddb_0
+###rightrail_pos2_ddb_0
+###rightrail_pos3_ddb_0
+##.premium_PremiumPlacement__2dEp0
+##div[class^="Display_displayAd"]
+##.m-ad
+##.m-header-ad
+##.m-in-content-ad
+##.m-in-content-ad-row
+##.mm-widget--sendtonews
+##.ad-overlay
+##.ad-footer
+##.page-ad
+##.ad-stickyhero--standard
+##.ad--footer
+##.hide-ad
+##.ad--in-content
+##.advert__skin
+##.advert--leaderboard
+##.right_ad_1
+##.right_ad_2
+##.right_ad_4
+##.ad--mid-content
+##.header-ad-region
+##.ezo_ad
+##.ezoic-adpicker-ad
+##.adtester-container
+##.ez-sidebar-wall-ad
+##.widget-ads
+##.sponsored-post
+##.ad-unit
+##.ad-stickyhero
 ##.apexAd
 ###dfp_leaderboard
 ##.c-ad
@@ -55,6 +166,98 @@
 ! Mgid
 ##div[id*="MarketGid"]
 ##div[id*="ScriptRoot"]
+! Google funding
+##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
+! chicagodefender.com
+chicagodefender.com##.g
+! counterpunch.org
+counterpunch.org##.header-center
+! trademe
+trademe.co.nz##.tm-display-ad__wrapper
+trademe.co.nz##tm-display-ad
+! theautopian.com
+theautopian.com##[data-widget_type="html.default"]
+! bossip.com
+bossip.com###player-wrapper
+bossip.com##.fsb-desktop
+bossip.com##.fsb-toggle
+bossip.com##.player-wrapper-inner
+! independent.co.uk
+independent.co.uk###top-banner-wrapper
+! appleinsider.com
+appleinsider.com##.push
+! macrumors.com
+macrumors.com##.sidebarblock
+macrumors.com##.tertiary
+! pastebin.com
+pastebin.com##.content > [style^="padding-bottom:"]
+pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
+! lasvegassun.com
+lasvegassun.com###ad-colB-1
+! dallasnews.com
+dallasnews.com##[class^="dmnc_features-ads-arc-ad-"]
+! lasvegasweekly.com
+lasvegasweekly.com###bottom-bar-container
+! thedriven.io
+thedriven.io##.leaderboard
+! greencarreports.com
+greencarreports.com##.adv-spacer
+! snopes.com
+snopes.com##.sidebar_ad
+! siasat.com
+siasat.com##.stream-item-inline-post
+siasat.com##.stream-item-below-post-content
+siasat.com##.awt_ad_code
+siasat.com##.stream-item-widget
+siasat.com###tie-block_3274
+! wbur.org
+wbur.org##.section--breakout
+wbur.org##.section--takeover
+wbur.org##.section--uw
+! fxstreet.com
+fxstreet.com##.fxs_leaderboard
+fxstreet.com###fxs-sposorBroker-topBanner
+! extremetech.com
+extremetech.com##section > .mt-8
+extremetech.com##.bg-gray-100
+extremetech.com##.min-h-24
+! theartnewspaper.com
+theartnewspaper.com##.justify-center.flex.w-full
+theartnewspaper.com##[style="min-height:250px;"]
+! eonline.com
+eonline.com##.article-detail__right-rail--topad
+eonline.com##.article-detail__segment-ad
+! topgear.com
+topgear.com##div[class^="AdContainer"]
+topgear.com##div[class^="TopContainer-"]
+! motortrend.com
+##div[data-ad-targeting]
+##[data-revive-zoneid]
+motortrend.com##._3HQN_
+! whatcar.com
+whatcar.com##.ArticleTemplate_masthead__oY950
+! zillow.com
+zillow.com##[data-test="search-list-first-ad"]
+! crypto.news
+crypto.news##.b6470de94dc
+crypto.news##.a49292cf69626
+! telegraph.co.uk
+telegraph.co.uk##.commercial-unit
+! cryptonews.net
+cryptonews.net##.vert-public
+! cointelegraph.com
+cointelegraph.com##.ad-slot_NjPAE
+cointelegraph.com##.advertise-with-us-link_O9rIX
+cointelegraph.com##mm-collectors
+cointelegraph.com##.componentAdbutler_uF1zH
+!  ##[class*="clickout-"]
+beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com,insidebitcoins.com,cryptonews.com##[class*="clickout-"]
+! tomshardware.com
+/hawklinks.js
+! trulia.com
+/trackingpixel.
+! redfin.com
+||redfin.com/rift?
 ! the-scientist.com
 the-scientist.com###preHeader
 the-scientist.com##.adverts
@@ -72,7 +275,6 @@ dexerto.com##.bg-neutral-grey-4.items-center
 arstechnica.com##.ad_xrail
 arstechnica.com##.ad_crown
 arstechnica.com##.ad_fullwidth
-arstechnica.com##.ad_wrapper
 ! nytimes.com
 nytimes.com##.g-paid
 nytimes.com##.css-bs95eu
@@ -124,7 +326,7 @@ ndtv.com###jads
 ! .insticator-ads
 ##.insticator-ads
 ! .ad
-vanityfair.com,usnews.com,skynews.com.au,flightglobal.com,foxweather.com,foxnews.com,foxbusiness.com,politico.com,autoevolution.com,wired.com,arstechnica.com,bleacherreport.com,newsday.com,barchart.com,barstoolsports.com,ktbs.com,time.com,seattletimes.com,nj.com##.ad
+vanityfair.com,usnews.com,skynews.com.au,flightglobal.com,cnn.com,foxweather.com,foxnews.com,foxbusiness.com,politico.com,autoevolution.com,wired.com,arstechnica.com,bleacherreport.com,newsday.com,barchart.com,barstoolsports.com,ktbs.com,time.com,seattletimes.com,nj.com##.ad
 ! nj.com,nationalreview.com,oregonlive.com,thehill.com,tomsguide.com,tomshardware.com,space.com,pcgamer.com
 ##.ad-unit
 ! .ad-container
@@ -132,7 +334,7 @@ fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32c
 ! .adBanner
 chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.adBanner
 ! .code-block
-180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
+180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,thecinemaholic.com,thedriven.io,theautopian.com,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
 ! kdhnews.com,oanow.com,tucson.com
 ##.tnt-ads-container
 ##.tnt-ads
@@ -313,12 +515,6 @@ wikihow.com##.al_method
 ! wired.com
 wired.com##div[class^="ConsumerMarketingUnitThemedWrapper-"]
 wired.com##div[class^="StickyBoxWrapper"]
-##.ad--footer
-##.hide-ad
-##.ad--in-content
-##.ad--mid-content
-##.ad-stickyhero
-##.ad-stickyhero--standard
 ! chron.com
 chron.com,mysanantonio.com##.adModule
 chron.com,mysanantonio.com##[aria-label*="Advertisement"]
@@ -451,7 +647,9 @@ reuters.com##.ad-slot__container__FEnoz
 techspot.com##.cta
 techspot.com##.adContainerSide
 ! apnews.com
-##.taboola-widget
+apnews.com##.Page-header-leaderboardAd
+apnews.com##.SovrnAd
+apnews.com##.apnews_article_midarticle_3
 apnews.com##.advertisementTitle
 apnews.com##.Leaderboard
 apnews.com##.apnews_article_midarticle_1
@@ -504,6 +702,8 @@ beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,cryp
 streetinsider.com##.im-ad
 streetinsider.com###bottom_ad_fixed
 ! investing.com
+investing.com##.dfpVideo
+investing.com###hpAdVideo
 investing.com##.dfpAdUnitContainer
 investing.com##.im-ad-visible
 investing.com###ad2
@@ -614,6 +814,7 @@ autoevolution.com##.bgcutgrad
 /cdn-cgi/apps/head/*$script,first-party
 /appmeasurement_module_
 /smetrics.*/b/ss/*
+/beacon/stats
 /smetrics.*/id?
 /transparent.gif?ray=
 /analytics_www.
@@ -635,6 +836,7 @@ autoevolution.com##.bgcutgrad
 /fp/HP?session_id
 /fp/ls_fp.
 /fp/tags.js
+/tags.js?org_id=
 /fp/top_fp.
 /fp2.compressed.js
 /fp_204?
