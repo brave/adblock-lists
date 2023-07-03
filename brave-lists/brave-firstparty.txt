@@ -213,6 +213,8 @@ wbur.org##.section--uw
 ! fxstreet.com
 fxstreet.com##.fxs_leaderboard
 fxstreet.com###fxs-sposorBroker-topBanner
+! essentiallysports.com
+essentiallysports.com##.es-ad-space-container
 ! extremetech.com
 extremetech.com##section > .mt-8
 extremetech.com##.bg-gray-100
@@ -316,7 +318,7 @@ ndtv.com###jads
 ! .insticator-ads
 ##.insticator-ads
 ! .ad
-vanityfair.com,usnews.com,skynews.com.au,flightglobal.com,cnn.com,foxweather.com,foxnews.com,foxbusiness.com,politico.com,autoevolution.com,wired.com,arstechnica.com,bleacherreport.com,newsday.com,barchart.com,barstoolsports.com,ktbs.com,time.com,seattletimes.com,nj.com##.ad
+vanityfair.com,usnews.com,skynews.com.au,flightglobal.com,cnn.com,foxweather.com,foxnews.com,foxbusiness.com,politico.com,autoevolution.com,wired.com,arstechnica.com,bleacherreport.com,newsday.com,barchart.com,barstoolsports.com,ktbs.com,time.com,seattletimes.com,nj.com,sny.tv##.ad
 ! .ad-container
 fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxla.com,ktvu.com,q13fox.com,wogx.com,oneesports.gg,tmz.com,sportskeeda.com,outkick.com,seattletimes.com,uploadvr.com,newyorker.com,foxweather.com,foxnews.com,foxbusiness.com##.ad-container
 ! .adBanner
