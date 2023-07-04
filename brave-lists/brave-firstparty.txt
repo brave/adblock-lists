@@ -112,8 +112,15 @@
 ##.ad--footer
 ##.hide-ad
 ##.ad--in-content
-##.advert__skin
 ##.advert--leaderboard
+##div[data-dfp-id]
+##.rightAd
+##.adHeight280
+##.adHolder
+##.lastAdSlot
+##.td-a-ad
+##.rhsWidgetNotAdFree
+##.primis-wrapper
 ##.right_ad_1
 ##.right_ad_2
 ##.right_ad_4
@@ -199,7 +206,18 @@ thedriven.io##.leaderboard
 ! greencarreports.com
 greencarreports.com##.adv-spacer
 ! snopes.com
+snopes.com##.banner_ad_between_sections
+! darko.audio
+darko.audio##.audio_widget
 snopes.com##.sidebar_ad
+! .arcad_feature
+1news.co.nz,actionnewsjax.com,boston25news.com,easy93.com,fox23.com,kiro7.com,wftv.com,whio.com,wpxi.com,wsbradio.com,wsbtv.com,wsoctv.com##.arcad_feature
+! allkpop.com
+###div-insticator-ad-1
+###div-insticator-ad-2
+! videogameschronicle.com
+videogameschronicle.com##div[id^="ad__billboard_"]
+videogameschronicle.com##div[id^="ad__hugebreak"]
 ! siasat.com
 siasat.com##.stream-item-inline-post
 siasat.com##.stream-item-below-post-content
@@ -225,6 +243,10 @@ theartnewspaper.com##[style="min-height:250px;"]
 ! eonline.com
 eonline.com##.article-detail__right-rail--topad
 eonline.com##.article-detail__segment-ad
+! yardbarker.com
+yardbarker.com###leaderboard_container
+yardbarker.com##.mb_promo_responsive_right
+yardbarker.com##.yb-card-ad
 ! topgear.com
 topgear.com##div[class^="AdContainer"]
 topgear.com##div[class^="TopContainer-"]
@@ -626,8 +648,8 @@ bbc.com###sticky-leaderboard
 wccftech.com##.main-background-wrap
 wccftech.com##.bg-vertical
 wccftech.com##.content-ad
-! diyphotography.net
 ! reuters.com
+reuters.com##[data-testid="ResponsiveAdSlot"]
 reuters.com##.ad-slot__container__FEnoz
 ! techspot.com
 techspot.com##.cta
