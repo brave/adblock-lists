@@ -118,6 +118,7 @@
 ##.adHeight280
 ##.adHolder
 ##.lastAdSlot
+##.td-a-ad
 ##.rhsWidgetNotAdFree
 ##.primis-wrapper
 ##.right_ad_1
@@ -214,8 +215,6 @@ snopes.com##.sidebar_ad
 ! allkpop.com
 ###div-insticator-ad-1
 ###div-insticator-ad-2
-! nme.com
-##.td-a-ad
 ! videogameschronicle.com
 videogameschronicle.com##div[id^="ad__billboard_"]
 videogameschronicle.com##div[id^="ad__hugebreak"]
