@@ -24,6 +24,18 @@
 ###aniview-ads
 ##.right-column-ad
 ##.fs_ad
+##.p-ads-billboard
+##.p-ads-rec
+##.ad_background_1
+##.article-mid-ad
+##.ad--sponsor-content
+##.ads--no-preload
+##.dfp-tag-wrapper
+##.ad-overlay
+###taboola-below-article-1
+##.taboola-wrapper
+##.ad_blk
+##.ad--desktop
 ##.proper-ad-unit
 ##[data-testid="ad_testID"]
 ##.ajdg_grpwidgets
@@ -105,7 +117,6 @@
 ##.m-in-content-ad
 ##.m-in-content-ad-row
 ##.mm-widget--sendtonews
-##.ad-overlay
 ##.ad-footer
 ##.page-ad
 ##.ad-stickyhero--standard
@@ -152,6 +163,7 @@
 ###leftrail_dynamic_ad_wrapper
 ###splashy-ad-container-top
 ###taboola-below-article-thumbnails
+###taboola-right-rail-thumbnails
 ##.js_desktop-horizontal-ad
 ##.js_ad-sticky-footer
 ##.js_related-stories-inset
@@ -178,6 +190,8 @@ counterpunch.org##.header-center
 ! trademe
 trademe.co.nz##.tm-display-ad__wrapper
 trademe.co.nz##tm-display-ad
+! nationalworld.com
+nationalworld.com,scotsman.com##.dmpu-item
 ! theautopian.com
 theautopian.com##[data-widget_type="html.default"]
 ! bossip.com
@@ -215,6 +229,7 @@ snopes.com##.sidebar_ad
 ! allkpop.com
 ###div-insticator-ad-1
 ###div-insticator-ad-2
+allkpop.com##.akp2_wrap
 ! videogameschronicle.com
 videogameschronicle.com##div[id^="ad__billboard_"]
 videogameschronicle.com##div[id^="ad__hugebreak"]
@@ -237,6 +252,16 @@ essentiallysports.com##.es-ad-space-container
 extremetech.com##section > .mt-8
 extremetech.com##.bg-gray-100
 extremetech.com##.min-h-24
+! .topWrapper
+click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.topWrapper
+! comicbook.com
+comicbook.com,popculture.com##[id^="native-plus-"]
+comicbook.com,popculture.com##.popculture-embed
+comicbook.com##.mobile
+comicbook.com##.embedVideoContainer
+comicbook.com##.oas
+! .StickyFooter
+apartmenttherapy.com,cubbyathome.com,thekitchn.com##.StickyFooter
 ! theartnewspaper.com
 theartnewspaper.com##.justify-center.flex.w-full
 theartnewspaper.com##[style="min-height:250px;"]
@@ -247,6 +272,8 @@ eonline.com##.article-detail__segment-ad
 yardbarker.com###leaderboard_container
 yardbarker.com##.mb_promo_responsive_right
 yardbarker.com##.yb-card-ad
+yardbarker.com###right_top_sticky
+yardbarker.com###yb_recirc_container_mobile
 ! topgear.com
 topgear.com##div[class^="AdContainer"]
 topgear.com##div[class^="TopContainer-"]
@@ -356,6 +383,10 @@ chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysananto
 ##.leaderboard_ad
 ! kokomotribune.com,goshennews.com
 ###floorboard_block
+! seattlepi.com
+seattlepi.com##.b-gray300.bt
+seattlepi.com##[data-block-type="ad"]
+seattlepi.com##.b-gray300.md\:bt
 ! hawaiinewsnow.com
 ##.arc-ad-wrapper
 ! cbc.ca
@@ -476,7 +507,7 @@ medpagetoday.com##.leaderboard-region
 ##.vertical-ad
 ##.gpt-breaker-container
 ! #mntl-leaderboard-header_1-0
-brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,thespruce.com,verywellhealth.com###mntl-leaderboard-header_1-0
+brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,people.com,thespruce.com,travelandleisure.com,verywellhealth.com###mntl-leaderboard-header_1-0
 ! capitalfm.com
 ##.dac__banner__wrapper
 ##.dac__mpu-card
@@ -601,6 +632,9 @@ nationalreview.com##.revcontent-wrap
 ! pagesix.com
 pagesix.com,nypost.com##.recirc
 pagesix.com,nypost.com##.billboard-ad
+nypost.com##.nyp-s2n-wrapper
+nypost.com##.recirc
+nypost.com##.widget_nypost_dfp_ad_widget
 ! screenrant.com / gamerant
 ##.adsninja-ad-zone
 ##.ad-zone
@@ -610,6 +644,8 @@ pagesix.com,nypost.com##.billboard-ad
 ##.ad-link
 ! vice.com
 vice.com##.adph
+vice.com##.docked-slot-renderer
+vice.com##.nav-bar__article-spacer
 vice.com##.fixed-slot
 ! krebsonsecurity.com
 krebsonsecurity.com##.themonic-ad3
@@ -641,6 +677,34 @@ yahoo.com###sda-LDRB2
 yahoo.com##.native-ad-item
 yahoo.com##.darla-container
 yahoo.com##.darla
+yahoo.com###sda-LDRB
+yahoo.com###sda-LREC
+yahoo.com###sda-LREC3
+yahoo.com###sda-LREC4
+yahoo.com###sda-MON
+yahoo.com##li[data-test-locator="stream-related-ad-item"]
+yahoo.com##.caas-da
+yahoo.com###viewer-LREC2-iframe
+yahoo.com##.item-beacon
+yahoo.com##.ads
+yahoo.com##.darla-lrec-ad
+yahoo.com##.darla_ad
+yahoo.com##.ds_promo_ymobile
+yahoo.com##.gemini-ad
+yahoo.com##.gemini-ad-feedback
+yahoo.com##.ntk-ad-item
+yahoo.com##.sys_shopleguide
+yahoo.com##a[data-test-id="large-image-ad"]
+yahoo.com##div[class*="ads-"]
+yahoo.com##div[class*="gemini-ad"]
+yahoo.com##div[data-beacon] > div[class*="streamBoxShadow"]
+yahoo.com##div[id*="ComboAd"]
+yahoo.com##div[id^="LeadAd-"]
+yahoo.com##div[id^="darla-ad"]
+yahoo.com##div[id^="gemini-item-"]
+yahoo.com##div[style*="/ads/"]
+! mlive.com
+mlive.com###below-toprail
 ! bbc.com
 bbc.com###sticky-mpu
 bbc.com###sticky-leaderboard
@@ -677,6 +741,7 @@ newatlas.com###desktop_article_1
 newatlas.com###desktop_article_2
 newatlas.com###desktop_article_3
 ! washingtonpost.com
+washingtonpost.com###leaderboard-wrapper
 washingtonpost.com###leaderboard-overlay
 washingtonpost.com##.border-box.dn-hp-sm-to-mx
 washingtonpost.com##.border-box.dn-hp-xs
@@ -828,6 +893,16 @@ autoevolution.com##.bgcutgrad
 /id?d_visid_
 /comscore_beacon/*
 /perf-vitals_
+/batch/1/op/*
+/batch/1/oe/*
+/remote-weblab-triggers/*
+/unagi.amazon.
+/uedata?
+/__ssobj/core.js
+/px/client/main.min.js
+/rum_cmp?
+/ard.png?
+.snowplowanalytics.
 !
 ! Fingerprinting scripts (Threatmetrix)
 /fp-3.3.6.min.js
@@ -1257,6 +1332,7 @@ _event_tracking?
 ||ralphlauren.com^*/init.js
 ||realtor.com/rdc_user_check/init.js
 ||samsclub.com/px/PXsLC3j22K/init.js
+||seattlepi.com/413gkwMT/init.js
 ||seekingalpha.com/xgCxM9By/init.js
 ||shiekh.com/iJ55yhVs/init.js
 ||simon.com/46SCNLxs/init.js
