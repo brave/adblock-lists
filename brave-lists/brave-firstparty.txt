@@ -191,6 +191,7 @@ counterpunch.org##.header-center
 trademe.co.nz##.tm-display-ad__wrapper
 trademe.co.nz##tm-display-ad
 ! nationalworld.com
+nationalworld.com##.banner
 nationalworld.com,scotsman.com##.dmpu-item
 ! theautopian.com
 theautopian.com##[data-widget_type="html.default"]
