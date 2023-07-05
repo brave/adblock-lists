@@ -310,8 +310,6 @@ the-scientist.com##.footer-ad
 the-scientist.com###Torpedo
 ! gizmochina.com
 gizmochina.com##.adsbygoogle
-! clickondetroit.com
-clickondetroit.com##.topWrapper
 ! dexerto.com
 dexerto.com##.top-10
 dexerto.com###\#primisplayer
@@ -462,8 +460,6 @@ thedailybeast.com##.ConnatixAd
 /taboola-header.
 ##.adsbox970x90
 indianexpress.com##.add-first
-! local10.com
-local10.com##.topWrapper
 ! fivethirtyeight.com
 fivethirtyeight.com##.master-ad
 ! Twitter ad cosmetic element
@@ -588,8 +584,6 @@ kfdm.com##.index-module_adBeforeContent__UYZT
 ! austinchronicle.com
 austinchronicle.com###top-leaderboard
 austinchronicle.com##.ad-right
-! click2houston.com
-click2houston.com##.topWrapper
 ! texastribune.org
 texastribune.org##.js-ad-unit
 ! salon.com
@@ -633,7 +627,6 @@ nationalreview.com##.revcontent-wrap
 pagesix.com,nypost.com##.recirc
 pagesix.com,nypost.com##.billboard-ad
 nypost.com##.nyp-s2n-wrapper
-nypost.com##.recirc
 nypost.com##.widget_nypost_dfp_ad_widget
 ! screenrant.com / gamerant
 ##.adsninja-ad-zone
@@ -947,7 +940,6 @@ autoevolution.com##.bgcutgrad
 ! Amazon
 ||amazon.com/1/aiv-web-player/1/OE^
 ||amazon.com/1/events/$domain=~aws.amazon.com
-||amazon.com/1/remote-weblab-triggers/
 ||amazon.com/empty.gif?$image
 ||amazon.com^*/impress.html
 ||aax-eu-dub.amazon.com^$script
