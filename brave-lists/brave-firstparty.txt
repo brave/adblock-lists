@@ -5,172 +5,171 @@
 /adservice.$domain=~adservice.io|~github.com|~githubusercontent.com
 !
 ! ezoic ads
-##.ezo_ad
-##.ezoic-ad
-##.ezoic-ad-adaptive
-##.ezoic-floating-bottom
-##.tmo-ad
-##.adhesiveAdWrapper
-##.tmo-ad-ezoic
-##.top-banner-advert
-##.upx-ad-placeholder
-##.collapsed-ad
-##.ad-top-banner
-##.ad-mobile-dynamic
-##.ad-mobile
-##.ad-left-top
-##.td-adspot-title
-##.adMinHeight280
-###aniview-ads
-##.right-column-ad
-##.fs_ad
-##.p-ads-billboard
-##.p-ads-rec
-##.ad_background_1
-##.article-mid-ad
-##.ad--sponsor-content
-##.ads--no-preload
-##.dfp-tag-wrapper
-##.ad-overlay
-###taboola-below-article-1
-##.taboola-wrapper
-##.ad_blk
-##.ad--desktop
-##.proper-ad-unit
-##[data-testid="ad_testID"]
-##.ajdg_grpwidgets
-##.zergnet__container
-##.ad-space
-##.instoryAdBlock
-##.instoryAdNoBlock
-##.block-dfp
-##.ad_wrapper
-##.adRectangle-pos-medium
-##.ad--banner
-##.evolve-ad
-##.widget_evolve_ad_gpt_widget
-##.ad-entity-container
-##.crain-advertisement
-##.block-ad-entity
-##.top-ad-block
-##.longform-ad
-##.gallery-ad-lazyload-placeholder
-##.ad-inline
-##.js-ad-placement
-##.ad-leaderboard
-##.ad-rectangle
-##.ad-slot-top
-##.ad-slot-rail
-##.ad-slot-header
-###ad_rect_btf_02
-###ad_rect_btf_01
 ###ad_bnr_atf_01
-##.ad-slot-header__wrapper
-##.primis-ad-wrap
-##.ad-mrec
-##.adsbyvli
-##.adSense
-##.latestStoriesAd
-##.GoogleDfpAd
-##.taboola-widget
-##.article-ad
-##.js-advert
-##.advert--header
-##.advert-label
-##.m1-header-ad
-##.adSizer
-##.pageAdSkin
-##.pageAdSkinUrl
-##.dfp-leaderboard-container
-##.empire-unit-prefill-container
-##.tadm_ad_unit
-###taboola-below-article-thumbnails-v2
-##.floating-preroll-ad
-##[class^="adm-inline-article-ad"]
-##[data-component="ad-unit"]
-##.ad-caption
-##.outer_ad_container
-##.outer-ad-unit-wrapper
-##.advertise_text
-##[data-rc-widget]
-##div[id^="rc-widget-"]
 ###ad_lead1
-##.m-advert
-##.m-content-advert
-##.m-content-advert-wrap
-##.AdBox
-##.ad_background_true
-##.rj-ads-wrapper
-##.ad--container
-##.ad_300
+###ad_rect_btf_01
+###ad_rect_btf_02
+###adm-inline-article-ad-1
+###adm-inline-article-ad-2
+###aniview-ads
 ###banner_pos1_ddb_0
 ###banner_pos2_ddb_0
 ###banner_pos3_ddb_0
 ###banner_pos4_ddb_0
+###comments-standalone-mpu
+###dfp_leaderboard
+###leftrail_dynamic_ad_wrapper
 ###rightrail_pos1_ddb_0
 ###rightrail_pos2_ddb_0
 ###rightrail_pos3_ddb_0
-##.premium_PremiumPlacement__2dEp0
-##div[class^="Display_displayAd"]
+###splashy-ad-container-top
+###taboola-below-article-1
+###taboola-below-article-thumbnails
+###taboola-below-article-thumbnails-v2
+###taboola-right-rail-thumbnails
+##.AdBox
+##.GoogleDfpAd
+##.ad--banner
+##.ad--container
+##.ad--desktop
+##.ad--footer
+##.ad--in-content
+##.ad--mid-content
+##.ad--sponsor-content
+##.ad-caption
+##.ad-entity-container
+##.ad-footer
+##.ad-inline
+##.ad-leaderboard
+##.ad-left-top
+##.ad-mobile
+##.ad-mobile-dynamic
+##.ad-mrec
+##.ad-overlay
+##.ad-placeholder
+##.ad-rectangle
+##.ad-slot
+##.ad-slot-header
+##.ad-slot-header__wrapper
+##.ad-slot-rail
+##.ad-slot-top
+##.ad-space
+##.ad-stickyhero
+##.ad-stickyhero--standard
+##.ad-top-banner
+##.ad-unit
+##.ad-wrapper
+##.adHeight280
+##.adHolder
+##.adMinHeight280
+##.adRectangle-pos-medium
+##.adSense
+##.adSizer
+##.ad_300
+##.ad_background_1
+##.ad_background_true
+##.ad_blk
+##.ad_wrapper
+##.adhesiveAdWrapper
+##.ads--no-preload
+##.adsbyvli
+##.adtester-container
+##.advert--header
+##.advert--leaderboard
+##.advert-label
+##.advertise_text
+##.ajdg_grpwidgets
+##.apexAd
+##.article-ad
+##.article-mid-ad
+##.block-ad-entity
+##.block-dfp
+##.c-ad
+##.collapsed-ad
+##.crain-advertisement
+##.dfp-leaderboard-container
+##.dfp-tag-wrapper
+##.empire-unit-prefill-container
+##.evolve-ad
+##.ez-sidebar-wall-ad
+##.ezo_ad
+##.ezoic-ad
+##.ezoic-ad-adaptive
+##.ezoic-adpicker-ad
+##.ezoic-floating-bottom
+##.floating-preroll-ad
+##.fs_ad
+##.gallery-ad-lazyload-placeholder
+##.header-ad-region
+##.hide-ad
+##.instoryAdBlock
+##.instoryAdNoBlock
+##.js-ad
+##.js-ad-placement
+##.js-advert
+##.js_ad-sticky-footer
+##.js_desktop-horizontal-ad
+##.js_related-stories-inset
+##.lastAdSlot
+##.latestStoriesAd
+##.leaderboard.advert
+##.longform-ad
 ##.m-ad
+##.m-advert
+##.m-content-advert
+##.m-content-advert-wrap
 ##.m-header-ad
 ##.m-in-content-ad
 ##.m-in-content-ad-row
+##.m1-header-ad
 ##.mm-widget--sendtonews
-##.ad-footer
+##.outer-ad-unit-wrapper
+##.outer_ad_container
+##.p-ads-billboard
+##.p-ads-rec
 ##.page-ad
-##.ad-stickyhero--standard
-##.ad--footer
-##.hide-ad
-##.ad--in-content
-##.advert--leaderboard
-##div[data-dfp-id]
-##.rightAd
-##.adHeight280
-##.adHolder
-##.lastAdSlot
-##.td-a-ad
-##.rhsWidgetNotAdFree
+##.pageAdSkin
+##.pageAdSkinUrl
+##.pmc-adm-boomerang-pub-div
+##.premium_PremiumPlacement__2dEp0
+##.primis-ad-wrap
+##.primis-player
 ##.primis-wrapper
+##.proper-ad-unit
+##.rail-ads-1
+##.rhsWidgetNotAdFree
+##.right-column-ad
+##.rightAd
 ##.right_ad_1
 ##.right_ad_2
 ##.right_ad_4
-##.ad--mid-content
-##.header-ad-region
-##.ezoic-adpicker-ad
-##.adtester-container
-##.ez-sidebar-wall-ad
-##.widget-ads
-##.sponsored-post
-##.ad-unit
-##.ad-stickyhero
-##.apexAd
-###dfp_leaderboard
-##.c-ad
-##.js-ad
-##.leaderboard.advert
+##.rj-ads-wrapper
 ##.sidebar-ad-container
-##.ad-wrapper
-##.ad-slot
+##.sponsored-post
+##.taboola-widget
+##.taboola-wrapper
+##.tadm_ad_unit
+##.td-a-ad
+##.td-adspot-title
+##.tmo-ad
+##.tmo-ad-ezoic
+##.top-ad-block
 ##.top-ad-wrapper
-##.ad-placeholder
-##.pmc-adm-boomerang-pub-div
-##.rail-ads-1
-##.primis-player
-###adm-inline-article-ad-1
-###adm-inline-article-ad-2
-###comments-standalone-mpu
-###leftrail_dynamic_ad_wrapper
-###splashy-ad-container-top
-###taboola-below-article-thumbnails
-###taboola-right-rail-thumbnails
-##.js_desktop-horizontal-ad
-##.js_ad-sticky-footer
-##.js_related-stories-inset
+##.top-banner-advert
+##.upx-ad-placeholder
+##.widget-ads
+##.widget_evolve_ad_gpt_widget
+##.zergnet__container
+##[class^="adm-inline-article-ad"]
+##[data-component="ad-unit"]
+##[data-rc-widget]
+##[data-testid="ad_testID"]
+##div[class^="Display_displayAd"]
+##div[data-dfp-id]
 ##div[id^="ezoic-pub-ad-"]
+##div[id^="rc-widget-"]
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ! Gannett https://github.com/easylist/easylist/issues/13015
-##.partner-loading-shown.partner-label
 ###gnt_atomsnc
 ##.gnt_flp
 ##.gnt_rr_xpst
@@ -178,6 +177,7 @@
 ##.gnt_tb.gnt_tbb
 ##.gnt_tbr.gnt_tb
 ##.gnt_x
+##.partner-loading-shown.partner-label
 ! Mgid
 ##div[id*="MarketGid"]
 ##div[id*="ScriptRoot"]
@@ -235,32 +235,32 @@ allkpop.com##.akp2_wrap
 videogameschronicle.com##div[id^="ad__billboard_"]
 videogameschronicle.com##div[id^="ad__hugebreak"]
 ! siasat.com
-siasat.com##.stream-item-inline-post
-siasat.com##.stream-item-below-post-content
-siasat.com##.awt_ad_code
-siasat.com##.stream-item-widget
 siasat.com###tie-block_3274
+siasat.com##.awt_ad_code
+siasat.com##.stream-item-below-post-content
+siasat.com##.stream-item-inline-post
+siasat.com##.stream-item-widget
 ! wbur.org
 wbur.org##.section--breakout
 wbur.org##.section--takeover
 wbur.org##.section--uw
 ! fxstreet.com
-fxstreet.com##.fxs_leaderboard
 fxstreet.com###fxs-sposorBroker-topBanner
+fxstreet.com##.fxs_leaderboard
 ! essentiallysports.com
 essentiallysports.com##.es-ad-space-container
 ! extremetech.com
-extremetech.com##section > .mt-8
 extremetech.com##.bg-gray-100
 extremetech.com##.min-h-24
+extremetech.com##section > .mt-8
 ! .topWrapper
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.topWrapper
 ! comicbook.com
-comicbook.com,popculture.com##[id^="native-plus-"]
-comicbook.com,popculture.com##.popculture-embed
-comicbook.com##.mobile
 comicbook.com##.embedVideoContainer
+comicbook.com##.mobile
 comicbook.com##.oas
+comicbook.com,popculture.com##.popculture-embed
+comicbook.com,popculture.com##[id^="native-plus-"]
 ! .StickyFooter
 apartmenttherapy.com,cubbyathome.com,thekitchn.com##.StickyFooter
 ! theartnewspaper.com
@@ -271,24 +271,24 @@ eonline.com##.article-detail__right-rail--topad
 eonline.com##.article-detail__segment-ad
 ! yardbarker.com
 yardbarker.com###leaderboard_container
-yardbarker.com##.mb_promo_responsive_right
-yardbarker.com##.yb-card-ad
 yardbarker.com###right_top_sticky
 yardbarker.com###yb_recirc_container_mobile
+yardbarker.com##.mb_promo_responsive_right
+yardbarker.com##.yb-card-ad
 ! topgear.com
 topgear.com##div[class^="AdContainer"]
 topgear.com##div[class^="TopContainer-"]
 ! motortrend.com
-##div[data-ad-targeting]
-##[data-revive-zoneid]
 motortrend.com##._3HQN_
+##[data-revive-zoneid]
+##div[data-ad-targeting]
 ! whatcar.com
 whatcar.com##.ArticleTemplate_masthead__oY950
 ! zillow.com
 zillow.com##[data-test="search-list-first-ad"]
 ! crypto.news
-crypto.news##.b6470de94dc
 crypto.news##.a49292cf69626
+crypto.news##.b6470de94dc
 ! telegraph.co.uk
 telegraph.co.uk##.commercial-unit
 ! cryptonews.net
@@ -296,8 +296,8 @@ cryptonews.net##.vert-public
 ! cointelegraph.com
 cointelegraph.com##.ad-slot_NjPAE
 cointelegraph.com##.advertise-with-us-link_O9rIX
-cointelegraph.com##mm-collectors
 cointelegraph.com##.componentAdbutler_uF1zH
+cointelegraph.com##mm-collectors
 ! tomshardware.com
 /hawklinks.js
 ! trulia.com
@@ -305,23 +305,23 @@ cointelegraph.com##.componentAdbutler_uF1zH
 ! redfin.com
 ||redfin.com/rift?
 ! the-scientist.com
+the-scientist.com###Torpedo
 the-scientist.com###preHeader
 the-scientist.com##.adverts
 the-scientist.com##.footer-ad
-the-scientist.com###Torpedo
 ! gizmochina.com
 gizmochina.com##.adsbygoogle
 ! dexerto.com
-dexerto.com##.top-10
 dexerto.com###\#primisplayer
 dexerto.com##.bg-neutral-grey-4.items-center
+dexerto.com##.top-10
 ! arstechnica.com
-arstechnica.com##.ad_xrail
 arstechnica.com##.ad_crown
 arstechnica.com##.ad_fullwidth
+arstechnica.com##.ad_xrail
 ! nytimes.com
-nytimes.com##.g-paid
 nytimes.com##.css-bs95eu
+nytimes.com##.g-paid
 ! cnbc.com
 cnbc.com##.TopBanner-container
 ! people.com
@@ -345,37 +345,37 @@ theverge.com##div[data-concert]
 ! zdnet.com
 ##.c-adDisplay
 ##.c-adDisplay_container
+zdnet.com##.c-adDisplay_container_incontent-all-top
 ##.c-adSkyBox
 zdnet.com##.c-avStickyVideo
-zdnet.com##.c-adDisplay_container_incontent-all-top
 ! mmanews.com / athlonsports.com
-##.m-sidebar-ad--slot
 ##.m-sidebar-ad
+##.m-sidebar-ad--slot
 ! sherdog.com
-sherdog.com##.top_ads
 sherdog.com###adViAi
 sherdog.com##.ads
+sherdog.com##.top_ads
 ! ndtv.com
-ndtv.com##.ad-cnt
-ndtv.com##.add-wrp
-ndtv.com##.ads_tb-c
-ndtv.com##.add__wrp
-ndtv.com##.mastheadwrap
-ndtv.com##.adcont
 ndtv.com###jads
+ndtv.com##.ad-cnt
+ndtv.com##.adcont
+ndtv.com##.add-wrp
+ndtv.com##.add__wrp
+ndtv.com##.ads_tb-c
+ndtv.com##.mastheadwrap
 ! .insticator-ads
 ##.insticator-ads
 ! .ad
-vanityfair.com,usnews.com,skynews.com.au,flightglobal.com,cnn.com,foxweather.com,foxnews.com,foxbusiness.com,politico.com,autoevolution.com,wired.com,arstechnica.com,bleacherreport.com,newsday.com,barchart.com,barstoolsports.com,ktbs.com,time.com,seattletimes.com,nj.com,sny.tv##.ad
+arstechnica.com,autoevolution.com,barchart.com,barstoolsports.com,bleacherreport.com,cnn.com,flightglobal.com,foxbusiness.com,foxnews.com,foxweather.com,ktbs.com,newsday.com,nj.com,politico.com,seattletimes.com,skynews.com.au,sny.tv,time.com,usnews.com,vanityfair.com,wired.com##.ad
 ! .ad-container
-fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxla.com,ktvu.com,q13fox.com,wogx.com,oneesports.gg,tmz.com,sportskeeda.com,outkick.com,seattletimes.com,uploadvr.com,newyorker.com,foxweather.com,foxnews.com,foxbusiness.com##.ad-container
+fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,foxweather.com,ktvu.com,newyorker.com,oneesports.gg,outkick.com,q13fox.com,seattletimes.com,sportskeeda.com,tmz.com,uploadvr.com,wogx.com##.ad-container
 ! .adBanner
 chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.adBanner
 ! .code-block
-180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,thecinemaholic.com,thedriven.io,theautopian.com,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
+180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,theautopian.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
 ! kdhnews.com,oanow.com,tucson.com
-##.tnt-ads-container
 ##.tnt-ads
+##.tnt-ads-container
 ! wamu.org
 ##.ad-header-pencil
 ! ksl.com
@@ -384,8 +384,8 @@ chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysananto
 ###floorboard_block
 ! seattlepi.com
 seattlepi.com##.b-gray300.bt
-seattlepi.com##[data-block-type="ad"]
 seattlepi.com##.b-gray300.md\:bt
+seattlepi.com##[data-block-type="ad"]
 ! hawaiinewsnow.com
 ##.arc-ad-wrapper
 ! cbc.ca
@@ -412,45 +412,45 @@ espn.com##.ad-center
 ! courthousenews.com
 courthousenews.com##.ad-banner
 ! nasdaq.com
-nasdaq.com##.taboola-placeholder
-nasdaq.com##.ads__inline
 nasdaq.com##.ads-placeholder
+nasdaq.com##.ads__inline
 nasdaq.com##.header-ads
+nasdaq.com##.taboola-placeholder
 ! bloodyelbow.com
-bloodyelbow.com##.snackStickyParent
 bloodyelbow.com##.c-inblog_ad
+bloodyelbow.com##.snackStickyParent
 ! channelnewsasia.com
 channelnewsasia.com##.programtic-ads
 ! express.co.uk
-express.co.uk##.taboola-above-article
 express.co.uk###ovp-primis
 express.co.uk###taboola-mid-article-thumbnails-outstream
+express.co.uk##.taboola-above-article
 express.co.uk##.viafoura-standalone-mpu
 ! hindustantimes.com
+hindustantimes.com##.adHeight270
+hindustantimes.com##.adHeight313
+hindustantimes.com##.adMinHeight313
 hindustantimes.com##.desktopAd
 hindustantimes.com##.right-top-ad
 hindustantimes.com##.storyAd
-hindustantimes.com##.adHeight313
-hindustantimes.com##.adHeight270
-hindustantimes.com##.adMinHeight313
 ! dailymail.co.uk
 dailymail.co.uk##.billboard-container
-dailymail.co.uk##.mpu_puff_wrapper
 dailymail.co.uk##.connatix-wrapper
+dailymail.co.uk##.mpu_puff_wrapper
 ! gizmodo.com,jalopnik.com
 ##.js_sticky-top-ad
 ! businessinsider.com,insider.com
-businessinsider.com,insider.com##.l-ad
 businessinsider.com,insider.com##.in-post-sticky
+businessinsider.com,insider.com##.l-ad
 businessinsider.com,insider.com##.subnav-ad-position-sticky
 ! thedailybeast.com
-thedailybeast.com##.SimpleAd
-thedailybeast.com##.Cheat__top-ad
-thedailybeast.com##.Cheat__out-of-page-ads
-thedailybeast.com##.PageTopAd
 thedailybeast.com##.AdSlot
-thedailybeast.com##.FooterAd
+thedailybeast.com##.Cheat__out-of-page-ads
+thedailybeast.com##.Cheat__top-ad
 thedailybeast.com##.ConnatixAd
+thedailybeast.com##.FooterAd
+thedailybeast.com##.PageTopAd
+thedailybeast.com##.SimpleAd
 ! https://www.chron.com/
 ##.belowMastheadWrapper
 ! ksl.com
@@ -458,40 +458,40 @@ thedailybeast.com##.ConnatixAd
 ! hawaiinewsnow.com
 ##.ad-type-cube
 ! indianexpress.com
-/taboola-header.
-##.adsbox970x90
 indianexpress.com##.add-first
+##.adsbox970x90
+/taboola-header.
 ! fivethirtyeight.com
 fivethirtyeight.com##.master-ad
 ! Twitter ad cosmetic element
-twitter.com##[style]>div>div>[data-testid=placementTracking]
+twitter.com##[style] > div > div > [data-testid=placementTracking]
 ! bbc.com
-##.dotcom-ad
-bbc.com###mpu-side-aside-content
 bbc.com###leaderboard-aside-content
+bbc.com###mpu-side-aside-content
+##.dotcom-ad
 ! consequence.net
-##.ad.card
+##.AdSense
 ##.ad-title
+##.ad.card
 ##.horizontal.ad
+consequence.net##.leaderboard-sticky
 ##.native-ad
 ##div[data-adunit]
-##.AdSense
-consequence.net##.leaderboard-sticky
 ! jpost.com
 jpost.com##.banner
-jpost.com##.right-side-banner
 jpost.com##.line-left-side-before-and-after-container
 jpost.com##.line-one-row-before-and-after-container
+jpost.com##.right-side-banner
 ! joblo.com
-##.freestar-ad-container
 ##.ads-global-header
+##.freestar-ad-container
 ! msn.com
-msn.com##div[class^="galleryPage_bannerAd"]
-msn.com##.galleryPage_eoabContent_new-DS-EntryPoint1-1
 msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
-msn.com##div[class^="articlePage_topBannerAdContainer_"]
+msn.com##.galleryPage_eoabContent_new-DS-EntryPoint1-1
 msn.com##[class^="articlePage_eoabContent"]
 ##display-ads
+msn.com##div[class^="articlePage_topBannerAdContainer_"]
+msn.com##div[class^="galleryPage_bannerAd"]
 ! encyclopedia.com
 ###skin-ad-left-rail-container
 ! medpagetoday.com
@@ -501,24 +501,24 @@ medpagetoday.com##.leaderboard-region
 ! cosmopolitan.com
 ###gpt-leaderboard-ad
 ##.breaker-ad
-##.vertical-ad
 ##.gpt-breaker-container
+##.vertical-ad
 ! #mntl-leaderboard-header_1-0
 brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,people.com,thespruce.com,travelandleisure.com,verywellhealth.com###mntl-leaderboard-header_1-0
 ! capitalfm.com
-##.dac__banner__wrapper
-##.dac__mpu-card
 ###ad-mpu
 ###ad-overlay
+##.dac__banner__wrapper
+##.dac__mpu-card
 ! whowhatwear.co.uk
 ##.ad-mount
 ! bustle.com
 ##.adWrapper
 ! theblockcharlotte.com
-##.gpt-ad
-##.gpt-ad-container
 ##.ad-slot-1
 ##.ad-slot-2
+##.gpt-ad
+##.gpt-ad-container
 ! thepointsguy.com
 thepointsguy.com##[aria-label="Advertisement"]
 ! variety.com
@@ -526,30 +526,30 @@ variety.com###leaderboard-no-padding
 ! verywellhealth.com
 ##.js-lazy-ad
 ! howtogeek.com
-##.adslot970
 ##.adslot
+##.adslot970
 howtogeek.com##div[id^="purch_"]
 ! discogs.com
 ##.ad_bottom
-##.ad_top
 ##.ad_container
+##.ad_top
 ! rottentomatoes.com
 rottentomatoes.com##.leaderboard_wrapper
 ! memory-alpha.fandom.com
-##.top-ads-container
+fandom.com###featured-video__player-container
 ##.ad-slot-placeholder
 ##.bottom-ads-container
-fandom.com###featured-video__player-container
+##.top-ads-container
 ! nbcnews.com
-##.topbannerAd
+nbcnews.com##.ad-container
 ##.ad-sponsor
 ##.header-and-footer--banner-ad
-nbcnews.com##.ad-container
+##.topbannerAd
 ! wikihow.com
 ###intro_ad_1
+wikihow.com##.al_method
 ##.wh_ad_inner
 ##ins.adsbygoogle
-wikihow.com##.al_method
 ! wired.com
 wired.com##div[class^="ConsumerMarketingUnitThemedWrapper-"]
 wired.com##div[class^="StickyBoxWrapper"]
@@ -558,10 +558,10 @@ chron.com,mysanantonio.com##.adModule
 chron.com,mysanantonio.com##[aria-label*="Advertisement"]
 ! huffpost.com
 ##.ad-leaderboard-flex
-huffingtonpost.es##[data-adtype]
-huffpost.com##.top-ad-recirc
 huffpost.com##.bottom-right-sticky-container
 huffpost.com##.entry__right-rail-width-placeholder
+huffpost.com##.top-ad-recirc
+huffingtonpost.es##[data-adtype]
 ! outkick.com
 outkick.com##.g1-advertisement
 ! barstoolsports.com
@@ -572,32 +572,32 @@ barstoolsports.com##.htl-ad__container
 syfy.com##.zergnet-widget__header
 ! metro.co.uk
 metro.co.uk###mpu_bottom
-metro.co.uk##.ad-slot-large
 metro.co.uk##.ad-slot-container
+metro.co.uk##.ad-slot-large
 metro.co.uk##.ji-ad-slot-mpu
 ! odishatv.in
 odishatv.in##.otv-300-250-ad
 odishatv.in##.otv-970-250-ad
 ! kfdm.com
 kfdm.com###premium_ddb_0
-kfdm.com##.sd-container
 kfdm.com##.index-module_adBeforeContent__UYZT
+kfdm.com##.sd-container
 ! austinchronicle.com
 austinchronicle.com###top-leaderboard
 austinchronicle.com##.ad-right
 ! texastribune.org
 texastribune.org##.js-ad-unit
 ! salon.com
-salon.com##.sidebar_ad
 salon.com##.banner_ad_between_sections
+salon.com##.sidebar_ad
 ! wsmv.com
 wsmv.com##.arc-ad
 ! dallasnews.com
-dallasnews.com##.htlad-dfpTop
 dallasnews.com##.htlad-dfpPosition1_article
+dallasnews.com##.htlad-dfpTop
 ! newsweek.com
-newsweek.com###topad
 newsweek.com###right1ad
+newsweek.com###topad
 ! dcist.com
 dcist.com##.advertisement-information-link
 ! seattletimes.com
@@ -606,53 +606,53 @@ seattletimes.com##[data-zone="Sponsored"]
 weather.com##[title="Sponsored Content"]
 ! nj.com
 nj.com##.below-toprail
-nj.com##.rightRail-top-wrapper
 nj.com##.revenue-display
+nj.com##.rightRail-top-wrapper
 ! usatoday.com / abcnews.go.com
-##[data-testid="prism-ad-wrapper"]
-##[aria-label="advertisement"]
 ###ad--article-top-wrapper
 ###ad--sidebar
 ##.listicle-instream-ad-holder
+##[aria-label="advertisement"]
+##[data-testid="prism-ad-wrapper"]
 ! wionews.com
 wionews.com##.ads-box-300x300
 ! anandtech.com
 anandtech.com###side_ad
 anandtech.com##.header_ad
 ! nationalreview.com
-nationalreview.com##.article-connatix-wrap
 nationalreview.com##.ad-skeleton
 nationalreview.com##.aniview-inline-player
+nationalreview.com##.article-connatix-wrap
 nationalreview.com##.revcontent-wrap
 ! pagesix.com
-pagesix.com,nypost.com##.recirc
-pagesix.com,nypost.com##.billboard-ad
+nypost.com,pagesix.com##.billboard-ad
 nypost.com##.nyp-s2n-wrapper
+nypost.com,pagesix.com##.recirc
 nypost.com##.widget_nypost_dfp_ad_widget
 ! screenrant.com / gamerant
-##.adsninja-ad-zone
-##.ad-zone
 ##.ad-current
+##.ad-zone
 ##.ad-zone-container
+##.adsninja-ad-zone
 ! oneesports.gg
 ##.ad-link
 ! vice.com
 vice.com##.adph
 vice.com##.docked-slot-renderer
-vice.com##.nav-bar__article-spacer
 vice.com##.fixed-slot
+vice.com##.nav-bar__article-spacer
 ! krebsonsecurity.com
-krebsonsecurity.com##.themonic-ad3
 krebsonsecurity.com###sidebar_ad
 krebsonsecurity.com##.themonic-ad1
+krebsonsecurity.com##.themonic-ad3
 ! theguardian.com#
-theguardian.com##.top-banner-ad-container
 theguardian.com##.ad-slot-container
+theguardian.com##.top-banner-ad-container
 ! ft.com
 ft.com##.o-ads
 ! videogamer.com
-##.adthrive-ad
 ##.adthrive
+##.adthrive-ad
 ##.adthrive-content
 ! bleepingcomputer.com
 bleepingcomputer.com##.cz-toa-wrapp
@@ -660,34 +660,33 @@ bleepingcomputer.com##.s-ou-wrap
 ! theregister.com
 ##.adun
 ! slate.com
-slate.com##.top-ad
 slate.com##.slate-ad
+slate.com##.top-ad
 ! thedrive.com
 thedrive.com##.mtc-header__desktop__article-prefill-container
 ! yahoo.com
-yahoo.com###sda-MAST
-yahoo.com##.viewer-sda-container
-yahoo.com###sda-LDRB2
-yahoo.com##.native-ad-item
-yahoo.com##.darla-container
-yahoo.com##.darla
 yahoo.com###sda-LDRB
+yahoo.com###sda-LDRB2
 yahoo.com###sda-LREC
 yahoo.com###sda-LREC3
 yahoo.com###sda-LREC4
+yahoo.com###sda-MAST
 yahoo.com###sda-MON
-yahoo.com##li[data-test-locator="stream-related-ad-item"]
-yahoo.com##.caas-da
 yahoo.com###viewer-LREC2-iframe
-yahoo.com##.item-beacon
 yahoo.com##.ads
+yahoo.com##.caas-da
+yahoo.com##.darla
+yahoo.com##.darla-container
 yahoo.com##.darla-lrec-ad
 yahoo.com##.darla_ad
 yahoo.com##.ds_promo_ymobile
 yahoo.com##.gemini-ad
 yahoo.com##.gemini-ad-feedback
+yahoo.com##.item-beacon
+yahoo.com##.native-ad-item
 yahoo.com##.ntk-ad-item
 yahoo.com##.sys_shopleguide
+yahoo.com##.viewer-sda-container
 yahoo.com##a[data-test-id="large-image-ad"]
 yahoo.com##div[class*="ads-"]
 yahoo.com##div[class*="gemini-ad"]
@@ -697,29 +696,30 @@ yahoo.com##div[id^="LeadAd-"]
 yahoo.com##div[id^="darla-ad"]
 yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
+yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! mlive.com
 mlive.com###below-toprail
 ! bbc.com
-bbc.com###sticky-mpu
 bbc.com###sticky-leaderboard
+bbc.com###sticky-mpu
 ! wccftech.com
-wccftech.com##.main-background-wrap
 wccftech.com##.bg-vertical
 wccftech.com##.content-ad
+wccftech.com##.main-background-wrap
 ! reuters.com
-reuters.com##[data-testid="ResponsiveAdSlot"]
 reuters.com##.ad-slot__container__FEnoz
+reuters.com##[data-testid="ResponsiveAdSlot"]
 ! techspot.com
-techspot.com##.cta
 techspot.com##.adContainerSide
+techspot.com##.cta
 ! apnews.com
+apnews.com##.Leaderboard
 apnews.com##.Page-header-leaderboardAd
 apnews.com##.SovrnAd
-apnews.com##.apnews_article_midarticle_3
 apnews.com##.advertisementTitle
-apnews.com##.Leaderboard
 apnews.com##.apnews_article_midarticle_1
 apnews.com##.apnews_article_midarticle_2
+apnews.com##.apnews_article_midarticle_3
 ! nationalgeographic.com
 nationalgeographic.com##.ArticleStickiness
 nationalgeographic.com##.InsertedAd
@@ -730,13 +730,13 @@ venturebeat.com##.tude-cw-wrap
 ! newyorker.com
 newyorker.com##.should-hold-space
 ! newatlas.com
-newatlas.com##.OcelotAdModule
 newatlas.com###desktop_article_1
 newatlas.com###desktop_article_2
 newatlas.com###desktop_article_3
+newatlas.com##.OcelotAdModule
 ! washingtonpost.com
-washingtonpost.com###leaderboard-wrapper
 washingtonpost.com###leaderboard-overlay
+washingtonpost.com###leaderboard-wrapper
 washingtonpost.com##.border-box.dn-hp-sm-to-mx
 washingtonpost.com##.border-box.dn-hp-xs
 washingtonpost.com##.pb-sm.pt-sm.b
@@ -746,52 +746,52 @@ washingtonpost.com##[data-qa="right-rail-ad"]
 washingtonpost.com##[data-sc-c="adslot"]
 washingtonpost.com##[data-testid="placeholder-box"]
 ! coindesk.com
-coindesk.com##.ad-content
 coindesk.com##.ad-box
-coindesk.com##.gWUxIC
+coindesk.com##.ad-content
 coindesk.com##.at-rail-wrapper
+coindesk.com##.gWUxIC
 coindesk.com##.vert
-! crypto 
-theblock.co##.footerRoot
-theblock.co##.sponsoredArticle
-theblock.co##.fullWidthDisplay
-coinspeaker.com##.aside-banner
-insidebitcoins.com##.adv-link
+! crypto
 crypto-news-flash.com##.adsBanner
-cryptonewsz.com##.stream-item-below-header
-cryptonewsz.com##.stream-item-above-header
-cryptonewsz.com##.stream-item
+insidebitcoins.com##.adv-link
+coinspeaker.com##.aside-banner
 cryptopolitan.com##.crp_ads_container
-cryptopolitan.com##.crp_sidebar_ads_container
 cryptopolitan.com##.crp_inarticle_ads_container
-beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonewsz.com,insidebitcoins.com,cryptonews.com##[class*="clickout-"]
+cryptopolitan.com##.crp_sidebar_ads_container
+theblock.co##.footerRoot
+theblock.co##.fullWidthDisplay
+theblock.co##.sponsoredArticle
+cryptonewsz.com##.stream-item
+cryptonewsz.com##.stream-item-above-header
+cryptonewsz.com##.stream-item-below-header
+beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com##[class*="clickout-"]
 ! streetinsider.com
-streetinsider.com##.im-ad
 streetinsider.com###bottom_ad_fixed
+streetinsider.com##.im-ad
 ! investing.com
-investing.com##.dfpVideo
+investing.com## + js(nostif, offsetHeight)
+investing.com###__next > .fixed
+investing.com###ad1
+investing.com###ad2
+investing.com###ad3
 investing.com###hpAdVideo
 investing.com##.dfpAdUnitContainer
+investing.com##.dfpVideo
 investing.com##.im-ad-visible
-investing.com###ad2
-investing.com###ad1
-investing.com###ad3
 investing.com##.wideTopBanner
-investing.com###__next > .fixed
 investing.com##[class*="adBlock"]
 investing.com##[class*="overlay_overlay"]
-investing.com##+js(nostif, offsetHeight)
 ||investing.com/js/n/ad-blocker-popup$script
 ! usnews.com
 usnews.com###bfad-slot
-usnews.com##.InartAd__FirstInartAdWrapper-sc-8wv8ky-0
 usnews.com##.Ad__Container-sc-1ah7c5n-0
+usnews.com##.InartAd__FirstInartAdWrapper-sc-8wv8ky-0
 usnews.com##.ad-spacer__AdSpacer-sc-nwg9sv-0
 ! skynews.com.au
 skynews.com.au##.header_ads-container
 ! examiner.com.au..
-examiner.com.au,canberratimes.com.au,theadvocate.com.au,thecourier.com.au,bordermail.com.au###billboard-container
-examiner.com.au,canberratimes.com.au,theadvocate.com.au,thecourier.com.au,bordermail.com.au##.bg-gray-100
+bordermail.com.au,canberratimes.com.au,examiner.com.au,theadvocate.com.au,thecourier.com.au###billboard-container
+bordermail.com.au,canberratimes.com.au,examiner.com.au,theadvocate.com.au,thecourier.com.au##.bg-gray-100
 ! perthnow.com.au
 perthnow.com.au##.ad-article-mrec-one
 perthnow.com.au##.ad-sidebar-top
@@ -801,14 +801,14 @@ theroar.com.au##.pm-ad-unit
 ! worldtestchampionship.com
 worldtestchampionship.com##.mobile-banner
 ! 7news.com.au
-7news.com.au##.ad-no-notice
 7news.com.au###taboola-mid-article-thumbnails
+7news.com.au##.ad-no-notice
 ! afr.com
 afr.com###stickyLeaderboard
 ! france24.com
-france24.com##.o-ad-container
-france24.com##.m-interstitial
 france24.com##.m-block-ad
+france24.com##.m-interstitial
+france24.com##.o-ad-container
 ! timesofisrael.com
 timesofisrael.com##.banner-placeholder
 ! dailyfx.com
@@ -821,9 +821,9 @@ fxempire.com##.ddAwpw
 fxempire.com##.gAruxy
 fxempire.com##[data-cy="article-ad"]
 ! foxnews
+foxbusiness.com,foxnews.com,foxweather.com##.advert-txt
 ##.desktop-ad
 ##.min-height-ad
-foxweather.com,foxnews.com,foxbusiness.com##.advert-txt
 fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,ktvu.com,q13fox.com,wogx.com##.vendor-unit
 ! marketwatch.com
 marketwatch.com##.element--ad
@@ -831,13 +831,13 @@ marketwatch.com##.sponsored-content
 ! gameshub.com
 gameshub.com##.ads-slot
 ! mashable.com
-mashable.com##[data-pogo="top"]
+mashable.com###footer-1
+mashable.com###main-1
 mashable.com###sidebar-1
 mashable.com###sidebar-2
 mashable.com###top-1
-mashable.com###main-1
-mashable.com###footer-1
 mashable.com##.zmgad-full-width
+mashable.com##[data-pogo="top"]
 ! marketscreener.com
 marketscreener.com###zppMiddle2
 marketscreener.com###zppRight2
@@ -846,9 +846,9 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.prom
 ! economist.com
 economist.com##.adComponent_advert__V79Pp
 ! oregonlive.com
+oregonlive.com###rightRail-Bottom-300xFlex
 oregonlive.com##.below-toprail
 oregonlive.com##.rightRail-top-wrapper
-oregonlive.com###rightRail-Bottom-300xFlex
 ! petapixel.com
 petapixel.com##.banners
 petapixel.com##.instream_ad
@@ -865,44 +865,43 @@ autoevolution.com##.bgcutgrad
 ! Trackers
 !
 !
-/b/ss/*/js-
-/ruxitagentjs_
-/events/analytics/*
-/cls_report?
-/reporting/metrics
-/s.gif?
-/analytics-dotcom/*
-/optmzly/*
+.snowplowanalytics.
+/__ssobj/core.js
 /akam/13/*
+/analytics-dotcom/*
+/analytics_wbc.
+/analytics_www.
 /appmeasurement.min.js
-/cdn-cgi/apps/head/*$script,first-party
 /appmeasurement_module_
-/smetrics.*/b/ss/*
+/ard.png?
+/b/ss/*/js-
+/batch/1/oe/*
+/batch/1/op/*
 /beacon/stats
+/cdn-cgi/apps/head/*$first-party,script
+/cls_report?
+/comscore_beacon/*
+/events/analytics/*
+/id?d_visid_
+/optmzly/*
+/perf-vitals_
+/px/client/main.min.js
+/remote-weblab-triggers/*
+/reporting/metrics
+/rum_cmp?
+/ruxitagentjs_
+/s.gif?
+/smetrics.*/b/ss/*
 /smetrics.*/id?
 /transparent.gif?ray=
-/analytics_www.
-/analytics_wbc.
-/wa.gif?
-/id?d_visid_
-/comscore_beacon/*
-/perf-vitals_
-/batch/1/op/*
-/batch/1/oe/*
-/remote-weblab-triggers/*
-/unagi.amazon.
 /uedata?
-/__ssobj/core.js
-/px/client/main.min.js
-/rum_cmp?
-/ard.png?
-.snowplowanalytics.
+/unagi.amazon.
+/wa.gif?
 !
 ! Fingerprinting scripts (Threatmetrix)
 /fp-3.3.6.min.js
 /fp/check.js
 /fp/clear.png
-/sendLogs?cid=
 /fp/clear1.png
 /fp/clear2.png
 /fp/clear3.png
@@ -910,7 +909,6 @@ autoevolution.com##.bgcutgrad
 /fp/HP?session_id
 /fp/ls_fp.
 /fp/tags.js
-/tags.js?org_id=
 /fp/top_fp.
 /fp2.compressed.js
 /fp_204?
@@ -922,11 +920,13 @@ autoevolution.com##.bgcutgrad
 /fpTracker/*
 /fptrk.min.js
 /fpv2.js
+/sendLogs?cid=
+/tags.js?org_id=
 ! wellsfargo.com
-||wellsfargo.com/dti_apg/
 ||wellsfargo.com/aido/
-||wellsfargo.com/pido/
+||wellsfargo.com/dti_apg/
 ||wellsfargo.com/jenny/
+||wellsfargo.com/pido/
 ! digital.bankaust.com.au
 ||dii.bankaust.com.au^
 ! westpac.com.au
@@ -939,12 +939,12 @@ autoevolution.com##.bgcutgrad
 ||twitter.com/i/csp_report?
 ||twitter.com/i/jot
 ! Amazon
+||aax-eu-dub.amazon.com^$script
+||aax-us-iad.amazon.com^$script
 ||amazon.com/1/aiv-web-player/1/OE^
 ||amazon.com/1/events/$domain=~aws.amazon.com
 ||amazon.com/empty.gif?$image
 ||amazon.com^*/impress.html
-||aax-eu-dub.amazon.com^$script
-||aax-us-iad.amazon.com^$script
 ! ft.com
 ||ft.com/ingest?
 ! theregister.com
@@ -973,55 +973,55 @@ autoevolution.com##.bgcutgrad
 ||google.com/log?
 ||news.google.com/_/v
 ! mail.google.com
-mail.google.com##.nH.PS
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
+mail.google.com##.nH.PS
 ||mail-ads.google.com^
 ! scmp.com
 ||tagger.ope.scmp.com^
 ! aljazeera.com
 ||aljazeera.com/thirdparty/nr.js
 ! searchengineland.com
+/gpt.js$script
 ##[id^="div-gpt-ad"]
 ##div[id^="div-gpt-"]
-/gpt.js$script
 ! stoodnt.com
 stoodnt.com##.boxzilla-center-container
 stoodnt.com##.boxzilla-overlay
 ! Facebook/Instagram
 /bz?*__comet_req=
+facebook.com##.post-ads
+facebook.com##.RectangleAd
 ||facebook.com/a/bz?
 ||facebook.com/ajax/*/log.php
 ||facebook.com/ajax/*logging.
 ||facebook.com/ajax/mtouch_perf_page_load_timings/
 ||facebook.com/ajax/qm/
 ||pixel.facebook.com^
-facebook.com##.RectangleAd
-facebook.com##.post-ads
 ! Instagram
 ||instagram.com/ajax/bz
 ||instagram.com/logging/
 ||instagram.com/logging_client_events
 ! linkedin.com
 linkedin.com##.ad-banner
-||linkedin.com/sensorcollect/
-||linkedin.com/tscp-serving/
 ||linkedin.com/collect/
 ||linkedin.com/litms/utag/
+||linkedin.com/sensorcollect/
+||linkedin.com/tscp-serving/
 ! bloomberg.com
-##.bvp-ad
-/api/cmp_tracker
-##div[data-ad-placeholder]
-bloomberg.com##.leaderboard-wrapper
-bloomberg.com##[class^="FullWidthAd_"]
 bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
+##.bvp-ad
+bloomberg.com##.leaderboard-wrapper
+/api/cmp_tracker
+bloomberg.com##[class^="FullWidthAd_"]
+##div[data-ad-placeholder]
 ! foreignpolicy.com
-##.home-ad-region-1
 ##.channel-sidebar-big-box-ad
+##.home-ad-region-1
 ! militarytimes.com
+##.ad-section
 ##.adBox
 ##.adunitContainer
 ##.dfp-ad
-##.ad-section
 ! tiktok.com
 ||tiktok.com/captcha/report
 ||tiktok.com/v1/list
@@ -1055,17 +1055,17 @@ bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
 ||reddit.com/timings/
 ||w3-reporting.reddit.com^
 ! hotels.com
-/2x2.gif?$image
 /1x1.gif?
-/uisprime/track
+/2x2.gif?$image
 /egcs/v2/collect
+/uisprime/track
 ||hotels.com/api/bucketing/v1/evaluateexperimentsandlog
 ! mail.yahoo.com
-/log?count=
 /curveball/ads/*
+/log?count=
+||bats.video.yahoo.com^
 ||jill.fc.yahoo.com^
 ||mail.yahoo.com/f/track/
-||bats.video.yahoo.com^
 ||yahoo.com/pdarla/
 ! www.yahoo.com
 ||analytics.yahoo.com^
@@ -1081,11 +1081,11 @@ bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
 /?sentry_key=
 /web_logger/*
 ! newatlas.com
-/bsp-analytics.
 /brightspot/analytics/*
+/bsp-analytics.
 ! nypost.com
-||t.nypost.com^
 /blaize/datalayer
+||t.nypost.com^
 ! usatoday.com
 /dcjs/prod/*
 ! thehill.com
@@ -1103,8 +1103,8 @@ bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
 ! local10.com
 /dg/default/rest/*
 ! ktbs.com
-/tncms/tracking.js
 /art/stats/*
+/tncms/tracking.js
 ! kfdm.com
 /rest/analytics/*
 ! houstonchronicle.com
@@ -1122,29 +1122,29 @@ bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
 ! patch.com
 ||pixel.patch.com^
 ! screenrant.com
-/valnet-header.
 /strpixel.png?
+/valnet-header.
 ! yahoo.com
-/px.gif?
 /p.gif?
+/px.gif?
 ||geo.yahoo.com^
 ! airbnb
-_event_tracking?
 /tracking/airdog
 /tracking/jitney/*
+_event_tracking?
 ! delta
+/e.gif?
 ||delta.com/datacollect
 ||tms.delta.com/privacy/$image
-/e.gif?
 ! southwest.com
 /__imp_apg__/*
 ! homedepot.com
 ||swasc.homedepot.com^
 ! ebay.com
+/dfpsvc?
 /roverclk/*
 /roverimp/*
 /v1/ads/*
-/dfpsvc?
 ||ebay.com/scl/js/scandalloader.js
 ||pages.ebay.com/identity/device/$subdocument
 ! kotaku.com
@@ -1153,21 +1153,21 @@ _event_tracking?
 ! booking.com
 /js_tracking?
 ||booking.com/c360/v1/track
-||booking.com/navigation_times
 ||booking.com/logo?
+||booking.com/navigation_times
 ! tripadvisor.
-||tripadvisor.*/wm/record
-||tripadvisor.*/GARecord
 /cookiepingback?
+||tripadvisor.*/GARecord
+||tripadvisor.*/wm/record
 ! uber.com
-||uber.com/_track
 ||uber.com/_events
+||uber.com/_track
 ! skyscanner
-||skyscanner.*/slipstream/view
 /api/v2/collector
+||skyscanner.*/slipstream/view
 ! etsy.com
-||etsy.com/bcn/beacon
 /public/statsd
+||etsy.com/bcn/beacon
 ! Nytimes
 ||a-reporting.nytimes.com^
 ||als-svc.nytimes.com^
