@@ -327,6 +327,8 @@ lasvegasweekly.com###bottom-bar-container
 ! thedriven.io
 thedriven.io###solarchoice_banner_1
 thedriven.io##.leaderboard
+! alternativeto.net
+alternativeto.net##[class^="AdsenseAd"]
 ! standard.co.uk
 standard.co.uk##.sc-kAeStu.bkIZsH
 ! english.elpais.com
