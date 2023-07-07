@@ -329,6 +329,8 @@ thedriven.io###solarchoice_banner_1
 thedriven.io##.leaderboard
 ! alternativeto.net
 alternativeto.net##[class^="AdsenseAd"]
+! lrt.lt
+lrt.lt##.article-content__inline-block
 ! standard.co.uk
 standard.co.uk##.sc-kAeStu.bkIZsH
 ! english.elpais.com
@@ -831,7 +833,9 @@ reuters.com##.ad-slot__container__FEnoz
 reuters.com##[data-testid="ResponsiveAdSlot"]
 ! techspot.com
 techspot.com##.adContainerSide
+techspot.com##.billboard_placeholder_min
 techspot.com##.cta
+techspot.com##.jobbioapp
 ! apnews.com
 apnews.com##.Leaderboard
 apnews.com##.Page-header-leaderboardAd
