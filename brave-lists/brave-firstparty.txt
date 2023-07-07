@@ -17,8 +17,13 @@
 ###banner_pos3_ddb_0
 ###banner_pos4_ddb_0
 ###comments-standalone-mpu
+###dfp-wallpaper-wrapper
 ###dfp_leaderboard
 ###leftrail_dynamic_ad_wrapper
+###mpu1_parent
+###mpu_bottom_sb_1_parent
+###mpu_bottom_sb_2_parent
+###ppvideoadvertisement
 ###rightrail_pos1_ddb_0
 ###rightrail_pos2_ddb_0
 ###rightrail_pos3_ddb_0
@@ -27,23 +32,30 @@
 ###taboola-below-article-thumbnails
 ###taboola-below-article-thumbnails-v2
 ###taboola-right-rail-thumbnails
+##.Ad--empty
 ##.AdBox
+##.GRVAd
+##.GRVMpuWrapper
 ##.GoogleDfpAd
+##.OUTBRAIN
 ##.ad--banner
 ##.ad--container
 ##.ad--desktop
 ##.ad--footer
 ##.ad--in-content
 ##.ad--mid-content
+##.ad--mobile
 ##.ad--sponsor-content
 ##.ad-caption
 ##.ad-entity-container
 ##.ad-footer
+##.ad-giga
 ##.ad-inline
 ##.ad-leaderboard
 ##.ad-left-top
 ##.ad-mobile
 ##.ad-mobile-dynamic
+##.ad-mpu
 ##.ad-mrec
 ##.ad-overlay
 ##.ad-placeholder
@@ -56,28 +68,37 @@
 ##.ad-space
 ##.ad-stickyhero
 ##.ad-stickyhero--standard
+##.ad-text
 ##.ad-top-banner
 ##.ad-unit
 ##.ad-wrapper
+##.adBlock
+##.adContent
 ##.adHeight280
 ##.adHolder
 ##.adMinHeight280
 ##.adRectangle-pos-medium
 ##.adSense
 ##.adSizer
+##.adSlotHeaderContainer
 ##.ad_300
+##.ad__container
+##.ad__section-border
 ##.ad_background_1
 ##.ad_background_true
 ##.ad_blk
 ##.ad_wrapper
 ##.adhesiveAdWrapper
+##.admz
 ##.ads--no-preload
+##.ads-cont
 ##.adsbyvli
 ##.adtester-container
 ##.advert--header
 ##.advert--leaderboard
 ##.advert-label
 ##.advertise_text
+##.advertisement-holder
 ##.ajdg_grpwidgets
 ##.apexAd
 ##.article-ad
@@ -88,6 +109,7 @@
 ##.collapsed-ad
 ##.crain-advertisement
 ##.dfp-leaderboard-container
+##.dfp-slot
 ##.dfp-tag-wrapper
 ##.empire-unit-prefill-container
 ##.evolve-ad
@@ -107,8 +129,10 @@
 ##.js-ad
 ##.js-ad-placement
 ##.js-advert
+##.js-adzone
 ##.js_ad-sticky-footer
 ##.js_desktop-horizontal-ad
+##.js_midbanner_ad_slot
 ##.js_related-stories-inset
 ##.lastAdSlot
 ##.latestStoriesAd
@@ -145,7 +169,9 @@
 ##.right_ad_4
 ##.rj-ads-wrapper
 ##.sidebar-ad-container
+##.sponsored-links
 ##.sponsored-post
+##.sticky-ads
 ##.taboola-widget
 ##.taboola-wrapper
 ##.tadm_ad_unit
@@ -161,6 +187,7 @@
 ##.widget_evolve_ad_gpt_widget
 ##.zergnet__container
 ##[class^="adm-inline-article-ad"]
+##[data-ad-name]
 ##[data-component="ad-unit"]
 ##[data-rc-widget]
 ##[data-testid="ad_testID"]
@@ -168,7 +195,60 @@
 ##div[data-dfp-id]
 ##div[id^="ezoic-pub-ad-"]
 ##div[id^="rc-widget-"]
+##ins.adsbygoogle
 ##span[id^="ezoic-pub-ad-placeholder-"]
+! (invideo advertising)
+###Player_Playoncontent
+###aniview--player
+###cmg-video-player-placeholder
+###jwplayer-container-div
+###jwplayer_contextual_player_div
+###mplayer-embed
+###primis-holder
+###primis_intext
+##.GRVPrimisVideo
+##.GRVVideo
+##.ac-lre-desktop
+##.ac-lre-player-ph
+##.ac-lre-wrapper
+##.ad-container--hot-video
+##.ae-player__itv
+##.aniview-inline-player
+##.aplvideo
+##.article-connatix-wrap
+##.article-detail-ad
+##.avp-p-wrapper
+##.card-captioned.crd > .crd--cnt > .s2nPlayer
+##.ck-anyclips
+##.ck-anyclips-article
+##.exco-container
+##.ez-sidebar-wall-ad
+##.ez-video-wrap
+##.inline-iframe.article--content-embed
+##.js-widget-distroscale
+##.js-widget-send-to-news
+##.jwPlayer--floatingContainer
+##.legion_primiswrapper
+##.mm-embed--sendtonews
+##.mm-widget--sendtonews
+##.oovvuu-embed-player
+##.pbs__player
+##.playwire-article-leaderboard-ad
+##.pmc-contextual-player
+##.pop-out-eplayer-container
+##.primis-ad-wrap
+##.primis-custom
+##.primis-player
+##.primis-player__container
+##.primis_1
+##.s2nContainer
+##.send-to-news
+##.van_vid_carousel
+##.vid-present > .van_vid_carousel__padding
+##.video--container--aniview
+##.vidible-wrapper
+##.wps-player-wrap
+##[class^="s2nPlayer"]
 ! Gannett https://github.com/easylist/easylist/issues/13015
 ###gnt_atomsnc
 ##.gnt_flp
@@ -210,6 +290,34 @@ macrumors.com##.tertiary
 ! pastebin.com
 pastebin.com##.content > [style^="padding-bottom:"]
 pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
+! spectrum.ieee.org
+spectrum.ieee.org##.top-leader-container
+spectrum.ieee.org##div[class^="rblad-"]
+! theglobeandmail.com
+theglobeandmail.com##.BaseAd__StyledRootBaseAd-sc-1khlkqq-1
+! atlasobscura.com
+atlasobscura.com##.advertisement-disclaimer
+atlasobscura.com##.advertisement-shadow
+! plos.org
+plos.org##.head-top
+plos.org##.skyscraper-container
+! engadget.com
+engadget.com###gemini-right-rail-thumbnails
+! ghacks.net
+ghacks.net###snhb-snhb_ghacks_bottom-0
+ghacks.net##.box-banner
+ghacks.net##.ghacks-ad
+ghacks.net##.ghacks_ad_code
+||ghacks.net/statics/px.gif
+! torrentfreak.com
+torrentfreak.com##.widget_custom_html
+||torrentfreak.com/wp-content/banners/
+! fortune.com
+/comscore-json/*
+fortune.com###Leaderboard0
+! timeextension.com
+timeextension.com##.masthead > .insert
+timeextension.com##.related-group > .insert
 ! lasvegassun.com
 lasvegassun.com###ad-colB-1
 ! dallasnews.com
@@ -217,7 +325,18 @@ dallasnews.com##[class^="dmnc_features-ads-arc-ad-"]
 ! lasvegasweekly.com
 lasvegasweekly.com###bottom-bar-container
 ! thedriven.io
+thedriven.io###solarchoice_banner_1
 thedriven.io##.leaderboard
+! standard.co.uk
+standard.co.uk##.sc-kAeStu.bkIZsH
+! english.elpais.com
+elpais.com##.ad
+! euronews.com
+euronews.com##.base-leaderboard
+euronews.com##.enw-MPU
+! business-standard.com
+business-standard.com##.advertisement-bg
+business-standard.com##div[id^="between_article_content_"]
 ! greencarreports.com
 greencarreports.com##.adv-spacer
 ! snopes.com
@@ -340,7 +459,6 @@ si.com##[data-ad-group]
 ! digitaltrends.com
 digitaltrends.com##.dt-primis
 ! theverge.com
-##.OUTBRAIN
 theverge.com##div[data-concert]
 ! zdnet.com
 ##.c-adDisplay
@@ -1179,6 +1297,8 @@ _event_tracking?
 ! cnn.com
 /optimizelyjs/*
 ://lightning.*/launch/
+cnn.com##.ad-feedback__modal
+cnn.com##.ad-slot-header__wrapper
 ||z.cdp-dev.cnn.com^
 ! Port scanning Fingerprinting Trackers (Privacy and CPU abuse)
 ! https://nullsweep.com/why-is-this-website-port-scanning-me/
