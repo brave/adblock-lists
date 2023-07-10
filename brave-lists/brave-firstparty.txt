@@ -5,6 +5,8 @@
 /adservice.$domain=~adservice.io|~github.com|~githubusercontent.com
 !
 ! ezoic ads
+###ad--article-top-wrapper
+###ad--sidebar
 ###ad-mpu
 ###ad-overlay
 ###ad_bnr_atf_01
@@ -25,6 +27,7 @@
 ###interstory_first_ddb_0
 ###interstory_second_ddb_0
 ###intro_ad_1
+###js-image-ad-mpu
 ###leftrail_dynamic_ad_wrapper
 ###mpu1_parent
 ###mpu_bottom_sb_1_parent
@@ -42,6 +45,7 @@
 ##.Ad--empty
 ##.AdBox
 ##.AdSense
+##.BoxRail-ad
 ##.GRVAd
 ##.GRVMpuWrapper
 ##.GoogleDfpAd
@@ -82,6 +86,7 @@
 ##.ad-slot-placeholder
 ##.ad-slot-rail
 ##.ad-slot-top
+##.ad-slot-wrapper
 ##.ad-space
 ##.ad-sponsor
 ##.ad-stickyhero
@@ -91,6 +96,8 @@
 ##.ad-top-banner
 ##.ad-type-cube
 ##.ad-unit
+##.ad-unit--leaderboard
+##.ad-wrap
 ##.ad-wrapper
 ##.ad-zone
 ##.ad-zone-container
@@ -109,11 +116,13 @@
 ##.ad_300
 ##.ad__container
 ##.ad__section-border
+##.ad__w728
 ##.ad_background_1
 ##.ad_background_true
 ##.ad_blk
 ##.ad_bottom
 ##.ad_container
+##.ad_slot
 ##.ad_top
 ##.ad_wrapper
 ##.adhesiveAdWrapper
@@ -152,8 +161,12 @@
 ##.c-adDisplay
 ##.c-adDisplay_container
 ##.c-adSkyBox
+##.c-advert
+##.c-gallery-vertical__advert
 ##.channel-sidebar-big-box-ad
 ##.collapsed-ad
+##.column-ad
+##.content-ad
 ##.crain-advertisement
 ##.dac__banner__wrapper
 ##.dac__mpu-card
@@ -163,6 +176,7 @@
 ##.dfp-slot
 ##.dfp-tag-wrapper
 ##.dotcom-ad
+##.dtads-desktop
 ##.empire-unit-prefill-container
 ##.evolve-ad
 ##.ezo_ad
@@ -174,6 +188,7 @@
 ##.freestar-ad-container
 ##.fs_ad
 ##.gallery-ad-lazyload-placeholder
+##.google-dfp-ad-wrapper
 ##.gpt-ad
 ##.gpt-ad-container
 ##.gpt-breaker-container
@@ -182,13 +197,18 @@
 ##.hide-ad
 ##.home-ad-region-1
 ##.horizontal.ad
+##.image-viewer-ad
+##.image-viewer-mpu
+##.insticator-ads
 ##.instoryAdBlock
 ##.instoryAdNoBlock
+##.instream_ad
 ##.js-ad
 ##.js-ad-placement
 ##.js-advert
 ##.js-adzone
 ##.js-lazy-ad
+##.js-mapped-ad
 ##.js_ad-sticky-footer
 ##.js_desktop-horizontal-ad
 ##.js_midbanner_ad_slot
@@ -200,6 +220,8 @@
 ##.leaderboard-ad-fixed
 ##.leaderboard.advert
 ##.leaderboard_a
+##.leaderboard_ad
+##.listicle-instream-ad-holder
 ##.longform-ad
 ##.m-ad
 ##.m-advert
@@ -208,11 +230,14 @@
 ##.m-header-ad
 ##.m-in-content-ad
 ##.m-in-content-ad-row
+##.m-jac-ad
 ##.m-sidebar-ad
 ##.m-sidebar-ad--slot
 ##.m1-header-ad
+##.mapped-ad
 ##.min-height-ad
 ##.native-ad
+##.noskim.ad
 ##.outer-ad-unit-wrapper
 ##.outer_ad_container
 ##.p-ads-billboard
@@ -234,6 +259,7 @@
 ##.right_ad_4
 ##.rj-ads-wrapper
 ##.sidebar-ad-container
+##.single-post-ad
 ##.sponsored-links
 ##.sponsored-post
 ##.sticky-ads
@@ -254,23 +280,32 @@
 ##.upx-ad-placeholder
 ##.vertical-ad
 ##.wh_ad_inner
+##.wide-ad
 ##.widget-ads
 ##.widget_evolve_ad_gpt_widget
+##.zergnet
+##.zergnet-widget
 ##.zergnet__container
+##[aria-label="advertisement"]
 ##[class^="adm-inline-article-ad"]
 ##[data-ad-name]
 ##[data-component="ad-unit"]
-##[data-freestar-ad
+##[data-freestar-ad]
 ##[data-rc-widget]
+##[data-revive-zoneid]
 ##[data-testid="ad_testID"]
+##[data-testid="prism-ad-wrapper"]
 ##[id^="div-gpt-ad"]
 ##display-ads
 ##div[class^="Display_displayAd"]
+##div[data-ad-placeholder]
+##div[data-ad-targeting]
 ##div[data-adunit]
 ##div[data-dfp-id]
 ##div[id^="div-gpt-"]
 ##div[id^="ezoic-pub-ad-"]
 ##div[id^="rc-widget-"]
+##div[id^="zergnet-widget"]
 ##ins.adsbygoogle
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ! (invideo advertising)
@@ -316,6 +351,7 @@
 ##.primis-custom
 ##.primis-player
 ##.primis-player__container
+##.primis-video-player
 ##.primis_1
 ##.s2nContainer
 ##.send-to-news
@@ -370,7 +406,7 @@ pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 spectrum.ieee.org##.top-leader-container
 spectrum.ieee.org##div[class^="rblad-"]
 ! theglobeandmail.com
-theglobeandmail.com##.BaseAd__StyledRootBaseAd-sc-1khlkqq-1
+theglobeandmail.com###BaseAd__StyledAdPlaceholder-sc-1khlkqq-0
 ! atlasobscura.com
 atlasobscura.com##.advertisement-disclaimer
 atlasobscura.com##.advertisement-shadow
@@ -382,6 +418,7 @@ engadget.com###gemini-right-rail-thumbnails
 ! ghacks.net
 ghacks.net###snhb-snhb_ghacks_bottom-0
 ghacks.net##.box-banner
+ghacks.net##.ftd-item
 ghacks.net##.ghacks-ad
 ghacks.net##.ghacks_ad_code
 ||ghacks.net/statics/px.gif
@@ -391,9 +428,9 @@ torrentfreak.com##.widget_custom_html
 ! fortune.com
 /comscore-json/*
 fortune.com###Leaderboard0
-! timeextension.com
-timeextension.com##.masthead > .insert
-timeextension.com##.related-group > .insert
+! .insert
+nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert
+nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert-label
 ! lasvegassun.com
 lasvegassun.com###ad-colB-1
 ! dallasnews.com
@@ -409,11 +446,11 @@ alternativeto.net##[class^="AdsenseAd"]
 lrt.lt##.article-content__inline-block
 ! standard.co.uk
 standard.co.uk##.sc-kAeStu.bkIZsH
-! english.elpais.com
-elpais.com##.ad
 ! euronews.com
+euronews.com###js-smart-banner
 euronews.com##.base-leaderboard
 euronews.com##.enw-MPU
+euronews.com##.qa-dfpLeaderBoard
 ! business-standard.com
 business-standard.com##.advertisement-bg
 business-standard.com##div[id^="between_article_content_"]
@@ -479,8 +516,6 @@ topgear.com##div[class^="AdContainer"]
 topgear.com##div[class^="TopContainer-"]
 ! motortrend.com
 motortrend.com##._3HQN_
-##[data-revive-zoneid]
-##div[data-ad-targeting]
 ! whatcar.com
 whatcar.com##.ArticleTemplate_masthead__oY950
 ! zillow.com
@@ -555,18 +590,14 @@ ndtv.com##.add-wrp
 ndtv.com##.add__wrp
 ndtv.com##.ads_tb-c
 ndtv.com##.mastheadwrap
-! .insticator-ads
-##.insticator-ads
 ! .ad
-arstechnica.com,autoevolution.com,barchart.com,barstoolsports.com,bleacherreport.com,cnn.com,flightglobal.com,foxbusiness.com,foxnews.com,foxweather.com,ktbs.com,newsday.com,nj.com,politico.com,seattletimes.com,skynews.com.au,sny.tv,time.com,usnews.com,vanityfair.com,wired.com##.ad
+arstechnica.com,autoevolution.com,barchart.com,barstoolsports.com,bleacherreport.com,cnn.com,elpais.com,flightglobal.com,foxbusiness.com,foxnews.com,foxweather.com,ktbs.com,news.sky.com,newsday.com,nj.com,politico.com,seattletimes.com,skynews.com.au,sny.tv,time.com,usnews.com,vanityfair.com,wired.com##.ad
 ! .ad-container
 fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,foxweather.com,ktvu.com,newyorker.com,oneesports.gg,outkick.com,q13fox.com,seattletimes.com,sportskeeda.com,tmz.com,uploadvr.com,wogx.com##.ad-container
 ! .adBanner
 chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.adBanner
 ! .code-block
 180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,theautopian.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
-! ksl.com
-##.leaderboard_ad
 ! kokomotribune.com,goshennews.com
 ###floorboard_block
 ! seattlepi.com
@@ -647,9 +678,21 @@ jpost.com##.right-side-banner
 ! msn.com
 msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
 msn.com##.galleryPage_eoabContent_new-DS-EntryPoint1-1
+msn.com##.intra-article-ad-full
 msn.com##[class^="articlePage_eoabContent"]
+msn.com##cs-native-ad-card
 msn.com##div[class^="articlePage_topBannerAdContainer_"]
 msn.com##div[class^="galleryPage_bannerAd"]
+! imdb.com
+imdb.com##.cornerstone_slot
+imdb.com##.slot_wrapper
+! .td-a-rec
+fenuxe.com,gameplayinside.com,gamezone.com,ghpage.com,gilroydispatch.com,gizmochina.com,goodtimes.sc,greekreporter.com,greenfieldnews.com,healdsburgtribune.com,indianapolisrecorder.com,industryhit.com,kenyan-post.com,kingcityrustler.com,maltabusinessweekly.com,metrosiliconvalley.com,morganhilltimes.com,musictech.net,nasilemaktech.com,newsnext.live,newstalkflorida.com,nme.com,pacificsun.com,pajaronian.com,pakobserver.net,pipanews.com,pressbanner.com,radioink.com,salinasvalleytribune.com,sanbenito.com,scrolla.africa,sonorannews.com,telugubullet.com,theindependent.co.zw,tos.com,unlockboot.com,wrestling-online.com,zycrypto.com##.td-a-rec
+! news.sky.com
+news.sky.com###leaderboard
+news.sky.com##[data-format="leaderboard"]
+! axios.com
+axios.com##.shortFormNativeAd
 ! medpagetoday.com
 medpagetoday.com##.leaderboard-region
 ! #mntl-leaderboard-header_1-0
@@ -674,7 +717,10 @@ wired.com##div[class^="ConsumerMarketingUnitThemedWrapper-"]
 wired.com##div[class^="StickyBoxWrapper"]
 ! chron.com
 chron.com,mysanantonio.com##.adModule
+chron.com##.b-gray300.bt.bb
+chron.com##.b-gray300.md\:bt.md\:bb
 chron.com,mysanantonio.com##[aria-label*="Advertisement"]
+chron.com##[data-block-type="ad"]
 ! huffpost.com
 ##.ad-leaderboard-flex
 huffpost.com##.bottom-right-sticky-container
@@ -727,12 +773,6 @@ weather.com##[title="Sponsored Content"]
 nj.com##.below-toprail
 nj.com##.revenue-display
 nj.com##.rightRail-top-wrapper
-! usatoday.com / abcnews.go.com
-###ad--article-top-wrapper
-###ad--sidebar
-##.listicle-instream-ad-holder
-##[aria-label="advertisement"]
-##[data-testid="prism-ad-wrapper"]
 ! wionews.com
 wionews.com##.ads-box-300x300
 ! anandtech.com
@@ -808,9 +848,14 @@ mlive.com###below-toprail
 bbc.com###sticky-leaderboard
 bbc.com###sticky-mpu
 ! wccftech.com
+wccftech.com##.bg-horizontal
+wccftech.com##.bg-square
+wccftech.com##.bg-square-mobile
 wccftech.com##.bg-vertical
 wccftech.com##.content-ad
 wccftech.com##.main-background-wrap
+wccftech.com##.mb-11
+wccftech.com##[href^="https://cutt.ly/"]
 ! reuters.com
 reuters.com##.ad-slot__container__FEnoz
 reuters.com##[data-testid="ResponsiveAdSlot"]
@@ -882,9 +927,11 @@ investing.com###ad1
 investing.com###ad2
 investing.com###ad3
 investing.com###hpAdVideo
+investing.com##.ad-blocker-popup
 investing.com##.dfpAdUnitContainer
 investing.com##.dfpVideo
 investing.com##.im-ad-visible
+investing.com##.js-general-overlay
 investing.com##.wideTopBanner
 investing.com##[class*="adBlock"]
 investing.com##[class*="overlay_overlay"]
@@ -948,6 +995,7 @@ marketscreener.com###zppMiddle2
 marketscreener.com###zppRight2
 ! reddit.com
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.promotedlink
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##xpromo-top-button
 ! economist.com
 economist.com##.adComponent_advert__V79Pp
 ! oregonlive.com
@@ -957,6 +1005,7 @@ oregonlive.com##.rightRail-top-wrapper
 ! petapixel.com
 petapixel.com##.banners
 petapixel.com##.instream_ad
+petapixel.com##.video-aspect-wrapper
 ! cbsnews.com
 cbsnews.com##.top-ad-container
 ! nature.com
@@ -1115,7 +1164,6 @@ bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
 bloomberg.com##.leaderboard-wrapper
 /api/cmp_tracker
 bloomberg.com##[class^="FullWidthAd_"]
-##div[data-ad-placeholder]
 ! tiktok.com
 ||tiktok.com/captcha/report
 ||tiktok.com/v1/list
@@ -1141,6 +1189,7 @@ bloomberg.com##[class^="FullWidthAd_"]
 ||youtubekids.com/api/stats/qoe?
 ||youtubekids.com/ptracking?
 ! Reddit
+/shreddit/perfmetrics
 ||alb.reddit.com^
 ||events.reddit.com^
 ||events.redditmedia.com^
