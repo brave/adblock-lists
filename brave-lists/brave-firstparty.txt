@@ -5,6 +5,8 @@
 /adservice.$domain=~adservice.io|~github.com|~githubusercontent.com
 !
 ! ezoic ads
+###ad--article-top-wrapper
+###ad--sidebar
 ###ad-mpu
 ###ad-overlay
 ###ad_bnr_atf_01
@@ -197,6 +199,7 @@
 ##.horizontal.ad
 ##.image-viewer-ad
 ##.image-viewer-mpu
+##.insticator-ads
 ##.instoryAdBlock
 ##.instoryAdNoBlock
 ##.instream_ad
@@ -217,6 +220,8 @@
 ##.leaderboard-ad-fixed
 ##.leaderboard.advert
 ##.leaderboard_a
+##.leaderboard_ad
+##.listicle-instream-ad-holder
 ##.longform-ad
 ##.m-ad
 ##.m-advert
@@ -281,16 +286,20 @@
 ##.zergnet
 ##.zergnet-widget
 ##.zergnet__container
+##[aria-label="advertisement"]
 ##[class^="adm-inline-article-ad"]
 ##[data-ad-name]
 ##[data-component="ad-unit"]
-##[data-freestar-ad
 ##[data-freestar-ad]
 ##[data-rc-widget]
+##[data-revive-zoneid]
 ##[data-testid="ad_testID"]
+##[data-testid="prism-ad-wrapper"]
 ##[id^="div-gpt-ad"]
 ##display-ads
 ##div[class^="Display_displayAd"]
+##div[data-ad-placeholder]
+##div[data-ad-targeting]
 ##div[data-adunit]
 ##div[data-dfp-id]
 ##div[id^="div-gpt-"]
@@ -507,8 +516,6 @@ topgear.com##div[class^="AdContainer"]
 topgear.com##div[class^="TopContainer-"]
 ! motortrend.com
 motortrend.com##._3HQN_
-##[data-revive-zoneid]
-##div[data-ad-targeting]
 ! whatcar.com
 whatcar.com##.ArticleTemplate_masthead__oY950
 ! zillow.com
@@ -583,8 +590,6 @@ ndtv.com##.add-wrp
 ndtv.com##.add__wrp
 ndtv.com##.ads_tb-c
 ndtv.com##.mastheadwrap
-! .insticator-ads
-##.insticator-ads
 ! .ad
 arstechnica.com,autoevolution.com,barchart.com,barstoolsports.com,bleacherreport.com,cnn.com,elpais.com,flightglobal.com,foxbusiness.com,foxnews.com,foxweather.com,ktbs.com,news.sky.com,newsday.com,nj.com,politico.com,seattletimes.com,skynews.com.au,sny.tv,time.com,usnews.com,vanityfair.com,wired.com##.ad
 ! .ad-container
@@ -593,8 +598,6 @@ fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32c
 chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.adBanner
 ! .code-block
 180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,theautopian.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
-! ksl.com
-##.leaderboard_ad
 ! kokomotribune.com,goshennews.com
 ###floorboard_block
 ! seattlepi.com
@@ -770,12 +773,6 @@ weather.com##[title="Sponsored Content"]
 nj.com##.below-toprail
 nj.com##.revenue-display
 nj.com##.rightRail-top-wrapper
-! usatoday.com / abcnews.go.com
-###ad--article-top-wrapper
-###ad--sidebar
-##.listicle-instream-ad-holder
-##[aria-label="advertisement"]
-##[data-testid="prism-ad-wrapper"]
 ! wionews.com
 wionews.com##.ads-box-300x300
 ! anandtech.com
@@ -1167,7 +1164,6 @@ bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
 bloomberg.com##.leaderboard-wrapper
 /api/cmp_tracker
 bloomberg.com##[class^="FullWidthAd_"]
-##div[data-ad-placeholder]
 ! tiktok.com
 ||tiktok.com/captcha/report
 ||tiktok.com/v1/list
