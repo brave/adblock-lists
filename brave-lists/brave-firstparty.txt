@@ -5,6 +5,8 @@
 /adservice.$domain=~adservice.io|~github.com|~githubusercontent.com
 !
 ! ezoic ads
+###ad-mpu
+###ad-overlay
 ###ad_bnr_atf_01
 ###ad_lead1
 ###ad_rect_btf_01
@@ -19,6 +21,10 @@
 ###comments-standalone-mpu
 ###dfp-wallpaper-wrapper
 ###dfp_leaderboard
+###gpt-leaderboard-ad
+###interstory_first_ddb_0
+###interstory_second_ddb_0
+###intro_ad_1
 ###leftrail_dynamic_ad_wrapper
 ###mpu1_parent
 ###mpu_bottom_sb_1_parent
@@ -27,6 +33,7 @@
 ###rightrail_pos1_ddb_0
 ###rightrail_pos2_ddb_0
 ###rightrail_pos3_ddb_0
+###skin-ad-left-rail-container
 ###splashy-ad-container-top
 ###taboola-below-article-1
 ###taboola-below-article-thumbnails
@@ -34,6 +41,7 @@
 ###taboola-right-rail-thumbnails
 ##.Ad--empty
 ##.AdBox
+##.AdSense
 ##.GRVAd
 ##.GRVMpuWrapper
 ##.GoogleDfpAd
@@ -47,32 +55,48 @@
 ##.ad--mobile
 ##.ad--sponsor-content
 ##.ad-caption
+##.ad-current
 ##.ad-entity-container
 ##.ad-footer
 ##.ad-giga
+##.ad-header-pencil
 ##.ad-inline
 ##.ad-leaderboard
 ##.ad-left-top
+##.ad-link
 ##.ad-mobile
 ##.ad-mobile-dynamic
+##.ad-mount
 ##.ad-mpu
 ##.ad-mrec
 ##.ad-overlay
 ##.ad-placeholder
 ##.ad-rectangle
+##.ad-risingstar-container
+##.ad-section
 ##.ad-slot
+##.ad-slot-1
+##.ad-slot-2
 ##.ad-slot-header
 ##.ad-slot-header__wrapper
+##.ad-slot-placeholder
 ##.ad-slot-rail
 ##.ad-slot-top
 ##.ad-space
+##.ad-sponsor
 ##.ad-stickyhero
 ##.ad-stickyhero--standard
 ##.ad-text
+##.ad-title
 ##.ad-top-banner
+##.ad-type-cube
 ##.ad-unit
 ##.ad-wrapper
+##.ad-zone
+##.ad-zone-container
+##.ad.card
 ##.adBlock
+##.adBox
 ##.adContent
 ##.adHeight280
 ##.adHolder
@@ -81,19 +105,33 @@
 ##.adSense
 ##.adSizer
 ##.adSlotHeaderContainer
+##.adWrapper
 ##.ad_300
 ##.ad__container
 ##.ad__section-border
 ##.ad_background_1
 ##.ad_background_true
 ##.ad_blk
+##.ad_bottom
+##.ad_container
+##.ad_top
 ##.ad_wrapper
 ##.adhesiveAdWrapper
 ##.admz
 ##.ads--no-preload
 ##.ads-cont
+##.ads-global-header
+##.adsbox970x90
 ##.adsbyvli
+##.adslot
+##.adslot970
+##.adsninja-ad-zone
 ##.adtester-container
+##.adthrive
+##.adthrive-ad
+##.adthrive-content
+##.adun
+##.adunitContainer
 ##.advert--header
 ##.advert--leaderboard
 ##.advert-label
@@ -101,42 +139,67 @@
 ##.advertisement-holder
 ##.ajdg_grpwidgets
 ##.apexAd
+##.arc-ad-wrapper
 ##.article-ad
 ##.article-mid-ad
+##.belowMastheadWrapper
 ##.block-ad-entity
 ##.block-dfp
+##.bottom-ads-container
+##.breaker-ad
+##.bvp-ad
 ##.c-ad
+##.c-adDisplay
+##.c-adDisplay_container
+##.c-adSkyBox
+##.channel-sidebar-big-box-ad
 ##.collapsed-ad
 ##.crain-advertisement
+##.dac__banner__wrapper
+##.dac__mpu-card
+##.desktop-ad
+##.dfp-ad
 ##.dfp-leaderboard-container
 ##.dfp-slot
 ##.dfp-tag-wrapper
+##.dotcom-ad
 ##.empire-unit-prefill-container
 ##.evolve-ad
-##.ez-sidebar-wall-ad
 ##.ezo_ad
 ##.ezoic-ad
 ##.ezoic-ad-adaptive
 ##.ezoic-adpicker-ad
 ##.ezoic-floating-bottom
 ##.floating-preroll-ad
+##.freestar-ad-container
 ##.fs_ad
 ##.gallery-ad-lazyload-placeholder
+##.gpt-ad
+##.gpt-ad-container
+##.gpt-breaker-container
 ##.header-ad-region
+##.header-and-footer--banner-ad
 ##.hide-ad
+##.home-ad-region-1
+##.horizontal.ad
 ##.instoryAdBlock
 ##.instoryAdNoBlock
 ##.js-ad
 ##.js-ad-placement
 ##.js-advert
 ##.js-adzone
+##.js-lazy-ad
 ##.js_ad-sticky-footer
 ##.js_desktop-horizontal-ad
 ##.js_midbanner_ad_slot
 ##.js_related-stories-inset
+##.js_sticky-top-ad
 ##.lastAdSlot
 ##.latestStoriesAd
+##.leaderboard-ad
+##.leaderboard-ad-fixed
 ##.leaderboard.advert
+##.leaderboard_a
 ##.longform-ad
 ##.m-ad
 ##.m-advert
@@ -145,8 +208,11 @@
 ##.m-header-ad
 ##.m-in-content-ad
 ##.m-in-content-ad-row
+##.m-sidebar-ad
+##.m-sidebar-ad--slot
 ##.m1-header-ad
-##.mm-widget--sendtonews
+##.min-height-ad
+##.native-ad
 ##.outer-ad-unit-wrapper
 ##.outer_ad_container
 ##.p-ads-billboard
@@ -156,10 +222,9 @@
 ##.pageAdSkinUrl
 ##.pmc-adm-boomerang-pub-div
 ##.premium_PremiumPlacement__2dEp0
-##.primis-ad-wrap
-##.primis-player
 ##.primis-wrapper
 ##.proper-ad-unit
+##.queue_ad
 ##.rail-ads-1
 ##.rhsWidgetNotAdFree
 ##.right-column-ad
@@ -179,20 +244,31 @@
 ##.td-adspot-title
 ##.tmo-ad
 ##.tmo-ad-ezoic
+##.tnt-ads
+##.tnt-ads-container
 ##.top-ad-block
 ##.top-ad-wrapper
+##.top-ads-container
 ##.top-banner-advert
+##.topbannerAd
 ##.upx-ad-placeholder
+##.vertical-ad
+##.wh_ad_inner
 ##.widget-ads
 ##.widget_evolve_ad_gpt_widget
 ##.zergnet__container
 ##[class^="adm-inline-article-ad"]
 ##[data-ad-name]
 ##[data-component="ad-unit"]
+##[data-freestar-ad
 ##[data-rc-widget]
 ##[data-testid="ad_testID"]
+##[id^="div-gpt-ad"]
+##display-ads
 ##div[class^="Display_displayAd"]
+##div[data-adunit]
 ##div[data-dfp-id]
+##div[id^="div-gpt-"]
 ##div[id^="ezoic-pub-ad-"]
 ##div[id^="rc-widget-"]
 ##ins.adsbygoogle
@@ -465,14 +541,8 @@ digitaltrends.com##.dt-primis
 ! theverge.com
 theverge.com##div[data-concert]
 ! zdnet.com
-##.c-adDisplay
-##.c-adDisplay_container
 zdnet.com##.c-adDisplay_container_incontent-all-top
-##.c-adSkyBox
 zdnet.com##.c-avStickyVideo
-! mmanews.com / athlonsports.com
-##.m-sidebar-ad
-##.m-sidebar-ad--slot
 ! sherdog.com
 sherdog.com###adViAi
 sherdog.com##.ads
@@ -495,11 +565,6 @@ fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32c
 chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.adBanner
 ! .code-block
 180gadgets.com,9to5linux.com,academicful.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,autodaily.com.au,bigleaguepolitics.com,boxingnews24.com,browserhow.com,charlieintel.com,chromeunboxed.com,conservativebrief.com,cookingwithdog.com,crimereads.com,cryptobriefing.com,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dcenquirer.com,dexdotexe.com,eurweb.com,exeo.app,fandomwire.com,flickeringmyth.com,flyingmag.com,freemagazines.top,gameinfinitus.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,journeybytes.com,lithub.com,medievalists.net,mpost.io,nationalfile.com,nintendoeverything.com,notalwaysright.com,organicfacts.net,patriotfetch.com,protrumpnews.com,pureinfotech.com,quickanswer.blog,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,rezence.com,roadaheadonline.co.za,rok.guide,sdnews.com,simscommunity.info,storypick.com,streamingbetter.com,superwatchman.com,talkers.com,techpp.com,techrounder.com,theautopian.com,thecinemaholic.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thenipslip.com,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,videogamer.com,walletinvestor.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,win.gg,wisden.com,zerohanger.com##.code-block
-! kdhnews.com,oanow.com,tucson.com
-##.tnt-ads
-##.tnt-ads-container
-! wamu.org
-##.ad-header-pencil
 ! ksl.com
 ##.leaderboard_ad
 ! kokomotribune.com,goshennews.com
@@ -508,10 +573,6 @@ chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysananto
 seattlepi.com##.b-gray300.bt
 seattlepi.com##.b-gray300.md\:bt
 seattlepi.com##[data-block-type="ad"]
-! hawaiinewsnow.com
-##.arc-ad-wrapper
-! cbc.ca
-cbc.ca##.ad-risingstar-container
 ! tmz.com
 tmz.com###ad-header
 ! nbcsports.com
@@ -524,11 +585,6 @@ paulickreport.com##.s-teleaderboard-ad
 sportskeeda.com##.primis-container
 ! .ad-block
 bloodhorse.com,racingdudes.com##.ad-block
-! kutv.com
-###interstory_first_ddb_0
-###interstory_second_ddb_0
-! wegotthiscovered.com
-##[data-freestar-ad]
 ! espn.com
 espn.com##.ad-center
 ! courthousenews.com
@@ -559,8 +615,6 @@ hindustantimes.com##.storyAd
 dailymail.co.uk##.billboard-container
 dailymail.co.uk##.connatix-wrapper
 dailymail.co.uk##.mpu_puff_wrapper
-! gizmodo.com,jalopnik.com
-##.js_sticky-top-ad
 ! businessinsider.com,insider.com
 businessinsider.com,insider.com##.in-post-sticky
 businessinsider.com,insider.com##.l-ad
@@ -573,16 +627,9 @@ thedailybeast.com##.ConnatixAd
 thedailybeast.com##.FooterAd
 thedailybeast.com##.PageTopAd
 thedailybeast.com##.SimpleAd
-! https://www.chron.com/
-##.belowMastheadWrapper
-! ksl.com
-##.queue_ad
-! hawaiinewsnow.com
-##.ad-type-cube
 ! indianexpress.com
-indianexpress.com##.add-first
-##.adsbox970x90
 /taboola-header.
+indianexpress.com##.add-first
 ! fivethirtyeight.com
 fivethirtyeight.com##.master-ad
 ! Twitter ad cosmetic element
@@ -590,88 +637,38 @@ twitter.com##[style] > div > div > [data-testid=placementTracking]
 ! bbc.com
 bbc.com###leaderboard-aside-content
 bbc.com###mpu-side-aside-content
-##.dotcom-ad
 ! consequence.net
-##.AdSense
-##.ad-title
-##.ad.card
-##.horizontal.ad
 consequence.net##.leaderboard-sticky
-##.native-ad
-##div[data-adunit]
 ! jpost.com
 jpost.com##.banner
 jpost.com##.line-left-side-before-and-after-container
 jpost.com##.line-one-row-before-and-after-container
 jpost.com##.right-side-banner
-! joblo.com
-##.ads-global-header
-##.freestar-ad-container
 ! msn.com
 msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
 msn.com##.galleryPage_eoabContent_new-DS-EntryPoint1-1
 msn.com##[class^="articlePage_eoabContent"]
-##display-ads
 msn.com##div[class^="articlePage_topBannerAdContainer_"]
 msn.com##div[class^="galleryPage_bannerAd"]
-! encyclopedia.com
-###skin-ad-left-rail-container
 ! medpagetoday.com
-##.leaderboard-ad
-##.leaderboard-ad-fixed
 medpagetoday.com##.leaderboard-region
-! cosmopolitan.com
-###gpt-leaderboard-ad
-##.breaker-ad
-##.gpt-breaker-container
-##.vertical-ad
 ! #mntl-leaderboard-header_1-0
 brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,people.com,thespruce.com,travelandleisure.com,verywellhealth.com###mntl-leaderboard-header_1-0
-! capitalfm.com
-###ad-mpu
-###ad-overlay
-##.dac__banner__wrapper
-##.dac__mpu-card
-! whowhatwear.co.uk
-##.ad-mount
-! bustle.com
-##.adWrapper
-! theblockcharlotte.com
-##.ad-slot-1
-##.ad-slot-2
-##.gpt-ad
-##.gpt-ad-container
 ! thepointsguy.com
 thepointsguy.com##[aria-label="Advertisement"]
 ! variety.com
 variety.com###leaderboard-no-padding
-! verywellhealth.com
-##.js-lazy-ad
 ! howtogeek.com
-##.adslot
-##.adslot970
 howtogeek.com##div[id^="purch_"]
 ! discogs.com
-##.ad_bottom
-##.ad_container
-##.ad_top
 ! rottentomatoes.com
 rottentomatoes.com##.leaderboard_wrapper
 ! memory-alpha.fandom.com
 fandom.com###featured-video__player-container
-##.ad-slot-placeholder
-##.bottom-ads-container
-##.top-ads-container
 ! nbcnews.com
 nbcnews.com##.ad-container
-##.ad-sponsor
-##.header-and-footer--banner-ad
-##.topbannerAd
 ! wikihow.com
-###intro_ad_1
 wikihow.com##.al_method
-##.wh_ad_inner
-##ins.adsbygoogle
 ! wired.com
 wired.com##div[class^="ConsumerMarketingUnitThemedWrapper-"]
 wired.com##div[class^="StickyBoxWrapper"]
@@ -743,21 +740,12 @@ anandtech.com###side_ad
 anandtech.com##.header_ad
 ! nationalreview.com
 nationalreview.com##.ad-skeleton
-nationalreview.com##.aniview-inline-player
-nationalreview.com##.article-connatix-wrap
 nationalreview.com##.revcontent-wrap
 ! pagesix.com
 nypost.com,pagesix.com##.billboard-ad
 nypost.com##.nyp-s2n-wrapper
 nypost.com,pagesix.com##.recirc
 nypost.com##.widget_nypost_dfp_ad_widget
-! screenrant.com / gamerant
-##.ad-current
-##.ad-zone
-##.ad-zone-container
-##.adsninja-ad-zone
-! oneesports.gg
-##.ad-link
 ! vice.com
 vice.com##.adph
 vice.com##.docked-slot-renderer
@@ -773,14 +761,9 @@ theguardian.com##.top-banner-ad-container
 ! ft.com
 ft.com##.o-ads
 ! videogamer.com
-##.adthrive
-##.adthrive-ad
-##.adthrive-content
 ! bleepingcomputer.com
 bleepingcomputer.com##.cz-toa-wrapp
 bleepingcomputer.com##.s-ou-wrap
-! theregister.com
-##.adun
 ! slate.com
 slate.com##.slate-ad
 slate.com##.top-ad
@@ -946,8 +929,6 @@ fxempire.com##.gAruxy
 fxempire.com##[data-cy="article-ad"]
 ! foxnews
 foxbusiness.com,foxnews.com,foxweather.com##.advert-txt
-##.desktop-ad
-##.min-height-ad
 fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,ktvu.com,q13fox.com,wogx.com##.vendor-unit
 ! marketwatch.com
 marketwatch.com##.element--ad
@@ -1106,8 +1087,6 @@ mail.google.com##.nH.PS
 ||aljazeera.com/thirdparty/nr.js
 ! searchengineland.com
 /gpt.js$script
-##[id^="div-gpt-ad"]
-##div[id^="div-gpt-"]
 ! stoodnt.com
 stoodnt.com##.boxzilla-center-container
 stoodnt.com##.boxzilla-overlay
@@ -1133,19 +1112,10 @@ linkedin.com##.ad-banner
 ||linkedin.com/tscp-serving/
 ! bloomberg.com
 bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
-##.bvp-ad
 bloomberg.com##.leaderboard-wrapper
 /api/cmp_tracker
 bloomberg.com##[class^="FullWidthAd_"]
 ##div[data-ad-placeholder]
-! foreignpolicy.com
-##.channel-sidebar-big-box-ad
-##.home-ad-region-1
-! militarytimes.com
-##.ad-section
-##.adBox
-##.adunitContainer
-##.dfp-ad
 ! tiktok.com
 ||tiktok.com/captcha/report
 ||tiktok.com/v1/list
@@ -1304,7 +1274,6 @@ _event_tracking?
 /optimizelyjs/*
 ://lightning.*/launch/
 cnn.com##.ad-feedback__modal
-cnn.com##.ad-slot-header__wrapper
 ||z.cdp-dev.cnn.com^
 ! Port scanning Fingerprinting Trackers (Privacy and CPU abuse)
 ! https://nullsweep.com/why-is-this-website-port-scanning-me/
