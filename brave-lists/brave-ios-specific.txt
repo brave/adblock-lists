@@ -25,6 +25,8 @@
 ||fleraprt.com^
 ||tzegilo.com^
 
+! naver.com search is broken  https://m.search.naver.com/search.naver?where=m_image&sm=mtb_jum&query=brave
+@@||ssl.pstatic.net^$domain=naver.com
 ! apnews.com
 apnews.com##.Page-header-leaderboardAd
 apnews.com##.SovrnAd
