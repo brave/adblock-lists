@@ -45,11 +45,13 @@
 ##.Ad--empty
 ##.AdBox
 ##.AdSense
+##.AdvertWrapper
 ##.BoxRail-ad
 ##.GRVAd
 ##.GRVMpuWrapper
 ##.GoogleDfpAd
 ##.OUTBRAIN
+##.Outbrain
 ##.ad--banner
 ##.ad--container
 ##.ad--desktop
@@ -89,6 +91,7 @@
 ##.ad-slot-wrapper
 ##.ad-space
 ##.ad-sponsor
+##.ad-sticky-banner
 ##.ad-stickyhero
 ##.ad-stickyhero--standard
 ##.ad-text
@@ -262,6 +265,8 @@
 ##.single-post-ad
 ##.sponsored-links
 ##.sponsored-post
+##.sticky-ad
+##.sticky-ad-container
 ##.sticky-ads
 ##.taboola-widget
 ##.taboola-wrapper
@@ -279,6 +284,7 @@
 ##.topbannerAd
 ##.upx-ad-placeholder
 ##.vertical-ad
+##.vf-promo-gtag
 ##.wh_ad_inner
 ##.wide-ad
 ##.widget-ads
@@ -708,6 +714,11 @@ howtogeek.com##div[id^="purch_"]
 rottentomatoes.com##.leaderboard_wrapper
 ! memory-alpha.fandom.com
 fandom.com###featured-video__player-container
+! techrepublic.com
+techrepublic.com##.medusa-list
+! sciencealert.com
+sciencealert.com###Purch_D_R_0_1
+sciencealert.com##.ad-desktop\:block
 ! nbcnews.com
 nbcnews.com##.ad-container
 ! wikihow.com
