@@ -1343,17 +1343,18 @@ cnn.com##.ad-feedback__modal
 /^https?:\/\/tmx\.(td|tdbank)\.com\/[a-z0-9]{14,18}\.js.*/$script,domain=mbna.ca|td.com|tdbank.com
 /^https?:\/\/www\.ebay-kleinanzeigen\.de\/[a-z0-9]{8}\-[0-9a-f]{4}\-/$script,domain=kleinanzeigen.de
 /^https?:\/\/www\.kroger\.com\/content\/{20,}/$script,xmlhttprequest,domain=kroger.com
-||all3dp.com/kbcbqexpqvz8wrk88augy7b.js
 ||cfa.fidelity.com^
 ||citi.com^*/fp.js
+||citibank.com.ph/JSO/js/fp.js
 ||citibank.com.ph/tmx/js/
+||citibank.com.sg/jso/js/fp.js
+||citibank.com.sg/tmx/
 ||clear.wallapop.com^
-||content.id.elsevier.com^
-||content22.bmoharris.com^
+||content22.bmo.com^
 ||content22.citi.eu^$script
 ||content22.citibank.com.au^
 ||content22.citibank.com.sg^$script
-||contents2.00110.citi.com^
+||content22.online.citi.com^
 ||customer.homedepot.com^$script
 ||drfdisvc.walmart.com^
 ||ebay.com/nkfytkqtoxtljvzbxhr.js$script,domain=ebay.com
@@ -1379,7 +1380,6 @@ cnn.com##.ad-feedback__modal
 ||u47.pnc.com^
 ||w-profiling.cibc.com^$script
 ||w-profiling.simplii.com^
-||wup-content23.bmoharris.com^
 ! Consent/GDPR tracking
 ://a02342.
 ||cb-mms.carbuyer.co.uk^
@@ -1408,6 +1408,7 @@ cnn.com##.ad-feedback__modal
 ||cdn1.skrill.com^
 ||d276.ourmidland.com^
 ||d810.mysanantonio.com^
+||dii.bankaust.com.au^
 ||eventbus.intuit.com^
 ||f775.thehour.com^
 ||h353.ncadvertiser.com^
@@ -1421,6 +1422,7 @@ cnn.com##.ad-feedback__modal
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||sofa.bankofamerica.com^
 ||t570.wiltonbulletin.com^
+||tilt.bankofamerica.com^
 ||u652.myplainview.com^
 ||u927.sfgate.com^
 ||w740.newstimes.com^
