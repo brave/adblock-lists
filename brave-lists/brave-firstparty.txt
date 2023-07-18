@@ -890,7 +890,6 @@ wccftech.com##.bg-horizontal
 wccftech.com##.bg-square
 wccftech.com##.bg-square-mobile
 wccftech.com##.bg-vertical
-wccftech.com##.content-ad
 wccftech.com##.main-background-wrap
 wccftech.com##.mb-11
 wccftech.com##[href^="https://cutt.ly/"]
@@ -1042,7 +1041,6 @@ oregonlive.com##.below-toprail
 oregonlive.com##.rightRail-top-wrapper
 ! petapixel.com
 petapixel.com##.banners
-petapixel.com##.instream_ad
 petapixel.com##.video-aspect-wrapper
 ! cbsnews.com
 cbsnews.com##.top-ad-container
@@ -1119,8 +1117,6 @@ autoevolution.com##.bgcutgrad
 ||wellsfargo.com/dti_apg/
 ||wellsfargo.com/jenny/
 ||wellsfargo.com/pido/
-! digital.bankaust.com.au
-||dii.bankaust.com.au^
 ! westpac.com.au
 ||smetrics.westpac.com.au^
 ! Twitter
