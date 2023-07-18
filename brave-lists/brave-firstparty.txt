@@ -15,6 +15,9 @@
 ###ad_rect_btf_02
 ###adm-inline-article-ad-1
 ###adm-inline-article-ad-2
+###advert-article
+###advert-article-1
+###advert-article-2
 ###aniview-ads
 ###banner_pos1_ddb_0
 ###banner_pos2_ddb_0
@@ -50,6 +53,7 @@
 ##.GRVAd
 ##.GRVMpuWrapper
 ##.GoogleDfpAd
+##.NavBarAd
 ##.OUTBRAIN
 ##.Outbrain
 ##.ad--banner
@@ -111,6 +115,8 @@
 ##.adHeight280
 ##.adHolder
 ##.adMinHeight280
+##.adModule--inner
+##.adModule--outer
 ##.adRectangle-pos-medium
 ##.adSense
 ##.adSizer
@@ -147,6 +153,7 @@
 ##.advert--header
 ##.advert--leaderboard
 ##.advert-label
+##.advert-wrapper
 ##.advertise_text
 ##.advertisement-holder
 ##.ajdg_grpwidgets
@@ -175,6 +182,7 @@
 ##.dac__mpu-card
 ##.desktop-ad
 ##.dfp-ad
+##.dfp-ad-container
 ##.dfp-leaderboard-container
 ##.dfp-slot
 ##.dfp-tag-wrapper
@@ -195,6 +203,7 @@
 ##.gpt-ad
 ##.gpt-ad-container
 ##.gpt-breaker-container
+##.header-ad
 ##.header-ad-region
 ##.header-and-footer--banner-ad
 ##.hide-ad
@@ -241,6 +250,7 @@
 ##.min-height-ad
 ##.native-ad
 ##.noskim.ad
+##.nuk-ad-placeholder
 ##.outer-ad-unit-wrapper
 ##.outer_ad_container
 ##.p-ads-billboard
@@ -248,6 +258,7 @@
 ##.page-ad
 ##.pageAdSkin
 ##.pageAdSkinUrl
+##.pane-sasia-ad
 ##.pmc-adm-boomerang-pub-div
 ##.premium_PremiumPlacement__2dEp0
 ##.primis-wrapper
@@ -261,6 +272,7 @@
 ##.right_ad_2
 ##.right_ad_4
 ##.rj-ads-wrapper
+##.side-ad
 ##.sidebar-ad-container
 ##.single-post-ad
 ##.sponsored-links
@@ -285,6 +297,7 @@
 ##.upx-ad-placeholder
 ##.vertical-ad
 ##.vf-promo-gtag
+##.vjs-ima3-ad-container
 ##.wh_ad_inner
 ##.wide-ad
 ##.widget-ads
@@ -610,12 +623,24 @@ chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysananto
 seattlepi.com##.b-gray300.bt
 seattlepi.com##.b-gray300.md\:bt
 seattlepi.com##[data-block-type="ad"]
+! vox.com
+vox.com##.l-leaderboard-slot
+! planetrugby.com
+planetrugby.com##.ps-block-a
+! newshub.co.nz
+newshub.co.nz###island-unit-2
+newshub.co.nz##[data-belt-widget]
+! interest.co.nz
+interest.co.nz###banner-ad-wrapper
+interest.co.nz###sidebar-wrapper
+! wunderground.com
+wunderground.com##.pane-wu-fullscreenweather-ad-box-atf
+! sbs.com.au
+sbs.com.au##.MuiBox-root:has(> .desktop-ads)
 ! tmz.com
 tmz.com###ad-header
 ! nbcsports.com
 nbcsports.com###nbcsports-leaderboard
-! thoroughbreddailynews.com
-thoroughbreddailynews.com##.header-ad
 ! paulickreport.com
 paulickreport.com##.s-teleaderboard-ad
 ! sportskeeda.com
@@ -658,6 +683,7 @@ businessinsider.com,insider.com##.l-ad
 businessinsider.com,insider.com##.subnav-ad-position-sticky
 ! thedailybeast.com
 thedailybeast.com##.AdSlot
+thedailybeast.com##.CheatSheetList__placeholder
 thedailybeast.com##.Cheat__out-of-page-ads
 thedailybeast.com##.Cheat__top-ad
 thedailybeast.com##.ConnatixAd
@@ -699,6 +725,7 @@ news.sky.com###leaderboard
 news.sky.com##[data-format="leaderboard"]
 ! axios.com
 axios.com##.shortFormNativeAd
+axios.com##[data-cy="injected-promo"]
 ! medpagetoday.com
 medpagetoday.com##.leaderboard-region
 ! #mntl-leaderboard-header_1-0
@@ -863,7 +890,6 @@ wccftech.com##.bg-horizontal
 wccftech.com##.bg-square
 wccftech.com##.bg-square-mobile
 wccftech.com##.bg-vertical
-wccftech.com##.content-ad
 wccftech.com##.main-background-wrap
 wccftech.com##.mb-11
 wccftech.com##[href^="https://cutt.ly/"]
@@ -1015,7 +1041,6 @@ oregonlive.com##.below-toprail
 oregonlive.com##.rightRail-top-wrapper
 ! petapixel.com
 petapixel.com##.banners
-petapixel.com##.instream_ad
 petapixel.com##.video-aspect-wrapper
 ! cbsnews.com
 cbsnews.com##.top-ad-container
@@ -1092,8 +1117,6 @@ autoevolution.com##.bgcutgrad
 ||wellsfargo.com/dti_apg/
 ||wellsfargo.com/jenny/
 ||wellsfargo.com/pido/
-! digital.bankaust.com.au
-||dii.bankaust.com.au^
 ! westpac.com.au
 ||smetrics.westpac.com.au^
 ! Twitter
