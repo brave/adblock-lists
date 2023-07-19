@@ -71,6 +71,8 @@ userlytics.com##+js(set, navigator.connection, {})
 ! :has
 youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 9gag.com##article:has(.promoted)
+! Fix youtube (quick fix)
+youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.bkaEnforcementMessageViewModel, undefined)
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
 ||skepticalscience.net/widgets/heat_widget/js/heat_content.js$script,domain=skepticalscience.com
 ! adops.com unusable without this
