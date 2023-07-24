@@ -894,6 +894,9 @@ naver.com##.banner_area
 lenta.ru,championat.com,passion.ru,wmj.ru,eda.ru,rambler.ru,motor.ru,autorambler.ru,letidor.ru,quto.ru,rns.online,gazeta.ru##+js(json-prune, Blocks)
 ! Rambler (imported from Adguard)
 afisha.ru,letidor.ru,autorambler.ru,wmj.ru,motor.ru,passion.ru,quto.ru,eda.ru,rns.online,championat.com,gazeta.ru,lenta.ru,rambler.ru##+js(aopw, Object.prototype.getPlaceSelectorByBannerId)
+! https://canyoublockit.com/extreme-test/
+! https://old.reddit.com/r/brave_browser/comments/158399q/popup_ads_not_getting_blocked_in_brave/
+canyoublockit.com##+js(nowoif)
 ! rutracker.net (regional)
 ||rutrk.org^$domain=rutracker.net
 ||betsonsport.ru^$domain=rutracker.net
