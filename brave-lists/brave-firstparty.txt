@@ -18,6 +18,9 @@
 ###advert-article
 ###advert-article-1
 ###advert-article-2
+###after-dfp-ad-top
+###after-dfp-ad-mid3
+###after-dfp-ad-mid1
 ###aniview-ads
 ###banner_pos1_ddb_0
 ###banner_pos2_ddb_0
@@ -186,6 +189,7 @@
 ##.desktop-ad
 ##.dfp-ad
 ##.dfp-ad-container
+##.dfp-ad-top-wrapper
 ##.dfp-leaderboard-container
 ##.dfp-slot
 ##.dfp-tag-wrapper
@@ -578,7 +582,10 @@ arstechnica.com##.ad_crown
 arstechnica.com##.ad_fullwidth
 arstechnica.com##.ad_xrail
 ! nytimes.com
+nytimes.com##.ad
+nytimes.com##[data-testid="StandardAd"]
 nytimes.com##.css-bs95eu
+nytimes.com##.e1xxpj0j1.css-4vtjtj
 nytimes.com##.g-paid
 ! cnbc.com
 cnbc.com##.TopBanner-container
