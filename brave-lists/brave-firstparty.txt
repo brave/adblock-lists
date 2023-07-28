@@ -3,8 +3,10 @@
 !
 ! Generic blocks
 /adservice.$domain=~adservice.io|~github.com|~githubusercontent.com
+/cmbdv2.js
+/greenoaks.gif?
+/porpoiseant/*
 !
-! ezoic ads
 ###ad--article-top-wrapper
 ###ad--sidebar
 ###ad-mpu
@@ -18,9 +20,9 @@
 ###advert-article
 ###advert-article-1
 ###advert-article-2
-###after-dfp-ad-top
-###after-dfp-ad-mid3
 ###after-dfp-ad-mid1
+###after-dfp-ad-mid3
+###after-dfp-ad-top
 ###aniview-ads
 ###banner_pos1_ddb_0
 ###banner_pos2_ddb_0
@@ -317,6 +319,7 @@
 ##[class^="adm-inline-article-ad"]
 ##[data-ad-name]
 ##[data-component="ad-unit"]
+##[data-ez-name]
 ##[data-freestar-ad]
 ##[data-rc-widget]
 ##[data-revive-zoneid]
@@ -335,6 +338,7 @@
 ##div[id^="rc-widget-"]
 ##div[id^="zergnet-widget"]
 ##ins.adsbygoogle
+##span[data-ez-ph-id]
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ! (invideo advertising)
 ###Player_Playoncontent
@@ -583,10 +587,10 @@ arstechnica.com##.ad_fullwidth
 arstechnica.com##.ad_xrail
 ! nytimes.com
 nytimes.com##.ad
-nytimes.com##[data-testid="StandardAd"]
 nytimes.com##.css-bs95eu
 nytimes.com##.e1xxpj0j1.css-4vtjtj
 nytimes.com##.g-paid
+nytimes.com##[data-testid="StandardAd"]
 ! cnbc.com
 cnbc.com##.TopBanner-container
 ! people.com
@@ -1094,6 +1098,7 @@ autoevolution.com##.bgcutgrad
 /comscore_beacon/*
 /events/analytics/*
 /id?d_visid_
+/imp.gif?
 /optmzly/*
 /perf-vitals_
 /px/client/main.min.js
