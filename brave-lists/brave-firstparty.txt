@@ -1200,7 +1200,8 @@ mail.google.com##.nH.PS
 stoodnt.com##.boxzilla-center-container
 stoodnt.com##.boxzilla-overlay
 ! Facebook/Instagram
-/bz?*__comet_req=
+/ajax/bnzai?_
+/ajax/bz?_
 facebook.com##.post-ads
 facebook.com##.RectangleAd
 ||facebook.com/a/bz?
@@ -1225,6 +1226,7 @@ bloomberg.com##.leaderboard-wrapper
 /api/cmp_tracker
 bloomberg.com##[class^="FullWidthAd_"]
 ! tiktok.com
+||tiktok.com/ttwid/check/
 ||tiktok.com/captcha/report
 ||tiktok.com/v1/list
 ||tiktok.com/web/report?
