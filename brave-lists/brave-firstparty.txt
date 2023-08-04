@@ -1218,6 +1218,7 @@ facebook.com##.RectangleAd
 linkedin.com##.ad-banner
 ||linkedin.com/collect/
 ||linkedin.com/litms/utag/
+||linkedin.com/li/track$xmlhttprequest
 ||linkedin.com/sensorcollect/
 ||linkedin.com/tscp-serving/
 ! bloomberg.com
