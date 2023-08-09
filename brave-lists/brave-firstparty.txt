@@ -712,7 +712,13 @@ indianexpress.com##.add-first
 ! fivethirtyeight.com
 fivethirtyeight.com##.master-ad
 ! Twitter ad cosmetic element
-twitter.com##[style] > div > div > [data-testid=placementTracking]
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.promoted-account
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.promotion
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##.stream-item-group-start[label="promoted"]
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[href*="src=promoted_trend_click"]
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##a[href*="src=promoted_trend_click"] + div
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##[style] > div > div > [data-testid=placementTracking]
+twitter.com,twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 ! bbc.com
 bbc.com###leaderboard-aside-content
 bbc.com###mpu-side-aside-content
