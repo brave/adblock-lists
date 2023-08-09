@@ -1093,3 +1093,5 @@ modalina.jp##+js(aopr, AdBlockLimitation)
 @@||ad.pr.ameba.jp/tpc/$xmlhttprequest
 @@||amebame.com/pub/ads/$domain=ameblo.jp
 @@||stat100.ameba.jp/blogportal/img/banner/$image
+! Fix images at lowes.com when Dark Mode - https://community.brave.com/t/night-mode-blocks-images-at-lowes-com-searches/494212
+lowes.com##img:style(mix-blend-mode: unset !important;)
