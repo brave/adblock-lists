@@ -17,6 +17,8 @@
 ###ad_rect_btf_02
 ###adm-inline-article-ad-1
 ###adm-inline-article-ad-2
+###adslot300x250ATF
+###adslot300x250BTF
 ###advert-article
 ###advert-article-1
 ###advert-article-2
@@ -49,10 +51,13 @@
 ###taboola-below-article-1
 ###taboola-below-article-thumbnails
 ###taboola-below-article-thumbnails-v2
+###taboola-right-rail
 ###taboola-right-rail-thumbnails
+###taboola-right-rail-thumbnails-2nd
 ##.ATF_wrapper
 ##.Ad--empty
 ##.AdBox
+##.AdModule
 ##.AdSense
 ##.AdvertWrapper
 ##.BoxRail-ad
@@ -70,6 +75,7 @@
 ##.ad--mid-content
 ##.ad--mobile
 ##.ad--sponsor-content
+##.ad-article-inline
 ##.ad-caption
 ##.ad-current
 ##.ad-entity-container
@@ -108,6 +114,7 @@
 ##.ad-title
 ##.ad-top-banner
 ##.ad-type-cube
+##.ad-type-flex-leaderboard
 ##.ad-unit
 ##.ad-unit--leaderboard
 ##.ad-wrap
@@ -141,12 +148,15 @@
 ##.ad_slot
 ##.ad_text
 ##.ad_top
+##.ad_unit
 ##.ad_wrapper
 ##.adhesiveAdWrapper
 ##.admz
+##.adplaceholder
 ##.ads--no-preload
 ##.ads-cont
 ##.ads-global-header
+##.ads_tb-c
 ##.adsbox970x90
 ##.adsbyvli
 ##.adslot
@@ -165,6 +175,8 @@
 ##.advertise_text
 ##.advertisement-holder
 ##.ajdg_grpwidgets
+##.amp-ad-container
+##.amp-ads
 ##.apexAd
 ##.arc-ad-wrapper
 ##.article-ad
@@ -221,6 +233,7 @@
 ##.horizontal.ad
 ##.image-viewer-ad
 ##.image-viewer-mpu
+##.ins_adwrap
 ##.insticator-ads
 ##.instoryAdBlock
 ##.instoryAdNoBlock
@@ -258,7 +271,9 @@
 ##.m1-header-ad
 ##.mapped-ad
 ##.min-height-ad
+##.mntl-leaderboard-spacer
 ##.native-ad
+##.newspack_global_ad
 ##.noskim.ad
 ##.nuk-ad-placeholder
 ##.outer-ad-unit-wrapper
@@ -290,6 +305,7 @@
 ##.sticky-ad
 ##.sticky-ad-container
 ##.sticky-ads
+##.taboola
 ##.taboola-widget
 ##.taboola-wrapper
 ##.tadm_ad_unit
@@ -299,6 +315,7 @@
 ##.tmo-ad-ezoic
 ##.tnt-ads
 ##.tnt-ads-container
+##.top-ad
 ##.top-ad-block
 ##.top-ad-wrapper
 ##.top-ads-container
@@ -307,6 +324,7 @@
 ##.upx-ad-placeholder
 ##.vertical-ad
 ##.vf-promo-gtag
+##.video-ad
 ##.vjs-ima3-ad-container
 ##.wh_ad_inner
 ##.wide-ad
@@ -586,15 +604,15 @@ arstechnica.com##.ad_crown
 arstechnica.com##.ad_fullwidth
 arstechnica.com##.ad_xrail
 ! nytimes.com
+nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion###bottom-wrapper
+nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion###top-wrapper
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.ad
+nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css-142l3g4
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css-bs95eu
+nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css-oeful5
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.e1xxpj0j1.css-4vtjtj
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.g-paid
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##[data-testid="StandardAd"]
-nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css-oeful5
-nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css-142l3g4
-nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion###top-wrapper
-nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion###bottom-wrapper
 ! cnbc.com
 cnbc.com##.TopBanner-container
 ! people.com
@@ -621,11 +639,15 @@ zdnet.com##.c-avStickyVideo
 sherdog.com###adViAi
 sherdog.com##.ads
 sherdog.com##.top_ads
+! sfgate.com
+sfgate.com##.mnh90px
 ! ndtv.com
 ndtv.com###jads
 ndtv.com##.ad-cnt
 ndtv.com##.adcont
+ndtv.com##.add-section
 ndtv.com##.add-wrp
+ndtv.com##.add__txt
 ndtv.com##.add__wrp
 ndtv.com##.ads_tb-c
 ndtv.com##.mastheadwrap
@@ -719,9 +741,9 @@ fivethirtyeight.com##.master-ad
 twitter.com##.promoted-account
 twitter.com##.promotion
 twitter.com##.stream-item-group-start[label="promoted"]
+twitter.com##[style] > div > div > [data-testid=placementTracking]
 twitter.com##a[href*="src=promoted_trend_click"]
 twitter.com##a[href*="src=promoted_trend_click"] + div
-twitter.com##[style] > div > div > [data-testid=placementTracking]
 twitter.com##div[data-testid="cellInnerDiv"] > div.css-1dbjc4n > div[class="css-1dbjc4n"] > div[class="css-1dbjc4n"][data-testid="placementTracking"]
 ! bbc.com
 bbc.com###leaderboard-aside-content
@@ -754,8 +776,6 @@ axios.com##.shortFormNativeAd
 axios.com##[data-cy="injected-promo"]
 ! medpagetoday.com
 medpagetoday.com##.leaderboard-region
-! #mntl-leaderboard-header_1-0
-brides.com,byrdie.com,instyle.com,investopedia.com,lifewire.com,people.com,thespruce.com,travelandleisure.com,verywellhealth.com###mntl-leaderboard-header_1-0
 ! thepointsguy.com
 thepointsguy.com##[aria-label="Advertisement"]
 ! variety.com
@@ -1068,8 +1088,8 @@ marketscreener.com###zppRight2
 ! reddit.com
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.promotedlink
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[data-before-content="advertisement"]
-reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-comments-page-ad
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#article.Post:-abp-has(a[rel="nofollow noopener sponsored"])
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-comments-page-ad
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##xpromo-top-button
 ! economist.com
 economist.com##.adComponent_advert__V79Pp
@@ -1230,8 +1250,8 @@ facebook.com##.RectangleAd
 ! linkedin.com
 linkedin.com##.ad-banner
 ||linkedin.com/collect/
-||linkedin.com/litms/utag/
 ||linkedin.com/li/track$xmlhttprequest
+||linkedin.com/litms/utag/
 ||linkedin.com/sensorcollect/
 ||linkedin.com/tscp-serving/
 ! bloomberg.com
@@ -1240,8 +1260,8 @@ bloomberg.com##.leaderboard-wrapper
 /api/cmp_tracker
 bloomberg.com##[class^="FullWidthAd_"]
 ! tiktok.com
-||tiktok.com/ttwid/check/
 ||tiktok.com/captcha/report
+||tiktok.com/ttwid/check/
 ||tiktok.com/v1/list
 ||tiktok.com/web/report?
 ||tiktok.com/whale/
