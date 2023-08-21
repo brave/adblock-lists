@@ -946,6 +946,10 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 ||tapfiliate.com^$badfilter
 ! Fix blank page on flipp.com
 @@||wishabi.net^$image,domain=flipp.com
+! https://community.brave.com/t/walmart-com-redirects-to-account-sign-in-screen-brave-linux-and-mac-not-ff-or-safari/500040/
+! window.navigator.globalPrivacyControl related
+walmart.com##+js(cookie-remover.js, sod)
+walmart.com##+js(set-cookie, sod, 0)
 ! Fix "Alien Warning" script check on dslreports.com https://community.brave.com/t/alien-script-detected-inline-code-at-dslreports-com-speedtest/173716/
 dslreports.com###errorlog
 ! Anti-adblock: docker.events.cube365.net 
