@@ -76,13 +76,16 @@
 ##.ad--mobile
 ##.ad--sponsor-content
 ##.ad-article-inline
+##.ad-callout-wrapper
 ##.ad-caption
 ##.ad-current
 ##.ad-entity-container
 ##.ad-footer
 ##.ad-giga
 ##.ad-header-pencil
+##.ad-incontent
 ##.ad-inline
+##.ad-label
 ##.ad-leaderboard
 ##.ad-left-top
 ##.ad-link
@@ -99,6 +102,7 @@
 ##.ad-slot
 ##.ad-slot-1
 ##.ad-slot-2
+##.ad-slot-container
 ##.ad-slot-header
 ##.ad-slot-header__wrapper
 ##.ad-slot-placeholder
@@ -106,6 +110,7 @@
 ##.ad-slot-top
 ##.ad-slot-wrapper
 ##.ad-space
+##.ad-splash
 ##.ad-sponsor
 ##.ad-sticky-banner
 ##.ad-stickyhero
@@ -305,6 +310,8 @@
 ##.sticky-ad
 ##.sticky-ad-container
 ##.sticky-ads
+##.sticky-rail-ad-container
+##.tablet-ad
 ##.taboola
 ##.taboola-widget
 ##.taboola-wrapper
@@ -333,6 +340,7 @@
 ##.zergnet
 ##.zergnet-widget
 ##.zergnet__container
+##AD-SLOT
 ##[aria-label="advertisement"]
 ##[class^="adm-inline-article-ad"]
 ##[data-ad-name]
@@ -716,6 +724,8 @@ hindustantimes.com##.desktopAd
 hindustantimes.com##.right-top-ad
 hindustantimes.com##.storyAd
 ! dailymail.co.uk
+dailymail.co.uk###sky-left
+dailymail.co.uk###sky-right
 dailymail.co.uk##.billboard-container
 dailymail.co.uk##.connatix-wrapper
 dailymail.co.uk##.mpu_puff_wrapper
@@ -821,7 +831,6 @@ barstoolsports.com##.htl-ad__container
 syfy.com##.zergnet-widget__header
 ! metro.co.uk
 metro.co.uk###mpu_bottom
-metro.co.uk##.ad-slot-container
 metro.co.uk##.ad-slot-large
 metro.co.uk##.ji-ad-slot-mpu
 ! odishatv.in
@@ -844,6 +853,8 @@ wsmv.com##.arc-ad
 ! dallasnews.com
 dallasnews.com##.htlad-dfpPosition1_article
 dallasnews.com##.htlad-dfpTop
+! aol.com
+aol.com##.m-gam__container
 ! newsweek.com
 newsweek.com###right1ad
 newsweek.com###topad
