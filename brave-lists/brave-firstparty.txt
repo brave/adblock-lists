@@ -11,9 +11,19 @@
 ###ad--sidebar
 ###ad-mpu
 ###ad-overlay
+##AD-SLOT
 ###ad_bnr_atf_01
 ###ad_lead1
 ###ad_rect_btf_01
+##.ad-wrapper
+##.tablet-ad
+##.desktop-ad
+##.ad-splash
+##.ad-incontent
+##.sticky-rail-ad-container
+##.ad-callout-wrapper
+##.ad-label
+##.ad-slot-container
 ###ad_rect_btf_02
 ###adm-inline-article-ad-1
 ###adm-inline-article-ad-2
@@ -716,6 +726,8 @@ hindustantimes.com##.desktopAd
 hindustantimes.com##.right-top-ad
 hindustantimes.com##.storyAd
 ! dailymail.co.uk
+dailymail.co.uk###sky-right
+dailymail.co.uk###sky-left
 dailymail.co.uk##.billboard-container
 dailymail.co.uk##.connatix-wrapper
 dailymail.co.uk##.mpu_puff_wrapper
@@ -821,7 +833,6 @@ barstoolsports.com##.htl-ad__container
 syfy.com##.zergnet-widget__header
 ! metro.co.uk
 metro.co.uk###mpu_bottom
-metro.co.uk##.ad-slot-container
 metro.co.uk##.ad-slot-large
 metro.co.uk##.ji-ad-slot-mpu
 ! odishatv.in
@@ -844,6 +855,8 @@ wsmv.com##.arc-ad
 ! dallasnews.com
 dallasnews.com##.htlad-dfpPosition1_article
 dallasnews.com##.htlad-dfpTop
+! aol.com
+aol.com##.m-gam__container
 ! newsweek.com
 newsweek.com###right1ad
 newsweek.com###topad
