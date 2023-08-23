@@ -11,19 +11,9 @@
 ###ad--sidebar
 ###ad-mpu
 ###ad-overlay
-##AD-SLOT
 ###ad_bnr_atf_01
 ###ad_lead1
 ###ad_rect_btf_01
-##.ad-wrapper
-##.tablet-ad
-##.desktop-ad
-##.ad-splash
-##.ad-incontent
-##.sticky-rail-ad-container
-##.ad-callout-wrapper
-##.ad-label
-##.ad-slot-container
 ###ad_rect_btf_02
 ###adm-inline-article-ad-1
 ###adm-inline-article-ad-2
@@ -86,13 +76,16 @@
 ##.ad--mobile
 ##.ad--sponsor-content
 ##.ad-article-inline
+##.ad-callout-wrapper
 ##.ad-caption
 ##.ad-current
 ##.ad-entity-container
 ##.ad-footer
 ##.ad-giga
 ##.ad-header-pencil
+##.ad-incontent
 ##.ad-inline
+##.ad-label
 ##.ad-leaderboard
 ##.ad-left-top
 ##.ad-link
@@ -109,6 +102,7 @@
 ##.ad-slot
 ##.ad-slot-1
 ##.ad-slot-2
+##.ad-slot-container
 ##.ad-slot-header
 ##.ad-slot-header__wrapper
 ##.ad-slot-placeholder
@@ -116,6 +110,7 @@
 ##.ad-slot-top
 ##.ad-slot-wrapper
 ##.ad-space
+##.ad-splash
 ##.ad-sponsor
 ##.ad-sticky-banner
 ##.ad-stickyhero
@@ -315,6 +310,8 @@
 ##.sticky-ad
 ##.sticky-ad-container
 ##.sticky-ads
+##.sticky-rail-ad-container
+##.tablet-ad
 ##.taboola
 ##.taboola-widget
 ##.taboola-wrapper
@@ -343,6 +340,7 @@
 ##.zergnet
 ##.zergnet-widget
 ##.zergnet__container
+##AD-SLOT
 ##[aria-label="advertisement"]
 ##[class^="adm-inline-article-ad"]
 ##[data-ad-name]
@@ -726,8 +724,8 @@ hindustantimes.com##.desktopAd
 hindustantimes.com##.right-top-ad
 hindustantimes.com##.storyAd
 ! dailymail.co.uk
-dailymail.co.uk###sky-right
 dailymail.co.uk###sky-left
+dailymail.co.uk###sky-right
 dailymail.co.uk##.billboard-container
 dailymail.co.uk##.connatix-wrapper
 dailymail.co.uk##.mpu_puff_wrapper
