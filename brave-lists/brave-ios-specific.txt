@@ -190,6 +190,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||adamantsnail.com^
 ||additionant.com^
 ||adorableanger.com^
+||adventurousamount.com^
 ||advertisementafterthought.com^
 ||afraidlanguage.com^
 ||agreeablestew.com^
@@ -1048,6 +1049,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||poisedpig.com^
 ||politegoldfish.com^
 ||politeplanes.com^
+||politicalporter.com^
 ||popcornfood.com^
 ||possessivebucket.com^
 ||possibleboats.com^
@@ -1397,6 +1399,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||stiffstem.com^
 ||stingsquirrel.com^
 ||stockingsneeze.com^
+||stomachscience.com^
 ||storescissors.com^
 ||storeslope.com^
 ||storesurprise.com^
