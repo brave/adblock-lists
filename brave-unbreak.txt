@@ -188,9 +188,6 @@ igniteunmc.com##.preloader
 ! LinkedIn in embeds
 @@||licdn.com^$tag=linked-in-embeds
 @@||platform.linkedin.com^$tag=linked-in-embeds
-! https://community.brave.com/t/unable-to-open-reddit-com-urls-in-private-tabs/503125/
-! https://github.com/uBlockOrigin/uAssets/commit/eee6fec5647e3014d1da144d0cd9888254fa09a4
-||reddit.com^$removeparam=rdt,badfilter
 ! jcrew.com reviews not showing
 jcrew.com##+js(cookie-remover.js, dns_cookie)
 ! Fix sign in icon on https://app.mysms.com/#login
