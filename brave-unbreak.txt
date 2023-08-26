@@ -638,6 +638,11 @@ canale.live##+js(no-setInterval-if, href)
 twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##+js(nostif, adsBlocked)
 twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##.adblock-allowlist-messaging__wrapper
 ||concert.io/lib/adblock/$subdocument
+!
+! Re-added:
+! https://community.brave.com/t/unable-to-open-reddit-com-urls-in-private-tabs/503125/
+! https://github.com/uBlockOrigin/uAssets/commit/eee6fec5647e3014d1da144d0cd9888254fa09a4
+||reddit.com^$removeparam=rdt,doc,badfilter
 ! ghide
 @@||filmisub.cc^$ghide
 @@||compuhoy.com^$ghide
