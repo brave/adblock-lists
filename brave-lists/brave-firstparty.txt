@@ -465,6 +465,10 @@ spectrum.ieee.org##.top-leader-container
 spectrum.ieee.org##div[class^="rblad-"]
 ! theglobeandmail.com
 theglobeandmail.com###BaseAd__StyledAdPlaceholder-sc-1khlkqq-0
+! adblock-tester.com
+||adblock-tester.com/banners/
+adblock-tester.com##embed[width="240"]
+adblock-tester.com##object[width="240"]
 ! atlasobscura.com
 atlasobscura.com##.advertisement-disclaimer
 atlasobscura.com##.advertisement-shadow
