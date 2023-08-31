@@ -71,9 +71,6 @@ userlytics.com##+js(set, navigator.connection, {})
 ! :has
 youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 9gag.com##article:has(.promoted)
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters.txt#L38
-! Counter exceptions in uBO
-youtube.com,youtubekids.com,youtube-nocookie.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , /^(?=.*\.js)(?!.*[A-z]hb \S+polymer).*/)
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
 ||skepticalscience.net/widgets/heat_widget/js/heat_content.js$script,domain=skepticalscience.com
 ! adops.com unusable without this
