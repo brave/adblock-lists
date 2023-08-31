@@ -210,12 +210,14 @@
     },
     {
         "include": [
+            "*://*.bloomberglaw.com/*",
             "*://*.bloomberg.com/*"
         ],
         "exclude": [
 
         ],
         "params": [
+            "trk",
             "in_source",
             "leadSource",
             "srnd"
