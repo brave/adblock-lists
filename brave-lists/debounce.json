@@ -48,6 +48,15 @@
   },
   {
     "include": [
+      "*://app.hive.co/email/elt/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "next"
+  },
+  {
+    "include": [
       "*://redir.tradedoubler.com/*"
     ],
     "exclude": [
@@ -174,6 +183,8 @@
   },
   {
     "include": [
+      "*://*.ztk5.net/*",
+      "*://*.rg35.net/*",
       "*://sherlock.scribblelive.com/r?*",
       "*://*.engage.squarespace-mail.com/r?*",
       "*://engage.squarespace-mail.com/r?*",
