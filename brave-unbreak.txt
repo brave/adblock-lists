@@ -511,6 +511,7 @@ drawasaurus.org##+js(nostif, forceRefresh)
 katholisches.info##+js(nostif, pop)
 ! Admiral popups
 arstechnica.com,audizine.com,blackenterprise.com,boston.com,cattime.com,cbr.com,cheatsheet.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,inquirer.net,knowyourmeme.com,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nofilmschool.com,omg.blog,order-order.com,pastes.io,playstationlifestyle.net,screenrant.com,siliconera.com,technicpack.net,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,twinfinite.net,usatoday.com,videogamer.com,wnd.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acis, document.createElement, admiral)
+gbatemp.net##+js(set, admiral, noopFunc)
 ! Admiral Anti-adblock (gamerevolution.com/playstationlifestyle.net/probably others)
 ||succeedscene.com/ads_*/ads.load.js$script,redirect=noop.js
 ! https://github.com/uBlockOrigin/uAssets/pull/14563
