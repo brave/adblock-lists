@@ -79,7 +79,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 @@||starbucks.com/app-assets/
 @@||app.starbucks.com/weblx/static/$domain=starbucks.com
 ! google fixes
-@@||googletagmanager.com/gtm.js$domain=blockclubchicago.org|rednoseday.org|verygoodvault.com|uqr.to
+@@||googletagmanager.com/gtm.js$domain=blockclubchicago.org|rednoseday.org|verygoodvault.com|uqr.to|m1.com
 @@||googletagmanager.com/gtag/$domain=rednoseday.org|verygoodvault.com
 ! Foxnews/business
 @@||js.taplytics.com/jssdk/$domain=foxnews.com|foxbusiness.com
