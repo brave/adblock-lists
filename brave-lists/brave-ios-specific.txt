@@ -32,6 +32,9 @@ decrypt.co##.opacity-75
 ||pubgenius.io^$3p
 ||btloader.com^
 ||customer.io^$3p
+! road.cc
+||sonar.viously.com^
+
 ! naver.com search is broken  https://m.search.naver.com/search.naver?where=m_image&sm=mtb_jum&query=brave
 @@||ssl.pstatic.net^$domain=naver.com
 ! apnews.com
