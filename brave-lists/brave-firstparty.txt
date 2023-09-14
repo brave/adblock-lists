@@ -32,6 +32,9 @@
 ###banner_pos4_ddb_0
 ###comments-standalone-mpu
 ###dfp-wallpaper-wrapper
+###dfp_bigbox_recipe_top
+###dfp_bigbox_2
+###dfp_prog_bigbox
 ###dfp_leaderboard
 ###gpt-leaderboard-ad
 ###interstory_first_ddb_0
@@ -187,6 +190,7 @@
 ##.article-ad
 ##.article-mid-ad
 ##.belowMastheadWrapper
+##.bigbox-ad
 ##.block-ad-entity
 ##.block-dfp
 ##.bottom-ads-container
@@ -548,6 +552,8 @@ euronews.com##.qa-dfpLeaderBoard
 ! business-standard.com
 business-standard.com##.advertisement-bg
 business-standard.com##div[id^="between_article_content_"]
+! foodnetwork.com
+foodnetwork.com###leaderboard-wrap
 ! greencarreports.com
 greencarreports.com##.adv-spacer
 ! snopes.com
