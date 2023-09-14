@@ -306,6 +306,7 @@
 ##.right_ad_2
 ##.right_ad_4
 ##.rj-ads-wrapper
+##.section-ad
 ##.side-ad
 ##.sidebar-ad-container
 ##.single-post-ad
@@ -379,6 +380,7 @@
 ###mplayer-embed
 ###primis-holder
 ###primis_intext
+###primis_player
 ##.GRVPrimisVideo
 ##.GRVVideo
 ##.ac-lre-desktop
@@ -493,6 +495,8 @@ appleinsider.com##.push
 ! macrumors.com
 macrumors.com##.sidebarblock
 macrumors.com##.tertiary
+! coindesk.com
+coindesk.com##.high-impact-ad
 ! pastebin.com
 pastebin.com##.content > [style^="padding-bottom:"]
 pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
