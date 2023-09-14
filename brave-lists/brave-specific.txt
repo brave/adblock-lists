@@ -20,6 +20,9 @@ google.*##+js(de-amp)
 ! YouTube theater mode fix scriptlet rule
 youtube.*##+js(brave-youtube-theater-fix)
 
+! YouTube navigation fix scriptlet rule
+youtube.*##+js(brave-youtube-navigation-fix)
+
 ! Used for Brave QA tests
 ?335962573013224749$image,xhr,domain=dev-pages.brave.software|dev-pages.bravesoftware.com
 ! Rules for testing cosmetic filters in frames
