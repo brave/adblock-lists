@@ -156,6 +156,7 @@
     },
     {
         "include": [
+            "*://youtu.be/?*",
             "*://*.youtube.com/watch?*"
         ],
         "exclude": [
@@ -166,6 +167,7 @@
             "embeds_loader_url_for_pings",
             "embeds_origin",
             "feature",
+            "si",
             "source_ve_path"
         ]
     },
