@@ -227,6 +227,19 @@
     },
     {
         "include": [
+            "*://*.aliexpress.com/item/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "algo_exp_id",
+            "pdp_npi",
+            "curPageLogUid"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
