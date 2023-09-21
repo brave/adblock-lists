@@ -650,6 +650,7 @@ twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,
 @@||filmisub.cc^$ghide
 @@||compuhoy.com^$ghide
 @@||fluttercampus.com^$ghide
+@@||samuraiscan.org^$ghide
 ! chp anti-adblock
 fresheroffcampus.com,cizzyscripts.com##+js(aopw, startCheckingAdblock)
 ! uBO-domain wildcard workaround rnbxclusive1.* https://github.com/uBlockOrigin/uAssets/pull/12579
