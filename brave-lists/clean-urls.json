@@ -294,6 +294,9 @@
 
         ],
         "params": [
+            "cx_click",
+            "cx_recsOrder",
+            "cx_recsWidget",
             "at_campaign",
             "at_campaign_type",
             "at_channel",
