@@ -294,6 +294,11 @@
 
         ],
         "params": [
+            "yadclid",
+            "yadordid",
+            "yclid",
+            "ymclid",
+            "ysclid",
             "cx_click",
             "cx_recsOrder",
             "cx_recsWidget",
