@@ -467,10 +467,10 @@
 /parsonsmaize/olathe.js
 /tardisrocinante/vitals.js
 ! remove-params (ads)
-||warnermediacdn.com/csm/*&caid=$xhr,removeparam=caid,from=cnn.com
-||warnermediacdn.com/csm/*afid=$xhr,removeparam=afid,from=cnn.com
-||warnermediacdn.com/csm/*app_csid=$xhr,removeparam=app_csid,from=cnn.com
-||warnermediacdn.com/csm/*conf_csid=$xhr,removeparam=conf_csid,from=cnn.com
+||warnermediacdn.com/csm/*&caid=$xhr,removeparam=caid,domain=cnn.com
+||warnermediacdn.com/csm/*afid=$xhr,removeparam=afid,domain=cnn.com
+||warnermediacdn.com/csm/*app_csid=$xhr,removeparam=app_csid,domain=cnn.com
+||warnermediacdn.com/csm/*conf_csid=$xhr,removeparam=conf_csid,domain=cnn.com
 ||brightcove.com^$xhr,removeparam=ad_config_id,domain=roosterteeth.com
 ||medium.ngtv.io/v2/media/*&ssaiProfile=$xhr,removeparam=ssaiProfile,domain=~cnn.com
 ||cxm-api.fifa.com/fifaplusweb/api/video/*$xhr,removeparam=adConfig
