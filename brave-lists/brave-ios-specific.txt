@@ -34,7 +34,13 @@ decrypt.co##.opacity-75
 ||customer.io^$3p
 ! road.cc
 ||sonar.viously.com^
-
+! youtube anti-adblock
+! https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters.txt#L25C1-L25C1
+youtube.com##+js(json-prune-fetch-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:player?key=)
+youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
+youtube.com##+js(trusted-replace-fetch-response, /\"adPlacements.*?\"\}\}\}\]\,/, , player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /\"adSlots.*?\}\]\}\}\]\,/, , player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /\"playerAds.*?\}\}\]\,/, , player?key=)
 ! naver.com search is broken  https://m.search.naver.com/search.naver?where=m_image&sm=mtb_jum&query=brave
 @@||ssl.pstatic.net^$domain=naver.com
 ! apnews.com
