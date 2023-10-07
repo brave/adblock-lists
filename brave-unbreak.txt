@@ -72,16 +72,7 @@ userlytics.com##+js(set, navigator.connection, {})
 youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 9gag.com##article:has(.promoted)
 ! youtube
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
-youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
-youtube.com##+js(trusted-replace-fetch-response, /\"adPlacements.*?true.*?\"\}\}\}\]\,/, , url:player?key= method:/post/i)
-youtube.com##+js(trusted-replace-fetch-response, /\"adSlots.*?true.*?\}\]\}\}\]\,/, , url:player?key= method:/post/i)
-youtube.com##+js(trusted-replace-fetch-response, /\"playerAds.*?true.*?\}\}\]\,/, , url:player?key= method:/post/i)
-! older fix, interim 
-youtube.com##+js(json-prune-fetch-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:player?key=)
+youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , /^(?=.*\.js)(?!.*[A-z]kb \S+polymer).*/)
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
 ||skepticalscience.net/widgets/heat_widget/js/heat_content.js$script,domain=skepticalscience.com
 ! adops.com unusable without this
