@@ -80,6 +80,8 @@ youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].play
 youtube.com##+js(trusted-replace-fetch-response, /\"adPlacements.*?true.*?\"\}\}\}\]\,/, , url:player?key= method:/post/i)
 youtube.com##+js(trusted-replace-fetch-response, /\"adSlots.*?true.*?\}\]\}\}\]\,/, , url:player?key= method:/post/i)
 youtube.com##+js(trusted-replace-fetch-response, /\"playerAds.*?true.*?\}\}\]\,/, , url:player?key= method:/post/i)
+! older fix, interim 
+youtube.com##+js(json-prune-fetch-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:player?key=)
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
 ||skepticalscience.net/widgets/heat_widget/js/heat_content.js$script,domain=skepticalscience.com
 ! adops.com unusable without this
