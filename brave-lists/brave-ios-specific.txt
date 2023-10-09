@@ -35,8 +35,6 @@ decrypt.co##.opacity-75
 ! road.cc
 ||sonar.viously.com^
 ! youtube anti-adblock
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters.txt#L25C1-L25C1
-youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
 ! https://www.reddit.com/r/uBlockOrigin/comments/154vtwy/getting_ads_on_youtube/jsu299l/
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.playerAds, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
