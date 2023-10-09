@@ -1,37 +1,5 @@
 ! Title: Brave Cookie-snippet list
 ! Description: Brave-specific additions to Easylist Cookie
 ! Expires: 2 days
-
-! dealabs mirrors
-chollometro.com,dealabs.com,hotukdeals.com,pepper.it,pepper.pl,preisjaeger.at,mydealz.de##+js(brave-set-cookie, cookie_policy_agreement, 3)
-chollometro.com,dealabs.com,hotukdeals.com,pepper.it,pepper.pl,preisjaeger.at,mydealz.de##.popover--layout-fixed-bottomSheet
-chollometro.com,dealabs.com,hotukdeals.com,pepper.it,pepper.pl,preisjaeger.at,mydealz.de##.zIndex--modal.popover-cover
-chollometro.com,dealabs.com,hotukdeals.com,pepper.it,pepper.pl,preisjaeger.at,mydealz.de##body:style(overflow: auto !important;)
-! brave-set-cookie
-colourbox.com##+js(brave-set-cookie, cookie_consent_all, 1)
-ebilet.pl##+js(brave-set-cookie, eb_cookie_agree, 1)
-snap.com##+js(brave-set-cookie, sc-cookies-accepted, true)
-ratemyprofessors.com##+js(brave-set-cookie, ccpa-notice-viewed-02, true)
-filen.io##+js(brave-set-cookie, cookieConsent, yes)
-dasfutterhaus.at##+js(brave-set-cookie, dsgvo_consent, 1)
-stilord.com,stilord.pl,stilord.de,stilord.fr##+js(brave-set-cookie, plenty-shop-cookie, 0)
-quantamagazine.org##+js(brave-set-cookie, acceptedPolicy, true)
-followalice.com##+js(brave-set-cookie, cookie-consent, false)
-apollo.tv##+js(brave-set-cookie, ARE_FUNCTIONAL_COOKIES_ACCEPTED, true)
-apollo.tv##+js(brave-set-cookie, ARE_REQUIRED_COOKIES_ACCEPTED, true)
-apollo.tv##+js(brave-set-cookie, ARE_MARKETING_COOKIES_ACCEPTED, false)
-scaleway.com##+js(brave-set-cookie, consent-analytics, false)
-hellotv.nl##+js(brave-set-cookie, cookieConsentClosed, true)
-qatarairways.com##+js(brave-set-cookie, cookie_visited, true)
-lasestrellas.tv##+js(brave-set-cookie, _tvsPrivacy, true)
-bikepro.de,kaffeediscount.com,vamos-skateshop.com,holland-shop.com##+js(brave-set-cookie, epCookieConsent, 1)
-officesuite.com##+js(brave-set-cookie, intro, true)
-fups.com##+js(brave-set-cookie, SeenCookieBar, true)
-fups.com##+js(brave-set-cookie, AllowCookies, true)
-scienceopen.com##+js(brave-set-cookie, cookiesAccepted, 3)
-calendly.com##+js(brave-set-cookie, gdpr_dismissal, true)
-ubereats.com##+js(brave-set-cookie, uev2.gg, true)
-leki.com##+js(brave-set-cookie, cookie-preference, 1)
-101internet.ru##+js(brave-set-cookie, closeNotificationAboutCookie, true)
-tunnelmb.net##+js(brave-set-cookie, cookie-policy, true)
-bitso.com##+js(brave-set-cookie, bitso_cc, 1)
+!
+! List to cover domain wildcards for trusted cookie
