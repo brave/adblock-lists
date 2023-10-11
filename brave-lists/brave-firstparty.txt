@@ -1360,9 +1360,9 @@ bloomberg.com##[class^="FullWidthAd_"]
 ||youtubekids.com/api/stats/qoe?
 ||youtubekids.com/ptracking?
 ! Apply 1stparty
-youtube.com##+js(trusted-replace-fetch-response, /(youtubei.*?)"adSlots.*?\}\]\}\}\]\,/, $1, url:player?key=)
-youtube.com##+js(trusted-replace-fetch-response, /(youtubei.*?)"adPlacements.*?"\}\}\}\]\,/, $1, url:player?key=)
-youtube.com##+js(trusted-replace-fetch-response, /(youtubei.*?)"playerAds.*?\}\}\]\,/, $1, url:player?key=)
+youtube.com,youtubekids.com,youtube-nocookie.com#%#//scriptlet('trusted-replace-fetch-response', '/(youtubei.*?)"adSlots.*?\}\]\}\}\]\,/', '$1', 'player?key= method:POST')
+youtube.com,youtubekids.com,youtube-nocookie.com#%#//scriptlet('trusted-replace-fetch-response', '/(youtubei.*?)"adPlacements.*?"\}\}\}\]\,/', '$1', 'player?key=')
+youtube.com,youtubekids.com,youtube-nocookie.com#%#//scriptlet('trusted-replace-fetch-response', '/(youtubei.*?)"playerAds.*?\}\}\]\,/', '$1', 'player?key=')
 ! Reddit
 /shreddit/perfmetrics
 ||alb.reddit.com^
