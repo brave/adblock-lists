@@ -493,6 +493,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||courageousbaby.com^
 ||coverapparatus.com^
 ||cowscrayon.com^
+||cozyhillside.com^
 ||crabbychin.com^
 ||crafthenry.com^
 ||crashchance.com^
@@ -554,6 +555,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||defectivesun.com^
 ||defiantrice.com^
 ||delegatediscussion.com^
+||delicatecascade.com^
 ||delicateducks.com^
 ||delightfulhour.com^
 ||desertedbreath.com^
@@ -654,6 +656,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||evaluateend.com^
 ||evaluatestream.com^
 ||evanescentedge.com^
+||eventexistence.com^
 ||exchangedetail.com^
 ||excitingtub.com^
 ||exclusivebrass.com^
@@ -885,6 +888,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||jimny.pro^
 ||joblessdrum.com^
 ||joyoussurprise.com^
+||jubilantcanyon.com^
 ||justicejudo.com^
 ||k54nw.pw^
 ||kitesquirrel.com^
@@ -1141,6 +1145,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||proudprose.com^
 ||psychedelicarithmetic.com^
 ||psychedelicchess.com^
+||pubimgs.com^
 ||puffyloss.com^
 ||puffypaste.com^
 ||puffypull.com^
@@ -1262,6 +1267,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||scaredsidewalk.com^
 ||scaredsnake.com^
 ||scaredsnakes.com^
+||scaredsong.com^
 ||scaredstory.com^
 ||scaredswing.com^
 ||scarfsmash.com^
@@ -1514,6 +1520,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||superficialspring.com^
 ||superficialsquare.com^
 ||supervisegoldfish.com^
+||suspectmark.com^
 ||suspendseed.com^
 ||swankysquare.com^
 ||sweepsheep.com^
@@ -1678,7 +1685,9 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||whirlwealth.com^
 ||whiskyqueue.com^
 ||whisperingbadge.com^
+||whisperingcascade.com^
 ||whisperingcrib.com^
+||whisperingsummit.com^
 ||whispermeeting.com^
 ||wigglygeese.com^
 ||wigglyindustry.com^
