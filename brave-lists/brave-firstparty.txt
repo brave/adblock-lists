@@ -1360,9 +1360,10 @@ bloomberg.com##[class^="FullWidthAd_"]
 ||youtubekids.com/api/stats/qoe?
 ||youtubekids.com/ptracking?
 ! Apply 1stparty
-youtube.com##+js(trusted-replace-fetch-response, /"adSlots.*?true.*?\}\]\}\}\]\,/, , url:player?key=)
-youtube.com##+js(trusted-replace-fetch-response, /(googlevideo.*?)"adPlacements.*?"\}\}\}\]\,/, $1, url:player?key=)
-youtube.com##+js(trusted-replace-fetch-response, /(googlevideo.*?)"playerAds.*?\}\}\]\,/, $1, url:player?key=)
+youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
+youtube.com##+js(trusted-replace-fetch-response, /(videoplayback.*?)"adSlots.*?\}\]\}\}\]\,/, $1, url:player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /(videoplayback.*?)"adPlacements.*?"\}\}\}\]\,/, $1, url:player?key=)
+youtube.com##+js(trusted-replace-fetch-response, /(videoplayback.*?)"playerAds.*?\}\}\]\,/, $1, url:player?key=)
 ! Reddit
 /shreddit/perfmetrics
 ||alb.reddit.com^
