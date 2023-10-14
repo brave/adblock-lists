@@ -499,9 +499,11 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||crawlclocks.com^
 ||crayoncompetition.com^
 ||creditcreature.com^
+||crimsonmeadow.com^
 ||critictruck.com^
 ||crookedcreature.com^
 ||crowdedmass.com^
+||crystalboulevard.com^
 ||cubchannel.com^
 ||cuddlycake.com^
 ||culturedcamera.com^
