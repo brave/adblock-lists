@@ -1382,6 +1382,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||soaprange.com^
 ||soapsmoke.com^
 ||soggysponge.com^
+||solarislabyrinth.com^
 ||somberattack.com^
 ||somberscarecrow.com^
 ||sombersea.com^
