@@ -40,10 +40,9 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerRespon
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-! https://github.com/brave/adblock-lists/pull/1346
-www.youtube.com##+js(trusted-replace-fetch-response, /(requiressl.*?)"adSlots.*?\}\]\}\}\]\,/, $1, url:player?key=)
-www.youtube.com##+js(trusted-replace-fetch-response, /(requiressl.*?)"adPlacements.*?"\}\}\}\]\,/, $1, url:player?key=)
-www.youtube.com##+js(trusted-replace-fetch-response, /(requiressl.*?)"playerAds.*?\}\}\]\,/, $1, url:player?key=)
+! https://github.com/brave/adblock-lists/pull/1361
+www.youtube.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , /^(?=.*\.js)(?!.*[A-z]kb \S+polymer).*/)
+m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 ! naver.com search is broken  https://m.search.naver.com/search.naver?where=m_image&sm=mtb_jum&query=brave
 @@||ssl.pstatic.net^$domain=naver.com
 ! apnews.com
