@@ -1361,9 +1361,13 @@ bloomberg.com##[class^="FullWidthAd_"]
 ||youtubekids.com/ptracking?
 ! Apply 1stparty
 www.youtube.com##+js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
-www.youtube.com##+js(trusted-replace-fetch-response, '/("mimeType":"[^"]{3,}".*?)"adSlots.*?\}\]\}\}\],/', $1, url:player?key=)
-www.youtube.com##+js(trusted-replace-fetch-response, '/("mimeType":"[^"]{3,}".*?)"adPlacements.*?"\}\}\}\],/', $1, url:player?key=)
-www.youtube.com##+js(trusted-replace-fetch-response, '/("mimeType":"[^"]{3,}".*?)"playerAds.*?\}\}\],/', $1, url:player?key=)
+www.youtube.com##+js(trusted-replace-fetch-response, /(source=.*?)"adSlots.*?\}\]\}\}\]\,/, $1, url:player?key=)
+www.youtube.com##+js(trusted-replace-fetch-response, /(source=.*?)"adPlacements.*?"\}\}\}\]\,/, $1, url:player?key=)
+www.youtube.com##+js(trusted-replace-fetch-response, /(source=.*?)"playerAds.*?\}\}\]\,/, $1, url:player?key=)
+! https://github.com/uBlockOrigin/uAssets/commit/4abb9667de6a3f6cd9889180bef7d9714316a10c
+www.youtube.com#@#+js(trusted-replace-fetch-response, '/("mimeType":"[^"]{3,}".*?)"adSlots.*?\}\]\}\}\],/', $1, url:player?key=)
+www.youtube.com#@#+js(trusted-replace-fetch-response, '/("mimeType":"[^"]{3,}".*?)"adPlacements.*?"\}\}\}\],/', $1, url:player?key=)
+www.youtube.com#@#+js(trusted-replace-fetch-response, '/("mimeType":"[^"]{3,}".*?)"playerAds.*?\}\}\],/', $1, url:player?key=)
 ! Reddit
 /shreddit/perfmetrics
 ||alb.reddit.com^
