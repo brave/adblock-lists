@@ -25,6 +25,9 @@
 ||fleraprt.com^
 ||tzegilo.com^
 
+! chipotle.com
+@@||services.chipotle.com/__imp_apg__/$~third-party
+@@||googletagmanager.com/gtm.js$domain=chipotle.com
 ! decrypt.co
 decrypt.co##span:has-text(AD)
 decrypt.co##div[style^="min-width: 300px;"]
