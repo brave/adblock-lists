@@ -1,4 +1,7 @@
 [Adblock Plus 2.0; uBlock Origin]
+! Title: Brave Unbreak
+! Expires: 12 hours
+
 ! brave.com specfic filters
 @@||ads.brave.software^$first-party
 @@||ads-admin.bravesoftware.com^$first-party
@@ -65,12 +68,11 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 webplatform.news##+js(aopw, navigator.clipboard)
 ! navigator.connection checks
 userlytics.com##+js(set, navigator.connection, {})
-! Youtube Anti-adblock warning
-youtube.com##+js(json-prune, auxiliaryUi.messageRenderers.enforcementMessageViewModel)
-youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.enforcementMessageViewModel, undefined)
 ! :has
 youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 9gag.com##article:has(.promoted)
+! youtube.com dismissable warning
+youtube.com##+js(cookie-remover.js, CONSISTENCY)
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
 ||skepticalscience.net/widgets/heat_widget/js/heat_content.js$script,domain=skepticalscience.com
 ! adops.com unusable without this
@@ -236,6 +238,8 @@ gap.com,ibanking-services.com,connectonebank.com,tescobank.com,sbisec.co.jp,tsb.
 wetter.com,spiegel.de##[referrerpolicy]
 ! Warning message
 ||spiegel.de/public/shared/generated/3rdparty/js/msg_without_detection.
+! atozmath.com Anti-adblock
+atozmath.com###lblAdContent
 !! -- ported from uBO Annoyances filters (START)
 ! Anti-adblock message codehelppro.com
 @@||codehelppro.com^$ghide
@@ -507,7 +511,8 @@ drawasaurus.org##+js(nostif, forceRefresh)
 ! katholisches. info warning popup
 katholisches.info##+js(nostif, pop)
 ! Admiral popups
-arstechnica.com,audiodoceo.com,audiotools.pro,audizine.com,blackenterprise.com,boston.com,cheatsheet.com,cwtv.com,esportstales.com,forums.hfboards.com,freep.com,golfdigest.com,hancinema.net,hemmings.com,ijr.com,informazionefiscale.it,inquirer.net,knowyourmeme.com,magesypro.pro,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nofilmschool.com,omg.blog,order-order.com,pastes.io,savvytime.com,techlicious.com,technicpack.net,thedraftnetwork.com,thenerdstash.com,titantv.com,twinfinite.net,usatoday.com,videogamer.com,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com##+js(acis, document.createElement, admiral)
+androidpolice.com,arstechnica.com,audizine.com,blackenterprise.com,boston.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,insider-gaming.com,inquirer.net,knowyourmeme.com,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,pastes.io,playstationlifestyle.net,pwinsider.com,screenrant.com,siliconera.com,simpleflying.com,stealthoptional.com,technicpack.net,thefashionspot.com,thegamer.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,usatoday.com,videogamer.com,wnd.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acis, document.createElement, admiral)
+gbatemp.net##+js(set, admiral, noopFunc)
 ! Admiral Anti-adblock (gamerevolution.com/playstationlifestyle.net/probably others)
 ||succeedscene.com/ads_*/ads.load.js$script,redirect=noop.js
 ! https://github.com/uBlockOrigin/uAssets/pull/14563
@@ -635,14 +640,25 @@ canale.live##+js(no-setInterval-if, href)
 twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##+js(nostif, adsBlocked)
 twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,sbnation.com,curbed.com,theringer.com,mmafighting.com,racked.com,mmamania.com,funnyordie.com,riftherald.com##.adblock-allowlist-messaging__wrapper
 ||concert.io/lib/adblock/$subdocument
+!
+! Re-added:
+! https://community.brave.com/t/unable-to-open-reddit-com-urls-in-private-tabs/503125/
+! https://github.com/uBlockOrigin/uAssets/commit/eee6fec5647e3014d1da144d0cd9888254fa09a4
+||reddit.com^$removeparam=rdt,doc,badfilter
 ! ghide
+@@||filmisub.cc^$ghide
 @@||compuhoy.com^$ghide
 @@||fluttercampus.com^$ghide
+@@||samuraiscan.org^$ghide
 ! chp anti-adblock
 fresheroffcampus.com,cizzyscripts.com##+js(aopw, startCheckingAdblock)
 ! uBO-domain wildcard workaround rnbxclusive1.* https://github.com/uBlockOrigin/uAssets/pull/12579
 @@||rnbxclusive1.me^$ghide
 rnbxclusive1.me##+js(aopw, _pop)
+! uBO-domain wildcard workaround fmovies.*
+fmovies.to,fmovies.world,fmovies.ps,fmovies.wtf,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.co##+js(aeld, , break;case $.)
+fmovies.to,fmovies.world,fmovies.ps,fmovies.wtf,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.co##+js(acs, JSON.parse, break;case $.)
+fmovies.to,fmovies.world,fmovies.ps,fmovies.wtf,fmovies.taxi,fmovies.pub,fmovies.cafe,fmovies.co##+js(acs, parseInt, break;case $.)
 ! uBO-domain wildcard workaround crichd
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(aopr, AaDetector)
 crichd.tv,crichd.ac,crichd.com,crichd.vip##+js(acis, JSON.parse, break;case $.)
@@ -714,7 +730,7 @@ vipbox.lc##.position-absolute
 ! Bait,Anti-adblock
 @@||onceagain.mooo.com^$script,domain=bigbtc.win
 ! Anti-Brave checks
-bigbtc.win,formula1.com,revadvert.com,pistonheads.com,itv.com,everywherepaycard.com,cosme-de.com,lens-labo.net,opendroneid.org,itrum.org,kalista-beauty.com,projectcircuitbreaker.com,wheel.health,thera-link.com,rapid-cloud.co,musenboya.com,instantconsult.com.au,zoro.to,twitch.tv,healthrangerstore.com,saramart.com,html-code-generator.com,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,playl2.net,volcom.ca,itrum.org,thunder-io.com,nothing.tech,pythonstudy.xyz,calcolastipendionetto.it,psychologytoday.com,krunker.io,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,pethouse.com.au,uploadbank.com,divnil.com,capitaloneoffers.com,capitalone.com##+js(brave-fix)
+youtube.com,jiocinema.com,roll20.net,myaccountaccess.com,cnnespanol.cnn.com,optus.com.au,trezor.io,ganohr.net,megacloud.tv,coingax.com,capitaloneshopping.com,comohoy.com,leak.sx,pornleaks.in,bigbtc.win,formula1.com,revadvert.com,pistonheads.com,itv.com,everywherepaycard.com,cosme-de.com,lens-labo.net,opendroneid.org,itrum.org,kalista-beauty.com,projectcircuitbreaker.com,wheel.health,thera-link.com,rapid-cloud.co,musenboya.com,instantconsult.com.au,zoro.to,twitch.tv,healthrangerstore.com,saramart.com,html-code-generator.com,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,playl2.net,volcom.ca,itrum.org,thunder-io.com,nothing.tech,pythonstudy.xyz,calcolastipendionetto.it,psychologytoday.com,krunker.io,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,pethouse.com.au,uploadbank.com,divnil.com,capitaloneoffers.com,capitalone.com##+js(brave-fix)
 !
 ! Standard blocking of Bing mouselog tracker (is blocked in Aggressive)
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
@@ -798,6 +814,8 @@ davidstea.com,ibotta.com,polovniautomobili.com##+js(rc, async-hide, , stay)
 @@||ebay.com/ws/$xmlhttprequest
 ! api.ebay.com (https://community.brave.com/t/referral-not-getting-download-and-comfirmed/75898)
 @@||api.ebay.com^$xmlhttprequest,subdocument
+! env fixes
+novinky.cz#@#+js(aost, Math, inlineScript)
 ! Empty spaces due to shields/standard
 cultofmac.com,futuregaming.io,cydiageeks.com,askdavetaylor.com,pedigreedatabase.com,greatamericandaily.com,basquetplus.com,liverampup.com,q4interview.com,happybirthdaymsg.com,gerweck.net,smartwatchspecifications.com,toutandroid.fr,wikinetworth.com,tutorials-raspberrypi.com##+js(rc, ezoic-ad, , stay)
 webmd.com##+js(rc, instreamAd, , stay)
@@ -815,6 +833,25 @@ bloomberg.com##+js(rc, leaderboard-wrapper, , stay)
 bloomberg.com##+js(rc, FullWidthAd_fullWidthAdWrapper-fClHZteIk3k-, , stay)
 npr.org##[aria-label="advertisement"]
 npr.org##+js(rc, ad-standard, , stay)
+imdb.com+js(ra, id="inline20_wrapper", , stay)
+imdb.com+js(ra, id="inline40_wrapper", , stay)
+tasteofhome.com##+js(rc, advertisement, , stay)
+tasteofhome.com##+js(rc, pre-article-ad, , stay)
+newsnow.co.uk##+js(rc, rs-ad-frame__desktop--leaderboard, , stay)
+space.com##+js(rc, dfp-leaderboard-container, , stay)
+space.com##+js(rc, ad-unit, , stay)
+space.com##+js(rc, static-lightbox2, , stay)
+space.com##+js(rc, static-lightbox3, , stay)
+adelaidenow.com.au,heraldsun.com.au,couriermail.com.au,dailytelegraph.com.au,news.com.au,themercury.com.au,geelongadvertiser.com.au,cairnspost.com.au,goldcoastbulletin.com.au,townsvillebulletin.com.au,thechronicle.com.au,ntnews.com.au,weeklytimesnow.com.au##+js(rc, header_ads-container, , stay)
+adelaidenow.com.au,heraldsun.com.au,couriermail.com.au,dailytelegraph.com.au,news.com.au,themercury.com.au,geelongadvertiser.com.au,cairnspost.com.au,goldcoastbulletin.com.au,townsvillebulletin.com.au,thechronicle.com.au,ntnews.com.au,weeklytimesnow.com.au##+js(rc, ad-halfpage, , stay)
+theaustralian.com.au##+js(rc, header__ad, , stay)
+racenet.com.au##+js(rc, header-ad, , stay)
+bbc.com##+js(rc, ssrcss-1gt3c8g-LeaderboardDiv, , stay)
+bbc.com##+js(rc, nw-c-leaderboard-ad, , stay)
+bbc.com##+js(rc, leaderboard-ad-placeholder, , stay)
+cbssports.com##+js(rc, skybox-top-wrapper, , stay)
+cbssports.com##+js(rc, leaderboard-wrap, , stay)
+cbssports.com##+js(rc, fixed-skybox-placeholder, , stay)
 ! Regex fix (counter complex ubo regex)
 $xhr,3p,domain=nxbrew.com
 $script,3p,domain=animixplay.to|animepahe.ru|nxbrew.com
@@ -838,6 +875,9 @@ blockadblock.com##+js(nobab)
 ! *#@#div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
 ! Anti-adblock kbizoom.com
 mylivewallpapers.com,nsw2u.com,kbizoom.com##div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
+! thequint.com Anti-adblock (address thequint.com#@#span:has-text(ADVERTISEMENT))
+! Also other generic exceptions
+@@||thequint.com^$ghide
 ! Blank spaces aftonbladet.se (:upward)
 aftonbladet.se##.css-4thb3o
 aftonbladet.se##.css-1d3w5wq
@@ -848,6 +888,8 @@ scrolller.com##.popup--fixed
 ! https://github.com/uBlockOrigin/uAssets/issues/18148#issuecomment-1555962148
 ||akamaized.net/audio/$media,redirect-rule=noop-1s.mp4,domain=open.spotify.com,important
 ||scdn.co/audio/$media,redirect=noop-1s.mp4,domain=open.spotify.com,important
+! fixes from remove()
+apnews.com##+js(ra, data-leaderboard-is-fixed, html, stay)
 ! Counter blocked by extension warnings
 naver.com###veta_top
 naver.com###veta_branding
@@ -863,6 +905,9 @@ naver.com##.banner_area
 lenta.ru,championat.com,passion.ru,wmj.ru,eda.ru,rambler.ru,motor.ru,autorambler.ru,letidor.ru,quto.ru,rns.online,gazeta.ru##+js(json-prune, Blocks)
 ! Rambler (imported from Adguard)
 afisha.ru,letidor.ru,autorambler.ru,wmj.ru,motor.ru,passion.ru,quto.ru,eda.ru,rns.online,championat.com,gazeta.ru,lenta.ru,rambler.ru##+js(aopw, Object.prototype.getPlaceSelectorByBannerId)
+! https://canyoublockit.com/extreme-test/
+! https://old.reddit.com/r/brave_browser/comments/158399q/popup_ads_not_getting_blocked_in_brave/
+canyoublockit.com##+js(nowoif)
 ! rutracker.net (regional)
 ||rutrk.org^$domain=rutracker.net
 ||betsonsport.ru^$domain=rutracker.net
@@ -899,7 +944,8 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 ||shareasale.com^$image,script,xmlhttprequest,subdocument,third-party
 ||valuecommerce.com^$image,script,xmlhttprequest,subdocument,third-party
 ||linksynergy.com^$image,script,xmlhttprequest,subdocument,third-party
-!
+! nytimes.com (fixes no images)
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=nytimes.com
 ! Peter Lowe fixes
 ||blockthrough.com^$badfilter
 ||criteo.com^$badfilter

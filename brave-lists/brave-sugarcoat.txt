@@ -1,3 +1,6 @@
+! Title: Brave SugarCoat Rules
+! Expires: 7 days
+
 ! dell.com
 ||ensighten.com/dell/marketing/code/280f261e277ca609b7450f5304929274.js$script,important,domain=dell.com,redirect=async-sugarcoat-04394153a7ce417b88e3fe1790a4e6a269bfebe5
 ! live.house.gov

@@ -89,6 +89,7 @@
     },
     {
         "include": [
+            "*://hbr.org/*",
             "*://techcrunch.com/*"
         ],
         "exclude": [
@@ -133,6 +134,17 @@
     },
     {
         "include": [
+            "*://feverup.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "CAMEFROM"
+        ]
+    },
+    {
+        "include": [
             "*://www.linkedin.com/in/*"
         ],
         "exclude": [
@@ -144,6 +156,7 @@
     },
     {
         "include": [
+            "*://youtu.be/?*",
             "*://*.youtube.com/watch?*"
         ],
         "exclude": [
@@ -154,6 +167,7 @@
             "embeds_loader_url_for_pings",
             "embeds_origin",
             "feature",
+            "si",
             "source_ve_path"
         ]
     },
@@ -170,6 +184,9 @@
     },
     {
         "include": [
+            "*://eprint.iacr.org/*",
+            "*://hackernoon.com/*",
+            "*://www.backerkit.com/*",
             "*://*.kickstarter.com/*"
         ],
         "exclude": [
@@ -195,15 +212,42 @@
     },
     {
         "include": [
+            "*://*.bloomberglaw.com/*",
             "*://*.bloomberg.com/*"
         ],
         "exclude": [
 
         ],
         "params": [
+            "trk",
             "in_source",
             "leadSource",
             "srnd"
+        ]
+    },
+    {
+        "include": [
+            "*://*.aliexpress.com/item/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "algo_exp_id",
+            "pdp_npi",
+            "curPageLogUid"
+        ]
+    },
+    {
+        "include": [
+            "*://*/*"
+        ],
+        "exclude": [
+            "*://app.hive.co/*"
+        ],
+        "params": [
+            "h_sid",
+            "h_slt"
         ]
     },
     {
@@ -220,12 +264,72 @@
     },
     {
         "include": [
+            "*://mailchi.mp/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "e"
+        ]
+    },
+    {
+        "include": [
+            "*://*.songkick.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "deep_link_campaign",
+            "deep_link_medium",
+            "deep_link_source"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
 
         ],
         "params": [
+            "yadclid",
+            "yadordid",
+            "yclid",
+            "ymclid",
+            "ysclid",
+            "cx_click",
+            "cx_recsOrder",
+            "cx_recsWidget",
+            "at_campaign",
+            "at_campaign_type",
+            "at_channel",
+            "at_creation",
+            "at_custom1",
+            "at_custom2",
+            "at_custom3",
+            "at_custom4",
+            "at_detail_placement",
+            "at_emailtype",
+            "at_format",
+            "at_format",
+            "at_general_placement",
+            "at_identifier",
+            "at_link",
+            "at_link_id",
+            "at_link_origin",
+            "at_link_type",
+            "at_medium",
+            "at_network",
+            "at_platform",
+            "at_ptr_name",
+            "at_recipient_id",
+            "at_recipient_list",
+            "at_send_date",
+            "at_term",
+            "at_type",
+            "at_variant",
             "brave-campaign-id",
             "brave-creative-id",
             "brave-creative-set-id",
@@ -236,6 +340,25 @@
             "ss_campaign_name",
             "ss_campaign_sent_date",
             "ss_source",
+            "mtm_campaign",
+            "mtm_cid",
+            "mtm_content",
+            "mtm_group",
+            "mtm_keyword",
+            "mtm_kwd",
+            "mtm_medium",
+            "mtm_placement",
+            "mtm_source",
+            "piwik_campaign",
+            "piwik_kwd",
+            "pk_campaign",
+            "pk_cid",
+            "pk_content",
+            "pk_cpn",
+            "pk_keyword",
+            "pk_kwd",
+            "pk_medium",
+            "pk_source",
             "utm_ad",
             "utm_affiliate",
             "utm_brand",
@@ -274,7 +397,8 @@
             "usqp",
             "guccounter",
             "guce_referrer",
-            "guce_referrer_sig"
+            "guce_referrer_sig",
+            "ex_cid"
         ]
     },
     {
