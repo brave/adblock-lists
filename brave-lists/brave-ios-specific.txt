@@ -413,6 +413,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||cautiouscredit.com^
 ||cavecurtain.com^
 ||cdnral.com^
+||ceciliavenus.com^
 ||celestialspectra.com^
 ||chairscrack.com^
 ||chalkoil.com^
@@ -541,6 +542,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||dashingdirt.com^
 ||dashingdrop.com^
 ||dashingsweater.com^
+||daughterstone.com^
 ||dazzlingbook.com^
 ||deadpanmarble.com^
 ||deadpantruck.com^
@@ -813,6 +815,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||hardtofindmilk.com^
 ||hatefulrequest.com^
 ||hauntlist.com^
+||headydegree.com^
 ||headyhook.com^
 ||healflowers.com^
 ||hearinglizards.com^
@@ -1478,6 +1481,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||stickysheet.com^
 ||stiffgame.com^
 ||stiffstem.com^
+||stimulatingsneeze.com^
 ||stingsquirrel.com^
 ||stingycrush.com^
 ||stockingsneeze.com^
@@ -1664,6 +1668,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||verdantanswer.com^
 ||verifyvegetable.com^
 ||verseballs.com^
+||vibranthaven.com^
 ||victoriousrequest.com^
 ||virgoplato.com^
 ||virtualvincent.com^
