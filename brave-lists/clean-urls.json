@@ -294,6 +294,11 @@
 
         ],
         "params": [
+            "irclickid",
+            "irgwc",
+            "ir_adid",
+            "ir_campaignid",
+            "ir_partnerid",
             "yadclid",
             "yadordid",
             "yclid",
