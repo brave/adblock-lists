@@ -294,6 +294,11 @@
 
         ],
         "params": [
+            "fb_action_ids",
+            "fb_action_types",
+            "fb_comment_id",
+            "fb_ref",
+            "fb_source",
             "irclickid",
             "irgwc",
             "ir_adid",
