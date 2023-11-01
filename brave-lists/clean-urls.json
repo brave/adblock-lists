@@ -307,6 +307,9 @@
 
         ],
         "params": [
+            "action_object_map",
+            "action_ref_map",
+            "action_type_map",
             "fb_action_ids",
             "fb_action_types",
             "fb_comment_id",
