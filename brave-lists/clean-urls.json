@@ -288,6 +288,19 @@
     },
     {
         "include": [
+            "*://*.humblebundle.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "hmb_campaign",
+            "hmb_medium",
+            "hmb_source"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
