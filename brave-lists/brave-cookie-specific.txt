@@ -57,7 +57,7 @@ chase.co.uk#@#+js(trusted-set-cookie, CookieConsents, '{"StrictlyNecessary":true
 komoot.com,komoot.de#@#+js(trusted-set-local-storage-item, kmt_config_web, '{"created_at":"$currentDate$","anonymous":"","gdpr_ga":false,"gdpr_exp":false}')
 
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L151C1-L151C1
-chatreplay.stream##+js(trusted-set-cookie, cr_consent, '2|tracking=false+analytics=false+marketing=false', , , reload, 1)
+chatreplay.stream#@#+js(trusted-set-cookie, cr_consent, '2|tracking=false+analytics=false+marketing=false', , , reload, 1)
 
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L159C1-L160C1
 hwebber.co.uk#@#+js(trusted-set-cookie, mmc-cookie-consent, '{"Id":"c2457eddbecc20cbab3869374900e864","CategoryID":4}', 1year)
