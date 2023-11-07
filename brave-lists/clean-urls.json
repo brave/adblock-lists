@@ -393,6 +393,8 @@
             "utm_channel",
             "utm_cid",
             "utm_content",
+            "utm_creative",
+            "utm_device",
             "utm_emcid",
             "utm_emmid",
             "utm_id",
