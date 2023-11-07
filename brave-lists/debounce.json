@@ -30,7 +30,8 @@
       "*://x.chip.de/linktrack/button/*",
       "*://*.mailchimp.com/mctx/clicks?*",
       "*://*.tradedoubler.com/click?*",
-      "*://cc.techbargains.com/v1/otc/*"
+      "*://cc.techbargains.com/v1/otc/*",
+      "*://www.anrdoezrs.net/click-*"
     ],
     "exclude": [
     ],
