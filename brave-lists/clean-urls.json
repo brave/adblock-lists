@@ -307,6 +307,18 @@
 
         ],
         "params": [
+            "hsa_acc",
+            "hsa_ad",
+            "hsa_cam",
+            "hsa_grp",
+            "hsa_kw",
+            "hsa_la",
+            "hsa_mt",
+            "hsa_net",
+            "hsa_ol",
+            "hsa_src",
+            "hsa_tgt",
+            "hsa_ver",
             "action_object_map",
             "action_ref_map",
             "action_type_map",
