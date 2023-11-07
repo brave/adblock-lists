@@ -28,6 +28,7 @@
 
         ],
         "params": [
+            "content-id",
             "linkCode",
             "tag",
             "crid",
