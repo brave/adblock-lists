@@ -75,6 +75,18 @@
     },
     {
         "include": [
+            "*://www.instagram.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "igshid",
+            "ig_rid"
+        ]
+    },
+    {
+        "include": [
             "*://*.twitter.com/*"
         ],
         "exclude": [
