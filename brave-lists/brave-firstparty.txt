@@ -83,6 +83,7 @@
 ##.ad-caption
 ##.ad-current
 ##.ad-entity-container
+##.ad-fixed
 ##.ad-footer
 ##.ad-giga
 ##.ad-header-pencil
@@ -102,6 +103,7 @@
 ##.ad-rectangle
 ##.ad-risingstar-container
 ##.ad-section
+##.ad-sidebar
 ##.ad-slot
 ##.ad-slot-1
 ##.ad-slot-2
@@ -721,7 +723,7 @@ ndtv.com##.add__wrp
 ndtv.com##.ads_tb-c
 ndtv.com##.mastheadwrap
 ! .ad
-arstechnica.com,autoevolution.com,barchart.com,barstoolsports.com,bleacherreport.com,cnn.com,elpais.com,flightglobal.com,foxbusiness.com,foxnews.com,foxweather.com,ktbs.com,news.sky.com,newsday.com,nj.com,politico.com,seattletimes.com,skynews.com.au,sny.tv,time.com,usnews.com,vanityfair.com,wired.com##.ad
+404media.co,arstechnica.com,autoevolution.com,barchart.com,barstoolsports.com,bleacherreport.com,cnn.com,elpais.com,flightglobal.com,foxbusiness.com,foxnews.com,foxweather.com,ktbs.com,news.sky.com,newsday.com,nj.com,politico.com,seattletimes.com,skynews.com.au,sny.tv,time.com,usnews.com,vanityfair.com,wired.com##.ad
 ! .ad-container
 fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,foxweather.com,ktvu.com,newyorker.com,oneesports.gg,outkick.com,q13fox.com,seattletimes.com,sportskeeda.com,tmz.com,uploadvr.com,wogx.com##.ad-container
 ! .adBanner
