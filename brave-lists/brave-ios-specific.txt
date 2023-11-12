@@ -25,6 +25,9 @@
 ||fleraprt.com^
 ||tzegilo.com^
 
+! https://github.com/easylist/easylist/commit/d3a2c54ac
+@@||app.posthog.com/decide/
+
 ! chipotle.com
 @@||services.chipotle.com/__imp_apg__/$~third-party
 @@||googletagmanager.com/gtm.js$domain=chipotle.com
