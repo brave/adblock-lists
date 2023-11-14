@@ -1353,6 +1353,8 @@ facebook.com##.RectangleAd
 ||facebook.com/ajax/mtouch_perf_page_load_timings/
 ||facebook.com/ajax/qm/
 ||pixel.facebook.com^
+||m.facebook.com/ajax/weblite_load_logging/
+||m.facebook.com/ajax/weblite_resources_timing_logging/
 ! Instagram
 ||instagram.com/ajax/bz
 ||instagram.com/logging/
