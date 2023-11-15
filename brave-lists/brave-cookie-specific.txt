@@ -67,6 +67,3 @@ chatreplay.stream#@#+js(trusted-set-cookie, cr_consent, '2|tracking=false+analyt
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L159C1-L160C1
 hwebber.co.uk#@#+js(trusted-set-cookie, mmc-cookie-consent, '{"Id":"c2457eddbecc20cbab3869374900e864","CategoryID":4}', 1year)
 
-! x13_cookies
-plantica.pl,vipera.com.pl,salonydenon.cz,s4home.pl,supportart.pl,avstore.pl,monocerus.pl,handloteka.net,foto-tip.pl,byinsomnia.com,bednarek.sklep.pl,plastiflora.pl,yoclub.pl,produkcjakartonow.pl,meblewypoczynkowe.pl,zdrowomania.pl,salonydenon.pl,babolat-tenis.pl,denonmarkabolt.hu,audioforum-berlin.de##+js(trusted-set-cookie, _x13eucookie, '{"1":true,"2":false,"3":false,"6":false}')
-hiprom.pl##+js(trusted-set-cookie, _hipromeucookie, '{"1":true,"2":false,"3":false,"4":false,"5":false,"6":false}')
