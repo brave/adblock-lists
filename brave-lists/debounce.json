@@ -184,6 +184,7 @@
   },
   {
     "include": [
+      "*://*.uikc.net/c/*",
       "*://*.ztk5.net/*",
       "*://*.rg35.net/*",
       "*://sherlock.scribblelive.com/r?*",
