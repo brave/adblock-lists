@@ -169,6 +169,19 @@
     },
     {
         "include": [
+            "*://www.linkedin.com/help/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "mcid",
+            "src",
+            "trk"
+        ]
+    },
+    {
+        "include": [
             "*://youtu.be/?*",
             "*://*.youtube.com/watch?*"
         ],
