@@ -164,6 +164,7 @@
 
         ],
         "params": [
+            "trackingCode",
             "original_referer"
         ]
     },
