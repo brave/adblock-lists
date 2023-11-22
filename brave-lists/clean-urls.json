@@ -164,7 +164,21 @@
 
         ],
         "params": [
+            "trackingCode",
             "original_referer"
+        ]
+    },
+    {
+        "include": [
+            "*://www.linkedin.com/help/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "mcid",
+            "src",
+            "trk"
         ]
     },
     {
