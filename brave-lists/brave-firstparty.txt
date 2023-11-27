@@ -282,6 +282,7 @@
 ##.m1-header-ad
 ##.mapped-ad
 ##.min-height-ad
+##.mntl-gpt-adunit
 ##.mntl-leaderboard-header
 ##.mntl-leaderboard-spacer
 ##.native-ad
