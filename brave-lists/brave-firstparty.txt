@@ -282,6 +282,7 @@
 ##.m1-header-ad
 ##.mapped-ad
 ##.min-height-ad
+##.mntl-leaderboard-header
 ##.mntl-leaderboard-spacer
 ##.native-ad
 ##.newspack_global_ad
@@ -691,8 +692,6 @@ nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.g-p
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##[data-testid="StandardAd"]
 ! cnbc.com
 cnbc.com##.TopBanner-container
-! people.com
-people.com##.mntl-leaderboard-header
 ! .zone
 bellinghamherald.com,charlotteobserver.com,fresnobee.com,heraldonline.com,idahostatesman.com,islandpacket.com,kansas.com,kansascity.com,kentucky.com,macon.com,miamiherald.com,modbee.com,newsobserver.com,sacbee.com,sunherald.com,thenewstribune.com,thestate.com,tri-cityherald.com##.zone
 ! .advertisement
