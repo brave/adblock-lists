@@ -1185,7 +1185,7 @@ beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,cryp
 streetinsider.com###bottom_ad_fixed
 streetinsider.com##.im-ad
 ! investing.com
-investing.com## + js(nostif, offsetHeight)
+investing.com##+js(nostif, offsetHeight)
 investing.com###__next > .fixed
 investing.com###ad1
 investing.com###ad2
@@ -1472,8 +1472,6 @@ bloomberg.com##[class^="FullWidthAd_"]
 ||youtubekids.com/api/stats/ads?
 ||youtubekids.com/api/stats/qoe?
 ||youtubekids.com/ptracking?
-! Apply 1stparty
-www.youtube.com## + js(json-prune-xhr-response, [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots, , propsToMatch, url:/player\?key=|watch\?v=|youtubei\/v1\/player/)
 ! Reddit
 /shreddit/perfmetrics
 ||alb.reddit.com^
