@@ -4,12 +4,6 @@
 !
 ! List to cover domain wildcards for trusted cookie
 
-! Fix quotes issue
-dailymail.co.uk#@#+js(trusted-set-local-storage-item, mol.ads.cmp.tcf.cache, '{"getTCData":{"cmpId":27,"cmpVersion":3,"gdprApplies":true,"tcfPolicyVersion":2,"tcString":"CPyz5QAPyz5QAAbADCENC6CgAAAAAAAAAAwIAAASjAJINW4gCLMscGaQEIoEAIgjCQggUAAFAILRAQAODgp2VgE6MIkAAAUARABAhwAQAQCAAASABCAAJAAwQAAAiAQAAAAQCAAAMCAILACgAAAABANAhRCgAECQAyIAIpTAgKgSCAFsKAAADJCQCAKgMAKARGgEACIIARGAAACwMAgBICFggABMQbBAAMACAESoBoCTEwBACDQFgBkADLAGzAPsA_ACAAEFAIwASYAp8BaAFpAOqAfIBDoCJgEiAKRAXIAyMBk4DlAI_gSKEQEwBkADLAGzAPsA_ACAAEYAJMAU8A6oB8gEOgJEAUiAuQBkYDJwHKAR_AkU.f_gAAagAAAAA","eventStatus":"useractioncomplete","cmpStatus":"loaded","isServiceSpecific":true,"useNonStandardStacks":false,"publisherCC":"GB","purposeOneTreatment":false,"addtlConsent":"1~","acmVersion":2,"molGvlVersion":"186.gb.web","nrvString":"1~","nrvVersion":1,"repromptVersion":5},"getStoredRepromptVersion":5,"hasUserConsentedToAll":false,"hasUserDissentedToAll":true,"getConsentDegree":"no","getValidTCData":{"cmpId":27,"cmpVersion":3,"gdprApplies":true,"tcfPolicyVersion":2,"tcString":"CPyz5QAPyz5QAAbADCENC6CgAAAAAAAAAAwIAAASjAJINW4gCLMscGaQEIoEAIgjCQggUAAFAILRAQAODgp2VgE6MIkAAAUARABAhwAQAQCAAASABCAAJAAwQAAAiAQAAAAQCAAAMCAILACgAAAABANAhRCgAECQAyIAIpTAgKgSCAFsKAAADJCQCAKgMAKARGgEACIIARGAAACwMAgBICFggABMQbBAAMACAESoBoCTEwBACDQFgBkADLAGzAPsA_ACAAEFAIwASYAp8BaAFpAOqAfIBDoCJgEiAKRAXIAyMBk4DlAI_gSKEQEwBkADLAGzAPsA_ACAAEYAJMAU8A6oB8gEOgJEAUiAuQBkYDJwHKAR_AkU.f_gAAagAAAAA","listenerId":1,"eventStatus":"useractioncomplete","cmpStatus":"loaded","isServiceSpecific":true,"useNonStandardStacks":false,"publisherCC":"GB","purposeOneTreatment":false,"addtlConsent":"1~","acmVersion":2,"molGvlVersion":"186.gb.web","nrvString":"1~","nrvVersion":1,"repromptVersion":5}}')
-notion.so#@#+js(trusted-set-cookie, notion_cookie_consent, '{%22id%22:%2282a41727-b652-4011-a0a4-13a4499c039a%22%2C%22permission%22:{%22necessary%22:true%2C%22preference%22:true%2C%22performance%22:false%2C%22targeting%22:false}%2C%22policy_version%22:%22v8%22}')
-consent.youtube.com#@#+js(trusted-click-element, 'div[jsaction="JIbuQc:mZ4eAc"] button[aria-label], div[jsaction="JIbuQc:T1q6Me"] button[aria-label], form[jsaction="submit:ldDdv(preventDefault=true)"] button')
-
-
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L74
 chrono24.co.th,chrono24.ae,chrono24.fi,chrono24.pt,chrono24.hk,chrono24.hu,chrono24.at,chrono24.com,chrono24.ph,chrono24.in,chrono24.kr,chrono24.com.hr,chrono24.be,chrono24.co.uk,chrono24.de,chrono24.co.za,chrono24.no,chrono24.com.br,chrono24.es,chrono24.cn,chrono24.cz,chrono24.ch,chrono24.cl,chrono24.sk,chrono24.com.ar,chrono24.mx,chrono24.nl,chrono24.com.tr,chrono24.pl,chrono24.co.id,chrono24.tw,chrono24.com.ru,chrono24.se,chrono24.com.au,chrono24.it,chrono24.com.gr,chrono24.fr,chrono24.ca,chrono24.dk,chrono24.ro,chrono24.jp,chrono24.my,chrono24.co.nz,chrono24.sg##+js(trusted-click-element, button[data-label="accept-button"], , 1000)
 chrono24.co.th,chrono24.ae,chrono24.fi,chrono24.pt,chrono24.hk,chrono24.hu,chrono24.at,chrono24.com,chrono24.ph,chrono24.in,chrono24.kr,chrono24.com.hr,chrono24.be,chrono24.co.uk,chrono24.de,chrono24.co.za,chrono24.no,chrono24.com.br,chrono24.es,chrono24.cn,chrono24.cz,chrono24.ch,chrono24.cl,chrono24.sk,chrono24.com.ar,chrono24.mx,chrono24.nl,chrono24.com.tr,chrono24.pl,chrono24.co.id,chrono24.tw,chrono24.com.ru,chrono24.se,chrono24.com.au,chrono24.it,chrono24.com.gr,chrono24.fr,chrono24.ca,chrono24.dk,chrono24.ro,chrono24.jp,chrono24.my,chrono24.co.nz,chrono24.sg##dialog.gdpr-layer
@@ -33,43 +27,6 @@ www.google.ac,www.google.ae,www.google.at,www.google.be,www.google.bg,www.google
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L84
 lidl.co.uk,lidl.fr,lidl.de,lidl.nl,lidl.dk,lidl.se,lidl.fi,lidl.at,lidl.ch,lidl.sk,lidl.pl,lidl.cz,lidl.it,lidl-hellas.gr,lidl.ro,lidl.hu,lidl.be,lidl.es,lidl.pt##+js(trusted-set-cookie, CookieConsent, {necessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false}, 1year)
 
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L180C1-L181C1
-arvopaperi.fi,iltalehti.fi,kauppalehti.fi,mediuutiset.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi#@#+js(trusted-set-cookie, gravitoData, '{"NonTCFVendors":[{"id":1,"name":"Facebook","consent":true},{"id":3,"name":"Google","consent":true},{"id":9,"name":"Twitter","consent":true}]}', 1year)
-arvopaperi.fi,iltalehti.fi,kauppalehti.fi,mediuutiset.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi##+js(trusted-set-cookie, gravitoData, {"NonTCFVendors":[{"id":1\,"name":"Facebook"\,"consent":true}\,{"id":3\,"name":"Google"\,"consent":true}\,{"id":9\,"name":"Twitter"\,"consent":true}]}, 1year)
 arvopaperi.fi,iltalehti.fi,kauppalehti.fi,mediuutiset.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi###alma-cmpv2-container
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L250C1-L251C1
-radiox.co.uk#@#+js(trusted-set, dataLayer, '{"value":[{"signals":["remixd"]},{"event":"remixd_gtm_fire"}]}')
 
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L363C1-L364C1
-vicko.gr#@#+js(trusted-set-cookie, ConsentChecked, '{"userHasSetCookies":true,"functionalityCookies":true,"statisticCookies":false,"marketingCookies":false}', , , reload, 1)
-
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L383C1-L384C1
-lachainemeteo.com#@#+js(trusted-set-local-storage-item, appconsent, '{"consents":{},"i18n":{},"ui":{},"vendorlist":{},"CMP_VERSION":10,"xchange":{},"events":[],"client":{"externalIds":{},"floatingPurposes":[{"id":"","version":0}],"floatingPurposesConsent":[{"extra_id":"","type":0,"given_at":null,"version":0}]},"consentstring":"CPzBFAAPzBFAAACAKAFRDUCoAAAAAH_AAAqIIzNF_H_dSSNj8X5_Yft0eY1P5dAz7uQxBhaJg6QFyBLEsJwXwmAIIEnqAKgKGBIEskJAIQBlCAHABUEAYIEBISGMAEAQIQAAJiAEEEERAmJICBBJG4AgEAIQglgCABQAgAsESFsoQMhAAIAABUJAAAgggIABAgAIBDAAQAAAAAAAAgAAEAAAAAAAAAAEABBHYAkw1LiABsiAkJpAwigRAjCIICKBQAAACQMEAACQIAlBGASgwAQAgRQAEBAAAAFEAAAAAAIAEIAAgACBAABAIBAAAABAAAAAQAAAgAIAQAAAABADAEAABAAAAAAACAECEIAAIACAgAAgAEAIAAAAAAIBAIBAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAA.YAAAAAAAAAAA","consentstringUpdatedAt":{}}')
-
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L427C1-L428C1
-tennisassa.fi#@#+js(trusted-click-element, 'label[class="input-choice__label"][for="CookiePurposes_1_"], label[class="input-choice__label"][for="CookiePurposes_2_"], button.js-save[type="submit"]')
-
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L441
-uswitch.com#@#+js(trusted-set-cookie, cookie-preferences, '{"performance":false,"marketing":false,"functionality":true,"social":true,"essential":true}')
-
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L100
-stwater.co.uk#@#+js(trusted-set-cookie, CookieControl, '{"interactedWith":true\,"acceptedCategories":["essentials"]}')
-
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L105C1-L106C1
-carvertical.com#@#+js(trusted-set-local-storage-item, cv:cookiesAllowed, '{"mandatoryCookies":true,"statsCookies":false,"marketingCookies":false}')
-
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L123C1-L124C1
-dlnews.com#@#+js(trusted-set-local-storage-item, dlnews:settings, '{"state":{"cookiesConsent":{"marketing":false,"analytical":false},"chartsOptions":[{"id":"defi-tvl"},{"id":"top-protocol"},{"id":"dexs-volume"},{"id":"chains-tvl-pie"}],"isPriceFeedPaused":false,"showSubscriptionModal":false},"version":2}')
-
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L144C1-L145C1
-chase.co.uk#@#+js(trusted-set-cookie, CookieConsents, '{"StrictlyNecessary":true,"Analytical":false,"Performance":false,"AdvertisingAndTargeting":false,"timestamp":""}')
-
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L149
-komoot.com,komoot.de#@#+js(trusted-set-local-storage-item, kmt_config_web, '{"created_at":"$currentDate$","anonymous":"","gdpr_ga":false,"gdpr_exp":false}')
-
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L151C1-L151C1
-chatreplay.stream#@#+js(trusted-set-cookie, cr_consent, '2|tracking=false+analytics=false+marketing=false', , , reload, 1)
-
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L159C1-L160C1
-hwebber.co.uk#@#+js(trusted-set-cookie, mmc-cookie-consent, '{"Id":"c2457eddbecc20cbab3869374900e864","CategoryID":4}', 1year)
 
