@@ -279,6 +279,21 @@
     },
     {
         "include": [
+            "*://*.eventbrite.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "link_id",
+            "can_id",
+            "source",
+            "email_referrer",
+            "email_subject"
+        ]
+    },
+    {
+        "include": [
             "*://*.seek.com.au/*",
             "*://*.seek.co.nz/*"
         ],
