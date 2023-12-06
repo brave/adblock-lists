@@ -285,11 +285,12 @@
 
         ],
         "params": [
-            "link_id",
+            "aff",
             "can_id",
-            "source",
             "email_referrer",
-            "email_subject"
+            "email_subject",
+            "link_id",
+            "source"
         ]
     },
     {
