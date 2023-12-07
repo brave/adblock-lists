@@ -350,6 +350,11 @@
 
         ],
         "params": [
+            "__hssc",
+            "__hstc",
+            "_hsenc",
+            "_hsmi",
+            "hsCtaTracking",
             "cm_cr",
             "cm_me",
             "cm_re",
