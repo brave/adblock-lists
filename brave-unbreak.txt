@@ -274,6 +274,8 @@ youtube.com##a.yt-simple-endpoint.style-scope.ytd-merch-shelf-item-renderer
 youtube.com##.ytp-chrome-top-buttons > .ytp-cards-teaser
 ! Sell minecraft ad https://www.youtube.com/watch?v=IPtpwh7r0Eo
 youtube.com##ytd-ad-slot-renderer.style-scope.ytd-item-section-renderer
+! https://www.youtube.com/results?search_query=iphone
+youtube.com###contents.style-scope.ytd-search-pyv-renderer
 ! uptostream
 uptostream.com,tirexo.lol##+js(acis, window.a)
 @@||tirexo.lol^$generichide
