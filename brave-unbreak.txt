@@ -234,48 +234,6 @@ canyoublockit.com##+js(acis, atob, decodeURIComponent)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=livemint.com
 ! Broken video playback on tn.com.ar (https://community.brave.com/t/the-blocker-does-not-allow-you-to-watch-the-video/76691)
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
-! allow cosmetics, to prevent being baited
-youtube.com#@##YtKevlarVisibilityIdentifier
-youtube.com#@##YtSparklesVisibilityIdentifier
-youtube.com#@##feed-pyv-container
-youtube.com#@##ytd-player button.ytp-suggested-action-badge
-youtube.com#@#.ad-showing > .html5-video-container
-youtube.com#@#.companion-ad-container
-youtube.com#@#.promoted-sparkles-text-search-root-container
-youtube.com#@#.promoted-videos
-youtube.com#@#.statement-banner-foreground-content
-youtube.com#@#.ytd-action-companion-ad-renderer
-youtube.com#@#.ytd-carousel-ad-renderer
-youtube.com#@#.ytd-compact-promoted-video-renderer
-youtube.com#@#.ytd-merch-shelf-renderer
-youtube.com#@#.ytd-player-legacy-desktop-watch-ads-renderer
-youtube.com#@#.ytd-promoted-sparkles-text-search-renderer
-youtube.com#@#.ytd-promoted-video-renderer
-youtube.com#@#.ytd-search-pyv-renderer
-youtube.com#@#.ytd-video-masthead-ad-primary-video-overlay-renderer
-youtube.com#@#.ytd-video-masthead-ad-v3-renderer
-youtube.com#@#.ytp-ad-action-interstitial-background-container
-youtube.com#@#.ytp-ad-action-interstitial-slot
-youtube.com#@#.ytp-ad-button
-youtube.com#@#.ytp-ad-overlay-container
-youtube.com#@#.ytp-ad-player-overlay-flyout-cta
-youtube.com#@#.ytp-ad-progress
-youtube.com#@#ytd-ad-slot-renderer
-youtube.com#@#ytd-promoted-sparkles-web-renderer
-youtube.com#@#div.ytd-ad-slot-renderer
-youtube.com#@#div.ytd-in-feed-ad-layout-renderer
-youtube.com#@#ytm-companion-slot
-! Updated rules new rules
-youtube.com###related > div#player-ads
-youtube.com###items > ytd-ad-slot-renderer
-! https://www.youtube.com/watch?v=vp5sSqyZ5Go (below video, merch links)
-youtube.com##a.yt-simple-endpoint.style-scope.ytd-merch-shelf-item-renderer
-! https://www.youtube.com/watch?v=fSM6Y9wkLgI (top right of video links)
-youtube.com##.ytp-chrome-top-buttons > .ytp-cards-teaser
-! Sell minecraft ad https://www.youtube.com/watch?v=IPtpwh7r0Eo
-youtube.com##ytd-ad-slot-renderer.style-scope.ytd-item-section-renderer
-! https://www.youtube.com/results?search_query=iphone
-youtube.com###contents.style-scope.ytd-search-pyv-renderer
 ! uptostream
 uptostream.com,tirexo.lol##+js(acis, window.a)
 @@||tirexo.lol^$generichide
@@ -779,7 +737,7 @@ vipbox.lc##.position-absolute
 ! Bait,Anti-adblock
 @@||onceagain.mooo.com^$script,domain=bigbtc.win
 ! Anti-Brave checks
-japscan.lol,mirrativ.com,userlytics.com,youtube.com,jiocinema.com,roll20.net,myaccountaccess.com,cnnespanol.cnn.com,optus.com.au,trezor.io,ganohr.net,megacloud.tv,coingax.com,capitaloneshopping.com,comohoy.com,leak.sx,pornleaks.in,bigbtc.win,formula1.com,revadvert.com,pistonheads.com,itv.com,everywherepaycard.com,cosme-de.com,lens-labo.net,opendroneid.org,itrum.org,kalista-beauty.com,projectcircuitbreaker.com,wheel.health,thera-link.com,rapid-cloud.co,musenboya.com,instantconsult.com.au,zoro.to,twitch.tv,healthrangerstore.com,saramart.com,html-code-generator.com,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,playl2.net,volcom.ca,itrum.org,thunder-io.com,nothing.tech,pythonstudy.xyz,calcolastipendionetto.it,psychologytoday.com,krunker.io,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,pethouse.com.au,uploadbank.com,divnil.com,capitaloneoffers.com,capitalone.com##+js(brave-fix)
+youtube.com,facebook.com,japscan.lol,mirrativ.com,userlytics.com,youtube.com,jiocinema.com,roll20.net,myaccountaccess.com,cnnespanol.cnn.com,optus.com.au,trezor.io,ganohr.net,megacloud.tv,coingax.com,capitaloneshopping.com,comohoy.com,leak.sx,pornleaks.in,bigbtc.win,formula1.com,revadvert.com,pistonheads.com,itv.com,everywherepaycard.com,cosme-de.com,lens-labo.net,opendroneid.org,itrum.org,kalista-beauty.com,projectcircuitbreaker.com,wheel.health,thera-link.com,rapid-cloud.co,musenboya.com,instantconsult.com.au,zoro.to,twitch.tv,healthrangerstore.com,saramart.com,html-code-generator.com,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,playl2.net,volcom.ca,itrum.org,thunder-io.com,nothing.tech,pythonstudy.xyz,calcolastipendionetto.it,psychologytoday.com,krunker.io,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,pethouse.com.au,uploadbank.com,divnil.com,capitaloneoffers.com,capitalone.com##+js(brave-fix)
 !
 ! Standard blocking of Bing mouselog tracker (is blocked in Aggressive)
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
