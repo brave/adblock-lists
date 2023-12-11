@@ -94,8 +94,6 @@ crunchyroll.com##+js(set-local-storage-item, /_evidon_consent_ls_\d+/, $remove$)
 ||do-not-tracker.org^
 ! block scripts that profile user behavior using password managers
 @@||api.huobi.pro^$domain=www.huobi.pro
-! Twitter ad cosmetic element 
-twitter.com##[style]>div>div>[data-testid=placementTracking]
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
 ! Scroll bar-consent
