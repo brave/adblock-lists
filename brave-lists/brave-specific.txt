@@ -22,7 +22,6 @@ youtube.*##+js(brave-youtube-theater-fix)
 
 ! Delete GPC-related local storage from sso.crunchyroll.com
 ! https://github.com/brave/brave-browser/issues/31954
-sso.crunchyroll.com##+js(brave-delete-from-local-storage, _evidon_consent_ls_)
 shivankaul.com##+js(brave-delete-from-local-storage, test)
 
 ! Used for Brave QA tests
