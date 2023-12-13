@@ -1,7 +1,7 @@
 [Adblock Plus 2.0; uBlock Origin]
 ! Title: Brave Unbreak
 ! Expires: 12 hours
-
+!
 ! brave.com specfic filters
 @@||ads.brave.software^$first-party
 @@||ads-admin.bravesoftware.com^$first-party
