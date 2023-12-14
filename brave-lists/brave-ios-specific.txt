@@ -255,6 +255,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||aloofvest.com^
 ||alpineactor.com^
 ||amazingairplane.com^
+||ambiguousafternoon.com^
 ||ambiguousalarm.com^
 ||ambiguousanger.com^
 ||ambiguousdinosaurs.com^
@@ -272,7 +273,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||annoyingacoustics.com^
 ||annoyingclover.com^
 ||anxiousapples.com^
-||apathetictheory.com^
 ||apparatuslip.com^
 ||aquaticalarm.com^
 ||aquaticanswer.com^
@@ -287,15 +287,14 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||aromamirror.com^
 ||aspiringapples.com^
 ||aspiringattempt.com^
+||astonishingair.com^
 ||astonishingfood.com^
-||attractionapples.com^
 ||attractionbanana.com^
 ||attractiveafternoon.com^
 ||attractivecap.com^
 ||audioarctic.com^
 ||auntants.com^
 ||auspiciousyard.com^
-||automaticairplane.com^
 ||automaticflock.com^
 ||automaticside.com^
 ||automaticturkey.com^
@@ -306,7 +305,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||awakebird.com^
 ||awarealley.com^
 ||awesomeagreement.com^
-||awesomeattack.com^
 ||awzbijw.com^
 ||axiomaticalley.com^
 ||axiomaticanger.com^
@@ -350,7 +348,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||billowybead.com^
 ||billowybelief.com^
 ||bitterbear.com^
-||bizarrebaseball.com^
 ||blackbrake.com^
 ||bleachbubble.com^
 ||bleachscarecrow.com^
@@ -372,6 +369,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||boringcoat.com^
 ||bouncyfront.com^
 ||bouncyproperty.com^
+||boundarybusiness.com^
 ||boundlessargument.com^
 ||boundlessbrake.com^
 ||boundlessveil.com^
@@ -400,6 +398,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||bumpydevelopment.com^
 ||bunchance.com^
 ||burgerbrush.com^
+||burlywhistle.com^
 ||burnbubble.com^
 ||burntwist.com^
 ||burstblade.com^
@@ -456,6 +455,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||chairscrack.com^
 ||chairsdonkey.com^
 ||chalkoil.com^
+||changeablecats.com^
 ||channelcamp.com^
 ||chargecracker.com^
 ||charmingcough.com^
@@ -501,6 +501,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||colossalchance.com^
 ||colossalclouds.com^
 ||colossalcoat.com^
+||colossalcry.com^
 ||combativecar.com^
 ||combativedetail.com^
 ||combbit.com^
@@ -517,7 +518,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||conceptualizereading.com^
 ||concernedchickens.com^
 ||concernedcondition.com^
-||concerneddrink.com^
 ||conditionchange.com^
 ||conditioncrush.com^
 ||confesschairs.com^
@@ -529,7 +529,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||consistpotato.com^
 ||controlcola.com^
 ||controlswim.com^
-||cookchalk.com^
 ||coordinatedbedroom.com^
 ||coordinatedcoat.com^
 ||coordinatedcub.com^
@@ -537,6 +536,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||copycarpenter.com^
 ||copyrightaccesscontrols.com^
 ||copytitle.com^
+||coralreverie.com^
 ||cordcopper.com^
 ||correctchaos.com^
 ||cosmosjackson.com^
@@ -596,7 +596,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||dazzlingbook.com^
 ||deadpangate.com^
 ||deadpanmarble.com^
-||deadpantruck.com^
 ||deafeningdock.com^
 ||deafeningdowntown.com^
 ||debonairdust.com^
@@ -610,7 +609,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||decoycreation.com^
 ||deerbeginner.com^
 ||defectivedress.com^
-||defectivesun.com^
 ||defiantrice.com^
 ||delegatediscussion.com^
 ||delicatecascade.com^
@@ -641,7 +639,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||discreetquarter.com^
 ||dispensablestranger.com^
 ||distancefinger.com^
-||distinctday.com^
 ||distributionneck.com^
 ||distributionpocket.com^
 ||distributiontomatoes.com^
@@ -698,15 +695,18 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||elephantqueue.com^
 ||embellishedmeadow.com^
 ||embermosaic.com^
+||eminentbubble.com^
 ||eminentend.com^
 ||emptyescort.com^
 ||enchantedjudge.com^
 ||enchantedskyline.com^
 ||enchantedtop.com^
 ||enchantingbear.com^
+||enchantingvalley.com^
 ||encourageidea.com^
 ||encourageshock.com^
 ||encouragingleaf.com^
+||encouragingthread.com^
 ||encouragingvase.com^
 ||encouragingwilderness.com^
 ||endurablebulb.com^
@@ -714,6 +714,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||endurableshop.com^
 ||energeticexample.com^
 ||energeticladybug.com^
+||engineergrape.com^
 ||engineertrick.com^
 ||enormousearth.com^
 ||enormousfoot.com^
@@ -728,7 +729,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||erraticreaction.com^
 ||etherealripple.com^
 ||evaluateend.com^
-||evaluatestream.com^
 ||evanescentedge.com^
 ||eventexistence.com^
 ||exampleshake.com^
@@ -775,8 +775,10 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||fearfulfish.com^
 ||fearfulmint.com^
 ||fearlessfaucet.com^
+||featherstage.com^
 ||feebleshock.com^
 ||fewjuice.com^
+||fewkittens.com^
 ||fifthborder.com^
 ||finalizeforce.com^
 ||financefear.com^
@@ -798,6 +800,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||flutteringfireman.com^
 ||foamyfood.com^
 ||foamypain.com^
+||followborder.com^
 ||forecasttiger.com^
 ||foregoingfowl.com^
 ||foretellfifth.com^
@@ -943,7 +946,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||hosenews.com^
 ||hospitablehall.com^
 ||hospitablehat.com^
-||hothydrant.com^
 ||humdrumhat.com^
 ||humdrumhobbies.com^
 ||hurtgrape.com^
@@ -1055,7 +1057,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||lunchroomlock.com^
 ||maddeningpowder.com^
 ||magicaljoin.com^
-||magicalmonth.com^
 ||magnetairport.com^
 ||magnificentmeasure.com^
 ||magnificentmist.com^
@@ -1086,7 +1087,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||meatydime.com^
 ||meddleplant.com^
 ||mediatescarf.com^
-||medusasailor.com^
 ||mellowbike.com^
 ||mellowmailbox.com^
 ||melodicminute.com^
@@ -1160,6 +1160,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||nothingunit.com^
 ||nulldiscussion.com^
 ||nullnorth.com^
+||numberlessring.com^
 ||numerousnest.com^
 ||nutritiousbean.com^
 ||nuttyorganization.com^
@@ -1173,11 +1174,9 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||operationnail.com^
 ||opinionsurprise.com^
 ||oppositeoperation.com^
-||oppositeparcel.com^
 ||optimallimit.com^
 ||orangeoperation.com^
 ||orionember.com^
-||outstandingincome.com^
 ||outstandingsnails.com^
 ||ovalweek.com^
 ||overconfidentfood.com^
@@ -1185,6 +1184,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||owlsr.us^
 ||paddleangle.com^
 ||pailcrime.com^
+||pailpatch.com^
 ||painstakingpickle.com^
 ||paintpear.com^
 ||paintplantation.com^
@@ -1271,7 +1271,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||predictplate.com^
 ||prefixpatriot.com^
 ||prepareplanes.com^
-||presentbedroom.com^
 ||presetrabbits.com^
 ||presssensor.com^
 ||previousplayground.com^
@@ -1303,8 +1302,10 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||puffypull.com^
 ||puffypurpose.com^
 ||pumpedpancake.com^
+||pumpedpurpose.com^
 ||punyplant.com^
 ||purchasesuggestion.com^
+||purposepipe.com^
 ||pushypipe.com^
 ||puzzlingproperty.com^
 ||q20jqurls0y7gk8.info^
@@ -1340,9 +1341,9 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||rangeplayground.com^
 ||rapidkittens.com^
 ||raresummer.com^
+||raspyteam.com^
 ||readgoldfish.com^
 ||readingguilt.com^
-||readingopera.com^
 ||readymoon.com^
 ||readysnails.com^
 ||realizedoor.com^
@@ -1378,6 +1379,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||resonantrock.com^
 ||respectrain.com^
 ||restrainstorm.com^
+||rhetoricalactivity.com^
 ||rhetoricalloss.com^
 ||rhetoricaltoes.com^
 ||rhetoricalveil.com^
@@ -1414,6 +1416,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||sablesmile.com^
 ||sablesong.com^
 ||sadloaf.com^
+||saffronrefuge.com^
 ||sailsuit.com^
 ||samesticks.com^
 ||samestretch.com^
@@ -1424,12 +1427,12 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||savoryorange.com^
 ||savorystructure.com^
 ||saysidewalk.com^
+||scarcecard.com^
 ||scarcesign.com^
 ||scarcesurprise.com^
 ||scarecrowslip.com^
 ||scarecrowslope.com^
 ||scaredcomfort.com^
-||scaredfarm.com^
 ||scaredsidewalk.com^
 ||scaredsnake.com^
 ||scaredsnakes.com^
@@ -1519,7 +1522,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||simplisticstem.com^
 ||simulateswing.com^
 ||sincerebuffalo.com^
-||sincereseashore.com^
 ||sinceresubstance.com^
 ||singroot.com^
 ||sinkbooks.com^
@@ -1550,12 +1552,12 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||smoggysnakes.com^
 ||smoggysongs.com^
 ||smoggystation.com^
-||snailscart.com^
 ||snailsengine.com^
 ||snakemineral.com^
 ||snakeslang.com^
 ||snakesshop.com^
 ||snakesstone.com^
+||sneakwind.com^
 ||sneakystew.com^
 ||snoresmile.com^
 ||soaprange.com^
@@ -1600,9 +1602,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||spendpest.com^
 ||spidersboats.com^
 ||spiffymachine.com^
-||spikyslave.com^
 ||spirebaboon.com^
-||spitefulstop.com^
 ||spongesalt.com^
 ||spookyexchange.com^
 ||spookyskate.com^
@@ -1617,11 +1617,13 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||springaftermath.com^
 ||springsister.com^
 ||springsnails.com^
+||spuriousair.com^
 ||spuriousbase.com^
 ||spurioussquirrel.com^
 ||spurioussteam.com^
 ||spuriousstranger.com^
 ||spysubstance.com^
+||squalidscrew.com^
 ||squashfriction.com^
 ||squeakzinc.com^
 ||squealingturn.com^
@@ -1654,6 +1656,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||stereoproxy.com^
 ||stereotypedclub.com^
 ||stereotypedsugar.com^
+||stewedge.com^
 ||stickssheep.com^
 ||stickysheet.com^
 ||stiffgame.com^
@@ -1765,7 +1768,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||terrifictooth.com^
 ||testadmiral.com^
 ||testedtouch.com^
-||teststocking.com^
 ||texturetrick.com^
 ||therapeuticcars.com^
 ||thickticket.com^
@@ -1797,7 +1799,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||tinytendency.com^
 ||tiredthroat.com^
 ||tiresomethunder.com^
-||toadtexture.com^
 ||toecircle.com^
 ||toedrawer.com^
 ||toothbrushnote.com^
@@ -1839,7 +1840,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||unaccountablepie.com^
 ||unadvisedengine.com^
 ||unarmedindustry.com^
-||unbecomingbikes.com^
 ||unbecominghall.com^
 ||unbecominglamp.com^
 ||uncoveredcircle.com^
@@ -1881,7 +1881,6 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||virgoplato.com^
 ||virtualvincent.com^
 ||vivaciousveil.com^
-||vmundanepollution.com^
 ||voicelessvein.com^
 ||voicevegetable.com^
 ||volatileprofit.com^
@@ -1933,6 +1932,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||wtaccesscontrol.com^
 ||xovq5nemr.com^
 ||yamstamp.com^
+||yieldingwoman.com^
 ||youngmarble.com^
 ||youthfulnoise.com^
 ||zbwp6ghm.com^
