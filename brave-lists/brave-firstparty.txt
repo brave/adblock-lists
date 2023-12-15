@@ -1337,10 +1337,52 @@ autoevolution.com##.bgcutgrad
 /cohesion-latest.min.js
 /comscore_beacon/*
 /events/analytics/*
+/fb-pixel-dsgvo/*
+/fb-pixel-tracking.js
+/fb-tracking.js
+/fb_pixel_page_view
+/figanalytics-short-ttl.js
+/fingerprint.js
+/fingerprint.min.js
+/fingerprint2.js
+/fingerprint2.min.js
+/fingerprint3.js
+/fingerprint3.min.js
+/firebase-performance-compat.js
+/firebase-performance-standalone.js
+/firestats/js/fs.js.php
 /id?d_visid_
 /imp.gif?
 /optmzly/*
 /perf-vitals_
+/pix-ddc-fp.min.js
+/pix.fcg?
+/pix.gif?
+/pixall.min.js
+/pixel-caffeine/build/frontend.js
+/pixel-manager.js?
+/pixel-tracker.js
+/pixel-tracking.
+/pixel.*/track/*
+/pixel.cgi?
+/pixel.fingerprint.
+/pixel.gif?
+/pixel.track
+/pixel/email/*$image
+/pixel/nvrwe?
+/pixel/sbs?
+/pixel/view?
+/pixel/visit?
+/pixel2.gif?
+/pixel?tag=
+/pixel_identifier.js
+/pixel_iframe.php
+/pixel_tracker_cpm_
+/pixel_tracking.js
+/pixel_tracking?
+/pixel_V2.js
+/pixeljs/*
+/pixelNew.js
 /px/client/main.min.js
 /remote-weblab-triggers/*
 /reporting/metrics
@@ -1384,6 +1426,17 @@ autoevolution.com##.bgcutgrad
 ||wellsfargo.com/dti_apg/
 ||wellsfargo.com/jenny/
 ||wellsfargo.com/pido/
+! dropbox.com
+||beacon.dropbox.com^
+||dropbox.com/2/client_metrics
+||dropbox.com/2/ml_platform/log_predictions_events
+||dropbox.com/2/pap_event_logging
+||dropbox.com/alternate_
+||dropbox.com/jse
+||dropbox.com/log/
+||dropbox.com/log_js_sw_data
+||dropbox.com/prompt/log_impression?
+||dropbox.com/unity_connection_log
 ! westpac.com.au
 ||smetrics.westpac.com.au^
 ! Twitter
@@ -1580,7 +1633,9 @@ latimes.com##.revcontent
 /newrelic.js
 ! stuff.co.nz
 /adnostic/*
+||stuff.co.nz/static/adnostic/
 ||stuff.co.nz/static/stuff-adfliction/
+||ads-api.stuff.co.nz^
 ! patch.com
 ||pixel.patch.com^
 ! screenrant.com
