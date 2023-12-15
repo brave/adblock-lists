@@ -1333,6 +1333,7 @@ autoevolution.com##.bgcutgrad
 /beacon.js
 /beacon/stats
 /cdn-cgi/apps/head/*$first-party,script
+/cdn-cgi/zaraz/*
 /cls_report?
 /cohesion-latest.min.js
 /comscore_beacon/*
@@ -1626,6 +1627,10 @@ latimes.com##.revcontent
 /hnpprivacy-min.
 ! newsweek.com
 ||gc.newsweek.com/front/js/counter.js
+! thehackernews.com
+thehackernews.com##[href^="https://thn.news/"]
+thehackernews.com##.babsi
+thehackernews.com##.gg-2
 ! weather.com
 /eventproxy/track
 ||mparticle.weather.com/identity/
