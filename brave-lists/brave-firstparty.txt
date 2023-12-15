@@ -1633,7 +1633,9 @@ latimes.com##.revcontent
 /newrelic.js
 ! stuff.co.nz
 /adnostic/*
+||stuff.co.nz/static/adnostic/
 ||stuff.co.nz/static/stuff-adfliction/
+||ads-api.stuff.co.nz^
 ! patch.com
 ||pixel.patch.com^
 ! screenrant.com
