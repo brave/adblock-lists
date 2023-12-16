@@ -628,6 +628,8 @@ canale.live##+js(no-setInterval-if, href)
 @@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$script,domain=10play.com.au
 @@||pubads.g.doubleclick.net/ondemand/hls/content/*/streams$xhr,domain=10play.com.au
 10play.com.au##+js(m3u-prune, /^https?:\/\/redirector\.googlevideo\.com.*/, /.*m3u8/)
+! https://southpark.cc.com/episodes/cd3jat/south-park-miss-teacher-bangs-a-boy-season-10-ep-10
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=southparkstudios.com
 ! luscious. net anti adb
 @@*$xhr,domain=luscious.net,3p
 ! chip.de
