@@ -8,6 +8,7 @@
 /greenoaks.gif?
 /porpoiseant/*
 !
+##AD-SLOT
 ###ad--article-top-wrapper
 ###ad--sidebar
 ###ad-mpu
@@ -78,14 +79,18 @@
 ##.PageTopAd
 ##.SimpleAd
 ##.ad--banner
+##.ad--billboard
 ##.ad--container
 ##.ad--desktop
 ##.ad--footer
 ##.ad--in-content
 ##.ad--mid-content
 ##.ad--mobile
+##.ad--placeholder
 ##.ad--sponsor-content
+##.ad-250x300
 ##.ad-300
+##.ad-728x90
 ##.ad-article-inline
 ##.ad-background
 ##.ad-banner-wrapper
@@ -993,6 +998,8 @@ odishatv.in##.otv-970-250-ad
 kfdm.com###premium_ddb_0
 kfdm.com##.index-module_adBeforeContent__UYZT
 kfdm.com##.sd-container
+! gbnews.com
+gbnews.com##.video-inbody
 ! austinchronicle.com
 austinchronicle.com###top-leaderboard
 austinchronicle.com##.ad-right
