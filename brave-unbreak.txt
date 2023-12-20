@@ -1047,6 +1047,8 @@ cube365.net##+js(aopr, bootbox.alert)
 ||pushsar.com^
 ||offerimage.com^
 ||rtmark.net^
+! ios popups
+2embed.me,akamaicdn.life,animeland.tv,b4ucast.com,b5yucast.com,bunkrr.su,crichd.vip,daddylive.ru,databasegdriveplayer.xyz,dlhd.sx,edwardarriveoften.com,embed.meomeo.pw,embedstreams.me,filmhost13.xyz,gnicirp.com,godzlive.com,googlvideo.com,goone.pro,lovesomecommunity.com,megacdn.co,megacloud.tv,olalivehdplay.ru,peakpx.com,serverf4.org,sport7s01.com,sportsonline.so,streambucket.net,streamtape.com,vidsrc.me,vidsrc.stream,vidsrc.to,vidsrc.xyz,voe.sx,voodc.com,weblivehdplay.ru,ydc1wes.me,youtubevanced.com##+js(nowoif)
 ! Russian specific rules
 mail.ru##.tgb__link
 mail.ru##.trg-banners
