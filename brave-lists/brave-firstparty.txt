@@ -1677,7 +1677,6 @@ thehackernews.com##[href^="https://thn.news/"]
 ! nzherald.co.nz
 /newrelic.js
 ! stuff.co.nz
-/adnostic/*
 ||ads-api.stuff.co.nz^
 ||stuff.co.nz/static/adnostic/
 ||stuff.co.nz/static/stuff-adfliction/
