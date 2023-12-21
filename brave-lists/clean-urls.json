@@ -75,7 +75,20 @@
     },
     {
         "include": [
-            "*://www.ebay.*/itm/*"
+            "*://*.ebay.com/itm/*",
+            "*://www.ebay.at/itm/*",
+            "*://www.ebay.ca/itm/*",
+            "*://www.ebay.co.uk/itm/*",
+            "*://www.ebay.com.au/itm/*",
+            "*://www.ebay.com.sg/itm/*",
+            "*://www.ebay.de/itm/*",
+            "*://www.ebay.es/itm/*",
+            "*://www.ebay.ie/itm/*",
+            "*://www.ebay.fr/itm/*",
+            "*://www.ebay.it/itm/*",
+            "*://www.ebay.ch/itm/*",
+            "*://www.ebay.nl/itm/*",
+            "*://www.ebay.pl/itm/*"
         ],
         "exclude": [
 
