@@ -75,6 +75,23 @@
     },
     {
         "include": [
+            "*://www.ebay.*/itm/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "media",
+	    "mkcid",
+            "mkevt",
+            "ssspo",
+            "ssrc",
+            "var",
+            "widget_ver"
+        ]
+    },
+    {
+        "include": [
             "*://www.instagram.com/*"
         ],
         "exclude": [
