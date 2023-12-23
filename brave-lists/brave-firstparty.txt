@@ -640,6 +640,8 @@ inews.co.uk##.inews__mpu
 ! boingboing.net
 boingboing.net##.boing-amp-triple13-amp-1
 boingboing.net##.boing-homepage-after-first-article-in-list
+! nyctourism.com
+nyctourism.com##.Layout_mobileStickyAdContainer__fCbCq
 ! propublica.org
 propublica.org##.bb-ad
 ! sciencealert.com
