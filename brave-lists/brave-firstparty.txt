@@ -271,6 +271,7 @@
 ##.hide-ad
 ##.home-ad-region-1
 ##.horizontal.ad
+##.ima-ad-container
 ##.image-viewer-ad
 ##.image-viewer-mpu
 ##.index-module_adBeforeContent__UYZT
@@ -553,6 +554,8 @@ bossip.com###player-wrapper
 bossip.com##.fsb-desktop
 bossip.com##.fsb-toggle
 bossip.com##.player-wrapper-inner
+! delish.com
+delish.com##.css-3oqygl
 ! independent.co.uk
 independent.co.uk###partners
 independent.co.uk###stickyFooterRoot
@@ -814,7 +817,7 @@ ndtv.com##div[class^="add_"]
 ! .ad
 404media.co,arstechnica.com,autoevolution.com,barchart.com,barstoolsports.com,bleacherreport.com,cnn.com,elpais.com,flightglobal.com,foxbusiness.com,foxnews.com,foxweather.com,ktbs.com,news.sky.com,newsday.com,nj.com,politico.com,seattletimes.com,skynews.com.au,sny.tv,time.com,usnews.com,vanityfair.com,wired.com##.ad
 ! .ad-container
-12news.com,9news.com,9to5google.com,9to5mac.com,aad.org,advfn.com,all3dp.com,allaboutcookies.org,allnovel.net,athleticbusiness.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,cbs8.com,cc.com,ccjdigital.com,computerworld.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,equipmentworld.com,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,globalspec.com,gmanetwork.com,grammarbook.com,hbr.org,howstuffworks.com,huffpost.com,insidehook.com,insider.com,intouchweekly.com,khou.com,koat.com,ktvu.com,lifeandstylemag.com,macstories.net,mail.com,mangakakalot.app,memuplay.com,metro.us,metrophiladelphia.com,miningweekly.com,mixed-news.com,mobilesyrup.com,modernhealthcare.com,msnbc.com,my9nj.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,papermag.com,physiology.org,pixiv.net,punchng.com,realsport101.com,reason.com,refinery29.com,roadandtrack.com,scroll.in,seattletimes.com,slideshare.net,songkick.com,sportskeeda.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,themarketherald.ca,tmz.com,toofab.com,uploadvr.com,usmagazine.com,vanguardngr.com,wogx.com,wral.com##.ad-container
+12news.com,9news.com,9to5google.com,9to5mac.com,aad.org,advfn.com,all3dp.com,allaboutcookies.org,allnovel.net,athleticbusiness.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,cbs8.com,cc.com,ccjdigital.com,computerworld.com,delish.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,equipmentworld.com,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,globalspec.com,gmanetwork.com,grammarbook.com,hbr.org,howstuffworks.com,huffpost.com,insidehook.com,insider.com,intouchweekly.com,khou.com,koat.com,ktvu.com,lifeandstylemag.com,macstories.net,mail.com,mangakakalot.app,memuplay.com,metro.us,metrophiladelphia.com,miningweekly.com,mixed-news.com,mobilesyrup.com,modernhealthcare.com,msnbc.com,my9nj.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,papermag.com,physiology.org,pixiv.net,punchng.com,realsport101.com,reason.com,refinery29.com,roadandtrack.com,scroll.in,seattletimes.com,slideshare.net,songkick.com,sportskeeda.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,themarketherald.ca,tmz.com,toofab.com,uploadvr.com,usmagazine.com,vanguardngr.com,wogx.com,wral.com##.ad-container
 ! .adBanner
 chron.com,crypto-news-flash.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.adBanner
 ! .code-block
