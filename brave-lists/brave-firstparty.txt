@@ -1186,6 +1186,7 @@ wccftech.com##.mb-11
 wccftech.com##[href^="https://cutt.ly/"]
 ! reuters.com
 reuters.com##[data-testid="ResponsiveAdSlot"]
+reuters.com##[class^="primary-video__container_"]
 reuters.com##div[class^="AdSlot__container"]
 reuters.com##div[class^="RightRail-sticky-container"]
 reuters.com##div[class^="ad-slot__"]
