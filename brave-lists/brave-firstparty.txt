@@ -161,6 +161,7 @@
 ##.adHeight280
 ##.adHolder
 ##.adMinHeight280
+##.adModule
 ##.adModule--inner
 ##.adModule--outer
 ##.adRectangle-pos-medium
@@ -793,16 +794,15 @@ zdnet.com##.c-avStickyVideo
 sherdog.com###adViAi
 sherdog.com##.top_ads
 ! chron.com/houstonchronicle.com/sfgate.com/seattlepi.com
-chron.com,mysanantonio.com##.adModule
-chron.com,seattlepi.com,sfgate.com##.ar16-9
-houstonchronicle.com,seattlepi.com,sfchronicle.com,sfgate.com##.b-gray300.bt
-chron.com,sfgate.com##.b-gray300.bt.bb
-seattlepi.com,sfgate.com##.b-gray300.md\:bt
-chron.com,sfgate.com##.b-gray300.md\:bt.md\:bb
-houstonchronicle.com,sfgate.com##.mnh90px
-sfgate.com##.x100.bg-gray100
-chron.com,mysanantonio.com##[aria-label*="Advertisement"]
-chron.com,seattlepi.com,sfchronicle.com##[data-block-type="ad"]
+chron.com,mysanantonio.com,seattlepi.com,sfgate.com##.ar16-9
+houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com##.b-gray300.bt
+chron.com,mysanantonio.com,sfgate.com##.b-gray300.bt.bb
+chron.com,mysanantonio.com,sfgate.com##.b-gray300.md\:bt.md\:bb
+houstonchronicle.com,mysanantonio.com,sfgate.com##.mnh90px
+mysanantonio.com,seattlepi.com,sfgate.com##.b-gray300.md\:bt
+mysanantonio.com,sfgate.com##.x100.bg-gray100
+chron.com,seattlepi.com,sfchronicle.com,timesunion.com##[data-block-type="ad"]
+chron.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.bg-gray100.mb32
 ! ndtv.com
 ndtv.com##.add-section
 ndtv.com##.add-wrp
