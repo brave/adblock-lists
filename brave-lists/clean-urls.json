@@ -81,6 +81,7 @@
 
         ],
         "params": [
+            "igsh",
             "igshid",
             "ig_rid"
         ]
