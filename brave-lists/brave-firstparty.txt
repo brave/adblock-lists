@@ -108,6 +108,7 @@
 ##.ad-incontent
 ##.ad-inline
 ##.ad-label
+##.ad-lead
 ##.ad-leaderboard
 ##.ad-left-top
 ##.ad-link
@@ -270,6 +271,7 @@
 ##.header-ad-region
 ##.header-and-footer--banner-ad
 ##.hide-ad
+##.homead
 ##.home-ad-region-1
 ##.horizontal.ad
 ##.ima-ad-container
@@ -790,6 +792,10 @@ theverge.com##div[data-concert]
 ! zdnet.com
 zdnet.com##.c-adDisplay_container_incontent-all-top
 zdnet.com##.c-avStickyVideo
+! musescore.com
+musescore.com###ad_cs_12219747_728_90
+musescore.com##.js-musescore-hb-728--wrapper
+musescore.com###ad_cs_12219747_300_250
 ! sherdog.com
 sherdog.com###adViAi
 sherdog.com##.top_ads
