@@ -1444,13 +1444,17 @@ autoevolution.com##.bgcutgrad
 /rum_cmp?
 /ruxitagentjs_
 /s.gif?
+/shopify-boomerang-
 /smetrics.*/b/ss/*
 /smetrics.*/id?
 /track?eventkey=
 /transparent.gif?ray=
 /uedata?
 /unagi.amazon.
+/.well-known/shopify/monorail
 /wa.gif?
+/web-pixel-shopify-app-pixel@
+/web-pixel-shopify-custom-pixel@
 !
 ! Fingerprinting scripts (Threatmetrix)
 /fp-3.3.6.min.js
