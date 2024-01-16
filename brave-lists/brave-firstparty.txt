@@ -18,6 +18,11 @@
 ###ad_rect_btf_02
 ###adm-inline-article-ad-1
 ###adm-inline-article-ad-2
+###admobilefoot
+###admobilefootinside
+###admobilemiddle
+###admobiletop
+###admobiletopinside
 ###adslot300x250ATF
 ###adslot300x250BTF
 ###advert-article
@@ -1646,6 +1651,14 @@ target.com##div[class^="styles__PubAd"]
 ||wccftech.com/cnt7vfdvvwa3.js
 ! apnews.com
 /newrelic.browser.
+! eporner.com
+||eporner.com/event.php
+||eporner.com/dot/
+eporner.com##.hptab
+eporner.com###movieplayer-box-adv
+eporner.com###btasd
+eporner.com###deskadmiddle
+eporner.com##.vjs-inplayer-container
 ! cnet.com
 ||signup.asurion.com^$subdocument
 ! figma.com
