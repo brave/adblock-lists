@@ -106,9 +106,9 @@ igniteunmc.com##.preloader
 youtube.com##+js(spoof-css, #player-ads, display, block)
 youtube.com##+js(spoof-css, .ytd-in-feed-ad-layout-renderer, display, block)
 youtube.com##+js(spoof-css, .ytd-merch-shelf-renderer, display, block)
-youtube.com##+js(spoof-css, .ytd-page-top-ad-layout-renderer, display, block)
 youtube.com##+js(spoof-css, .ytp-suggested-action-badge, display, block)
 youtube.com##+js(spoof-css, ytd-ad-slot-renderer, display, block)
+youtube.com##+js(spoof-css, ytd-banner-promo-renderer, display, block)
 youtube.com##+js(spoof-css, ytd-search-pyv-renderer, display, block)
 ! Facebook
 ||graph.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
