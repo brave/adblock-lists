@@ -226,6 +226,7 @@
 ##.bigbox-ad
 ##.block-ad-entity
 ##.block-dfp
+##.block--dfp
 ##.bottom-ads-container
 ##.br-ad
 ##.br-ad-wrapper
@@ -792,6 +793,8 @@ si.com##[data-ad-group]
 ! digitaltrends.com
 digitaltrends.com##.dt-primis
 digitaltrends.com##.dtads-location
+! soundonsound.com
+soundonsound.com##.block---managed
 ! theverge.com
 theverge.com##div[data-concert]
 ! zdnet.com
