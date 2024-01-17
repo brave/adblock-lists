@@ -74,7 +74,6 @@ webplatform.news##+js(aopw, navigator.clipboard)
 ! navigator.connection checks
 userlytics.com##+js(set, navigator.connection, {})
 ! :has
-youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 9gag.com##article:has(.promoted)
 ! https://www.reddit.com/r/uBlockOrigin/comments/17tm9rp/comment/k9i62zu/
 www.youtube.com##+js(nano-stb, resolve(1), 5000, 0.001)
@@ -103,6 +102,14 @@ igniteunmc.com##.preloader
 ! Brave-social (temp)
 ! List used by Brave for preventing social elements from loading
 !
+! Youtube
+youtube.com##+js(spoof-css, #player-ads, display, block)
+youtube.com##+js(spoof-css, .ytd-in-feed-ad-layout-renderer, display, block)
+youtube.com##+js(spoof-css, .ytd-merch-shelf-renderer, display, block)
+youtube.com##+js(spoof-css, .ytd-page-top-ad-layout-renderer, display, block)
+youtube.com##+js(spoof-css, .ytp-suggested-action-badge, display, block)
+youtube.com##+js(spoof-css, ytd-ad-slot-renderer, display, block)
+youtube.com##+js(spoof-css, ytd-search-pyv-renderer, display, block)
 ! Facebook
 ||graph.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ||static.ak.connect.facebook.com^$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
@@ -739,7 +746,7 @@ vipbox.lc##.position-absolute
 ! https://www.thestreameast.to/ (Anti-Brave)
 ||cdn.streambeast.io/tag.js
 ! Anti-Brave checks
-thestreameast.to,streameast.io,youtube.com,facebook.com,japscan.lol,mirrativ.com,userlytics.com,youtube.com,jiocinema.com,roll20.net,myaccountaccess.com,cnnespanol.cnn.com,optus.com.au,trezor.io,ganohr.net,megacloud.tv,coingax.com,capitaloneshopping.com,comohoy.com,leak.sx,pornleaks.in,bigbtc.win,formula1.com,revadvert.com,pistonheads.com,itv.com,everywherepaycard.com,cosme-de.com,lens-labo.net,opendroneid.org,itrum.org,kalista-beauty.com,projectcircuitbreaker.com,wheel.health,thera-link.com,rapid-cloud.co,musenboya.com,instantconsult.com.au,zoro.to,twitch.tv,healthrangerstore.com,saramart.com,html-code-generator.com,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,playl2.net,volcom.ca,itrum.org,thunder-io.com,nothing.tech,pythonstudy.xyz,calcolastipendionetto.it,psychologytoday.com,krunker.io,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,pethouse.com.au,uploadbank.com,divnil.com,capitaloneoffers.com,capitalone.com##+js(brave-fix)
+thestreameast.to,streameast.io,youtube.com,facebook.com,japscan.lol,mirrativ.com,userlytics.com,jiocinema.com,roll20.net,myaccountaccess.com,cnnespanol.cnn.com,optus.com.au,trezor.io,ganohr.net,megacloud.tv,coingax.com,capitaloneshopping.com,comohoy.com,leak.sx,pornleaks.in,bigbtc.win,formula1.com,revadvert.com,pistonheads.com,itv.com,everywherepaycard.com,cosme-de.com,lens-labo.net,opendroneid.org,itrum.org,kalista-beauty.com,projectcircuitbreaker.com,wheel.health,thera-link.com,rapid-cloud.co,musenboya.com,instantconsult.com.au,zoro.to,twitch.tv,healthrangerstore.com,saramart.com,html-code-generator.com,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,playl2.net,volcom.ca,itrum.org,thunder-io.com,nothing.tech,pythonstudy.xyz,calcolastipendionetto.it,psychologytoday.com,krunker.io,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,pethouse.com.au,uploadbank.com,divnil.com,capitaloneoffers.com,capitalone.com##+js(brave-fix)
 !
 ! Standard blocking of Bing mouselog tracker (is blocked in Aggressive)
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
