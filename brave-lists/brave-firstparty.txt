@@ -1715,6 +1715,7 @@ thehackernews.com##[href^="https://thn.news/"]
 ||ads-api.stuff.co.nz^
 ||stuff.co.nz/static/adnostic/
 ||stuff.co.nz/static/stuff-adfliction/
+thepress.co.nz,waikatotimes.co.nz,stuff.co.nz##.header-ads-block
 ! patch.com
 ||pixel.patch.com^
 ! screenrant.com
