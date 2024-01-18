@@ -1579,6 +1579,8 @@ facebook.com##.RectangleAd
 ||instagram.com/logging/
 ||instagram.com/logging_client_events
 ! linkedin.com
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Promo"])
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Anzeige"])
 linkedin.com##.ad-banner
 ||linkedin.com/collect/
 ||linkedin.com/li/track$xmlhttprequest
