@@ -103,6 +103,15 @@ weather.com##+js(trusted-set-local-storage-item, userConsents, '{"sale-of-data":
 collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !important;)
 ! Fix preloader (facebook check)
 igniteunmc.com##.preloader
+! https://github.com/brave/adblock-lists/pull/1471
+youtube.com##+js(spoof-css, #player-ads, display, block)
+youtube.com##+js(spoof-css, .ytd-in-feed-ad-layout-renderer, display, block)
+youtube.com##+js(spoof-css, .ytd-merch-shelf-renderer, display, block)
+youtube.com##+js(spoof-css, .ytd-page-top-ad-layout-renderer, display, block)
+youtube.com##+js(spoof-css, .ytp-suggested-action-badge, display, block)
+youtube.com##+js(spoof-css, ytd-ad-slot-renderer, display, block)
+youtube.com##+js(spoof-css, ytd-banner-promo-renderer, display, block)
+youtube.com##+js(spoof-css, ytd-search-pyv-renderer, display, block)
 ! Brave-social (temp)
 ! List used by Brave for preventing social elements from loading
 !
