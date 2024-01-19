@@ -1581,6 +1581,30 @@ facebook.com##.RectangleAd
 ! linkedin.com
 linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Promo"])
 linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Anzeige"])
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="sponsor"])
+! Portugese
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Patrocinado"])
+! Czech
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Propagováno"])
+! German
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Gepromoot"])
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Gesponsert"])
+! Polish 
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Treść promowana"])
+! Infonesian
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Dipromosikan"])
+! Greek
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Nai-promote"])
+! Russian
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Продвигается"])
+! Swedish
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Marknadsfört"])
+! Chinese
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="促銷內容"])
+! Korean
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="프로모션"])
+! Japanese
+linkedin.com##.feed-shared-update-v2:has(a[aria-label*="广告|プロモーション"])
 linkedin.com##.ad-banner
 ||linkedin.com/collect/
 ||linkedin.com/li/track$xmlhttprequest
