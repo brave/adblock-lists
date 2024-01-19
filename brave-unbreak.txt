@@ -96,6 +96,9 @@ crunchyroll.com##+js(set-local-storage-item, /_evidon_consent_ls_\d+/, $remove$)
 @@||api.huobi.pro^$domain=www.huobi.pro
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
+! GPC issues; https://github.com/brave/brave-browser/issues/35431
+! Is a small delay on load, but menus will load
+weather.com##+js(trusted-set-local-storage-item, userConsents, '{"sale-of-data":false}')
 ! Scroll bar-consent
 collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !important;)
 ! Fix preloader (facebook check)
