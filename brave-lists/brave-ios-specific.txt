@@ -46,8 +46,10 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerRespon
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adPlacements, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
-! https://github.com/brave/adblock-lists/pull/1361
-www.youtube.com##+js(json-prune, playerResponse.adPlacements adPlacements, , /:1\s{2}https:\/\/www.+_polymer_[_a-z]+\.js:\d+:1$/)
+www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
+www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
+tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', /playlist\?list=|player\?key=|watch\?v=|youtubei\/v1\/player/)
+www.youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?([A-Z]"\}|"\}{2})\}\]\,/, , player?key=)
 ! www.youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?privateDoNotAccessOrElseTrustedResourceUrlWrappedValue":"https:\/\/www\.youtube\.com\/aboutthisad\?pf=web&source=youtube&reasons=A.*?"\}\}\}\]\,/, , player?key=)
 ! www.youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?("getAdBreakUrl":"https:\/\/www\.youtube\.com\/get_midroll_info\S+&token=ALHj|"(base)?[Uu]rl":"https:\/\/(secure)?pubads\.g\.doubleclick\.net).*?"\}\}\}\]\,/, , player?key=)
 m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
