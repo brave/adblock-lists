@@ -105,7 +105,6 @@ collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !
 igniteunmc.com##.preloader
 ! https://github.com/brave/adblock-lists/pull/1471
 youtube.com##+js(spoof-css, #player-ads, display, block)
-youtube.com##+js(spoof-css, .ytd-in-feed-ad-layout-renderer, display, block)
 youtube.com##+js(spoof-css, .ytd-merch-shelf-renderer, display, block)
 youtube.com##+js(spoof-css, .ytd-page-top-ad-layout-renderer, display, block)
 youtube.com##+js(spoof-css, .ytp-suggested-action-badge, display, block)
