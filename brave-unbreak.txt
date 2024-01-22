@@ -102,6 +102,8 @@ sephora.com##+js(set, navigator.globalPrivacyControl, false)
 ! GPC issues; https://github.com/brave/brave-browser/issues/35431
 ! Is a small delay on load, but menus will load
 weather.com##+js(trusted-set-local-storage-item, userConsents, '{"sale-of-data":false}')
+! Soft anti-adblock
+maxroll.gg##+js(trusted-set-local-storage-item, adBlockWarning, '{"value":true}')
 ! Scroll bar-consent
 collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !important;)
 ! Fix preloader (facebook check)
