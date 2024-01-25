@@ -944,6 +944,8 @@ scrolller.com##.popup--fixed
 ! https://github.com/uBlockOrigin/uAssets/issues/18148#issuecomment-1555962148
 ||akamaized.net/audio/$media,redirect-rule=noop-1s.mp4,domain=open.spotify.com,important
 ||scdn.co/audio/$media,redirect=noop-1s.mp4,domain=open.spotify.com,important
+! Mobile-app (trusted) Open-in-app 
+imgur.com##+js(trusted-set-local-storage-item, see_imgur_oia, '{"closed":true}')
 ! fixes from remove()
 apnews.com##+js(ra, data-leaderboard-is-fixed, html, stay)
 ! Counter blocked by extension warnings
