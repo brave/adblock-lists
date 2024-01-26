@@ -96,12 +96,11 @@ crunchyroll.com##+js(set-local-storage-item, /_evidon_consent_ls_\d+/, $remove$)
 @@||api.huobi.pro^$domain=www.huobi.pro
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
-! GPC issues https://github.com/brave/adblock-resources/pull/148
-sephora.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-sephora.com##+js(set, navigator.globalPrivacyControl, false)
-! GPC issues; https://github.com/brave/brave-browser/issues/35431
-! Is a small delay on load, but menus will load
-weather.com##+js(trusted-set-local-storage-item, userConsents, '{"sale-of-data":false}')
+! GPC issues 
+! sephora.com https://github.com/brave/adblock-resources/pull/148
+! weather.com https://github.com/brave/brave-browser/issues/35431
+sephora.com,weather.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+sephora.com,weather.com##+js(set, navigator.globalPrivacyControl, false)
 ! Soft anti-adblock
 maxroll.gg##+js(trusted-set-local-storage-item, adBlockWarning, '{"value":true}')
 ! Scroll bar-consent
