@@ -7,6 +7,7 @@
 /display-ad/*
 /greenoaks.gif?
 /porpoiseant/*
+/webads.
 !
 ###ad--article-top-wrapper
 ###ad--sidebar
@@ -312,6 +313,7 @@
 ##.listicle-instream-ad-holder
 ##.longform-ad
 ##.m-ad
+##.m-adaptive-ad-component
 ##.m-advert
 ##.m-content-advert
 ##.m-content-advert-wrap
@@ -1423,10 +1425,12 @@ autoevolution.com##.bgcutgrad
 /firebase-performance-compat.js
 /firebase-performance-standalone.js
 /firestats/js/fs.js.php
+/htdocs/js/admiral/init.js
 /id?d_visid_
 /imp.gif?
 /optmzly/*
 /perf-vitals_
+/phoenixgoogleanalytics.min.js
 /pix-ddc-fp.min.js
 /pix.fcg?
 /pix.gif?
