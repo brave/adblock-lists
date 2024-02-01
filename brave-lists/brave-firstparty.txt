@@ -1501,6 +1501,8 @@ autoevolution.com##.bgcutgrad
 /fpv2.js
 /sendLogs?cid=
 /tags.js?org_id=
+! Exception rules
+@@||suumo.jp/sp/js/beacon.js$script,~third-party
 ! wellsfargo.com
 ||wellsfargo.com/aido/
 ||wellsfargo.com/dti_apg/
