@@ -43,6 +43,8 @@ www.google.ac,www.google.ae,www.google.at,www.google.be,www.google.bg,www.google
 thebetterindia.com##.vspl__gtap-notification-content
 thebetterindia.com##.vspl__gtap-notification-overlay
 grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
+! CNAME: account.adobe.com
+@@||account.adobe.com^
 ! CNAME: pol.dk
 @@||www.pol.dk^
 ! CNAME: autonews.com (https://community.brave.com/t/autonews-com-images-dont-load/488276)
