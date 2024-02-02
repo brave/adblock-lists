@@ -1501,6 +1501,32 @@ autoevolution.com##.bgcutgrad
 /fpv2.js
 /sendLogs?cid=
 /tags.js?org_id=
+! CNAME: account.adobe.com
+@@||account.adobe.com^
+! CNAME: pol.dk
+@@||www.pol.dk^
+! CNAME: autonews.com (https://community.brave.com/t/autonews-com-images-dont-load/488276)
+@@||s3-prod.autonews.com^$domain=autonews.com
+! CNAME: linkvertise.com
+@@||taboola.com/libtrc/linkvertise-link-to/loader.js$domain=linkvertise.com
+@@||taboola.map.fastly.net^$domain=linkvertise.com
+! CNAME: https://api.atlassian.com/metal/ingest
+! https://github.com/brave/adblock-lists/issues/752
+@@||api.atlassian.com^$first-party
+! CNAME: https://yab.yomiuri.co.jp/adv/presage/3.html
+@@||yab.yomiuri.co.jp/adv/$first-party
+@@||omicroncdn.net^$domain=yab.yomiuri.co.jp
+! CNAME: https://www.imdb.com/video/vi935705113?playlistId=tt1568346
+@@||cloudfront.net^$domain=imdb.com|media-imdb.com
+! CNAME: xing.com
+@@||cloudfront.net^$domain=xing.com
+! CNAME: iraiser.eu
+@@||iraiser.eu^$image,stylesheet,subdocument
+@@||cdn.iraiser.eu^
+! CNAME: https://darknetdiaries.com/episode/78/
+@@||traffic.megaphone.fm^$domain=megaphone.fm|darknetdiaries.com
+@@||adserver.va3.megaphone.cloud.$domain=megaphone.fm|darknetdiaries.com
+!
 ! wellsfargo.com
 ||wellsfargo.com/aido/
 ||wellsfargo.com/dti_apg/
