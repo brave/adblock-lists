@@ -1734,6 +1734,15 @@ eporner.com##.vjs-inplayer-container
 ! figma.com
 /?sentry_key=
 /web_logger/*
+! kijiji.ca
+kijiji.ca##.adChoices-804693302
+kijiji.ca##.gqNGFh
+kijiji.ca##.jOwRwk
+kijiji.ca##.leaderboard-1322657443
+kijiji.ca##.ofGHb
+kijiji.ca##.vipAdsList-3883764342
+kijiji.ca##[data-testid="adsense-container"]
+kijiji.ca##div[class^="sponsored-"]
 ! latimes.com
 latimes.com##.revcontent
 ||activate.latimes.com/pc/caltimes/?pulse2001=
