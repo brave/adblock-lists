@@ -1745,6 +1745,16 @@ pornhub.com,pornhub.net,youporn.com###pb_template
 ! tube8
 tube8.com,tube8.es,tube8.fr##main.row > aside.col-4 > div[class]
 tube8.com,tube8.es,tube8.fr##input + div:has(.adsbytrafficjunky)
+! youporn.com
+youporn.com##.e8-column
+||youporn.com^$script,subdocument,domain=youporn.com
+! redtube.com
+redtube.com,redtube.com.br###popsByTrafficJunky
+redtube.com,redtube.com.br##li:has(.adsbytrafficjunky)
+redtube.com,redtube.com.br###paid_tabs_list
+redtube.com,redtube.com.br##+js(abort-current-script, Object.defineProperty, trafficjunky)
+redtube.com,redtube.com.br##+js(no-window-open-if)
+redtube.com,redtube.com.br,youporn.com##+js(set-constant, page_params.holiday_promo, true)
 ! cnet.com
 ||signup.asurion.com^$subdocument
 ! figma.com
