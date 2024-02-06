@@ -201,6 +201,7 @@
 ##.ads_tb-c
 ##.adsbox970x90
 ##.adsbyvli
+##.adsbytrafficjunky
 ##.adslot
 ##.adslot970
 ##.adsninja-ad-zone
@@ -1729,6 +1730,31 @@ eporner.com###movieplayer-box-adv
 eporner.com###btasd
 eporner.com###deskadmiddle
 eporner.com##.vjs-inplayer-container
+! pornhub
+pornhub.com##div[id^="customSkin"]
+pornhub.com##div.container:style(margin-top: 0px !important)
+pornhub.com###singleFeedSection > .emptyBlockSpace
+pornhub.com##.sniperModeEngaged
+pornhub.com##a[href*="?ats="]
+pornhub.com##a[href^="https://ads.trafficjunky.net/"]
+pornhub.com###pb_block
+pornhub.com,pornhub.net,youporn.com###pb_template
+/_xa/ads_
+/ht.js?site_
+##a[href^="https://a.adtng.com/"]
+! tube8
+tube8.com,tube8.es,tube8.fr##main.row > aside.col-4 > div[class]
+tube8.com,tube8.es,tube8.fr##input + div:has(.adsbytrafficjunky)
+! youporn.com
+youporn.com##.e8-column
+||youporn.com^$script,subdocument,domain=youporn.com
+! redtube.com
+redtube.com,redtube.com.br###popsByTrafficJunky
+redtube.com,redtube.com.br##li:has(.adsbytrafficjunky)
+redtube.com,redtube.com.br###paid_tabs_list
+redtube.com,redtube.com.br##+js(abort-current-script, Object.defineProperty, trafficjunky)
+redtube.com,redtube.com.br##+js(no-window-open-if)
+redtube.com,redtube.com.br,youporn.com##+js(set-constant, page_params.holiday_promo, true)
 ! cnet.com
 ||signup.asurion.com^$subdocument
 ! figma.com
