@@ -1691,6 +1691,11 @@ bloomberg.com##[class^="FullWidthAd_"]
 ||reddit.com/static/pixel.png$image
 ||reddit.com/timings/
 ||w3-reporting.reddit.com^
+! decrypt.co
+decrypt.co##.aspect-video
+decrypt.co##.opacity-75
+decrypt.co##span:has-text(AD)
+decrypt.co##.flex.flex-none.relative
 ! target.com
 target.com##.h-position-fixed-bottom
 target.com##[data-test="featuredProducts"]
