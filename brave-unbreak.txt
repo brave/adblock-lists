@@ -99,10 +99,9 @@ crunchyroll.com##+js(set-local-storage-item, /_evidon_consent_ls_\d+/, $remove$)
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
 ! GPC issues 
-! sephora.com https://github.com/brave/adblock-resources/pull/148
 ! weather.com https://github.com/brave/brave-browser/issues/35431
-sephora.com,weather.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-sephora.com,weather.com##+js(set, navigator.globalPrivacyControl, false)
+weather.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+weather.com##+js(set, navigator.globalPrivacyControl, false)
 ! Soft anti-adblock
 maxroll.gg##+js(trusted-set-local-storage-item, adBlockWarning, '{"value":true}')
 ! Scroll bar-consent
@@ -716,10 +715,6 @@ tube8.com,tube8.es,tube8.fr##+js(aeld, , _0x)
 tube8.com,tube8.es,tube8.fr##+js(aopw, IS_ADBLOCK)
 tube8.com,tube8.es,tube8.fr##+js(nowoif)
 tube8.com,tube8.es,tube8.fr##+js(set, page_params.holiday_promo, true)
-pornhub.com##.realsex
-pornhub.com,pornhubthbh7ap3u.onion##.premiumPromoBanner
-pornhub.com,pornhubthbh7ap3u.onion###pb_template
-pornhub.com##+js(set, page_params.holiday_promo, true)
 ! uBO-domain wildcard workaround animepahe.com/mmkvcage.site/pahe.li
 animepahe.com,mmkvcage.site,pahe.li##+js(aopw, _pop)
 animepahe.com,kwik.cx##+js(acis, String.fromCharCode, 'shift')
@@ -747,7 +742,7 @@ vipbox.lc##.position-absolute
 ! https://www.thestreameast.to/ (Anti-Brave)
 ||cdn.streambeast.io/tag.js
 ! Anti-Brave checks
-claroty.com,sephora.com,thestreameast.to,streameast.io,youtube.com,facebook.com,japscan.lol,mirrativ.com,userlytics.com,youtube.com,jiocinema.com,roll20.net,myaccountaccess.com,cnnespanol.cnn.com,optus.com.au,trezor.io,ganohr.net,megacloud.tv,coingax.com,capitaloneshopping.com,comohoy.com,leak.sx,pornleaks.in,bigbtc.win,formula1.com,revadvert.com,pistonheads.com,itv.com,everywherepaycard.com,cosme-de.com,lens-labo.net,opendroneid.org,itrum.org,kalista-beauty.com,projectcircuitbreaker.com,wheel.health,thera-link.com,rapid-cloud.co,musenboya.com,instantconsult.com.au,zoro.to,twitch.tv,healthrangerstore.com,saramart.com,html-code-generator.com,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,playl2.net,volcom.ca,itrum.org,thunder-io.com,nothing.tech,pythonstudy.xyz,calcolastipendionetto.it,psychologytoday.com,krunker.io,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,pethouse.com.au,uploadbank.com,divnil.com,capitaloneoffers.com,capitalone.com##+js(brave-fix)
+claroty.com,thestreameast.to,streameast.io,youtube.com,facebook.com,japscan.lol,mirrativ.com,userlytics.com,youtube.com,jiocinema.com,roll20.net,myaccountaccess.com,cnnespanol.cnn.com,optus.com.au,trezor.io,ganohr.net,megacloud.tv,coingax.com,capitaloneshopping.com,comohoy.com,leak.sx,pornleaks.in,bigbtc.win,formula1.com,revadvert.com,pistonheads.com,itv.com,everywherepaycard.com,cosme-de.com,lens-labo.net,opendroneid.org,itrum.org,kalista-beauty.com,projectcircuitbreaker.com,wheel.health,thera-link.com,rapid-cloud.co,musenboya.com,instantconsult.com.au,zoro.to,twitch.tv,healthrangerstore.com,saramart.com,html-code-generator.com,support-lock.com,fordeal.com,hyundaipowerequipment.co.uk,playl2.net,volcom.ca,itrum.org,thunder-io.com,nothing.tech,pythonstudy.xyz,calcolastipendionetto.it,psychologytoday.com,krunker.io,gommonauti.it,btdig.com,archive.is,archive.today,archive.vn,archive.fo,archive.md,archive.li,archive.ph,archivecaslytosk.onion,archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion,pethouse.com.au,uploadbank.com,divnil.com,capitaloneoffers.com,capitalone.com##+js(brave-fix)
 !
 ! Standard blocking of Bing mouselog tracker (is blocked in Aggressive)
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
