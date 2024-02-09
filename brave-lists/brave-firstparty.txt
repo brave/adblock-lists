@@ -6,6 +6,7 @@
 /cmbdv2.js
 /display-ad/*
 /greenoaks.gif?
+/discourse-adplugin-
 /porpoiseant/*
 /webads.
 !
@@ -258,6 +259,7 @@
 ##.dfp-slot
 ##.dfp-tag-wrapper
 ##.dfp_ATF_wrapper
+##.discourse-adplugin
 ##.dotcom-ad
 ##.dtads-desktop
 ##.empire-unit-prefill-container
@@ -271,6 +273,7 @@
 ##.freestar-ad-container
 ##.fs_ad
 ##.gallery-ad-lazyload-placeholder
+##.google-adsense
 ##.google-dfp-ad-caption
 ##.google-dfp-ad-wrapper
 ##.gpt-ad
