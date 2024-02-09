@@ -328,6 +328,9 @@
 ##.mapped-ad
 ##.media-network-ad
 ##.min-height-ad
+##.mm-ad-sponsored
+##.mm-ads-gpt-adunit
+##.mm-ads-leaderboard-header
 ##.mntl-gpt-adunit
 ##.mntl-leaderboard-header
 ##.mntl-leaderboard-spacer
