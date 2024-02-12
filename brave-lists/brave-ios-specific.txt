@@ -86,6 +86,20 @@ youtube.com##ytd-rich-item-renderer:has(> .ytd-rich-item-renderer > ytd-ad-slot-
 youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 ! naver.com search is broken  https://m.search.naver.com/search.naver?where=m_image&sm=mtb_jum&query=brave
 @@||ssl.pstatic.net^$domain=naver.com
+! aniwave.to
+aniwave.to##+js(no-window-open-if, _blank)
+aniwave.to##+js(set-cookie, __pf, 1)
+aniwave.to,mcloud.bz##+js(abort-on-property-read, AaDetector)
+mcloud.bz##+js(abort-on-property-read, zfgstorage)
+mcloud.bz##+js(abort-on-property-read, __Y)
+mcloud.bz##+js(abort-on-property-read, open)
+mcloud.bz##+js(no-setInterval-if, break)
+mcloud.bz##+js(abort-current-script, Math, XMLHttpRequest)
+mp4upload.com##+js(abort-current-script, document.documentElement, break;case $.)
+mp4upload.com##+js(abort-on-property-write, adcashMacros)
+||placingsolemnlyinexpedient.com^
+||interviewidiomantidote.com^
+||bidgear.com^$3p
 ! apnews.com
 apnews.com##.Page-header-leaderboardAd
 apnews.com##.SovrnAd
