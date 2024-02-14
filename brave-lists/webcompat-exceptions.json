@@ -1,0 +1,29 @@
+[
+  {
+    "include": [
+      "*://maps.gsi.go.jp/*"
+    ],
+    "exceptions": [
+      "canvas"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/35755"
+  },
+  {
+    "include": [
+      "*://www.harkins.com/*"
+    ],
+    "exceptions": [
+      "canvas"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/35750"
+  },
+  {
+    "include": [
+      "*://www.nperf.com/*"
+    ],
+    "exceptions": [
+      "canvas"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/35020"
+  }
+]
