@@ -49,7 +49,7 @@
   },
   {
     "include": [
-      "*://trk.pm-srv.co/*"
+      "*://trk.pm-srv.co/v2/trk?*"
     ],
     "exclude": [
     ],
