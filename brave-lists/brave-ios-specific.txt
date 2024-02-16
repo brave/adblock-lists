@@ -241,9 +241,12 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 @@||adobedtm.com*/mbox-contents-$script,domain=absa.co.za|ally.com|americanexpress.com|as.com|backcountry.com|ceair.com|conad.it|costco.com|dhl.de|fcbarcelona.cat|fcbarcelona.cn|fcbarcelona.com|fcbarcelona.es|fcbarcelona.fr|fcbarcelona.jp|firststatesuper.com.au|hgtv.com|lenovo.com|lowes.com|nfl.com|oprah.com|pnc.com|shoppersdrugmart.ca|sony.jp|tatacliq.com|usanetwork.com|vanityfair.com|wired.com|wowway.net
 !! adobedtm.com/extensions/
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com
+! imasdk.googleapis.com/js/sdkloader/ima3_dai.js
+@@||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$domain=cc.com|247sports.com|4029tv.com|bloomberg.co.jp|bloomberg.com|cbc.ca|cbssports.com|embed.comicbook.com|gbnews.com|history.com|kcci.com|kcra.com|ketv.com|kmbc.com|koat.com|koco.com|ksbw.com|mynbc5.com|paramountplus.com|s.yimg.jp|sbs.com.au|tv.rakuten.co.jp|vk.sportsbull.jp|wapt.com|wbaltv.com|wcvb.com|wdsu.com|wesh.com|wgal.com|wisn.com|wjcl.com|wlky.com|wlwt.com|wmtw.com|wmur.com|worldsurfleague.com|wpbf.com|wtae.com|wvtm13.com|wxii12.com|wyff4.com
 ! Random adservers
+||a.pub.network^*/pubfig.min.js
+||pub.network/core/pubfig/
 ||closureevaporatefume.com^
-||pub.network^
 ||d2o03z2xnyxlz5.cloudfront.net^
 ||papayads.net^$third-party
 ||revcontent.com^$third-party
