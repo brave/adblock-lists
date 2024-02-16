@@ -49,6 +49,15 @@
   },
   {
     "include": [
+      "*://trk.pm-srv.co/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "rurl"
+  },
+  {
+    "include": [
       "*://app.hive.co/email/elt/*"
     ],
     "exclude": [
