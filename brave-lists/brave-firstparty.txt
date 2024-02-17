@@ -18,6 +18,7 @@
 ###ad_lead1
 ###ad_rect_btf_01
 ###ad_rect_btf_02
+###adhesion
 ###adm-inline-article-ad-1
 ###adm-inline-article-ad-2
 ###admobilefoot
@@ -243,6 +244,7 @@
 ##.c-advert
 ##.c-asurionBottomBanner
 ##.c-gallery-vertical__advert
+##.c-sidebar-ad-stream__ad
 ##.channel-sidebar-big-box-ad
 ##.cnx-player-wrapper
 ##.collapsed-ad
@@ -269,6 +271,7 @@
 ##.ezoic-ad-adaptive
 ##.ezoic-adpicker-ad
 ##.ezoic-floating-bottom
+##.first_ad
 ##.floating-preroll-ad
 ##.freestar-ad-container
 ##.fs_ad
@@ -285,6 +288,8 @@
 ##.hide-ad
 ##.homead
 ##.home-ad-region-1
+##.horizontal-ad
+##.horizontal-ad-wrapper
 ##.horizontal.ad
 ##.ima-ad-container
 ##.image-viewer-ad
@@ -673,6 +678,10 @@ propublica.org##.bb-ad
 ! sciencealert.com
 sciencealert.com###Purch_D_R_0_1
 sciencealert.com##.ad-desktop\:block
+! bestlifeonline.com
+bestlifeonline.com##.vi-video-wrapper
+bestlifeonline.com##.inline
+bestlifeonline.com##.widget_gm_karmaadunit_widget
 ! softonic.com
 softonic.com##.sam-slot
 ! business-standard.com
