@@ -162,51 +162,6 @@ youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 ! Twitter
 ||api.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
 ||platform.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
-! Outbrain elements
-###around-the-web
-###g-outbrain
-###js-outbrain-module
-###js-outbrain-relateds
-###js-outbrain-under-article
-###outbrain
-###outbrain-section
-###outbrain1
-###outbrainWidget
-###outbrain_widget_0
-##.ArticleFooter-outbrain
-##.ArticleOutbrainLocal
-##.Atom-outbrain
-##.OUTBRAIN
-##.box-outbrain
-##.c2_outbrain
-##.component-outbrain
-##.nok-outbrain-list
-##.ob-smartfeed-wrapper
-##.outbrain
-##.outbrain-ads
-##.outbrain-bloc
-##.outbrain-content
-##.outbrain-group
-##.outbrain-module
-##.outbrain-placeholder
-##.outbrain-recommended
-##.outbrain-relateds
-##.outbrain-widget
-##.outbrain-wrap
-##.outbrain-wrapper
-##.outbrain-wrapper-outer
-##.outbrainWidget
-##.outbrain__main
-##.outbrain_container
-##.outbrain_skybox
-##.outbrainbox
-##.pane-bonnier-outbrain-outbrain-video-vr3-widget
-##.pmc-outbrain-amp-widget
-##.sics-component__outbrain
-##.tr-outbrain-container
-##.widget_ione-outbrain
-##.widget_outbrain
-##.yom-outbrain
 !
 ! Note that options will be added to exclude these filters soon. They
 ! are added both as a blocking rule and as an exception rule so that
@@ -982,32 +937,6 @@ cube365.net##+js(aopr, bootbox.alert)
 ! Allow ads on DDG: brave-browser/issues#4533
 @@||duckduckgo.com/m.js
 @@||duckduckgo.com/share/spice/amazon/
-! Taboola scripts
--taboola-article.
--taboola-loader.
--widget-taboola-
-/ad-taboola.min.js
-/components/taboola/*
-/modulo/taboola/*
-/taboola-header.js
-/taboola-iframe/*
-/taboola-module.
-/taboola.js
-/taboola/footer.
-/taboola/head.
-/taboolaArticleFooter.
-/taboolaArticleHead.
-/taboolaBottomBody.
-/taboolaHead.
-||taboolasyndication.com^$third-party
-! Outbrain scripts
-/cdn-cgi/pe/bag2?*odb.outbrain.com
-/outbrain-load-
-/outbrain.js
-/outbrain/base?
-/outbrain?
-/outbrainAd.
-||outbrainimg.com^$third-party
 ! Easyprivacy Notifcations (For ios)
 ||accengage.net^$third-party
 ||actirinius.com^$third-party
