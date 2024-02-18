@@ -58,6 +58,7 @@
 ###banner_pos3_ddb_0
 ###banner_pos4_ddb_0
 ###comments-standalone-mpu
+###ddb_fluid_native_ddb_0
 ###dfp-wallpaper-wrapper
 ###dfp_bigbox_2
 ###dfp_bigbox_recipe_top
@@ -74,6 +75,7 @@
 ###mpu_bottom_sb_1_parent
 ###mpu_bottom_sb_2_parent
 ###ppvideoadvertisement
+###premium_ddb_0
 ###rightrail_pos1_ddb_0
 ###rightrail_pos2_ddb_0
 ###rightrail_pos3_ddb_0
@@ -309,6 +311,9 @@
 ##.horizontal-ad
 ##.horizontal-ad-wrapper
 ##.horizontal.ad
+##.index-module_rightrailTop__mag4
+##.index-module_rightrailBottom__IJEl
+##.index-module_adBeforeContent__AMXn
 ##.ima-ad-container
 ##.image-viewer-ad
 ##.image-viewer-mpu
@@ -551,6 +556,7 @@
 ##.OUTBRAIN
 ##.Outbrain
 ##.article_OutbrainContent
+##.block-advertisement-banner-block
 ##.box-outbrain
 ##.c2_outbrain
 ##.component-outbrain
@@ -1309,10 +1315,6 @@ metro.co.uk##.ji-ad-slot-mpu
 ! odishatv.in
 odishatv.in##.otv-300-250-ad
 odishatv.in##.otv-970-250-ad
-! kfdm.com
-kfdm.com###premium_ddb_0
-kfdm.com##.index-module_adBeforeContent__UYZT
-kfdm.com##.sd-container
 ! gbnews.com
 gbnews.com##.video-inbody
 ! austinchronicle.com
