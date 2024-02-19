@@ -2026,8 +2026,9 @@ thehackernews.com##.babsi
 thehackernews.com##.gg-2
 thehackernews.com##[href^="https://thn.news/"]
 ! weather.com
+.privacydatanotice.
+||weather.com/*.medalliasurvey.
 /eventproxy/track
-||mparticle.weather.com/identity/
 ! nzherald.co.nz
 /newrelic.js
 ! stuff.co.nz
