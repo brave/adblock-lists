@@ -104,8 +104,6 @@
 ##.GRVMpuWrapper
 ##.GoogleDfpAd
 ##.NavBarAd
-##.OUTBRAIN
-##.Outbrain
 ##.PageTopAd
 ##.SimpleAd
 ##.ad--banner
