@@ -104,8 +104,6 @@
 ##.GRVMpuWrapper
 ##.GoogleDfpAd
 ##.NavBarAd
-##.OUTBRAIN
-##.Outbrain
 ##.PageTopAd
 ##.SimpleAd
 ##.ad--banner
@@ -245,6 +243,7 @@
 ##.amp-ads
 ##.apexAd
 ##.arc-ad-wrapper
+##.arcad-block-container
 ##.article-ad
 ##.article-mid-ad
 ##.belowMastheadWrapper
@@ -523,24 +522,6 @@
 ##ps-connatix-module
 !
 ! Outbrain
-###adv_outbrain_SB_1_sidebar
-###ao-article-outbrain
-###ao-sidebar-outbrain
-###container-outbrain-sticky
-###js-outbrain-ads-module
-###js-outbrain-rightrail-ads-module
-###outbrain-wrapper
-###outbrainAdWrapper
-###outbrain_dual_ad_fs_0_dual
-###outbrain_vertical
-###sponsored-outbrain-1
-##.Cheat__outbrain
-##.adv_outbrain
-##.ht_outbrain
-##.js-outbrain-container
-##.ob-ad-carousel-layout
-##.ob-hover
-##.ob-p.ob-dynamic-rec-container
 ###around-the-web
 ###g-outbrain
 ###js-outbrain-module
@@ -556,7 +537,6 @@
 ##.OUTBRAIN
 ##.Outbrain
 ##.article_OutbrainContent
-##.block-advertisement-banner-block
 ##.box-outbrain
 ##.c2_outbrain
 ##.component-outbrain
@@ -570,6 +550,7 @@
 ##.outbrain-placeholder
 ##.outbrain-recommended
 ##.outbrain-reserved-space
+##.outbrain-widget
 ##.outbrain-wrap
 ##.outbrain-wrapper
 ##.outbrain-wrapper-outer
@@ -582,16 +563,18 @@
 ##.voc-ob-wrapper
 ##.widget_outbrain
 ##.widget_outbrain_widget
-##.ob-strip-layout
+###js-outbrain-ads-module
+###outbrain-wrapper
+###outbrainAdWrapper
+##.adv_outbrain
+##.js-outbrain-container
+##.ob-p.ob-dynamic-rec-container
+##.ob-widget-header
 ##.outBrainWrapper
 ##.outbrain-ad-slot
 ##.outbrain-ad-units
 ##.outbrain-bg
-##.outbrain-widget
 ##.outbrainAdHeight
-##.outbrain_ad_li
-##.outbrain_dual_ad_whats_class
-##.outbrain_ul_ad_top
 ##.outbrainad
 ##.promoted-outbrain
 ##.responsive-ad-outbrain
@@ -612,8 +595,6 @@
 ###component-taboola-below-article-feed
 ###component-taboola-below-article-feed-2
 ###component-taboola-below-homepage-feed
-###fake_taboola_fallback
-###ra-taboola-bottom
 ###taboola-ad
 ###taboola-adverts
 ###taboola-below
@@ -621,10 +602,40 @@
 ###taboola-below-article-thumbnails-express
 ###taboola-below-article-thumbnails-v2
 ###taboola-below-forum-thumbnails
-###taboola-content
-###taboola-footer-ad
-###taboola-main-container
 ###taboola-mid-article-thumbnails
+###taboola-mid-article-thumbnails-ii
+###taboola-mobile-article-thumbnails
+###taboola-placeholder
+###taboola-right-rail
+###taboola-right-rail-express
+###taboola_responsive_wrapper
+##.article-taboola
+##.grid__module-sizer_name_taboola
+##.nya-slot[style]
+##.taboola-above-article
+##.taboola-above-article-thumbnails
+##.taboola-ad
+##.taboola-block
+##.taboola-general
+##.taboola-in-plug-wrap
+##.taboola-item
+##.taboola-widget
+##.taboolaArticle
+##.taboolaHeight
+##.taboola__container
+##.taboola_blk
+##.taboola_container
+##.taboola_lhs
+##.trb_taboola
+##.trc_excludable
+##.trc_rbox
+##.trc_rbox_border_elm
+##.trc_rbox_div
+##.trc_related_container
+##.van_taboola
+##.widget_taboola
+##amp-embed[type="taboola"]
+##div[id^="taboola-stream-"]
 ###block-taboolablock
 ###js-Taboola-Container-0
 ###moduleTaboolaRightRail
@@ -644,7 +655,6 @@
 ###taboola-in-feed-thumbnails
 ###taboola-mid-main-column-thumbnails
 ###taboola-native-right-rail-thumbnails
-###taboola-right-rail
 ###taboola-right-rail-text-right
 ###taboola-right-rail-thumbnails
 ###taboola-right-rail-thumbnails-2nd
@@ -662,6 +672,7 @@
 ##.taboola-bottom-adunit
 ##.taboola-container
 ##.taboola-frame
+##.taboola-inbetweener
 ##.taboola-like-block
 ##.taboola-module
 ##.taboola-recommends
@@ -678,64 +689,6 @@
 ##.trc-spotlight-first-recommendation
 ##.trc_spotlight_item
 ##[data-taboola-options]
-###taboola-mid-article-thumbnails-ii
-###taboola-mobile-article-thumbnails
-###taboola-placeholder
-###taboola-right-rail-express
-###taboola-top-banner-abp
-###taboola_related
-###taboola_responsive_wrapper
-##.ab_taboola
-##.ad-container--taboola
-##.article-body__suppl_content--taboola-mid-article
-##.article-footer--taboola
-##.article-taboola
-##.box-taboola-content
-##.dart-ad-taboola
-##.for-taboola
-##.grid__module-sizer_name_taboola
-##.grv-taboola
-##.nw-taboola
-##.nya-slot[style]
-##.qa-placement-outbrain-under-post-cr
-##.tablet_ad_box
-##.tablet_ad_head
-##.taboola-above-article
-##.taboola-above-article-thumbnails
-##.taboola-ad
-##.taboola-block
-##.taboola-general
-##.taboola-in-plug-wrap
-##.taboola-inbetweener
-##.taboola-item
-##.taboola-left-rail-wrapper
-##.taboola-partnerlinks-ad
-##.taboola-placeholder
-##.taboola-placement
-##.taboola-single-asset-ads
-##.taboola-unit
-##.taboola-widget
-##.taboolaArticle
-##.taboolaHeight
-##.taboola__container
-##.taboola_advertising
-##.taboola_blk
-##.taboola_block1
-##.taboola_container
-##.taboola_lhs
-##.tbl-floating-unit
-##.tncls_taboola
-##.trb_taboola
-##.trc_excludable.syndicatedItem
-##.trc_rbox .syndicatedItem
-##.trc_rbox_border_elm .syndicatedItem
-##.trc_rbox_div .syndicatedItem
-##.trc_rbox_div .syndicatedItemUB
-##.trc_related_container div[data-item-syndicated="true"]
-##.van_taboola
-##.widget_taboola
-##amp-embed[type="taboola"]
-##div[id^="taboola-stream-"]
 ! Gannett https://github.com/easylist/easylist/issues/13015
 ###gnt_atomsnc
 ##.gnt_flp
@@ -1448,6 +1401,14 @@ yahoo.com##div[id^="darla-ad"]
 yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
+! imresizer.com
+imresizer.com##.ad-slot-1-fixed-ad
+imresizer.com##.ad-slot-2-fixed-ad
+imresizer.com##.ad-slot-3-fixed-ad
+! planefinder.net
+planefinder.net###map-ad-container
+! notebookcheck.net
+notebookcheck.net##.nbc-right-float
 ! mlive.com
 mlive.com###below-toprail
 ! bbc.com
