@@ -2,12 +2,14 @@
 ! Ads
 !
 ! Generic blocks
+/advanced-ads-$from=~wordpress.org
 /adservice.$domain=~adservice.io|~github.com|~githubusercontent.com
 /cmbdv2.js
 /display-ad/*
 /greenoaks.gif?
 /discourse-adplugin-
 /porpoiseant/*
+/plugins/advanced-ads/*$from=~wordpress.org
 /webads.
 !
 ! Taboola
@@ -1629,6 +1631,7 @@ autoevolution.com##.bgcutgrad
 /fb-pixel-tracking.js
 /fb-tracking.js
 /fb_pixel_page_view
+/flying-analytics/*
 /figanalytics-short-ttl.js
 /fingerprint.js
 /fingerprint.min.js
