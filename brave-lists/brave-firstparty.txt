@@ -188,6 +188,7 @@
 ##.adBlock
 ##.adBox
 ##.adContent
+##.adElement
 ##.adHeight280
 ##.adHolder
 ##.adMinHeight280
@@ -241,6 +242,8 @@
 ##.advert_container
 ##.advertise_text
 ##.advertisement-holder
+##.ad-wrapper__ad-slug
+##.ad-wrapper--ad-unit-wrap
 ##.ajdg_grpwidgets
 ##.amp-ad-container
 ##.amp-ads
@@ -381,6 +384,7 @@
 ##.pageAdSkinUrl
 ##.pane-sasia-ad
 ##.pmc-adm-boomerang-pub-div
+##.post__article-top-ad-wrapper
 ##.premium_PremiumPlacement__2dEp0
 ##.primis-wrapper
 ##.proper-ad-unit
@@ -1061,6 +1065,8 @@ orilliamatters.com,sootoday.com,time.com,timescolonist.com,vancouverisawesome.co
 storytohear.com,thefamilybreeze.com,thetravelbreeze.com,theworldreads.com,womensmethod.com##.code-block > center p
 ! kokomotribune.com,goshennews.com
 ###floorboard_block
+! fastcompany
+fastcompany.com##.post__promotion
 ! vox.com
 vox.com##.l-leaderboard-slot
 ! planetrugby.com
