@@ -25,7 +25,6 @@
 ||taboolasyndication.com^$third-party
 ! Outbrain
 /obtp.js
-/outbrain.js
 /outbrainAd.
 /outbrain.js
 /ads/outbrain?
@@ -71,7 +70,6 @@
 ###interstory_first_ddb_0
 ###interstory_second_ddb_0
 ###intro_ad_1
-###js-Taboola-Container-0
 ###js-image-ad-mpu
 ###leftrail_dynamic_ad_wrapper
 ###mpu1_parent
@@ -86,12 +84,7 @@
 ###splashy-ad-container-top
 ###story_bottom_ddb_0
 ###story_top_ddb_0
-###taboola-below-article-1
 ###taboola-below-article-thumbnails
-###taboola-below-article-thumbnails-v2
-###taboola-right-rail
-###taboola-right-rail-thumbnails
-###taboola-right-rail-thumbnails-2nd
 ###td-ad-placeholder
 ##.ATF_wrapper
 ##.Ad--empty
@@ -242,8 +235,6 @@
 ##.advert_container
 ##.advertise_text
 ##.advertisement-holder
-##.ad-wrapper__ad-slug
-##.ad-wrapper--ad-unit-wrap
 ##.ajdg_grpwidgets
 ##.amp-ad-container
 ##.amp-ads
@@ -410,10 +401,6 @@
 ##.sticky-ads
 ##.sticky-rail-ad-container
 ##.tablet-ad
-##.taboola
-##.taboola-container
-##.taboola-widget
-##.taboola-wrapper
 ##.tadm_ad_unit
 ##.takeover-ad
 ##.td-a-ad
@@ -649,7 +636,6 @@
 ###possible_taboola
 ###taboola
 ###taboola-above-homepage-thumbnails
-###taboola-below-article-thumbnails
 ###taboola-below-article-thumbnails-2
 ###taboola-below-disco-board
 ###taboola-below-main-column
@@ -754,7 +740,6 @@ $removeparam=ad-config-id,xhr,domain=telequebec.tv
 ||warnermediacdn.com/csm/*conf_csid=$removeparam=conf-csid,xhr,domain=cnn.com
 ! Mgid
 ##div[id*="MarketGid"]
-##div[id*="ScriptRoot"]
 ! Google funding
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ! google.com maps survey
@@ -873,9 +858,6 @@ boingboing.net##.boing-homepage-after-first-article-in-list
 nyctourism.com##.Layout_mobileStickyAdContainer__fCbCq
 ! propublica.org
 propublica.org##.bb-ad
-! sciencealert.com
-sciencealert.com###Purch_D_R_0_1
-sciencealert.com##.ad-desktop\:block
 ! bestlifeonline.com
 bestlifeonline.com##.vi-video-wrapper
 bestlifeonline.com##.inline
@@ -1106,7 +1088,6 @@ channelnewsasia.com##.programtic-ads
 ! express.co.uk
 express.co.uk###ovp-primis
 express.co.uk###taboola-mid-article-thumbnails-outstream
-express.co.uk##.taboola-above-article
 express.co.uk##.viafoura-standalone-mpu
 ! hindustantimes.com
 hindustantimes.com##.adHeight270
@@ -1133,7 +1114,6 @@ thedailybeast.com##.Cheat__top-ad
 thedailybeast.com##.Sizer
 ||thedailybeast.com/static/js/thirdparty.
 ! indianexpress.com
-/taboola-header.
 indianexpress.com##.add-first
 ! fivethirtyeight.com
 fivethirtyeight.com##.master-ad
@@ -1224,7 +1204,6 @@ antiguanewsroom.com,aptoslife.com,aviacionline.com,bohemian.com,carnewschina.com
 ##.td-a-rec-id-custom_ad_5
 ! zycrypto.com
 zycrypto.com##.td-a-rec-id-content_bottom
-zycrypto.com##.td-a-rec-id-custom_ad_2
 ! news.sky.com
 news.sky.com###leaderboard
 news.sky.com##[data-format="leaderboard"]
@@ -1249,8 +1228,6 @@ techrepublic.com##.medusa-list
 ! sciencealert.com
 sciencealert.com###Purch_D_R_0_1
 sciencealert.com##.ad-desktop\:block
-! nbcnews.com
-nbcnews.com##.ad-container
 ! wikihow.com
 wikihow.com##.al_method
 ! wired.com
@@ -1331,7 +1308,6 @@ krebsonsecurity.com###sidebar_ad
 krebsonsecurity.com##.themonic-ad1
 krebsonsecurity.com##.themonic-ad3
 ! theguardian.com#
-theguardian.com##.ad-slot-container
 theguardian.com##.top-banner-ad-container
 ! ft.com
 ft.com##.o-ads
@@ -1341,7 +1317,6 @@ bleepingcomputer.com##.cz-toa-wrapp
 bleepingcomputer.com##.s-ou-wrap
 ! slate.com
 slate.com##.slate-ad
-slate.com##.top-ad
 ! thedrive.com
 thedrive.com##.mtc-header__desktop__article-prefill-container
 ! yahoo.com
@@ -1535,7 +1510,6 @@ theroar.com.au##.pm-ad-unit
 ! worldtestchampionship.com
 worldtestchampionship.com##.mobile-banner
 ! 7news.com.au
-7news.com.au###taboola-mid-article-thumbnails
 7news.com.au##.ad-no-notice
 ! afr.com
 afr.com###stickyLeaderboard
