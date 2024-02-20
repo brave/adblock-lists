@@ -1678,6 +1678,7 @@ autoevolution.com##.bgcutgrad
 /pixel_V2.js
 /pixeljs/*
 /pixelNew.js
+/plugins/duracelltomi-google-tag-manager/*
 /px/client/main.min.js
 /remote-weblab-triggers/*
 /reporting/metrics
