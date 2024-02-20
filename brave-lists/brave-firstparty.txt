@@ -10,6 +10,7 @@
 /discourse-adplugin-
 /porpoiseant/*
 /plugins/advanced-ads/*$domain=~wordpress.org
+/prebid/*$script
 /webads.
 !
 ! Taboola
@@ -1612,6 +1613,7 @@ autoevolution.com##.bgcutgrad
 /analytics-dotcom/*
 /analytics_wbc.
 /analytics_www.
+/analytics.config.js
 /appmeasurement.min.js
 /appmeasurement_module_
 ://cmpworker.
@@ -1676,9 +1678,11 @@ autoevolution.com##.bgcutgrad
 /pixel_V2.js
 /pixeljs/*
 /pixelNew.js
+/plugins/duracelltomi-google-tag-manager/*
 /px/client/main.min.js
 /remote-weblab-triggers/*
 /reporting/metrics
+/r.rnc?
 /rum_cmp?
 /ruxitagentjs_
 /s.gif?
@@ -1687,8 +1691,10 @@ autoevolution.com##.bgcutgrad
 /smetrics.*/id?
 /track?eventkey=
 /transparent.gif?ray=
+/trackjs.$domain=~trackjs.com
 /uedata?
 /unagi.amazon.
+/visitoridentification.js
 /.well-known/shopify/monorail
 /wa.gif?
 /web-pixel-shopify-app-pixel@
@@ -1981,6 +1987,8 @@ redtube.com,redtube.com.br,youporn.com##+js(set-constant, page_params.holiday_pr
 ! figma.com
 /?sentry_key=
 /web_logger/*
+! play.google.com
+||play.google.com/log
 ! kijiji.ca
 kijiji.ca##.adChoices-804693302
 kijiji.ca##.gqNGFh
@@ -1996,6 +2004,8 @@ latimes.com##.revcontent
 ! newatlas.com
 /brightspot/analytics/*
 /bsp-analytics.
+! theguardian.com
+||ophan.theguardian.com^
 ! nypost.com
 /blaize/datalayer
 ||t.nypost.com^
