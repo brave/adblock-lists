@@ -102,6 +102,10 @@
 ##.NavBarAd
 ##.PageTopAd
 ##.SimpleAd
+###banner-ad
+##.ads-label
+##.banner-ad
+##.ad-block
 ##.ad--banner
 ##.ad--billboard
 ##.ad--container
@@ -118,6 +122,9 @@
 ##.ad-article-inline
 ##.ad-background
 ##.ad-banner-wrapper
+##.horizontal-full-ad
+##.sidebar-square-ad
+##.ad-label
 ##.ad-callout-wrapper
 ##.ad-caption
 ##.ad-center
@@ -407,6 +414,9 @@
 ##.td-ad
 ##.td-ad-m
 ##.td-ad-p
+##.nn_mobile_mpu_wrapper
+##.static_mpu_wrap
+##.BeOpWidget
 ##.td-ad-tp
 ##.td-adspot-title
 ##.tmo-ad
@@ -474,6 +484,7 @@
 ##.ac-lre-wrapper
 ##.ad-container--hot-video
 ##.ae-player__itv
+##.nts-video-wrapper
 ##.aniview-inline-player
 ##.aplvideo
 ##.article-connatix-wrap
@@ -1034,7 +1045,7 @@ ndtv.com,ndtv.in##[class^="firework"]
 ndtv.com,ndtv.in##[id^="firework"]
 ndtv.com##div[class^="add_"]
 ! .ad
-404media.co,arstechnica.com,autoevolution.com,barchart.com,barstoolsports.com,bleacherreport.com,cnn.com,elpais.com,flightglobal.com,foxbusiness.com,foxnews.com,foxweather.com,ktbs.com,news.sky.com,newsday.com,nj.com,politico.com,seattletimes.com,skynews.com.au,sny.tv,time.com,usnews.com,vanityfair.com,wired.com##.ad
+thedigitalfix.com,404media.co,arstechnica.com,autoevolution.com,barchart.com,barstoolsports.com,bleacherreport.com,cnn.com,elpais.com,flightglobal.com,foxbusiness.com,foxnews.com,foxweather.com,ktbs.com,news.sky.com,newsday.com,nj.com,politico.com,seattletimes.com,skynews.com.au,sny.tv,time.com,usnews.com,vanityfair.com,wired.com##.ad
 ! .ad-container
 12news.com,9news.com,9to5google.com,9to5mac.com,aad.org,advfn.com,all3dp.com,allaboutcookies.org,allnovel.net,athleticbusiness.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,biznews.com,bolavip.com,businessinsider.com,cbs8.com,cc.com,ccjdigital.com,computerworld.com,delish.com,driven.co.nz,ecr.co.za,electrek.co,engineeringnews.co.za,equipmentworld.com,etcanada.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,globalspec.com,gmanetwork.com,grammarbook.com,hbr.org,howstuffworks.com,huffpost.com,insidehook.com,insider.com,intouchweekly.com,khou.com,koat.com,ktvu.com,lifeandstylemag.com,macstories.net,mail.com,mangakakalot.app,memuplay.com,metro.us,metrophiladelphia.com,miningweekly.com,mixed-news.com,mobilesyrup.com,modernhealthcare.com,msnbc.com,my9nj.com,nbcnews.com,newrepublic.com,nzherald.co.nz,oneesports.gg,opb.org,papermag.com,physiology.org,pixiv.net,punchng.com,realsport101.com,reason.com,refinery29.com,roadandtrack.com,scroll.in,seattletimes.com,slideshare.net,songkick.com,sportskeeda.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,themarketherald.ca,tmz.com,toofab.com,uploadvr.com,usmagazine.com,vanguardngr.com,wogx.com,wral.com##.ad-container
 ! .adBanner
@@ -1071,8 +1082,6 @@ nbcsports.com###nbcsports-leaderboard
 paulickreport.com##.s-teleaderboard-ad
 ! sportskeeda.com
 sportskeeda.com##.primis-container
-! .ad-block
-bloodhorse.com,racingdudes.com##.ad-block
 ! courthousenews.com
 courthousenews.com##.ad-banner
 ! nasdaq.com
@@ -1117,6 +1126,13 @@ thedailybeast.com##.Sizer
 indianexpress.com##.add-first
 ! fivethirtyeight.com
 fivethirtyeight.com##.master-ad
+! dailykos.com
+dailykos.com##.story-banner-ad-placeholder
+dailykos.com##.ad__placeholder
+! newsnow.co.uk
+||newsnow.co.uk/pharos.js
+newsnow.co.uk##.skyscraper-left
+##[id^="ad_sky"]
 ! Twitter ad cosmetic element
 twitter.com##.promoted-account
 twitter.com##.promotion
