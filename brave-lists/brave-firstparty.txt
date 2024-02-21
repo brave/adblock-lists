@@ -136,7 +136,6 @@
 ##.ad-header-pencil
 ##.ad-incontent
 ##.ad-inline
-##.ad-label
 ##.ad-lead
 ##.ad-leaderboard
 ##.ad-left-top
@@ -484,6 +483,7 @@
 ##.ac-lre-wrapper
 ##.ad-container--hot-video
 ##.ae-player__itv
+##.nts-ad
 ##.nts-video-wrapper
 ##.aniview-inline-player
 ##.aplvideo
@@ -1152,7 +1152,7 @@ jpost.com##.line-one-row-before-and-after-container
 jpost.com##.right-side-banner
 ! msn.com
 msn.com###displayAdCard
-msn.com###div[id^="mrr-topad-"]
+msn.com##div[id^="mrr-topad-"]
 msn.com###partners
 msn.com###promotions
 msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
