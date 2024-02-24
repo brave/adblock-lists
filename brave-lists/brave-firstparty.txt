@@ -13,7 +13,6 @@
 /plugins/advanced-ads/*$domain=~wordpress.org
 /prebid/*$script
 /webads.
-!
 ! Taboola
 /taboola-header.js
 /taboola.js
@@ -99,6 +98,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###story_top_ddb_0
 ###taboola-below-article-thumbnails
 ###td-ad-placeholder
+###vidazoo-player
 ##.ATF_wrapper
 ##.Ad--empty
 ##.AdBox
@@ -147,6 +147,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-footer
 ##.ad-giga
 ##.ad-header-pencil
+##.ad-holder
 ##.ad-incontent
 ##.ad-inline
 ##.ad-lead
@@ -159,6 +160,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-mpu
 ##.ad-mrec
 ##.ad-overlay
+##.ad-panel
 ##.ad-placeholder
 ##.ad-rail
 ##.ad-rectangle
@@ -179,6 +181,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-space
 ##.ad-splash
 ##.ad-sponsor
+##.ad-sticky
 ##.ad-sticky-banner
 ##.ad-stickyhero
 ##.ad-stickyhero--standard
@@ -240,11 +243,12 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.adsbytrafficjunky
 ##.adslot
 ##.adslot970
-##.adsninja-ad-zone
+##div.adsninja-ad-zone
 ##.adtester-container
 ##.adthrive
 ##.adthrive-ad
 ##.adthrive-content
+##.adwidget
 ##.adun
 ##.adunitContainer
 ##.advert--header
@@ -284,6 +288,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.cnx-player-wrapper
 ##.collapsed-ad
 ##.column-ad
+##.connatix-main-container
 ##.content-ad
 ##.crain-advertisement
 ##.dac__banner__wrapper
@@ -329,6 +334,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.index-module_rightrailTop__mag4
 ##.index-module_rightrailBottom__IJEl
 ##.index-module_adBeforeContent__AMXn
+##.ipc-advert
 ##.ima-ad-container
 ##.image-viewer-ad
 ##.image-viewer-mpu
@@ -349,6 +355,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.js_desktop-horizontal-ad
 ##.js_midbanner_ad_slot
 ##.js_related-stories-inset
+##.js_modal_exit_intent
 ##.js_sticky-top-ad
 ##.lastAdSlot
 ##.latestStoriesAd
@@ -396,12 +403,14 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.pageAdSkinUrl
 ##.pane-sasia-ad
 ##.pmc-adm-boomerang-pub-div
+##.post_detail_right_advert
 ##.post__article-top-ad-wrapper
 ##.premium_PremiumPlacement__2dEp0
 ##.primis-wrapper
 ##.proper-ad-unit
 ##.queue_ad
 ##.rail-ads-1
+##.recent-ad
 ##.rhsWidgetNotAdFree
 ##.right-column-ad
 ##.rightAd
@@ -430,6 +439,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.td-ad-p
 ##.nn_mobile_mpu_wrapper
 ##.static_mpu_wrap
+##.squirrel_widget
 ##.BeOpWidget
 ##.td-ad-tp
 ##.td-adspot-title
@@ -438,6 +448,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.tnt-ads
 ##.tnt-ads-container
 ##.top-ad
+##.top-advert
 ##.top-ad-block
 ##.top-ad-wrapper
 ##.top-ads-container
@@ -994,9 +1005,20 @@ the-scientist.com##.footer-ad
 ! gizmochina.com
 gizmochina.com##.adsbygoogle
 ! dexerto.com
-dexerto.com###\#primisplayer
-dexerto.com##.bg-neutral-grey-4.items-center
-dexerto.com##.top-10
+charlieintel.com,dexerto.com##.Ad_ad__SqDQA
+charlieintel.com,dexerto.com##.bg-neutral-grey-4.items-center
+charlieintel.com,dexerto.com##.bg-neutral-grey.justify-center
+charlieintel.com,dexerto.com##.text-center.italic
+charlieintel.com,dexerto.com##.top-0.justify-center
+charlieintel.com,dexerto.com##.top-10
+! trustedreviews.com
+trustedreviews.com##.keystone-single-widget
+! stuff.tv
+stuff.tv##.c-ad--leftpageskin
+stuff.tv##.c-ad--mpu-bottom
+stuff.tv##.c-ad--mpu-top
+stuff.tv##.c-ad--rightpageskin
+stuff.tv##.c-freestar-video-ad__container
 ! arstechnica.com
 arstechnica.com##.ad_crown
 arstechnica.com##.ad_fullwidth
@@ -1564,7 +1586,31 @@ timesofindia.com##div[id^="custom_ad_"]
 gadgetsnow.com##._1edxh
 gadgetsnow.com##._1pjMr
 gadgetsnow.com##.colombia
-gadgetsnow.com##.dfp
+! pastemagazine.com
+pastemagazine.com###above_logo
+pastemagazine.com###middle_rectangle
+pastemagazine.com###top_leaderboard
+pastemagazine.com###top_rectangle
+! .dfp
+gadgetsnow.com,nationaljeweler.com,pastemagazine.com,theonion.com##.dfp
+! urbandictionary.com
+urbandictionary.com##.mb-4.justify-center
+! globalnews.ca
+globalnews.ca##.c-ad
+globalnews.ca##.c-adChoices
+globalnews.ca##.c-stickyRail
+##section#headerAd
+! lawandcrime.com
+lawandcrime.com,mediaite.com##.o-promo-unit
+lawandcrime.com,themarysue.com##.promo-unit
+lawandcrime.com,mediaite.com##.sidebar-hook
+! forum.nasaspaceflight.com
+forum.nasaspaceflight.com##[style="text-align:center; margin-bottom:30px;"]
+! .zad
+ign.com,mashable.com,pcmag.com##.zad
+! mmorpg.com
+mmorpg.com###mmorpg_desktop_list_1
+mmorpg.com###mmorpg_desktop_list_3
 ! dailyfx.com
 dailyfx.com##.dfx-adBlock1Wrapper
 ! forexlive.com
@@ -1583,13 +1629,17 @@ marketwatch.com##.sponsored-content
 ! gameshub.com
 gameshub.com##.ads-slot
 ! mashable.com
-mashable.com###footer-1
-mashable.com###main-1
-mashable.com###sidebar-1
-mashable.com###sidebar-2
-mashable.com###top-1
-mashable.com##.zmgad-full-width
-mashable.com##[data-pogo="top"]
+mashable.com##.exco
+mashable.com##.top-0.sticky > div
+mashable.com##section.mt-4 > div
+! kotaku.com
+kotaku.com##.japmJB
+! timesofindia.indiatimes.com
+timesofindia.indiatimes.com##.CeUoi
+timesofindia.indiatimes.com##.mgid_second_mrec_parent
+timesofindia.indiatimes.com##.paisa-wrapper
+timesofindia.indiatimes.com##.relatedVideoWrapper
+timesofindia.indiatimes.com##[data-aff-type]
 ! marketscreener.com
 marketscreener.com###zppMiddle2
 marketscreener.com###zppRight2
