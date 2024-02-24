@@ -440,7 +440,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.td-ad-p
 ##.nn_mobile_mpu_wrapper
 ##.static_mpu_wrap
-##.squirrel_widge##.squirrel_widget:t
+##.squirrel_widget
 ##.BeOpWidget
 ##.td-ad-tp
 ##.td-adspot-title
