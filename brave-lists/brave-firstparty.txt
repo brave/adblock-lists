@@ -13,7 +13,6 @@
 /plugins/advanced-ads/*$domain=~wordpress.org
 /prebid/*$script
 /webads.
-!
 ! Taboola
 /taboola-header.js
 /taboola.js
