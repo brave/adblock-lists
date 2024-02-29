@@ -1863,6 +1863,21 @@ autoevolution.com##.bgcutgrad
 /tags.js?org_id=
 ! Exception rules
 @@||suumo.jp/sp/js/beacon.js$script,~third-party
+@@||helix.videotron.com/js/api/fingerprint.js$~third-party
+@@||timvision.it/libs/fingerprint/fingerprint.js
+@@||ignitetv.shaw.ca/js/api/fingerprint.js$~third-party
+@@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
+@@||xfinity.com/stream/js/api/fingerprint.js$~third-party
+@@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
+@@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
+@@||gamerch.com/s3-assets/library/js/fingerprint2.min.js?$script,~third-party
+@@||polfan.pl/app/vendor/fingerprint2.min.js$~third-party
+@@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
+@@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
+@@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
+@@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
+@@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
+@@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 ! CNAME: account.adobe.com
 @@||account.adobe.com^
 ! CNAME: pol.dk
