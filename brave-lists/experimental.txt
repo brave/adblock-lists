@@ -3,12 +3,9 @@
 ! Discussion: https://github.com/brave/brave-browser/issues/36244#issuecomment-1955943465
 ||googlevideo.com/videoplayback*ctier=L&*%2Cctier%2C
 
-! From: https://github.com/AdguardTeam/AdguardFilters/pull/172178
-! Discussion: https://github.com/brave/brave-browser/issues/36244#issuecomment-1958614052
-www.youtube.com##+js(trusted-replace-fetch-response, /"auxiliaryUi":\{"messageRenderers":\{"bkaEnforcementMessageViewModel.*?e\}\}\}\,/, , player?)
-www.youtube.com##+js(trusted-replace-fetch-response, /("trackingParam":"kx_fmPxhoPZR)[-_0-9A-Za-z]{150}[-_0-9A-Za-z]+?([-_0-9A-Za-z]{43}BwOcCE59TDtslLKPQ-SS"\})/, $1$2, player?)
-www.youtube.com##+js(trusted-replace-xhr-response, /"auxiliaryUi":\{"messageRenderers":\{"bkaEnforcementMessageViewModel.*?e\}\}\}\,/, , player?)
-www.youtube.com##+js(trusted-replace-xhr-response, /("trackingParam":"kx_fmPxhoPZR)[-_0-9A-Za-z]{150}[-_0-9A-Za-z]+?([-_0-9A-Za-z]{43}BwOcCE59TDtslLKPQ-SS"\})/, $1$2, player?)
+! counter page visibility checks on youtube.com/twitch
+youtube.com##+js(brave-video-bg-play)
+youtube.com,twitch.tv##+js(brave-disable-pageview-api)
 !
 ! Google precision popup
 www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##.gTMtLb.fp-nh[style="visibility: visible;"]
