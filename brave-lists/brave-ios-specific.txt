@@ -16,19 +16,24 @@
 @@||ingest.sentry.io/api/$xhr,domain=twitch.tv
 @@||reporting.cdndex.io^$xhr,domain=twitch.tv
 
-! youtubevanced.com
-||mordoops.com^
-||gloaphoo.net^
-||optyruntchan.com^
-||vmxqgmefynoep.xyz^
-||cdnativepush.com^
-||fleraprt.com^
-||tzegilo.com^
+! https://attackertv.so/ 
+||asccdn.com^
+||inpagepush.com^
+||tapewherever.com^
+||forfeitsubscribe.com^
+||worstideatum.com^
+||blockadsnot.com^
+||dnhfi5nn2dt67.cloudfront.net^
+||onclickalgo.com^
+||onclickperformance.com^
+||onclickgenius.com^
+
 
 ! generic blocks
 /script/utils.js$script,third-party
 /script/suv5.js
 /script/suurl5.php
+/script/suurl.php
 /script/ut.js?cb=
 /d3.php?m=
 
