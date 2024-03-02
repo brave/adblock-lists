@@ -82,8 +82,6 @@ crunchyroll.com##+js(set-local-storage-item, /_evidon_consent_ls_\d+/, $remove$)
 ||trackersimulator.org^
 ||eviltracker.net^
 ||do-not-tracker.org^
-! block scripts that profile user behavior using password managers
-@@||api.huobi.pro^$domain=www.huobi.pro
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
 ! GPC issues 
@@ -183,8 +181,6 @@ youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 jcrew.com##+js(cookie-remover.js, dns_cookie)
 ! Fix sign in icon on https://app.mysms.com/#login
 @@||developers.google.com/identity/$image,domain=mysms.com
-! vresp.com (https://community.brave.com/t/cant-see-captcha-on-form/67187)
-@@||captcha.vresp.com^$domain=lawfirmkpi.com
 ! Adservers (ios)
 ||pixfuture.com^$third-party
 ||taboola.com^$third-party
@@ -333,8 +329,6 @@ developpez.com##+js(acis, document.getElementById, cookie)
 pushsquare.com##+js(aopr, _sp_._networkListenerData)
 ! Anti-adblock message gamingsinners.com,grandoldteam.com
 gamingsinners.com,grandoldteam.com##+js(acis, $, test)
-! anti adb warning the-food-story. com 
-the-food-story.com##+js(aost, String.prototype.charCodeAt, ai_)
 ! https://github.com/uBlockOrigin/uAssets/issues/9878
 hendersonville.com##.adblock-detected
 ! https://github.com/uBlockOrigin/uAssets/issues/9666 
@@ -432,8 +426,6 @@ northwestfirearms.com,techkings.org##+js(set, samDetected, true)
 cafesaxophone.com##+js(aopw, XF)
 ! https://github.com/uBlockOrigin/uAssets/issues/3908
 @@||enfsolar.com^$ghide
-! https://github.com/uBlockOrigin/uAssets/issues/3905
-hayum.in##+js(set, detectAdBlock, noopFunc)
 ! https://github.com/uBlockOrigin/uAssets/issues/3901
 bronze-bravery.com,ultimate-bravery.net##+js(nostif, (), 2000)
 ! https://github.com/uBlockOrigin/uAssets/issues/3900
@@ -634,12 +626,12 @@ kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissan
 kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co##+js(acis, JSON.parse, break;case $.)
 kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co##+js(window.open-defuser)
 ! uBO-domain wildcard workaround kissasian
-kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(acis, String.fromCharCode, /btoa|break/)
-kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(acis, JSON.parse, break;case $.)
-kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(window.open-defuser)
-kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(aeld, /^(?:click|mousedown)$/, _0x)
-kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(nostif, (), 45000)
-kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.li,kissasian.es##+js(set, check_adblock, true)
+kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.es##+js(acis, String.fromCharCode, /btoa|break/)
+kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.es##+js(acis, JSON.parse, break;case $.)
+kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.es##+js(window.open-defuser)
+kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.es##+js(aeld, /^(?:click|mousedown)$/, _0x)
+kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.es##+js(nostif, (), 45000)
+kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.es##+js(set, check_adblock, true)
 @@||kissasian.pe^$ghide
 @@||kissasian.li^$ghide
 @@||kissasian.fan^$ghide
@@ -653,8 +645,8 @@ timesunion.com##+js(aopw, blueConicPreListeners)
 ! Hide ads in standard blocking mode
 kimcartoon.si,9animes.ru,kisscartoon.sh,kimcartoon.li,kisscartoon.nz,kissanime.com.ru,kissanime.sx,kissanime.org.ru,kissanime.co,gogoanime.gs,animesuge.to,kissasian.pe,kissasian.li,kissasian.fan,kissasian.com.ru,kissasian.es##div[style*="position:relative;text-align:"]
 ! uBO-domain wildcard workaround tube8/pornhub
-redtube.camp,redtube.com,redtube.net##+js(acis, Object.defineProperty, trafficjunky)
-redtube.camp,redtube.com,redtube.net##+js(set, page_params.holiday_promo, true)
+redtube.com,redtube.net##+js(acis, Object.defineProperty, trafficjunky)
+redtube.com,redtube.net##+js(set, page_params.holiday_promo, true)
 tube8.com,tube8.es,tube8.fr##+js(acis, Object.defineProperty, trafficjunky)
 tube8.com,tube8.es,tube8.fr##+js(aeld, , _0x)
 tube8.com,tube8.es,tube8.fr##+js(aopw, IS_ADBLOCK)
@@ -665,7 +657,7 @@ pornhub.com,pornhubthbh7ap3u.onion##.premiumPromoBanner
 pornhub.com,pornhubthbh7ap3u.onion###pb_template
 pornhub.com##+js(set, page_params.holiday_promo, true)
 ! uBO-domain wildcard workaround animepahe.com/mmkvcage.site/pahe.li
-animepahe.com,mmkvcage.site,pahe.li##+js(aopw, _pop)
+animepahe.com,pahe.li##+js(aopw, _pop)
 animepahe.com,kwik.cx##+js(acis, String.fromCharCode, 'shift')
 animepahe.com,kwik.cx##+js(aopr, open)
 animepahe.com,kwik.cx##+js(aopr, PopAds)
@@ -766,9 +758,6 @@ davidstea.com,ibotta.com,polovniautomobili.com##+js(rc, async-hide, , stay)
 @@||timesofindia.com/acms/$xmlhttprequest,domain=timesofindia.com
 ! /track/view| fix for amazon tracking
 @@||amazon.*/shiptrack/view.html$~third-party
-! Anti-adblock: Instart
-||vxq18c.g02.ign.com^$script,domain=ign.com
-||earzxzsl.g02.ign.com^$subdocument,domain=ign.com
 ! ebay.co.uk + ebay.com and other ebay regions (https://github.com/brave/brave-browser/issues/5019)
 @@||ebay.com/experience/listing_auto_complete/$xmlhttprequest
 ! ebay image upload issue (https://github.com/brave/brave-browser/issues/5190)
@@ -831,8 +820,6 @@ blockadblock.com##+js(nobab)
 @@||geoguessr.com/_ads/$script,xmlhttprequest,domain=geoguessr.com
 ! thehindu.com (https://github.com/brave/brave-browser/issues/4808)
 @@||thgim.com/static/js/ads.min.js$script,domain=thehindu.com
-! gifycat.com ads (https://community.brave.com/t/pages-loads-3rd-party-ads-after-page-loads/71472/10)
-||ga.gfycat.com^$script,domain=gfycat.com
 ! *#@#div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
 ! Anti-adblock kbizoom.com
 mylivewallpapers.com,nsw2u.com,kbizoom.com##div.adsbygoogle.Ad-Container.sidebar-ad:style(display:block !important)
@@ -940,7 +927,6 @@ cube365.net##+js(aopr, bootbox.alert)
 ||bosspush.com^$third-party
 ||browserpusher.com^$third-party
 ||cdn-sitegainer.com^$third-party
-||centrpush.com^$third-party
 ||cleverpush.com^$third-party
 ||copush.com^$third-party
 ||cracataum.com^$third-party
@@ -1016,7 +1002,6 @@ modalina.jp##+js(aopr, AdBlockLimitation)
 ||r10s.jp/com/rat/js/rat-main.js
 ||yomiuri.co.jp/media/2019/06/190530_1000x240_B-002.jpg
 ||ismedia.jp/common/money-gendai/images/header/sponsored.png
-||addlv.smt.docomo.ne.jp^$third-party
 ||chosunonline.com/common/ifr01/$subdocument
 ||top.bcdn.jp/i/hd_banner/
 ||estlier.net^$third-party
