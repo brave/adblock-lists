@@ -331,6 +331,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.google-dfp-ad-wrapper
 ##.gpt-ad
 ##.gpt-ad-container
+##.gpt-ad-wrapper
 ##.gpt-breaker-container
 ##.header-ad
 ##.header-ad-region
@@ -431,6 +432,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.right_ad_4
 ##.rj-ads-wrapper
 ##.section-ad
+##.side_ads
 ##.side-ad
 ##.sidebar-ad-container
 ##.single-post-ad
@@ -450,6 +452,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.td-ad
 ##.td-ad-m
 ##.td-ad-p
+##.block-quartz-ads
 ##.nn_mobile_mpu_wrapper
 ##.static_mpu_wrap
 ##.squirrel_widget
@@ -807,8 +810,6 @@ $removeparam=ad-config-id,xhr,domain=telequebec.tv
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ! (admiral script) Imported from uBO
 ||baeldung.com/*/ad-recovery.$script,1p
-! chicagodefender.com
-chicagodefender.com##.g
 ! counterpunch.org
 counterpunch.org##.header-center
 ! nn_astro_wrapper
@@ -1003,7 +1004,6 @@ rawstory.com###story-top-ad
 rawstory.com##.container_proper-ad-unit
 rawstory.com##.connatix-hodler
 ! 9gag
-9gag.com##.billboard
 9gag.com##article:has(.promoted)
 ! distractify.com
 distractify.com,greenmatters.com,inquisitr.com,okmagazine.com,radaronline.com##.dpbdIG
@@ -1137,6 +1137,26 @@ mysanantonio.com,seattlepi.com,sfgate.com##.b-gray300.md\:bt
 mysanantonio.com,sfgate.com##.x100.bg-gray100
 chron.com,seattlepi.com,sfchronicle.com,timesunion.com##[data-block-type="ad"]
 chron.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.bg-gray100.mb32
+! sfchronicle.com
+sfchronicle.com##div[class^="ad-module-"]
+! androidauthority.com
+androidauthority.com##.--_-___Yb
+androidauthority.com##.--_-___mb
+! foxweather.com
+foxweather.com##.sticky-pre-content
+! iflscience.com
+iflscience.com##.trendmd-container
+! ebar.com
+ebar.com###skin-right
+ebar.com###skin-left
+! .Ad
+buzzfeed.com,imgur.io,iotworldtoday.com,sevendaysvt.com,tasty.co,tucsonweekly.com##.Ad
+! .billboard
+9gag.com,bundesliga.com,hotstar.com,scotsman.com,talksport.com,the-sun.com,thescottishsun.co.uk,thesun.co.uk,thesun.ie##.billboard
+! .g
+aframnews.com,afro.com,aurn.com,aviacionline.com,borneobulletin.com.bn,businessday.ng,businessofapps.com,chicagodefender.com,chimpreports.com,coinweek.com,collive.com,coralspringstalk.com,dailynews.co.zw,dailysport.co.uk,dallasvoice.com,defence-industry.eu,draxe.com,gatewaynews.co.za,gayexpress.co.nz,gematsu.com,islandecho.co.uk,jacksonvillefreepress.com,mediaplaynews.com,moviemaker.com,newpittsburghcourier.com,nondoc.com,richmondshiretoday.co.uk,sammobile.com,savannahtribune.com,spaceref.com,talkers.com,talkradioeurope.com,thegolfnewsnet.com,waamradio.com,womensagenda.com.au##.g
+! thefastmode.com
+thefastmode.com##.takeover
 ! ndtv.com
 ndtv.com##.add-section
 ndtv.com##.add-wrp
