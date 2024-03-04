@@ -1665,7 +1665,7 @@ worldtestchampionship.com##.mobile-banner
 afr.com###stickyLeaderboard
 ! france24.com
 france24.com##.m-block-ad
-france24.com##.m-interstitial
+france24.com##[data-tms-ad-container]
 ! timesofisrael.com
 timesofisrael.com##.banner-placeholder
 ! timesofindia.com
