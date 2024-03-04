@@ -31,6 +31,8 @@
 ||capaciousdrewreligion.com^
 ||friendshipmale.com^
 ||carpfreshtying.com^
+||profitablegatecpm.com^
+
 
 ! generic blocks
 /script/utils.js$script,third-party
