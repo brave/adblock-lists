@@ -27,7 +27,10 @@
 ||onclickalgo.com^
 ||onclickperformance.com^
 ||onclickgenius.com^
-
+||proftrafficcounter.com^
+||capaciousdrewreligion.com^
+||friendshipmale.com^
+||carpfreshtying.com^
 
 ! generic blocks
 /script/utils.js$script,third-party
@@ -36,6 +39,10 @@
 /script/suurl.php
 /script/ut.js?cb=
 /d3.php?m=
+/sbar.json?key=
+/pixel/sbe?
+/pixel/purst?
+/pixel/pure
 
 ! https://github.com/easylist/easylist/commit/d3a2c54ac
 @@||app.posthog.com/decide/
