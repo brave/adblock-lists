@@ -92,6 +92,8 @@ weather.com##+js(set, navigator.globalPrivacyControl, false)
 maxroll.gg##+js(trusted-set-local-storage-item, adBlockWarning, '{"value":true}')
 ! Scroll bar-consent
 collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !important;)
+! open-in-app reddit nag
+reddit.com##+js(trusted-set-local-storage-item, xpromo-consolidation, $currentDate$)
 ! Fix preloader (facebook check)
 igniteunmc.com##.preloader
 ! youtube.com improve blocking
