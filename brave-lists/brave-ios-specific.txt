@@ -32,7 +32,9 @@
 ||friendshipmale.com^
 ||carpfreshtying.com^
 ||profitablegatecpm.com^
-
+||cloudimagesb.com^
+||inbbredraxing.com^
+||yellow-resultsbidder.com^
 
 ! generic blocks
 /script/utils.js$script,third-party
@@ -43,8 +45,12 @@
 /d3.php?m=
 /sbar.json?key=
 /pixel/sbe?
+/pixel/nvrwe?
 /pixel/purst?
 /pixel/pure
+/impr.gif?
+/ren.gif?
+/ntv.json?key=
 
 ! https://github.com/easylist/easylist/commit/d3a2c54ac
 @@||app.posthog.com/decide/
