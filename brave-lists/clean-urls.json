@@ -28,6 +28,10 @@
 
         ],
         "params": [
+            "dib",
+            "dib_tag",
+            "keywords",
+            "th",
             "content-id",
             "linkCode",
             "tag",
