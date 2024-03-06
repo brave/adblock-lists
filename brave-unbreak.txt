@@ -94,6 +94,9 @@ maxroll.gg##+js(trusted-set-local-storage-item, adBlockWarning, '{"value":true}'
 collegeconfidential.com##body:style(overflow: auto !important; max-height: 1px !important;)
 ! open-in-app reddit nag
 reddit.com##+js(trusted-set-local-storage-item, xpromo-consolidation, $currentDate$)
+! fingerprinting issues, login text not showing on homepage
+ba.com,britishairways.com##+js(set-cookie, publicRefreshToken, 1)
+ba.com,britishairways.com##+js(set-cookie, publicAccessToken, 1)
 ! Fix preloader (facebook check)
 igniteunmc.com##.preloader
 ! youtube.com improve blocking
