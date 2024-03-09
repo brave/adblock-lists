@@ -24,6 +24,8 @@
 ||worstideatum.com^
 ||blockadsnot.com^
 ||dnhfi5nn2dt67.cloudfront.net^
+||d36zfztxfflmqo.cloudfront.net^
+||dantbritingd.club^
 ||onclickalgo.com^
 ||onclickperformance.com^
 ||onclickgenius.com^
@@ -52,6 +54,8 @@
 /ren.gif?
 /ntv.json?key=
 .com/watch.*&kw=$third-party
+/invoke.js$domain=fmovies2.me|f-movie.org|f-movies.click
+fmovies.co###ics
 
 ! https://github.com/easylist/easylist/commit/d3a2c54ac
 @@||app.posthog.com/decide/
