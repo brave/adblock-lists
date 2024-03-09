@@ -51,6 +51,7 @@
 /impr.gif?
 /ren.gif?
 /ntv.json?key=
+.com/watch.*&kw=$third-party
 
 ! https://github.com/easylist/easylist/commit/d3a2c54ac
 @@||app.posthog.com/decide/
