@@ -62,6 +62,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###admobilemiddle
 ###admobiletop
 ###admobiletopinside
+###adslot1
 ###adslot300x250ATF
 ###adslot300x250BTF
 ###advert-article
@@ -112,6 +113,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.AdModule
 ##.AdSense
 ##.AdSlot
+##.adsHeight300x250
+##.adsSticky
 ##.AdvertWrapper
 ##.BoxRail-ad
 ##.ConnatixAd
@@ -304,6 +307,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.cnx-player-wrapper
 ##.collapsed-ad
 ##.column-ad
+##.container__ad
 ##.connatix-main-container
 ##.content-ad
 ##.crain-advertisement
@@ -340,6 +344,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gpt-ad-wrapper
 ##.gpt-breaker-container
 ##.header-ad
+##.headerAds250
 ##.header-ad-region
 ##.header-and-footer--banner-ad
 ##.hide-ad
@@ -357,6 +362,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.image-viewer-ad
 ##.image-viewer-mpu
 ##.index-module_adBeforeContent__UYZT
+##.inline-ad
 ##.inline-ad-container
 ##.ins_adwrap
 ##.insert_ad_column
@@ -438,6 +444,10 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.right_ad_1
 ##.right_ad_2
 ##.right_ad_4
+##.right-rail-ad
+##.row-ad
+##.right-rail-ad
+##.right-rail-ad-container
 ##.rj-ads-wrapper
 ##.section-ad
 ##.side_ads
@@ -480,6 +490,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.top-ads-container
 ##.top-banner-advert
 ##.topbannerAd
+##.tnw-ad
 ##.upx-ad-placeholder
 ##.vertical-ad
 ##.vf-promo-gtag
@@ -527,8 +538,10 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ! Specific generic
 ##div.adsninja-ad-zone
+##div.bgr-ad-leaderboard
 ##div.proper-ad-unit
 ##div.rs_ad_block
+##div.header-ad-container
 ! (invideo advertising)
 ###Player_Playoncontent
 ###aniview--player
@@ -1158,6 +1171,7 @@ chron.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,
 ! sfchronicle.com
 sfchronicle.com##div[class^="ad-module-"]
 ! androidauthority.com
+androidauthority.com##.--_-___r
 androidauthority.com##.--_-___Yb
 androidauthority.com##.--_-___mb
 ! foxweather.com
@@ -1226,6 +1240,23 @@ paulickreport.com##.s-teleaderboard-ad
 sportskeeda.com##.primis-container
 ! courthousenews.com
 courthousenews.com##.ad-banner
+! bgr.com
+bgr.com##.bg-black
+! mindbodygreen.com
+mindbodygreen.com##.sc-10p0iao-0
+! healthline.com/medicalnewstoday.com etc
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-ad]
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[style*="line-height: 0;"]
+healthline.com###DMR1__slot
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##.css-11k39sg
+healthline.com##.css-12efcmn
+healthline.com##.css-1d8h8gm
+healthline.com,medicalnewstoday.com##.css-1wm8u43
+healthline.com##.css-umsscj
+! gearpatrol.com
+gearpatrol.com##.gearpatrol-ad
+gearpatrol.com##.wp-block-gearpatrol-ad-slot
 ! nasdaq.com
 nasdaq.com##.ads-placeholder
 nasdaq.com##.ads__inline
@@ -1247,6 +1278,10 @@ hindustantimes.com##.adMinHeight313
 hindustantimes.com##.desktopAd
 hindustantimes.com##.right-top-ad
 hindustantimes.com##.storyAd
+! tech.hindustantimes.com
+tech.hindustantimes.com##.adsHeight720x90
+tech.hindustantimes.com##.adsHeight720x90
+tech.hindustantimes.com##.topGadgetsAppend
 ! eurogamer.net,rockpapershotgun.com,vg247.com
 eurogamer.net,rockpapershotgun.com,vg247.com###sticky_leaderboard
 ! dailymail.co.uk
