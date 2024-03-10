@@ -37,6 +37,7 @@
 ||cloudimagesb.com^
 ||inbbredraxing.com^
 ||yellow-resultsbidder.com^
+||rndskittytor.com^
 
 ! generic blocks
 /script/utils.js$script,third-party
