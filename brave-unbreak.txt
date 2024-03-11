@@ -582,6 +582,8 @@ youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerA
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=paramountplus.com|cbs.com
 @@||adservice.google.com/adsid/integrator.js$script,domain=paramountplus.com|cbs.com
 ||ad.doubleclick.net^$image,redirect=1x1.gif,domain=cbs.com|paramountplus.com
+! Fix blank screen
+||fastly.net^$script,important,redirect=noopjs,domain=cbs.com,badfilter
 ! nbc (Video Ads fixes)
 ! player.theplatform.com##+js(nbc)
 ! Anti-adblock: concert.io (vox sites)
