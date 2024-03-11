@@ -113,7 +113,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.AdModule
 ##.AdSense
 ##.AdSlot
-##.adsHeight300x250
 ##.adsSticky
 ##.AdvertWrapper
 ##.BoxRail-ad
@@ -392,6 +391,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.leaderboard_ad
 ##.listicle-instream-ad-holder
 ##.longform-ad
+##.mgid_3x2
 ##.m-ad
 ##.m-adaptive-ad-component
 ##.m-advert
@@ -539,6 +539,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ! Specific generic
 ##div.adsninja-ad-zone
 ##div.bgr-ad-leaderboard
+##div.adsHeight300x250
 ##div.proper-ad-unit
 ##div.rs_ad_block
 ##div.header-ad-container
@@ -1245,15 +1246,11 @@ bgr.com##.bg-black
 ! mindbodygreen.com
 mindbodygreen.com##.sc-10p0iao-0
 ! healthline.com/medicalnewstoday.com etc
-greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-ad]
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##.css-1cg0byz
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##.css-20w1gi
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
-greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[style*="line-height: 0;"]
-healthline.com###DMR1__slot
-greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##.css-11k39sg
-healthline.com##.css-12efcmn
-healthline.com##.css-1d8h8gm
-healthline.com,medicalnewstoday.com##.css-1wm8u43
-healthline.com##.css-umsscj
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="driver"]
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="header-leaderboard"]
 ! gearpatrol.com
 gearpatrol.com##.gearpatrol-ad
 gearpatrol.com##.wp-block-gearpatrol-ad-slot
