@@ -38,6 +38,12 @@
 ||inbbredraxing.com^
 ||yellow-resultsbidder.com^
 ||rndskittytor.com^
+||meenetiy.com^
+
+
+! streaming sites
+rabbitstream.net###overlay-container
+fmovies.co###ics
 
 ! generic blocks
 /script/utils.js$script,third-party
@@ -56,7 +62,6 @@
 /ntv.json?key=
 .com/watch.*&kw=$third-party
 /invoke.js$domain=fmovies2.me|f-movie.org|f-movies.click
-fmovies.co###ics
 
 ! https://github.com/easylist/easylist/commit/d3a2c54ac
 @@||app.posthog.com/decide/
