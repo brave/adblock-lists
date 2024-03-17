@@ -879,6 +879,7 @@ pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 spectrum.ieee.org##.top-leader-container
 spectrum.ieee.org##div[class^="rblad-"]
 ! theglobeandmail.com
+theglobeandmail.com##.BaseAd__StyledRootBaseAd-sc-1khlkqq-1
 theglobeandmail.com###BaseAd__StyledAdPlaceholder-sc-1khlkqq-0
 ! adblock-tester.com
 adblock-tester.com##embed[width="240"]
@@ -1251,6 +1252,7 @@ greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##.css-20w1gi
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-empty]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="driver"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="header-leaderboard"]
+greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="sponsored-bar"]
 ! gearpatrol.com
 gearpatrol.com##.gearpatrol-ad
 gearpatrol.com##.wp-block-gearpatrol-ad-slot
@@ -1268,6 +1270,9 @@ channelnewsasia.com##.programtic-ads
 express.co.uk###ovp-primis
 express.co.uk###taboola-mid-article-thumbnails-outstream
 express.co.uk##.viafoura-standalone-mpu
+express.co.uk##.superbanner
+express.co.uk##[data-tb-non-consent]
+express.co.uk###mantis-recommender-placeholder
 ! hindustantimes.com
 hindustantimes.com##.adHeight270
 hindustantimes.com##.adHeight313
@@ -2266,6 +2271,7 @@ thehackernews.com##[href^="https://thn.news/"]
 ! nzherald.co.nz
 /newrelic.js
 ! stuff.co.nz
+/fusion/lucid/data/*
 ||ads-api.stuff.co.nz^
 ||stuff.co.nz/static/adnostic/
 ||stuff.co.nz/static/stuff-adfliction/
@@ -2331,6 +2337,15 @@ _event_tracking?
 /optimizelyjs/*
 ://lightning.*/launch/
 cnn.com##.ad-feedback__modal
+cnn.com###js-outbrain-rightrail-ads-module
+cnn.com###partner-zone
+cnn.com###sponsored-outbrain-1
+cnn.com##.ad-slot-dynamic
+cnn.com##.ad-slot-header__wrapper
+cnn.com##.ad-slot__ad-wrapper
+cnn.com##.stack__ads
+cnn.com##.zone__ads
+cnn.com##[data-zone-label="Paid Partner Content"]
 ||z.cdp-dev.cnn.com^
 ! Port scanning Fingerprinting Trackers (Privacy and CPU abuse)
 ! https://nullsweep.com/why-is-this-website-port-scanning-me/
