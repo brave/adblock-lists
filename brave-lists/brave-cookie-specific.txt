@@ -16,6 +16,11 @@ music.amazon.es,music.amazon.it,music.amazon.de,music.amazon.co.uk,music.amazon.
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L595
 coolstuff.se,coolstuff.no,coolstuff.fi,coolstuff.de,coolstuff.dk##+js(trusted-set-cookie, ConsentStatus, %7B%22necessary%22%3Atrue%2C%22siteFeatures%22%3Atrue%2C%22statistics%22%3Afalse%2C%22marketing%22%3Afalse%7D, , , reload, 1)
 
+! Let cookie consent show on slower connections
+m2o.it,deejay.it,capital.it,ilmattino.it,leggo.it,libero.it,tiscali.it#@#[id^="iubenda"]
+ilmattino.it,leggo.it#@#.banner:has([href="javascript:acceptAllCookies();void(0);"])
+m2o.it,deejay.it,capital.it,ilmattino.it,leggo.it,libero.it,tiscali.it#@#+js(trusted-click-element, 'button.iubenda-cs-customize-btn, button.iub-cmp-reject-btn, button#iubFooterBtn', , 1000)
+m2o.it,deejay.it,capital.it,ilmattino.it,leggo.it,libero.it,tiscali.it##+js(trusted-click-element, 'button.iubenda-cs-customize-btn, button.iub-cmp-reject-btn, button#iubFooterBtn', , 2000)
 
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L246
 just-eat.co.uk,just-eat.dk,just-eat.es,just-eat.ie,just-eat.fr,just-eat.no,justeat.it,lieferando.de,lieferando.at,pyszne.pl,takeaway.com,thuisbezorgd.nl##+js(trusted-set-cookie, cookieConsent, functional, 1year, , reload, 1)
