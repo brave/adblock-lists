@@ -14,8 +14,7 @@
 @@||basicattentiontoken.org^$ghide
 @@||basicattentiontoken.org^$first-party
 ! search.brave.com specfic filters
-! https://github.com/uBlockOrigin/uAssets/blob/master/filters/privacy.txt#L260
-@@||search.brave.com/api/$first-party
+! https://github.com/uBlockOrigin/uAssets/blob/master/filters/privacy.txt#L207
 search.brave.com#@#+js(no-fetch-if, body:browser)
 ! stats.brave.com
 @@||stats.brave.com^$ghide
