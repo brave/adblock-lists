@@ -124,6 +124,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.NavBarAd
 ##.PageTopAd
 ##.SimpleAd
+##.StickyAdRail__Inner
 ###banner-ad
 ##.ad__placeholder
 ##.ads-label
@@ -379,6 +380,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.js_ad-sticky-footer
 ##.js_desktop-horizontal-ad
 ##.js_midbanner_ad_slot
+##.js_preheader-ad-container
 ##.js_related-stories-inset
 ##.js_modal_exit_intent
 ##.js_sticky-top-ad
@@ -573,6 +575,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.exco-container
 ##.ez-sidebar-wall-ad
 ##.ez-video-wrap
+##.freestar-incontent-ad
 ##.inline-iframe.article--content-embed
 ##.js-widget-distroscale
 ##.js-widget-send-to-news
@@ -780,6 +783,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gnt_tb.gnt_tbb
 ##.gnt_tbr.gnt_tb
 ##.gnt_x
+##.gnt_xmst
 ##.gnt_x__lbl
 ##.partner-loading-shown.partner-label
 ! ezoic ads (first-party ad insertion)
@@ -1655,6 +1659,25 @@ washingtonpost.com##[data-qa="article-body-ad"]
 washingtonpost.com##[data-qa="right-rail-ad"]
 washingtonpost.com##[data-sc-c="adslot"]
 washingtonpost.com##[data-testid="placeholder-box"]
+washingtonpost.com##[data-testid="fixed-bottom-ad"]
+! forbes.com
+forbes.com##.ad-unit
+forbes.com###article-stream-1
+forbes.com##.fbs-ad--ntv-deskchannel-wrapper
+forbes.com##.fbs-ad--ntv-home-wrapper
+forbes.com##.ntv-loading
+forbes.com##.fbs-ad--mobile-medianet-wrapper
+! talkingpointsmemo.com
+talkingpointsmemo.com##.--span\:12.AdSlot
+! tomsguide.com
+tomsguide.com##.bordeaux-anchored-container
+tomsguide.com##[data-widget-type="ads"]
+tomsguide.com##.bordeaux-slot
+! forums.*
+forums.anandtech.com,forums.androidcentral.com,forums.pcgamer.com,forums.space.com,forums.tomsguide.com,forums.tomshardware.com,forums.whathifi.com,redflagdeals.com###header_leaderboard
+! c-span.org
+c-span.org##.cspan-ad-still-prebid-wrapper
+c-span.org##.cspan-ad-still-wrapper
 ! coindesk.com
 coindesk.com##.ad-box
 coindesk.com##.ad-content
