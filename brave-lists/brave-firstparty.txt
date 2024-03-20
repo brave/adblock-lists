@@ -148,6 +148,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-background
 ##.ad-banner-container
 ##.ad-banner-wrapper
+##.ad-disclaimer
 ##.horizontal-full-ad
 ##.sidebar-square-ad
 ##.ad-label
@@ -303,6 +304,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.c-asurionBottomBanner
 ##.c-gallery-vertical__advert
 ##.c-sidebar-ad-stream__ad
+##.c-ad--bigbox
+##.c-posts__ad
 ##.channel-sidebar-big-box-ad
 ##.cnx-player-wrapper
 ##.collapsed-ad
@@ -393,6 +396,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.leaderboard_ad
 ##.listicle-instream-ad-holder
 ##.longform-ad
+##.l-article__ad
 ##.mgid_3x2
 ##.m-ad
 ##.m-adaptive-ad-component
@@ -498,9 +502,11 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.vf-promo-gtag
 ##.video-ad
 ##.vjs-ima3-ad-container
+##.vf3-conversations-list__promo
 ##.wh_ad_inner
 ##.wide-ad
 ##.widget-ads
+##.widget-dfp
 ##.widget_evolve_ad_gpt_widget
 ##.zmgad-right-rail
 ##.zergnet
@@ -1766,7 +1772,24 @@ urbandictionary.com##.mb-4.justify-center
 ! globalnews.ca
 globalnews.ca##.c-adChoices
 globalnews.ca##.c-stickyRail
+globalnews.ca##.c-ad
+globalnews.ca##.l-headerAd
 ##section#headerAd
+! thestar.com
+thestar.com##.adLabelWrapper
+! hilltimes.com
+hilltimes.com##.elementor-element-5818a09
+! toronto.citynews.ca
+citynews.ca##.ad-load
+! .arc_ad
+ajc.com,bostonglobe.com##.arc_ad
+! panow.com
+panow.com##.parallax-breakout
+panow.com##.midcontent
+panow.com##.pos-top
+! livemint.com
+livemint.com##.rightAdNew
+livemint.com##.leftblockAd
 ! lawandcrime.com
 lawandcrime.com,mediaite.com##.o-promo-unit
 lawandcrime.com,themarysue.com##.promo-unit
