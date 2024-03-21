@@ -1783,6 +1783,13 @@ hilltimes.com##.elementor-element-5818a09
 citynews.ca##.ad-load
 ! .arc_ad
 ajc.com,bostonglobe.com##.arc_ad
+! myabandonware.com (anti-adblock)
+myabandonware.com##div[dir="auto"][style]
+! coingecko.com
+coingecko.com##[data-target="ads.banner"]
+coingecko.com###top-announcement-header
+coingecko.com##.sponsored-v2
+coingecko.com##[data-controller="button-ads"]
 ! panow.com
 panow.com##.parallax-breakout
 panow.com##.midcontent
