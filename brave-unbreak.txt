@@ -16,6 +16,7 @@
 ! search.brave.com specfic filters
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/privacy.txt#L207
 search.brave.com#@#+js(no-fetch-if, body:browser)
+search.brave.com###search-ad
 ! stats.brave.com
 @@||stats.brave.com^$ghide
 @@||stats.brave.com^$first-party
