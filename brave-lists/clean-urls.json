@@ -379,6 +379,18 @@
     },
     {
         "include": [
+            "*://*.nytimes.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "smid",
+            "ugrp"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
