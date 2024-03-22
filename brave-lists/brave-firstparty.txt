@@ -1786,6 +1786,7 @@ ajc.com,bostonglobe.com##.arc_ad
 ! myabandonware.com (anti-adblock)
 myabandonware.com##div[dir="auto"][style]
 ! coingecko.com
+||ads.coingecko.com^
 coingecko.com##[data-target="ads.banner"]
 coingecko.com###top-announcement-header
 coingecko.com##.sponsored-v2
