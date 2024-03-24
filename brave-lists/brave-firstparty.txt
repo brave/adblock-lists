@@ -836,7 +836,7 @@ $removeparam=ad-config-id,xhr,domain=telequebec.tv
 ||cxm-api.fifa.com/fifaplusweb/api/video/$removeparam=adconfig,xhr
 ||edge.api.brightcove.com^$removeparam=ad-config-id,xhr,domain=9now.com.au|mech-plus.com|threenow.co.nz
 ||hbo.yspsvc-na.net/csm/*&caid=$removeparam=caid,xhr,domain=play.hbomax.com
-||medium.ngtv.io/v2/media/*&ssaiProfile=$removeparam=ssaiprofile,xhr,domain=~cnn.com
+||medium.ngtv.io/v2/media/*&ssaiprofile=$xhr,removeparam=ssaiProfile,domain=~cnn.com
 ||warnermediacdn.com/csm/*&caid=$removeparam=caid,xhr,domain=cnn.com
 ||warnermediacdn.com/csm/*afid=$removeparam=afid,xhr,domain=cnn.com
 ||warnermediacdn.com/csm/*app_csid=$removeparam=app-csid,xhr,domain=cnn.com
