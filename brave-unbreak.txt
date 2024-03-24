@@ -22,6 +22,9 @@ search.brave.com###search-ad
 @@||stats.brave.com^$first-party
 ! community.brave.com
 @@||community.brave.com^$ghide
+! ncaa.com videos breaking
+||medium.ngtv.io/v2/media/*&ssaiprofile=$xhr,removeparam=ssaiProfile
+@@||medium.ngtv.io/v2/media/*&ssaiprofile=$xhr,removeparam=ssaiProfile,domain=cnn.com
 ! CNAME: account.adobe.com
 @@||account.adobe.com^
 ! CNAME: pol.dk
