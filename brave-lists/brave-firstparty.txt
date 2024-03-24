@@ -50,6 +50,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###ad-leaderboard
 ###ad-placeholder
 ###ad_bnr_atf_01
+###ad_bnr_atf_02
 ###ad_leaderboard
 ###ad_lead1
 ###ad_rect_btf_01
@@ -87,6 +88,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###dsk-box-ad-d
 ###dsk-banner-ad-a
 ###dsk-banner-ad-b
+###header-ad-block
 ###interstory_first_ddb_0
 ###interstory_second_ddb_0
 ###intro_ad_1
@@ -1781,6 +1783,8 @@ thestar.com##.adLabelWrapper
 hilltimes.com##.elementor-element-5818a09
 ! toronto.citynews.ca
 citynews.ca##.ad-load
+! ncaa.com
+ncaa.com##.top-banner
 ! .arc_ad
 ajc.com,bostonglobe.com##.arc_ad
 ! myabandonware.com (anti-adblock)
