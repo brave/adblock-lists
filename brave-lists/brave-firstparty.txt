@@ -64,6 +64,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###admobiletop
 ###admobiletopinside
 ###adslot1
+###adspace
 ###adslot300x250ATF
 ###adslot300x250BTF
 ###advert-article
@@ -103,6 +104,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###rightrail_pos2_ddb_0
 ###rightrail_pos3_ddb_0
 ###skin-ad-left-rail-container
+###sidebar_ad
 ###splashy-ad-container-top
 ###story_bottom_ddb_0
 ###story_top_ddb_0
@@ -339,6 +341,10 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.first_ad
 ##.floating-preroll-ad
 ##.freestar-ad-container
+##.themonic-ad1
+##.themonic-ad2
+##.themonic-ad3
+##.themonic-ad6
 ##.fs_ad
 ##.gallery-ad-lazyload-placeholder
 ##.google-adsense
@@ -466,6 +472,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.sponsored-links
 ##.sponsored-post
 ##.spotlight-ad
+##.square-ad
 ##.sticky-ad
 ##.sticky-ad-container
 ##.sticky-ads
@@ -1521,9 +1528,7 @@ vice.com##.fixed-slot
 vice.com##.nav-bar__article-spacer
 vice.com##.vice-ad__container
 ! krebsonsecurity.com
-krebsonsecurity.com###sidebar_ad
-krebsonsecurity.com##.themonic-ad1
-krebsonsecurity.com##.themonic-ad3
+krebsonsecurity.com##.a-statement
 ! theguardian.com#
 theguardian.com##.top-banner-ad-container
 ! ft.com
