@@ -13,6 +13,8 @@
 /plugins/advanced-ads/*$domain=~wordpress.org
 /prebid/*$script
 /webads.
+! imported from uBO
+/api/users/*&ev=$script
 ! Taboola
 /taboola-header.js
 /taboola.js
