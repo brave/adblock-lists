@@ -15,6 +15,9 @@
 /webads.
 ! imported from uBO
 /api/users/*&ev=$script
+! Admiral anti adblock
+phoronix.com##div[dir="auto"][style]
+baeldung.com##.aelzmn
 ! Taboola
 /taboola-header.js
 /taboola.js
@@ -155,6 +158,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-banner-container
 ##.ad-banner-wrapper
 ##.ad-disclaimer
+##.ad-top-billboard
 ##.horizontal-full-ad
 ##.sidebar-square-ad
 ##.ad-label
@@ -208,6 +212,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad_tag
 ##.ad-text
 ##.ad-title
+##.ad-top
 ##.ad-top-banner
 ##.ad-type-cube
 ##.ad-type-flex-leaderboard
@@ -525,6 +530,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.zergnet
 ##.zergnet-widget
 ##.zergnet__container
+##.zox-post-ad-wrap
 ##AD-SLOT
 ##gpt-ad
 ##[aria-label="advertisement"]
@@ -912,6 +918,9 @@ adblock-tester.com##object[width="240"]
 ! atlasobscura.com
 atlasobscura.com##.advertisement-disclaimer
 atlasobscura.com##.advertisement-shadow
+atlasobscura.com##.ad-site-top-full-width
+! securityweek.com
+||ads.securityweek.com/app.js
 ! plos.org
 plos.org##.head-top
 plos.org##.skyscraper-container
