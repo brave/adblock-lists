@@ -836,10 +836,6 @@ aftonbladet.se##.css-1d3w5wq
 ! scrolller.com (anti-adblock, upward)
 scrolller.com##.popup--fixed
 ! Cosmetic fixes (https://github.com/brave/brave-browser/issues/14825)
-! Spotify (redirect priority issue)  https://github.com/brave/brave-browser/issues/30476
-! https://github.com/uBlockOrigin/uAssets/issues/18148#issuecomment-1555962148
-||akamaized.net/audio/$media,redirect-rule=noop-1s.mp4,domain=open.spotify.com,important
-||scdn.co/audio/$media,redirect=noop-1s.mp4,domain=open.spotify.com,important
 ! Mobile-app (trusted) Open-in-app 
 imgur.com##+js(trusted-set-local-storage-item, see_imgur_oia, '{"closed":true}')
 ! fixes from remove()
