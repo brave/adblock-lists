@@ -486,6 +486,8 @@
             "brave-campaign-id",
             "brave-creative-id",
             "brave-creative-set-id",
+            "ml_sub",
+            "ml_sub_hash",
             "ml_subscriber",
             "ml_subscriber_hash",
             "mc_cid",
