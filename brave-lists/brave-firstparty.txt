@@ -919,6 +919,8 @@ adblock-tester.com##object[width="240"]
 atlasobscura.com##.advertisement-disclaimer
 atlasobscura.com##.advertisement-shadow
 atlasobscura.com##.ad-site-top-full-width
+! twitch.tv
+||edge.ads.twitch.tv^
 ! securityweek.com
 ||ads.securityweek.com/app.js
 ! plos.org
