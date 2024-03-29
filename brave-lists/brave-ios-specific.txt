@@ -264,7 +264,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ||vms-players.minutemediaservices.com^$script,third-party
 ||voqally.com/hub/app/
 ||vplayer.newseveryday.com^
-||widgets.outbrain.com^$domain=cnn.com
+||widgets.outbrain.com^
 ! adobe-specific fixes
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com*/launch-$script,xmlhttprequest
