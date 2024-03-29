@@ -1446,8 +1446,11 @@ antiguanewsroom.com,aptoslife.com,aviacionline.com,bohemian.com,carnewschina.com
 ! zycrypto.com
 zycrypto.com##.td-a-rec-id-content_bottom
 ! news.sky.com
+news.sky.com,skysports.com###mpu-1
+news.sky.com##[data-role="ad-label"]
 news.sky.com###leaderboard
 news.sky.com##[data-format="leaderboard"]
+||analytics.global.sky.com^
 ! axios.com
 axios.com##.shortFormNativeAd
 axios.com##[data-cy="injected-promo"]
