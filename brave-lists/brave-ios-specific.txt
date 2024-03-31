@@ -85,11 +85,11 @@ youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerRespon
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, ytInitialPlayerResponse.adSlots, undefined)
 youtube.com,youtubekids.com,youtube-nocookie.com##+js(set, playerResponse.adPlacements, undefined)
 !! 
-m.youtube.com,music.youtube.com,www.youtube.com##+js(set, ytInitialPlayerResponse.playerConfig.ssapConfig.ssapPrerollEnabled, false)
-m.youtube.com,music.youtube.com,www.youtube.com##+js(set, ytInitialPlayerResponse.streamingData.serverAbrStreamingUrl, undefined)
-m.youtube.com,music.youtube.com,www.youtube.com##+js(json-prune, playerResponse.streamingData.serverAbrStreamingUrl streamingData.serverAbrStreamingUrl)
-m.youtube.com,music.youtube.com,www.youtube.com##+js(trusted-replace-fetch-response, "ssapPrerollEnabled":true, "ssapPrerollEnabled":false, player?)
-m.youtube.com,music.youtube.com,www.youtube.com##+js(trusted-replace-xhr-response, "ssapPrerollEnabled":true, "ssapPrerollEnabled":false, player?)
+!m.youtube.com,music.youtube.com,www.youtube.com##+js(set, ytInitialPlayerResponse.playerConfig.ssapConfig.ssapPrerollEnabled, false)
+!m.youtube.com,music.youtube.com,www.youtube.com##+js(set, ytInitialPlayerResponse.streamingData.serverAbrStreamingUrl, undefined)
+!m.youtube.com,music.youtube.com,www.youtube.com##+js(json-prune, playerResponse.streamingData.serverAbrStreamingUrl streamingData.serverAbrStreamingUrl)
+!m.youtube.com,music.youtube.com,www.youtube.com##+js(trusted-replace-fetch-response, "ssapPrerollEnabled":true, "ssapPrerollEnabled":false, player?)
+!m.youtube.com,music.youtube.com,www.youtube.com##+js(trusted-replace-xhr-response, "ssapPrerollEnabled":true, "ssapPrerollEnabled":false, player?)
 ! 
 www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , /playlist\?list=|player\?|watch\?v=|youtubei\/v1\/player/)
 www.youtube.com##+js(trusted-replace-xhr-response, /"adPlacements.*?("adSlots"|"adBreakHeartbeatParams")/gms, $1, youtubei/v1/player)
