@@ -22,6 +22,8 @@ search.brave.com###search-ad
 @@||stats.brave.com^$first-party
 ! community.brave.com
 @@||community.brave.com^$ghide
+! pageview-api detection
+nicovideo.jp,tiktok.com,twitch.tv,nzherald.co.nz##+js(brave-disable-pageview-api)
 ! CNAME: account.adobe.com
 @@||account.adobe.com^
 ! CNAME: pol.dk

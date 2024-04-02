@@ -5,7 +5,7 @@
 
 ! counter page visibility checks on youtube.com/twitch
 youtube.com##+js(brave-video-bg-play)
-nicovideo.jp,tiktok.com,youtube.com,twitch.tv##+js(brave-disable-pageview-api)
+youtube.com##+js(brave-disable-pageview-api)
 !
 ! Google precision popup
 www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##.gTMtLb.fp-nh[style="visibility: visible;"]
