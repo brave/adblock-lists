@@ -16,7 +16,8 @@
 @@||ingest.sentry.io/api/$xhr,domain=twitch.tv
 @@||reporting.cdndex.io^$xhr,domain=twitch.tv
 
-! https://attackertv.so/ 
+! https://attackertv.so/
+! Adservers 
 ||asccdn.com^
 ||inpagepush.com^
 ||tapewherever.com^
@@ -39,7 +40,10 @@
 ||yellow-resultsbidder.com^
 ||rndskittytor.com^
 ||meenetiy.com^
-
+||servedbyadbutler.com^
+||adsafeprotected.com^
+||advertising.com^
+||adfyre.co^
 
 ! streaming sites
 rabbitstream.net###overlay-container
