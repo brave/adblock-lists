@@ -1890,7 +1890,7 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#arti
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-comments-page-ad
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##xpromo-top-button
 ! economist.com
-economist.com##.adComponent_advert__V79Pp
+economist.com##.adComponent_advert__kPVUI
 ! oregonlive.com
 oregonlive.com###rightRail-Bottom-300xFlex
 oregonlive.com##.below-toprail
