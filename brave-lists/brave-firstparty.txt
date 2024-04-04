@@ -18,6 +18,8 @@
 ! Admiral anti adblock
 phoronix.com##div[dir="auto"][style]
 baeldung.com##.aelzmn
+sonichits.com##+js(set-session-storage-item, fs.adb831.dis, 1)
+baeldung.com##+js(set-session-storage-item, fs.adb.dis, 1)
 ! Taboola
 /taboola-header.js
 /taboola.js
