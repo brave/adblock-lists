@@ -225,6 +225,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-wrapper--ad-unit-wrap
 ##.ad-wrapper--articletop
 ##.ad-wrapper__ad-slug
+##.advertisement-wrapper
 ##.ad-zone
 ##.ad-zone-container
 ##.ad.card
@@ -319,6 +320,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.c-sidebar-ad-stream__ad
 ##.c-ad--bigbox
 ##.c-posts__ad
+##.channel--ad
 ##.channel-sidebar-big-box-ad
 ##.cnx-player-wrapper
 ##.collapsed-ad
@@ -528,6 +530,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.widget-ads
 ##.widget-dfp
 ##.widget_evolve_ad_gpt_widget
+##.wp-block-ad-slot
 ##.zmgad-right-rail
 ##.zergnet
 ##.zergnet-widget
@@ -552,6 +555,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##[data-testid="prism-ad-wrapper"]
 ##[id^="div-gpt-ad"]
 ##display-ads
+##div[data-content="Advertisement"]
 ##div[class^="Display_displayAd"]
 ##div[data-ad-placeholder]
 ##div[data-ad-targeting]
@@ -929,6 +933,8 @@ atlasobscura.com##.ad-site-top-full-width
 plos.org##.head-top
 plos.org##.skyscraper-container
 ! engadget.com
+engadget.com##.post-article-ad
+engadget.com##.Mih\(90px\)
 engadget.com###gemini-right-rail-thumbnails
 ! ghacks.net
 ghacks.net###snhb-snhb_ghacks_bottom-0
@@ -1711,12 +1717,26 @@ washingtonpost.com##[data-sc-c="adslot"]
 washingtonpost.com##[data-testid="placeholder-box"]
 washingtonpost.com##[data-testid="fixed-bottom-ad"]
 ! forbes.com
+forbes.com##.top-ad-container
+forbes.com##.vestpocket
+forbes.com##.inline__zephr
 forbes.com##.ad-unit
 forbes.com###article-stream-1
 forbes.com##.fbs-ad--ntv-deskchannel-wrapper
 forbes.com##.fbs-ad--ntv-home-wrapper
 forbes.com##.ntv-loading
 forbes.com##.fbs-ad--mobile-medianet-wrapper
+! buzzfeed.com
+buzzfeed.com##.subbuzz-bfp--connatix_video
+! .floatingWrapper
+click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.floatingWrapper
+! https://www.tipranks.com/news/article/hood-vs-schw-which-brokerage-stock-is-better
+tipranks.com##.mobile_displaynone.flexccc
+! bibleatlas.org
+||biblemenus.com/adframe
+||bibleh.com/b2.htm
+||biblehub.com/botmenu
+||bibleatlas.org/botmenu
 ! talkingpointsmemo.com
 talkingpointsmemo.com##.--span\:12.AdSlot
 ! tomsguide.com
