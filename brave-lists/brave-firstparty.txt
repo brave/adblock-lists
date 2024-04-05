@@ -1556,6 +1556,17 @@ wionews.com##.ads-box-300x300
 ! anandtech.com
 anandtech.com###side_ad
 anandtech.com##.header_ad
+! interestingengineering.com
+interestingengineering.com##.Ad_ad__hm0Ut
+interestingengineering.com##.Anyclip_conBody__emI_Z
+! twz.com
+twz.com##.mtc-header__desktop__home-prefill-container
+twz.com##.mtc-header__desktop__article-prefill-container
+! esports.gg
+esports.gg##.freestar-esports_leaderboard_atf
+esports.gg###FreeStarVideoAdContainer
+esports.gg##.relative.esports-inarticle
+esports.gg##.freestar-esports_between_articles
 ! nationalreview.com
 nationalreview.com##.ad-skeleton
 nationalreview.com##.revcontent-wrap
@@ -1677,6 +1688,7 @@ reuters.com##[class^="primary-video__container_"]
 reuters.com##div[class^="AdSlot__container"]
 reuters.com##div[class^="RightRail-sticky-container"]
 reuters.com##div[class^="ad-slot__"]
+reuters.com##[data-testid="CnxPlayer"]
 ! techspot.com
 techspot.com##.adContainerSide
 techspot.com##.billboard_placeholder_min
@@ -2378,9 +2390,9 @@ latimes.com##.revcontent
 ! newsweek.com
 ||gc.newsweek.com/front/js/counter.js
 ! thehackernews.com
-thehackernews.com##.babsi
-thehackernews.com##.gg-2
 thehackernews.com##[href^="https://thn.news/"]
+thehackernews.com##.okay_two
+thehackernews.com##.pixpix
 ! weather.com
 .privacydatanotice.
 ||weather.com/*.medalliasurvey.
