@@ -52,6 +52,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###ad--article-top-wrapper
 ###ad--sidebar
 ###ad-block-2
+###ad-box-2
 ###ad-mpu
 ###ad-overlay
 ###ad-leaderboard
@@ -101,6 +102,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###interstory_second_ddb_0
 ###intro_ad_1
 ###js-image-ad-mpu
+###leaderboard.ad
 ###leftrail_dynamic_ad_wrapper
 ###mpu1_parent
 ###mpu_bottom_sb_1_parent
@@ -159,6 +161,9 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-background
 ##.ad-banner-container
 ##.ad-banner-wrapper
+##.ad-box
+##.ad.box
+##.ad-bigbox
 ##.ad-disclaimer
 ##.ad-top-billboard
 ##.horizontal-full-ad
@@ -441,6 +446,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.mntl-leaderboard-header
 ##.mntl-leaderboard-spacer
 ##.mobile-ad
+##.multiad2
 ##.native-ad
 ##.newspack_global_ad
 ##.newsfeed_adunit
@@ -556,6 +562,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##[id^="div-gpt-ad"]
 ##display-ads
 ##div[data-content="Advertisement"]
+##div[class^="native-ad-"]
 ##div[class^="Display_displayAd"]
 ##div[data-ad-placeholder]
 ##div[data-ad-targeting]
@@ -1689,6 +1696,8 @@ reuters.com##div[class^="AdSlot__container"]
 reuters.com##div[class^="RightRail-sticky-container"]
 reuters.com##div[class^="ad-slot__"]
 reuters.com##[data-testid="CnxPlayer"]
+! macleans.ca
+macleans.ca##.assmbly-ad-block
 ! techspot.com
 techspot.com##.adContainerSide
 techspot.com##.billboard_placeholder_min
