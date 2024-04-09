@@ -27,7 +27,3 @@ youtube.*##+js(brave-youtube-navigation-fix)
 ?335962573013224749$image,xhr,domain=dev-pages.brave.software|dev-pages.bravesoftware.com
 ! Rules for testing cosmetic filters in frames
 dev-pages.brave.software,dev-pages.bravesoftware.com##+js(set, window.BRAVE_TEST_VALUE, true)
-
-! Block network requests for ads on search.brave.com
-! This is to make sure EasyList removal doesn't mess us up.
-||search.brave.com/api/ads/
