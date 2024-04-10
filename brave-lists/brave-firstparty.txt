@@ -9,6 +9,7 @@
 /greenoaks.gif?
 /discourse-adplugin-
 /legion-advertising-atlasastro/*
+/jquery.adx.js
 /porpoiseant/*
 /plugins/advanced-ads/*$domain=~wordpress.org
 /prebid/*$script
