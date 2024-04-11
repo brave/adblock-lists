@@ -1012,12 +1012,10 @@ ghacks.net##.box-banner
 ghacks.net##.ftd-item
 ghacks.net##.ghacks-ad
 ghacks.net##.ghacks_ad_code
-||ghacks.net/statics/px.gif
 ! torrentfreak.com
 torrentfreak.com##.widget_custom_html
 ||torrentfreak.com/wp-content/banners/
 ! fortune.com
-/comscore-json/*
 fortune.com###Leaderboard0
 ! .insert
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert
@@ -1194,12 +1192,7 @@ cointelegraph.com##.ad-slot_NjPAE
 cointelegraph.com##.advertise-with-us-link_O9rIX
 cointelegraph.com##.componentAdbutler_uF1zH
 cointelegraph.com##mm-collectors
-! tomshardware.com
-/hawklinks.js
 ! trulia.com
-/trackingpixel.
-! redfin.com
-||redfin.com/rift?
 ! the-scientist.com
 the-scientist.com###Torpedo
 the-scientist.com###preHeader
@@ -1415,7 +1408,6 @@ thedailybeast.com##.CheatSheetList__placeholder
 thedailybeast.com##.Cheat__out-of-page-ads
 thedailybeast.com##.Cheat__top-ad
 thedailybeast.com##.Sizer
-||thedailybeast.com/static/js/thirdparty.
 ! indianexpress.com
 indianexpress.com##.add-first
 ! fivethirtyeight.com
@@ -1423,7 +1415,6 @@ fivethirtyeight.com##.master-ad
 ! dailykos.com
 dailykos.com##.story-banner-ad-placeholder
 ! newsnow.co.uk
-||newsnow.co.uk/pharos.js
 newsnow.co.uk##.skyscraper-left
 ##[id^="ad_sky"]
 ! Twitter ad cosmetic element
@@ -1526,7 +1517,6 @@ news.sky.com,skysports.com###mpu-1
 news.sky.com##[data-role="ad-label"]
 news.sky.com###leaderboard
 news.sky.com##[data-format="leaderboard"]
-||analytics.global.sky.com^
 ! axios.com
 axios.com##.shortFormNativeAd
 axios.com##[data-cy="injected-promo"]
@@ -2016,101 +2006,7 @@ autoevolution.com##.bgcutgrad
 ! Trackers
 !
 !
-.snowplowanalytics.
-/__ssobj/core.js
-/akam/*/pixel_
-/akam/10/*
-/akam/11/*
-/akam/13/*
-/analytics-dotcom/*
-/analytics_wbc.
-/analytics_www.
-/analytics.config.js
-/appmeasurement.min.js
-/appmeasurement_module_
 ://cmpworker.
-/ard.png?
-/b/ss/*/js-
-/batch/1/oe/*
-/batch/1/op/*
-/beacon.js
-/beacon/stats
-/cdn-cgi/apps/head/*$first-party,script
-/cdn-cgi/zaraz/*
-/cls_report?
-/cohesion-latest.min.js
-/comscore_beacon/*
-/events/analytics/*
-/fb-pixel-dsgvo/*
-/fb-pixel-tracking.js
-/fb-tracking.js
-/fb_pixel_page_view
-/flying-analytics/*
-/figanalytics-short-ttl.js
-/fingerprint.js
-/fingerprint.min.js
-/fingerprint2.js
-/fingerprint2.min.js
-/fingerprint3.js
-/fingerprint3.min.js
-/firebase-performance-compat.js
-/firebase-performance-standalone.js
-/firestats/js/fs.js.php
-/htdocs/js/admiral/init.js
-/id?d_visid_
-/imp.gif?
-/optmzly/*
-/perf-vitals_
-/phoenixgoogleanalytics.min.js
-/pix-ddc-fp.min.js
-/pix.fcg?
-/pix.gif?
-/pixall.min.js
-/pixel-caffeine/build/frontend.js
-/pixel-manager.js?
-/pixel-tracker.js
-/pixel-tracking.
-/pixel.*/track/*
-/pixel.cgi?
-/pixel.fingerprint.
-/pixel.gif?
-/pixel.track
-/pixel/email/*$image
-/pixel/nvrwe?
-/pixel/sbs?
-/pixel/view?
-/pixel/visit?
-/pixel2.gif?
-/pixel?tag=
-/pixel_identifier.js
-/pixel_iframe.php
-/pixel_tracker_cpm_
-/pixel_tracking.js
-/pixel_tracking?
-/pixel_V2.js
-/pixeljs/*
-/pixelNew.js
-/plugins/duracelltomi-google-tag-manager/*
-/px/client/main.min.js
-/remote-weblab-triggers/*
-/reporting/metrics
-/r.rnc?
-/rum_cmp?
-/ruxitagentjs_
-/s.gif?
-/shopify-boomerang-
-/smetrics.*/b/ss/*
-/smetrics.*/id?
-/track?eventkey=
-/transparent.gif?ray=
-/trackjs.$domain=~trackjs.com
-/uedata?
-/unagi.amazon.
-/visitoridentification.js
-/.well-known/shopify/monorail
-/wa.gif?
-/web-pixel-shopify-app-pixel@
-/web-pixel-shopify-custom-pixel@
 !
 ! Fingerprinting scripts (Threatmetrix)
 /fp-3.3.6.min.js
@@ -2136,23 +2032,6 @@ autoevolution.com##.bgcutgrad
 /fpv2.js
 /sendLogs?cid=
 /tags.js?org_id=
-! Exception rules
-@@||suumo.jp/sp/js/beacon.js$script,~third-party
-@@||helix.videotron.com/js/api/fingerprint.js$~third-party
-@@||timvision.it/libs/fingerprint/fingerprint.js
-@@||ignitetv.shaw.ca/js/api/fingerprint.js$~third-party
-@@||nintendolife.com/themes/base/javascript/fingerprint.js$~third-party
-@@||xfinity.com/stream/js/api/fingerprint.js$~third-party
-@@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
-@@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
-@@||gamerch.com/s3-assets/library/js/fingerprint2.min.js?$script,~third-party
-@@||polfan.pl/app/vendor/fingerprint2.min.js$~third-party
-@@||serasaexperian.com.br/dist/scripts/fingerprint2.js$~third-party
-@@||easy-firmware.com/templates/default/html/*/assets/js/fingerprint2.min.js$script,~third-party
-@@||github.com/gorhill/uBlock/*/src/web_accessible_resources/fingerprint2.js$~third-party
-@@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
-@@||nsfw.xxx/vendor/fingerprint/fingerprint2.min.js$script,~third-party
-@@||shoonya.finvasia.com/fingerprint2.min.js$script,~third-party
 ! CNAME: account.adobe.com
 @@||account.adobe.com^
 ! CNAME: pol.dk
@@ -2179,94 +2058,17 @@ autoevolution.com##.bgcutgrad
 @@||traffic.megaphone.fm^$domain=megaphone.fm|darknetdiaries.com
 @@||adserver.va3.megaphone.cloud.$domain=megaphone.fm|darknetdiaries.com
 !
-! wellsfargo.com
-||wellsfargo.com/aido/
-||wellsfargo.com/dti_apg/
-||wellsfargo.com/jenny/
-||wellsfargo.com/pido/
-! dropbox.com
-||beacon.dropbox.com^
-||dropbox.com/2/client_metrics
-||dropbox.com/2/ml_platform/log_predictions_events
-||dropbox.com/2/pap_event_logging
-||dropbox.com/alternate_
-||dropbox.com/jse
-||dropbox.com/log/
-||dropbox.com/log_js_sw_data
-||dropbox.com/prompt/log_impression?
-||dropbox.com/unity_connection_log
-! westpac.com.au
-||smetrics.westpac.com.au^
-! Twitter
-||twitter.com/1.1/attribution
-||twitter.com/1.1/jot
-||twitter.com/1.1/promoted_content/log.json
-||twitter.com/9/measurement/
-||twitter.com/i/csp_report?
-||twitter.com/i/jot
-! Amazon
-||aax-eu-dub.amazon.com^$script
-||aax-us-iad.amazon.com^$script
-||amazon.com/1/aiv-web-player/1/OE^
-||amazon.com/1/events/$domain=~aws.amazon.com
-||amazon.com/empty.gif?$image
-||amazon.com^*/impress.html
-! ft.com
-||ft.com/ingest?
-! theregister.com
-||go.theregister.com^$image
-! vogue.co.uk
-/pixelpropagate.
 ! paypal.com
 ||paypal.com/xoplatform/logger/api/logger
-! deadline.com
-/pmc-google-universal-analytics/*
-! Bing
-||bing.com/fd/ls/GLinkPing.aspx?
-||bing.com/geolocation/write?
-||bing.com/mouselog
-||bing.com/notifications/render?
-||bing.com/rewardsapp/reportActivity?
-! Dailymail
-||dailymail.co.uk/geo/
-||dailymail.co.uk/rta2/
-||rta.dailymail.co.uk^
-||t.dailymail.co.uk^
-! Google Tracking
-||google.com/dssw.js
-||google.com/gen_204?
-||google.com/images/phd/px.gif
-||google.com/log?
-||news.google.com/_/v
 ! mail.google.com
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
 mail.google.com##.nH.PS
 ||mail-ads.google.com^
-! scmp.com
-||tagger.ope.scmp.com^
-! aljazeera.com
-||aljazeera.com/thirdparty/nr.js
-! searchengineland.com
-/gpt.js$script
 ! stoodnt.com
 stoodnt.com##.boxzilla-center-container
 stoodnt.com##.boxzilla-overlay
 ! Facebook/Instagram
-/ajax/bnzai?_
-/ajax/bz?_
 facebook.com##.RectangleAd
-||facebook.com/a/bz?
-||facebook.com/ajax/*/log.php
-||facebook.com/ajax/*logging.
-||facebook.com/ajax/mtouch_perf_page_load_timings/
-||facebook.com/ajax/qm/
-||m.facebook.com/ajax/weblite_load_logging/
-||m.facebook.com/ajax/weblite_resources_timing_logging/
-||pixel.facebook.com^
-! Instagram
-||instagram.com/ajax/bz
-||instagram.com/logging/
-||instagram.com/logging_client_events
 ! linkedin.com
 linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Promo"])
 linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Anzeige"])
@@ -2295,15 +2097,9 @@ linkedin.com##.feed-shared-update-v2:has(a[aria-label*="프로모션"])
 ! Japanese
 linkedin.com##.feed-shared-update-v2:has(a[aria-label*="广告|プロモーション"])
 linkedin.com##.ad-banner
-||linkedin.com/collect/
-||linkedin.com/li/track$xmlhttprequest
-||linkedin.com/litms/utag/
-||linkedin.com/sensorcollect/
-||linkedin.com/tscp-serving/
 ! bloomberg.com
 bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
 bloomberg.com##.leaderboard-wrapper
-/api/cmp_tracker
 bloomberg.com##[class^="FullWidthAd_"]
 bloomberg.com##[data-component="in-body-ad"]
 bloomberg.com##[data-component="broker-box-ad"]
@@ -2325,41 +2121,6 @@ pymnts.com##.pymnt_ads
 pymnts.com###bottom-ad
 ! adweek.com
 adweek.com##.htl-ad-wrapper
-||fpa-cdn.adweek.com^
-! tiktok.com
-||tiktok.com/captcha/report
-||tiktok.com/ttwid/check/
-||tiktok.com/v1/list
-||tiktok.com/web/report?
-||tiktok.com/whale/
-||tiktokv.com/monitor_browser/
-! imgur.com
-||imgur.com/albumview.gif?
-||t.imgur.com^
-! Youtube
-||youtube-nocookie.com/api/stats/atr?
-||youtube-nocookie.com/api/stats/delayplay?
-||youtube-nocookie.com/api/stats/qoe?
-||youtube-nocookie.com/ptracking?
-||youtube-nocookie.com/robots.txt?
-||youtube.com/api/stats/ads?
-||youtube.com/api/stats/delayplay?
-||youtube.com/api/stats/qoe?
-||youtube.com/get_video?
-||youtube.com/ptracking?
-||youtube.com/set_awesome?
-||youtubekids.com/api/stats/ads?
-||youtubekids.com/api/stats/qoe?
-||youtubekids.com/ptracking?
-! Reddit
-/shreddit/perfmetrics
-||alb.reddit.com^
-||events.reddit.com^
-||events.redditmedia.com^
-||reddit.com/counters/$xmlhttprequest
-||reddit.com/static/pixel.png$image
-||reddit.com/timings/
-||w3-reporting.reddit.com^
 ! decrypt.co
 decrypt.co##.aspect-video
 decrypt.co##.opacity-75
@@ -2370,34 +2131,13 @@ target.com##.h-position-fixed-bottom
 target.com##[data-test="featuredProducts"]
 target.com##[data-test="sponsored-text"]
 target.com##div[class^="styles__PubAd"]
-||sapphire-api.target.com^
-||target.com/consumers/v1/ingest/web/eventstream?
-||target.com/rum_analytics/
-! hotels.com
-/1x1.gif?
-/2x2.gif?$image
-/egcs/v2/collect
-/uisprime/track
-||hotels.com/api/bucketing/v1/evaluateexperimentsandlog
 ! mail.yahoo.com
 /curveball/ads/*
 /log?count=
 ||bats.video.yahoo.com^
 ||jill.fc.yahoo.com^
-||mail.yahoo.com/f/track/
 ||yahoo.com/pdarla/
-! www.yahoo.com
-||analytics.yahoo.com^
-||ras.yahoo.com^
-||yahoo.com/_td_api/beacon/
-! mail.yahoo.com
-||beap.gemini.yahoo.com^
-! wccftech.com
-||wccftech.com/cnt7vfdvvwa3.js
-! apnews.com
-/newrelic.browser.
 ! eporner.com
-||eporner.com/event.php
 ||eporner.com/dot/
 eporner.com##.hptab
 eporner.com###movieplayer-box-adv
@@ -2431,9 +2171,6 @@ redtube.com,redtube.com.br##+js(no-window-open-if)
 redtube.com,redtube.com.br,youporn.com##+js(set-constant, page_params.holiday_promo, true)
 ! cnet.com
 ||signup.asurion.com^$subdocument
-! figma.com
-/?sentry_key=
-/web_logger/*
 ! play.google.com
 ||play.google.com/log
 ! kijiji.ca
@@ -2448,39 +2185,6 @@ kijiji.ca##div[class^="sponsored-"]
 ! latimes.com
 latimes.com##.revcontent
 ||activate.latimes.com/pc/caltimes/?pulse2001=
-! newatlas.com
-/brightspot/analytics/*
-/bsp-analytics.
-! theguardian.com
-||ophan.theguardian.com^
-! nypost.com
-/blaize/datalayer
-||t.nypost.com^
-! usatoday.com
-/dcjs/prod/*
-/pbjsandwich-
-! thehill.com
-://blue.*/script.js
-! thoroughbreddailynews.com
-/www/delivery/*
-! nbcsports.com
-/appmeasurement.js
-||geo.nbcsports.com^
-! businessinsider.com
-/t.gif?
-! espn.com
-||dcf.espn.com/privacy/
-! local10.com
-/dg/default/rest/*
-! ktbs.com
-/art/stats/*
-/tncms/tracking.js
-! kfdm.com
-/rest/analytics/*
-! houstonchronicle.com
-/hnpprivacy-min.
-! newsweek.com
-||gc.newsweek.com/front/js/counter.js
 ! thehackernews.com
 thehackernews.com##[href^="https://thn.news/"]
 thehackernews.com##.okay_two
@@ -2488,75 +2192,12 @@ thehackernews.com##.pixpix
 ! weather.com
 .privacydatanotice.
 ||weather.com/*.medalliasurvey.
-/eventproxy/track
-! nzherald.co.nz
-/newrelic.js
 ! stuff.co.nz
 /fusion/lucid/data/*
-||ads-api.stuff.co.nz^
 ||stuff.co.nz/static/adnostic/
 ||stuff.co.nz/static/stuff-adfliction/
 thepress.co.nz,waikatotimes.co.nz,stuff.co.nz##.header-ads-block
-! patch.com
-||pixel.patch.com^
-! screenrant.com
-/strpixel.png?
-/valnet-header.
-! yahoo.com
-/p.gif?
-/px.gif?
-||geo.yahoo.com^
-! airbnb
-/tracking/airdog
-/tracking/jitney/*
-_event_tracking?
-! delta
-/e.gif?
-||delta.com/datacollect
-||tms.delta.com/privacy/$image
-! southwest.com
-/__imp_apg__/*
-! homedepot.com
-||swasc.homedepot.com^
-! ebay.com
-/dfpsvc?
-/roverclk/*
-/roverimp/*
-/v1/ads/*
-||ebay.com/scl/js/scandalloader.js
-||pages.ebay.com/identity/device/$subdocument
-! kotaku.com
-/new-client/trackers.
-/wrapper/metrics/*
-! booking.com
-/js_tracking?
-||booking.com/c360/v1/track
-||booking.com/logo?
-||booking.com/navigation_times
-! tripadvisor.
-/cookiepingback?
-||tripadvisor.*/GARecord
-||tripadvisor.*/wm/record
-! uber.com
-||uber.com/_events
-||uber.com/_track
-! skyscanner
-/api/v2/collector
-||skyscanner.*/slipstream/view
-! etsy.com
-/public/statsd
-||etsy.com/bcn/beacon
-! Nytimes
-||a-reporting.nytimes.com^
-||als-svc.nytimes.com^
-||dd.nytimes.com^
-||et.nytimes.com^
-||nyt.com/ads/tpc-check.html$domain=nytimes.com
-||nytimes.com/svc/nyt/data-layer?
-||nytimes.com/v1/purr-cache
 ! cnn.com
-/optimizelyjs/*
-://lightning.*/launch/
 cnn.com##.ad-feedback__modal
 cnn.com###js-outbrain-rightrail-ads-module
 cnn.com###partner-zone
@@ -2567,7 +2208,6 @@ cnn.com##.ad-slot__ad-wrapper
 cnn.com##.stack__ads
 cnn.com##.zone__ads
 cnn.com##[data-zone-label="Paid Partner Content"]
-||z.cdp-dev.cnn.com^
 ! Port scanning Fingerprinting Trackers (Privacy and CPU abuse)
 ! https://nullsweep.com/why-is-this-website-port-scanning-me/
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
