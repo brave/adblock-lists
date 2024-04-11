@@ -22,6 +22,52 @@ baeldung.com##.aelzmn
 sonichits.com##+js(set-session-storage-item, fs.adb831.dis, 1)
 baeldung.com##+js(set-session-storage-item, fs.adb.dis, 1)
 smithsonianmag.com##+js(set-session-cookie, fs.adb2410.dis, 1)
+! Anti-drainer eth phishing
+||89563servers.top^
+||acala-bridge.com^
+||airdrop-alarm.net^
+||antenta.site^
+||apisjwer.com^
+||apiszapp.com^
+||asdfasdasd9987.co^
+||bnb-announce.online^
+||brdecolar.com^
+||cdn1.su^
+||cdnjs-bnn.com^
+||cdnjs-gst.com^
+||cdnjs-mht.com^
+||celestia.guru^
+||chopflexhit.online^
+||ciphercapital.tech^
+||compound-swap.com^
+||cpi.abcapiabc.com^
+||creatrin.site^
+||cthulhu.cash^
+||ddfskjdfh.site^
+||deappzap.com^
+||discord-verification.com^
+||diseusy.top^
+||downzoner.xyz^
+||gousy11.top^
+||js-api.net^
+||metamask.blog^
+||metasteal.xyz^
+||moralis-api.zip^
+||moralis-node.dev^
+||nesolam.com^
+||nginxxx.xyz^
+||nodeclaim.com^
+||nonusy.top^
+||papeilist.pics^
+||r202cop.xyz^
+||satanishka.fun^
+||sugaringsofia2.com^
+||titanex.pro^
+||uniswaps.website^
+||verifyconnection.org^
+||wallet-connect.ru^
+||whaleman.ru^
+||world-claim.org^
 ! Taboola
 /taboola-header.js
 /taboola.js
