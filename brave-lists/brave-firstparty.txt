@@ -939,6 +939,8 @@ $removeparam=ad-config-id,xhr,domain=telequebec.tv
 ##div[id*="MarketGid"]
 ! Google funding
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
+! https://github.com/uBlockOrigin/uAssets/issues/23268
+megacloud.tv###overlay-center
 ! (admiral script) Imported from uBO
 ||baeldung.com/*/ad-recovery.$script,1p
 ! counterpunch.org
