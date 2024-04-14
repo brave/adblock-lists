@@ -1999,6 +1999,9 @@ quora.com##.PageContentsLayout___StyledBox-d2uxks-0 > .q-box > .q-sticky > .qu-p
 thewrap.com##.wp-block-the-wrap-ad
 ! dallas.culturemap.com
 culturemap.com##.z-ad
+! restaurantbusinessonline.com
+restaurantbusinessonline.com###faded
+restaurantbusinessonline.com##.wrapper-au-popup
 ! oregonlive.com
 oregonlive.com###rightRail-Bottom-300xFlex
 oregonlive.com##.below-toprail
