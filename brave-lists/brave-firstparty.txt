@@ -404,6 +404,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.dfp-ad-container
 ##.dfp-ad-top-wrapper
 ##.dfp-leaderboard-container
+##.dfp-ad-hideempty
 ##.dfp-slot
 ##.dfp-tag-wrapper
 ##.dfp_ATF_wrapper
@@ -2000,8 +2001,8 @@ thewrap.com##.wp-block-the-wrap-ad
 ! dallas.culturemap.com
 culturemap.com##.z-ad
 ! restaurantbusinessonline.com
-restaurantbusinessonline.com###faded
-restaurantbusinessonline.com##.wrapper-au-popup
+restaurantbusinessonline.com,cspdailynews.com###faded
+restaurantbusinessonline.com,cspdailynews.com##.wrapper-au-popup
 ! oregonlive.com
 oregonlive.com###rightRail-Bottom-300xFlex
 oregonlive.com##.below-toprail
