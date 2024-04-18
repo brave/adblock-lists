@@ -359,6 +359,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||advertisementafterthought.com^
 ||afraidlanguage.com^
 ||aftermathbrother.com^
+||agilebreeze.com^
 ||agreeablearch.com^
 ||agreeablestew.com^
 ||agreeabletouch.com^
@@ -733,6 +734,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||damdoor.com^
 ||dampdock.com^
 ||dancemistake.com^
+||dandyglow.com^
 ||dangerouswinter.com^
 ||dapperdiscussion.com^
 ||dapperfloor.com^
@@ -1119,6 +1121,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||hystericalhelp.com^
 ||i9w8p.pw^
 ||icebergindigo.com^
+||idyllicjazz.com^
 ||illfatedsnail.com^
 ||illinvention.com^
 ||illustriousoatmeal.com^
@@ -1164,6 +1167,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||jamexistence.com^
 ||jimny.pro^
 ||joblessdrum.com^
+||joyfulkeen.com^
 ||joyoussurprise.com^
 ||jubilantcanyon.com^
 ||jubilantglimmer.com^
@@ -1352,6 +1356,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||oldfashionedoffer.com^
 ||omniscientfeeling.com^
 ||omniscientspark.com^
+||opalquill.com^
 ||operationchicken.com^
 ||operationnail.com^
 ||opinionsurprise.com^
@@ -1401,6 +1406,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||penspade.com^
 ||perceivequarter.com^
 ||periodicpocket.com^
+||perkyjade.com^
 ||perpetualpail.com^
 ||persuadesock.com^
 ||persuadesupport.com^
@@ -1500,6 +1506,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||quacksquirrel.com^
 ||quaintborder.com^
 ||quaintcan.com^
+||quaintlake.com^
 ||quantumlagoon.com^
 ||quarterbean.com^
 ||questionableobservation.com^
@@ -1679,6 +1686,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||seraphichorizon.com^
 ||serendipityecho.com^
 ||serenecascade.com^
+||serenesurf.com^
 ||serioussuit.com^
 ||serpentshampoo.com^
 ||settleshoes.com^
