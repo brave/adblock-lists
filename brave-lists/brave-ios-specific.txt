@@ -693,6 +693,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||crawlclocks.com^
 ||crayoncompetition.com^
 ||creatorcherry.com^
+||creatorpassenger.com^
 ||creditcreature.com^
 ||crimsonmeadow.com^
 ||critictruck.com^
@@ -935,6 +936,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||fifthborder.com^
 ||finalizeforce.com^
 ||financefear.com^
+||firstendpoint.com^
 ||firstfrogs.com^
 ||firsttexture.com^
 ||fixedfold.com^
@@ -2090,6 +2092,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||verseballs.com^
 ||vibranthaven.com^
 ||vibrantsundown.com^
+||vibrantvale.com^
 ||victoriousrequest.com^
 ||violetreading.com^
 ||virgoplato.com^
