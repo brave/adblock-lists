@@ -12,26 +12,3 @@ www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk
 ! Google precision popup (Fix disabled scroll)
 www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##html.TaoyYc:style(position: static !important; overflow: auto !important; width: auto !important;)
 
-! Update Youtube cosmetics (old)
-youtube.com#@##items > ytd-ad-slot-renderer
-youtube.com#@##panels > [target-id="engagement-panel-ads"]
-youtube.com#@##related > div#player-ads
-youtube.com#@##content > ytd-ad-slot-renderer
-youtube.com#@##contents.style-scope.ytd-search-pyv-renderer
-youtube.com#@##main > #banner.ytd-merch-shelf-renderer
-youtube.com#@##masthead-ad > .ytd-rich-grid-renderer
-youtube.com#@##scroll-container > #items.ytd-merch-shelf-renderer
-youtube.com#@##ytd-player button.ytp-suggested-action-badge
-youtube.com#@#.ytp-chrome-top-buttons > .ytp-cards-teaser
-m.youtube.com#@#lazy-list > ad-slot-renderer
-youtube.com#@#ytd-ad-slot-renderer.style-scope.ytd-item-section-renderer
-youtube.com#@#ytd-rich-item-renderer:has(> .ytd-rich-item-renderer > ytd-ad-slot-renderer)
-youtube.com#@#ytd-rich-item-renderer:has(ytd-display-ad-renderer)
-! New rules
-youtube.com###masthead-ad
-youtube.com###player-ads
-youtube.com##.ytp-suggested-action > button.ytp-suggested-action-badge
-youtube.com##.ytd-merch-shelf-renderer
-youtube.com##ytd-ad-slot-renderer
-youtube.com##ytd-search-pyv-renderer
-youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
