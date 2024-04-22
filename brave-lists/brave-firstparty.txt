@@ -2173,6 +2173,9 @@ pornhub.com,pornhub.net,youporn.com###pb_template
 /_xa/ads_
 /ht.js?site_
 ##a[href^="https://a.adtng.com/"]
+! xhamster.com
+||marine.xhamster.com^
+||alaska.xhamster.com^
 ! tube8
 tube8.com,tube8.es,tube8.fr##main.row > aside.col-4 > div[class]
 tube8.com,tube8.es,tube8.fr##input + div:has(.adsbytrafficjunky)
