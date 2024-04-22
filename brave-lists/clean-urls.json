@@ -379,6 +379,22 @@
     },
     {
         "include": [
+            "*://ctr.narvar.com/*/tracking/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "destination_country",
+            "dzip",
+            "order_number",
+            "origin_country",
+            "ozip",
+            "service"
+        ]
+    },
+    {
+        "include": [
             "*://*.nytimes.com/*"
         ],
         "exclude": [
