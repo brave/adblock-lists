@@ -146,6 +146,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###banner_pos2_ddb_0
 ###banner_pos3_ddb_0
 ###banner_pos4_ddb_0
+###bottom-adhesion
 ###comments-standalone-mpu
 ###ddb_fluid_native_ddb_0
 ###dfp-wallpaper-wrapper
@@ -313,6 +314,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad_300by250
 ##.ad__align
 ##.ad__container
+##.ad__label
 ##.ad__section-border
 ##.ad__w728
 ##.ad_background_1
@@ -331,6 +333,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ads--no-preload
 ##.ads-cont
 ##.ads-global-header
+##.ad-sponsor
 ##.ads_tb-c
 ##.ad_left
 ##.ad_right
@@ -440,6 +443,10 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.header-and-footer--banner-ad
 ##.hide-ad
 ##.html-advertisement
+##.gnm-ad-unit
+##.gnm-ad-unit-container
+##.gnm-adhesion-ad
+##.gnm-banner-ad
 ##.homead
 ##.home-ad-region-1
 ##.horizontal-ad
@@ -510,6 +517,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.mntl-leaderboard-header
 ##.mntl-leaderboard-spacer
 ##.mobile-ad
+##.mobile-ad-placeholder
 ##.multiad2
 ##.native-ad
 ##.newspack_global_ad
@@ -1328,6 +1336,18 @@ storytohear.com,thefamilybreeze.com,thetravelbreeze.com,theworldreads.com,womens
 ###floorboard_block
 ! fastcompany
 fastcompany.com##.post__promotion
+! yts.mx
+yts.mx##.bbj
+yts.mx###iwkjdooqw
+! food.com
+food.com##.ad__ad
+! jamieoliver.com
+jamieoliver.com##.top-avocado
+! thekitchn.com/apartmenttherapy.com
+thekitchn.com##.DesktopStickyFooter
+thekitchn.com##.Post__inPostVideoAdDesktop
+apartmenttherapy.com,cubbyathome.com,thekitchn.com##.StickyFooter
+apartmenttherapy.com,cubbyathome.com,thekitchn.com##.pov_recirc__ad
 ! vox.com
 vox.com##.l-leaderboard-slot
 ! planetrugby.com
@@ -1617,6 +1637,8 @@ nj.com##.rightRail-top-wrapper
 ! wionews.com
 wionews.com##.ads-box-300x300
 ! anandtech.com
+anandtech.com##.jwplayer
+anandtech.com##.jw-reset
 anandtech.com###side_ad
 anandtech.com##.header_ad
 ! interestingengineering.com
