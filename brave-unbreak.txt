@@ -963,8 +963,6 @@ viprow.nu,vipbox.lc,vipboxtv.sk##+js(rmnt, script, ;}}};break;case $.)
 ! yts.mx
 $script,third-party,domain=yts.mx
 @@||cdn.jsdelivr.net^$script,domain=yts.mx
-yts.mx##.bbj
-yts.mx###iwkjdooqw
 yts.mx##+js(remove-node-text, script, /h=decodeURIComponent|popundersPerIP/)
 yts.mx##+js(abort-current-script, parseInt, break;case $.)
 yts.mx##+js(abort-current-script, document.createElement, admc)
