@@ -410,6 +410,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||amusedbucket.com^
 ||amusementmorning.com^
 ||amusinggirls.com^
+||analyzecorona.com^
 ||ancientact.com^
 ||annoyedairport.com^
 ||annoyedfifth.com^
