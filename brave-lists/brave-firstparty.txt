@@ -181,6 +181,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###sponsor_posts
 ###taboola-below-article-thumbnails
 ###td-ad-placeholder
+###TopAd
 ##.ATF_wrapper
 ##.Ad--empty
 ##.AdBox
@@ -251,6 +252,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-mount
 ##.ad-mpu
 ##.ad-mrec
+##.ad-notice
 ##.ad-overlay
 ##.ad-panel
 ##.ad-placeholder
@@ -337,6 +339,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ads_tb-c
 ##.ad_left
 ##.ad_right
+##.adboxtop
 ##.adsbox970x90
 ##.adsbyvli
 ##.adsbytrafficjunky
@@ -400,6 +403,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.connatix-main-container
 ##.content-ad
 ##.crain-advertisement
+##.custom-sticky-ad-container
 ##.dac__banner__wrapper
 ##.dac__mpu-card
 ##.desktop-ad
@@ -1330,6 +1334,8 @@ chron.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,
 ! #leaderboard-container / .leaderboard-container
 orilliamatters.com,sootoday.com,theprogress.com,time.com,timescolonist.com,vancouverisawesome.com###leaderboard-container
 arabiaweather.com,atlasobscura.com,bloomberg.com,forum.audiogon.com,gamesindustry.biz,news957.com##.leaderboard-container
+! #leaderboard
+12tomatoes.com,allwomenstalk.com,bloomberg.com,datpiff.com,logotv.com,newcartestdrive.com,news.sky.com,news.tvguide.co.uk,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,penny-arcade.com,publishersweekly.com,skysports.com,thedrinknation.com,theserverside.com###leaderboard
 ! .code-block > center p
 storytohear.com,thefamilybreeze.com,thetravelbreeze.com,theworldreads.com,womensmethod.com##.code-block > center p
 ! kokomotribune.com,goshennews.com
@@ -1352,6 +1358,30 @@ apartmenttherapy.com,cubbyathome.com,thekitchn.com##.pov_recirc__ad
 vox.com##.l-leaderboard-slot
 ! planetrugby.com
 planetrugby.com##.ps-block-a
+! tweaktown.com
+tweaktown.com###DesktopTop
+tweaktown.com##.DesktopRightBA
+! mentalfloss.com
+mentalfloss.com##.style_k8mr7b-o_O-style_uhlm2
+! indianexpress.com
+indianexpress.com##.osv-ad-class
+! upworthy
+upworthy.com##.upworthy_infinte_scroll_outer_wrap
+upworthy.com##.upworthy_infinite_scroll_ad
+! westword.com (and other cms's)
+browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.AirLeaderboardMediumRectanglesComboInlineContent
+browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.AirMediumRectangleComboInlineContent
+browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.fdn-site-header-ad-block
+westword.com##.hil28zhf1wyd
+westword.com##.SurveyLinkSlideModal
+! arktimes.com
+arktimes.com###top-banner-container
+arktimes.com###EdwardsFooterFlyer
+! wgnsradio.com
+wgnsradio.com##.bw-special-image-wrapper
+wgnsradio.com##.bw-special-image
+! gothamist.com
+gothamist.com##.leaderboard-ad-backdrop
 ! newshub.co.nz
 newshub.co.nz###island-unit-2
 newshub.co.nz##[data-belt-widget]
@@ -1540,7 +1570,6 @@ zycrypto.com##.td-a-rec-id-content_bottom
 ! news.sky.com
 news.sky.com,skysports.com###mpu-1
 news.sky.com##[data-role="ad-label"]
-news.sky.com###leaderboard
 news.sky.com##[data-format="leaderboard"]
 ! axios.com
 axios.com##.shortFormNativeAd
