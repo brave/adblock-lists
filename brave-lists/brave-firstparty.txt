@@ -721,7 +721,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.vidible-wrapper
 ##.wps-player-wrap
 ##[class^="s2nPlayer"]
-!
 ! Outbrain
 ###around-the-web
 ###g-outbrain
