@@ -16,6 +16,9 @@
 @@||ingest.sentry.io/api/$xhr,domain=twitch.tv
 @@||reporting.cdndex.io^$xhr,domain=twitch.tv
 
+! https://community.brave.com/t/brave-browser-adblocker-blocks-scripts/540082
+@@||static.elfsight.com^
+
 ! https://attackertv.so/
 ! Adservers 
 ||asccdn.com^
