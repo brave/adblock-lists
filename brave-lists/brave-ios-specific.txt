@@ -131,7 +131,7 @@ youtube.com#@#body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#g
 youtube.com#@#body > ytd-app > #content.ytd-app.style-scope > tp-yt-app-drawer#guide.ytd-app.style-scope[align="start"][role="navigation"][style^="transition-duration:"][position] + ytd-mini-guide-renderer.ytd-app.style-scope + ytd-page-manager#page-manager.ytd-app.style-scope > ytd-watch-flexy.ytd-page-manager.style-scope[video-id][js-panel-height_][flexy][rounded-info-panel][role="main"][style^="--ytd-watch-flexy-"] > #single-column-container.ytd-watch-flexy.style-scope + #columns.ytd-watch-flexy.style-scope > #secondary.ytd-watch-flexy.style-scope > #secondary-inner.ytd-watch-flexy.style-scope > #related.ytd-watch-flexy.style-scope > #player-ads.ytd-watch-flexy.style-scope:not(:empty)
 ! (old) better perf youtube
 m.youtube.com##ytm-companion-slot[data-content-type] > ytm-companion-ad-renderer
-m.youtube.com##ytm-rich-item-renderer > ad-slot-rendere
+m.youtube.com##ytm-rich-item-renderer > ad-slot-renderer
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)
 ! naver.com search is broken  https://m.search.naver.com/search.naver?where=m_image&sm=mtb_jum&query=brave
