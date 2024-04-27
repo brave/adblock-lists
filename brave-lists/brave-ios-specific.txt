@@ -2106,6 +2106,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||usedexample.com^
 ||uselesslumber.com^
 ||uttermosthobbies.com^
+||validmemo.com^
 ||vanfireworks.com^
 ||vanishmemory.com^
 ||velvetnova.com^
