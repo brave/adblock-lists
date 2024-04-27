@@ -116,6 +116,8 @@ tv.youtube.com##+js(trusted-replace-xhr-response, '"adPlacements"', '"no_ads"', 
 www.youtube.com##+js(trusted-replace-fetch-response, /"adPlacements.*?([A-Z]"\}|"\}{2\,4})\}\]\,/, , player?)
 m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
 !
+! https://github.com/uBlockOrigin/uAssets/commit/e0d1eb8cc26750f6c2c62659536b7d073cc0e34c
+m.youtube.com,music.youtube.com,www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_sig_bit_dea, undefined)
 ! (old) better perf youtube
 m.youtube.com##ytm-companion-slot[data-content-type] > ytm-companion-ad-renderer
 m.youtube.com##ytm-rich-item-renderer > ad-slot-renderer
