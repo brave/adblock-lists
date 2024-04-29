@@ -407,6 +407,36 @@
     },
     {
         "include": [
+            "*://arstechnica.com/*",
+            "*://pitchfork.com/*",
+            "*://www.allure.com/*",
+            "*://www.architecturaldigest.com/*",
+            "*://www.bonappetit.com/*",
+            "*://www.cntraveler.com/*",
+            "*://www.epicurious.com/*",
+            "*://www.glamour.com/*",
+            "*://www.gq.com/*",
+            "*://www.gq-magazine.co.uk/*",
+            "*://www.gqitalia.it/*",
+            "*://www.gqmagazine.fr/*",
+            "*://www.newyorker.com/*",
+            "*://www.self.com/*",
+            "*://www.them.us/*",
+            "*://www.teenvogue.com/*",
+            "*://www.vanityfair.com/*",
+            "*://www.vogue.com/*",
+            "*://www.wired.com/*",
+            "*://www.wired.co.uk/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "mbid"
+        ]
+    },
+    {
+        "include": [
             "*://*/*"
         ],
         "exclude": [
