@@ -51,6 +51,18 @@
     },
     {
         "include": [
+            "https://*.app.link/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+             "cjevent",
+             "click_id"
+        ]
+    },
+    {
+        "include": [
             "*://*.bandcamp.com/*"
         ],
         "exclude": [
@@ -538,6 +550,7 @@
             "utm_affiliate",
             "utm_brand",
             "utm_campaign",
+            "utm_campaigncode",
             "utm_campaignid",
             "utm_channel",
             "utm_cid",
