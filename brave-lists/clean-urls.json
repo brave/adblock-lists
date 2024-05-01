@@ -63,6 +63,17 @@
     },
     {
         "include": [
+            "*://www.zoopla.co.uk/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+             "search_identifier"
+        ]
+    },
+    {
+        "include": [
             "*://*.bandcamp.com/*"
         ],
         "exclude": [
