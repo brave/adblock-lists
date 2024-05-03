@@ -1233,6 +1233,8 @@ the-scientist.com###Torpedo
 the-scientist.com###preHeader
 the-scientist.com##.adverts
 the-scientist.com##.footer-ad
+! bettycrocker.com
+bettycrocker.com##+js(rc, adhesiveHeaderAdFixed, body, stay)
 ! gizmochina.com
 gizmochina.com##.adsbygoogle
 ! dexerto.com
