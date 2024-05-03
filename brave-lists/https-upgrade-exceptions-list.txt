@@ -63,6 +63,7 @@ fuw.edu.pl
 fxmconnect.com
 genki365.net
 globalnoticias.pt
+go.microsoft.com
 hentasis1.top
 hmlan.com
 hokkoku.co.jp
@@ -86,6 +87,7 @@ lvmama.com
 lyricstraining.com
 magichue.net
 mnet.bg
+msftconnecttest.com
 nexylan.net
 ngui.cc
 slither.io
