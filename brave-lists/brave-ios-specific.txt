@@ -325,6 +325,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||abstractedauthority.com^
 ||absurdapple.com^
 ||absurdwater.com^
+||abundantcoin.com^
 ||acceptableauthority.com^
 ||accurateanimal.com^
 ||accuratecoal.com^
@@ -687,6 +688,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||crayoncompetition.com^
 ||creatorcherry.com^
 ||creatorpassenger.com^
+||creaturecabbage.com^
 ||creditcreature.com^
 ||crimsonmeadow.com^
 ||critictruck.com^
@@ -1639,6 +1641,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||savorystructure.com^
 ||saysidewalk.com^
 ||scarcecard.com^
+||scarceshock.com^
 ||scarcesign.com^
 ||scarcesurprise.com^
 ||scarecrowslip.com^
