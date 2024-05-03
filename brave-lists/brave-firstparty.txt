@@ -166,6 +166,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###leaderboard.ad
 ###leftrail_dynamic_ad_wrapper
 ###mpu1_parent
+###mpu2_parent
 ###mpu_bottom_sb_1_parent
 ###mpu_bottom_sb_2_parent
 ###ppvideoadvertisement
@@ -417,7 +418,9 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.dfp-slot
 ##.dfp-tag-wrapper
 ##.dfp_ATF_wrapper
+##.dianomi_context
 ##.discourse-adplugin
+##.display-ad
 ##.dotcom-ad
 ##.dtads-desktop
 ##.empire-unit-prefill-container
@@ -570,9 +573,12 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.sponsored-post
 ##.spotlight-ad
 ##.square-ad
+##.staticAd
 ##.sticky-ad
 ##.sticky-ad-container
 ##.sticky-ads
+##.sticky-footer-ad
+##.sticky-footer-ad-container
 ##.stickyRailAd
 ##.sticky-rail-ad-container
 ##.stickyAd
@@ -1060,6 +1066,8 @@ alternativeto.net##[class^="AdsenseAd"]
 ! lrt.lt
 lrt.lt##.article-content__inline-block
 ! standard.co.uk
+standard.co.uk###polar-sidebar-sponsored
+standard.co.uk###stickyFooterRoot
 standard.co.uk##.sc-kAeStu.bkIZsH
 ! euronews.com
 euronews.com###js-smart-banner
@@ -1255,6 +1263,14 @@ nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.css
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.e1xxpj0j1.css-4vtjtj
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##.g-paid
 nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion##[data-testid="StandardAd"]
+cooking.nytimes.com##.adunit_ad-unit__IhpkS
+! wsj.com
+wsj.com##.uds-ad-container
+! abovethelaw.com
+abovethelaw.com##.single-post__sponsored-post--desktop
+abovethelaw.com##.sidebar-sponsored
+abovethelaw.com###div-id-for-middle-300x250
+abovethelaw.com###div-id-for-top-300x250
 ! cnbc.com
 cnbc.com##.BoxRail-styles-makeit-ad--lyuQB
 cnbc.com##.TopBanner-container
