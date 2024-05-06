@@ -9,3 +9,5 @@ youtube.com##.media-item-thumbnail-container[aria-hidden][href^="/shorts/"]
 youtube.com##ytm-media-item:has(a[href^="/shorts/"])
 youtube.com##ytd-rich-shelf-renderer[is-shorts]
 youtube.com##ytd-video-renderer > .ytd-video-renderer:has(a[href^="/shorts/"])
+! side shorts
+youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
