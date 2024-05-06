@@ -224,7 +224,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-background
 ##.ad-banner-container
 ##.ad-banner-wrapper
-##.ad-box
+##.ad-box:not(#ad-banner):not(:empty)
 ##.ad.box
 ##.ad-bigbox
 ##.ad-disclaimer
