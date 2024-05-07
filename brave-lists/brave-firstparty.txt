@@ -335,6 +335,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.adplaceholder
 ##.ads--no-preload
 ##.ads-cont
+##.ad-container-wrapper
 ##.ads-global-header
 ##.ad-sponsor
 ##.ads_tb-c
@@ -371,6 +372,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.arcad-block-container
 ##.article-ad
 ##.article-mid-ad
+##.article__adhesion
 ##.belowMastheadWrapper
 ##.bidbarrel-ad
 ##.bigbox-ad
@@ -378,6 +380,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.block-ad-entity
 ##.block-dfp
 ##.block--dfp
+##.block-yt-ads
+##.bottom-ad
 ##.bottom-ads-container
 ##.br-ad
 ##.br-ad-wrapper
@@ -410,8 +414,10 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.dac__banner__wrapper
 ##.dac__mpu-card
 ##.desktop-ad
+##.desktop-ads
 ##.dfp-ad
 ##.dfp-ad-container
+##.dfp-ad-widget
 ##.dfp-ad-top-wrapper
 ##.dfp-leaderboard-container
 ##.dfp-ad-hideempty
@@ -526,6 +532,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.mntl-leaderboard-header
 ##.mntl-leaderboard-spacer
 ##.mobile-ad
+##.mobile-ads
 ##.mobile-ad-placeholder
 ##.multiad2
 ##.native-ad
@@ -575,6 +582,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.square-ad
 ##.staticAd
 ##.sticky-ad
+##.sticky-bottom-ad
 ##.sticky-ad-container
 ##.sticky-ads
 ##.sticky-footer-ad
@@ -1931,7 +1939,26 @@ theblock.co##.sponsoredArticle
 cryptonewsz.com##.stream-item
 cryptonewsz.com##.stream-item-above-header
 cryptonewsz.com##.stream-item-below-header
-beincrypto.com,bitcoinist.com,coincodex.com,coinpaprika.com,coinspeaker.com,crypto-news-flash.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com##[class*="clickout-"]
+bitcoinist.com,captainaltcoin.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,news.bitcoin.com,philnews.ph##[class*="clickout-"]
+news.bitcoin.com##.dXWTEu
+news.bitcoin.com##.gyHIup
+! firstpost.com
+firstpost.com##.newtopadd
+firstpost.com##.rhs-tp-ad
+firstpost.com##.taboola-div
+firstpost.com##.top-addd
+! israelnationalnews.com
+israelnationalnews.com##.banner
+israelnationalnews.com###banner-sticky
+israelnationalnews.com##.banner-top
+israelnationalnews.com##.sideInf
+! scmp.com
+scmp.com##div[data-qa="AdSlot-Container"]
+! .promo-container
+forums.minecraftforge.net,nextdoor.com,staradvertiser.com,uploadvr.com##.promo-container
+! thenewdaily.com.au
+thenewdaily.com.au##.h-home-ad-height-stop
+thenewdaily.com.au##.md\:h-\[250px\]
 ! streetinsider.com
 streetinsider.com###bottom_ad_fixed
 streetinsider.com##.im-ad
