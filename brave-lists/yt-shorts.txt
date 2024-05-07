@@ -11,3 +11,6 @@ youtube.com##ytd-rich-shelf-renderer[is-shorts]
 youtube.com##ytd-video-renderer > .ytd-video-renderer:has(a[href^="/shorts/"])
 ! side shorts
 youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
+! shorts icons (desktop and mobile)
+m.youtube.com##.pivot-shorts.pivot-bar-item-tab
+www.youtube.com###endpoint.ytd-guide-entry-renderer[title="Shorts"]
