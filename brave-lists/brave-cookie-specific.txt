@@ -34,4 +34,4 @@ lidl.co.uk,lidl.fr,lidl.de,lidl.nl,lidl.dk,lidl.se,lidl.fi,lidl.at,lidl.ch,lidl.
 
 arvopaperi.fi,iltalehti.fi,kauppalehti.fi,mediuutiset.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi###alma-cmpv2-container
 
-
+bloomberg.com##+js(trusted-click-element, button[title="Reject All"], , 1000)
