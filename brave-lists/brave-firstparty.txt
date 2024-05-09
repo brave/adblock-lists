@@ -112,10 +112,12 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###ad--sidebar
 ###ad-block-2
 ###ad-box-2
+###ad-halfpage
 ###ad-mpu
 ###ad-overlay
 ###ad-leaderboard
 ###ad-placeholder
+###ad-standard-wrap
 ###ad_bnr_atf_01
 ###ad_bnr_atf_02
 ###ad_leaderboard
@@ -240,6 +242,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-fixed
 ##.ad-footer
 ##.ad-giga
+##.ad-halfpage
+##.ad-header
 ##.ad-header-pencil
 ##.ad-holder
 ##.ad-incontent
@@ -276,6 +280,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-space
 ##.ad-splash
 ##.ad-sponsor
+##.ad-standard
 ##.ad-sticky
 ##.ad-sticky-banner
 ##.ad-stickyhero
@@ -313,6 +318,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.adSizer
 ##.adSlotHeaderContainer
 ##.adWrapper
+##.ad.module
 ##.ad_300
 ##.ad_300by250
 ##.ad__align
@@ -455,6 +461,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.header-ad
 ##.headerAds250
 ##.header-ad-region
+##.header_ads-container
 ##.header-and-footer--banner-ad
 ##.hide-ad
 ##.html-advertisement
@@ -462,6 +469,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gnm-ad-unit-container
 ##.gnm-adhesion-ad
 ##.gnm-banner-ad
+##.header__ad
 ##.homead
 ##.home-ad-region-1
 ##.horizontal-ad
@@ -1509,8 +1517,11 @@ fivethirtyeight.com##.master-ad
 ! dailykos.com
 dailykos.com##.story-banner-ad-placeholder
 ! newsnow.co.uk
+newsnow.co.uk##.hero-wrapper
 newsnow.co.uk##.skyscraper-left
 ##[id^="ad_sky"]
+! webmd.com
+webmd.com###hp-ad-container
 ! Twitter ad cosmetic element
 twitter.com##.promoted-account
 twitter.com##.promotion
@@ -1999,8 +2010,6 @@ usnews.com###bfad-slot
 usnews.com##.Ad__Container-sc-1ah7c5n-0
 usnews.com##.InartAd__FirstInartAdWrapper-sc-8wv8ky-0
 usnews.com##.ad-spacer__AdSpacer-sc-nwg9sv-0
-! skynews.com.au
-skynews.com.au##.header_ads-container
 ! examiner.com.au..
 bordermail.com.au,canberratimes.com.au,examiner.com.au,theadvocate.com.au,thecourier.com.au###billboard-container
 bordermail.com.au,canberratimes.com.au,examiner.com.au,theadvocate.com.au,thecourier.com.au##.bg-gray-100
