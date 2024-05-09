@@ -835,6 +835,7 @@ scrolller.com##.popup--fixed
 imgur.com##+js(trusted-set-local-storage-item, see_imgur_oia, '{"closed":true}')
 ! fixes from remove()
 apnews.com##+js(ra, data-leaderboard-is-fixed, html, stay)
+thejakartapost.com##+js(rc, tjp-single__content-ads, div, stay)
 ! Counter blocked by extension warnings
 naver.com###veta_top
 naver.com###veta_branding
