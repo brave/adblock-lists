@@ -1522,6 +1522,10 @@ newsnow.co.uk##.skyscraper-left
 ##[id^="ad_sky"]
 ! webmd.com
 webmd.com###hp-ad-container
+! .leaderboard-wrap
+cbssports.com,nowthisnews.com,popsugar.com,scout.com,seeker.com,thedodo.com,thrillist.com##.leaderboard-wrap
+! cbssports.com
+cbssports.com##.skybox-top-wrapper
 ! Twitter ad cosmetic element
 twitter.com##.promoted-account
 twitter.com##.promotion
