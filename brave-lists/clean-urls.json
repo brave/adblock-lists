@@ -374,6 +374,7 @@
             "email_referrer",
             "email_subject",
             "link_id",
+            "ref",
             "source"
         ]
     },
