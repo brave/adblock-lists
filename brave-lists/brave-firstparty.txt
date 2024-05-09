@@ -2245,11 +2245,11 @@ linkedin.com##.feed-shared-update-v2:has(a[aria-label*="广告|プロモーシ�
 linkedin.com##.ad-banner
 ! bloomberg.com
 bloomberg.com##.BaseAd_baseAd-dXBqvbLRJy0-
-bloomberg.com##.leaderboard-wrapper
+bloomberg.com##.dvz-v0-ad
 bloomberg.com##[class^="FullWidthAd_"]
 bloomberg.com##[data-component="in-body-ad"]
-bloomberg.com##[data-component="broker-box-ad"]
-bloomberg.com##[data-ad-status="rendering"]
+bloomberg.com##div[class^="media-ui-BaseAd"]
+bloomberg.com##div[class^="media-ui-FullWidthAd"]
 ! thebaltimorebanner.com
 thebaltimorebanner.com###leaderboard-ad-v2
 thebaltimorebanner.com##.block-ad-zone
