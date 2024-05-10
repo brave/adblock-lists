@@ -60,6 +60,8 @@
 ||adsafeprotected.com^
 ||advertising.com^
 ||adfyre.co^
+||etahub.com^$3p
+||trafficjunky.com^$3p
 
 ! streaming sites
 rabbitstream.net###overlay-container
