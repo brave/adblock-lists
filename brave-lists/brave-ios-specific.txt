@@ -143,6 +143,11 @@ mp4upload.com##+js(abort-on-property-write, adcashMacros)
 ! apnews.com
 apnews.com##.Page-header-leaderboardAd
 apnews.com##.SovrnAd
+ instacart
+instacart.com##li[data-testid="compact-item-list-header"]
+instacart.com##.image-banner-a-ak0wn
+instacart.com##.image-banner-a-9l2sjs
+instacart.com##.shoppable-list-a-las2t7
 ! Cosmetic test (ads and overlay)
 theblockcrypto.com##.articleIAB
 theblockcrypto.com##.sponsorFooter
