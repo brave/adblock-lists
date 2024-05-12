@@ -1730,11 +1730,6 @@ anandtech.com##.header_ad
 interestingengineering.com##.Ad_ad__hm0Ut
 interestingengineering.com##.Anyclip_conBody__emI_Z
 interestingengineering.com##.Ad_adContainer__XNCwI
-! instacart
-instacart.com##li[data-testid="compact-item-list-header"]
-instacart.com##.image-banner-a-ak0wn
-instacart.com##.image-banner-a-9l2sjs
-instacart.com##.shoppable-list-a-las2t7
 ! twz.com
 twz.com##.mtc-header__desktop__home-prefill-container
 twz.com##.mtc-header__desktop__article-prefill-container
