@@ -345,10 +345,12 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ads-cont
 ##.ad-container-wrapper
 ##.ads-global-header
+##.ads-wrapper
 ##.ad-sponsor
 ##.ads_tb-c
 ##.ad_left
 ##.ad_right
+##.ad__window
 ##.adboxtop
 ##.adsbox970x90
 ##.adsbyvli
@@ -423,6 +425,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.dac__mpu-card
 ##.desktop-ad
 ##.desktop-ads
+##.dfpad
 ##.dfp-ad
 ##.dfp-ad-container
 ##.dfp-ad-widget
@@ -549,6 +552,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.newspack_global_ad
 ##.newsfeed_adunit
 ##.noskim.ad
+##.nts-ad
 ##.nuk-ad-placeholder
 ##.outer-ad-unit-wrapper
 ##.outer_ad_container
@@ -568,6 +572,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.queue_ad
 ##.rail-ads-1
 ##.recent-ad
+##.region-ad-top
+##.region-ad-bottom-leaderboard
 ##.rhs_ad
 ##.rhsWidgetNotAdFree
 ##.right-column-ad
@@ -1853,6 +1859,7 @@ bbc.com###sticky-mpu
 wccftech.com##.bg-horizontal
 wccftech.com##.bg-square
 wccftech.com##.bg-square-mobile
+wccftech.com##.bg-square-mobile-without-bg
 wccftech.com##.bg-vertical
 wccftech.com##.main-background-wrap
 wccftech.com##.mb-11
@@ -2010,7 +2017,18 @@ investing.com##.js-general-overlay
 investing.com##.wideTopBanner
 investing.com##[class*="adBlock"]
 investing.com##[class*="overlay_overlay"]
+investing.com##div.text-\[\#5b616e\]
+investing.com##div[data-test="ad-slot-visible"]
+investing.com##div[class^="ad_"]
 ||investing.com/js/n/ad-blocker-popup$script
+! psypost.org
+psypost.org##.jeg_midbar
+! iheart.com
+iheart.com##.component-pushdown
+! drivencarguide.co.nz
+drivencarguide.co.nz##.tw-min-h-\[18\.75rem\]
+drivencarguide.co.nz##.tw-bg-gray-200
+drivencarguide.co.nz##.o-adunit
 ! usnews.com
 usnews.com###bfad-slot
 usnews.com##.Ad__Container-sc-1ah7c5n-0
@@ -2124,6 +2142,8 @@ timesofindia.indiatimes.com##.mgid_second_mrec_parent
 timesofindia.indiatimes.com##.paisa-wrapper
 timesofindia.indiatimes.com##.relatedVideoWrapper
 timesofindia.indiatimes.com##[data-aff-type]
+timesofindia.indiatimes.com##.topBand_adwrapper
+timesofindia.indiatimes.com##[data-contentprimestatus]
 ! marketscreener.com
 marketscreener.com###zppMiddle2
 marketscreener.com###zppRight2
@@ -2351,9 +2371,10 @@ kijiji.ca##div[class^="sponsored-"]
 latimes.com##.revcontent
 ||activate.latimes.com/pc/caltimes/?pulse2001=
 ! thehackernews.com
-thehackernews.com##[href^="https://thn.news/"]
-thehackernews.com##.okay_two
-thehackernews.com##.pixpix
+thehackernews.com##div.rocking
+thehackernews.com##.sidebar2
+thehackernews.com##.boxside
+thehackernews.com##.dog_two
 ! weather.com
 .privacydatanotice.
 ||weather.com/*.medalliasurvey.
