@@ -1318,6 +1318,8 @@ nba.com##[data-ad-type="banner"]
 si.com##.m-balloon-header--ad
 si.com##[data-ad-group]
 athlonsports.com,bringmethenews.com,meidastouch.com,si.com,thestreet.com##.is-exco-player
+! thestreet.com
+thestreet.com##.is-fallback-player
 ! digitaltrends.com
 digitaltrends.com##.dt-primis
 digitaltrends.com##.dtads-location
