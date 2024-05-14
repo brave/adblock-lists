@@ -183,7 +183,9 @@
     },
     {
         "include": [
-            "*://actionnetwork.org/*"
+            "*://actionnetwork.org/*",
+            "*://*.bamboohr.com/careers/*",
+            "*://medium.com/*"
         ],
         "exclude": [
 
@@ -255,17 +257,6 @@
             "feature",
             "si",
             "source_ve_path"
-        ]
-    },
-    {
-        "include": [
-            "*://medium.com/*"
-        ],
-        "exclude": [
-
-        ],
-        "params": [
-            "source"
         ]
     },
     {
