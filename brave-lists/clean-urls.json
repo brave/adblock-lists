@@ -184,6 +184,7 @@
     {
         "include": [
             "*://actionnetwork.org/*",
+            "*://*.bamboohr.com/careers/*",
             "*://medium.com/*"
         ],
         "exclude": [
