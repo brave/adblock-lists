@@ -76,6 +76,7 @@ fmovies.co###ics
 /d3.php?m=
 /sbar.json?key=
 /pixel/sbe?
+/lv/esnk/*$script,3p
 /pixel/nvrwe?
 /pixel/purst?
 /pixel/pure
