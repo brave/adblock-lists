@@ -145,10 +145,12 @@
     },
     {
         "include": [
-            "*://*.twitter.com/*"
+            "*://*.twitter.com/*",
+            "*://*.x.com/*"
         ],
         "exclude": [
-            "*://*.twitter.com/i/redirect?*"
+            "*://*.twitter.com/i/redirect?*",
+            "*://*.x.com/i/redirect?*"
         ],
         "params": [
             "cxt",
