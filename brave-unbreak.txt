@@ -22,8 +22,6 @@ search.brave.com###search-ad
 @@||stats.brave.com^$first-party
 ! community.brave.com
 @@||community.brave.com^$ghide
-! fix ubo deezer https://github.com/easylist/easylist/issues/19183
-@@*$media,domain=deezer.com|~widget.deezer.com,redirect=noopmp3-0.1s
 ! pageview-api detection
 disneyplus.com,max.com,paramountplus.com,peacocktv.com,pandora.com,deezer.com,slingtv.com,discoveryplus.com,curiositystream.com,spotify.com,netflix.com,tidal.com,soundcloud.com,music.apple.com,nicovideo.jp,tiktok.com,twitch.tv,nzherald.co.nz##+js(brave-disable-pageview-api)
 ! 
