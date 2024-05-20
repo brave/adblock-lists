@@ -474,6 +474,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||begintrain.com^
 ||beneficialbeef.com^
 ||benthose.com^
+||bespokesandals.com^
 ||bestboundary.com^
 ||bewilderedbattle.com^
 ||bewilderedblade.com^
@@ -863,6 +864,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||enchantedtop.com^
 ||enchantingbear.com^
 ||enchantingenchantment.com^
+||enchantingtundra.com^
 ||enchantingvalley.com^
 ||encourageidea.com^
 ||encourageshock.com^
@@ -1153,6 +1155,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||impossiblemove.com^
 ||impulsehands.com^
 ||impulsejewel.com^
+||impulselumber.com^
 ||incompetentjoke.com^
 ||inconclusiveaction.com^
 ||infamousstream.com^
@@ -1179,6 +1182,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||j93557g.com^
 ||jadedjoke.com^
 ||jadeitite.com^
+||jaderooster.com^
 ||jailbulb.com^
 ||jamexistence.com^
 ||jimny.pro^
@@ -1664,6 +1668,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||scarcecard.com^
 ||scarceshock.com^
 ||scarcesign.com^
+||scarcestructure.com^
 ||scarcesurprise.com^
 ||scarecrowslip.com^
 ||scarecrowslope.com^
@@ -1839,6 +1844,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||soundstocking.com^
 ||sowlettuce.com^
 ||spadelocket.com^
+||sparkgoal.com^
 ||sparklesleet.com^
 ||sparklingnumber.com^
 ||sparklingshelf.com^
@@ -1893,6 +1899,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||standingnest.com^
 ||standingsack.com^
 ||standtrouble.com^
+||startingcars.com^
 ||stat.pet^
 ||statementsweater.com^
 ||statuesquebrush.com^
@@ -2142,6 +2149,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||venomousvessel.com^
 ||venusgloria.com^
 ||verdantanswer.com^
+||verdantsculpture.com^
 ||verifyvegetable.com^
 ||verseballs.com^
 ||vibranthaven.com^
@@ -2217,6 +2225,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||zephyrcatalyst.com^
 ||zephyrlabyrinth.com^
 ||zestycrime.com^
+||zestyhorizon.com^
 ||zestywire.com^
 ||zipperxray.com^
 ||zippywind.com^
