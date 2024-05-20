@@ -1943,6 +1943,8 @@ forbes.com##.fbs-ad--ntv-deskchannel-wrapper
 forbes.com##.fbs-ad--ntv-home-wrapper
 forbes.com##.ntv-loading
 forbes.com##.fbs-ad--mobile-medianet-wrapper
+! https://freestreams-live.my/tennis-channel-17/
+||fiveyardlab.com/z-
 ! buzzfeed.com
 buzzfeed.com##.subbuzz-bfp--connatix_video
 ! .floatingWrapper
