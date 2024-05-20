@@ -126,6 +126,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###ad_lead1
 ###ad_rect_btf_01
 ###ad_rect_btf_02
+###ads_tower_top
 ###adhesion
 ###adm-inline-article-ad-1
 ###adm-inline-article-ad-2
@@ -186,6 +187,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###sponsor_posts
 ###taboola-below-article-thumbnails
 ###td-ad-placeholder
+###topad
 ###TopAd
 ##.ATF_wrapper
 ##.Ad--empty
@@ -285,6 +287,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-standard
 ##.ad-sticky
 ##.ad-sticky-banner
+##.ad-sticky-wrapper
 ##.ad-stickyhero
 ##.ad-stickyhero--standard
 ##.ad_tag
@@ -347,6 +350,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ads-global-header
 ##.ads-wrapper
 ##.ad-sponsor
+##.ads_leaderboard
+##.ads_inline_640
 ##.ads_tb-c
 ##.ad_left
 ##.ad_right
@@ -488,6 +493,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.image-viewer-ad
 ##.image-viewer-mpu
 ##.index-module_adBeforeContent__UYZT
+##.in-text-ad
 ##.inline-ad
 ##.inline-ad-container
 ##.ins_adwrap
@@ -1351,9 +1357,9 @@ beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,housto
 ! sfchronicle.com
 sfchronicle.com##div[class^="ad-module-"]
 ! androidauthority.com
-androidauthority.com##.--_-___r
-androidauthority.com##.--_-___Yb
-androidauthority.com##.--_-___mb
+androidauthority.com##._--_-___Pb
+androidauthority.com##._--_-___Yb
+androidauthority.com##._--_-___Zb
 ! foxweather.com
 foxweather.com##.sticky-pre-content
 ! iflscience.com
@@ -1723,6 +1729,19 @@ dcist.com##.advertisement-information-link
 seattletimes.com##[data-zone="Sponsored"]
 ! weather.com
 weather.com##[title="Sponsored Content"]
+! smh.com.au
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > :has(> .adWrapper)
+! drive.com.au
+drive.com.au##.gam-ad
+drive.com.au##.adSpacing_drive-ad-spacing__HdaBg
+drive.com.au##hr
+! etonline.com
+etonline.com###sticky-banner
+! timeout.com
+timeout.com##div[class^="_inlineAdWrapper_"]
+timeout.com##div[id^="ad-side-"]
+timeout.com##div[id^="ad-promo-"]
+timeout.com##._ad_1elek_1
 ! nj.com
 nj.com##.below-toprail
 nj.com##.revenue-display
