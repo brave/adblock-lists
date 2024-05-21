@@ -361,6 +361,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.adsbyvli
 ##.adsbytrafficjunky
 ##.adslot
+##.adsCont
 ##.adslot970
 ##.adtester-container
 ##.adthrive
@@ -398,6 +399,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.block-yt-ads
 ##.bottom-ad
 ##.bottom-ads-container
+##.bottomAds
 ##.br-ad
 ##.br-ad-wrapper
 ##.breaker-ad
@@ -469,6 +471,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gpt-ad-wrapper
 ##.gpt-breaker-container
 ##.header-ad
+##.headerAds
 ##.headerAds250
 ##.header-ad-region
 ##.header_ads-container
@@ -873,6 +876,11 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.trc_related_container
 ##.van_taboola
 ##.widget_taboola
+##.RC-AD
+##.RC-AD-BOX-BOTTOM
+##.RC-AD-BOX-MIDDLE
+##.RC-AD-BOX-TOP
+##.RC-AD-TOP-BANNER
 ##amp-embed[type="taboola"]
 ##div[id^="taboola-stream-"]
 ###block-taboolablock
@@ -1079,7 +1087,11 @@ ghacks.net##.ghacks_ad_code
 torrentfreak.com##.widget_custom_html
 ||torrentfreak.com/wp-content/banners/
 ! fortune.com
+fortune.com##.homepage:has(> div[id^="InStream"])
+fortune.com##[class]:has(> #Leaderboard0)
 fortune.com###Leaderboard0
+! phonearena.com 
+phonearena.com##.announcements
 ! .insert
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert-label
@@ -1357,7 +1369,6 @@ beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,housto
 ! sfchronicle.com
 sfchronicle.com##div[class^="ad-module-"]
 ! androidauthority.com
-androidauthority.com##._--_-___Pb
 androidauthority.com##._--_-___Yb
 androidauthority.com##._--_-___Zb
 ! foxweather.com
@@ -1769,6 +1780,7 @@ esports.gg##.freestar-esports_between_articles
 nationalreview.com##.ad-skeleton
 nationalreview.com##.revcontent-wrap
 ! pagesix.com
+nypost.com##.exco-video__container
 nypost.com,pagesix.com##.billboard-ad
 nypost.com##.nyp-s2n-wrapper
 nypost.com,pagesix.com##.recirc
@@ -2396,9 +2408,23 @@ latimes.com##.revcontent
 ||activate.latimes.com/pc/caltimes/?pulse2001=
 ! thehackernews.com
 thehackernews.com##div.rocking
-thehackernews.com##.sidebar2
-thehackernews.com##.boxside
 thehackernews.com##.dog_two
+thehackernews.com##.sadbar2
+thehackernews.com##.sadfix
+! u.today
+u.today##.something
+! forexlive.com
+forexlive.com##.banner__wrapper
+! barrons.com
+barrons.com##.adWrapperTopLead
+! pch.com
+pch.com###div-pch-gpt-placement-bottom
+pch.com###div-pch-gpt-placement-multiple
+pch.com###div-pch-gpt-placement-top
+pch.com##.placement-content
+pch.com##.wide_banner
+! eurosport.com
+eurosport.com##.reform-top-container
 ! weather.com
 .privacydatanotice.
 ||weather.com/*.medalliasurvey.
