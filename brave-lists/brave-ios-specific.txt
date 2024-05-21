@@ -85,6 +85,9 @@ fmovies.co###ics
 /ntv.json?key=
 .com/watch.*&kw=$third-party
 /invoke.js$domain=fmovies2.me|f-movie.org|f-movies.click
+/fret/meow4/*$script,3p
+/i/npage/*$script,3p
+
 
 ! https://github.com/easylist/easylist/commit/d3a2c54ac
 @@||app.posthog.com/decide/
