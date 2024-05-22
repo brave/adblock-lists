@@ -16,6 +16,8 @@ www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk
 ! youtube self nag screens 
 www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 191"]
 www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 192"]
+! Youtube: How are your recommendations today?
+www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 320px;"]
 
 ! Youtube Original (based on https://github.com/sepehrkiller/FixYoutubeUI/)
 ! Old UI
