@@ -141,8 +141,10 @@ youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 ||facebook.com^*/plugins/$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ||facebook.com/plugins/$third-party,domain=~atlassolutions.com|~facebook.com|~facebook.de|~facebook.fr|~facebook.net|~fb.com|~fb.me|~fbcdn.net|~fbsbx.com|~friendfeed.com|~instagram.com|~internalfb.com|~messenger.com|~oculus.com|~whatsapp.com|~workplace.com
 ! Twitter
-||api.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
-||platform.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp
+||api.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
+||platform.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
+||api.x.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
+||platform.x.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
 !
 ! Note that options will be added to exclude these filters soon. They
 ! are added both as a blocking rule and as an exception rule so that
@@ -169,6 +171,8 @@ youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 ! Twitter embeds
 @@||api.twitter.com^$tag=twitter-embeds
 @@||platform.twitter.com^$tag=twitter-embeds
+@@||api.x.com^$tag=twitter-embeds
+@@||platform.x.com^$tag=twitter-embeds
 ! LinkedIn in embeds
 @@||licdn.com^$tag=linked-in-embeds
 @@||platform.linkedin.com^$tag=linked-in-embeds

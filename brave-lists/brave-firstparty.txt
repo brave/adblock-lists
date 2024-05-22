@@ -1554,12 +1554,16 @@ cbssports.com,nowthisnews.com,popsugar.com,scout.com,seeker.com,thedodo.com,thri
 ! cbssports.com
 cbssports.com##.skybox-top-wrapper
 ! Twitter ad cosmetic element
-twitter.com##.promoted-account
-twitter.com##.promotion
-twitter.com##.stream-item-group-start[label="promoted"]
-twitter.com##a[href*="src=promoted_trend_click"]
-twitter.com##a[href*="src=promoted_trend_click"] + div
-twitter.com##div[data-testid="cellInnerDiv"] > div > div[class] > div[class][data-testid="placementTracking"]
+twitter.com,x.com##.promoted-account
+twitter.com,x.com##.promotion
+twitter.com,x.com##.stream-item-group-start[label="promoted"]
+twitter.com,x.com##a[href*="src=promoted_trend_click"]
+twitter.com,x.com##a[href*="src=promoted_trend_click"] + div
+twitter.com,x.com##div[data-testid="cellInnerDiv"] > div > div[class] > div[class][data-testid="placementTracking"]
+twitter.com,x.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
+twitter.com,x.com##div[data-testid="eventHero"]:has(path[d$="10H8.996V8h7v7z"])
+twitter.com,x.com##div[data-testid="placementTracking"]:has(div[data-testid$="-impression-pixel"])
+twitter.com,x.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
 ! bbc.com
 bbc.com###leaderboard-aside-content
 bbc.com###mpu-side-aside-content
