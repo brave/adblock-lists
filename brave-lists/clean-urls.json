@@ -253,10 +253,12 @@
 
         ],
         "params": [
+            "app",
             "embeds_euri",
             "embeds_loader_url_for_pings",
             "embeds_origin",
             "feature",
+            "pp",
             "si",
             "source_ve_path"
         ]
