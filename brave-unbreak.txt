@@ -24,6 +24,9 @@ search.brave.com###search-ad
 @@||community.brave.com^$ghide
 ! pageview-api detection
 disneyplus.com,max.com,paramountplus.com,peacocktv.com,pandora.com,deezer.com,slingtv.com,discoveryplus.com,curiositystream.com,spotify.com,netflix.com,tidal.com,soundcloud.com,music.apple.com,nicovideo.jp,tiktok.com,twitch.tv,nzherald.co.nz##+js(brave-disable-pageview-api)
+! https://github.com/easylist/easylist/issues/19234
+@@||mssl.fwmrm.net/libs/$domain=southpark.de|southparkstudios.co.uk|southparkstudios.com.br|southparkstudios.com
+@@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=southpark.de|southparkstudios.co.uk|southparkstudios.com.br|southparkstudios.com
 ! 
 ! win7/8 YT crashes
 ! Exception rule for the current YT
