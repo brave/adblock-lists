@@ -350,7 +350,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-container-wrapper
 ##.ads-global-header
 ##.ads-wrapper
-##.ad-sponsor
 ##.ads_leaderboard
 ##.ads_inline_640
 ##.ads_tb-c
@@ -599,7 +598,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.right_ad_1
 ##.right_ad_2
 ##.right_ad_4
-##.right-rail-ad
 ##.row-ad
 ##.right-rail-ad
 ##.right-rail-ad-container
@@ -1230,7 +1228,6 @@ howstuffworks.com###inline-video-wrap
 howstuffworks.com##.leaderboard-banner
 howstuffworks.com##.z-999
 ! rawstory.com
-rawstory.com##.container_proper-ad-unit
 rawstory.com###rawstory_front_2_container
 rawstory.com###story-top-ad
 rawstory.com##.container_proper-ad-unit
@@ -1245,8 +1242,6 @@ comicbook.com##.mobile
 comicbook.com##.oas
 comicbook.com,popculture.com##.popculture-embed
 comicbook.com,popculture.com##[id^="native-plus-"]
-! .StickyFooter
-apartmenttherapy.com,cubbyathome.com,thekitchn.com##.StickyFooter
 ! theartnewspaper.com
 theartnewspaper.com##.justify-center.flex.w-full
 theartnewspaper.com##[style="min-height:250px;"]
@@ -1369,11 +1364,9 @@ sherdog.com##.top_ads
 ! chron.com/houstonchronicle.com/sfgate.com/seattlepi.com
 chron.com,ctinsider.com,ctpost.com,middletownpress.com,mysanantonio.com,beaumontenterprise.com,expressnews.com,houstonchronicle.com,lmtonline.com,mrt.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.ar16-9
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.bt
-beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.bt.bb
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.md\:bt
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.md\:bt.md\:bb
 mysanantonio.com,sfgate.com##.x100.bg-gray100
-chron.com,seattlepi.com,sfchronicle.com,timesunion.com##[data-block-type="ad"]
 ! ctpost.com
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com,ctpost.com###modals
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com,ctpost.com##body:style(overflow: auto !important;)
@@ -1529,7 +1522,6 @@ hindustantimes.com##.desktopAd
 hindustantimes.com##.right-top-ad
 hindustantimes.com##.storyAd
 ! tech.hindustantimes.com
-tech.hindustantimes.com##.adsHeight720x90
 tech.hindustantimes.com##.adsHeight720x90
 tech.hindustantimes.com##.topGadgetsAppend
 ! eurogamer.net,rockpapershotgun.com,vg247.com
@@ -1772,7 +1764,6 @@ timeout.com##div[id^="ad-side-"]
 timeout.com##div[id^="ad-promo-"]
 timeout.com##._ad_1elek_1
 ! nj.com
-nj.com##.below-toprail
 nj.com##.revenue-display
 nj.com##.rightRail-top-wrapper
 ! wionews.com
@@ -1967,7 +1958,6 @@ washingtonpost.com##[data-testid="fixed-bottom-ad"]
 forbes.com##.top-ad-container
 forbes.com##.vestpocket
 forbes.com##.inline__zephr
-forbes.com##.ad-unit
 forbes.com###article-stream-1
 forbes.com##.fbs-ad--ntv-deskchannel-wrapper
 forbes.com##.fbs-ad--ntv-home-wrapper
@@ -2130,7 +2120,6 @@ urbandictionary.com##.mb-4.justify-center
 ! globalnews.ca
 globalnews.ca##.c-adChoices
 globalnews.ca##.c-stickyRail
-globalnews.ca##.c-ad
 globalnews.ca##.l-headerAd
 ##section#headerAd
 ! hilltimes.com
@@ -2149,10 +2138,6 @@ coingecko.com##[data-target="ads.banner"]
 coingecko.com###top-announcement-header
 coingecko.com##.sponsored-v2
 coingecko.com##[data-controller="button-ads"]
-! panow.com
-panow.com##.parallax-breakout
-panow.com##.midcontent
-panow.com##.pos-top
 ! livemint.com
 livemint.com##.rightAdNew
 livemint.com##.leftblockAd
@@ -2342,7 +2327,6 @@ bloomberg.com##div[class^="media-ui-FullWidthAd"]
 ! thebaltimorebanner.com
 thebaltimorebanner.com###leaderboard-ad-v2
 thebaltimorebanner.com##.block-ad-zone
-thebaltimorebanner.com##.ad-container
 ! theatlantic.com
 theatlantic.com##.ArticleInjector_clsAvoider__dqIAm
 ! thegazette.com
@@ -2457,7 +2441,6 @@ cnn.com###js-outbrain-rightrail-ads-module
 cnn.com###partner-zone
 cnn.com###sponsored-outbrain-1
 cnn.com##.ad-slot-dynamic
-cnn.com##.ad-slot-header__wrapper
 cnn.com##.ad-slot__ad-wrapper
 cnn.com##.stack__ads
 cnn.com##.zone__ads
