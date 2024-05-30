@@ -32,6 +32,10 @@ lidl.co.uk,lidl.fr,lidl.de,lidl.nl,lidl.dk,lidl.se,lidl.fi,lidl.at,lidl.ch,lidl.
 
 arvopaperi.fi,iltalehti.fi,kauppalehti.fi,mediuutiset.fi,mikrobitti.fi,talouselama.fi,tekniikkatalous.fi,tivi.fi,uusisuomi.fi###alma-cmpv2-container
 
+! Allow consumer reviews.
+patagonia.com#@#+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1%2CC0004%3A0%2CC0005%3A1)
+patagonia.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1%2CC0005%3A1)
+
 ! Increase timeouts
 bloomberg.com##+js(trusted-click-element, button[title="Reject All"], , 2000)
 consent.youtube.com##+js(trusted-click-element, form[action] button[jsname="tWT92d"], , 1500)
