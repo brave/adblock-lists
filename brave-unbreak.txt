@@ -879,6 +879,7 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 ! nytimes.com (fixes no images)
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=nytimes.com
 ! Peter Lowe fixes
+||awstrack.me^$badfilter
 ||blockthrough.com^$badfilter
 ||criteo.com^$badfilter
 ||app.pendo.io^$badfilter
