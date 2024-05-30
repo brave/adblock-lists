@@ -693,6 +693,7 @@ cnn.com,kefayde.com,careersides.com,nayisahara.com,wikifilmia.com,infinityskull.
 ! Anti-Brave checks (aopw)
 cnnespanol.cnn.com##+js(aopw, window.navigator.brave)
 cnnespanol.cnn.com##+js(aopr, window.navigator.brave)
+cnnespanol.cnn.com##+js(rmnt, script, location.replace)
 !
 ! Standard blocking of Bing mouselog tracker (is blocked in Aggressive)
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
