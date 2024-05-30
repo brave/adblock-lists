@@ -18,6 +18,8 @@ www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex
 www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 192"]
 ! Youtube: How are your recommendations today?
 www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 320px;"]
+! its cable reimagined
+www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 206"]
 
 ! Youtube Original (based on https://github.com/sepehrkiller/FixYoutubeUI/)
 ! Old UI
