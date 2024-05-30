@@ -621,6 +621,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||childlikeform.com^
 ||chingovernment.com^
 ||chinsnakes.com^
+||chipperisle.com^
 ||chivalrouscord.com^
 ||chubbycreature.com^
 ||chunkycactus.com^
@@ -970,6 +971,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||flimsythought.com^
 ||floodprincipal.com^
 ||flourishingcollaboration.com^
+||flourishingpartnership.com^
 ||flowersornament.com^
 ||flowerstreatment.com^
 ||flowerycreature.com^
@@ -1097,6 +1099,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||haplesshydrant.com^
 ||haplessland.com^
 ||happenhistory.com^
+||happysponge.com^
 ||harborcaption.com^
 ||harborcub.com^
 ||hardtofindmilk.com^
@@ -1389,12 +1392,14 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||oldfashionedoffer.com^
 ||omniscientfeeling.com^
 ||omniscientspark.com^
+||onlywoofs.com^
 ||opalquill.com^
 ||operationchicken.com^
 ||operationnail.com^
 ||opinionsurprise.com^
 ||oppositeoperation.com^
 ||optimallimit.com^
+||opulentsylvan.com^
 ||orangeoperation.com^
 ||organizationdogs.com^
 ||orientedargument.com^
@@ -1551,6 +1556,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||quicksandear.com^
 ||quietknowledge.com^
 ||quillkick.com^
+||quirkybliss.com^
 ||quirkysugar.com^
 ||quixoticnebula.com^
 ||quizzicalpartner.com^
@@ -1724,6 +1730,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||selectivesummer.com^
 ||selfishsea.com^
 ||selfishsnake.com^
+||sendingspire.com^
 ||sensorsmile.com^
 ||sentinelp.com^
 ||separateshow.com^
@@ -2154,6 +2161,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||venomousvessel.com^
 ||venusgloria.com^
 ||verdantanswer.com^
+||verdantlabyrinth.com^
 ||verdantsculpture.com^
 ||verifyvegetable.com^
 ||verseballs.com^
@@ -2187,6 +2195,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||waterywrist.com^
 ||wearbasin.com^
 ||wearywater.com^
+||websitesdude.com^
 ||wellgroomedapparel.com^
 ||wellgroomedbat.com^
 ||wellgroomedhydrant.com^
