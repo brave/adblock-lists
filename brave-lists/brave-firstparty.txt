@@ -2448,6 +2448,7 @@ cnn.com##[data-zone-label="Paid Partner Content"]
 ! cnnespanol.cnn.com
 cnnespanol.cnn.com##.banner--sticky
 cnnespanol.cnn.com##.banner
+||cnn.com/wmuc/cnn_user_consent.min.js
 ! stripes.com
 stripes.com###FeatureAd
 stripes.com###MidPageAd
