@@ -695,6 +695,13 @@ cnnespanol.cnn.com##+js(aopw, window.navigator.brave)
 cnnespanol.cnn.com##+js(aopr, window.navigator.brave)
 cnnespanol.cnn.com##+js(rmnt, script, location.replace)
 !
+! https://github.com/uBlockOrigin/uAssets/issues/22160
+! https://github.com/uBlockOrigin/uAssets/issues/22385
+!#if env_firefox
+foxbusiness.com,foxnews.com#@#+js(set, Taplytics, {})
+foxbusiness.com,foxnews.com#@#+js(set, Taplytics.featureFlagEnabled, noopFunc)
+!#endif
+!
 ! Standard blocking of Bing mouselog tracker (is blocked in Aggressive)
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
 ! EasyDutch https://github.com/EasyDutch-uBO/EasyDutch/blob/main/EasyDutch/Anti-Adblock.txt (START)
