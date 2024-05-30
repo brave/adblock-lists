@@ -20,6 +20,8 @@ www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex
 www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 320px;"]
 ! its cable reimagined
 www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 206"]
+! Youtube music popup
+music.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 0px; max-width: 1534"]
 
 ! Youtube Original (based on https://github.com/sepehrkiller/FixYoutubeUI/)
 ! Old UI
