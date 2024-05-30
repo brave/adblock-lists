@@ -621,6 +621,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||childlikeform.com^
 ||chingovernment.com^
 ||chinsnakes.com^
+||chipperisle.com^
 ||chivalrouscord.com^
 ||chubbycreature.com^
 ||chunkycactus.com^
@@ -1729,7 +1730,6 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||selectivesummer.com^
 ||selfishsea.com^
 ||selfishsnake.com^
-||chipperisle.com^
 ||sendingspire.com^
 ||sensorsmile.com^
 ||sentinelp.com^
