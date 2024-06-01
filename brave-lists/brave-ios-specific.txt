@@ -1048,6 +1048,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||gondolagnome.com^
 ||gorgeousedge.com^
 ||gorgeousground.com^
+||gracefulmilk.com^
 ||gracefulsock.com^
 ||grainmass.com^
 ||grandfatherguitar.com^
@@ -1550,6 +1551,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||quaintcan.com^
 ||quaintlake.com^
 ||quantumlagoon.com^
+||quantumshine.com^
 ||quarterbean.com^
 ||queenskart.com^
 ||questionableobservation.com^
