@@ -749,6 +749,10 @@ globalnews.ca##.c-newsletterSignup
 @@||nexus.ensighten.com/capitalone/Bootstrap.js$script,domain=capitalone.com
 ! ip-approval bug
 ||ip-approval.com^$third-party,domain=mufon.com
+! Anti-adblock: tryhardsports.com
+tryhardsports.com##.tie-popup
+tryhardsports.com##+js(rc, tie-popup-is-opend, body, stay)
+tryhardsports.com##html:style(overflow:auto !important)
 ! Anti-adblock: lapresse.ca
 ||lapresse-ca.lapresse.ca^$domain=lapresse.ca
 ! Fix foxnews video playback
