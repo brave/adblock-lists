@@ -12,6 +12,11 @@
 ! Prevent googlefunding error message (ios)
 ||fundingchoicesmessages.google.com^$third-party,badfilter
 
+! https://community.brave.com/t/ads-not-being-blocked-and-sites-denying-access-to-content/551667
+sinensistoon.com##+js(aopr, block_ads)
+||adskeeper.co.uk^
+
+
 ! twitch
 @@||ingest.sentry.io/api/$xhr,domain=twitch.tv
 @@||reporting.cdndex.io^$xhr,domain=twitch.tv
