@@ -2445,6 +2445,12 @@ cnn.com##.ad-slot__ad-wrapper
 cnn.com##.stack__ads
 cnn.com##.zone__ads
 cnn.com##[data-zone-label="Paid Partner Content"]
+!  pointmall.rakuten.co.jp
+pointmall.rakuten.co.jp##.side-ad
+pointmall.rakuten.co.jp##style + div.side-box:has(> ul > li > a[href^="https://ac.ebis.ne.jp/tr_set.php"][target="_blank"][rel="noopener noreferrer"])
+pointmall.rakuten.co.jp##.mypage-ads
+pointmall.rakuten.co.jp##.side-mypage-ad-wrap
+pointmall.rakuten.co.jp##.gamelist-ads
 ! cnnespanol.cnn.com
 cnnespanol.cnn.com##.banner--sticky
 cnnespanol.cnn.com##.banner
