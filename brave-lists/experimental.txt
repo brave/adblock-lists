@@ -1,4 +1,4 @@
-! Possibly fixed filter for YT. 
+! Possibly fixed filter for YT.
 ! From: https://github.com/AdguardTeam/AdguardFilters/pull/172976
 ! Discussion: https://github.com/brave/brave-browser/issues/36244#issuecomment-1955943465
 ! ||googlevideo.com/videoplayback*ctier=L&*%2Cctier%2C
@@ -13,7 +13,7 @@ www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk
 ! Google precision popup (Fix disabled scroll)
 www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##html.TaoyYc:style(position: static !important; overflow: auto !important; width: auto !important;)
 
-! youtube self nag screens 
+! youtube self nag screens
 www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 191"]
 www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 192"]
 ! Youtube: How are your recommendations today?
@@ -74,3 +74,7 @@ www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_max_player_wi
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_log_theater_mode, false)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.wn_grid_max_item_width, 0)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.wn_grid_min_item_width, 0)
+
+!LinkedIn News Module Puzzles
+linkedin.com##div:has(> h3#news-module__title-today-puzzles)
+linkedin.com##ul:has(li[class="news-module__puzzle"])
