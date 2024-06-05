@@ -1526,9 +1526,13 @@ tech.hindustantimes.com##.adsHeight720x90
 tech.hindustantimes.com##.topGadgetsAppend
 ! eurogamer.net,rockpapershotgun.com,vg247.com
 eurogamer.net,rockpapershotgun.com,vg247.com###sticky_leaderboard
-! dailymail.co.uk
+! dailymail.co.uk / thisismoney.co.uk
+dailymail.co.uk###promo-unit
 dailymail.co.uk###sky-left
 dailymail.co.uk###sky-right
+dailymail.co.uk,thisismoney.co.uk###sky-left-container
+dailymail.co.uk,thisismoney.co.uk###sky-right-container
+dailymail.co.uk,thisismoney.co.uk##.watermark
 dailymail.co.uk##.billboard-container
 dailymail.co.uk##.mpu_puff_wrapper
 dailymail.co.uk##.connatix-wrapper
