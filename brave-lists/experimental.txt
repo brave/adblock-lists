@@ -24,7 +24,7 @@ www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex
 music.youtube.com##ytmusic-mealbar-promo-renderer.ytmusic-popup-container[enable-bauhaus-style][dialog="true"][tabindex]
 
 ! SSAP YT
-m.youtube.com,music.youtube.com,www.youtube.com##+js(trusted-replace-outbound-text, script, ytplayer, /"visitorData":".*?", '')
+m.youtube.com,music.youtube.com,www.youtube.com##+js(trusted-rpnt, script, /"visitorData":".*?"\,/, , condition, ytplayer)
 m.youtube.com,music.youtube.com,www.youtube.com##+js(trusted-rpnt, script, /^(\(function serverContract\(\))/s, '/*start*/(function(){const e={apply:(e,t,o)=>{if(!0!==ytInitialPlayerResponse?.playerConfig?.ssapConfig?.ssapPrerollEnabled||!o[0]||"X-Goog-Visitor-Id"!==o[0]||!o[1])return Reflect.apply(e,t,o)}};window.XMLHttpRequest.prototype.setRequestHeader=new Proxy(window.XMLHttpRequest.prototype.setRequestHeader,e)})();(function(){const e={construct:(e,t,o)=>{if(!0===ytInitialPlayerResponse?.playerConfig?.ssapConfig?.ssapPrerollEnabled){if(t[0]&&t[0].includes?.("/youtubei/")&&t[1]&&t[1].body?.includes("visitorData"))try{t[1].body=t[1].body.replace(/"visitorData":".*?",/,""),delete t[1].headers["X-Goog-Visitor-Id"]}catch(e){console.trace(e)}if(t[0]&&t[0].includes?.("&sabr=1"))try{t[0]=t[0].replace("&sabr=1","")}catch(e){console.trace(e)}}return Reflect.construct(e,t,o)}};window.Request=new Proxy(window.Request,e)})();document.currentScript.textContent=document.currentScript.textContent.replace(/\/\*start\*\/(.*)\/\*end\*\//g,"");/*end*/$1')
 
 ! Youtube Original (based on https://github.com/sepehrkiller/FixYoutubeUI/)
