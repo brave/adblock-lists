@@ -46,6 +46,8 @@
             "pf_rd_s",
             "pf_rd_t",
             "qid",
+            "ref",
+            "social_share",
             "sprefix"
         ]
     },
