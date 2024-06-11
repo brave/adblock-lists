@@ -209,6 +209,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.SimpleAd
 ##.StickyAdRail__Inner
 ###banner-ad
+##.ad300x250
 ##.ad__placeholder
 ##.ads-label
 ##.banner-ad
@@ -368,6 +369,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.adthrive
 ##.adthrive-ad
 ##.adthrive-content
+##.adthrive-placeholder-content
 ##.adwidget
 ##.adun
 ##.adunitContainer
@@ -2134,7 +2136,13 @@ citynews.ca##.ad-load
 ! ncaa.com
 ncaa.com##.top-banner
 ! .arc_ad
-ajc.com,bostonglobe.com##.arc_ad
+ajc.com,bostonglobe.com,daytondailynews.com,journal-news.com,springfieldnewssun.com##.arc_ad
+! .topbox-cls-placeholder
+belfastlive.co.uk,birminghammail.co.uk,bristolpost.co.uk,cambridge-news.co.uk,cheshire-live.co.uk,chroniclelive.co.uk,cornwalllive.com,coventrytelegraph.net,dailypost.co.uk,derbytelegraph.co.uk,devonlive.com,dublinlive.ie,edinburghlive.co.uk,examinerlive.co.uk,getsurrey.co.uk,glasgowlive.co.uk,gloucestershirelive.co.uk,hertfordshiremercury.co.uk,kentlive.news,leeds-live.co.uk,leicestermercury.co.uk,lincolnshirelive.co.uk,manchestereveningnews.co.uk,mylondon.news,nottinghampost.com,somersetlive.co.uk,stokesentinel.co.uk,walesonline.co.uk##.topbox-cls-placeholder
+! .a-wrap
+androidtrends.com,backthetruckup.com,bingehulu.com,buffalorising.com,streamsgeek.com,techcentral.co.za,trendstorys.com,vedantbhoomi.com##.a-wrap
+! australiangolfdigest.com.au
+australiangolfdigest.com.au##.desktop_header
 ! myabandonware.com (anti-adblock)
 myabandonware.com##div[dir="auto"][style]
 ! coingecko.com
