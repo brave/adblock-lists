@@ -1400,6 +1400,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||obscenesidewalk.com^
 ||observantice.com^
 ||oldfashionedoffer.com^
+||omgthink.com^
 ||omniscientfeeling.com^
 ||omniscientspark.com^
 ||onlywoofs.com^
@@ -1547,6 +1548,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||puffypaste.com^
 ||puffypull.com^
 ||puffypurpose.com^
+||pulsatingmeadow.com^
 ||pumpedpancake.com^
 ||pumpedpurpose.com^
 ||punyplant.com^
@@ -2194,6 +2196,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||voyagepotato.com^
 ||vq1qi.pw^
 ||waggishpig.com^
+||waitingnumber.com^
 ||wakefulcook.com^
 ||wantingwindow.com^
 ||warmafterthought.com^
