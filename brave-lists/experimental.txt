@@ -23,6 +23,12 @@ www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex
 ! Youtube music popup
 music.youtube.com##ytmusic-mealbar-promo-renderer.ytmusic-popup-container[enable-bauhaus-style][dialog="true"][tabindex]
 
+! alt rule
+! twitch.tv##+js(video-swap-new-ublock-origin)
+! Test Twitch.tv rule
+twitch.tv##+js(vaft-ublock-origin)
+ 
+
 ! Youtube Original (based on https://github.com/sepehrkiller/FixYoutubeUI/)
 ! Old UI
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
