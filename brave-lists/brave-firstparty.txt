@@ -2026,6 +2026,10 @@ israelnationalnews.com##.banner
 israelnationalnews.com###banner-sticky
 israelnationalnews.com##.banner-top
 israelnationalnews.com##.sideInf
+! cloutgist.com,codesnse.com (via jnovels.com)
+cloutgist.com,codesnse.com##[href^="https://app.adjust.com/"]
+cloutgist.com,codesnse.com##[alt="AD DESCRIPTION"]
+cloutgist.com,codesnse.com##img[fetchpriority]
 ! scmp.com
 scmp.com##div[data-qa="AdSlot-Container"]
 ! Ad-shield fix (replace= fix)
