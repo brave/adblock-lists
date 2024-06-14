@@ -248,7 +248,7 @@
     },
     {
         "include": [
-            "*://youtu.be/?*",
+            "*://youtu.be/*",
             "*://*.youtube.com/watch?*"
         ],
         "exclude": [
