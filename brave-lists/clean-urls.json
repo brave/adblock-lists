@@ -47,6 +47,8 @@
             "pf_rd_t",
             "qid",
             "ref",
+            "refinements",
+            "rnid",
             "social_share",
             "sprefix"
         ]
