@@ -235,7 +235,9 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad--in-content
 ##.ad--mid-content
 ##.ad--mobile
+##.ad--outstream
 ##.ad--placeholder
+##.ad--rail
 ##.ad--sponsor-content
 ##.ad-250x300
 ##.ad-300
@@ -248,6 +250,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad.box
 ##.ad-bigbox
 ##.ad-disclaimer
+##.ad-stickyhero
 ##.ad-top-billboard
 ##.horizontal-full-ad
 ##.sidebar-square-ad
@@ -303,6 +306,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-sticky-banner
 ##.ad-sticky-wrapper
 ##.ad-stickyhero
+##.ad-stickyhero-enable-mobile
 ##.ad-stickyhero--standard
 ##.ad_tag
 ##.ad-text
@@ -504,6 +508,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.header_ads-container
 ##.header-and-footer--banner-ad
 ##.hide-ad
+##.homepage__native-ad
 ##.html-advertisement
 ##.gnm-ad-unit
 ##.gnm-ad-unit-container
