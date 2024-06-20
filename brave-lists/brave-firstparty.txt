@@ -120,6 +120,14 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###ad-leaderboard
 ###ad-placeholder
 ###ad-standard-wrap
+###ad_1
+###ad_2
+###ad_3
+###ad_4
+###ad_5
+###ad_6
+###ad_7
+###ad_8
 ###ad_bnr_atf_01
 ###ad_bnr_atf_02
 ###ad_leaderboard
@@ -197,10 +205,14 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.AdSense
 ##.AdSlot
 ##.adsSticky
+##.AdOneColumnContainer
+##.advertSlot
 ##.AdvertWrapper
 ##.BoxRail-ad
 ##.ConnatixAd
 ##.FooterAd
+##.GoogleDfpAd
+##.GoogleDfpAd-Content
 ##.GRVAd
 ##.GRVMpuWrapper
 ##.GoogleDfpAd
@@ -337,6 +349,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad_background_true
 ##.ad_blk
 ##.ad_bottom
+##.ad_break_container
 ##.ad_container
 ##.ad_slot
 ##.ad_text
@@ -1426,6 +1439,15 @@ apnews.com,arabiaweather.com,atlasobscura.com,forum.audiogon.com,gamesindustry.b
 storytohear.com,thefamilybreeze.com,thetravelbreeze.com,theworldreads.com,womensmethod.com##.code-block > center p
 ! kokomotribune.com,goshennews.com
 ###floorboard_block
+! phys.org
+phys.org##.ads-336x280
+phys.org##.embed-responsive-trendmd
+phys.org##[style="min-height: 601px;"]
+! .fdn-interstitial-slideshow-block
+orlandoweekly.com,sacurrent.com##.fdn-interstitial-slideshow-block
+! news12.com
+news12.com##.hCauqx
+news12.com##[alignitems="normal"][justifycontent][direction="row"][gap="0"]
 ! fastcompany
 fastcompany.com##.post__promotion
 ! yts.mx
