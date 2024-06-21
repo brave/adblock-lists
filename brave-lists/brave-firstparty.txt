@@ -739,6 +739,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##div.header-ad-container
 ! (invideo advertising)
 ###Player_Playoncontent
+###Player_Playoncontent_footer
 ###aniview--player
 ###cmg-video-player-placeholder
 ###jwplayer-container-div
@@ -756,20 +757,19 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-container--hot-video
 ##.ae-player__itv
 ##.ami-video-wrapper
+##.ampexcoVideoPlayer
 ##.aniview-inline-player
 ##.anyClipWrapper
 ##.aplvideo
 ##.article-connatix-wrap
 ##.article-detail-ad
 ##.avp-p-wrapper
-##.card-captioned.crd > .crd--cnt > .s2nPlayer
 ##.ck-anyclips
 ##.ck-anyclips-article
 ##.exco-container
 ##.ez-sidebar-wall-ad
 ##.ez-video-wrap
-##.freestar-incontent-ad
-##.inline-iframe.article--content-embed
+##.htl-inarticle-container
 ##.js-widget-distroscale
 ##.js-widget-send-to-news
 ##.jwPlayer--floatingContainer
@@ -782,6 +782,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.playwire-article-leaderboard-ad
 ##.pmc-contextual-player
 ##.pop-out-eplayer-container
+##.popup-box-ads
 ##.primis-ad
 ##.primis-ad-wrap
 ##.primis-custom
@@ -792,7 +793,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.s2nContainer
 ##.send-to-news
 ##.van_vid_carousel
-##.vid-present > .van_vid_carousel__padding
 ##.video--container--aniview
 ##.vidible-wrapper
 ##.wps-player-wrap
@@ -1033,6 +1033,72 @@ $removeparam=ad-config-id,xhr,domain=telequebec.tv
 ||warnermediacdn.com/csm/*afid=$removeparam=afid,xhr,domain=cnn.com
 ||warnermediacdn.com/csm/*app_csid=$removeparam=app-csid,xhr,domain=cnn.com
 ||warnermediacdn.com/csm/*conf_csid=$removeparam=conf-csid,xhr,domain=cnn.com
+! invideo advertising
+gunsandammo.com###VideoPlayerDivIframe
+usnews.com###ac-lre-player-ph
+wral.com###exco
+ispreview.co.uk###footer-slot-3
+ginx.tv###ginx-floatingvod-containerspacer
+gunsandammo.com###inline-player
+pubs.rsc.org###journal-info > .text--centered
+forums.whathifi.com###jwplayer-container-div
+mentalfloss.com###mm-player-placeholder-large-screen
+ispreview.co.uk###mobile-takeover-slot-8
+bossip.com,hiphopwired.com,madamenoire.com###player-wrapper
+bar-planb.com,hakibavuong.com###player_dev
+flightradar24.com###primisAdContainer
+realclearpolitics.com###realclear_jwplayer_container
+ispreview.co.uk###sidebar-slot-5
+uproxx.com###upx-mm-player-wrap
+newseveryday.com###vplayer_large
+telegraph.co.uk##.article-betting-unit-container
+sciencetimes.com##.article-videoplayer
+people.com##.article__broad-video
+washingtonexaminer.com##.bridtv
+cnet.com,zdnet.com##.c-avStickyVideo
+stuff.tv##.c-squirrel-embed
+mb.com.ph##.code-block
+techwalla.com##.component-article-section-jwplayer-wrapper
+familystylefood.com##.email-highlight
+comicbook.com##.embedVideoContainer
+taskandpurpose.com##.empire-unit-prefill-container
+europeanpharmaceuticalreview.com##.europ-fixed-footer
+ibtimes.sg##.featured_video
+dailymail.co.uk##.footballco-container
+redboing.com##.fw-ad
+thestar.co.uk##.gOoqzH
+electricianforum.co.uk##.gb-sponsored
+arboristsite.com##.gb-sponsored-wrapper
+givemesport.com##.gms-videos-container
+bringmethenews.com,mensjournal.com,thestreet.com##.is-fallback-player
+anandtech.com##.jwplayer
+gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
+space.com##.jwplayer__wrapper
+southernliving.com##.karma-sticky-rail
+gearjunkie.com##.ldm_ad
+ispreview.co.uk##.midarticle-slot-10
+insideevs.com##.minutely_video_wrap
+bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
+picrew.me##.play-Imagemaker_Footer
+sciencetimes.com##.player
+bossip.com##.player-wrapper-inner
+swimswam.com##.polls-461
+avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com,thetakeout.com##.related-stories-inset-video
+kidspot.com.au##.secondary-video
+playbuzz.com##.stickyplayer-container
+mentalfloss.com##.style_k8mr7b-o_O-style_uhlm2
+gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
+petapixel.com##.video-aspect-wrapper
+gearjunkie.com##.video-jwplayer
+bolavip.com##.video-player-placeholder
+benzinga.com##.video-player-wrapper
+consequence.net##.video_container
+bigthink.com##.wrapper-connatixElements
+bigthink.com##.wrapper-connatixPlayspace
+offidocs.com##[id^="ja-container-prev"]
+hollywoodreporter.com##[id^="jwplayer"]
+wlevradio.com##a[href^="https://omny.fm/shows/just-start-the-conversation"]
+firstforwomen.com##div[class^="article-content__www_ex_co_video_player_"]
 ! Mgid
 ##div[id*="MarketGid"]
 ! Google funding
@@ -1368,8 +1434,6 @@ nba.com##[data-ad-type="banner"]
 si.com##.m-balloon-header--ad
 si.com##[data-ad-group]
 athlonsports.com,bringmethenews.com,meidastouch.com,si.com,thestreet.com##.is-exco-player
-! thestreet.com
-thestreet.com##.is-fallback-player
 ! digitaltrends.com
 digitaltrends.com##.dt-primis
 digitaltrends.com##.dtads-location
@@ -1379,7 +1443,6 @@ soundonsound.com##.block---managed
 theverge.com##div[data-concert]
 ! zdnet.com
 zdnet.com##.c-adDisplay_container_incontent-all-top
-zdnet.com##.c-avStickyVideo
 ! musescore.com
 musescore.com###ad_cs_12219747_728_90
 musescore.com##.js-musescore-hb-728--wrapper
@@ -1808,7 +1871,6 @@ nj.com##.rightRail-top-wrapper
 ! wionews.com
 wionews.com##.ads-box-300x300
 ! anandtech.com
-anandtech.com##.jwplayer
 anandtech.com##.jw-reset
 anandtech.com###side_ad
 anandtech.com##.header_ad
