@@ -481,6 +481,13 @@
 
         ],
         "params": [
+            "bxid",
+            "cndid",
+            "esrc",
+            "hasha",
+            "hashb",
+            "hashc",
+            "source",
             "mbid"
         ]
     },
@@ -628,6 +635,7 @@
             "utm_emmid",
             "utm_id",
             "utm_keyword",
+            "utm_mailing",
             "utm_medium",
             "utm_name",
             "utm_place",
