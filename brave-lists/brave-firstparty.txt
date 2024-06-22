@@ -2804,3 +2804,6 @@ stripes.com###MidPageAd
 ||zazzle.fr/svc/px
 ||zillow.com/HYx10rg3/init.js
 ||zoominfo.com/osx7m0dx/init.js
+! WEBCOMPAT FIX https://github.com/brave/brave-browser/issues/39282
+shop.ketoneaid.com##.product-form__option-selector > .select-wrapper
+shop.ketoneaid.com##html:style(overflow: auto !important; position: initial !important;)
