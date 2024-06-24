@@ -308,6 +308,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-stickyhero
 ##.ad-stickyhero-enable-mobile
 ##.ad-stickyhero--standard
+##.ad-tag
 ##.ad_tag
 ##.ad-text
 ##.ad-title
@@ -703,6 +704,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.zergnet
 ##.zergnet-widget
 ##.zergnet__container
+##.zox_ad_widget
 ##.zox-post-ad-wrap
 ##AD-SLOT
 ##gpt-ad
@@ -1075,6 +1077,7 @@ europeanpharmaceuticalreview.com##.europ-fixed-footer
 ibtimes.sg##.featured_video
 dailymail.co.uk##.footballco-container
 redboing.com##.fw-ad
+foxsports.com##.fwAdContainer
 thestar.co.uk##.gOoqzH
 electricianforum.co.uk##.gb-sponsored
 arboristsite.com##.gb-sponsored-wrapper
@@ -1906,6 +1909,8 @@ advocate.com##.partners__container
 advocate.com###sPost_Layout_Default_0_0_19_0_0_2_2
 ! sportsnet.ca
 sciencing.com,sportsnet.ca##.sticky-leaderboard-container
+sportsnet.ca##.Ads_card-wrapper__KyXLu
+sportsnet.ca###leaderboard_master
 ! powerelectronicsnews.com
 powerelectronicsnews.com##.masthead-banner
 ! twz.com
