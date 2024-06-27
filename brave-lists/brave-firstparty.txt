@@ -1152,6 +1152,8 @@ independent.co.uk,the-independent.com###stickyFooterRoot
 independent.co.uk,the-independent.com###top-banner-wrapper
 independent.co.uk,the-independent.com##[data-mpu1]
 independent.co.uk##article > div[class^="sc-"]:has(> div[class^="sc-"] > div[data-ad-unit-path])
+! visortmo.com
+visortmo.com##.mx-auto.thumbnail.book
 ! appleinsider.com
 appleinsider.com##.push
 ! macrumors.com
