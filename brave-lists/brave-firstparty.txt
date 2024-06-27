@@ -1154,6 +1154,11 @@ independent.co.uk,the-independent.com##[data-mpu1]
 independent.co.uk##article > div[class^="sc-"]:has(> div[class^="sc-"] > div[data-ad-unit-path])
 ! visortmo.com
 visortmo.com##.mx-auto.thumbnail.book
+! vip.idlixofficialx.com
+vip.idlixofficialx.com##.ac0c1cd-wrapper
+vip.idlixofficialx.com##.ac0c1cd-blackout
+vip.idlixofficialx.com##+js(rc, ac0c1cd-blur, body, stay)
+vip.idlixofficialx.com##+js(rc, ac0c1cd-style-full, body, stay)
 ! appleinsider.com
 appleinsider.com##.push
 ! macrumors.com
