@@ -16,6 +16,8 @@
 sinensistoon.com##+js(aopr, block_ads)
 ||adskeeper.co.uk^
 
+! https://github.com/brave/brave-browser/issues/39296
+@@||youtube.com/youtubei/v1/log_event$domain=m.youtube.com
 
 ! twitch
 @@||ingest.sentry.io/api/$xhr,domain=twitch.tv
