@@ -598,6 +598,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.mobile-ad
 ##.mobile-ads
 ##.mobile-ad-placeholder
+##.module_home_ads
+##.module_single_ads
 ##.multiad2
 ##.native-ad
 ##.newspack_global_ad
