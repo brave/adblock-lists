@@ -2154,6 +2154,8 @@ cryptonewsz.com##.stream-item-below-header
 bitcoinist.com,captainaltcoin.com,cryptonews.com,cryptonewsz.com,cryptopotato.com,insidebitcoins.com,news.bitcoin.com,philnews.ph,watcher.guru##[class*="clickout-"]
 news.bitcoin.com##.dXWTEu
 news.bitcoin.com##.gyHIup
+watcher.guru##.add-header
+watcher.guru##.add
 ! firstpost.com
 firstpost.com##.newtopadd
 firstpost.com##.rhs-tp-ad
