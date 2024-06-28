@@ -2151,7 +2151,7 @@ theblock.co##.sponsoredArticle
 cryptonewsz.com##.stream-item
 cryptonewsz.com##.stream-item-above-header
 cryptonewsz.com##.stream-item-below-header
-bitcoinist.com,captainaltcoin.com,cryptonews.com,cryptonewsz.com,insidebitcoins.com,news.bitcoin.com,philnews.ph##[class*="clickout-"]
+bitcoinist.com,captainaltcoin.com,cryptonews.com,cryptonewsz.com,cryptopotato.com,insidebitcoins.com,news.bitcoin.com,philnews.ph,watcher.guru##[class*="clickout-"]
 news.bitcoin.com##.dXWTEu
 news.bitcoin.com##.gyHIup
 ! firstpost.com
