@@ -179,6 +179,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###js-image-ad-mpu
 ###leaderboard.ad
 ###leftrail_dynamic_ad_wrapper
+###mobile-adhesion
 ###mpu1_parent
 ###mpu2_parent
 ###mpu_bottom_sb_1_parent
@@ -1174,6 +1175,8 @@ pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 ! spectrum.ieee.org
 spectrum.ieee.org##.top-leader-container
 spectrum.ieee.org##div[class^="rblad-"]
+! mercurynews.com
+mercurynews.com###mobile-adhesion
 ! theglobeandmail.com
 theglobeandmail.com##.BaseAd__StyledRootBaseAd-sc-1khlkqq-1
 theglobeandmail.com###BaseAd__StyledAdPlaceholder-sc-1khlkqq-0
