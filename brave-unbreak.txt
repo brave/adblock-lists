@@ -30,6 +30,8 @@ www.youtube.com#@#+js(trusted-replace-node-text, script, (function() {window.ytp
 ! https://github.com/easylist/easylist/issues/19234
 @@||mssl.fwmrm.net/libs/$domain=southpark.de|southparkstudios.co.uk|southparkstudios.com.br|southparkstudios.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=southpark.de|southparkstudios.co.uk|southparkstudios.com.br|southparkstudios.com
+! Icognito detection
+sun-sentinel.com,nydailynews.com,orlandosentinel.com,courant.com,pilotonline.com,chicagotribune.com,mcall.com,dailypress.com##+js(set-session-storage-item, nxt_is_incognito, false)
 ! 
 ! win7/8 YT crashes
 ! CNAME: account.adobe.com
