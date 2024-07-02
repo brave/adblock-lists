@@ -303,6 +303,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-slot-top
 ##.ad-slot-wrapper
 ##.ad-space
+##.ad-spacing
 ##.ad-splash
 ##.ad-sponsor
 ##.ad-standard
@@ -2270,10 +2271,6 @@ france24.com##.m-block-ad
 france24.com##[data-tms-ad-container]
 ! timesofisrael.com
 timesofisrael.com##.banner-placeholder
-! timesofindia.com
-timesofindia.com##.phShimmer
-timesofindia.com##div[class^="ATF_container_"]
-timesofindia.com##div[id^="custom_ad_"]
 ! gadgetsnow.com
 gadgetsnow.com##._1edxh
 gadgetsnow.com##._1pjMr
@@ -2353,6 +2350,10 @@ mashable.com##section.mt-4 > div
 ! kotaku.com
 kotaku.com##.japmJB
 ! timesofindia.indiatimes.com
+||indiatimes.com/toiads_
+timesofindia.com##.phShimmer
+timesofindia.com##div[class^="ATF_container_"]
+timesofindia.com##div[id^="custom_ad_"]
 timesofindia.indiatimes.com##.CeUoi
 timesofindia.indiatimes.com##.mgid_second_mrec_parent
 timesofindia.indiatimes.com##.paisa-wrapper
