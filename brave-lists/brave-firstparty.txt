@@ -2361,6 +2361,8 @@ timesofindia.indiatimes.com##.relatedVideoWrapper
 timesofindia.indiatimes.com##[data-aff-type]
 timesofindia.indiatimes.com##.topBand_adwrapper
 timesofindia.indiatimes.com##[data-contentprimestatus]
+timesofindia.indiatimes.com##.d_jsH.mPws3
+timesofindia.indiatimes.com##[data-scrollga="spotlight_banner_widget"]
 ! marketscreener.com
 marketscreener.com###zppMiddle2
 marketscreener.com###zppRight2
