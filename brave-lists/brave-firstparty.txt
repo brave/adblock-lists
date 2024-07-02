@@ -148,6 +148,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###adspace
 ###adslot300x250ATF
 ###adslot300x250BTF
+###adv-gpt-box-container1
+###adv-gpt-masthead-skin-container1
 ###advert-article
 ###advert-article-1
 ###advert-article-2
@@ -196,6 +198,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###story_top_ddb_0
 ###sponsor_posts
 ###taboola-below-article-thumbnails
+###taboola-mid-article-thumbnails-iii
 ###td-ad-placeholder
 ###topad
 ###TopAd
@@ -414,6 +417,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.amp-ad-container
 ##.amp-ads
 ##.am-adslot
+##.anchor-ad
 ##.anchored-ad-widget
 ##.apexAd
 ##.arc-ad-wrapper
@@ -438,6 +442,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.br-ad
 ##.br-ad-wrapper
 ##.breaker-ad
+##.browsi-ad
 ##.bvp-ad
 ##.c-ad
 ##.c-advertisement
@@ -492,6 +497,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ezoic-floating-bottom
 ##.first_ad
 ##.floating-preroll-ad
+##.footer-ad
 ##.freestar-ad-container
 ##.freestar-incontent-ad
 ##.freestar-ad-sidebar-container
@@ -523,6 +529,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gnm-ad-unit-container
 ##.gnm-adhesion-ad
 ##.gnm-banner-ad
+##.header-ad-wrap
 ##.header__ad
 ##.homead
 ##.home-ad-region-1
@@ -1196,6 +1203,7 @@ atlasobscura.com##.ad-site-top-full-width
 plos.org##.head-top
 plos.org##.skyscraper-container
 ! engadget.com
+engadget.com##.caas-da
 engadget.com##.post-article-ad
 engadget.com##.Mih\(90px\)
 engadget.com##.Py\(30px\).Bgc\(engadgetGhostWhite\)
@@ -1676,6 +1684,7 @@ fivethirtyeight.com##.master-ad
 ! dailykos.com
 dailykos.com##.story-banner-ad-placeholder
 ! newsnow.co.uk
+newsnow.co.uk##.grid-column__container
 newsnow.co.uk##.hero-wrapper
 newsnow.co.uk##.skyscraper-left
 ##[id^="ad_sky"]
@@ -1832,6 +1841,7 @@ syfy.com##.zergnet-widget__header
 metro.co.uk###mpu_bottom
 metro.co.uk##.ad-slot-large
 metro.co.uk##.ji-ad-slot-mpu
+metro.co.uk###we-need-monies
 ! odishatv.in
 odishatv.in##.otv-300-250-ad
 odishatv.in##.otv-970-250-ad
@@ -1900,8 +1910,10 @@ anandtech.com###side_ad
 anandtech.com##.header_ad
 ! interestingengineering.com
 interestingengineering.com##.Ad_ad__hm0Ut
-interestingengineering.com##.Anyclip_conBody__emI_Z
 interestingengineering.com##.Ad_adContainer__XNCwI
+interestingengineering.com##.t-h-\[130px\]
+interestingengineering.com##.t-h-\[176px\]
+interestingengineering.com##.t-h-\[280px\]
 ! .cls-hlb-wrapper-desktop
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
 ! thesaurus.com
@@ -1954,7 +1966,11 @@ krebsonsecurity.com##.a-statement
 theguardian.com##.top-banner-ad-container
 ! ft.com
 ft.com##.o-ads
-! videogamer.com
+ft.com##pg-slot
+! .advs
+bearingarms.com,hotair.com,pjmedia.com,redstate.com,townhall.com,twitchy.com##.advs
+! forums.golfwrx.com 
+forums.golfwrx.com###pb-slot-top
 ! bleepingcomputer.com
 bleepingcomputer.com##.cz-toa-wrapp
 bleepingcomputer.com##.s-ou-wrap
