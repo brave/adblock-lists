@@ -17,7 +17,8 @@ sinensistoon.com##+js(aopr, block_ads)
 ||adskeeper.co.uk^
 
 ! https://github.com/brave/brave-browser/issues/39296
-@@||youtube.com/youtubei/v1/log_event$domain=m.youtube.com
+! For iOS 15 users, was fix post ios 15: https://github.com/brave/brave-core/pull/24472
+@@||youtube.com/youtubei/v1/log_event$domain=m.youtube.com|www.youtube.com
 
 ! twitch
 @@||ingest.sentry.io/api/$xhr,domain=twitch.tv
