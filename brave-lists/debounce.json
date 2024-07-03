@@ -351,6 +351,15 @@
   },
   {
     "include": [
+      "*://link.emlmind.com/en/mail_link_tracker?*"
+    ],
+    "exclude": [
+    ],
+    "action": "base64,redirect",
+    "param": "url"
+  },
+  {
+    "include": [
       "*://www.googleadservices.com/pagead/aclk?*"
     ],
     "exclude": [
