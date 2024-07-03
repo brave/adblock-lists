@@ -189,6 +189,18 @@
     },
     {
         "include": [
+            "*://ici.radio-canada.ca/*",
+            "*://radio-canada.ca/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "partageApp"
+        ]
+    },
+    {
+        "include": [
             "*://actionnetwork.org/*",
             "*://*.bamboohr.com/careers/*",
             "*://medium.com/*"
