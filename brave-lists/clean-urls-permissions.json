@@ -1,0 +1,7 @@
+{
+    "js-api": [
+        "*://*.youtube.com/*",
+        "*://*.instagram.com/*",
+        "https://boocmp.github.io/clipboard/*"
+    ]
+}
