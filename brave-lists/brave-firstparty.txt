@@ -1644,6 +1644,10 @@ bloodyelbow.com##.c-inblog_ad
 bloodyelbow.com##.snackStickyParent
 ! channelnewsasia.com
 channelnewsasia.com##.programtic-ads
+! ladbible
+ladbible.com,unilad.com,gamingbible.com,uniladtech.com,sportbible.com,tyla.com##div[style*="min-width:"]
+ladbible.com,unilad.com,gamingbible.com,uniladtech.com,sportbible.com,tyla.com##.advert-placeholder_advertPlaceholder____F2W
+ladbible.com,unilad.com,gamingbible.com,uniladtech.com,sportbible.com,tyla.com##.floating-video-player_container__u4D9_
 ! express.co.uk
 express.co.uk###ovp-primis
 express.co.uk###taboola-mid-article-thumbnails-outstream
