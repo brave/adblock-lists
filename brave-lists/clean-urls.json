@@ -203,6 +203,7 @@
         "include": [
             "*://actionnetwork.org/*",
             "*://*.bamboohr.com/careers/*",
+            "*://www.tumblr.com/*",
             "*://medium.com/*"
         ],
         "exclude": [

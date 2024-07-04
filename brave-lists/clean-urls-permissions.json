@@ -2,6 +2,7 @@
     "js-api": [
         "*://*.youtube.com/*",
         "*://*.instagram.com/*",
+        "*://www.tumblr.com/*",
         "https://boocmp.github.io/clipboard/*"
     ]
 }
