@@ -2382,6 +2382,10 @@ reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[d
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#?#article.Post:-abp-has(a[rel="nofollow noopener sponsored"])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-comments-page-ad
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##xpromo-top-button
+! https://github.com/uBlockOrigin/uAssets/commit/20a6cf7344febbb98c54d22f776f0845910d81eb
+iir.la,tii.la,oko.sh,ckk.ai,oei.la,lnbz.la##a[href][target="_blank"]
+iir.la,tii.la,oko.sh,ckk.ai,oei.la,lnbz.la##.banner-inner
+iir.la,tii.la,oko.sh,ckk.ai,oei.la,lnbz.la##.td-post-template-default.td-container
 ! economist.com
 economist.com##.adComponent_advert__kPVUI
 ! qoura.com
