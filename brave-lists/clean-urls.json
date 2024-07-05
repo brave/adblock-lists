@@ -55,6 +55,24 @@
     },
     {
         "include": [
+            "*://new.reddit.com/*",
+            "*://old.reddit.com/*",
+            "*://www.reddit.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "correlation_id",
+            "post_fullname",
+            "ref",
+            "ref_campaign",
+            "ref_source",
+            "share_id"
+        ]
+    },
+    {
+        "include": [
             "https://*.app.link/*"
         ],
         "exclude": [
