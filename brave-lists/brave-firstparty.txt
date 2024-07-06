@@ -1895,6 +1895,10 @@ newsweek.com###topad
 dcist.com##.advertisement-information-link
 ! seattletimes.com
 seattletimes.com##[data-zone="Sponsored"]
+! speedtest.com
+speedtest.net##.pure-u-custom-ad-rectangle
+speedtest.net##.pure-u-custom-wifi-recommendation
+speedtest.net##.top-placeholder
 ! weather.com
 weather.com##[title="Sponsored Content"]
 ! smh.com.au
