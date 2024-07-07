@@ -672,6 +672,9 @@ pahe.li##+js(aeld, , _0x)
 *$xhr,subdocument,3p,domain=igg-games.com
 @@||cdn.fastcomments.com^$script,domain=igg-games.com
 @@||ajax.googleapis.com^$script,domain=igg-games.com
+@@||challenges.cloudflare.com^$domain=igg-games.com
+@@||fastcomments.com/*comment$frame,domain=igg-games.com
+@@||staticm.fastcomments.com^$image,domain=igg-games.com
 ! uBO-domain wildcard workaround
 @@||cdn.gotraffic.net^$domain=bloomberg.com|bloomberg.co.jp
 ! Potential Tracker, Annoyance
