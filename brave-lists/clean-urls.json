@@ -475,6 +475,18 @@
     },
     {
         "include": [
+            "*://goto.walmart.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+           "sharedid",
+	   "partnerpropertyid"
+        ]
+    },
+    {
+        "include": [
             "*://*.nytimes.com/*"
         ],
         "exclude": [
