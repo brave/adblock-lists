@@ -1,5 +1,5 @@
 {
-    "js-api": [
+    "js_api": [
         "*://*.youtube.com/*",
         "*://*.instagram.com/*",
         "*://www.tumblr.com/*",
