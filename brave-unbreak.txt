@@ -968,6 +968,9 @@ anix.vc,movies4u.gold,emturbovid.com,cloutgist.com,codesnse.com,vidsrc.top,movie
 ! /^https?:\/\/[a-z]{5,12}\.com\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,21}=[0-9a-zA-Z]{300,1300}/$xhr,3p,match-case,method=get,header=via:/1[.:]1/,to=com
 ! https://www.buffstreams.ai/
 /^https?:\/\/[a-z]{5,12}\.com\/[0-9a-h]{1,17}\?[0-9a-zA-Z]{1,21}=[0-9a-zA-Z]{500,1300}/$xhr,3p,match-case
+! https://9xflix.wang/m/ 
+! /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p,to=com
+/^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-f]{2}\/){2,3}[0-9a-f]{32}\.js$/$script,3p
 ! streamwish.to
 streamwish.to##+js(set-constant, xRds, true)
 streamwish.to##+js(set-constant, cRAds, false)
