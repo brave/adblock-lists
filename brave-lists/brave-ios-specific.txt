@@ -70,6 +70,8 @@ sinensistoon.com##+js(aopr, block_ads)
 ||adfyre.co^
 ||etahub.com^$3p
 ||trafficjunky.com^$3p
+||outoctillerytor.com^
+
 
 ! streaming sites
 rabbitstream.net###overlay-container
