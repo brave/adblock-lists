@@ -15,7 +15,7 @@ class DebounceTester(unittest.TestCase):
         self.rules_cleanurls = self.loadRules(self.readFile('clean-urls.json'))
 
         js_api_rules = self.readFile('clean-urls-permissions.json')
-        self.rules_cleanurlperms = js_api_rules['js-api']
+        self.rules_cleanurlperms = js_api_rules['js_api']
 
     def readFile(self, filename):
         basedir = os.path.dirname(__file__)
