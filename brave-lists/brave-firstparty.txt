@@ -1505,8 +1505,8 @@ beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,housto
 ! sfchronicle.com
 sfchronicle.com##div[class^="ad-module-"]
 ! androidauthority.com
-ndroidauthority.com##[data-ad-type]
-ndroidauthority.com##a[data-sel="dealbar-link"]
+androidauthority.com##[data-ad-type]
+androidauthority.com##a[data-sel="dealbar-link"]
 androidauthority.com##._--_-___Pb
 androidauthority.com##._--_-___Yb
 androidauthority.com##._--_-___Zb
