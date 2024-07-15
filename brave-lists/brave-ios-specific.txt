@@ -98,6 +98,8 @@ fmovies.co###ics
 /fret/meow4/*$script,3p
 /i/npage/*$script,3p
 
+! dailymail.co.uk
+dailymail.co.uk##+js(abort-on-property-read, Notification)
 
 ! https://github.com/easylist/easylist/commit/d3a2c54ac
 @@||app.posthog.com/decide/
