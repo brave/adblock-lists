@@ -71,7 +71,14 @@ sinensistoon.com##+js(aopr, block_ads)
 ||etahub.com^$3p
 ||trafficjunky.com^$3p
 ||outoctillerytor.com^
+||pubfuture-ad.com^
+||tabletsregrind.com^
+||staumersleep.com^
+||a-ads.com^
+||prospectprefer.com^
 
+! manhwatop.com
+/\/[0-9a-f]{32}\/invoke\.js/$script,3p
 
 ! streaming sites
 rabbitstream.net###overlay-container
