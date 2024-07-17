@@ -28,8 +28,10 @@
 
         ],
         "params": [
+            "ascsubtag",
             "dib",
             "dib_tag",
+            "geniuslink",
             "keywords",
             "th",
             "content-id",
