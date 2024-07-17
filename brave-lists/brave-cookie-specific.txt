@@ -45,6 +45,13 @@ myprivacy.dpgmedia.nl,dpgmediagroup.com,story.nl,veronicasuperguide.nl#@##pg-mod
 patagonia.com#@#+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A0%2CC0003%3A1%2CC0004%3A0%2CC0005%3A1)
 patagonia.com##+js(trusted-set-cookie, OptanonConsent, groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1%2CC0005%3A1)
 
+! independent.co.uk
+! Old rules:
+cmpv2.independent.co.uk##+js(trusted-click-element, .sp_choice_type_12[title="OPTIONS"])
+cmpv2.independent.co.uk##+js(trusted-click-element, [title="Reject All"], , 500)
+! new:
+cmpv2.independent.co.uk##+js(trusted-click-element, button[title="READ FOR FREE"], , 1000)
+
 ! Didomi consent popups
 metronieuws.nl,gva.be,nieuwsblad.be,cadenaser.com,actu.fr,elconfidencial.com,rtl.lu,rfi.fr,20minutos.es,elcomercio.es,france24.com,marmiton.org,cope.es##+js(trusted-click-element, #didomi-notice-agree-button, , 1000)
 metronieuws.nl,gva.be,nieuwsblad.be,cadenaser.com,actu.fr,elconfidencial.com,rtl.lu,rfi.fr,20minutos.es,elcomercio.es,france24.com,marmiton.org,cope.es###didomi-notice:style(visibility: hidden !important;)
