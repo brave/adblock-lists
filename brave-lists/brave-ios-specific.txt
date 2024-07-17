@@ -594,6 +594,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||capablecup.com^
 ||capriciouscorn.com^
 ||capsquirrel.com^
+||captivatingcanyon.com^
 ||carefuldolls.com^
 ||carelesshat.com^
 ||caringcast.com^
@@ -697,6 +698,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||conditionchange.com^
 ||conditioncrush.com^
 ||confesschairs.com^
+||configchain.com^
 ||confusedcart.com^
 ||connectashelf.com^
 ||consciouschairs.com^
@@ -997,6 +999,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||flimsythought.com^
 ||floodprincipal.com^
 ||flourishingcollaboration.com^
+||flourishinginnovation.com^
 ||flourishingpartnership.com^
 ||flowersornament.com^
 ||flowerstreatment.com^
@@ -1052,6 +1055,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||fuzzyweather.com^
 ||fvl1f.pw^
 ||gammamaximum.com^
+||gardenovens.com^
 ||gaudybeginner.com^
 ||generalprose.com^
 ||generateoffice.com^
@@ -2061,6 +2065,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||synonymoussticks.com^
 ||synthesizespoon.com^
 ||systemizecoat.com^
+||tackytrains.com^
 ||talentedsteel.com^
 ||talltouch.com^
 ||tangibleteam.com^
