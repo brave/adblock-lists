@@ -24,6 +24,9 @@ sinensistoon.com##+js(aopr, block_ads)
 @@||ingest.sentry.io/api/$xhr,domain=twitch.tv
 @@||reporting.cdndex.io^$xhr,domain=twitch.tv
 
+! https://github.com/easylist/easylist/commit/d7bd5bdbc03ad64801a0e1d400484da1d67a5541
+@@||braze.com/api/$domain=dairyqueen.com|deezer.com
+
 ! photopea.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=photopea.com
 @@||cmp.uniconsent.com^$xhr,domain=photopea.com
