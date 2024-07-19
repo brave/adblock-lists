@@ -1070,6 +1070,3 @@ modalina.jp##+js(aopr, AdBlockLimitation)
 @@||ad.pr.ameba.jp/tpc/$xmlhttprequest
 @@||amebame.com/pub/ads/$domain=ameblo.jp
 @@||stat100.ameba.jp/blogportal/img/banner/$image
-! WEBCOMPAT FIX https://github.com/brave/brave-browser/issues/39282
-shop.ketoneaid.com##.product-form__option-selector > .select-wrapper
-shop.ketoneaid.com##html:style(overflow: auto !important; position: initial !important;
