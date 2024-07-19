@@ -1047,16 +1047,15 @@ $removeparam=ad-config-id,xhr,domain=telequebec.tv
 &caid=$removeparam=caid,xhr,domain=max.com
 ||brightcove.com/playback/*/*?ad_config_id$removeparam=ad-config-id,xhr,domain=tvnz.co.nz
 ||brightcove.com^$removeparam=ad-config-id,domain=player.stv.tv
-||brightcove.com^$removeparam=ad-config-id,xhr,domain=roosterteeth.com
 ||brightcovecdn.com/playback/*/*?ad_config_id$removeparam=ad-config-id,xhr,domain=tvnz.co.nz
 ||cxm-api.fifa.com/fifaplusweb/api/video/$removeparam=adconfig,xhr
 ||edge.api.brightcove.com^$removeparam=ad-config-id,xhr,domain=9now.com.au|mech-plus.com|threenow.co.nz
 ||hbo.yspsvc-na.net/csm/*&caid=$removeparam=caid,xhr,domain=play.hbomax.com
 ||medium.ngtv.io/v2/media/*&ssaiprofile=$xhr,removeparam=ssaiProfile,domain=~cnn.com
-||warnermediacdn.com/csm/*&caid=$removeparam=caid,xhr,domain=cnn.com
-||warnermediacdn.com/csm/*afid=$removeparam=afid,xhr,domain=cnn.com
-||warnermediacdn.com/csm/*app_csid=$removeparam=app-csid,xhr,domain=cnn.com
-||warnermediacdn.com/csm/*conf_csid=$removeparam=conf-csid,xhr,domain=cnn.com
+||warnermediacdn.com/csm/*&caid=$xhr,removeparam=caid,domain=cnn.com
+||warnermediacdn.com/csm/*afid=$xhr,removeparam=afid,domain=cnn.com
+||warnermediacdn.com/csm/*app_csid=$xhr,removeparam=app_csid,domain=cnn.com
+||warnermediacdn.com/csm/*conf_csid=$xhr,removeparam=conf_csid,domain=cnn.com
 ! invideo advertising
 gunsandammo.com###VideoPlayerDivIframe
 usnews.com###ac-lre-player-ph
