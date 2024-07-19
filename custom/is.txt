@@ -39,6 +39,7 @@ blika.is##.TopAd_all___Rrm_
 heimildin.is,vf.is##.ad
 eidfaxi.is##.ad-banner
 skessuhorn.is##.ad-front-310x400
+skessuhorn.is##.ad-front-635x150
 auroraforecast.is##.adbannermain
 doktor.is##.adbox
 vb.is##.au-block
@@ -70,14 +71,17 @@ nutiminn.is##.tdi_103_674
 nutiminn.is##.tdi_5_7f3
 nutiminn.is##.tdi_5_cc0
 mbl.is##.ticker-ad
-veitingageirinn.is##.widget_custom_html
+discover.is,veitingageirinn.is##.widget_custom_html
 icelandwithaview.com,veitingastadir.is##.widget_media_image
 blika.is##[class*="FrontPageIS_"]
 akureyri.net##[href^="/is/moya/adverts/"]
 veitingageirinn.is##[href^="https://airpark.is"]
+1819.is##[href^="https://old.1819.is/linkto/"]
 akureyri.net##[id^="box_aitem"]
 akureyri.net##aside
 bilasolur.is##div[class^="col-"]:has([class*="advertisement-spot-"])
 bland.is##div[id*="advImg"]
 fotbolti.net##div[id^="banner"]
 smugan.is##div[style^="margin:0px auto;height:310px;"]
+! :has
+1819.is#?#.d-flex.flex-column.mx-auto:-abp-contains(AUGLÝSING)
