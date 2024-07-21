@@ -220,7 +220,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.GoogleDfpAd-Content
 ##.GRVAd
 ##.GRVMpuWrapper
-##.GoogleDfpAd
 ##.NavBarAd
 ##.PageTopAd
 ##.SimpleAd
@@ -255,7 +254,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad.box
 ##.ad-bigbox
 ##.ad-disclaimer
-##.ad-stickyhero
 ##.ad-top-billboard
 ##.horizontal-full-ad
 ##.sidebar-square-ad
@@ -1077,7 +1075,6 @@ ispreview.co.uk###footer-slot-3
 ginx.tv###ginx-floatingvod-containerspacer
 gunsandammo.com###inline-player
 pubs.rsc.org###journal-info > .text--centered
-forums.whathifi.com###jwplayer-container-div
 mentalfloss.com###mm-player-placeholder-large-screen
 ispreview.co.uk###mobile-takeover-slot-8
 bossip.com,hiphopwired.com,madamenoire.com###player-wrapper
@@ -1097,7 +1094,6 @@ mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
 familystylefood.com##.email-highlight
 comicbook.com##.embedVideoContainer
-taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 ibtimes.sg##.featured_video
 dailymail.co.uk##.footballco-container
@@ -1172,10 +1168,8 @@ nationalworld.com,scotsman.com##.dmpu-item
 theautopian.com##.code-block:has(.htlad-InContent)
 theautopian.com##[data-widget_type="html.default"]
 ! bossip.com
-bossip.com###player-wrapper
 bossip.com##.fsb-desktop
 bossip.com##.fsb-toggle
-bossip.com##.player-wrapper-inner
 ! delish.com
 delish.com##.css-3oqygl
 ! independent.co.uk/the-independent.com
@@ -1233,8 +1227,6 @@ pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 ! spectrum.ieee.org
 spectrum.ieee.org##.top-leader-container
 spectrum.ieee.org##div[class^="rblad-"]
-! mercurynews.com
-mercurynews.com###mobile-adhesion
 ! theglobeandmail.com
 theglobeandmail.com##.BaseAd__StyledRootBaseAd-sc-1khlkqq-1
 theglobeandmail.com###BaseAd__StyledAdPlaceholder-sc-1khlkqq-0
@@ -1381,8 +1373,6 @@ extremetech.com##section > .mt-8
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.topWrapper
 ! timesnownews.com
 timesnownews.com##.atfAdContainer
-! wral.com
-wral.com###exco
 ! upi.com
 upi.com##.ad_slot_inread
 upi.com##.col-md-12 > table
@@ -1414,7 +1404,6 @@ rawstory.com##.connatix-hodler
 ! distractify.com
 distractify.com,greenmatters.com,inquisitr.com,okmagazine.com,radaronline.com##.dpbdIG
 ! comicbook.com
-comicbook.com##.embedVideoContainer
 comicbook.com##.mobile
 comicbook.com##.oas
 comicbook.com,popculture.com##.popculture-embed
@@ -1457,7 +1446,6 @@ cointelegraph.com##mm-collectors
 the-scientist.com###Torpedo
 the-scientist.com###preHeader
 the-scientist.com##.adverts
-the-scientist.com##.footer-ad
 ! bettycrocker.com
 bettycrocker.com##+js(rc, adhesiveHeaderAdFixed, body, stay)
 ! gizmochina.com
@@ -1539,7 +1527,6 @@ sherdog.com##.top_ads
 chron.com,ctinsider.com,ctpost.com,middletownpress.com,mysanantonio.com,beaumontenterprise.com,expressnews.com,houstonchronicle.com,lmtonline.com,mrt.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.ar16-9
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.bt
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.md\:bt
-beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.md\:bt.md\:bb
 mysanantonio.com,sfgate.com##.x100.bg-gray100
 ! ctpost.com
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com,ctpost.com###modals
@@ -1631,8 +1618,6 @@ planetrugby.com##.ps-block-a
 ! tweaktown.com
 tweaktown.com###DesktopTop
 tweaktown.com##.DesktopRightBA
-! mentalfloss.com
-mentalfloss.com##.style_k8mr7b-o_O-style_uhlm2
 ! indianexpress.com
 indianexpress.com##.osv-ad-class
 ! upworthy
@@ -1943,7 +1928,6 @@ bramptonguardian.com,guelphmercury.com,insideottawavalley.com,niagarathisweek.co
 aol.com##.m-gam__container
 ! newsweek.com
 newsweek.com###right1ad
-newsweek.com###topad
 ! dcist.com
 dcist.com##.advertisement-information-link
 ! seattletimes.com
@@ -2124,8 +2108,6 @@ imresizer.com##.ad-slot-3-fixed-ad
 planefinder.net###map-ad-container
 ! notebookcheck.net
 notebookcheck.net##.nbc-right-float
-! mlive.com
-mlive.com###below-toprail
 ! bbc.com
 bbc.com###sticky-leaderboard
 bbc.com###sticky-mpu
@@ -2355,7 +2337,6 @@ urbandictionary.com##.mb-4.justify-center
 globalnews.ca##.c-adChoices
 globalnews.ca##.c-stickyRail
 globalnews.ca##.l-headerAd
-globalnews.ca##.c-ad
 ##section#headerAd
 ! hilltimes.com
 hilltimes.com##.elementor-element-5818a09
@@ -2463,7 +2444,6 @@ oregonlive.com##.below-toprail
 oregonlive.com##.rightRail-top-wrapper
 ! petapixel.com
 petapixel.com##.banners
-petapixel.com##.video-aspect-wrapper
 ! cbsnews.com
 cbsnews.com##.top-ad-container
 ! nature.com
@@ -2708,7 +2688,6 @@ cnn.com##.stack__ads
 cnn.com##.zone__ads
 cnn.com##[data-zone-label="Paid Partner Content"]
 !  pointmall.rakuten.co.jp
-pointmall.rakuten.co.jp##.side-ad
 pointmall.rakuten.co.jp##style + div.side-box:has(> ul > li > a[href^="https://ac.ebis.ne.jp/tr_set.php"][target="_blank"][rel="noopener noreferrer"])
 pointmall.rakuten.co.jp##.mypage-ads
 pointmall.rakuten.co.jp##.side-mypage-ad-wrap
