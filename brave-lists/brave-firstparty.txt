@@ -210,6 +210,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.AdSlot
 ##.adsSticky
 ##.AdOneColumnContainer
+##.Article-advert
 ##.advertSlot
 ##.AdvertWrapper
 ##.BoxRail-ad
@@ -219,7 +220,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.GoogleDfpAd-Content
 ##.GRVAd
 ##.GRVMpuWrapper
-##.GoogleDfpAd
 ##.NavBarAd
 ##.PageTopAd
 ##.SimpleAd
@@ -254,7 +254,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad.box
 ##.ad-bigbox
 ##.ad-disclaimer
-##.ad-stickyhero
 ##.ad-top-billboard
 ##.horizontal-full-ad
 ##.sidebar-square-ad
@@ -384,6 +383,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad_right
 ##.ad__window
 ##.adboxtop
+##.adhesion:not(body)
 ##.adsbox970x90
 ##.adsbyvli
 ##.adsbytrafficjunky
@@ -510,6 +510,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.fs_ad
 ##.gallery-ad-lazyload-placeholder
 ##.glacier-ad
+##.gallery-ad-container
 ##.google-adsense
 ##.google-dfp-ad-caption
 ##.google-dfp-ad-wrapper
@@ -532,6 +533,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gnm-banner-ad
 ##.header-ad-wrap
 ##.header__ad
+##.header-top-ad
 ##.homead
 ##.home-ad-region-1
 ##.horizontal-ad
@@ -545,7 +547,9 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.image-viewer-ad
 ##.image-viewer-mpu
 ##.index-module_adBeforeContent__UYZT
+##.in-content-ad-wrapper
 ##.in-text-ad
+##.injectedAd
 ##.inline-ad
 ##.inline-ad-container
 ##.inline-story-add
@@ -593,6 +597,12 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.m-sidebar-ad--slot
 ##.m1-header-ad
 ##.mapped-ad
+##.mb-advert
+##.mb-advert__incontent
+##.mb-advert__leaderboard--large
+##.mb-advert__mpu
+##.mb-advert__tweeny
+##.mb-block--advert-side
 ##.media-network-ad
 ##.min-height-ad
 ##.mm-ad-sponsored
@@ -632,6 +642,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.primary-ad-widget
 ##.primis-wrapper
 ##.pubexchange_module
+##.pubtech-adv-slot
 ##.queue_ad
 ##.rail-ads-1
 ##.recent-ad
@@ -1064,7 +1075,6 @@ ispreview.co.uk###footer-slot-3
 ginx.tv###ginx-floatingvod-containerspacer
 gunsandammo.com###inline-player
 pubs.rsc.org###journal-info > .text--centered
-forums.whathifi.com###jwplayer-container-div
 mentalfloss.com###mm-player-placeholder-large-screen
 ispreview.co.uk###mobile-takeover-slot-8
 bossip.com,hiphopwired.com,madamenoire.com###player-wrapper
@@ -1084,7 +1094,6 @@ mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
 familystylefood.com##.email-highlight
 comicbook.com##.embedVideoContainer
-taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 ibtimes.sg##.featured_video
 dailymail.co.uk##.footballco-container
@@ -1156,12 +1165,11 @@ trademe.co.nz##tm-display-ad
 nationalworld.com##.banner
 nationalworld.com,scotsman.com##.dmpu-item
 ! theautopian.com
+theautopian.com##.code-block:has(.htlad-InContent)
 theautopian.com##[data-widget_type="html.default"]
 ! bossip.com
-bossip.com###player-wrapper
 bossip.com##.fsb-desktop
 bossip.com##.fsb-toggle
-bossip.com##.player-wrapper-inner
 ! delish.com
 delish.com##.css-3oqygl
 ! independent.co.uk/the-independent.com
@@ -1170,6 +1178,35 @@ independent.co.uk,the-independent.com###stickyFooterRoot
 independent.co.uk,the-independent.com###top-banner-wrapper
 independent.co.uk,the-independent.com##[data-mpu1]
 independent.co.uk##article > div[class^="sc-"]:has(> div[class^="sc-"] > div[data-ad-unit-path])
+! musicbusinessworldwide.com
+musicbusinessworldwide.com##[href^="https://wynstarks.lnk.to/"]
+! saucemagazine.com
+saucemagazine.com##.advert-elem
+saucemagazine.com##.advert-elem-1
+! .mtc-unit-prefill-container
+fieldandstream.com,outdoorlife.com,popsci.com,taskandpurpose.com,thedrive.com##.mtc-unit-prefill-container
+! pcguide.com
+pcguide.com##.wepc-takeover-sides
+pcguide.com##.wepc-takeover-top
+! thingiverse.com
+thingiverse.com##.AdBanner__adBanner--GpB5d
+! splinter.com
+splinter.com##.htlad-top_rectangle
+splinter.com##.dfp
+splinter.com##.htlad-above_logo
+splinter.com##.htlad-bottom_rectangle
+splinter.com##.htlad-middle_rectangle
+! news.stv.tv
+news.stv.tv##.stv-article-gam-slot
+! uproxx.com
+uproxx.com##.upx-ad-unit
+uproxx.com##.leaderboard
+! smithsonianmag.com
+smithsonianmag.com##header.main:style(top:0 !important;)
+smithsonianmag.com##.longform-header-container:style(margin-top: 0px !important;)
+smithsonianmag.com##.largemasthead:style(margin-top: 0px !important;)
+! rappler.com
+rappler.com##.rappler-ad-container
 ! visortmo.com
 visortmo.com##.mx-auto.thumbnail.book
 ! vip.idlixofficialx.com
@@ -1190,8 +1227,6 @@ pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 ! spectrum.ieee.org
 spectrum.ieee.org##.top-leader-container
 spectrum.ieee.org##div[class^="rblad-"]
-! mercurynews.com
-mercurynews.com###mobile-adhesion
 ! theglobeandmail.com
 theglobeandmail.com##.BaseAd__StyledRootBaseAd-sc-1khlkqq-1
 theglobeandmail.com###BaseAd__StyledAdPlaceholder-sc-1khlkqq-0
@@ -1338,8 +1373,6 @@ extremetech.com##section > .mt-8
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,local10.com,news4jax.com##.topWrapper
 ! timesnownews.com
 timesnownews.com##.atfAdContainer
-! wral.com
-wral.com###exco
 ! upi.com
 upi.com##.ad_slot_inread
 upi.com##.col-md-12 > table
@@ -1371,7 +1404,6 @@ rawstory.com##.connatix-hodler
 ! distractify.com
 distractify.com,greenmatters.com,inquisitr.com,okmagazine.com,radaronline.com##.dpbdIG
 ! comicbook.com
-comicbook.com##.embedVideoContainer
 comicbook.com##.mobile
 comicbook.com##.oas
 comicbook.com,popculture.com##.popculture-embed
@@ -1414,7 +1446,6 @@ cointelegraph.com##mm-collectors
 the-scientist.com###Torpedo
 the-scientist.com###preHeader
 the-scientist.com##.adverts
-the-scientist.com##.footer-ad
 ! bettycrocker.com
 bettycrocker.com##+js(rc, adhesiveHeaderAdFixed, body, stay)
 ! gizmochina.com
@@ -1496,7 +1527,6 @@ sherdog.com##.top_ads
 chron.com,ctinsider.com,ctpost.com,middletownpress.com,mysanantonio.com,beaumontenterprise.com,expressnews.com,houstonchronicle.com,lmtonline.com,mrt.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.ar16-9
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.bt
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.md\:bt
-beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com##.b-gray300.md\:bt.md\:bb
 mysanantonio.com,sfgate.com##.x100.bg-gray100
 ! ctpost.com
 beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,houstonchronicle.com,lmtonline.com,middletownpress.com,mrt.com,mysanantonio.com,newstimes.com,nhregister.com,registercitizen.com,seattlepi.com,sfchronicle.com,sfgate.com,stamfordadvocate.com,thehour.com,timesunion.com,ctpost.com###modals
@@ -1504,11 +1534,10 @@ beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,housto
 ! sfchronicle.com
 sfchronicle.com##div[class^="ad-module-"]
 ! androidauthority.com
-androidauthority.com##[data-ad-type]
-androidauthority.com##a[data-sel="dealbar-link"]
-androidauthority.com##._--_-___Pb
+androidauthority.com##._--_-___Qb
 androidauthority.com##._--_-___Yb
-androidauthority.com##._--_-___Zb
+androidauthority.com##main > div:last-child > div:has(> div:only-child:empty)
+androidauthority.com##aside > div > div > div > div > div:has(> div:only-child:empty)
 ! foxweather.com
 foxweather.com##.sticky-pre-content
 ! iflscience.com
@@ -1589,14 +1618,13 @@ planetrugby.com##.ps-block-a
 ! tweaktown.com
 tweaktown.com###DesktopTop
 tweaktown.com##.DesktopRightBA
-! mentalfloss.com
-mentalfloss.com##.style_k8mr7b-o_O-style_uhlm2
 ! indianexpress.com
 indianexpress.com##.osv-ad-class
 ! upworthy
 upworthy.com##.upworthy_infinte_scroll_outer_wrap
 upworthy.com##.upworthy_infinite_scroll_ad
 ! westword.com (and other cms's)
+dallasobserver.com,houstonpress.com##.AirBillboardInlineContentresponsive
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.AirLeaderboardMediumRectanglesComboInlineContent
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.AirMediumRectangleComboInlineContent
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.fdn-site-header-ad-block
@@ -1886,10 +1914,10 @@ cbc.ca##.bigBoxContainer
 ! .slot
 airdriecityview.com,alaskahighwaynews.ca,albertaprimetimes.com,bowenislandundercurrent.com,burnabynow.com,coastreporter.net,cochraneeagle.ca,delta-optimist.com,moosejawtoday.com,mountainviewtoday.ca,newwestrecord.ca,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,rmoutlook.com,sasktoday.ca,squamishchief.com,stalbertgazette.com,theorca.ca,townandcountrytoday.com,tricitynews.com,vancouverisawesome.com,westerninvestor.com,westernwheel.ca##.slot
 ! battlefordsnow.com etc
-battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca###banner-header
+battlefordsnow.com,cfjctoday.com,chatnewstoday.ca,ckpgtoday.ca,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca###banner-header
 battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca###bumper-cars
-battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.midcontent
-battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.parallax-breakout
+battlefordsnow.com,cfjctoday.com,chatnewstoday.ca,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.midcontent
+battlefordsnow.com,cfjctoday.com,chatnewstoday.ca,ckpgtoday.ca,everythinggp.com,everythinglifestyle.ca,farmnewsnow.com,fraservalleytoday.ca,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,rocketfan.ca,royalsfan.ca,sasknow.com,vernonmatters.ca##.parallax-breakout
 battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,lethbridgenewsnow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.pos-top
 battlefordsnow.com,cfjctoday.com,everythinggp.com,filmdaily.co,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.vc_single_image-wrapper
 ! thespec.com
@@ -1900,7 +1928,6 @@ bramptonguardian.com,guelphmercury.com,insideottawavalley.com,niagarathisweek.co
 aol.com##.m-gam__container
 ! newsweek.com
 newsweek.com###right1ad
-newsweek.com###topad
 ! dcist.com
 dcist.com##.advertisement-information-link
 ! seattletimes.com
@@ -2081,8 +2108,6 @@ imresizer.com##.ad-slot-3-fixed-ad
 planefinder.net###map-ad-container
 ! notebookcheck.net
 notebookcheck.net##.nbc-right-float
-! mlive.com
-mlive.com###below-toprail
 ! bbc.com
 bbc.com###sticky-leaderboard
 bbc.com###sticky-mpu
@@ -2312,7 +2337,6 @@ urbandictionary.com##.mb-4.justify-center
 globalnews.ca##.c-adChoices
 globalnews.ca##.c-stickyRail
 globalnews.ca##.l-headerAd
-globalnews.ca##.c-ad
 ##section#headerAd
 ! hilltimes.com
 hilltimes.com##.elementor-element-5818a09
@@ -2420,7 +2444,6 @@ oregonlive.com##.below-toprail
 oregonlive.com##.rightRail-top-wrapper
 ! petapixel.com
 petapixel.com##.banners
-petapixel.com##.video-aspect-wrapper
 ! cbsnews.com
 cbsnews.com##.top-ad-container
 ! nature.com
@@ -2665,7 +2688,6 @@ cnn.com##.stack__ads
 cnn.com##.zone__ads
 cnn.com##[data-zone-label="Paid Partner Content"]
 !  pointmall.rakuten.co.jp
-pointmall.rakuten.co.jp##.side-ad
 pointmall.rakuten.co.jp##style + div.side-box:has(> ul > li > a[href^="https://ac.ebis.ne.jp/tr_set.php"][target="_blank"][rel="noopener noreferrer"])
 pointmall.rakuten.co.jp##.mypage-ads
 pointmall.rakuten.co.jp##.side-mypage-ad-wrap
