@@ -210,6 +210,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.AdSlot
 ##.adsSticky
 ##.AdOneColumnContainer
+##.Article-advert
 ##.advertSlot
 ##.AdvertWrapper
 ##.BoxRail-ad
@@ -384,6 +385,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad_right
 ##.ad__window
 ##.adboxtop
+##.adhesion:not(body)
 ##.adsbox970x90
 ##.adsbyvli
 ##.adsbytrafficjunky
@@ -510,6 +512,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.fs_ad
 ##.gallery-ad-lazyload-placeholder
 ##.glacier-ad
+##.gallery-ad-container
 ##.google-adsense
 ##.google-dfp-ad-caption
 ##.google-dfp-ad-wrapper
@@ -532,6 +535,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gnm-banner-ad
 ##.header-ad-wrap
 ##.header__ad
+##.header-top-ad
 ##.homead
 ##.home-ad-region-1
 ##.horizontal-ad
@@ -545,7 +549,9 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.image-viewer-ad
 ##.image-viewer-mpu
 ##.index-module_adBeforeContent__UYZT
+##.in-content-ad-wrapper
 ##.in-text-ad
+##.injectedAd
 ##.inline-ad
 ##.inline-ad-container
 ##.inline-story-add
@@ -593,6 +599,12 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.m-sidebar-ad--slot
 ##.m1-header-ad
 ##.mapped-ad
+##.mb-advert
+##.mb-advert__incontent
+##.mb-advert__leaderboard--large
+##.mb-advert__mpu
+##.mb-advert__tweeny
+##.mb-block--advert-side
 ##.media-network-ad
 ##.min-height-ad
 ##.mm-ad-sponsored
@@ -632,6 +644,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.primary-ad-widget
 ##.primis-wrapper
 ##.pubexchange_module
+##.pubtech-adv-slot
 ##.queue_ad
 ##.rail-ads-1
 ##.recent-ad
@@ -1156,6 +1169,7 @@ trademe.co.nz##tm-display-ad
 nationalworld.com##.banner
 nationalworld.com,scotsman.com##.dmpu-item
 ! theautopian.com
+theautopian.com##.code-block:has(.htlad-InContent)
 theautopian.com##[data-widget_type="html.default"]
 ! bossip.com
 bossip.com###player-wrapper
@@ -1170,6 +1184,35 @@ independent.co.uk,the-independent.com###stickyFooterRoot
 independent.co.uk,the-independent.com###top-banner-wrapper
 independent.co.uk,the-independent.com##[data-mpu1]
 independent.co.uk##article > div[class^="sc-"]:has(> div[class^="sc-"] > div[data-ad-unit-path])
+! musicbusinessworldwide.com
+musicbusinessworldwide.com##[href^="https://wynstarks.lnk.to/"]
+! saucemagazine.com
+saucemagazine.com##.advert-elem
+saucemagazine.com##.advert-elem-1
+! .mtc-unit-prefill-container
+fieldandstream.com,outdoorlife.com,popsci.com,taskandpurpose.com,thedrive.com##.mtc-unit-prefill-container
+! pcguide.com
+pcguide.com##.wepc-takeover-sides
+pcguide.com##.wepc-takeover-top
+! thingiverse.com
+thingiverse.com##.AdBanner__adBanner--GpB5d
+! splinter.com
+splinter.com##.htlad-top_rectangle
+splinter.com##.dfp
+splinter.com##.htlad-above_logo
+splinter.com##.htlad-bottom_rectangle
+splinter.com##.htlad-middle_rectangle
+! news.stv.tv
+news.stv.tv##.stv-article-gam-slot
+! uproxx.com
+uproxx.com##.upx-ad-unit
+uproxx.com##.leaderboard
+! smithsonianmag.com
+smithsonianmag.com##header.main:style(top:0 !important;)
+smithsonianmag.com##.longform-header-container:style(margin-top: 0px !important;)
+smithsonianmag.com##.largemasthead:style(margin-top: 0px !important;)
+! rappler.com
+rappler.com##.rappler-ad-container
 ! visortmo.com
 visortmo.com##.mx-auto.thumbnail.book
 ! vip.idlixofficialx.com
@@ -1504,11 +1547,10 @@ beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,housto
 ! sfchronicle.com
 sfchronicle.com##div[class^="ad-module-"]
 ! androidauthority.com
-androidauthority.com##[data-ad-type]
-androidauthority.com##a[data-sel="dealbar-link"]
-androidauthority.com##._--_-___Pb
+androidauthority.com##._--_-___Qb
 androidauthority.com##._--_-___Yb
-androidauthority.com##._--_-___Zb
+androidauthority.com##main > div:last-child > div:has(> div:only-child:empty)
+androidauthority.com##aside > div > div > div > div > div:has(> div:only-child:empty)
 ! foxweather.com
 foxweather.com##.sticky-pre-content
 ! iflscience.com
@@ -1597,6 +1639,7 @@ indianexpress.com##.osv-ad-class
 upworthy.com##.upworthy_infinte_scroll_outer_wrap
 upworthy.com##.upworthy_infinite_scroll_ad
 ! westword.com (and other cms's)
+dallasobserver.com,houstonpress.com##.AirBillboardInlineContentresponsive
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.AirLeaderboardMediumRectanglesComboInlineContent
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.AirMediumRectangleComboInlineContent
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.fdn-site-header-ad-block
@@ -1886,10 +1929,10 @@ cbc.ca##.bigBoxContainer
 ! .slot
 airdriecityview.com,alaskahighwaynews.ca,albertaprimetimes.com,bowenislandundercurrent.com,burnabynow.com,coastreporter.net,cochraneeagle.ca,delta-optimist.com,moosejawtoday.com,mountainviewtoday.ca,newwestrecord.ca,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,rmoutlook.com,sasktoday.ca,squamishchief.com,stalbertgazette.com,theorca.ca,townandcountrytoday.com,tricitynews.com,vancouverisawesome.com,westerninvestor.com,westernwheel.ca##.slot
 ! battlefordsnow.com etc
-battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca###banner-header
+battlefordsnow.com,cfjctoday.com,chatnewstoday.ca,ckpgtoday.ca,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca###banner-header
 battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca###bumper-cars
-battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.midcontent
-battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.parallax-breakout
+battlefordsnow.com,cfjctoday.com,chatnewstoday.ca,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.midcontent
+battlefordsnow.com,cfjctoday.com,chatnewstoday.ca,ckpgtoday.ca,everythinggp.com,everythinglifestyle.ca,farmnewsnow.com,fraservalleytoday.ca,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,rocketfan.ca,royalsfan.ca,sasknow.com,vernonmatters.ca##.parallax-breakout
 battlefordsnow.com,cfjctoday.com,everythinggp.com,huskiefan.ca,larongenow.com,lethbridgenewsnow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.pos-top
 battlefordsnow.com,cfjctoday.com,everythinggp.com,filmdaily.co,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca##.vc_single_image-wrapper
 ! thespec.com
