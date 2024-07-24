@@ -397,6 +397,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||agreeablestew.com^
 ||agreeabletouch.com^
 ||aheadday.com^
+||aheadgrow.com^
 ||aheadmachine.com^
 ||ajaralarm.com^
 ||ak0gsh40.com^
@@ -454,6 +455,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||aspiringattempt.com^
 ||astonishingair.com^
 ||astonishingfood.com^
+||astralhustle.com^
 ||astrallullaby.com^
 ||attractionbanana.com^
 ||attractiveafternoon.com^
@@ -689,6 +691,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||combclover.com^
 ||combcompetition.com^
 ||comfortablecheese.com^
+||comfygoodness.com^
 ||commonalmanac.com^
 ||commonswing.com^
 ||companyparcel.com^
@@ -713,6 +716,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||consciousdirt.com^
 ||considermice.com^
 ||consistpotato.com^
+||consumerzero.com^
 ||controlcola.com^
 ||controlhall.com^
 ||controlswim.com^
@@ -729,6 +733,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||cosmosjackson.com^
 ||courageousbaby.com^
 ||coverapparatus.com^
+||coverlayer.com^
 ||cowscrayon.com^
 ||cozyhillside.com^
 ||crabbychin.com^
@@ -746,6 +751,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||crookedcreature.com^
 ||crowdedmass.com^
 ||crystalboulevard.com^
+||crystalstatus.com^
 ||cubchannel.com^
 ||cuddlycake.com^
 ||cuddlylunchroom.com^
@@ -773,6 +779,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||cutecushion.com^
 ||cutepopcorn.com^
 ||cuteturkey.com^
+||cyclopsdial.com^
 ||dailydivision.com^
 ||damagedadvice.com^
 ||damageddistance.com^
@@ -787,6 +794,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||dashingdirt.com^
 ||dashingdrop.com^
 ||dashingsweater.com^
+||datastoried.com^
 ||daughterstone.com^
 ||dazzlingbook.com^
 ||deadpangate.com^
@@ -852,6 +860,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||dolldetail.com^
 ||donkeyleaf.com^
 ||doorbrazil.com^
+||doubledefend.com^
 ||doubtdrawer.com^
 ||doubtfulrainstorm.com^
 ||downtowndirection.com^
@@ -880,6 +889,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||earthquakescarf.com^
 ||earthycopy.com^
 ||eatablesquare.com^
+||echochief.com^
 ||echoinghaven.com^
 ||economicpizzas.com^
 ||educatedeggnog.com^
@@ -1021,6 +1031,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||forecasttiger.com^
 ||foregoingfowl.com^
 ||foretellfifth.com^
+||forevergears.com^
 ||forgetfulflowers.com^
 ||forgetfulsnail.com^
 ||fortunatemark.com^
@@ -1040,6 +1051,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||friendlyfold.com^
 ||friendwool.com^
 ||frightenedpotato.com^
+||frogator.com^
 ||frogtray.com^
 ||fronttoad.com^
 ||fujiladder.com^
@@ -1049,6 +1061,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||functionalfeather.com^
 ||funnyairplane.com^
 ||funoverbored.com^
+||furnstudio.com^
 ||furryfork.com^
 ||furryhorses.com^
 ||futuristicapparatus.com^
@@ -1056,6 +1069,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||futuristicfifth.com^
 ||futuristicfold.com^
 ||futuristicframe.com^
+||fuzzyaudio.com^
 ||fuzzybasketball.com^
 ||fuzzyerror.com^
 ||fuzzyflavor.com^
@@ -1081,6 +1095,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||glitteringbrook.com^
 ||gloriousbeef.com^
 ||glossysense.com^
+||gluedpixel.com^
 ||godlygeese.com^
 ||goldfishgrowth.com^
 ||gondolagnome.com^
@@ -1094,6 +1109,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||grandioseguide.com^
 ||grandmotherunit.com^
 ||grapeopinion.com^
+||gravitygive.com^
 ||grayoranges.com^
 ||grayreceipt.com^
 ||greasegarden.com^
@@ -1117,6 +1133,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||gulliblecamp.com^
 ||gulliblegrip.com^
 ||gullibleguitar.com^
+||gustocooking.com^
 ||gustygrandmother.com^
 ||h78xb.pw^
 ||habitualhumor.com^
@@ -1223,6 +1240,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||inventionpassenger.com^
 ||investigatepin.com^
 ||invitesugar.com^
+||iotapool.com^
 ||irritatingfog.com^
 ||itemslice.com^
 ||ivykiosk.com^
@@ -1268,6 +1286,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||learnedmarket.com^
 ||leftliquid.com^
 ||legalleg.com^
+||lemonpackage.com^
 ||lemonsandjoy.com^
 ||lettucecopper.com^
 ||lettucelimit.com^
@@ -1298,6 +1317,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||lumberamount.com^
 ||lumberrule.com^
 ||luminoussculptor.com^
+||lumpygnome.com^
 ||lumpylumber.com^
 ||lunchroomlock.com^
 ||lustroushaven.com^
@@ -1314,6 +1334,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||managedpush.com^
 ||maniacalappliance.com^
 ||marblediscussion.com^
+||markahouse.com^
 ||markedcrayon.com^
 ||markedmeasure.com^
 ||markedpail.com^
@@ -1451,11 +1472,13 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||orionember.com^
 ||ourblogthing.com^
 ||outgoinggiraffe.com^
+||outsidevibe.com^
 ||outstandingsnails.com^
 ||ovalweek.com^
 ||overconfidentfood.com^
 ||overratedchalk.com^
 ||owlsr.us^
+||oxygenfuse.com^
 ||paddleangle.com^
 ||pailcrime.com^
 ||pailpatch.com^
@@ -1496,6 +1519,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||persuadesock.com^
 ||persuadesupport.com^
 ||petiteumbrella.com^
+||philippinch.com^
 ||photographpan.com^
 ||physicalbikes.com^
 ||piespower.com^
@@ -1534,8 +1558,10 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||pointlessrifle.com^
 ||poisedpig.com^
 ||polarismagnet.com^
+||polishedfolly.com^
 ||politegoldfish.com^
 ||politeplanes.com^
+||politicalflip.com^
 ||politicalporter.com^
 ||popcornfood.com^
 ||popplantation.com^
@@ -1573,6 +1599,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||profusesupport.com^
 ||promiseair.com^
 ||promopassage.com^
+||proofconvert.com^
 ||propertypotato.com^
 ||protestcopy.com^
 ||proudprose.com^
@@ -1810,6 +1837,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||shallowsmile.com^
 ||shamerain.com^
 ||shapecomb.com^
+||sharkskids.com^
 ||sharppatch.com^
 ||sheltercellar.com^
 ||shesubscriptions.com^
@@ -2003,6 +2031,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||stockingsleet.com^
 ||stockingsneeze.com^
 ||stomachscience.com^
+||stonechin.com^
 ||stopstomach.com^
 ||storescissors.com^
 ||storeslope.com^
@@ -2049,6 +2078,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||sulkybutter.com^
 ||sulkycook.com^
 ||summerobject.com^
+||sunshinegates.com^
 ||superficialeyes.com^
 ||superficialspring.com^
 ||superficialsquare.com^
@@ -2087,6 +2117,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||tawdryson.com^
 ||tdzvm.pw^
 ||tearfulglass.com^
+||techconverter.com^
 ||tediousbear.com^
 ||tediousticket.com^
 ||tedioustooth.com^
@@ -2149,7 +2180,9 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||torpidtongue.com^
 ||torpidtoothpaste.com^
 ||toweringrun.com^
+||trackcaddie.com^
 ||tradetooth.com^
+||trafficviews.com^
 ||tranquilamulet.com^
 ||tranquilarchipelago.com^
 ||tranquilcanyon.com^
@@ -2175,6 +2208,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||truculentrate.com^
 ||tumblebirds.com^
 ||tumbleicicle.com^
+||tuneupcoffee.com^
 ||tutorthing.com^
 ||twistloss.com^
 ||twistsweater.com^
@@ -2183,6 +2217,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||tzwaw.pw^
 ||ubiquitousyard.com^
 ||ultraoranges.com^
+||ultravalid.com^
 ||unablehope.com^
 ||unaccountablecreator.com^
 ||unaccountablepie.com^
@@ -2264,6 +2299,7 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||wellgroomedbat.com^
 ||wellgroomedhydrant.com^
 ||wellmadefrog.com^
+||westpalmweb.com^
 ||whimsicalgrove.com^
 ||whineattempt.com^
 ||whirlwealth.com^
@@ -2278,12 +2314,14 @@ baeldung.com,cheatsheet.com,pwinsider.com##+js(rmnt, script, admiral)
 ||wildcommittee.com^
 ||wildernesscamera.com^
 ||wirecomic.com^
+||wiredforcoffee.com^
 ||wirypaste.com^
 ||wistfulflight.com^
 ||wittypopcorn.com^
 ||womanear.com^
 ||workableachiever.com^
 ||workoperation.com^
+||worldlever.com^
 ||worriednumber.com^
 ||worriedwine.com^
 ||wrapstretch.com^
