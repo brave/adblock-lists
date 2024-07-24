@@ -10,6 +10,28 @@
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::ffff:7f00:1]
 ||[::ffff:7f00:1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]
 
+! brave.com specfic filters
+@@||ads.brave.software^$first-party
+@@||ads-admin.bravesoftware.com^$first-party
+@@||ads.bravesoftware.com^$first-party
+@@||ads-admin.brave.com^$first-party
+@@||ads-admin.brave.software^$first-party
+@@||ads.brave.com^$first-party
+@@||brave.com^$image,stylesheet,first-party
+@@||go-updater.brave.com^
+! basicattentiontoken.org specfic filters
+@@||basicattentiontoken.org^$ghide
+@@||basicattentiontoken.org^$first-party
+! search.brave.com specfic filters
+! https://github.com/uBlockOrigin/uAssets/blob/master/filters/privacy.txt#L207
+search.brave.com#@#+js(no-fetch-if, body:browser)
+search.brave.com###search-ad
+! stats.brave.com
+@@||stats.brave.com^$ghide
+@@||stats.brave.com^$first-party
+! community.brave.com
+@@||community.brave.com^$ghide
+
 ! Fix localhost block on Trezor Bridge/Connect
 ! https://community.brave.com/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544/
 @@||127.0.0.1^$domain=trezor.io
