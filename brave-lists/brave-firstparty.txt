@@ -2422,6 +2422,12 @@ mashable.com##.top-0.sticky > div
 mashable.com##section.mt-4 > div
 ! timesofindia.indiatimes.com
 ||indiatimes.com/toiads_
+timesofindia.indiatimes.com###custom_ad_wrapper_0
+timesofindia.indiatimes.com##.ctn-workaround-div
+timesofindia.indiatimes.com##.fixed_elements_on_page
+timesofindia.indiatimes.com##.icNFc
+timesofindia.indiatimes.com##.ATF_mobile_ads
+timesofindia.indiatimes.com##.ATF_wrapper
 timesofindia.com##.phShimmer
 timesofindia.com##div[class^="ATF_container_"]
 timesofindia.com##div[id^="custom_ad_"]

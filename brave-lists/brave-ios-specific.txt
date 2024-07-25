@@ -38,6 +38,12 @@ sinensistoon.com##+js(aopr, block_ads)
 ||html-load.com/report?$xhr
 ||html-load.com/loader.min.js$domain=ndtvprofit.com|javatpoint.com
 
+! timesofindia.indiatimes.com
+timesofindia.indiatimes.com##+js(no-setTimeout-if, adb)
+timesofindia.indiatimes.com##+js(addEventListener-defuser, , adb)
+timesofindia.indiatimes.com##+js(set-constant, nsShowMaxCount, 0)
+timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
+
 ! https://community.brave.com/t/brave-browser-adblocker-blocks-scripts/540082
 @@||static.elfsight.com^
 
