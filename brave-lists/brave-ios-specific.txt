@@ -31,6 +31,13 @@ sinensistoon.com##+js(aopr, block_ads)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=photopea.com
 @@||cmp.uniconsent.com^$xhr,domain=photopea.com
 
+! Ad-shield
+||html-load.com^$~css,domain=loawa.com|ygosu.com|sportalkorea.com|edaily.co.kr|economist.co.kr|etoday.co.kr|isplus.com|hometownstation.com|inven.co.kr|honkailab.com|genshinlab.com|thestockmarketwatch.com|thephoblographer.com|issuya.com|dogdrip.net|worldhistory.org|bamgosu.site|thestar.co.uk|yorkshirepost.co.uk|raenonx.cc|indiatimes.com
+||html-load.com/loader.min.js$domain=lamire.jp|picrew.me|mydaily.co.kr|badmouth1.com|taxguru.in|sportsrec.com|reportera.co.kr|tweaksforgeeks.com|fourfourtwo.co.kr|flatpanelshd.com|wfmz.com|videogamemods.com|thestar.co.uk|yorkshirepost.co.uk|carscoops.com|dziennik.pl
+||html-load.com^$font,ping
+||html-load.com/report?$xhr
+||html-load.com/loader.min.js$domain=ndtvprofit.com|javatpoint.com
+
 ! https://community.brave.com/t/brave-browser-adblocker-blocks-scripts/540082
 @@||static.elfsight.com^
 
