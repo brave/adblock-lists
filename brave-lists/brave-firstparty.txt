@@ -323,7 +323,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-unit
 ##.ad-unit--leaderboard
 ##.ad-widget-wrapper
-##.ad-wrap
+##.ad-wrap:not(#google_ads_iframe_checktag)
 ##.ad-wrapper
 ##.ad-wrapper--ad-unit-wrap
 ##.ad-wrapper--articletop
