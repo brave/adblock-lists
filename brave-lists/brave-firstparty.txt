@@ -153,6 +153,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###advert-article
 ###advert-article-1
 ###advert-article-2
+###advertise
 ###after-dfp-ad-mid1
 ###after-dfp-ad-mid3
 ###after-dfp-ad-top
@@ -180,6 +181,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###intro_ad_1
 ###js-image-ad-mpu
 ###leaderboard.ad
+###leftad
 ###leftrail_dynamic_ad_wrapper
 ###mobile-adhesion
 ###mpu1_parent
@@ -373,6 +375,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ads--no-preload
 ##.ads-cont
 ##.ad-container-wrapper
+##.ad-leaderboard-footer
+##.ad-leaderboard-flex
 ##.ads-box
 ##.ads-global-header
 ##.ads-wrapper
@@ -690,6 +694,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.tpd-banner-desktop
 ##.tpd-banner-ad-container
 ##.top__ad
+##.top-ad-recirc
 ##.block-quartz-ads
 ##.nn_mobile_mpu_wrapper
 ##.static_mpu_wrap
@@ -740,7 +745,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##[data-adbridg-ad-class]
 ##[data-component="ad-unit"]
 ##[data-ez-name]
-##[data-freestar-ad]
+##[data-freestar-ad][id]
 ##[data-block-type="ad"]
 ##[data-rc-widget]
 ##[data-revive-zoneid]
@@ -762,6 +767,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##div[id^="rc-widget-"]
 ##div[id^="zergnet-widget"]
 ##ins.adsbygoogle[data-ad-slot]
+##ins.adsbygoogle[data-ad-client]
 ##span[data-ez-ph-id]
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ! Specific generic
@@ -1287,6 +1293,9 @@ lrt.lt##.article-content__inline-block
 standard.co.uk###polar-sidebar-sponsored
 standard.co.uk###stickyFooterRoot
 standard.co.uk##.sc-kAeStu.bkIZsH
+standard.co.uk##.teads
+standard.co.uk##.cEUUwk
+independent.co.uk,standard.co.uk##article > div[class^="sc-"]:has(> div[class^="sc-"] > div[data-ad-unit-path])
 ! euronews.com
 euronews.com###js-smart-banner
 euronews.com##.base-leaderboard
@@ -1395,6 +1404,7 @@ howstuffworks.com###inline-video-wrap
 howstuffworks.com##.leaderboard-banner
 howstuffworks.com##.z-999
 ! rawstory.com
+rawstory.com##.body-description > div:has-text(ADVERTISEMENT)
 rawstory.com###rawstory_front_2_container
 rawstory.com###story-top-ad
 rawstory.com##.container_proper-ad-unit
@@ -1721,6 +1731,8 @@ al.com,cleveland.com,gulflive.com,lehighvalleylive.com,masslive.com,mlive.com,ne
 businessinsider.com,insider.com##.in-post-sticky
 businessinsider.com,insider.com##.l-ad
 businessinsider.com,insider.com##.subnav-ad-position-sticky
+! businessinsider.in
+businessinsider.in##.bg-slate-100
 ! thedailybeast.com
 thedailybeast.com##.CheatSheetList__placeholder
 thedailybeast.com##.Cheat__out-of-page-ads
@@ -1732,6 +1744,7 @@ indianexpress.com##.add-first
 fivethirtyeight.com##.master-ad
 ! dailykos.com
 dailykos.com##.story-banner-ad-placeholder
+dailykos.com##.ad_leaderboard__container
 ! newsnow.co.uk
 newsnow.co.uk##.grid-column__container
 newsnow.co.uk##.hero-wrapper
@@ -1873,10 +1886,8 @@ wikihow.com##.al_method
 wired.com##div[class^="ConsumerMarketingUnitThemedWrapper-"]
 wired.com##div[class^="StickyBoxWrapper"]
 ! huffpost.com
-##.ad-leaderboard-flex
 huffpost.com##.bottom-right-sticky-container
 huffpost.com##.entry__right-rail-width-placeholder
-huffpost.com##.top-ad-recirc
 huffingtonpost.es##[data-adtype]
 ! outkick.com
 outkick.com##.g1-advertisement
@@ -1982,7 +1993,19 @@ thescore.com##.Ad__container--MeQWT
 advocate.com##.ad_leaderboard_wrap
 advocate.com##.ad_tag
 advocate.com##.partners__container
-advocate.com###sPost_Layout_Default_0_0_19_0_0_2_2
+advocate.com##.bigbox_top_ad-wrap
+advocate.com###sPost_Layout_Default_0_0_19_0_0_2_1_0_0
+! spin.com
+spin.com##.max-w-\[970px\]
+spin.com##.promo-lead
+! hyperallergic.com
+hyperallergic.com##.wp-block-spacer
+hyperallergic.com##.category-sponsored
+! thetakeout.com
+thetakeout.com##.before-ad
+! avclub.com
+avclub.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com##[class] > div:has(> [is="bulbs-dfp"])
+avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com,thetakeout.com##.japmJB
 ! sportsnet.ca
 sciencing.com,sportsnet.ca##.sticky-leaderboard-container
 sportsnet.ca##.Ads_card-wrapper__KyXLu
@@ -2026,6 +2049,7 @@ forums.golfwrx.com###pb-slot-top
 ! bleepingcomputer.com
 bleepingcomputer.com##.cz-toa-wrapp
 bleepingcomputer.com##.s-ou-wrap
+bleepingcomputer.com##[href="https://try.flare.io/bleeping-computer/"]
 ! slate.com
 slate.com##.slate-ad
 ! thedrive.com
@@ -2337,6 +2361,7 @@ urbandictionary.com##.mb-4.justify-center
 globalnews.ca##.c-adChoices
 globalnews.ca##.c-stickyRail
 globalnews.ca##.l-headerAd
+globalnews.ca,stuff.tv##.c-ad
 ##section#headerAd
 ! hilltimes.com
 hilltimes.com##.elementor-element-5818a09
@@ -2395,8 +2420,6 @@ gameshub.com##.ads-slot
 mashable.com##.exco
 mashable.com##.top-0.sticky > div
 mashable.com##section.mt-4 > div
-! kotaku.com
-kotaku.com##.japmJB
 ! timesofindia.indiatimes.com
 ||indiatimes.com/toiads_
 timesofindia.com##.phShimmer
