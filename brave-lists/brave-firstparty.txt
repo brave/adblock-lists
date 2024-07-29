@@ -2404,6 +2404,11 @@ dailyfx.com##.dfx-adBlock1Wrapper
 ! forexlive.com
 forexlive.com##.page-wrap__top-banner
 forexlive.com##.top-forex-brokers__wrapper
+! myflixerz.to
+myflixerz.to###Q39hhYQopC-middle
+myflixerz.to##[href="https://pcnema.to"]
+myflixerz.to##+js(set-cookie, show_share, true)
+myflixerz.to###Q39hhYQopC-top
 ! fxempire.com
 fxempire.com##.ddAwpw
 fxempire.com##.gAruxy
