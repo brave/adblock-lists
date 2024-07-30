@@ -25,5 +25,14 @@
       "canvas"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/35020"
+  },
+  {
+    "include": [
+      "*://www.amtrak.com/*"
+    ],
+    "exceptions": [
+      "screen"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/38884"
   }
 ]
