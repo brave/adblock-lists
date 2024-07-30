@@ -10,6 +10,17 @@
   },
   {
     "include": [
+      "*://www.britishairways.com/*",
+      "*://www.ba.com/*"
+    ],
+    "exceptions": [
+      "screen",
+      "language"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/36814"
+  },
+  {
+    "include": [
       "*://www.harkins.com/*"
     ],
     "exceptions": [
