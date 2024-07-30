@@ -87,6 +87,18 @@
     },
     {
         "include": [
+            "*://*.linkedin.com/*",
+            "*://therecord.media/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+             "trk"
+        ]
+    },
+    {
+        "include": [
             "*://www.zoopla.co.uk/*"
         ],
         "exclude": [
@@ -277,8 +289,7 @@
         ],
         "params": [
             "mcid",
-            "src",
-            "trk"
+            "src"
         ]
     },
     {
