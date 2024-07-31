@@ -8,6 +8,9 @@ accuradio.com,mytuner-radio.com,awa.fm,radiko.jp,watch.jme.tv,play.asti.ga,app.h
 ! https://github.com/easylist/easylist/issues/19234
 @@||mssl.fwmrm.net/libs/$domain=southpark.de|southparkstudios.co.uk|southparkstudios.com.br|southparkstudios.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=southpark.de|southparkstudios.co.uk|southparkstudios.com.br|southparkstudios.com
+!
+! csp + doc (remove doc) *$doc,csp=script-src-attr 'none',to=flatpanelshd.com|sportsrec.com|badmouth1.com|picrew.me|lamire.jp
+*$csp=script-src-attr 'none',domain=flatpanelshd.com|sportsrec.com|badmouth1.com|picrew.me|lamire.jp
 ! 
 ! win7/8 YT crashes
 ! CNAME: account.adobe.com
