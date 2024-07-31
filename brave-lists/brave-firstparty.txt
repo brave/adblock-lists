@@ -188,6 +188,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###mpu2_parent
 ###mpu_bottom_sb_1_parent
 ###mpu_bottom_sb_2_parent
+###post-ads
 ###ppvideoadvertisement
 ###premium_ddb_0
 ###rightrail_pos1_ddb_0
@@ -257,6 +258,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-bigbox
 ##.ad-disclaimer
 ##.ad-top-billboard
+##.ad-top-wrapper
 ##.horizontal-full-ad
 ##.sidebar-square-ad
 ##.ad-label
@@ -621,6 +623,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.mobile-ad
 ##.mobile-ads
 ##.mobile-ad-placeholder
+##.module-ad
 ##.module_home_ads
 ##.module_single_ads
 ##.multiad2
@@ -1234,6 +1237,7 @@ pastebin.com##div[style^="color: #999; font-size: 12px; text-align: center;"]
 spectrum.ieee.org##.top-leader-container
 spectrum.ieee.org##div[class^="rblad-"]
 ! theglobeandmail.com
+theglobeandmail.com##.c-ad--base
 theglobeandmail.com##.BaseAd__StyledRootBaseAd-sc-1khlkqq-1
 theglobeandmail.com###BaseAd__StyledAdPlaceholder-sc-1khlkqq-0
 ! adblock-tester.com
@@ -1884,7 +1888,27 @@ sciencealert.com##.ad-desktop\:block
 wikihow.com##.al_method
 ! wired.com
 wired.com##div[class^="ConsumerMarketingUnitThemedWrapper-"]
+wired.com##.ad-stickyhero
 wired.com##div[class^="StickyBoxWrapper"]
+! nowtoronto.com
+nowtoronto.com##.nt-ad-wrapper
+! .raptive-ddm-header
+atlantablackstar.com,finurah.com##.raptive-ddm-header
+! magnoliastatelive.com
+magnoliastatelive.com##.one_by_one_group
+! intouchweekly.com
+intouchweekly.com##.shop-with-us__container
+! rd.com
+rd.com##.pre-article-ad
+! breitbart.com
+breitbart.com##.a-wrapper
+! thegatewaypundit.com
+thegatewaypundit.com##.adcovery-home-01
+thegatewaypundit.com##.ai-dynamic
+! postandcourier.com
+postandcourier.com##.asset-breakout-ads
+! floridapolitics.com 
+floridapolitics.com##.dfad
 ! huffpost.com
 huffpost.com##.bottom-right-sticky-container
 huffpost.com##.entry__right-rail-width-placeholder
