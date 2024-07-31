@@ -45,5 +45,14 @@
       "screen"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/38884"
+  },
+  {
+    "include": [
+      "*://docs.google.com/*"
+    ],
+    "exceptions": [
+      "plugins"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/26079"
   }
 ]
