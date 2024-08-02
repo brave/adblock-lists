@@ -1514,6 +1514,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||merryopal.com^
 ||messagenovice.com^
 ||messyoranges.com^
+||metajaws.com^
 ||metroaverage.com^
 ||mightyspiders.com^
 ||militaryverse.com^
@@ -1830,6 +1831,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||rehabilitatereason.com^
 ||rejectfairies.com^
 ||relationrest.com^
+||releasepath.com^
 ||reloadphoto.com^
 ||rememberdiscussion.com^
 ||rentinfinity.com^
@@ -1891,6 +1893,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||samesticks.com^
 ||samestretch.com^
 ||samplesamba.com^
+||sandstrophies.com^
 ||satisfycork.com^
 ||satisfyingshirt.com^
 ||satisfyingshow.com^
@@ -1920,6 +1923,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||scatteredquiver.com^
 ||scatteredstream.com^
 ||scenicapparel.com^
+||scenicdrops.com^
 ||scientificshirt.com^
 ||scientificsneeze.com^
 ||scintillatingscissors.com^
@@ -2254,6 +2258,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||tastesnake.com^
 ||tawdryson.com^
 ||tdzvm.pw^
+||teacupbooks.com^
 ||tearfulglass.com^
 ||techconverter.com^
 ||tediousbear.com^
@@ -2425,6 +2430,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||wellgroomedhydrant.com^
 ||wellmadefrog.com^
 ||westpalmweb.com^
+||whimsicalcanyon.com^
 ||whimsicalgrove.com^
 ||whineattempt.com^
 ||whirlwealth.com^
