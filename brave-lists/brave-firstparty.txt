@@ -154,6 +154,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###advert-article-1
 ###advert-article-2
 ###advertise
+###advertise_top
 ###after-dfp-ad-mid1
 ###after-dfp-ad-mid3
 ###after-dfp-ad-top
@@ -388,6 +389,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad_left
 ##.ad_right
 ##.ad__window
+##.adex-ad-text
 ##.adboxtop
 ##.adhesion:not(body)
 ##.adsbox970x90
@@ -964,6 +966,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###block-taboolablock
 ###js-Taboola-Container-0
 ###moduleTaboolaRightRail
+###original_taboola
 ###possible_taboola
 ###taboola
 ###taboola-above-homepage-thumbnails
@@ -1373,6 +1376,8 @@ siasat.com##.stream-item-widget
 wbur.org##.bp-label
 wbur.org##.bp--rec
 wbur.org##.bp--outer
+! .widget_ai_ad_widget
+adexchanger.com,live-adexchanger.pantheonsite.io##.widget_ai_ad_widget
 ! fxstreet.com
 fxstreet.com###fxs-sposorBroker-topBanner
 fxstreet.com##.fxs_leaderboard
@@ -1958,7 +1963,34 @@ battlefordsnow.com,cfjctoday.com,everythinggp.com,filmdaily.co,huskiefan.ca,laro
 ! thespec.com
 thespec.com##.polarAds
 ! .adLabelWrapper
-bramptonguardian.com,guelphmercury.com,insideottawavalley.com,niagarathisweek.com,thespec.com,thestar.com##.adLabelWrapper
+bramptonguardian.com,guelphmercury.com,insideottawavalley.com,niagarafallsreview.ca,niagarathisweek.com,thepeterboroughexaminer.com,therecord.com,thespec.com,thestar.com,wellandtribune.ca##.adLabelWrapper
+! .adLabelWrapperManual
+bramptonguardian.com,insideottawavalley.com,niagarafallsreview.ca,thepeterboroughexaminer.com,therecord.com,thestar.com,wellandtribune.ca##.adLabelWrapperManual
+! .polarAds
+thespec.com,wellandtribune.ca##.polarAds
+! castanet.net
+castanet.net###hdad
+castanet.net##div[style*="height:900px"]
+castanet.net##div[style*="width:300px;"]
+castanet.net##div[style*="width:640px;"]
+! theweathernetwork.com
+theweathernetwork.com##[data-testid="content-feed-ad-slot"]
+theweathernetwork.com##[data-testid="header-ad-content"]
+theweathernetwork.com##[data-testid="pre-ad-text"]
+! onlineradiobox.com
+onlineradiobox.com##.banner--header
+onlineradiobox.com##.banner--vertical
+onlineradiobox.com##div[class^="banner-"]
+! radioonline.fm
+radioonline.fm###advertise_center
+! accuradio.com
+accuradio.com###slot2Wrapper
+accuradio.com###pageSidebarWrapper
+! nationalrail.co.uk
+nationalrail.co.uk###ad-homepage-advert-a-grey-b-wrapper
+nationalrail.co.uk###ad-homepage-advert-d-grey-b-wrapper
+nationalrail.co.uk##.styled__StyledFreeFormAdvertWrapper-sc-7prxab-4
+nationalrail.co.uk##div[id^="ad-advert-"]
 ! aol.com
 aol.com##.m-gam__container
 ! newsweek.com
