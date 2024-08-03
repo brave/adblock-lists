@@ -791,6 +791,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###jwplayer-container-div
 ###jwplayer_contextual_player_div
 ###kargo-player
+###mm-player-placeholder-large-screen
 ###mplayer-embed
 ###primis-holder
 ###primis_intext
@@ -1082,13 +1083,15 @@ $removeparam=ad-config-id,xhr,domain=telequebec.tv
 ! invideo advertising
 gunsandammo.com###VideoPlayerDivIframe
 usnews.com###ac-lre-player-ph
+ew.com###article__primary-video-jw_1-0
 wral.com###exco
 ispreview.co.uk###footer-slot-3
 ginx.tv###ginx-floatingvod-containerspacer
 gunsandammo.com###inline-player
 pubs.rsc.org###journal-info > .text--centered
-mentalfloss.com###mm-player-placeholder-large-screen
+forums.whathifi.com###jwplayer-container-div
 ispreview.co.uk###mobile-takeover-slot-8
+express.co.uk###ovp-primis
 bossip.com,hiphopwired.com,madamenoire.com###player-wrapper
 bar-planb.com,hakibavuong.com###player_dev
 flightradar24.com###primisAdContainer
@@ -1096,17 +1099,23 @@ realclearpolitics.com###realclear_jwplayer_container
 ispreview.co.uk###sidebar-slot-5
 uproxx.com###upx-mm-player-wrap
 newseveryday.com###vplayer_large
+indy100.com##.addressed_cls
 telegraph.co.uk##.article-betting-unit-container
 sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
 washingtonexaminer.com##.bridtv
+gizmodo.com.au,kotaku.com.au,lifehacker.com.au,pedestrian.tv##.brightcove-video-container
 cnet.com,zdnet.com##.c-avStickyVideo
 stuff.tv##.c-squirrel-embed
 mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
+livestrong.com##.component-article-section-votd
+accuweather.com##.connatix-player
 familystylefood.com##.email-highlight
 comicbook.com##.embedVideoContainer
+taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
+accuweather.com##.feature-tag
 ibtimes.sg##.featured_video
 dailymail.co.uk##.footballco-container
 redboing.com##.fw-ad
@@ -1123,6 +1132,8 @@ southernliving.com##.karma-sticky-rail
 gearjunkie.com##.ldm_ad
 ispreview.co.uk##.midarticle-slot-10
 insideevs.com##.minutely_video_wrap
+lifewire.com##.mntl-jwplayer-broad
+respawnfirst.com##.mv-ad-box
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 picrew.me##.play-Imagemaker_Footer
 sciencetimes.com##.player
@@ -1131,19 +1142,32 @@ swimswam.com##.polls-461
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com,thetakeout.com##.related-stories-inset-video
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
-mentalfloss.com##.style_k8mr7b-o_O-style_uhlm2
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 petapixel.com##.video-aspect-wrapper
 gearjunkie.com##.video-jwplayer
 bolavip.com##.video-player-placeholder
 benzinga.com##.video-player-wrapper
+thepinknews.com##.video-player__container
 consequence.net##.video_container
 bigthink.com##.wrapper-connatixElements
 bigthink.com##.wrapper-connatixPlayspace
+worldsoccertalk.com##[id*="primis_"]
 offidocs.com##[id^="ja-container-prev"]
 hollywoodreporter.com##[id^="jwplayer"]
 wlevradio.com##a[href^="https://omny.fm/shows/just-start-the-conversation"]
 firstforwomen.com##div[class^="article-content__www_ex_co_video_player_"]
+! invideo advertising exceptions
+si.com#@##mplayer-embed
+click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,news4jax.com,wsls.com#@#.ac-widget-placeholder
+xda-developers.com#@#.adsninja-ad-zone
+adamtheautomator.com,mediaite.com,packhacker.com,packinsider.com#@#.adthrive
+mediaite.com,packhacker.com,packinsider.com#@#.adthrive-content
+mediaite.com,packhacker.com,packinsider.com#@#.adthrive-video-player
+click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,news4jax.com,wsls.com#@#.anyClipWrapper
+accuweather.com,deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br,tvinsider.com#@#.cnx-player-wrapper
+accuweather.com#@#.connatix-player
+huffpost.com#@#.connatix-wrapper
+player.ex.co,theautopian.com#@#.pbs__player
 ! Mgid
 ##div[id*="MarketGid"]
 ! Google funding
