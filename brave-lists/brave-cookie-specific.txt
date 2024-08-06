@@ -54,3 +54,11 @@ consent.youtube.com##+js(trusted-click-element, form[action] button[jsname="tWT9
 consent.youtube.com##+js(trusted-click-element, [action="https://consent.youtube.com/save"][style="display:inline;"] [name="set_eom"][value="true"] ~ .basebuttonUIModernization[value][aria-label], , 1500)
 consent.google.*##+js(trusted-click-element, form[action] button[jsname="tWT92d"]), , 1500)
 forbes.com##+js(trusted-click-element, [aria-labelledby="banner-title"] > div[class^="buttons_"] > button[class*="secondaryButton_"] + button, , 1500)
+! Increase timeouts (fallbacks) For slower devices/networks
+consent-pref.trustarc.com##+js(trusted-click-element, .call, , 2500)
+cdn.privacy-mgmt.com##+js(trusted-click-element, button[aria-label="Agree"], , 2500)
+cdn.privacy-mgmt.com##+js(trusted-click-element, button[title="Accept all"i], , 2500)
+consent.yahoo.com##+js(trusted-click-element, button.reject-all], , 2500)
+digitalfoundry.net,egx.net,eurogamer.it,mcmcomiccon.com,nintendolife.com,paxsite.com,purexbox.com,pushsquare.com,starwarscelebration.com,thehaul.com,timeextension.com##+js(trusted-click-element, #onetrust-accept-btn-handler], , 2800)
+dicebreaker.com,eurogamer.cz,eurogamer.es,eurogamer.net,eurogamer.nl,eurogamer.pl,eurogamer.pt,gamesindustry.biz,jelly.deals,reedpop.com,rockpapershotgun.com,thepopverse.com,vg247.com,videogameschronicle.com##+js(trusted-click-element, button[title="Accept and continue"]], , 2800)
+dicebreaker.com,eurogamer.cz,eurogamer.es,eurogamer.net,eurogamer.nl,eurogamer.pl,eurogamer.pt,gamesindustry.biz,jelly.deals,reedpop.com,rockpapershotgun.com,thepopverse.com,vg247.com,videogameschronicle.com##+js(trusted-click-element, button[title="Accept All Cookies"]], , 2800)
