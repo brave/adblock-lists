@@ -38,6 +38,7 @@
             "linkCode",
             "tag",
             "crid",
+            "pd_rd_i",
             "pd_rd_r",
             "pd_rd_w",
             "pd_rd_wg",
