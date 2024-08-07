@@ -1226,7 +1226,7 @@ musicbusinessworldwide.com##[href^="https://wynstarks.lnk.to/"]
 saucemagazine.com##.advert-elem
 saucemagazine.com##.advert-elem-1
 ! .mtc-unit-prefill-container
-fieldandstream.com,outdoorlife.com,popsci.com,taskandpurpose.com,thedrive.com##.mtc-unit-prefill-container
+fieldandstream.com,outdoorlife.com,popsci.com,thedrive.com##.mtc-unit-prefill-container
 ! pcguide.com
 pcguide.com##.wepc-takeover-sides
 pcguide.com##.wepc-takeover-top
@@ -1701,7 +1701,6 @@ moneycontrol.com##.ads-320-50
 euroweeklynews.com##.banner-970
 euroweeklynews.com##.c-advert__sticky
 euroweeklynews.com##.c-inblog_ad
-euroweeklynews.com##[data-revive-zoneid]
 appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,tld-list.com##[rel*="sponsored"]
 ! drudgereport.com
 drudgereport.com##.DR-AD-SPACE
@@ -1761,7 +1760,6 @@ ladbible.com,unilad.com,gamingbible.com,uniladtech.com,sportbible.com,tyla.com##
 ladbible.com,unilad.com,gamingbible.com,uniladtech.com,sportbible.com,tyla.com##.advert-placeholder_advertPlaceholder____F2W
 ladbible.com,unilad.com,gamingbible.com,uniladtech.com,sportbible.com,tyla.com##.floating-video-player_container__u4D9_
 ! express.co.uk
-express.co.uk###ovp-primis
 express.co.uk###taboola-mid-article-thumbnails-outstream
 express.co.uk##.viafoura-standalone-mpu
 express.co.uk##.superbanner
@@ -2102,7 +2100,6 @@ glensidelocal.com##.advertising-callout
 thescore.com##.Ad__container--MeQWT
 ! advocate.com
 advocate.com##.ad_leaderboard_wrap
-advocate.com##.ad_tag
 advocate.com##.partners__container
 advocate.com##.bigbox_top_ad-wrap
 advocate.com###sPost_Layout_Default_0_0_19_0_0_2_1_0_0
@@ -2543,7 +2540,6 @@ timesofindia.indiatimes.com##.ctn-workaround-div
 timesofindia.indiatimes.com##.fixed_elements_on_page
 timesofindia.indiatimes.com##.icNFc
 timesofindia.indiatimes.com##.ATF_mobile_ads
-timesofindia.indiatimes.com##.ATF_wrapper
 timesofindia.com##.phShimmer
 timesofindia.com##div[class^="ATF_container_"]
 timesofindia.com##div[id^="custom_ad_"]
