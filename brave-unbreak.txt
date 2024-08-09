@@ -10,8 +10,15 @@ weather.com,accuradio.com,mytuner-radio.com,awa.fm,radiko.jp,watch.jme.tv,play.a
 @@||mssl.fwmrm.net/libs/$domain=southpark.de|southparkstudios.co.uk|southparkstudios.com.br|southparkstudios.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=southpark.de|southparkstudios.co.uk|southparkstudios.com.br|southparkstudios.com
 !
-! csp + doc (remove doc) *$doc,csp=script-src-attr 'none',to=flatpanelshd.com|sportsrec.com|badmouth1.com|picrew.me|lamire.jp
-*$csp=script-src-attr 'none',domain=badmouth1.com|flatpanelshd.com|jin115.com|lamire.jp|picrew.me|sportsrec.com
+! csp + doc (remove doc) *$doc,csp=script-src-attr 'none',to=badmouth1.com|eurointegration.com.ua|flatpanelshd.com|jin115.com|lamire.jp|picrew.me|sportsrec.com
+! https://github.com/brave/adblock-rust/issues/365
+! https://github.com/brave/adblock-lists/pull/1942#issuecomment-2278400999
+||badmouth1.com^$csp=script-src-attr 'none'
+||flatpanelshd.com^$csp=script-src-attr 'none'
+||jin115.com^$csp=script-src-attr 'none'
+||lamire.jp^$csp=script-src-attr 'none'
+||picrew.me^$csp=script-src-attr 'none'
+||sportsrec.com^$csp=script-src-attr 'none'
 ! 
 ! win7/8 YT crashes
 ! CNAME: account.adobe.com
