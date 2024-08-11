@@ -165,6 +165,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###banner_pos3_ddb_0
 ###banner_pos4_ddb_0
 ###bottom-adhesion
+###bottom-adhesion-container
 ###comments-standalone-mpu
 ###ddb_fluid_native_ddb_0
 ###dfp-wallpaper-wrapper
@@ -435,6 +436,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.article-mid-ad
 ##.article__adhesion
 ##.banner_ads
+##.banner-ad-wrap
 ##.banner-ads
 ##.belowMastheadWrapper
 ##.bidbarrel-ad
@@ -527,6 +529,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gpt-ad-wrapper
 ##.gpt-breaker-container
 ##.header-ad
+##.header-adslot-container
 ##.headerAds
 ##.headerAds250
 ##.header-ad-region
@@ -689,6 +692,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.stickyRailAd
 ##.sticky-rail-ad-container
 ##.stickyAd
+##.style_k8mr7b-o_O-style_uhlm2
 ##.tablet-ad
 ##.tadm_ad_unit
 ##.takeover-ad
@@ -716,6 +720,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.top-ad-block
 ##.top-ad-wrapper
 ##.top-ads-container
+##.topAlertAds
 ##.top-banner-advert
 ##.topbannerAd
 ##.tnw-ad
@@ -1098,6 +1103,7 @@ flightradar24.com###primisAdContainer
 realclearpolitics.com###realclear_jwplayer_container
 ispreview.co.uk###sidebar-slot-5
 uproxx.com###upx-mm-player-wrap
+sportskeeda.com###video-player-container--
 newseveryday.com###vplayer_large
 indy100.com##.addressed_cls
 telegraph.co.uk##.article-betting-unit-container
@@ -1132,9 +1138,11 @@ southernliving.com##.karma-sticky-rail
 gearjunkie.com##.ldm_ad
 ispreview.co.uk##.midarticle-slot-10
 insideevs.com##.minutely_video_wrap
+zerohedge.com##.mixed-unit-ac
 lifewire.com##.mntl-jwplayer-broad
 respawnfirst.com##.mv-ad-box
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
+pagesix.com##.nyp-video-player
 picrew.me##.play-Imagemaker_Footer
 sciencetimes.com##.player
 bossip.com##.player-wrapper-inner
@@ -1142,7 +1150,10 @@ swimswam.com##.polls-461
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com,thetakeout.com##.related-stories-inset-video
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
+si.com##.style_hfl21i-o_O-style_uhlm2
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
+sportskeeda.com##.vidazoo-player-container
+justthenews.com,movieweb.com,screenrant.com##.video
 petapixel.com##.video-aspect-wrapper
 gearjunkie.com##.video-jwplayer
 bolavip.com##.video-player-placeholder
@@ -2493,6 +2504,17 @@ myflixerz.to,hdtodayz.to##+js(set-cookie, show_share, true)
 fxempire.com##.ddAwpw
 fxempire.com##.gAruxy
 fxempire.com##[data-cy="article-ad"]
+! thartribune.com
+thartribune.com##.adsbypubpower
+! techpowerup.com (first-party ads)
+||www.techpowerup.com/reviyuu/$image,1p
+techpowerup.com##body:not([data-template]) a[rel*="nofollow"][target="_blank"][href$="er/images/gmchjhj.png"]
+techpowerup.com##body:not([data-template]) a[rel="nofollow"][href^="/reviyuu/b784/"]:style(pointer-events: none !important;)
+! radio.net
+radio.net##.min-h-\[250px\]
+! zerohedge.com
+zerohedge.com##div[class^="AdvertisingSlot_"]
+zerohedge.com##.rectangle
 ! foxnews
 foxbusiness.com,foxnews.com,foxweather.com##.advert-txt
 fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,ktvu.com,q13fox.com,wogx.com##.vendor-unit
