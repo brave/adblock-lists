@@ -42,6 +42,9 @@ google.*##+js(de-amp)
 ! YouTube theater mode fix scriptlet rule
 youtube.*##+js(brave-youtube-theater-fix)
 
+! Trusted open-in-app notices
+alltrails.com##+js(trusted-set-local-storage-item, banner-dismissal-date, $now$)
+
 ! YouTube navigation fix scriptlet rule
 youtube.*##+js(brave-youtube-navigation-fix)
 
