@@ -960,6 +960,8 @@ movies4u.loan##.ads-btns
 ! viprow.nu/vipbox.lc
 $script,xhr,third-party,domain=viprow.nu|vipbox.lc|vipboxtv.sk|mlbbox.me
 @@||sts.cuervotv.me^$script,domain=viprow.nu|vipbox.lc|vipboxtv.sk|mlbbox.me
+@@||sts.kenitv.me^$script,domain=viprow.nu|vipbox.lc|vipboxtv.sk|mlbbox.me
+@@/embed2.min.$script,domain=viprow.nu|vipbox.lc|vipboxtv.sk|mlbbox.me
 viprow.nu,vipbox.lc,vipboxtv.sk##+js(set, path, '')
 viprow.nu,vipbox.lc,vipboxtv.sk##+js(acs, setTimeout, admc)
 viprow.nu,vipbox.lc,vipboxtv.sk##+js(nowoif, //)
