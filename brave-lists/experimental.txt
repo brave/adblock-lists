@@ -6,7 +6,7 @@
 ! counter page visibility checks on youtube.com/twitch
 tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-video-bg-play)
 
-podcasts-online.org,podbay.fm,spreaker.com,player.fm,tuner.bonneville.com,kera.org,wnyc.org,wqxr.org,kusc.org,kdfc.com,wfmt.com,wfmu.org,radiolisten.de,ascoltareradio.com,ieradio.org,radios.lu,nederlandseradio.nl,nettradionorge.com,radio.org.se,radio.pp.ru,onlineradio.pl,radioonline.com.pt,emisora.org.es,radio.co.dk,radios.co.at,ukradiolive.com,fmstream.org,listnr.com,totallyradio.com.au,tv.youtube.com,www.youtube.com,m.youtube.com,plex.tv,gaana.com,jiosaavn.com,play.anghami.com,app.idagio.com,wynk.in,radio.de,fanatiz.com,spectrumsportsnet.com,tntdrama.com,ballysports.com,nba.com,altitudenow.com##+js(brave-disable-pageview-api)
+radiolisten.de,ascoltareradio.com,ieradio.org,radios.lu,nederlandseradio.nl,nettradionorge.com,radio.org.se,radio.pp.ru,onlineradio.pl,radioonline.com.pt,emisora.org.es,radio.co.dk,radios.co.at,tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-disable-pageview-api)
 !
 ! Google precision popup
 www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##.gTMtLb.fp-nh[style="visibility: visible;"]
