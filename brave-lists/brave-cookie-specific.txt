@@ -55,7 +55,7 @@ consent.youtube.com##+js(trusted-click-element, [action="https://consent.youtube
 consent.google.*##+js(trusted-click-element, form[action] button[jsname="tWT92d"]), , 1500)
 forbes.com##+js(trusted-click-element, [aria-labelledby="banner-title"] > div[class^="buttons_"] > button[class*="secondaryButton_"] + button, , 1500)
 ! Increase timeouts (fallbacks) For slower devices/networks
-silicon.es,ledauphine.com,rossmann.pl,actu.fr,elconfidencial.com,rtl.lu,dnevnik.hr,metronieuws.nl,gva.be,nieuwsblad.be,cadenaser.com,actu.fr,elconfidencial.com,rtl.lu,rfi.fr,20minutos.es,elcomercio.es,france24.com,marmiton.org,cope.es,sensacine.com,abc.es##+js(trusted-click-element, #didomi-notice-agree-button, , 2200)
+20minutos.es,abc.es,actu.fr,actu.fr,bonniernews.se,cadenaser.com,cope.es,dnevnik.hr,elcomercio.es,elconfidencial.com,elconfidencial.com,elpais.com,elpais.es,euronews.com,expressen.se,france24.com,gva.be,krone.at,ledauphine.com,marmiton.org,metronieuws.nl,nieuwsblad.be,rfi.fr,rossmann.pl,rtl.lu,rtl.lu,sensacine.com,silicon.es##+js(trusted-click-element, #didomi-notice-agree-button, , 2200)
 consent-pref.trustarc.com##+js(trusted-click-element, .call, , 2500)
 cdn.privacy-mgmt.com##+js(trusted-click-element, button[aria-label="Agree"], , 2500)
 cdn.privacy-mgmt.com##+js(trusted-click-element, button[title="Accept all"i], , 2500)
