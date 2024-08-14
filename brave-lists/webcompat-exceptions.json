@@ -54,5 +54,14 @@
       "plugins"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/26079"
+  },
+  {
+    "include": [
+      "*://vizzy.io/*"
+    ],
+    "exceptions": [
+      "audio"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/40440"
   }
 ]
