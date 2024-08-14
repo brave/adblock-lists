@@ -195,6 +195,7 @@
   },
   {
     "include": [
+      "*://*.evyy.net/c/*",
       "*://*.uikc.net/c/*",
       "*://*.ztk5.net/*",
       "*://*.rg35.net/*",
