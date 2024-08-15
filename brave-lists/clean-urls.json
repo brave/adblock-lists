@@ -122,6 +122,20 @@
     },
     {
         "include": [
+            "*://*.ticketweb.ca/*",
+            "*://*.ticketweb.com/*",
+            "*://*.ticketweb.ie/*",
+            "*://*.ticketweb.uk/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "REFERRAL_ID"
+        ]
+    },
+    {
+        "include": [
             "*://*.imdb.com/*"
         ],
         "exclude": [
