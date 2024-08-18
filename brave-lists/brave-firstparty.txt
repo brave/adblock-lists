@@ -2066,8 +2066,6 @@ thetimes.com##article[id="article-main"] > div:has(#ad-header)
 bnnbloomberg.ca##.b-ads-custom
 ! military.com
 military.com##.page__top
-! smithsonianmag.com (counter ghide)
-smithsonianmag.com##.ad-wrapper
 ! rivals.com
 rivals.com##.Ads_adContainer__l_sg0
 ! news.abs-cbn.com
