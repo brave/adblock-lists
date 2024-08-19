@@ -2780,7 +2780,8 @@ pornhub.com###pb_block
 pornhub.com##.realsex
 pornhub.com###js-abContainterMain
 pornhub.com,pornhub.net,youporn.com###pb_template
-/_xa/ads_
+/_xa/ads?
+/_xa/ads_batch?
 /ht.js?site_
 ##a[href^="https://a.adtng.com/"]
 ! xhamster.com
