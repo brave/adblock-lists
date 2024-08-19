@@ -101,7 +101,6 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||adsafeprotected.com^
 ||advertising.com^
 ||adfyre.co^
-||etahub.com^$3p
 ||trafficjunky.com^$3p
 ||outoctillerytor.com^
 ||pubfuture-ad.com^
@@ -208,6 +207,11 @@ mp4upload.com##+js(abort-on-property-write, adcashMacros)
 ! apnews.com
 apnews.com##.Page-header-leaderboardAd
 apnews.com##.SovrnAd
+! pornhub
+/_xa/ads?
+/_xa/ads_batch?
+||prvc.io^
+||etahub.com^$3p
 ! instacart
 instacart.com##li[data-testid="compact-item-list-header"]
 instacart.com##.image-banner-a-ak0wn
