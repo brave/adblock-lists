@@ -60,6 +60,7 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 
 ! https://attackertv.so/
 ! Adservers 
+||agl002.online^
 ||asccdn.com^
 ||inpagepush.com^
 ||tapewherever.com^
@@ -70,6 +71,7 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||d36zfztxfflmqo.cloudfront.net^
 ||dantbritingd.club^
 ||onclickalgo.com^
+||indiesalong.com^
 ||onclickperformance.com^
 ||onclickgenius.com^
 ||proftrafficcounter.com^
