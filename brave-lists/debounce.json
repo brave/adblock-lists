@@ -1,6 +1,8 @@
 [
   {
     "include": [
+      "*://www.wordseed.com/go/*",
+      "*://visit.ws/visit/*",
       "*://llo.to/e/*",
       "*://g-o-media.digidip.net/visit?*",
       "*://www.dpbolvw.net/click-*",
