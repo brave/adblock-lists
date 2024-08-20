@@ -88,6 +88,7 @@
     },
     {
         "include": [
+            "*://www.ft.com/*",
             "*://*.linkedin.com/*",
             "*://therecord.media/*"
         ],
