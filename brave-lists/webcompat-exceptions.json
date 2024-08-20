@@ -63,5 +63,14 @@
       "audio"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/40440"
+  },
+  {
+    "include": [
+     "*://mydhl.express.dhl/*"
+    ],
+    "exceptions": [
+      "screen"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/40568"
   }
 ]
