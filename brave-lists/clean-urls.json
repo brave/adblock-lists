@@ -88,6 +88,20 @@
     },
     {
         "include": [
+            "https://www.goodreads.com/book/show/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+             "from_search",
+             "from_srp",
+             "qid",
+             "rank"
+        ]
+    },
+    {
+        "include": [
             "*://www.ft.com/*",
             "*://*.linkedin.com/*",
             "*://therecord.media/*"
