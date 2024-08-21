@@ -344,6 +344,7 @@
     {
         "include": [
             "*://eprint.iacr.org/*",
+            "*://*.goodreads.com/*",
             "*://hackernoon.com/*",
             "*://www.backerkit.com/*",
             "*://*.kickstarter.com/*"
