@@ -6,6 +6,11 @@
 @@||mssl.fwmrm.net/libs/$domain=southpark.de|southparkstudios.co.uk|southparkstudios.com.br|southparkstudios.com
 @@||imasdk.googleapis.com/pal/sdkloader/pal.js$domain=southpark.de|southparkstudios.co.uk|southparkstudios.com.br|southparkstudios.com
 !
+! Counter wsj.com breakage (images not showing)
+! https://github.com/uBlockOrigin/uAssets/issues/24960
+@@||cloudfront.net/o?*fqdn=$xhr,3p,domain=marketwatch.com|wsj.com
+@@||cloudfront.net/*.js|$script,3p,domain=marketwatch.com|wsj.com
+
 ! csp + doc (remove doc) *$doc,csp=script-src-attr 'none',to=flatpanelshd.com|sportsrec.com|badmouth1.com|picrew.me|lamire.jp
 *$csp=script-src-attr 'none',domain=badmouth1.com|flatpanelshd.com|jin115.com|lamire.jp|picrew.me|sportsrec.com
 ! 
