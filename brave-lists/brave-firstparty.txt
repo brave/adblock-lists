@@ -211,6 +211,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###td-ad-placeholder
 ###topad
 ###TopAd
+###zdcFloatingBtn
 ##.ATF_wrapper
 ##.Ad--empty
 ##.AdBox
@@ -533,6 +534,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gpt-ad-container
 ##.gpt-ad-wrapper
 ##.gpt-breaker-container
+##.grid-advertisement
 ##.header-ad
 ##.header-adslot-container
 ##.headerAds
@@ -651,6 +653,10 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.pageAdSkin
 ##.pageAdSkinUrl
 ##.pane-sasia-ad
+##.pg-adnotice
+##.pg-adtarget
+##.pgevoke-story-topads
+##.pgevoke-story-rightrail-ad1
 ##.pmc-adm-boomerang-pub-div
 ##.post-ads
 ##.post_detail_right_advert
@@ -686,6 +692,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.sponsored-links
 ##.sponsored-post
 ##.spotlight-ad
+##.sraAdvert
 ##.square-ad
 ##.staticAd
 ##.sticky-ad
@@ -1129,6 +1136,7 @@ taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 accuweather.com##.feature-tag
 ibtimes.sg##.featured_video
+unilad.com##.floating-video-player_container__u4D9_
 dailymail.co.uk##.footballco-container
 redboing.com##.fw-ad
 foxsports.com##.fwAdContainer
@@ -1156,11 +1164,13 @@ swimswam.com##.polls-461
 avclub.com,deadspin.com,gizmodo.com,jalopnik.com,kotaku.com,theonion.com,theroot.com,thetakeout.com##.related-stories-inset-video
 kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
+the-express.com##.stn-video-container
 si.com##.style_hfl21i-o_O-style_uhlm2
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 sportskeeda.com##.vidazoo-player-container
-justthenews.com,movieweb.com,screenrant.com##.video
+justthenews.com,movieweb.com,screenrant.com,thegamer.com##.video
 petapixel.com##.video-aspect-wrapper
+fodors.com##.video-inline
 gearjunkie.com##.video-jwplayer
 bolavip.com##.video-player-placeholder
 benzinga.com##.video-player-wrapper
@@ -1171,6 +1181,7 @@ bigthink.com##.wrapper-connatixPlayspace
 worldsoccertalk.com##[id*="primis_"]
 offidocs.com##[id^="ja-container-prev"]
 hollywoodreporter.com##[id^="jwplayer"]
+ukrinform.de,ukrinform.es,ukrinform.fr,ukrinform.jp,ukrinform.net,ukrinform.pl,ukrinform.ua##[style^="min-height: 280px;"]
 wlevradio.com##a[href^="https://omny.fm/shows/just-start-the-conversation"]
 firstforwomen.com##div[class^="article-content__www_ex_co_video_player_"]
 ! invideo advertising exceptions
@@ -1439,6 +1450,8 @@ upi.com##[style="min-height: 305px;"]
 ! geekwire.com
 geekwire.com###sponsors
 ! indy100.com
+indy100.com##.ad_300x250
+indy100.com##.addressed_cls
 indy100.com###top_banner
 ! kyivpost.com
 kyivpost.com##.ad_between_paragraphs
@@ -1668,6 +1681,14 @@ thekitchn.com##.DesktopStickyFooter
 thekitchn.com##.Post__inPostVideoAdDesktop
 apartmenttherapy.com,cubbyathome.com,thekitchn.com##.StickyFooter
 apartmenttherapy.com,cubbyathome.com,thekitchn.com##.pov_recirc__ad
+! bitchute
+||bitchute.com/static/ad-
+bitchute.com##.row.justify-center:has-text(Advertisement)
+! post-gazette.com
+post-gazette.com##.pg-mobile-adhesionbanner
+post-gazette.com###benn-poll-iframe-container
+! kcby.com
+kcby.com##.sd-container
 ! vox.com
 vox.com##.l66a0c1k
 vox.com##.l66a0c1n
@@ -2073,6 +2094,7 @@ rivals.com##.Ads_adContainer__l_sg0
 ! news.abs-cbn.com
 news.abs-cbn.com##[style*="width:100%;min-height:300px;"]
 news.abs-cbn.com##.css-a5foyt
+news.abs-cbn.com##[style*="background-color: rgb(236, 237, 239)"]
 ! dcist.com
 dcist.com##.advertisement-information-link
 ! seattletimes.com
