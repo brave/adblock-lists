@@ -115,6 +115,24 @@
     },
     {
         "include": [
+            "*://*.cbsnews.com/*",
+            "*://*.cbssports.com/*",
+            "*://*.cnet.com/*",
+            "*://*.gamespot.com/*",
+            "*://*.insideedition.com/*",
+            "*://*.paramountplus.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+             "ftag",
+             "intcid",
+             "linkId"
+        ]
+    },
+    {
+        "include": [
             "*://www.zoopla.co.uk/*"
         ],
         "exclude": [
