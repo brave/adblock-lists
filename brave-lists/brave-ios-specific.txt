@@ -41,9 +41,10 @@ sinensistoon.com##+js(aopr, block_ads)
 ||html-load.com^$redirect=noopjs,domain=raenonx.cc
 
 @@/loader.min.js$xhr,script,domain=etoday.co.kr|genshinlab.com|dogdrip.net|thestar.co.uk|yorkshirepost.co.uk|indiatimes.com
-||html-load.com/loader.min.js$domain=badmouth1.com|carscoops.com|dziennik.pl|eurointegration.com.ua|flatpanelshd.com|fourfourtwo.co.kr|hoyme.jp|issuya.com|iusm.co.kr|jin115.com|lamire.jp|logicieleducatif.fr|mydaily.co.kr|picrew.me|reportera.co.kr|sportsrec.com|taxguru.in|thestar.co.uk|tweaksforgeeks.com|videogamemods.com|wfmz.com|yorkshirepost.co.uk|text-compare.com|winfuture.de
 thesaurus.net##+js(nostif, loader.min.js)
-||html-load.com/loader.min.js$domain=ndtvprofit.com|javatpoint.com
+*$doc,csp=script-src-attr 'none',to=badmouth1.com|hoyme.jp|jin115.com|lamire.jp|picrew.me
+||html-load.com/loader.min.js$domain=badmouth1.com|hoyme.jp|jin115.com|lamire.jp|picrew.me
+
 
 loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua##+js(set-local-storage-item, adshield-analytics-uuid, $remove$)
 loawa.com,ygosu.com,sportalkorea.com,edaily.co.kr,economist.co.kr,etoday.co.kr,isplus.com,hometownstation.com,honkailab.com,genshinlab.com,thestockmarketwatch.com,issuya.com,worldhistory.org,etnews.com,iusm.co.kr,dogdrip.net,etoland.co.kr,picrew.me,text-compare.com,fntimes.com,javatpoint.com,lamire.jp,bamgosu.site,etnewskorea.com,allthekingz.com,gadgets360.com,automobile-catalog.com,maketecheasier.com,thesaurus.net,wfmz.com,thestar.co.uk,yorkshirepost.co.uk,mydaily.co.kr,raenonx.cc,ndtvprofit.com,badmouth1.com,logicieleducatif.fr,taxguru.in,islamicfinder.org,aikatu.jp,secure-signup.net,globalrph.com,sportsrec.com,reportera.co.kr,slobodnadalmacija.hr,flatpanelshd.com,videogamemods.com,adintrend.tv,ark-unity.com,cool-style.com.tw,dziennik.pl,eurointegration.com.ua,winfuture.de,freemcserver.net,pravda.com.ua##+js(set-local-storage-item, /_fa_dXVpZA==$/, $remove$)
@@ -61,9 +62,9 @@ etoday.co.kr,genshinlab.com,etnews.com,dogdrip.net,etnewskorea.com,automobile-ca
 *$script,xhr,redirect-rule=noopjs,domain=etoday.co.kr|genshinlab.com|etnews.com|dogdrip.net|etnewskorea.com|maketecheasier.com|gadgets360.com|motorbikecatalog.com|jjang0u.com
 *$image,redirect-rule=1x1.gif,domain=etoday.co.kr|genshinlab.com|etnews.com|dogdrip.net|etnewskorea.com|automobile-catalog.com|maketecheasier.com|gadgets360.com|motorbikecatalog.com|jjang0u.com
 @@*$ghide,domain=etoday.co.kr|genshinlab.com|etnews.com|dogdrip.net|etnewskorea.com|automobile-catalog.com|maketecheasier.com|gadgets360.com|motorbikecatalog.com|jjang0u.com
-||html-load.com^$redirect=noopjs,domain=onlinegdb.com|thesaurus.net|pravda.com.ua|worldhistory.org
+||html-load.com^$redirect=noopjs,domain=blog.esuteru.com|carscoops.com|dziennik.pl|eurointegration.com.ua|flatpanelshd.com|fourfourtwo.co.kr|issuya.com|iusm.co.kr|logicieleducatif.fr|mydaily.co.kr|onlinegdb.com|pravda.com.ua|reportera.co.kr|sportsrec.com|taxguru.in|text-compare.com|thesaurus.net|thestar.co.uk|tweaksforgeeks.com|videogamemods.com|wfmz.com|winfuture.de|worldhistory.org|yorkshirepost.co.uk
+blog.esuteru.com,carscoops.com,dziennik.pl,eurointegration.com.ua,flatpanelshd.com,fourfourtwo.co.kr,issuya.com,iusm.co.kr,logicieleducatif.fr,mydaily.co.kr,onlinegdb.com,pravda.com.ua,reportera.co.kr,sportsrec.com,taxguru.in,text-compare.com,thestar.co.uk,tweaksforgeeks.com,videogamemods.com,wfmz.com,winfuture.de,worldhistory.org,yorkshirepost.co.uk##+js(nostif, error-report.com)
 thesaurus.net##+js(nostif, loader.min.js)
-onlinegdb.com,pravda.com.ua,worldhistory.org##+js(nostif, error-report.com)
 dogdrip.net##+js(trusted-replace-outbound-text, atob, /^.*$/, , condition, translate.goog)
 dogdrip.net,automobile-catalog.com,maketecheasier.com,gadgets360.com,motorbikecatalog.com,jjang0u.com##ins.adsbygoogle:style(height: 1px !important; visibility: hidden !important;)
 
