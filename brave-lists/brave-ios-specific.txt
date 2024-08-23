@@ -431,6 +431,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||absurdwater.com^
 ||abundantcoin.com^
 ||acceptableauthority.com^
+||accountsdoor.com^
 ||accurateanimal.com^
 ||accuratecoal.com^
 ||achieverknee.com^
@@ -1047,6 +1048,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||energeticladybug.com^
 ||engineergrape.com^
 ||engineertrick.com^
+||enigmaprint.com^
 ||enigmaticblossom.com^
 ||enigmaticcanyon.com^
 ||enigmaticvoyage.com^
