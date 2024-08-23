@@ -411,6 +411,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||abacksoda.com^
 ||abandonedaction.com^
 ||abilityscale.com^
+||abjectattempt.com^
 ||aboardamusement.com^
 ||aboardfork.com^
 ||aboardkettle.com^
@@ -565,7 +566,6 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||battlehope.com^
 ||bawdybalance.com^
 ||bawdybeast.com^
-||bawdypets.com^
 ||beadbears.com^
 ||beamincrease.com^
 ||beamvolcano.com^
@@ -697,7 +697,6 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||carscannon.com^
 ||cartkitten.com^
 ||carvecakes.com^
-||castcream.com^
 ||catalogcake.com^
 ||catalogdiscovery.com^
 ||catschickens.com^
@@ -935,7 +934,6 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||deskdecision.com^
 ||detailedglue.com^
 ||detailedgovernment.com^
-||detailedkitten.com^
 ||detectdinner.com^
 ||detectdiscovery.com^
 ||detourgame.com^
@@ -1036,7 +1034,6 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||enchantingmystique.com^
 ||enchantingtundra.com^
 ||enchantingvalley.com^
-||encourageidea.com^
 ||encourageshock.com^
 ||encouragingleaf.com^
 ||encouragingthread.com^
@@ -1096,6 +1093,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||faintflag.com^
 ||fairfeeling.com^
 ||fairiesbranch.com^
+||fairygaze.com^
 ||fairytaleflame.com^
 ||fallaciousfifth.com^
 ||falsefeet.com^
@@ -1222,7 +1220,6 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||gammamaximum.com^
 ||gardenovens.com^
 ||gaudyairplane.com^
-||gaudybeginner.com^
 ||geekactive.com^
 ||generalprose.com^
 ||generateoffice.com^
@@ -1339,6 +1336,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||hocgeese.com^
 ||hollowafterthought.com^
 ||homelycrown.com^
+||homeslick.com^
 ||honeybulb.com^
 ||honeygoldfish.com^
 ||honeywhipped.com^
@@ -1406,6 +1404,8 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||investigatepin.com^
 ||invitesugar.com^
 ||iotapool.com^
+||iridescentdusk.com^
+||iridescentvista.com^
 ||irritatingfog.com^
 ||itemslice.com^
 ||ivykiosk.com^
@@ -1419,14 +1419,24 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||joblessdrum.com^
 ||jollylens.com^
 ||joyfulkeen.com^
+||joyfulvibe.com^
 ||joyoussurprise.com^
+||jubilantaura.com^
 ||jubilantcanyon.com^
 ||jubilantglimmer.com^
+||jubilanthush.com^
+||jubilantlagoon.com^
+||jubilantpinnacle.com^
+||jubilantvista.com^
+||jubilantwhisper.com^
+||juicebard.com^
 ||juiceblocks.com^
 ||justicejudo.com^
+||justwebcards.com^
 ||k54nw.pw^
 ||kaputquill.com^
 ||keenquill.com^
+||kibbleandbytes.com^
 ||kindhush.com^
 ||kitesquirrel.com^
 ||kittyaction.com^
@@ -1440,6 +1450,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||lagoonolivia.com^
 ||lameletters.com^
 ||lamplow.com^
+||landandfloor.com^
 ||languagelake.com^
 ||largebrass.com^
 ||lasttaco.com^
@@ -1450,6 +1461,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||leapfaucet.com^
 ||leaplunchroom.com^
 ||learnedmarket.com^
+||ledlocket.com^
 ||leftliquid.com^
 ||legalleg.com^
 ||lemonpackage.com^
@@ -1460,6 +1472,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||liftedknowledge.com^
 ||lightcushion.com^
 ||lightenafterthought.com^
+||lighttalon.com^
 ||literatelight.com^
 ||livelumber.com^
 ||livelylaugh.com^
@@ -1479,9 +1492,12 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||loveseashore.com^
 ||lowlocket.com^
 ||lp3tdqle.com^
+||luckyzombie.com^
 ||ludicrousarch.com^
 ||lumberamount.com^
 ||lumberrule.com^
+||luminousboulevard.com^
+||luminouscatalyst.com^
 ||luminoussculptor.com^
 ||lumpygnome.com^
 ||lumpylumber.com^
@@ -1491,16 +1507,19 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||maddeningpowder.com^
 ||madebyintent.com^
 ||magicaljoin.com^
+||magiczenith.com^
 ||magnetairport.com^
 ||magnificentmeasure.com^
 ||magnificentmist.com^
 ||mailboxmeeting.com^
 ||majesticmountainrange.com^
+||majesticwaterscape.com^
 ||makeshiftmine.com^
 ||maliciousmusic.com^
 ||managedpush.com^
 ||maniacalappliance.com^
 ||mantrafox.com^
+||mapbasin.com^
 ||marblediscussion.com^
 ||markahouse.com^
 ||markedcrayon.com^
@@ -1509,6 +1528,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||marketspiders.com^
 ||marriedbelief.com^
 ||marriedmailbox.com^
+||marriedvalue.com^
 ||massivebasket.com^
 ||massivemark.com^
 ||matchjoke.com^
@@ -1528,8 +1548,9 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||mediumshort.com^
 ||mellowhush.com^
 ||mellowmailbox.com^
-||melodicminute.com^
+||melodiouschorus.com^
 ||melodiouscomposition.com^
+||melodioussymphony.com^
 ||meltmilk.com^
 ||memopilot.com^
 ||memorizeline.com^
@@ -1540,6 +1561,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||meremark.com^
 ||merequartz.com^
 ||merryopal.com^
+||merryvault.com^
 ||messagenovice.com^
 ||messyoranges.com^
 ||metajaws.com^
@@ -1549,6 +1571,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||mimosamajor.com^
 ||mindfulgem.com^
 ||mindlessmark.com^
+||minorcattle.com^
 ||minormeeting.com^
 ||minusmental.com^
 ||minuteburst.com^
@@ -1576,10 +1599,12 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||mundanenail.com^
 ||mundanepollution.com^
 ||murkymeeting.com^
+||mushywaste.com^
 ||muteknife.com^
 ||mutemailbox.com^
 ||muterange.com^
 ||mysteriousmonth.com^
+||mysticalagoon.com^
 ||naivestatement.com^
 ||nappyattack.com^
 ||nappyneck.com^
@@ -1587,6 +1612,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||nebulacrescent.com^
 ||nebulajubilee.com^
 ||nebulousamusement.com^
+||nebulousquasar.com^
 ||nebulousripple.com^
 ||necessarywax.com^
 ||needlessnorth.com^
@@ -1594,9 +1620,11 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||negotiatetime.com^
 ||neighborlywatch.com^
 ||nervoussummer.com^
+||newsletterjet.com^
 ||niftygraphs.com^
 ||niftyhospital.com^
 ||niftyjelly.com^
+||niftyreports.com^
 ||nightwound.com^
 ||nimbleplot.com^
 ||nocturnalloom.com^
@@ -1640,6 +1668,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||orientedargument.com^
 ||orionember.com^
 ||ourblogthing.com^
+||outdoorthingy.com^
 ||outgoinggiraffe.com^
 ||outsidevibe.com^
 ||outstandingsnails.com^
@@ -1695,7 +1724,11 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||piespower.com^
 ||pietexture.com^
 ||pigspie.com^
+||pinchsquirrel.com^
+||pinkbonanza.com^
 ||pinpointpotato.com^
+||piquantgrove.com^
+||piquantmeadow.com^
 ||piquantpigs.com^
 ||piquantprice.com^
 ||piquantstove.com^
@@ -1705,7 +1738,6 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||placeframe.com^
 ||placidactivity.com^
 ||placidperson.com^
-||plainplayground.com^
 ||plainrequest.com^
 ||planebasin.com^
 ||planesorder.com^
@@ -1714,10 +1746,12 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||plantrelation.com^
 ||platescarecrow.com^
 ||plausiblecable.com^
+||playfulriver.com^
 ||pleasantpump.com^
 ||plotparent.com^
 ||plotrabbit.com^
 ||pluckypocket.com^
+||pluckyzone.com^
 ||pocketfaucet.com^
 ||podiumpresto.com^
 ||poemprompt.com^
@@ -1727,8 +1761,10 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||pointlesspocket.com^
 ||pointlessprofit.com^
 ||pointlessrifle.com^
+||poisedfuel.com^
 ||poisedpig.com^
 ||polarismagnet.com^
+||polishedcrescent.com^
 ||polishedfolly.com^
 ||politegoldfish.com^
 ||politeplanes.com^
@@ -1745,6 +1781,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||powerfulblends.com^
 ||powerfulcopper.com^
 ||preciouseffect.com^
+||preciousplanes.com^
 ||preciousyoke.com^
 ||predictplate.com^
 ||prefixpatriot.com^
@@ -1827,7 +1864,6 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||rangeplayground.com^
 ||rapidkittens.com^
 ||raresummer.com^
-||raspyteam.com^
 ||reactjspdf.com^
 ||readgoldfish.com^
 ||readingguilt.com^
@@ -1835,7 +1871,6 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||readysnails.com^
 ||realizedoor.com^
 ||realizerecess.com^
-||realizevacation.com^
 ||rebelclover.com^
 ||rebelhen.com^
 ||rebelsubway.com^
@@ -1898,7 +1933,6 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||rockpebbles.com^
 ||rodeopolice.com^
 ||rollconnection.com^
-||roofrelation.com^
 ||roomyreading.com^
 ||roseincome.com^
 ||rottenray.com^
@@ -1914,6 +1948,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||sablesmile.com^
 ||sablesong.com^
 ||sadloaf.com^
+||safetybrush.com^
 ||saffronrefuge.com^
 ||sagargift.com^
 ||sailsuit.com^
@@ -1938,6 +1973,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||scarecrowslope.com^
 ||scaredcomfort.com^
 ||scaredsidewalk.com^
+||scaredslip.com^
 ||scaredsnake.com^
 ||scaredsnakes.com^
 ||scaredsong.com^
@@ -1993,8 +2029,10 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||serendipityecho.com^
 ||serenecascade.com^
 ||serenesurf.com^
+||serenezenith.com^
 ||serioussuit.com^
 ||serpentshampoo.com^
+||serverracer.com^
 ||settleshoes.com^
 ||shadeship.com^
 ||shaggytank.com^
@@ -2009,7 +2047,6 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||shapecomb.com^
 ||sharkskids.com^
 ||sharppatch.com^
-||sheltercellar.com^
 ||shesubscriptions.com^
 ||shinesavage.com^
 ||shinestuart.com^
@@ -2029,6 +2066,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||shyseed.com^
 ||sickflock.com^
 ||sicksmash.com^
+||sierrakermit.com^
 ||signaturepod.com^
 ||silentcredit.com^
 ||silentwrench.com^
@@ -2045,6 +2083,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||sixauthority.com^
 ||sixscissors.com^
 ||sizesidewalk.com^
+||sizzlingsmoke.com^
 ||skillfuldrop.com^
 ||skillfulsock.com^
 ||skisofa.com^
@@ -2077,12 +2116,14 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||snakeslang.com^
 ||snakesshop.com^
 ||snakesstone.com^
+||snappyreport.com^
 ||sneakwind.com^
 ||sneakystew.com^
 ||snoresmile.com^
 ||snowmentor.com^
 ||soaprange.com^
 ||soapsmoke.com^
+||softwarerumble.com^
 ||soggysponge.com^
 ||soggyzoo.com^
 ||solarislabyrinth.com^
@@ -2105,6 +2146,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||soresneeze.com^
 ||sorethunder.com^
 ||soretrain.com^
+||sortanoisy.com^
 ||sortsail.com^
 ||sortstructure.com^
 ||sortsummer.com^
@@ -2263,6 +2305,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||swellstocking.com^
 ||swelteringsleep.com^
 ||swelteringsmile.com^
+||swimfreely.com^
 ||swimslope.com^
 ||swingslip.com^
 ||swordgoose.com^
@@ -2276,6 +2319,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||talentedsteel.com^
 ||talltouch.com^
 ||tangibleteam.com^
+||tangletrace.com^
 ||tangyamount.com^
 ||tangycover.com^
 ||tarttendency.com^
@@ -2350,6 +2394,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||topichawaii.com^
 ||torpidtongue.com^
 ||torpidtoothpaste.com^
+||touristfuel.com^
 ||trackcaddie.com^
 ||tradetooth.com^
 ||trafficviews.com^
@@ -2371,6 +2416,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||troubleshade.com^
 ||truckstomatoes.com^
 ||truculentrate.com^
+||truebackpack.com^
 ||tumbleicicle.com^
 ||tuneupcoffee.com^
 ||twistloss.com^
@@ -2395,6 +2441,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||uninterestedquarter.com^
 ||unknowncontrol.com^
 ||unknowncrate.com^
+||unknownidea.com^
 ||unknowntray.com^
 ||untidyquestion.com^
 ||untidyrice.com^
@@ -2417,6 +2464,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||venomousvessel.com^
 ||venusgloria.com^
 ||verdantanswer.com^
+||verdantcrescent.com^
 ||verdantlabyrinth.com^
 ||verdantsculpture.com^
 ||verifyvegetable.com^
@@ -2501,6 +2549,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||zephyrlabyrinth.com^
 ||zestycrime.com^
 ||zestyhorizon.com^
+||zestyrover.com^
 ||zestywire.com^
 ||zipperxray.com^
 ||zippywind.com^
