@@ -72,5 +72,14 @@
       "screen"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/40568"
+  },
+  {
+    "include": [
+      "*://www.mgmresorts.com/*"
+    ],
+    "exceptions": [
+      "screen"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/40644"
   }
 ]
