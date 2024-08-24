@@ -975,7 +975,7 @@ $script,third-party,domain=komikdewasa.art|komikdewasa.mom
 @@||cloudflare.com^$script,domain=komikdewasa.art|komikdewasa.mom
 ! *$script,3p,denyallow=google.com|googleapis.com|gstatic.com|hcaptcha.com|recaptcha.net,from=sxyprn.*
 ! sxyprn.com|sxyprn.net
-.com/*=$script,3p,from=sxyprn.com|sxyprn.net
+.com/*=$script,3p,domain=sxyprn.com|sxyprn.net
 ! yts.mx
 $script,third-party,domain=yts.mx
 @@||cdn.jsdelivr.net^$script,domain=yts.mx
