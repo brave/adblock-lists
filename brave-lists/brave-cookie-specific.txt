@@ -4,19 +4,6 @@
 !
 ! List to cover domain wildcards for trusted cookie
 
-! START
-! continue without accepting.
-auto.it##+js(trusted-set-cookie, euconsent-v2, CQD21kAQD21kAAHABBENBCFgAAAAAEPgABCYAAAUvAJMNCogDLAkJCDQMIIEAKgrCAigQAAAAkDRAQAmDAp2BgEusJEAIAUAAwQAgABRkACAAACABCIAIACgQAAQCBQABgAQDAQAEDAACACwEAgABAdAhTAggUCwASMyIhTAhCASCAlsqEEgCBBXCEIs8ACAREwUAAAAABWAAICwWBxJICVCQQJcQbQAAEACAQQAVCCTkwABAGbLUHgybRlaQBo-YJENMAwAAAAA.YAAACHwAAAAA)
-
-! accept #didomi-notice-agree-button
-autopista.es,belfasttelegraph.co.uk,bonduelle.it,ciclismoafondo.es,cnews.fr,decathlon.pl,dumpert.nl,ebuyclub.com,edreams.de,edreams.net,rtbf.be##+js(trusted-click-element, #didomi-notice-agree-button, , 1000)
-autopista.es,belfasttelegraph.co.uk,bonduelle.it,ciclismoafondo.es,cnews.fr,decathlon.pl,dumpert.nl,ebuyclub.com,edreams.de,edreams.net,rtbf.be##+js(trusted-click-element, #didomi-notice-agree-button, , 2200)
-
-! consent paywall 
-jeuxvideo.com##+js(trusted-click-element, button[onclick="Didomi.setUserAgreeToAll();"], , 1000)
-jeuxvideo.com##+js(trusted-click-element, button[onclick="Didomi.setUserAgreeToAll();"], , 2200)
-! END
-
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L74
 chrono24.co.th,chrono24.ae,chrono24.fi,chrono24.pt,chrono24.hk,chrono24.hu,chrono24.at,chrono24.com,chrono24.ph,chrono24.in,chrono24.kr,chrono24.com.hr,chrono24.be,chrono24.co.uk,chrono24.de,chrono24.co.za,chrono24.no,chrono24.com.br,chrono24.es,chrono24.cn,chrono24.cz,chrono24.ch,chrono24.cl,chrono24.sk,chrono24.com.ar,chrono24.mx,chrono24.nl,chrono24.com.tr,chrono24.pl,chrono24.co.id,chrono24.tw,chrono24.com.ru,chrono24.se,chrono24.com.au,chrono24.it,chrono24.com.gr,chrono24.fr,chrono24.ca,chrono24.dk,chrono24.ro,chrono24.jp,chrono24.my,chrono24.co.nz,chrono24.sg##+js(trusted-click-element, button.js-cookie-accept-all, , 2000)
 chrono24.co.th,chrono24.ae,chrono24.fi,chrono24.pt,chrono24.hk,chrono24.hu,chrono24.at,chrono24.com,chrono24.ph,chrono24.in,chrono24.kr,chrono24.com.hr,chrono24.be,chrono24.co.uk,chrono24.de,chrono24.co.za,chrono24.no,chrono24.com.br,chrono24.es,chrono24.cn,chrono24.cz,chrono24.ch,chrono24.cl,chrono24.sk,chrono24.com.ar,chrono24.mx,chrono24.nl,chrono24.com.tr,chrono24.pl,chrono24.co.id,chrono24.tw,chrono24.com.ru,chrono24.se,chrono24.com.au,chrono24.it,chrono24.com.gr,chrono24.fr,chrono24.ca,chrono24.dk,chrono24.ro,chrono24.jp,chrono24.my,chrono24.co.nz,chrono24.sg##dialog.gdpr-layer
@@ -65,12 +52,13 @@ digitalfoundry.net,egx.net,eurogamer.it,mcmcomiccon.com,nintendolife.com,paxsite
 dicebreaker.com,eurogamer.cz,eurogamer.es,eurogamer.net,eurogamer.nl,eurogamer.pl,eurogamer.pt,gamesindustry.biz,jelly.deals,reedpop.com,rockpapershotgun.com,thepopverse.com,vg247.com,videogameschronicle.com##+js(trusted-click-element, button[title="Accept and continue"]], , 1500)
 dicebreaker.com,eurogamer.cz,eurogamer.es,eurogamer.net,eurogamer.nl,eurogamer.pl,eurogamer.pt,gamesindustry.biz,jelly.deals,reedpop.com,rockpapershotgun.com,thepopverse.com,vg247.com,videogameschronicle.com##+js(trusted-click-element, button[title="Accept All Cookies"]], , 1500)
 bloomberg.com##+js(trusted-click-element, button[title="Reject All"], , 2000)
+jeuxvideo.com##+js(trusted-click-element, button[onclick="Didomi.setUserAgreeToAll();"], , 2000)
 consent.youtube.com##+js(trusted-click-element, form[action] button[jsname="tWT92d"], , 1500)
 consent.youtube.com##+js(trusted-click-element, [action="https://consent.youtube.com/save"][style="display:inline;"] [name="set_eom"][value="true"] ~ .basebuttonUIModernization[value][aria-label], , 1500)
 consent.google.*##+js(trusted-click-element, form[action] button[jsname="tWT92d"]), , 1500)
 forbes.com##+js(trusted-click-element, [aria-labelledby="banner-title"] > div[class^="buttons_"] > button[class*="secondaryButton_"] + button, , 1500)
 ! Increase timeouts (fallbacks) For slower devices/networks
-20minutos.es,abc.es,actu.fr,actu.fr,bonniernews.se,cadenaser.com,cope.es,diepresse.com,dnevnik.hr,elcomercio.es,elconfidencial.com,elconfidencial.com,elpais.com,elpais.es,euronews.com,expressen.se,france24.com,gva.be,hbvl.be,krone.at,ledauphine.com,marmiton.org,metronieuws.nl,nicematin.com,nieuwsblad.be,rfi.fr,rossmann.pl,rtl.lu,rtl.lu,sensacine.com,silicon.es##+js(trusted-click-element, #didomi-notice-agree-button, , 2200)
+20minutos.es,abc.es,actu.fr,actu.fr,autopista.es,belfasttelegraph.co.uk,bonduelle.it,bonniernews.se,cadenaser.com,ciclismoafondo.es,cnews.fr,cope.es,decathlon.pl,diepresse.com,dnevnik.hr,dumpert.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elconfidencial.com,elpais.com,elpais.es,euronews.com,expressen.se,france24.com,gva.be,hbvl.be,krone.at,ledauphine.com,marmiton.org,metronieuws.nl,nicematin.com,nieuwsblad.be,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,rtl.lu,sensacine.com,silicon.es##+js(trusted-click-element, #didomi-notice-agree-button, , 2200)
 consent-pref.trustarc.com##+js(trusted-click-element, .call, , 2500)
 cdn.privacy-mgmt.com##+js(trusted-click-element, button[aria-label*="Aceptar"], , 2500)
 cdn.privacy-mgmt.com##+js(trusted-click-element, button[aria-label="Agree"], , 2500)
