@@ -1341,6 +1341,11 @@ fortune.com###Leaderboard0
 phonearena.com##.announcements
 ! kimcartoon.li Anti-adblock
 /clickadu300.aspx
+||kissanimes.net/zenny/
+||ad.kissanime.co^
+||ad.kissanime.com.ru^
+||ad.kissanime.org.ru^
+||ad.kissanime.sx^
 kimcartoon.li,kc.linksgen.com,kisscartoon.se###centerDivVideo > div[id]:has(> img[src^="https://i.imgur.com"])
 ! .insert
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert
