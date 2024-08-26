@@ -430,6 +430,15 @@
   },
   {
     "include": [
+      "*://shopping.yahoo.com/rdlw?*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "gcReferrer"
+  },
+  {
+    "include": [
       "*://www.google.com/amp/s/*"
     ],
     "pref": "brave.de_amp.enabled",
