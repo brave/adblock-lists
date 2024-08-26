@@ -1,6 +1,7 @@
 [
   {
     "include": [
+      "*://track.flexlinks.com/a.ashx?*",
       "*://www.wordseed.com/go/*",
       "*://visit.ws/visit/*",
       "*://llo.to/e/*",
@@ -197,6 +198,9 @@
   },
   {
     "include": [
+      "*://*.c9ftyd.net/c/*",
+      "*://*.iyhh.net/c/*",
+      "*://*.glg9ob.net/c/*",
       "*://*.evyy.net/c/*",
       "*://*.uikc.net/c/*",
       "*://*.ztk5.net/*",
