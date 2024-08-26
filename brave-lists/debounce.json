@@ -1,7 +1,7 @@
 [
   {
     "include": [
-      "*://track.flexlinks.com/a.ashx*",
+      "*://track.flexlinks.com/a.ashx?*",
       "*://www.wordseed.com/go/*",
       "*://visit.ws/visit/*",
       "*://llo.to/e/*",
