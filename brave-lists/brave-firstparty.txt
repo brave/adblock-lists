@@ -1347,6 +1347,10 @@ phonearena.com##.announcements
 ||ad.kissanime.org.ru^
 ||ad.kissanime.sx^
 kimcartoon.li,kc.linksgen.com,kisscartoon.se###centerDivVideo > div[id]:has(> img[src^="https://i.imgur.com"])
+! readcomiconline.li
+readcomiconline.li##div[style*="width: 300px"]
+readcomiconline.li##.divCloseBut
+/ads/bid300c.aspx
 ! .insert
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert-label
