@@ -1339,6 +1339,9 @@ fortune.com##[class]:has(> #Leaderboard0)
 fortune.com###Leaderboard0
 ! phonearena.com 
 phonearena.com##.announcements
+! kimcartoon.li Anti-adblock
+/clickadu300.aspx
+kimcartoon.li,kc.linksgen.com,kisscartoon.se###centerDivVideo > div[id]:has(> img[src^="https://i.imgur.com"])
 ! .insert
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert-label

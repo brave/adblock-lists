@@ -606,21 +606,16 @@ lightnovelpub.com,webnovelpub.com##+js(no-setTimeout-if, /appendChild|e\("/)
 lightnovelpub.com,webnovelpub.com,novelpub.com,lightnovelworld.com,lightnovelspot.com##.FJCbkSro
 lightnovelpub.com,webnovelpub.com,novelpub.com,lightnovelworld.com,lightnovelspot.com##.IKuOHDYt
 ! uBO-domain wildcard workaround kissanime
-kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co##+js(acis, String.fromCharCode, /btoa|break/)
-kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co##+js(acis, JSON.parse, break;case $.)
-kimcartoon.li,kisscartoon.sh,kisscartoon.nz,kisscartoon.ac,kisscartoon.es,kissanime.com.ru,kiss-anime.su,kissanime.sx,kissanime.org.ru,kissanime.co##+js(window.open-defuser)
-! uBO-domain wildcard workaround kissasian
-kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.es##+js(acis, String.fromCharCode, /btoa|break/)
-kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.es##+js(acis, JSON.parse, break;case $.)
-kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.es##+js(window.open-defuser)
-kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.es##+js(aeld, /^(?:click|mousedown)$/, _0x)
-kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.es##+js(nostif, (), 45000)
-kissasian.fan,kissasian.pe,kissasian.com.ru,kissasian.es##+js(set, check_adblock, true)
-@@||kissasian.pe^$ghide
-@@||kissasian.li^$ghide
-@@||kissasian.fan^$ghide
-@@||kissasian.com.ru^$ghide
-@@||kissasian.es^$ghide
+kimcartoon.*,kissanime.*,kaas.*,kickassanimes.*,kissasiantv.*,kissasian.*,kisscartoon.*##+js(acis, String.fromCharCode, /btoa|break/)
+kimcartoon.*,kissanime.*,kaas.*,kickassanimes.*,kissasiantv.*,kissasian.*,kisscartoon.*##+js(acis, JSON.parse, break;case $.)
+kimcartoon.*,kissanime.*,kaas.*,kickassanimes.*,kissasiantv.*,kissasian.*,kisscartoon.*##+js(window.open-defuser)
+kimcartoon.*,kissanime.*,kaas.*,kickassanimes.*,kissasiantv.*,kissasian.*,kisscartoon.*##+js(set, check_adblock, true)
+@@||kissasian.*$ghide
+@@||kissasiantv.*$ghide
+@@||kisscartoon.*$ghide
+@@||kimcartoon.*$ghide
+@@||kissanime.*$ghide
+@@||kaas.*$ghide
 ! Anti-adblock (https://old.reddit.com/r/brave_browser/comments/zjtfyg/adblock_adblockers/)
 ! https://github.com/brave/adblock-rust/issues/194
 *$script,redirect-rule=noopjs,domain=kimcartoon.si|9animes.ru|kisscartoon.sh|kimcartoon.li|kisscartoon.nz|kissanime.com.ru|kissanime.sx|kissanime.org.ru|kissanime.co|gogoanime.gs|animesuge.to|kiss-anime.su|kissasian.pe|kissasian.li|kissasian.fan|kissasian.com.ru|kissasian.es
