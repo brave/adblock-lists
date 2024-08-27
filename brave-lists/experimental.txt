@@ -6,7 +6,7 @@
 ! counter page visibility checks on youtube.com/twitch
 tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-video-bg-play)
 
-radiolisten.de,ascoltareradio.com,ieradio.org,radios.lu,nederlandseradio.nl,nettradionorge.com,radio.org.se,radio.pp.ru,onlineradio.pl,radioonline.com.pt,emisora.org.es,radio.co.dk,radios.co.at,tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-disable-pageview-api)
+radioonline.com.pt,emisora.org.es,radio.co.dk,radios.co.at,tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-disable-pageview-api)
 !
 ! Google precision popup
 www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##.gTMtLb.fp-nh[style="visibility: visible;"]
