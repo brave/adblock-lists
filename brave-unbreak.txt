@@ -46,7 +46,7 @@
 ! navigator.clipboard checks
 webplatform.news##+js(aopw, navigator.clipboard)
 ! navigator.connection checks
-userlytics.com##+js(set, navigator.connection, {})
+pandora.com,userlytics.com##+js(set, navigator.connection, {})
 ! :has
 youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 9gag.com##article:has(.promoted)
