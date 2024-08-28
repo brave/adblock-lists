@@ -20,6 +20,7 @@
 ! https://github.com/brave/brave-browser/issues/40619
 photopea.com##div[style]:has(> a[href*="photopea.com"][href*="ads"])
 photopea.com##[style*="width: 600px;"]
+photopea.com##[href^="//t.ly/"][target="_blank"]
 photopea.com##div > div > .bnotify.window[style*="transform 0.1s ease-out"]:has(> .whead)
 ! imported from uBO
 /api/users/*&ev=$script
