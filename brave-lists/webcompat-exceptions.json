@@ -81,5 +81,14 @@
       "screen"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/40644"
+  },
+  {
+    "include": [
+      "*://www.ticketone.it/*"
+    ],
+    "exceptions": [
+      "screen"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/35754"
   }
 ]
