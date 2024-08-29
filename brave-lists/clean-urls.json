@@ -543,6 +543,8 @@
 
         ],
         "params": [
+            "referringSource",
+            "sgrp",
             "smid",
             "ugrp"
         ]
