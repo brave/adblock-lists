@@ -61,7 +61,7 @@ search.brave.com###search-ad
 !
 ! https://github.com/uBlockOrigin/uAssets/pull/24488
 @@||localhost^$websocket,domain=www.faceit.com
-!!! END
+!!! END OF UBO EXCEPTIONS
 
 ! De-AMP rule that uses the De-AMP scriptlet
 google.*##+js(de-amp)
