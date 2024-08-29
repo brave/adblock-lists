@@ -40,7 +40,8 @@ sinensistoon.com##+js(aopr, block_ads)
 ! ||html-load.com/loader.min.js$domain=ndtvprofit.com|javatpoint.com
 ! ||html-load.com^$redirect=noopjs,domain=raenonx.cc
 
-@@/loader.min.js$xhr,script,domain=etoday.co.kr|genshinlab.com|dogdrip.net|thestar.co.uk|yorkshirepost.co.uk|indiatimes.com|blog.esuteru.com|pravda.com.ua
+! @@/loader.min.js$xhr,script,domain=etoday.co.kr|genshinlab.com|dogdrip.net|thestar.co.uk|yorkshirepost.co.uk|indiatimes.com|blog.esuteru.com|pravda.com.ua
+@@||html-load.com^
 ! thesaurus.net##+js(nostif, loader.min.js)
 ! *$doc,csp=script-src-attr 'none',to=badmouth1.com|hoyme.jp|jin115.com|lamire.jp|picrew.me
 ! ||html-load.com/loader.min.js$domain=badmouth1.com|hoyme.jp|jin115.com|lamire.jp|picrew.me
