@@ -11,6 +11,11 @@
 @@||cloudfront.net/o?*fqdn=$xhr,3p,domain=marketwatch.com|wsj.com
 @@||cloudfront.net/*.js|$script,3p,domain=marketwatch.com|wsj.com
 
+! Causes blank pages, breaks too much 1p scripts 
+.com/*/js_$script,domain=360dx.com|adage.com|autonews.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|modernhealthcare.com|plasticsnews.com|precisionmedicineonline.com|rubbernews.com|sustainableplastics.com|tirebusiness.com|utech-polyurethane.com,badfilter
+! Counter paywall
+/js_58zhCIFriHjYWy9IYY5h7yFP6KkljTIp5erPH2QUI1g.js$script,domain=360dx.com|adage.com|autonews.com|chicagobusiness.com|crainscleveland.com|crainsdetroit.com|crainsgrandrapids.com|crainsnewyork.com|genomeweb.com|modernhealthcare.com|plasticsnews.com|precisionmedicineonline.com|rubbernews.com|sustainableplastics.com|tirebusiness.com|utech-polyurethane.com
+
 ! csp + doc (remove doc) *$doc,csp=script-src-attr 'none',to=flatpanelshd.com|sportsrec.com|badmouth1.com|picrew.me|lamire.jp
 *$csp=script-src-attr 'none',domain=badmouth1.com|blog.esuteru.com|eurointegration.com.ua|flatpanelshd.com|hoyme.jp|issuya.com|iusm.co.kr|jin115.com|lamire.jp|picrew.me|sportsrec.com
 ! 
