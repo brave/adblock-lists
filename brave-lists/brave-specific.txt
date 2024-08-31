@@ -36,6 +36,33 @@ search.brave.com###search-ad
 ! https://community.brave.com/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544/
 @@||127.0.0.1^$domain=trezor.io
 
+!!! START OF UBO EXCEPTIONS
+! https://github.com/uBlockOrigin/uAssets/issues/23456
+@@||127.0.0.1^$xhr,domain=figma.com
+!
+! https://github.com/uBlockOrigin/uAssets/issues/19005
+@@||127.0.0.1^$xhr,domain=battlelog.battlefield.com
+!
+! https://github.com/uBlockOrigin/uAssets/pull/20768
+@@||127.0.0.1^$3p,domain=musicbrainz.org
+!
+! https://github.com/uBlockOrigin/uAssets/pull/22475
+@@||127.0.0.1^$domain=client.foldingathome.org
+!
+! https://github.com/uBlockOrigin/uAssets/issues/21960
+@@||127.0.0.1^$domain=mega.nz
+!
+! https://github.com/uBlockOrigin/uAssets/commit/b0e28ffe
+@@||127.0.0.1^$domain=intel.cn|intel.co.id|intel.co.jp|intel.co.kr|intel.com|intel.com.br|intel.com.tw|intel.de|intel.fr|intel.la|intel.vn
+!
+! https://github.com/uBlockOrigin/uAssets/issues/23388
+@@||localhost^$domain=deutsche-rentenversicherung.de
+@@||127.0.0.1^$domain=bund.de|organspende-register.de|bayernportal.de|mv-serviceportal.de
+!
+! https://github.com/uBlockOrigin/uAssets/pull/24488
+@@||localhost^$websocket,domain=www.faceit.com
+!!! END OF UBO EXCEPTIONS
+
 ! De-AMP rule that uses the De-AMP scriptlet
 google.*##+js(de-amp)
 
