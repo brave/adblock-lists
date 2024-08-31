@@ -1870,6 +1870,7 @@ cbssports.com##.skybox-top-wrapper
 twitter.com,x.com##.promoted-account
 twitter.com,x.com##.promotion
 twitter.com,x.com##.stream-item-group-start[label="promoted"]
+twitter.com,x.com##.tweet:has(.promo)
 twitter.com,x.com##a[href*="src=promoted_trend_click"]
 twitter.com,x.com##a[href*="src=promoted_trend_click"] + div
 twitter.com,x.com##div[data-testid="cellInnerDiv"] > div > div[class] > div[class][data-testid="placementTracking"]
@@ -1877,6 +1878,14 @@ twitter.com,x.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com,x.com##div[data-testid="eventHero"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com,x.com##div[data-testid="placementTracking"]:has(div[data-testid$="-impression-pixel"])
 twitter.com,x.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
+twitter.com,x.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
+! Imported from uBO/
+! https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters-2023.txt#L5180
+twitter.com,x.com##[data-testid="primaryColumn"] [data-testid="cellInnerDiv"] > div:has([data-testid$="-impression-pixel"]):remove()
+twitter.com,x.com##+js(json-prune-xhr-response, data.home.home_timeline_urt.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/Home)
+twitter.com,x.com##+js(json-prune-xhr-response, data.search_by_raw_query.search_timeline.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/SearchTimeline)
+twitter.com,x.com##+js(json-prune-xhr-response, data.threaded_conversation_with_injections_v2.instructions.[].entries.[-].content.items.[].item.itemContent.promotedMetadata, , propsToMatch, url:/TweetDetail)
+twitter.com,x.com##+js(json-prune-xhr-response, data.user.result.timeline_v2.timeline.instructions.[].entries.[-].content.itemContent.promotedMetadata, , propsToMatch, url:/UserTweets)
 ! bbc.com
 bbc.com###leaderboard-aside-content
 bbc.com###mpu-side-aside-content
