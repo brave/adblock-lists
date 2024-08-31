@@ -585,6 +585,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.js-ad-placement
 ##.js-advert
 ##.js-adzone
+##.js-anchor-ad
 ##.js-lazy-ad
 ##.js-ad-banner-container
 ##.js-mapped-ad
@@ -835,6 +836,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.avp-p-wrapper
 ##.ck-anyclips
 ##.ck-anyclips-article
+##.endti-adlabel
 ##.exco-container
 ##.ez-sidebar-wall-ad
 ##.ez-video-wrap
@@ -1889,6 +1891,12 @@ twitter.com,x.com##+js(json-prune-xhr-response, data.user.result.timeline_v2.tim
 ! bbc.com
 bbc.com###leaderboard-aside-content
 bbc.com###mpu-side-aside-content
+! myanimelist.net
+myanimelist.net##.border_top
+myanimelist.net##[src*="/c/img/images/event/"]
+! advfn.com
+advfn.com##.top-ban-wrapper
+advfn.com##.recent-stocks-sibling
 ! consequence.net
 consequence.net##.leaderboard-sticky
 ! jpost.com
@@ -2602,8 +2610,21 @@ techpowerup.com##body:not([data-template]) a[rel="nofollow"][href^="/reviyuu/b78
 ! radio.net
 radio.net##.min-h-\[250px\]
 ! zerohedge.com
+zerohedge.com##.left-rail
+zerohedge.com##.rectangle-large
+zerohedge.com###content-pack
+zerohedge.com##.mixed-in-content
 zerohedge.com##div[class^="AdvertisingSlot_"]
 zerohedge.com##.rectangle
+! dailycaller.com
+dailycaller.com##.dailycaller_adhesion
+dailycaller.com###dailycaller_incontent_2
+dailycaller.com###dailycaller_incontent_3
+dailycaller.com###dailycaller_incontent_4
+! endtimeheadlines.org
+endtimeheadlines.org##.endti-widget
+! japantoday.com
+japantoday.com##.s10r
 ! foxnews
 foxbusiness.com,foxnews.com,foxweather.com##.advert-txt
 fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,ktvu.com,q13fox.com,wogx.com##.vendor-unit
