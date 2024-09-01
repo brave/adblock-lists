@@ -90,5 +90,14 @@
       "screen"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/35754"
+  },
+  {
+    "include": [
+      "*://www.woolworths.com.au/*"
+    ],
+    "exceptions": [
+      "screen"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/40796"
   }
 ]
