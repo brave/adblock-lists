@@ -32,6 +32,15 @@ search.brave.com###search-ad
 ! community.brave.com
 @@||community.brave.com^$ghide
 
+! Generic blocks
+.top/cuid/?
+.shop/opf/
+.shop/cuid/
+.click/tsk/
+.click/opf/
+.click/gd/
+/push/i?clk
+
 ! Fix localhost block on Trezor Bridge/Connect
 ! https://community.brave.com/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544/
 @@||127.0.0.1^$domain=trezor.io
