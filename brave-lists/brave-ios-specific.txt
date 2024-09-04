@@ -32,6 +32,9 @@ sinensistoon.com##+js(aopr, block_ads)
 @@||cmp.uniconsent.com^$xhr,domain=photopea.com
 
 ! Ad-shield
+issuya.com##script[src$="/loader.min.js"][onerror*="error-report.com"]:remove()
+cruciverba.it,motscroises.fr,palabr.as,word-grabber.com,wort-suchen.de,pressian.com,pravda.com.ua,lamire.jp,picrew.me,mydaily.co.kr,badmouth1.com,taxguru.in,sportsrec.com,reportera.co.kr,tweaksforgeeks.com,fourfourtwo.co.kr,flatpanelshd.com,wfmz.com,videogamemods.com,dziennik.pl,eurointegration.com.ua,jin115.com,gloria.hr,etnews.com,carscoops.com,sportsseoul.com,onlinegdb.com,text-compare.com,winfuture.de,hoyme.jp,timesofindia.indiatimes.com,blog.esuteru.com,blog.livedoor.jp,itainews.com##+js(aost, Object.defineProperty, html-load.com)
+cruciverba.it,motscroises.fr,palabr.as,word-grabber.com,wort-suchen.de,issuya.com,pressian.com,pravda.com.ua,lamire.jp,picrew.me,mydaily.co.kr,badmouth1.com,taxguru.in,sportsrec.com,reportera.co.kr,tweaksforgeeks.com,fourfourtwo.co.kr,flatpanelshd.com,wfmz.com,videogamemods.com,dziennik.pl,eurointegration.com.ua,jin115.com,gloria.hr,etnews.com,carscoops.com,sportsseoul.com,onlinegdb.com,text-compare.com,winfuture.de,hoyme.jp,timesofindia.indiatimes.com,blog.esuteru.com,blog.livedoor.jp,itainews.com##+js(nostif, /document\.querySelectorAll[\s\S]*?\.remove\(\)[\s\S]*?alert/)
 ! ||html-load.com^$~css,domain=etoday.co.kr|genshinlab.com|dogdrip.net|thestar.co.uk|yorkshirepost.co.uk|indiatimes.com
 ! ||html-load.com/loader.min.js$domain=badmouth1.com|carscoops.com|dziennik.pl|eurointegration.com.ua|flatpanelshd.com|fourfourtwo.co.kr|hoyme.jp|issuya.com|iusm.co.kr|jin115.com|lamire.jp|logicieleducatif.fr|mydaily.co.kr|picrew.me|reportera.co.kr|sportsrec.com|taxguru.in|thestar.co.uk|tweaksforgeeks.com|videogamemods.com|wfmz.com|yorkshirepost.co.uk|text-compare.com|winfuture.de
 ! ||html-load.com^$redirect=noopjs,domain=onlinegdb.com|thesaurus.net|pravda.com.ua|worldhistory.org
