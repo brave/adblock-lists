@@ -3187,3 +3187,58 @@ stripes.com###MidPageAd
 ||zoominfo.com/osx7m0dx/init.js
 ! Prevents cookie messages from launching
 ||cv-library.co.uk/cdn-cgi/zaraz/
+!! Japanese first-party
+! nicovideo.jp
+||ads.nicovideo.jp^$script,xmlhttprequest
+nicovideo.jp##.Ads728x90WebPcFooter
+nicovideo.jp##.Ads
+! jin115.com
+##.google-2ad
+jin115.com##.dix_ad_n
+jin115.com###sponsered
+jin115.com##div[style="width:728px; height:90px;"]
+jin115.com##div.sidewrapper:has(div.ad-center)
+jin115.com###side_left
+! yahoo.co.jp
+||yjtag.yahoo.co.jp^
+yahoo.co.jp##iframe[id$="_ad_frame"]
+news.yahoo.co.jp###yjnFixableArea > div > div.jOKwHf
+news.yahoo.co.jp###contentsWrap > div.YOUcY + div.cyaYcX:has(> div.jOKwHf:only-child > div[id^="yads_"])
+news.yahoo.co.jp###yjnFooter.kBXsbI:style(margin-bottom: 0 !important;)
+news.yahoo.co.jp##.newsFeed_list > li > div[id^="ad"]
+yahoo.co.jp###lrec
+! asahi.com
+asahi.com###HometopAd
+asahi.com##.AdMod
+asahi.com##div[x-component-name="AsahiDynamicInclude"][x-component-data]
+asahi.com##[x-component-name="Naka9OutBrain"]
+asahi.com##.Ad
+asahi.com##.andNativead
+asahi.com##.p_infeed_list_wrapper
+asahi.com##.l-aside > div[class] > div[class]:has(> div.Section > div.Pr)
+! yomiuri.co.jp
+yomiuri.co.jp##.p-ad-dfp-banner
+yomiuri.co.jp###ad_dfp_premiumrec
+yomiuri.co.jp##.ads_inview
+yomiuri.co.jp##.p-ad-thumbnail-txt
+yomiuri.co.jp##.p-ad-dfp-middle-rec
+yomiuri.co.jp##.p-headline__ads
+! itmedia.co.jp
+itmedia.co.jp##div[id*="Rectangle"]
+itmedia.co.jp##div[id$="InFeedNative"]
+itmedia.co.jp##div[id$="BrandText"]
+itmedia.co.jp###TopBox
+itmedia.co.jp###SuperBanner
+itmedia.co.jp###SideLink
+itmedia.co.jp###OwnedAd
+! digiday.jp
+digiday.jp##.advertisement
+digiday.jp##.ad_height
+! ascii.jp
+ascii.jp##.pickwrap
+ascii.jp##.ad
+ascii.jp##.ad_gam
+! Japanese first-party (exception rules)
+! https://github.com/AdguardTeam/AdguardFilters/issues/150552
+@@||ads.nicovideo.jp/assets/js/ads2.js$domain=com.nicovideo.jp
+
