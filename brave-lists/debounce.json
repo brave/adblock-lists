@@ -1,6 +1,7 @@
 [
   {
     "include": [
+      "*://howl.me/link/?*",
       "*://www.pntrac.com/t/*",
       "*://track.flexlinks.com/a.ashx?*",
       "*://www.wordseed.com/go/*",
