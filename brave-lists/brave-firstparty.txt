@@ -3216,6 +3216,14 @@ asahi.com##.Ad
 asahi.com##.andNativead
 asahi.com##.p_infeed_list_wrapper
 asahi.com##.l-aside > div[class] > div[class]:has(> div.Section > div.Pr)
+asahi.com##.ArticleRectangleAd
+asahi.com###DfpPrInfo1
+asahi.com##.p-topBanner
+asahi.com##.fk8F1
+asahi.com##.PrTextList
+asahi.com##.TJcqi
+asahi.com##.list-ad
+asahi.com##.list-adL
 ! yomiuri.co.jp
 yomiuri.co.jp##.p-ad-dfp-banner
 yomiuri.co.jp###ad_dfp_premiumrec
@@ -3223,6 +3231,7 @@ yomiuri.co.jp##.ads_inview
 yomiuri.co.jp##.p-ad-thumbnail-txt
 yomiuri.co.jp##.p-ad-dfp-middle-rec
 yomiuri.co.jp##.p-headline__ads
+yomiuri.co.jp##.p-selection__ads
 ! itmedia.co.jp
 itmedia.co.jp##div[id*="Rectangle"]
 itmedia.co.jp##div[id$="InFeedNative"]
@@ -3231,6 +3240,8 @@ itmedia.co.jp###TopBox
 itmedia.co.jp###SuperBanner
 itmedia.co.jp###SideLink
 itmedia.co.jp###OwnedAd
+itmedia.co.jp###TextAd
+itmedia.co.jp###SpvLink
 ! nlab.itmedia.co.jp
 nlab.itmedia.co.jp##div[id^="logly-lift-"]
 nlab.itmedia.co.jp###globalHeader:style(min-height: 0 !important; margin: 0 !important;)
