@@ -780,6 +780,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##[data-test="vf-es-ad-wrapper"]
 ##[data-testid="ad_testID"]
 ##[data-testid="prism-ad-wrapper"]
+##[id^="ad-wrap-"]
 ##[id^="div-gpt-ad"]
 ##display-ads
 ##div[data-content="Advertisement"]
@@ -945,6 +946,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###taboola-ad
 ###taboola-adverts
 ###taboola-below
+###taboola-below-article
 ###taboola-below-article-1
 ###taboola-below-article-thumbnails-express
 ###taboola-below-article-thumbnails-v2
@@ -1048,6 +1050,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###gpt-poster
 ##.gnt_flp
 ##.gnt_rr_xpst
+##.gnt_em_vp_c[data-g-s="vp_dk"]
 ##.gnt_rr_xst
 ##.gnt_tb.gnt_tbb
 ##.gnt_tbr.gnt_tb
@@ -1416,6 +1419,20 @@ softonic.com##.sam-slot
 ! business-standard.com
 business-standard.com##.advertisement-bg
 business-standard.com##div[id^="between_article_content_"]
+! timeanddate.com
+timeanddate.com,timeanddate.no,timeanddate.de###ad1
+timeanddate.com,timeanddate.no,timeanddate.de###anw
+! securityweek.com
+securityweek.com##.sw-home-ads
+securityweek.com##.pum-overlay[data-popmake*="popup-ad"]
+securityweek.com##.pum-open-overlay:style(overflow: auto !important;)
+! boundingintocomics.com
+boundingintocomics.com,themix.net##.tpd-banner-mobile
+boundingintocomics.com,themix.net##.container.header-container__main
+boundingintocomics.com,themix.net##.banner-spacer-top
+boundingintocomics.com,themix.net##.header:style(top: 0px !important;)
+boundingintocomics.com,themix.net##h1:style(margin-top:20px !important;)
+boundingintocomics.com,themix.net##main[role="main"]:style(margin-top:30px !important;)
 ! foodnetwork.com
 foodnetwork.com###leaderboard-wrap
 ! greencarreports.com
