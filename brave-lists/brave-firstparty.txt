@@ -106,6 +106,9 @@ tioeroge.blogspot.com##.popSc
 ! Remove google login popup nag
 ###credential_picker_container
 ###credential_picker_iframe
+! ghide workaround
+reddit.com###credential_picker_container
+reddit.com###credential_picker_iframe
 ! google.com maps survey
 google.com###google-hats-survey
 ! google.com Signin pop
