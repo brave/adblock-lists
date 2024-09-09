@@ -3212,6 +3212,8 @@ news.yahoo.co.jp###contentsWrap > div.YOUcY + div.cyaYcX:has(> div.jOKwHf:only-c
 news.yahoo.co.jp###yjnFooter.kBXsbI:style(margin-bottom: 0 !important;)
 news.yahoo.co.jp##.newsFeed_list > li > div[id^="ad"]
 yahoo.co.jp###lrec
+news.yahoo.co.jp##[type="mmon"]:has(div[id*="yads_"])
+news.yahoo.co.jp##[type="enm"]:has(div[id*="yads_"])
 ! asahi.com
 asahi.com###HometopAd
 asahi.com##.AdMod
