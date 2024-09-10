@@ -104,7 +104,7 @@
     "include": [
       "*://www.barnesandnoble.com/*"
     ],
-    "exceptions": 
+    "exceptions": [
       "screen"
     ],
      "issue": "https://github.com/brave/brave-browser/issues/40951"
