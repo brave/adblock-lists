@@ -1112,11 +1112,13 @@ $removeparam=ad-config-id,xhr,domain=telequebec.tv
 ||cxm-api.fifa.com/fifaplusweb/api/video/$removeparam=adconfig,xhr
 ||edge.api.brightcove.com^$removeparam=ad-config-id,xhr,domain=9now.com.au|mech-plus.com|threenow.co.nz
 ||hbo.yspsvc-na.net/csm/*&caid=$removeparam=caid,xhr,domain=play.hbomax.com
-||medium.ngtv.io/v2/media/*&ssaiprofile=$xhr,removeparam=ssaiProfile,domain=~cnn.com
-||warnermediacdn.com/csm/*&caid=$xhr,removeparam=caid,domain=cnn.com
-||warnermediacdn.com/csm/*afid=$xhr,removeparam=afid,domain=cnn.com
-||warnermediacdn.com/csm/*app_csid=$xhr,removeparam=app_csid,domain=cnn.com
-||warnermediacdn.com/csm/*conf_csid=$xhr,removeparam=conf_csid,domain=cnn.com
+||medium.ngtv.io/v2/media/*&ssaiProfile=$xhr,removeparam=ssaiProfile,domain=~cnn.com
+||warnermediacdn.com/csm*&caid=$xhr,removeparam=caid,domain=cnn.com
+||warnermediacdn.com/csm*afid=$xhr,removeparam=afid,domain=cnn.com
+||warnermediacdn.com/csm*app_csid=$xhr,removeparam=app_csid,domain=cnn.com
+||warnermediacdn.com/csm*conf_csid=$xhr,removeparam=conf_csid,domain=cnn.com
+||warnermediacdn.com/csm*prof=$xhr,removeparam=prof,domain=cnn.com
+||ngtv.io/v2/media/live$xhr,3p,removeparam=ssaiProfile,domain=cnn.com
 ! invideo advertising
 gunsandammo.com###VideoPlayerDivIframe
 usnews.com###ac-lre-player-ph
