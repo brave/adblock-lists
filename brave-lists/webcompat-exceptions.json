@@ -99,5 +99,14 @@
       "screen"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/40796"
+  },
+  {
+    "include": [
+      "*://www.barnesandnoble.com/*"
+    ],
+    "exceptions": [
+      "screen"
+    ],
+     "issue": "https://github.com/brave/brave-browser/issues/40951"
   }
 ]
