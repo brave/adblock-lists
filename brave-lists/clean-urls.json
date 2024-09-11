@@ -155,6 +155,18 @@
     },
     {
         "include": [
+            "*://gamefound.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "ref",
+            "refcode"
+        ]
+    },
+    {
+        "include": [
             "*://*.ticketweb.ca/*",
             "*://*.ticketweb.com/*",
             "*://*.ticketweb.ie/*",
