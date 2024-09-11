@@ -272,6 +272,9 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad.box
 ##.ad-bigbox
 ##.ad-disclaimer
+##.ad-dog__ratio-16x9
+##.ad-dog__cnx-container
+##.ad-dog
 ##.ad-m-mrec
 ##.ad-m-banner
 ##.ad-top-billboard
@@ -327,6 +330,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-splash
 ##.ad-sponsor
 ##.ad-standard
+##.ad_static
 ##.ad-sticky
 ##.ad-sticky-banner
 ##.ad-sticky-wrapper
@@ -495,6 +499,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.container--ads-leaderboard-atf
 ##.content-ad
 ##.crain-advertisement
+##.css--ad
 ##.custom-sticky-ad-container
 ##.dac__banner__wrapper
 ##.dac__mpu-card
@@ -589,6 +594,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.instoryAdBlock
 ##.instoryAdNoBlock
 ##.instream_ad
+##.interstitial-ad
 ##.js-ad
 ##.js-ad-placement
 ##.js-advert
@@ -1281,7 +1287,6 @@ pcguide.com##.wepc-takeover-top
 thingiverse.com##.AdBanner__adBanner--GpB5d
 ! splinter.com
 splinter.com##.htlad-top_rectangle
-splinter.com##.dfp
 splinter.com##.htlad-above_logo
 splinter.com##.htlad-bottom_rectangle
 splinter.com##.htlad-middle_rectangle
@@ -1830,6 +1835,15 @@ greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid=
 ! gearpatrol.com
 gearpatrol.com##.gearpatrol-ad
 gearpatrol.com##.wp-block-gearpatrol-ad-slot
+! dmarge.com
+dmarge.com##.dx-ad-wrapper
+dmarge.com##.post-infinite-ads
+! allmovie.com
+allmovie.com##.header-leaderboard
+! valetmag.com
+valetmag.com##.ad-constrained-container
+valetmag.com##.ad-full_span_homepage-container
+valetmag.com##.ad-full_span-container
 ! nasdaq.com
 nasdaq.com##.ads-placeholder
 nasdaq.com##.ads__inline
@@ -2584,7 +2598,13 @@ jezebel.com,pastemagazine.com###middle_rectangle
 jezebel.com,pastemagazine.com###top_leaderboard
 jezebel.com,pastemagazine.com###top_rectangle
 ! .dfp
-gadgetsnow.com,jezebel.com,nationaljeweler.com,pastemagazine.com,theonion.com##.dfp
+avclub.com,gadgetsnow.com,infosecurity-magazine.com,jezebel.com,nationaljeweler.com,pastemagazine.com,splinter.com,theonion.com##.dfp
+! empireonline.com
+empireonline.com##.article_adContainer--filled__vtAYe
+empireonline.com##.article_billboard__X_edx
+! gearpatrol.com
+gearpatrol.com##.wp-block-gearpatrol-ad-slot
+gearpatrol.com##.gearpatrol-ad
 ! urbandictionary.com
 urbandictionary.com##.mb-4.justify-center
 ! globalnews.ca
