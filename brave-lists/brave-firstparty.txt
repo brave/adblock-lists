@@ -1364,7 +1364,7 @@ fortune.com###Leaderboard0
 ! phonearena.com 
 phonearena.com##.announcements
 ! drakecomic.com Anti-adblock
-||drakecomic.com/wp-content/themes/mangareader/script.js
+||drakecomic.*/wp-content/themes/mangareader/script.js
 ! kimcartoon.li Anti-adblock
 /clickadu300.aspx
 ||kissanimes.net/zenny/
