@@ -138,6 +138,10 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||arcasticnotarycontrived.com^
 ||prinksdammit.com^
 ||21wiz.com^
+||splintmuses.com^
+||amon1.net^
+||easierroamaccommodation.com^
+||flytechb.com^
 
 ! manhwatop.com
 /\/[0-9a-f]{32}\/invoke\.js/$script,3p
