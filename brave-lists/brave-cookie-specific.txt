@@ -10,6 +10,7 @@ chrono24.co.th,chrono24.ae,chrono24.fi,chrono24.pt,chrono24.hk,chrono24.hu,chron
 
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L526
 music.amazon.es,music.amazon.it,music.amazon.de,music.amazon.co.uk,music.amazon.de,music.amazon.fr##+js(trusted-click-element, #dialogButton1)
+music.amazon.es,music.amazon.it,music.amazon.de,music.amazon.co.uk,music.amazon.de,music.amazon.fr##+js(trusted-click-element, #dialogButton1, , 1500)
 music.amazon.es,music.amazon.it,music.amazon.de,music.amazon.co.uk,music.amazon.de,music.amazon.fr###overlay
 music.amazon.es,music.amazon.it,music.amazon.de,music.amazon.co.uk,music.amazon.de,music.amazon.fr##*:style(filter: none !important)
 
@@ -59,6 +60,10 @@ mediamarkt.*##+js(trusted-click-element, button[data-test="pwa-consent-layer-sav
 ubereats.com##+js(trusted-click-element, button[data-tracking-name="cookie-preferences-mloi-initial-opt-out"], , 1500)
 hertz.*##+js(trusted-click-element, a.cc-dismiss, , 1500)
 mail.com##+js(trusted-click-element, #onetrust-accept-btn-handler, , 1500)
+corriere.it,gazzetta.it,oggi.it##+js(trusted-click-element, .privacy-cp-wall #privacy-cp-wall-accept, , 1500)
+cmp.sky.it##+js(trusted-click-element, button[aria-label="Continua senza accettare"], , 1500)
+formula1.com##+js(trusted-click-element, [aria-label="REJECT ALL"], , 1500)
+f1racing.pl##+js(trusted-click-element, [href="/x-set-cookie/"], , 1500)
 consent.yahoo.com##+js(trusted-click-element, button.reject-all], , 1500)
 consent.capital.fr,programme-tv.net##+js(trusted-click-element, button[title="Accepter"], , 1500)
 digitalfoundry.net,egx.net,eurogamer.it,mcmcomiccon.com,nintendolife.com,paxsite.com,purexbox.com,pushsquare.com,starwarscelebration.com,thehaul.com,timeextension.com##+js(trusted-click-element, #onetrust-accept-btn-handler], , 1500)
@@ -72,7 +77,7 @@ consent.youtube.com##+js(trusted-click-element, [action="https://consent.youtube
 consent.google.*##+js(trusted-click-element, form[action] button[jsname="tWT92d"]), , 1500)
 forbes.com##+js(trusted-click-element, [aria-labelledby="banner-title"] > div[class^="buttons_"] > button[class*="secondaryButton_"] + button, , 1500)
 ! Increase timeouts (fallbacks) For slower devices/networks
-20minutos.es,abc.es,actu.fr,actu.fr,autopista.es,belfasttelegraph.co.uk,bonduelle.it,bonniernews.se,cadenaser.com,ciclismoafondo.es,cnews.fr,cope.es,decathlon.nl,decathlon.pl,diepresse.com,dnevnik.hr,dumpert.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elconfidencial.com,eldesmarque.com,elespanol.com,elpais.com,elpais.es,euronews.com,expressen.se,france24.com,gva.be,hbvl.be,krone.at,ledauphine.com,lejdd.fr,marmiton.org,metronieuws.nl,nicematin.com,nieuwsblad.be,numerama.com,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,rtl.lu,science-et-vie.com,sensacine.com,silicon.es,telegraaf.nl,trailrun.es##+js(trusted-click-element, #didomi-notice-agree-button, , 2200)
+20minutos.es,abc.es,actu.fr,actu.fr,autopista.es,belfasttelegraph.co.uk,bonduelle.it,bonniernews.se,cadenaser.com,ciclismoafondo.es,cnews.fr,cope.es,decathlon.nl,decathlon.pl,diepresse.com,dnevnik.hr,dumpert.nl,ebuyclub.com,edreams.de,edreams.net,elcomercio.es,elconfidencial.com,elconfidencial.com,eldesmarque.com,elespanol.com,elpais.com,elpais.es,euronews.com,expressen.se,france24.com,ghacks.net,gva.be,hbvl.be,krone.at,ledauphine.com,lejdd.fr,libremercado.com,marmiton.org,metronieuws.nl,nicematin.com,nieuwsblad.be,numerama.com,radiofrance.fr,rankia.com,rfi.fr,rossmann.pl,rtbf.be,rtl.lu,rtl.lu,science-et-vie.com,sensacine.com,silicon.es,telegraaf.nl,trailrun.es##+js(trusted-click-element, #didomi-notice-agree-button, , 2200)
 consent-pref.trustarc.com##+js(trusted-click-element, .call, , 2500)
 cdn.privacy-mgmt.com##+js(trusted-click-element, button[aria-label*="Aceptar"], , 2500)
 cdn.privacy-mgmt.com##+js(trusted-click-element, button[aria-label="Agree"], , 2500)
@@ -89,6 +94,9 @@ tf1info.fr##+js(trusted-click-element, button[title^="Continuer sans accepter"],
 ubereats.com##+js(trusted-click-element, button[data-tracking-name="cookie-preferences-mloi-initial-opt-out"], , 2500)
 mediamarkt.*##+js(trusted-click-element, button[data-test="pwa-consent-layer-save-settings"], , 2500)
 hertz.*##+js(trusted-click-element, a.cc-dismiss, , 2500)
+corriere.it,gazzetta.it,oggi.it##+js(trusted-click-element, .privacy-cp-wall #privacy-cp-wall-accept, , 2500)
+cmp.sky.it##+js(trusted-click-element, button[aria-label="Continua senza accettare"], , 2500)
+formula1.com##+js(trusted-click-element, [aria-label="REJECT ALL"], , 2500)
 consent.capital.fr,programme-tv.net##+js(trusted-click-element, button[title="Accepter"], , 2500)
 consent.yahoo.com##+js(trusted-click-element, button.reject-all], , 2500)
 digitalfoundry.net,egx.net,eurogamer.it,mcmcomiccon.com,nintendolife.com,paxsite.com,purexbox.com,pushsquare.com,starwarscelebration.com,thehaul.com,timeextension.com##+js(trusted-click-element, #onetrust-accept-btn-handler], , 2800)
