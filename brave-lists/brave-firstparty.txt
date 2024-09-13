@@ -815,6 +815,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##ins.adsbygoogle[data-ad-client]
 ##span[data-ez-ph-id]
 ##span[id^="ezoic-pub-ad-placeholder-"]
+##a[href^="https://www.financeads.net/tc.php?"]
+##a[href^="https://ad.doubleclick.net/"]
 ! Specific generic
 ##div.adsninja-ad-zone
 ##div.bgr-ad-leaderboard
