@@ -42,9 +42,6 @@ myprivacy.dpgmediagroup.net#@#+js(set-cookie, dummy, 1, , reload, 1)
 myprivacy.dpgmedia.nl,dpgmediagroup.com,story.nl,veronicasuperguide.nl#@#+js(trusted-click-element, '#pg-shadow-host >>> #pg-configure-btn, #pg-shadow-host >>> #purpose-row-SOCIAL_MEDIA input[type="checkbox"], #pg-shadow-host >>> button#pg-save-preferences-btn')
 myprivacy.dpgmedia.nl,dpgmediagroup.com,story.nl,veronicasuperguide.nl#@##pg-modal
 
-! strictly necessary
-lego.com##+js(trusted-click-element, button[kind="secondary"][data-test="cookie-necessary-button"], , 1000)
-
 ! Increase timeouts
 consent-pref.trustarc.com##+js(trusted-click-element, .call, , 1500)
 cdn.privacy-mgmt.com##+js(trusted-click-element, button[aria-label="Agree"], , 1500)
