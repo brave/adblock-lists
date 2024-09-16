@@ -5,7 +5,7 @@ m.youtube.com##ytm-item-section-renderer[section-identifier="related-items"]
 ! m.youtube.com##ytm-rich-grid-renderer > .rich-grid-renderer-contents
 ! top bar
 m.youtube.com##.chip-bar
-! bottom bar
-m.youtube.com##ytm-pivot-bar-renderer
+! welcome text (non-logged in)
+m.youtube.com##.feed-nudge-wrapper:has-text(Try searching to get started)
 ! End Card
 m.youtube.com##.ytm-player-endscreen
