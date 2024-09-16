@@ -436,6 +436,32 @@
   },
   {
     "include": [
+      "*://click.pstmrk.it/2s/*",
+      "*://click.pstmrk.it/2sm/*",
+      "*://click.pstmrk.it/2ts/*",
+      "*://click.pstmrk.it/3s/*",
+      "*://click.pstmrk.it/3ts/*"
+    ],
+    "exclude": [
+    ],
+    "prepend_scheme": "https",
+    "action": "regex-path",
+    "param": "^/[23]t?sm?/([^/]+)/.*$"
+  },
+  {
+    "include": [
+      "*://click.pstmrk.it/2/*",
+      "*://click.pstmrk.it/2m/*",
+      "*://click.pstmrk.it/3/*"
+    ],
+    "exclude": [
+    ],
+    "prepend_scheme": "http",
+    "action": "regex-path",
+    "param": "^/[23]m?/([^/]+)/.*$"
+  },
+  {
+    "include": [
       "*://shopping.yahoo.com/rdlw?*"
     ],
     "exclude": [
