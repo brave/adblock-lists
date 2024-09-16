@@ -1747,6 +1747,8 @@ bitchute.com##.row.justify-center:has-text(Advertisement)
 ! post-gazette.com
 post-gazette.com##.pg-mobile-adhesionbanner
 post-gazette.com###benn-poll-iframe-container
+! cuevana.biz
+cuevana.biz###mdl-ads
 ! kcby.com
 kcby.com##.sd-container
 ! vox.com
