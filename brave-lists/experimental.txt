@@ -25,11 +25,6 @@ www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex
 music.youtube.com##ytmusic-mealbar-promo-renderer.ytmusic-popup-container[enable-bauhaus-style][dialog="true"][tabindex]
 
 
-! alt rule
-! twitch.tv##+js(video-swap-new-ublock-origin)
-! Test Twitch.tv rule
-twitch.tv##+js(vaft-ublock-origin)
-
 ! filters.txt
 *_ad_$media,domain=youtube.com,3p
 ! Youtube Original (based on https://github.com/sepehrkiller/FixYoutubeUI/)
