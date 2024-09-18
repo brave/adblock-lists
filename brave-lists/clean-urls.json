@@ -603,7 +603,7 @@
             "*://*/*"
         ],
         "exclude": [
-
+            "https://urldefense.com/v3/*"
         ],
         "params": [
             "_branch_referrer",
