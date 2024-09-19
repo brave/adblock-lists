@@ -3,6 +3,6 @@
 ! Title: Brave Twitch ads block
 ! Based on https://github.com/pixeltris/TwitchAdSolutions
 !
-||edge.ads.twitch.tv^
+! ||edge.ads.twitch.tv^
 
-twitch.tv##+js(vaft-ublock-origin)
+! twitch.tv##+js(vaft-ublock-origin)
