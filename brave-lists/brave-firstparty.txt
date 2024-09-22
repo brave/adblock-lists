@@ -3237,6 +3237,12 @@ stripes.com###MidPageAd
 ||zoominfo.com/osx7m0dx/init.js
 ! Prevents cookie messages from launching
 ||cv-library.co.uk/cdn-cgi/zaraz/
+!! Chinese first-party
+! bilibili.com ad text
+bilibili.com##.bili-video-card:has(.bili-video-card__info--ad) > .bili-video-card__wrap
+bilibili.com##.feed-card:has(a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"])
+bilibili.com##.is-rcmd:has(a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"]))
+bilibili.com#@#a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])
 !! Japanese first-party
 ! nicovideo.jp
 ||ads.nicovideo.jp^$script,xmlhttprequest
