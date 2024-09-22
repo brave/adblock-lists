@@ -8,6 +8,7 @@
 /display-ad/*
 /greenoaks.gif?
 /discourse-adplugin-
+/skipad.png$image
 /legion-advertising-atlasastro/*
 /jquery.adx.js
 /porpoiseant/*
