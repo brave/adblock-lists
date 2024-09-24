@@ -29,6 +29,8 @@ baeldung.com##.aelzmn
 sonichits.com##+js(set-session-storage-item, fs.adb831.dis, 1)
 baeldung.com##+js(set-session-storage-item, fs.adb.dis, 1)
 smithsonianmag.com##+js(set-local-storage-item, fs.adb, 1)
+! sentry.io warning
+sentry.io##.loading-message > p:last-child
 ! tioeroge.blogspot.com (anti-adblock)
 tioeroge.blogspot.com##.popSc
 ! Anti-drainer eth phishing
