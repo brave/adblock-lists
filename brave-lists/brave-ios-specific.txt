@@ -1458,6 +1458,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||livingsleet.com^
 ||lizardslaugh.com^
 ||loadsurprise.com^
+||lonelybulb.com^
 ||lonelyflavor.com^
 ||longinglettuce.com^
 ||longingtrees.com^
@@ -1491,6 +1492,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||mailboxmeeting.com^
 ||majesticmountainrange.com^
 ||majesticwaterscape.com^
+||majesticwilderness.com^
 ||makeshiftmine.com^
 ||maliciousmusic.com^
 ||managedpush.com^
@@ -1895,6 +1897,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||ritzyrepresentative.com^
 ||ritzyveil.com^
 ||robustbelieve.com^
+||rockagainst.com^
 ||rockpebbles.com^
 ||rodeopolice.com^
 ||rollconnection.com^
