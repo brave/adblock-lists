@@ -211,6 +211,8 @@ www.youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots p
 www.youtube.com##+js(json-prune-xhr-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots, , propsToMatch, /\/player(?:\?.+)?$/)
 
 m.youtube.com,music.youtube.com,youtubekids.com,youtube-nocookie.com##+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots important)
+! https://github.com/uBlockOrigin/uAssets/commit/dcc916887449356e46aa426cae634954465dedfb
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_bind_fetch, false)
 !
 ! https://github.com/uBlockOrigin/uAssets/commit/e0d1eb8cc26750f6c2c62659536b7d073cc0e34c
 ! (old) better perf youtube
