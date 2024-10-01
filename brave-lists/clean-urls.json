@@ -473,6 +473,13 @@
 
         ],
         "params": [
+            "utm-campaign",
+            "utm-content",
+            "utm-experiment",
+            "utm-medium",
+            "utm-share-source",
+            "utm-source",
+            "utm-term",
             "aff",
             "can_id",
             "email_referrer",
