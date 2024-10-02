@@ -167,6 +167,17 @@
     },
     {
         "include": [
+            "*://*.washingtonpost.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "itid"
+        ]
+    },
+    {
+        "include": [
             "*://*.ticketweb.ca/*",
             "*://*.ticketweb.com/*",
             "*://*.ticketweb.ie/*",
