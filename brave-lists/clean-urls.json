@@ -384,6 +384,12 @@
     },
     {
         "include": [
+            "*://www.limesonline.com/*",
+            "*://www.lastampa.it/*",
+            "*://laprovinciapavese.gelocal.it/*",
+            "*://lasentinella.gelocal.it/*",
+            "*://www.huffingtonpost.it/*",
+            "*://www.ilsecoloxix.it/*",
             "*://eprint.iacr.org/*",
             "*://*.goodreads.com/*",
             "*://hackernoon.com/*",
