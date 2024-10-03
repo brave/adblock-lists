@@ -23,6 +23,8 @@ photopea.com##div > .bnotify.window:has-text(Are you blocking ads)
 photopea.com##.app.flexrow > div:has-text(Ad blocking detected)
 ! imported from uBO
 /api/users/*&ev=$script
+! Anti-adblock
+yonder.fr###ab-message
 ! Admiral anti adblock
 phoronix.com##div[dir="auto"][style]
 baeldung.com##.aelzmn
