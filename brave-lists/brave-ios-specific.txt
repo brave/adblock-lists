@@ -19,6 +19,9 @@ sinensistoon.com##+js(aopr, block_ads)
 ! cvs.com app banner  cvs.com##cvs-smart-app-banner  not being applied
 cvs.com##+js(trusted-set-local-storage-item, appBannerClosed, $now$)
 
+! Scroll fix
+cnn.com##body,html:style(overflow: auto !important; position: initial !important;)
+
 ! https://github.com/brave/brave-browser/issues/39296
 ! For iOS 15 users, was fix post ios 15: https://github.com/brave/brave-core/pull/24472
 @@||youtube.com/youtubei/v1/log_event
@@ -1510,6 +1513,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||marriedbelief.com^
 ||marriedmailbox.com^
 ||marriedvalue.com^
+||marrowleaves.com^
 ||massivebasket.com^
 ||massivemark.com^
 ||matchjoke.com^
@@ -1860,6 +1864,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||reflectivereward.com^
 ||reflectivestatement.com^
 ||refundradar.com^
+||regexmail.com^
 ||regularplants.com^
 ||regulatesleet.com^
 ||rehabilitatereason.com^
@@ -2381,6 +2386,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||typicalairplane.com^
 ||typicalteeth.com^
 ||tzwaw.pw^
+||ubiquitoussea.com^
 ||ubiquitousyard.com^
 ||ultraoranges.com^
 ||ultravalid.com^
