@@ -1510,6 +1510,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||marriedbelief.com^
 ||marriedmailbox.com^
 ||marriedvalue.com^
+||marrowleaves.com^
 ||massivebasket.com^
 ||massivemark.com^
 ||matchjoke.com^
@@ -1860,6 +1861,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||reflectivereward.com^
 ||reflectivestatement.com^
 ||refundradar.com^
+||regexmail.com^
 ||regularplants.com^
 ||regulatesleet.com^
 ||rehabilitatereason.com^
@@ -2381,6 +2383,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||typicalairplane.com^
 ||typicalteeth.com^
 ||tzwaw.pw^
+||ubiquitoussea.com^
 ||ubiquitousyard.com^
 ||ultraoranges.com^
 ||ultravalid.com^
