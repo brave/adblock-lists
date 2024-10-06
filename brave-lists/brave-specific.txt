@@ -36,6 +36,7 @@ search.brave.com###search-ad
 .top/cuid/?
 .shop/opf/
 .shop/cuid/
+.shop/gd/
 .click/tsk/
 .click/opf/
 .click/gd/
