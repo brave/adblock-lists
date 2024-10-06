@@ -139,6 +139,8 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||a-ads.com^
 ||prospectprefer.com^
 ||arcasticnotarycontrived.com^
+||onclckmn.com^
+||infatuated-difference.pro^
 ||prinksdammit.com^
 ||21wiz.com^
 ||splintmuses.com^
