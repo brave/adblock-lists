@@ -202,6 +202,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###leaderboard.ad
 ###leftad
 ###leftrail_dynamic_ad_wrapper
+###main_top_ad
 ###mobile-adhesion
 ###mpu1_parent
 ###mpu2_parent
@@ -216,6 +217,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###skin-ad-left-rail-container
 ###sidebar_ad
 ###splashy-ad-container-top
+###sponsored_content
 ###story_bottom_ddb_0
 ###story_top_ddb_0
 ###sponsor_posts
@@ -348,6 +350,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-title
 ##.ad-top
 ##.ad-top-banner
+##.ad-top-container
+##.ad-top-right-container
 ##.ad-type-cube
 ##.ad-type-flex-leaderboard
 ##.ad-unit
@@ -368,6 +372,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.adElement
 ##.adHeight280
 ##.adHolder
+##.adHolderStory
 ##.adMinHeight280
 ##.adModule
 ##.adModule--inner
@@ -408,6 +413,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ads-box
 ##.ads-global-header
 ##.ad-padding
+##.ad-no-notice
 ##.ads-wrapper
 ##.ads_leaderboard
 ##.ads_inline_640
@@ -448,6 +454,10 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.advertising-section
 ##.advertisement-holder
 ##.advertisement-label
+##.adverts_footer_advert
+##.adverts_footer_scrolling_advert
+##.adverts_header_advert
+##.adverts_side_advert
 ##.ajdg_grpwidgets
 ##.alt_ad_block
 ##.amp-ad-container
@@ -466,6 +476,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.banner-ads
 ##.belowMastheadWrapper
 ##.bidbarrel-ad
+##.big_ad
 ##.bigbox-ad
 ##.block-ad
 ##.block-ad-entity
@@ -719,6 +730,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.side_ads
 ##.side-ad
 ##.sidebar-ad-container
+##.sidebar-advert
 ##.single-post-ad
 ##.sponsored-headlines
 ##.sponsored-links
@@ -819,6 +831,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##div[data-adunit]
 ##div[data-dfp-id]
 ##div[id*="ScriptRoot"]
+##div[id^="sticky_ad_"]
 ##div[id^="div-gpt-"]
 ##div[id^="ezoic-pub-ad-"]
 ##div[id^="rc-widget-"]
@@ -1149,11 +1162,16 @@ ginx.tv###ginx-floatingvod-containerspacer
 gunsandammo.com###inline-player
 pubs.rsc.org###journal-info > .text--centered
 forums.whathifi.com###jwplayer-container-div
+express.co.uk###mantis-recommender-top-placeholder
 ispreview.co.uk###mobile-takeover-slot-8
 express.co.uk###ovp-primis
-blackamericaweb.com,bossip.com,cassiuslife.com,hiphopwired.com,madamenoire.com,newsone.com,tvone.tv###player-wrapper
+blackamericaweb.com,bossip.com,cassiuslife.com,charlieintel.com,dexerto.com,hiphopwired.com,madamenoire.com,newsone.com,tvone.tv###player-wrapper
 bar-planb.com,hakibavuong.com###player_dev
+charlieintel.com,dexerto.com###primis-player
 flightradar24.com###primisAdContainer
+freethesaurus.com###qk1
+freethesaurus.com###qk2
+freethesaurus.com###qk5
 realclearpolitics.com###realclear_jwplayer_container
 ispreview.co.uk###sidebar-slot-5
 uproxx.com###upx-mm-player-wrap
@@ -1162,6 +1180,7 @@ onlyinyourstate.com###video1-1
 newseveryday.com###vplayer_large
 tvline.com##._video_ti56x_1
 indy100.com##.addressed_cls
+muscleandfitness.com##.ami-video-placeholder
 telegraph.co.uk##.article-betting-unit-container
 sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
@@ -1212,11 +1231,12 @@ the-express.com##.stn-video-container
 si.com##.style_hfl21i-o_O-style_uhlm2
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 sportskeeda.com##.vidazoo-player-container
-justthenews.com,movieweb.com,screenrant.com,thegamer.com##.video
+justthenews.com##.video
 petapixel.com##.video-aspect-wrapper
 bowhunter.com,firearmsnews.com,flyfisherman.com,gameandfishmag.com,gunsandammo.com,handgunsmag.com,in-fisherman.com,northamericanwhitetail.com,petersenshunting.com,rifleshootermag.com,shootingtimes.com,wildfowlmag.com##.video-detail-player
 fodors.com##.video-inline
 gearjunkie.com##.video-jwplayer
+hiphopdx.com##.video-player
 bolavip.com##.video-player-placeholder
 benzinga.com##.video-player-wrapper
 thepinknews.com##.video-player__container
@@ -1573,7 +1593,16 @@ motortrend.com##._3HQN_
 ! whatcar.com
 whatcar.com##.ArticleTemplate_masthead__oY950
 ! zillow.com
+zillow.com##[data-testid="right-rail-ad"]
 zillow.com##[data-test="search-list-first-ad"]
+! entrepreneur.com
+entrepreneur.com##.adbox
+entrepreneur.com###anchorcontainer
+! theepochtimes.com
+theepochtimes.com##.eet-ad
+theepochtimes.com##.top_ad
+! latestly.com
+latestly.com##.lhs_adv_970x90_div
 ! crypto.news
 crypto.news##.a49292cf69626
 crypto.news##.b6470de94dc
@@ -1964,6 +1993,8 @@ twitter.com,x.com##+js(json-prune-xhr-response, data.user.result.timeline_v2.tim
 ! bbc.com
 bbc.com###leaderboard-aside-content
 bbc.com###mpu-side-aside-content
+! technologynetworks.com
+technologynetworks.com##.featuredVendors
 ! myanimelist.net
 myanimelist.net##.border_top
 myanimelist.net##[src*="/c/img/images/event/"]
@@ -1992,6 +2023,7 @@ msn.com##.articlePage_bannerAd_wrapper-DS-EntryPoint1-1
 msn.com##.articlePage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.bannerAdContainer-DS-EntryPoint1-1
 msn.com##.drrTopAdWrapper
+msn.com##.eocb-ads
 msn.com##.galleryPage_eoabContent_new-DS-EntryPoint1-1
 msn.com##.galleryPage_eoabNativeAd_new-DS-EntryPoint1-1
 msn.com##.intra-article-ad-full
@@ -2089,7 +2121,7 @@ wired.com##div[class^="StickyBoxWrapper"]
 ! nowtoronto.com
 nowtoronto.com##.nt-ad-wrapper
 ! .raptive-ddm-header
-atlantablackstar.com,finurah.com##.raptive-ddm-header
+atlantablackstar.com,finurah.com,theshadowleague.com##.raptive-ddm-header
 ! magnoliastatelive.com
 magnoliastatelive.com##.one_by_one_group
 ! intouchweekly.com
