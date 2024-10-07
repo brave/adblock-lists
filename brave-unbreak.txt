@@ -11,6 +11,10 @@
 @@||cloudfront.net/o?*fqdn=$xhr,3p,domain=marketwatch.com|wsj.com
 @@||cloudfront.net/*.js|$script,3p,domain=marketwatch.com|wsj.com
 
+! https://github.com/easylist/easylist/commit/ff59ff5f0b6009bfd0881669fa9268ed044388d5
+||sardine.ai^$third-party,badfilter
+||api.sardine.ai/assets/loader.min.js
+
 ! excempt current rule
 ! https://community.brave.com/t/brave-stopt-blocking-youtube-adds/569660/30
 !
