@@ -3,10 +3,6 @@
 ! Discussion: https://github.com/brave/brave-browser/issues/36244#issuecomment-1955943465
 ! ||googlevideo.com/videoplayback*ctier=L&*%2Cctier%2C
 
-! counter page visibility checks on youtube.com/twitch
-tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-video-bg-play)
-
-radioonline.com.pt,emisora.org.es,radio.co.dk,radios.co.at,tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-disable-pageview-api)
 !
 ! Google precision popup
 www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##.gTMtLb.fp-nh[style="visibility: visible;"]
