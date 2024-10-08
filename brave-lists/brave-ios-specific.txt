@@ -19,6 +19,11 @@ sinensistoon.com##+js(aopr, block_ads)
 ! cvs.com app banner  cvs.com##cvs-smart-app-banner  not being applied
 cvs.com##+js(trusted-set-local-storage-item, appBannerClosed, $now$)
 
+! golf-live.at consent prereq
+||storage.googleapis.com/adtags/
+||themoneytizer.com^$3p
+||ioam.de^$3p
+
 ! Scroll fix
 cnn.com##body,html:style(overflow: auto !important; position: initial !important;)
 
