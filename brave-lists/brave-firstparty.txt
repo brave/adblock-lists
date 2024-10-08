@@ -458,6 +458,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.adverts_footer_scrolling_advert
 ##.adverts_header_advert
 ##.adverts_side_advert
+##.advt
 ##.ajdg_grpwidgets
 ##.alt_ad_block
 ##.amp-ad-container
