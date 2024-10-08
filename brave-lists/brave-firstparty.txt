@@ -3349,6 +3349,9 @@ itmedia.co.jp###SideLink
 itmedia.co.jp###OwnedAd
 itmedia.co.jp###TextAd
 itmedia.co.jp###SpvLink
+! news.livedoor.com
+news.livedoor.com##.adsW
+news.livedoor.com###yadsOverlayUnit
 ! nlab.itmedia.co.jp
 nlab.itmedia.co.jp##div[id^="logly-lift-"]
 nlab.itmedia.co.jp###globalHeader:style(min-height: 0 !important; margin: 0 !important;)
