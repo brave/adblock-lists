@@ -38,7 +38,7 @@ cnn.com##body,html:style(overflow: auto !important; position: initial !important
 @@||cmp.uniconsent.com^$xhr,domain=photopea.com
 
 ! Adshield test
-carscoops.com,news4vip.livedoor.biz##iframe[src="about:blank"]:remove()
+carscoops.com,news4vip.livedoor.biz,golf-live.at,eurointegration.com.ua,pravda.com.ua,flatpanelshd.com##iframe[src="about:blank"]:remove()
 
 ! Ad-shield
 ! ||html-load.com^$~css,domain=etoday.co.kr|genshinlab.com|dogdrip.net|thestar.co.uk|yorkshirepost.co.uk|indiatimes.com
