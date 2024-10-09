@@ -1,7 +1,7 @@
 [
   {
     "include": [
-      "*://cc.mashable.com/*",
+      "*://cc.mashable.com/v1/*",
       "*://howl.me/link/?*",
       "*://www.pntrac.com/t/*",
       "*://track.flexlinks.com/a.ashx?*",
