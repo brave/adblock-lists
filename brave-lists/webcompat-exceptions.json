@@ -108,5 +108,13 @@
       "screen"
     ],
      "issue": "https://github.com/brave/brave-browser/issues/40951"
+  },
+    "include": [
+      "*://www.jdsports.com/*"
+    ],
+    "exceptions": [
+      "screen"
+    ],
+     "issue": "https://github.com/brave/brave-browser/issues/41539"
   }
 ]
