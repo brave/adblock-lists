@@ -365,6 +365,17 @@
     },
     {
         "include": [
+            "*://open.spotify.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "si"
+        ]
+    },
+    {
+        "include": [
             "*://youtu.be/*",
             "*://*.youtube.com/watch?*"
         ],
