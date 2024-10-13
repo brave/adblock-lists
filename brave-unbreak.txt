@@ -205,9 +205,6 @@ canyoublockit.com##+js(acis, atob, decodeURIComponent)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=livemint.com
 ! Broken video playback on tn.com.ar (https://community.brave.com/t/the-blocker-does-not-allow-you-to-watch-the-video/76691)
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
-! uptostream
-uptostream.com,tirexo.lol##+js(acis, window.a)
-@@||tirexo.lol^$generichide
 ! portscanning script
 gap.com,ibanking-services.com,connectonebank.com,tescobank.com,sbisec.co.jp,tsb.co.uk,tiaabank.com,tiaa.org,directpay.irs.gov,t-mobile.com,simplii.com,citibank.com.au,fisglobal.com,adp.com,skyid.sky.com,onehealthcareid.com,betfair.es,betfair.com.au,paddypower.com,healthsafe-id.com,canadiantire.ca,sportchek.ca,ingbank.pl,optumbank.com,mbna.ca,tdcommercialbanking.com,coastcapitalsavings.com,my100bank.com,royalbank.com,td.com,spectrum.net,quicken.com,citibankonline.com,bmo.com,eftps.gov,optumbank.com,samsclub.com,intuit.com,betfair.com,sofi.com,53.com,ameriprise.com,cibc.com,citi.com,discover.com,fidelity.com,homedepot.com,sciencedirect.com,ebay.com,ebay-kleinanzeigen.de,tdbank.com,walmart.com##+js(acis, tmx_post_session_params_fixed)
 ! slate.com Anti-adblock workaround https://github.com/brave/brave-browser/issues/15702
@@ -735,9 +732,9 @@ globalnews.ca##.c-newsletterSignup
 ! ip-approval bug
 ||ip-approval.com^$third-party,domain=mufon.com
 ! Anti-adblock: tryhardsports.com
-tryhardsports.com##.tie-popup
-tryhardsports.com##+js(rc, tie-popup-is-opend, body, stay)
-tryhardsports.com##html:style(overflow:auto !important)
+tryhardsports.com,medjournaldaily.com##.tie-popup
+tryhardsports.com,medjournaldaily.com##+js(rc, tie-popup-is-opend, body, stay)
+tryhardsports.com,medjournaldaily.com##html:style(overflow:auto !important)
 ! Anti-adblock: lapresse.ca
 ||lapresse-ca.lapresse.ca^$domain=lapresse.ca
 ! Fix foxnews video playback
