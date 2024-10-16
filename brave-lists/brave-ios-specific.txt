@@ -1646,6 +1646,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||nuttyorganization.com^
 ||oafishchance.com^
 ||oafishobservation.com^
+||objecthero.com^
 ||obscenesidewalk.com^
 ||observantice.com^
 ||oldfashionedoffer.com^
@@ -1851,6 +1852,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||rangeplayground.com^
 ||rangergustav.com^
 ||rapidkittens.com^
+||rarestcandy.com^
 ||raresummer.com^
 ||reactjspdf.com^
 ||readgoldfish.com^
