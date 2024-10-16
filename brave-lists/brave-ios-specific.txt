@@ -42,9 +42,6 @@ cnn.com##body,html:style(overflow: auto !important; position: initial !important
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,domain=photopea.com
 @@||cmp.uniconsent.com^$xhr,domain=photopea.com
 
-! Adshield test
-carscoops.com,news4vip.livedoor.biz,golf-live.at,eurointegration.com.ua,pravda.com.ua,flatpanelshd.com##iframe[src="about:blank"]:remove()
-
 ! Ad-shield
 ! ||html-load.com^$~css,domain=etoday.co.kr|genshinlab.com|dogdrip.net|thestar.co.uk|yorkshirepost.co.uk|indiatimes.com
 ! ||html-load.com/loader.min.js$domain=badmouth1.com|carscoops.com|dziennik.pl|eurointegration.com.ua|flatpanelshd.com|fourfourtwo.co.kr|hoyme.jp|issuya.com|iusm.co.kr|jin115.com|lamire.jp|logicieleducatif.fr|mydaily.co.kr|picrew.me|reportera.co.kr|sportsrec.com|taxguru.in|thestar.co.uk|tweaksforgeeks.com|videogamemods.com|wfmz.com|yorkshirepost.co.uk|text-compare.com|winfuture.de
