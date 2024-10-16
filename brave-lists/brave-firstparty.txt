@@ -2785,7 +2785,7 @@ timesofindia.com##.phShimmer
 timesofindia.com##div[class^="ATF_container_"]
 timesofindia.com##div[id^="custom_ad_"]
 timesofindia.indiatimes.com##[data-sp-click="stpPgtn(event)"]
-timesofindia.indiatimes.com##[data-sp-click="stpPgtn(event)"]
+timesofindia.indiatimes.com##[onclick="stpPgtn(event)"]
 timesofindia.indiatimes.com##.rgt_ad
 timesofindia.indiatimes.com##.CeUoi
 timesofindia.indiatimes.com##.mgid_second_mrec_parent
