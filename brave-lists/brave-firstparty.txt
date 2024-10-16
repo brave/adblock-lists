@@ -2200,6 +2200,8 @@ battlefordsnow.com,cfjctoday.com,everythinggp.com,filmdaily.co,huskiefan.ca,laro
 thespec.com##.polarAds
 ! .adLabelWrapper
 bramptonguardian.com,guelphmercury.com,insideottawavalley.com,niagarafallsreview.ca,niagarathisweek.com,thepeterboroughexaminer.com,therecord.com,thespec.com,thestar.com,wellandtribune.ca##.adLabelWrapper
+! .adContainer
+forums.sufficientvelocity.com,m.economictimes.com,someecards.com,trailspace.com,wabetainfo.com##.adContainer
 ! .adLabelWrapperManual
 bramptonguardian.com,insideottawavalley.com,niagarafallsreview.ca,thepeterboroughexaminer.com,therecord.com,thestar.com,wellandtribune.ca##.adLabelWrapperManual
 ! .polarAds
@@ -2782,6 +2784,9 @@ timesofindia.indiatimes.com##.ATF_mobile_ads
 timesofindia.com##.phShimmer
 timesofindia.com##div[class^="ATF_container_"]
 timesofindia.com##div[id^="custom_ad_"]
+timesofindia.indiatimes.com##[data-sp-click="stpPgtn(event)"]
+timesofindia.indiatimes.com##[onclick="stpPgtn(event)"]
+timesofindia.indiatimes.com##.rgt_ad
 timesofindia.indiatimes.com##.CeUoi
 timesofindia.indiatimes.com##.mgid_second_mrec_parent
 timesofindia.indiatimes.com##.paisa-wrapper
@@ -2791,6 +2796,9 @@ timesofindia.indiatimes.com##.topBand_adwrapper
 timesofindia.indiatimes.com##[data-contentprimestatus]
 timesofindia.indiatimes.com##.d_jsH.mPws3
 timesofindia.indiatimes.com##[data-scrollga="spotlight_banner_widget"]
+! m.economictimes.com
+m.economictimes.com##.bannerwrapper
+m.economictimes.com##[class="wdt-taboola"]
 ! marketscreener.com
 marketscreener.com###zppMiddle2
 marketscreener.com###zppRight2
