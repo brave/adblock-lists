@@ -1106,6 +1106,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.partner-loading-shown.partner-label
 ! exception rules
 azclick.jp,tubefilter.com#@#div#topAd
+gumtree.com.au,s.tabelog.com#@#[data-ad-name]
 news.artnet.com,powernationtv.com,worldsurfleague.com#@#div[data-ad-targeting]
 ! ezoic ads (first-party ad insertion)
 /beardeddragon/armadillo.js
