@@ -117,5 +117,15 @@
       "screen"
     ],
      "issue": "https://github.com/brave/brave-browser/issues/41539"
-  }
+  },
+  {
+    "include": [
+      "*://www.athenacrisis.com/*",
+      "*://athenacrisis.com/*"
+    ],
+    "exceptions": [
+      "canvas"
+    ],
+     "issue": "https://github.com/brave/brave-browser/issues/41686"
+   }
 ]
