@@ -84,6 +84,15 @@
   },
   {
     "include": [
+      "*://clicks.trx-hub.com/xid/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "q"
+  },
+  {
+    "include": [
       "*://www.zenaps.com/rclick.php*"
     ],
     "exclude": [
