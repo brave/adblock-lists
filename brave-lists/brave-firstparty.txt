@@ -790,6 +790,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.vertical-ad
 ##.vf-promo-gtag
 ##.video-ad
+##.video-ads
+##.video-ads-container
 ##.vjs-ima3-ad-container
 ##.vf3-conversations-list__promo
 ##.wh_ad_inner
@@ -1105,6 +1107,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gnt_x__lbl
 ##.partner-loading-shown.partner-label
 ! exception rules
+ads.google.com,youtube.com#@#.video-ads
 azclick.jp,tubefilter.com#@#div#topAd
 gumtree.com.au,s.tabelog.com#@#[data-ad-name]
 news.artnet.com,powernationtv.com,worldsurfleague.com#@#div[data-ad-targeting]
