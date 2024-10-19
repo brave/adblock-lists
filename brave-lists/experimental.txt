@@ -81,5 +81,6 @@ www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.wn_grid_max_item_width, 0)
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.wn_grid_min_item_width, 0)
 
 ! LinkedIn News Module Puzzles
+linkedin##ul[aria-labelledby="news-module__title-today-puzzles"]
 linkedin.com##div:has(> h3#news-module__title-today-puzzles)
-linkedin.com##ul:has(li[class="news-module__puzzle"])
+

@@ -1,6 +1,7 @@
 [
   {
     "include": [
+      "*://cc.mashable.com/v1/*",
       "*://howl.me/link/?*",
       "*://www.pntrac.com/t/*",
       "*://track.flexlinks.com/a.ashx?*",
@@ -80,6 +81,15 @@
     ],
     "action": "redirect",
     "param": "_td_deeplink"
+  },
+  {
+    "include": [
+      "*://clicks.trx-hub.com/xid/*"
+    ],
+    "exclude": [
+    ],
+    "action": "redirect",
+    "param": "q"
   },
   {
     "include": [

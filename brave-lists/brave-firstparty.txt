@@ -180,6 +180,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###banner_pos4_ddb_0
 ###bottom-adhesion
 ###bottom-adhesion-container
+###bm-HeaderAd
 ###comments-standalone-mpu
 ###ddb_fluid_native_ddb_0
 ###dfp-wallpaper-wrapper
@@ -200,6 +201,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###intro_ad_1
 ###js-image-ad-mpu
 ###leaderboard.ad
+###leaderboard-ad
 ###leftad
 ###leftrail_dynamic_ad_wrapper
 ###main_top_ad
@@ -788,6 +790,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.vertical-ad
 ##.vf-promo-gtag
 ##.video-ad
+##.video-ads
+##.video-ads-container
 ##.vjs-ima3-ad-container
 ##.vf3-conversations-list__promo
 ##.wh_ad_inner
@@ -1103,7 +1107,9 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gnt_x__lbl
 ##.partner-loading-shown.partner-label
 ! exception rules
+ads.google.com,youtube.com#@#.video-ads
 azclick.jp,tubefilter.com#@#div#topAd
+gumtree.com.au,s.tabelog.com#@#[data-ad-name]
 news.artnet.com,powernationtv.com,worldsurfleague.com#@#div[data-ad-targeting]
 ! ezoic ads (first-party ad insertion)
 /beardeddragon/armadillo.js
@@ -1375,6 +1381,14 @@ atlasobscura.com##.ad-site-top-full-width
 ! plos.org
 plos.org##.head-top
 plos.org##.skyscraper-container
+! canucksarmy.com related sites
+canucksarmy.com,bluejaysnation.com,theleafsnation.com,flamesnation.ca,dailyfaceoff.com,oilersnation.com,dailyfaceoff.com###in_article_300x250_1
+canucksarmy.com,bluejaysnation.com,theleafsnation.com,flamesnation.ca,dailyfaceoff.com,oilersnation.com,dailyfaceoff.com###box_2_300x600
+canucksarmy.com,bluejaysnation.com,theleafsnation.com,flamesnation.ca,dailyfaceoff.com,oilersnation.com,dailyfaceoff.com###box_3_300x600
+canucksarmy.com,bluejaysnation.com,theleafsnation.com,flamesnation.ca,dailyfaceoff.com,oilersnation.com,dailyfaceoff.com##.h-\[90px\]
+canucksarmy.com,bluejaysnation.com,theleafsnation.com,flamesnation.ca,dailyfaceoff.com,oilersnation.com,dailyfaceoff.com###ad_sidebar_2
+canucksarmy.com,bluejaysnation.com,theleafsnation.com,flamesnation.ca,dailyfaceoff.com,oilersnation.com,dailyfaceoff.com##.min-h-\[250px\]
+dailyfaceoff.com##.md\:min-h-\[267px\]
 ! engadget.com
 engadget.com##.caas-da
 engadget.com##.post-article-ad
@@ -1750,7 +1764,9 @@ birdsandblooms.com,familyhandyman.com,rd.com,tasteofhome.com,thehealthy.com###ad
 ! .adBanner
 chron.com,greenwichtime.com,houstonchronicle.com,mysanantonio.com,seattlepi.com,sfchronicle.com,sfgate.com,thetelegraph.com,timesunion.com##.adBanner
 ! .code-block
-100percentfedup.com,180gadgets.com,247media.com.ng,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,australiangeographic.com.au,autodaily.com.au,bipartisanreport.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,coincodecap.com,conservativebrief.com,corrosionhour.com,crimereads.com,cryptobriefing.com,cryptointelligence.co.uk,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dafontfree.io,dailynewshungary.com,dcenquirer.com,dorohedoro.online,engineering-designer.com,epicdope.com,eurweb.com,exeo.app,fandomwire.com,firstcuriosity.com,firstsportz.com,flickeringmyth.com,flyingmag.com,freefontsfamily.net,freemagazines.top,gadgetinsiders.com,gameinfinitus.com,gamertweak.com,gamingdeputy.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,harrowonline.org,hollywoodinsider.com,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,jujustukaisen.com,libertyunlocked.com,linuxfordevices.com,lithub.com,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,mymodernmet.com,mymotherlode.com,nationalfile.com,nexdrive.fun,notalwaysright.com,nsw2u.com,nxbrew.com,organicfacts.net,patriotfetch.com,politizoom.com,premiumtimesng.com,protrumpnews.com,pureinfotech.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,respawnfirst.com,rezence.com,roadaheadonline.co.za,rok.guide,saabplanet.com,sciencenotes.org,sdnews.com,simscommunity.info,small-screen.co.uk,storypick.com,streamingbetter.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techpp.com,techrounder.com,techviral.net,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,thepeoplesvoice.tv,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,walletinvestor.com,washingtonblade.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,whynow.co.uk,win.gg,wisden.com,wnd.com,zerohanger.com,ziperto.com##.code-block
+100percentfedup.com,180gadgets.com,247media.com.ng,academicful.com,addapinch.com,aiarticlespinner.co,allaboutfpl.com,alltechnerd.com,americanmilitarynews.com,americansongwriter.com,androidsage.com,animatedtimes.com,anoopcnair.com,askpython.com,asurascans.com,australiangeographic.com.au,autodaily.com.au,bipartisanreport.com,bohemian.com,borncity.com,boxingnews24.com,browserhow.com,charlieintel.com,chillinghistory.com,chromeunboxed.com,circuitbasics.com,coincodecap.com,conservativebrief.com,corrosionhour.com,crimereads.com,cryptobriefing.com,cryptointelligence.co.uk,cryptopotato.com,cryptoreporter.info,cryptoslate.com,dafontfree.io,dailynewshungary.com,dcenquirer.com,dorohedoro.online,engineering-designer.com,epicdope.com,eurweb.com,exeo.app,fandomwire.com,firstcuriosity.com,firstsportz.com,flickeringmyth.com,flyingmag.com,freefontsfamily.net,freemagazines.top,gadgetinsiders.com,gameinfinitus.com,gamertweak.com,gamingdeputy.com,gatewaynews.co.za,geekdashboard.com,getdroidtips.com,goodyfeed.com,greekreporter.com,hard-drive.net,harrowonline.org,hollywoodinsider.com,hollywoodunlocked.com,indianhealthyrecipes.com,inspiredtaste.net,iotwreport.com,jojolandsmanga.com,journeybytes.com,journeyjunket.com,jujustukaisen.com,libertyunlocked.com,linuxfordevices.com,lithub.com,meaningfulspaces.com,medicotopics.com,medievalists.net,mpost.io,mycariboonow.com,mymodernmet.com,mymotherlode.com,nationalfile.com,nexdrive.fun,notalwaysright.com,nsw2u.com,nxbrew.com,organicfacts.net,patriotfetch.com,politizoom.com,premiumtimesng.com,protrumpnews.com,pureinfotech.com,redrightvideos.com,reneweconomy.com.au,reptilesmagazine.com,respawnfirst.com,rezence.com,roadaheadonline.co.za,rok.guide,saabplanet.com,sciencenotes.org,sdnews.com,simscommunity.info,small-screen.co.uk,storypick.com,streamingbetter.com,superwatchman.com,talkandroid.com,talkers.com,tech-latest.com,techpp.com,techrounder.com,techviral.net,theblueoceansgroup.com,thecinemaholic.com,thecricketlounge.com,thedriven.io,thegamehaus.com,thegatewaypundit.com,thegeekpage.com,thelibertydaily.com,thenipslip.com,theoilrig.ca,thepeoplesvoice.tv,thewincentral.com,trendingpolitics.com,trendingpoliticsnews.com,twistedvoxel.com,walletinvestor.com,washingtonblade.com,waves4you.com,wbiw.com,welovetrump.com,wepc.com,whynow.co.uk,win.gg,wisden.com,wnd.com,zerohanger.com,ziperto.com##.code-block
+! #leaderboard
+12tomatoes.com,allwomenstalk.com,bloomberg.com,datpiff.com,hockeybuzz.com,koreaboo.com,logotv.com,newcartestdrive.com,news.sky.com,news.tvguide.co.uk,onthesnow.ca,onthesnow.co.nz,onthesnow.co.uk,onthesnow.com,penny-arcade.com,publishersweekly.com,skysports.com,thedrinknation.com,theserverside.com###leaderboard
 ! #leaderboard-container / .leaderboard-container
 abbynews.com,biv.com,lakelandtoday.ca,orilliamatters.com,reddeeradvocate.com,sootoday.com,theprogress.com,time.com,timescolonist.com,vancouverisawesome.com###leaderboard-container
 apnews.com,arabiaweather.com,atlasobscura.com,forum.audiogon.com,gamesindustry.biz,news957.com##.leaderboard-container
@@ -2188,10 +2204,17 @@ battlefordsnow.com,cfjctoday.com,everythinggp.com,filmdaily.co,huskiefan.ca,laro
 thespec.com##.polarAds
 ! .adLabelWrapper
 bramptonguardian.com,guelphmercury.com,insideottawavalley.com,niagarafallsreview.ca,niagarathisweek.com,thepeterboroughexaminer.com,therecord.com,thespec.com,thestar.com,wellandtribune.ca##.adLabelWrapper
+! .adContainer
+forums.sufficientvelocity.com,m.economictimes.com,someecards.com,trailspace.com,wabetainfo.com##.adContainer
 ! .adLabelWrapperManual
 bramptonguardian.com,insideottawavalley.com,niagarafallsreview.ca,thepeterboroughexaminer.com,therecord.com,thestar.com,wellandtribune.ca##.adLabelWrapperManual
 ! .polarAds
 thespec.com,wellandtribune.ca##.polarAds
+! .polarBlock
+bramptonguardian.com,guelphmercury.com,insideottawavalley.com,thestar.com##.polarBlock
+! thestar.com
+thestar.com###sticky-ad-2
+thestar.com##.globalHeaderBillboard
 ! castanet.net
 castanet.net###hdad
 castanet.net##div[style*="height:900px"]
@@ -2765,6 +2788,9 @@ timesofindia.indiatimes.com##.ATF_mobile_ads
 timesofindia.com##.phShimmer
 timesofindia.com##div[class^="ATF_container_"]
 timesofindia.com##div[id^="custom_ad_"]
+timesofindia.indiatimes.com##[data-sp-click="stpPgtn(event)"]
+timesofindia.indiatimes.com##[onclick="stpPgtn(event)"]
+timesofindia.indiatimes.com##.rgt_ad
 timesofindia.indiatimes.com##.CeUoi
 timesofindia.indiatimes.com##.mgid_second_mrec_parent
 timesofindia.indiatimes.com##.paisa-wrapper
@@ -2774,6 +2800,9 @@ timesofindia.indiatimes.com##.topBand_adwrapper
 timesofindia.indiatimes.com##[data-contentprimestatus]
 timesofindia.indiatimes.com##.d_jsH.mPws3
 timesofindia.indiatimes.com##[data-scrollga="spotlight_banner_widget"]
+! m.economictimes.com
+m.economictimes.com##.bannerwrapper
+m.economictimes.com##[class="wdt-taboola"]
 ! marketscreener.com
 marketscreener.com###zppMiddle2
 marketscreener.com###zppRight2
