@@ -155,6 +155,18 @@
     },
     {
         "include": [
+            "*://www.gofundme.com/*"
+
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "attribution_id"
+        ]
+    },
+    {
+        "include": [
             "*://gamefound.com/*"
         ],
         "exclude": [
