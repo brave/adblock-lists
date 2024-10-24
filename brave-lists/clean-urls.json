@@ -805,6 +805,7 @@
             "utm_emcid",
             "utm_emmid",
             "utm_id",
+            "utm_internal",
             "utm_keyword",
             "utm_mailing",
             "utm_marketing_tactic",
