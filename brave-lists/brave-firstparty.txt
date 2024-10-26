@@ -1836,6 +1836,8 @@ breakingbelizenews.com,cardealermagazine.co.uk,headfonics.com,igorslab.de,landli
 cuevana.biz###mdl-ads
 ! kcby.com
 kcby.com##.sd-container
+! spotify ads
+||spotify.com/ads/
 ! vox.com
 vox.com##[data-concert="tablet_leaderboard"]
 vox.com##[data-concert="outbrain_post_tablet_and_desktop"]
