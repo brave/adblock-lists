@@ -425,7 +425,7 @@
   },
   {
     "include": [
-      "*://streak-link.com/*",
+      "*://*.streak-link.com/*",
       "*://streaklinks.com/*"
     ],
     "exclude": [
