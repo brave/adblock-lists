@@ -2198,6 +2198,14 @@ atlantablackstar.com,finurah.com,theshadowleague.com##.raptive-ddm-header
 magnoliastatelive.com##.one_by_one_group
 ! intouchweekly.com
 intouchweekly.com##.shop-with-us__container
+! 1001tracklists.com
+1001tracklists.com##.modal
+1001tracklists.com###overlay
+1001tracklists.com##[target="_blank"][rel^="noopener noreferrer"]:has(> img[src^="/images/artworks/"])
+1001tracklists.com##div[style^="text-align: center; margin-bottom: 10px;"]:has(a img[src^="/images/artworks/"])
+1001tracklists.com##div[id]:has(> [data-freestar-ad])
+1001tracklists.com###left > div:not(div[id="artworkLeft"][class="c bgArt"], div[class="fTab"], div[class="aMenu"], [id="lSt"].border)
+1001tracklists.com##+js(spoof-css, '[target="_blank"][rel^="noopener noreferrer"]:has(> img[src^="/images/artworks/"]', display, block)
 ! rd.com
 rd.com##.pre-article-ad
 rd.com###ads-container-single
