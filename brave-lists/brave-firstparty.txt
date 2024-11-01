@@ -160,6 +160,10 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###admobiletop
 ###admobiletopinside
 ###adslot1
+###adSlot1
+###adSlot2
+###adSlot3
+###adSlot4
 ###adspace
 ###adslot300x250ATF
 ###adslot300x250BTF
@@ -237,6 +241,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.AdSense
 ##.AdSlot
 ##.adsSticky
+##.adContainerSide
 ##.AdOneColumnContainer
 ##.Article-advert
 ##.advertSlot
@@ -289,6 +294,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-m-banner
 ##.ad-top-billboard
 ##.ad-top-wrapper
+##.ad_to_list
 ##.horizontal-full-ad
 ##.sidebar-square-ad
 ##.ad-label
@@ -655,6 +661,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.m-sidebar-ad--slot
 ##.m1-header-ad
 ##.mapped-ad
+##.mar-leaderboard--bottom
+##.mar-block-ad
 ##.mb-advert
 ##.mb-advert__incontent
 ##.mb-advert__leaderboard--large
@@ -708,6 +716,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.post-ads
 ##.post_detail_right_advert
 ##.post__article-top-ad-wrapper
+##.premium-mpu-container
 ##.premium_PremiumPlacement__2dEp0
 ##.primary-ad-widget
 ##.primis-wrapper
@@ -765,6 +774,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.tpd-banner-ad-container
 ##.top__ad
 ##.top-ad-recirc
+##.top-dfp-wrapper
 ##.block-quartz-ads
 ##.nn_mobile_mpu_wrapper
 ##.static_mpu_wrap
@@ -1197,6 +1207,7 @@ washingtonexaminer.com##.bridtv
 gizmodo.com.au,kotaku.com.au,lifehacker.com.au,pedestrian.tv##.brightcove-video-container
 cnet.com,zdnet.com##.c-avStickyVideo
 stuff.tv##.c-squirrel-embed
+rd.com##.cnx-inline-player-wrapper
 mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
 livestrong.com##.component-article-section-votd
@@ -1238,6 +1249,7 @@ kidspot.com.au##.secondary-video
 playbuzz.com##.stickyplayer-container
 the-express.com##.stn-video-container
 si.com##.style_hfl21i-o_O-style_uhlm2
+bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 sportskeeda.com##.vidazoo-player-container
 carbuzz.com,justthenews.com##.video
@@ -1253,6 +1265,7 @@ dpreview.com##.videoWrapper
 consequence.net##.video_container
 comicbook.com##.wp-block-savage-platform-primis-video
 bigthink.com##.wrapper-connatixElements
+bigthink.com##.wrapper-connatixPlayspace
 totalprosports.com##[data-stn-player="n2psbctm"]
 worldsoccertalk.com##[id*="primis_"]
 offidocs.com##[id^="ja-container-prev"]
@@ -2002,6 +2015,15 @@ thedailybeast.com##.CheatSheetList__placeholder
 thedailybeast.com##.Cheat__out-of-page-ads
 thedailybeast.com##.Cheat__top-ad
 thedailybeast.com##.Sizer
+thedailybeast.com##.tdb-ads-block
+! bestlifeonline.com
+bestlifeonline.com##.first-ad
+bestlifeonline.com##.placeholder-a-block
+! eatthis.com
+eatthis.com##[id^="gm_karmaadunit_widget"]
+eatthis.com##.inline
+! mayoclinic.org
+mayoclinic.org##.mayoad > .policy
 ! indianexpress.com
 indianexpress.com##.add-first
 ! fivethirtyeight.com
@@ -2178,6 +2200,8 @@ magnoliastatelive.com##.one_by_one_group
 intouchweekly.com##.shop-with-us__container
 ! rd.com
 rd.com##.pre-article-ad
+rd.com###ads-container-single
+rd.com###gch-prearticle-container
 ! breitbart.com
 breitbart.com##.a-wrapper
 ! thegatewaypundit.com
@@ -2515,7 +2539,6 @@ reuters.com##[data-testid="CnxPlayer"]
 ! macleans.ca
 macleans.ca##.assmbly-ad-block
 ! techspot.com
-techspot.com##.adContainerSide
 techspot.com##.billboard_placeholder_min
 techspot.com##.cta
 techspot.com##.jobbioapp
