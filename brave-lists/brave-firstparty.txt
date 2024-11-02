@@ -1323,6 +1323,8 @@ theautopian.com##[data-widget_type="html.default"]
 ! bossip.com
 bossip.com##.fsb-desktop
 bossip.com##.fsb-toggle
+! datanodes.to (ads)
+datanodes.to##div.p-8.items-center.justify-center
 ! delish.com
 delish.com##.css-3oqygl
 ! independent.co.uk/the-independent.com
