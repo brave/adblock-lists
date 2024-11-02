@@ -925,6 +925,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||decisiveducks.com^
 ||decoroustitle.com^
 ||decoycreation.com^
+||deeptack.com^
 ||deerbeginner.com^
 ||defeatedbadge.com^
 ||defectivedress.com^
@@ -1503,6 +1504,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||maddeningpowder.com^
 ||madebyintent.com^
 ||magicaljoin.com^
+||magicminibox.com^
 ||magiczenith.com^
 ||magnetairport.com^
 ||magnificentmeasure.com^
@@ -2415,6 +2417,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||understoodocean.com^
 ||unequalbrake.com^
 ||unequaltrail.com^
+||unicontainers.com^
 ||unifyaddition.com^
 ||uninterestedquarter.com^
 ||unknowncontrol.com^
