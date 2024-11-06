@@ -1323,6 +1323,8 @@ theautopian.com##[data-widget_type="html.default"]
 ! bossip.com
 bossip.com##.fsb-desktop
 bossip.com##.fsb-toggle
+! .SH-Ads
+multimovies.bond,toonstream.co##.SH-Ads
 ! apkmirror.com
 apkmirror.com##.advertisement-text
 apkmirror.com##.ains
