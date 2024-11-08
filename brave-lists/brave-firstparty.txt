@@ -24,6 +24,9 @@ photopea.com##div > .bnotify.window:has-text(Are you blocking ads)
 photopea.com##.app.flexrow > div:has-text(Ad blocking detected)
 ! imported from uBO
 /api/users/*&ev=$script
+! first-party ads scripts
+||2024tv.ru/lib.js
+||soccerinhd.com/aclib.js
 ! Anti-adblock
 yonder.fr###ab-message
 ! Admiral anti adblock
@@ -3071,9 +3074,10 @@ pornhub.com##.sniperModeEngaged
 pornhub.com##a[href*="?ats="]
 pornhub.com##a[href^="https://ads.trafficjunky.net/"]
 pornhub.com###pb_block
-pornhub.com##.realsex
-pornhub.com###js-abContainterMain
-pornhub.com,pornhub.net,youporn.com###pb_template
+pornhub.com,pornhubthbh7ap3u.onion##.realsex
+pornhub.com,pornhubthbh7ap3u.onion###js-abContainterMain
+pornhub.com,pornhubthbh7ap3u.onion,pornhub.net,youporn.com###pb_template
+pornhub.com,pornhubthbh7ap3u.onion##.premiumPromoBanner
 /_xa/ads?
 /_xa/ads_batch?
 /ht.js?site_
