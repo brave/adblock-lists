@@ -779,6 +779,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||clumsycar.com^
 ||clumsyrock.com^
 ||coachquartz.com^
+||coalkitchen.com^
 ||coatfood.com^
 ||cobaltoverture.com^
 ||coffeesidehustle.com^
@@ -1229,6 +1230,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||generalprose.com^
 ||generateoffice.com^
 ||gentlemoonlight.com^
+||ghostgenie.com^
 ||giantsvessel.com^
 ||giddycoat.com^
 ||giftedglue.com^
@@ -1715,6 +1717,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||persuadesupport.com^
 ||petiteumbrella.com^
 ||philippinch.com^
+||phonicsblitz.com^
 ||photographpan.com^
 ||physicalbikes.com^
 ||piespower.com^
@@ -2074,6 +2077,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||skillfuldrop.com^
 ||skillfulsock.com^
 ||skisofa.com^
+||skullmagnets.com^
 ||slaysweater.com^
 ||sleepcartoon.com^
 ||slimopinion.com^
@@ -2193,6 +2197,7 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||standingsack.com^
 ||standtrouble.com^
 ||starkscale.com^
+||startercost.com^
 ||startingcars.com^
 ||stat.pet^
 ||statementsweater.com^
