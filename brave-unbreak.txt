@@ -933,6 +933,8 @@ cube365.net##+js(aopr, bootbox.alert)
 ||pushsar.com^
 ||offerimage.com^
 ||rtmark.net^
+! Revolving adservers (regex workaround)
+*$script,3p,denyallow=addtoany.com|cloudflare.net|jsdelivr.net,domain=manga-mate.org
 ! adManager popups (regex workaround)
 xasiat.com##+js(rmnt, script, adManager)
 ! ios popups
