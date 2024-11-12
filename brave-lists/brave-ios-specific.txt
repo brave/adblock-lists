@@ -27,6 +27,13 @@ cvs.com##+js(trusted-set-local-storage-item, appBannerClosed, $now$)
 ! Scroll fix
 cnn.com##body,html:style(overflow: auto !important; position: initial !important;)
 
+! amgreatness.com
+||ruamupr.com^
+||hilerant.site^
+||powerad.ai^
+||automatad.com^$3p
+||infolinks.com^$3p
+
 ! https://github.com/brave/brave-browser/issues/39296
 ! For iOS 15 users, was fix post ios 15: https://github.com/brave/brave-core/pull/24472
 @@||youtube.com/youtubei/v1/log_event
