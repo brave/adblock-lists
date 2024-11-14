@@ -34,6 +34,13 @@ cnn.com##body,html:style(overflow: auto !important; position: initial !important
 ||automatad.com^$3p
 ||infolinks.com^$3p
 
+! wildcard
+! uBO-domain wildcard workaround kissanime
+kissanime.co,kissanime.sx,kissanime.org.ru,kissanime.com.ru,kisscartoon.sh,kissanime.com.ru,kissasian.video,kickassanime.com.ru,kickassanime.mx,kissasian.dad##+js(acis, String.fromCharCode, /btoa|break/)
+kissanime.co,kissanime.sx,kissanime.org.ru,kissanime.com.ru,kisscartoon.sh,kissanime.com.ru,kissasian.video,kickassanime.com.ru,kickassanime.mx,kissasian.dad##+js(acis, JSON.parse, break;case $.)
+kissanime.co,kissanime.sx,kissanime.org.ru,kissanime.com.ru,kisscartoon.sh,kissanime.com.ru,kissasian.video,kickassanime.com.ru,kickassanime.mx,kissasian.dad##+js(window.open-defuser)
+kissanime.co,kissanime.sx,kissanime.org.ru,kissanime.com.ru,kisscartoon.sh,kissanime.com.ru,kissasian.video,kickassanime.com.ru,kickassanime.mx,kissasian.dad##+js(set, check_adblock, true)
+
 ! https://github.com/brave/brave-browser/issues/39296
 ! For iOS 15 users, was fix post ios 15: https://github.com/brave/brave-core/pull/24472
 @@||youtube.com/youtubei/v1/log_event
