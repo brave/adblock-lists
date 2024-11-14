@@ -16,6 +16,7 @@
 /prebid/*$script
 /htdocs/js/admiral/init.js
 /webads.
+/adcgi?
 ! https://github.com/brave/adblock-lists/pull/1974
 /fbevents.js
 ! photopea.com (method:post) showing ads
