@@ -1457,7 +1457,12 @@ phonearena.com##.announcements
 ||ad.kissanime.com.ru^
 ||ad.kissanime.org.ru^
 ||ad.kissanime.sx^
-kimcartoon.li,kc.linksgen.com,kisscartoon.se###centerDivVideo > div[id]:has(> img[src^="https://i.imgur.com"])
+||kissanime.com.ru/api/pop*.php
+||kissanime.*/api/pop*$xhr,1p
+! non-wildcard for ios
+kissanime.co,kissanime.sx,kissanime.org.ru,kissanime.com.ru,kisscartoon.sh,kissanime.com.ru,kissasian.video,kickassanime.com.ru,kickassanime.mx,kissasian.dad###upgrade_pop
+! wildcard for desktop/android
+kisscartoon.*,kissasian.*,kickassanime.*,kissasian.*,kissanime.*###upgrade_pop
 ! readcomiconline.li
 readcomiconline.li##div[style*="width: 300px"]
 readcomiconline.li##.divCloseBut
