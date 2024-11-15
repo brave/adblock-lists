@@ -16,6 +16,8 @@
 .click/gd/
 .shop/cuid/
 
+! test (possible redirection issue) 
+twitter.com,x.com#@#+js(trusted-set-cookie, d_prefs, MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw)
 
 ! Adshield
 blog.esuteru.com,blog.livedoor.jp,carscoops.com,eurointegration.com.ua,ff14net.2chblog.jp,flatpanelshd.com,golf-live.at,horairesdouverture24.fr,hoyme.jp,itainews.com,jin115.com,kreuzwortraetsel.de,lamire.jp,m.economictimes.com,modhub.us,motherlyvisions.com,ndtvprofit.com,news4vip.livedoor.biz,nyitvatartas24.hu,onecall2ch.com,palabr.as,picrew.me,pravda.com.ua,rabitsokuhou.2chblog.jp,raetsel-hilfe.de,suzusoku.blog.jp,the-crossword-solver.com,thestockmarketwatch.com,verkaufsoffener-sonntag.com,winfuture.de,word-grabber.com,wort-suchen.de,yugioh-starlight.com##iframe[src="about:blank"]:remove()
