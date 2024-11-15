@@ -409,7 +409,6 @@ photopea.com##+js(set, console.clear, noopFunc)
 @@||ruyamanga.com^$ghide
 ! https://github.com/uBlockOrigin/uAssets/issues/3885
 northwestfirearms.com,techkings.org##+js(set, samDetected, true)
-cafesaxophone.com##+js(aopw, XF)
 ! https://github.com/uBlockOrigin/uAssets/issues/3908
 @@||enfsolar.com^$ghide
 ! https://github.com/uBlockOrigin/uAssets/issues/3901
