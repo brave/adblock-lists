@@ -851,14 +851,26 @@ op.gg##.adfree-banner
 tweaking4all.com##+js(nostif, adsbygoogle, 2000)
 ! https://github.com/uBlockOrigin/uAssets/issues/22693
 vnexpress.net##+js(set, adblock, 2)
+! https://www.reddit.com/r/uBlockOrigin/comments/1b906te/pop_up_that_says_to_not_use_adblockers_on/
+d4armory.io,helldivers.io##+js(aopr, nitroAds)
+helldivers.io###gwvideo
 ! fightful .com anti-adb modal
 fightful.com##+js(nosiif, getComputedStyle)
+! conservationmag .org anti-adb popup
+@@||conservationmag.org^$ghide
+! https://github.com/uBlockOrigin/uAssets/issues/26038
+! thenation.com anti-adb
+||site-config.com^$3p
+||content-settings.com^$3p
+||config-factory.com^$3p
 ! https://github.com/EasyDutch-uBO/EasyDutch/issues/127
 solarmagazine.nl##+js(no-xhr-if, ads)
 ! https://github.com/uBlockOrigin/uAssets/issues/23472
 timeanddate.com##+js(aeld, load, ad-wrap)
 ! https://www.reddit.com/r/uBlockOrigin/comments/1crhv1q/ubo_detected_on_klsescreener/
 klsescreener.com##+js(acs, document.getElementById, adblock)
+! https://github.com/uBlockOrigin/uAssets/issues/23851
+weibo.com##+js(nowoif, &disp=popup, 1)
 ! https://www.reddit.com/r/uBlockOrigin/comments/1d204k4/antiadblock_message_at_httpswwwlcpdfrcom/
 lcpdfr.com##+js(aopr, FuckAdBlock)
 ! https://www.swagbucks.com/ - anti-adb
