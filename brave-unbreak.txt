@@ -16,6 +16,10 @@
 .click/gd/
 .shop/cuid/
 
+! strict3p workaround
+! /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,strict3p,from=com
+/^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,domain=nydailynews.com|sfgate.com|pilotonline.com|orlandosentinel.com|sun-sentinel.com|courant.com|mcall.com|chicagotribune.com
+
 ! test (possible redirection issue) 
 twitter.com,x.com#@#+js(trusted-set-cookie, d_prefs, MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw)
 
