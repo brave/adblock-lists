@@ -843,6 +843,17 @@
     },
     {
         "include": [
+            "*://*.threads.net/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "xmt"
+        ]
+    },
+    {
+        "include": [
             "https://dev-pages.bravesoftware.com/clean-urls/*"
         ],
         "exclude": [
@@ -851,17 +862,6 @@
         "params": [
             "brave_testing1",
             "brave_testing2"
-        ]
-    },
-    {
-        "include": [
-            "*://*.threads.net/*"
-        ],
-        "exclude": [
-
-        ],
-        "params": [
-            "xmt"
         ]
     }
 ]
