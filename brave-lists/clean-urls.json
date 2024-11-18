@@ -852,5 +852,16 @@
             "brave_testing1",
             "brave_testing2"
         ]
+    },
+    {
+        "include": [
+            "*://*.threads.net/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "xmt"
+        ]
     }
 ]
