@@ -5,6 +5,7 @@
         "*://open.spotify.com/*",
         "*://www.gofundme.com/*",
         "*://www.tumblr.com/*",
+        "*://*.threads.net/*",
         "https://boocmp.github.io/clipboard/*"
     ]
 }
