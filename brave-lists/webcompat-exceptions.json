@@ -127,5 +127,14 @@
       "canvas"
     ],
      "issue": "https://github.com/brave/brave-browser/issues/41686"
+   },
+   {
+    "include": [
+      "*://www.klm.*"
+    ],
+    "exceptions": [
+      "screen"
+    ],
+     "issue": "https://github.com/brave/brave-browser/issues/42361"
    }
 ]
