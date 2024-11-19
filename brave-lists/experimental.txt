@@ -13,17 +13,6 @@ www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk
 ! Google precision popup (Fix disabled scroll)
 www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##html.TaoyYc:style(position: static !important; overflow: auto !important; width: auto !important;)
 
-
-! youtube self nag screens
-www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 191"]
-www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 192"]
-! Youtube: How are your recommendations today?
-www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 320px;"]
-! its cable reimagined
-www.youtube.com##tp-yt-paper-dialog[style-target="host"][role="dialog"][tabindex][syle*="border-box; max-height: 206"]
-! Youtube music popup
-music.youtube.com##ytmusic-mealbar-promo-renderer.ytmusic-popup-container[enable-bauhaus-style][dialog="true"][tabindex]
-
 ! Twitch test rules
 twitch.tv##+js(vaft-ublock-origin)
 

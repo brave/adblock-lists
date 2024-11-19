@@ -36,6 +36,12 @@ baeldung.com##.aelzmn
 sonichits.com##+js(set-session-storage-item, fs.adb831.dis, 1)
 baeldung.com##+js(set-session-storage-item, fs.adb.dis, 1)
 newrepublic.com,smithsonianmag.com,thenation.com##+js(set-local-storage-item, fs.adb, 1)
+! google popup
+google.com##.Ryrdad:has-text(Please help us improve)
+google.com##div[jsname="wA2P2b"]:has-text(How helpful were the results)
+! youtube popups
+music.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container:-has-text(/family plan|Premium|ad-free|background play|kept playing/)
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:-has-text(/Become a member|How are your|How interested|Live TV|Wish videos|background play|better TV|cable box|cable reimagined|hidden fees|of YouTube TV|on YouTube TV|unlimited DVR|with YouTube TV|without the ads|try this feature/)
 ! sentry.io warning
 sentry.io##.loading-message > p:last-child
 ! tioeroge.blogspot.com (anti-adblock)
