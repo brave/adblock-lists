@@ -2227,6 +2227,9 @@ nowtoronto.com##.nt-ad-wrapper
 atlantablackstar.com,finurah.com,theshadowleague.com##.raptive-ddm-header
 ! magnoliastatelive.com
 magnoliastatelive.com##.one_by_one_group
+! abysscdn.com
+##.jw-wrapper > div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
+abysscdn.com###overlay
 ! intouchweekly.com
 intouchweekly.com##.shop-with-us__container
 ! 1001tracklists.com
