@@ -2234,7 +2234,19 @@ abysscdn.com##.playover
 abysscdn.com,playhydrax.com###overlay
 ! bhaskar.com
 bhaskar.com##[id^="Ad"]:upward([style])
-! intouchweekly.com
+! pravda.com.ua (Ad-shield) https://github.com/brave/brave-browser/issues/36282
+pravda.com.ua##.nts-ad
+pravda.com.ua##.advtext
+pravda.com.ua##.unit_side_banner
+tabloid.pravda.com.ua##.block_banner_2x
+tabloid.pravda.com.ua##.block_banner_1x
+tabloid.pravda.com.ua##.banner__text
+! epravda.com.ua (Ad-shield) https://github.com/brave/brave-browser/issues/36282
+epravda.com.ua##div[class*="banner"]
+epravda.com.ua##.block_choice
+epravda.com.ua##.post__tags
+epravda.com.ua##.advtext_desk
+! intouchweekly.com 
 intouchweekly.com##.shop-with-us__container
 ! 1001tracklists.com
 1001tracklists.com##.modal
