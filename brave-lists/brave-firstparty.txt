@@ -2232,6 +2232,8 @@ magnoliastatelive.com##.one_by_one_group
 abysscdn.com##div[style*="z-index:100000"]
 abysscdn.com##.playover
 abysscdn.com,playhydrax.com###overlay
+! bhaskar.com
+bhaskar.com##[id^="Ad"]:upward([style])
 ! intouchweekly.com
 intouchweekly.com##.shop-with-us__container
 ! 1001tracklists.com
