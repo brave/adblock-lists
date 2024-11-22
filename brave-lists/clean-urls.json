@@ -598,6 +598,19 @@
     },
     {
         "include": [
+            "*://dice.fm/event/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "cid1",
+            "cid2",
+            "pid"
+        ]
+    },
+    {
+        "include": [
             "*://*.nytimes.com/*"
         ],
         "exclude": [
