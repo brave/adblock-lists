@@ -170,8 +170,8 @@
   },
   {
     "include": [
-      "*://*.getprice.com.au/prodhits.aspx?*",
-      "*://search.app/?*"
+      "*://search.app/?*",
+      "*://*.getprice.com.au/prodhits.aspx?*"
     ],
     "exclude": [
     ],
