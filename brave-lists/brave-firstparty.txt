@@ -235,6 +235,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###sidebar_ad
 ###splashy-ad-container-top
 ###sponsored_content
+###sticky-ad-container
 ###story_bottom_ddb_0
 ###story_top_ddb_0
 ###sponsor_posts
@@ -430,6 +431,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-container-wrapper
 ##.ad-leaderboard-footer
 ##.ad-leaderboard-flex
+##.ad-responsive
 ##.ads-box
 ##.ads-global-header
 ##.ad-padding
@@ -507,6 +509,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.block-yt-ads
 ##.bottom-ad
 ##.bottom-ads-container
+##.bottom-adv
 ##.bottomAds
 ##.block-adsense
 ##.br-ad
@@ -550,6 +553,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.dfp-ad-top-wrapper
 ##.dfp-leaderboard-container
 ##.dfp-ad-hideempty
+##.dfp_ad--outbrain
 ##.dfp_ads_block
 ##.dfp-slot
 ##.dfp-tag-wrapper
@@ -711,6 +715,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.noskim.ad
 ##.nts-ad
 ##.nuk-ad-placeholder
+##.o-ad
 ##.outer-ad-unit-wrapper
 ##.outer_ad_container
 ##.p-ads-billboard
@@ -755,6 +760,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.side_ads
 ##.side-ad
 ##.sidebar-ad-container
+##.sidebar-ad-top
 ##.sidebar-advert
 ##.single-post-ad
 ##.sponsored-headlines
@@ -810,6 +816,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.upx-ad-placeholder
 ##.variableHeightAd
 ##.vf-ad-comments
+##.vf-promo-wrapper
 ##.vertical-ad
 ##.vf-promo-gtag
 ##.video-ad
@@ -1438,6 +1445,8 @@ engadget.com##.Py\(30px\).Bgc\(engadgetGhostWhite\)
 engadget.com##.Td\(n\).Bdbc\(engadgetGutter\).Py\(40px\)
 engadget.com##.da-container
 engadget.com##.related-content-lazyload
+engadget.com##.wafer-benji
+engadget.com###LB-MULTI_ATF
 ! ghacks.net
 ghacks.net###snhb-snhb_ghacks_bottom-0
 ghacks.net##.box-banner
@@ -1452,6 +1461,8 @@ fortune.com##.homepage:has(> div[id^="InStream"])
 fortune.com##[class]:has(> #Leaderboard0)
 fortune.com###Leaderboard0
 fortune.com##.jzcxNo
+fortune.com##.sc-3f90509f-0
+fortune.com##.sc-d331eee9-11
 ! motor1.com
 motor1.com##[data-m1-ad-label]
 ! torquenews.com
@@ -1679,10 +1690,36 @@ telegraph.co.uk##.commercial-unit
 ! cryptonews.net
 cryptonews.net##.vert-public
 ! cointelegraph.com
-cointelegraph.com##.ad-slot_NjPAE
 cointelegraph.com##.advertise-with-us-link_O9rIX
-cointelegraph.com##.componentAdbutler_uF1zH
-cointelegraph.com##mm-collectors
+cointelegraph.com##.header-zone__flower
+cointelegraph.com,doodle.com##[class*="ad-slot"]
+cointelegraph.com##a[href^="https://servedbyadbutler.com/"]
+||earth.cointelegraph.com^
+||plutonium.cointelegraph.com^
+! washingtoninformer.com
+washingtoninformer.com##.newspack_global_ad
+! stocktwits.com
+stocktwits.com##.min-w-\[300px\]
+stocktwits.com##.w-\[300px\]
+stocktwits.com##[class^="FooterAd_container"]
+stocktwits.com##.is-visible:has-text(Remove ads)
+stocktwits.com###st-bottom-content
+! porntrex.com
+porntrex.com###index-link
+porntrex.com##a[href*="theporndude.com"]
+porntrex.com###exclusive-link
+! outsideonline.com
+outsideonline.com##.c-thinbanner
+! coin360.com
+coin360.com##.GuYYbg
+coin360.com##.b5BiRm
+coin360.com##.y49o7q
+coin360.com##[style="display:flex;justify-content:center;align-items:center;min-height:100px;position:relative"]
+! geekzone.co.nz
+geekzone.co.nz##[style="height:90px"]
+geekzone.co.nz##td[colspan="3"].forumRow[style="border-right:solid 1px #fff;"]
+geekzone.co.nz##.adsbygoogle
+geekzone.co.nz##div.cornered.box > center
 ! trulia.com
 ! the-scientist.com
 the-scientist.com###Torpedo
@@ -1812,6 +1849,7 @@ mothership.sg##.ad--side
 ! polygon/vox
 polygon.com##[data-concert]
 polygon.com,vox.com##[class]:has(> [data-concert])
+vox.com##.dfp-ad--connatix
 ! thefastmode.com
 thefastmode.com##.takeover
 ! ndtv.com
@@ -1914,6 +1952,7 @@ dallasobserver.com,houstonpress.com##.AirBillboardInlineContentresponsive
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.AirLeaderboardMediumRectanglesComboInlineContent
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.AirMediumRectangleComboInlineContent
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.fdn-site-header-ad-block
+browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##[apn-ad-hook]
 westword.com##.hil28zhf1wyd
 westword.com##.SurveyLinkSlideModal
 ! arktimes.com
@@ -2594,10 +2633,9 @@ wccftech.com##.main-background-wrap
 wccftech.com##.mb-11
 wccftech.com##[href^="https://cutt.ly/"]
 ! reuters.com
+reuters.com##.workspace-article-banner__image__2Ibji
+reuters.com##[data-testid="Leaderboard"]
 reuters.com##[data-testid="ResponsiveAdSlot"]
-reuters.com##[class^="primary-video__container_"]
-reuters.com##div[class^="AdSlot__container"]
-reuters.com##div[class^="RightRail-sticky-container"]
 reuters.com##div[class^="ad-slot__"]
 reuters.com##[data-testid="CnxPlayer"]
 ! macleans.ca
