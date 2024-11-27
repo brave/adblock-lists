@@ -25,6 +25,8 @@ photopea.com##div > .bnotify.window:has-text(Are you blocking ads)
 photopea.com##.app.flexrow > div:has-text(Ad blocking detected)
 ! imported from uBO
 /api/users/*&ev=$script
+! https://github.com/brave/brave-browser/issues/42416
+www.google.*##[aria-label="Search by voice"]
 ! first-party ads scripts
 ||2024tv.ru/lib.js
 ||soccerinhd.com/aclib.js
