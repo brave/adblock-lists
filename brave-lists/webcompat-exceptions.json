@@ -130,6 +130,25 @@
    },
    {
     "include": [
+      "*://www.tangerine.ca/*"
+    ],
+    "exceptions": [
+      "font"
+    ],
+     "issue": "https://github.com/brave/brave-browser/issues/42600"
+   },
+   {
+     "include": [
+       "*://online.simplii.com/*",
+       "*://www.simplii.com/*"
+     ],
+     "exceptions": [
+       "screen"
+     ],
+      "issue": "https://github.com/brave/brave-browser/issues/42600"
+   },
+   {
+    "include": [
       "*://www.klm.com/*",
       "*://belarus.klm.com/*",
       "*://bonaire.klm.com/*",
