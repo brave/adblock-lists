@@ -13,6 +13,9 @@ www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk
 ! Google precision popup (Fix disabled scroll)
 www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##html.TaoyYc:style(position: static !important; overflow: auto !important; width: auto !important;)
 
+! https://www.alphr.com/disable-google-recommends/
+www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##iframe[src^="https://ogs.google."][src*="/widget/callout?prid="]
+
 ! Twitch test rules
 twitch.tv##+js(vaft-ublock-origin)
 
