@@ -234,6 +234,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###rightrail_pos2_ddb_0
 ###rightrail_pos3_ddb_0
 ###skin-ad-left-rail-container
+###sidebar-ad
 ###sidebar_ad
 ###splashy-ad-container-top
 ###sponsored_content
@@ -1140,6 +1141,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ! people.com/ seriouseats.com
 ##.mntl-jwplayer-broad.article__broad-video-jw
 ! exception rules
+insideevs.com#@#.m1-header-ad
 ads.google.com,youtube.com#@#.video-ads
 azclick.jp,tubefilter.com#@#div#topAd
 gumtree.com.au,s.tabelog.com#@#[data-ad-name]
@@ -1221,16 +1223,17 @@ onlyinyourstate.com###video1-1
 newseveryday.com###vplayer_large
 tvline.com##._video_ti56x_1
 indy100.com##.addressed_cls
+gcaptain.com,mp1st.com,thedebrief.org,unofficialnetworks.com##.adthrive
 muscleandfitness.com##.ami-video-placeholder
 telegraph.co.uk##.article-betting-unit-container
 sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
 washingtonexaminer.com##.bridtv
-gizmodo.com.au,kotaku.com.au,lifehacker.com.au,pedestrian.tv##.brightcove-video-container
+pedestrian.tv##.brightcove-video-container
 cnet.com,zdnet.com##.c-avStickyVideo
 stuff.tv##.c-squirrel-embed
 cartoonbrew.com##.cb-ad
-rd.com##.cnx-inline-player-wrapper
+rd.com,tasteofhome.com##.cnx-inline-player-wrapper
 mb.com.ph##.code-block
 techwalla.com##.component-article-section-jwplayer-wrapper
 livestrong.com##.component-article-section-votd
@@ -1241,6 +1244,7 @@ taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 accuweather.com##.feature-tag
 ibtimes.sg##.featured_video
+pedestrian.tv##.find-dream-job
 sportbible.com,unilad.com##.floating-video-player_container__u4D9_
 dailymail.co.uk##.footballco-container
 redboing.com##.fw-ad
@@ -1267,7 +1271,9 @@ sciencetimes.com##.player
 bossip.com##.player-wrapper-inner
 swimswam.com##.polls-461
 iheart.com##.provider-stn
+pedestrian.tv##.recent-jobs-widget
 kidspot.com.au##.secondary-video
+pedestrian.tv##.sticky-item-group
 playbuzz.com##.stickyplayer-container
 the-express.com##.stn-video-container
 si.com##.style_hfl21i-o_O-style_uhlm2
@@ -1284,9 +1290,11 @@ hiphopdx.com##.video-player
 bolavip.com##.video-player-placeholder
 benzinga.com##.video-player-wrapper
 thepinknews.com##.video-player__container
+tasty.co##.video-wrap
 dpreview.com##.videoWrapper
 consequence.net##.video_container
 comicbook.com##.wp-block-savage-platform-primis-video
+thecooldown.com##.wp-block-tcd-multipurpose-gutenberg-block
 bigthink.com##.wrapper-connatixElements
 bigthink.com##.wrapper-connatixPlayspace
 totalprosports.com##[data-stn-player="n2psbctm"]
@@ -1359,11 +1367,35 @@ datanodes.to##div.p-8.items-center.justify-center
 ! delish.com
 delish.com##.css-3oqygl
 ! independent.co.uk/the-independent.com
-independent.co.uk,the-independent.com###partners
-independent.co.uk,the-independent.com###stickyFooterRoot
-independent.co.uk,the-independent.com###top-banner-wrapper
 independent.co.uk,the-independent.com##[data-mpu1]
-independent.co.uk##article > div[class^="sc-"]:has(> div[class^="sc-"] > div[data-ad-unit-path])
+independent.co.uk,the-independent.com###partners
+independent.co.uk,the-independent.com###top-banner-wrapper
+independent.co.uk,standard.co.uk,the-independent.com##.teads:has(.third-party-ad)
+independent.co.uk,standard.co.uk,the-independent.com##[class] > :has(> [data-mpu])
+independent.co.uk,standard.co.uk,the-independent.com##[class]:has(> [data-mpu])
+! standard.co.uk
+standard.co.uk###polarArticleWrapper
+standard.co.uk###polar-sidebar-sponsored
+standard.co.uk###stickyFooterRoot
+standard.co.uk##.hUXbOs
+standard.co.uk##[class]:has(> [data-fluid-zoneid])
+! insideevs.com
+insideevs.com##.m1-apb
+! coinpedia.org
+coinpedia.org##.footer-side-sticky
+coinpedia.org##.homepage_banner_ad
+coinpedia.org##.homepage_sidebanner_ad
+coinpedia.org##.top-menu-advertise
+! usatoday.com affil
+ftw.usatoday.com,touchdownwire.usatoday.com###ad--home-well-wrapper
+ftw.usatoday.com,kansascity.com,rotowire.com##.gdcg-oplist
+! outsports.com
+outsports.com##.adb-os-lb-top
+outsports.com##.bg-gray-100:has(.adb-os-lb-incontent)
+outsports.com##.min-h-\[100px\]:has(.adb-os-inarticle-block)
+outsports.com##.min-h-\[100px\]:has(.adb-os-lb-incontent)
+! designtaxi.com
+designtaxi.com##a.a-click[target="_blank"]
 ! musicbusinessworldwide.com
 musicbusinessworldwide.com##[href^="https://wynstarks.lnk.to/"]
 ! saucemagazine.com
@@ -1507,13 +1539,6 @@ thedriven.io###solarchoice_banner_1
 alternativeto.net##[class^="AdsenseAd"]
 ! lrt.lt
 lrt.lt##.article-content__inline-block
-! standard.co.uk
-standard.co.uk###polar-sidebar-sponsored
-standard.co.uk###stickyFooterRoot
-standard.co.uk##.sc-kAeStu.bkIZsH
-standard.co.uk##.teads
-standard.co.uk##.cEUUwk
-independent.co.uk,standard.co.uk##article > div[class^="sc-"]:has(> div[class^="sc-"] > div[data-ad-unit-path])
 ! euronews.com
 euronews.com###js-smart-banner
 euronews.com##.base-leaderboard
@@ -1946,6 +1971,8 @@ tweaktown.com###DesktopTop
 tweaktown.com##.DesktopRightBA
 ! indianexpress.com
 indianexpress.com##.osv-ad-class
+indianexpress.com##.adsizes
+indianexpress.com##.o-taboola-story
 ! upworthy
 upworthy.com##.upworthy_infinte_scroll_outer_wrap
 upworthy.com##.upworthy_infinite_scroll_ad
@@ -2640,6 +2667,14 @@ reuters.com##[data-testid="Leaderboard"]
 reuters.com##[data-testid="ResponsiveAdSlot"]
 reuters.com##div[class^="ad-slot__"]
 reuters.com##[data-testid="CnxPlayer"]
+! chess.com
+chess.com###medium-rectangle-atf-ad
+chess.com##.game-over-ad-component
+chess.com##.leaderboard-atf-ad-wrapper
+chess.com##.leaderboard-btf-ad-wrapper
+chess.com##.medium-rectangle-ad-slot
+chess.com##.medium-rectangle-btf-ad-wrapper
+chess.com##.short-sidebar-ad-component
 ! macleans.ca
 macleans.ca##.assmbly-ad-block
 ! techspot.com
