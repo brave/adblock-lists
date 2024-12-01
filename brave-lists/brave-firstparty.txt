@@ -614,6 +614,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gnm-banner-ad
 ##.header-ad-wrap
 ##.header__ad
+##.header_banner_ad
 ##.header-top-ad
 ##.homead
 ##.home-ad-region-1
@@ -1379,8 +1380,10 @@ standard.co.uk###polarArticleWrapper
 standard.co.uk###polar-sidebar-sponsored
 standard.co.uk###stickyFooterRoot
 standard.co.uk##.hUXbOs
+standard.co.uk##.teads
 standard.co.uk##[class]:has(> [data-fluid-zoneid])
 ! insideevs.com
+insideevs.com##.apb
 insideevs.com##.m1-apb
 ! coinpedia.org
 coinpedia.org##.footer-side-sticky
@@ -1388,8 +1391,11 @@ coinpedia.org##.homepage_banner_ad
 coinpedia.org##.homepage_sidebanner_ad
 coinpedia.org##.top-menu-advertise
 ! usatoday.com affil
+usatoday.com##.affiliate-widget-wrapper
 ftw.usatoday.com,touchdownwire.usatoday.com###ad--home-well-wrapper
 ftw.usatoday.com,kansascity.com,rotowire.com##.gdcg-oplist
+usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium
+usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium_after_share
 ! outsports.com
 outsports.com##.adb-os-lb-top
 outsports.com##.bg-gray-100:has(.adb-os-lb-incontent)
@@ -2452,7 +2458,9 @@ speedtest.net##.top-placeholder
 ! weather.com
 weather.com##[title="Sponsored Content"]
 ! smh.com.au
-brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > :has(> .adWrapper)
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > [class]:has(> [data-testid="ad"])
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###articlePartnerStories
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._34z61
 ! drive.com.au
 drive.com.au##.gam-ad
 drive.com.au##.adSpacing_drive-ad-spacing__HdaBg
