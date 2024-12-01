@@ -1372,13 +1372,13 @@ delish.com##.css-3oqygl
 independent.co.uk,the-independent.com##[data-mpu1]
 independent.co.uk,the-independent.com###partners
 independent.co.uk,the-independent.com###top-banner-wrapper
+independent.co.uk,standard.co.uk,the-independent.com###stickyFooterRoot
 independent.co.uk,standard.co.uk,the-independent.com##.teads:has(.third-party-ad)
 independent.co.uk,standard.co.uk,the-independent.com##[class] > :has(> [data-mpu])
 independent.co.uk,standard.co.uk,the-independent.com##[class]:has(> [data-mpu])
 ! standard.co.uk
 standard.co.uk###polarArticleWrapper
 standard.co.uk###polar-sidebar-sponsored
-standard.co.uk###stickyFooterRoot
 standard.co.uk##.hUXbOs
 standard.co.uk##.teads
 standard.co.uk##[class]:has(> [data-fluid-zoneid])
@@ -2458,6 +2458,7 @@ speedtest.net##.top-placeholder
 ! weather.com
 weather.com##[title="Sponsored Content"]
 ! smh.com.au
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._2gSkZ
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > [class]:has(> [data-testid="ad"])
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###articlePartnerStories
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._34z61
