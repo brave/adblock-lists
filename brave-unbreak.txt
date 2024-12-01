@@ -1323,7 +1323,7 @@ streamwish.to##+js(set-constant, xRds, true)
 streamwish.to##+js(set-constant, cRAds, false)
 streamwish.to##+js(abort-on-property-read, __Y)
 ! embasic.pro (HEAD ADS work around)
-embasic.pro,vidstreaming.xyz,streamruby.com,abysscdn.com,filemoon.nl,emturbovid.com,toonstream.co##+js(no-fetch-if, method:HEAD)
+luluvdo.com,embasic.pro,vidstreaming.xyz,streamruby.com,abysscdn.com,filemoon.nl,emturbovid.com,toonstream.co##+js(no-fetch-if, method:HEAD)
 ! embedme.top
 embedme.top##+js(abort-current-script, JSON.parse, showTrkURL)
 embedme.top##+js(abort-current-script, Math, /window\['(?:\\x[0-9a-f]{2}){2}/)
