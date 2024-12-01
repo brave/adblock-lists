@@ -1323,7 +1323,7 @@ streamwish.to##+js(set-constant, xRds, true)
 streamwish.to##+js(set-constant, cRAds, false)
 streamwish.to##+js(abort-on-property-read, __Y)
 ! embasic.pro (HEAD ADS work around)
-luluvdo.com,embasic.pro,vidstreaming.xyz,streamruby.com,abysscdn.com,filemoon.nl,emturbovid.com,toonstream.co##+js(no-fetch-if, method:HEAD)
+metrolagu.cam,berlagu.com,poophd.vip,animesuge.skin,uqloads.xyz,manhastro.com,mangaworldadult.net,zonatmo.com,hitomi.la,livesteching.com,drakecomic.org,mangaworld.ac,chapmanganato.to,hianime.to,manhuatop.org,animeflv.net,9animetv.to,flixhq.to,aniwatchtv.to,sflix.to,mgeko.cc,fmovies.co,edgedeliverynetwork.com,mcloud.vvid30c.site,listeamed.net,zizicoi.online,pepepeyo.xyz,megacloud.tube,cinego.tv,asuracomic.net,zonatmo.com,myflixer.gs,rawxz.to,hdtoday.cc,luluvdo.com,embasic.pro,vidstreaming.xyz,streamruby.com,abysscdn.com,filemoon.nl,emturbovid.com,toonstream.co##+js(no-fetch-if, method:HEAD)
 ! embedme.top
 embedme.top##+js(abort-current-script, JSON.parse, showTrkURL)
 embedme.top##+js(abort-current-script, Math, /window\['(?:\\x[0-9a-f]{2}){2}/)
