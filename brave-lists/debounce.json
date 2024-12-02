@@ -211,6 +211,7 @@
   },
   {
     "include": [
+      "*://c212.net/c/link/?*",
       "*://*.c9ftyd.net/c/*",
       "*://*.iyhh.net/c/*",
       "*://*.glg9ob.net/c/*",
