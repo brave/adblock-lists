@@ -3214,6 +3214,7 @@ pornhub.com,pornhubthbh7ap3u.onion##.premiumPromoBanner
 /ht.js?site_
 ##a[href^="https://a.adtng.com/"]
 ! xhamster.com
+||xhamster.com*/vast?
 ||brick.xhamster.com^
 ! tube8
 tube8.com,tube8.es,tube8.fr##main.row > aside.col-4 > div[class]
