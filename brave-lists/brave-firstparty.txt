@@ -833,6 +833,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.wide-ad
 ##.widget-ads
 ##.widget-dfp
+##.widget-videoad
 ##.widget_evolve_ad_gpt_widget
 ##.wp-block-ad-slot
 ##.wp-block-gamurs-ad
@@ -2395,18 +2396,22 @@ battlefordsnow.com,cfjctoday.com,everythinggp.com,filmdaily.co,huskiefan.ca,laro
 ! thespec.com
 thespec.com##.polarAds
 ! .adLabelWrapper
-bramptonguardian.com,guelphmercury.com,insideottawavalley.com,niagarafallsreview.ca,niagarathisweek.com,thepeterboroughexaminer.com,therecord.com,thespec.com,thestar.com,wellandtribune.ca##.adLabelWrapper
+bramptonguardian.com,guelphmercury.com,insideottawavalley.com,niagarafallsreview.ca,niagarathisweek.com,stcatharinesstandard.ca,thepeterboroughexaminer.com,therecord.com,thespec.com,thestar.com,wellandtribune.ca##.adLabelWrapper
 ! .adContainer
 forums.sufficientvelocity.com,m.economictimes.com,someecards.com,trailspace.com,wabetainfo.com##.adContainer
 ! .adLabelWrapperManual
-bramptonguardian.com,insideottawavalley.com,niagarafallsreview.ca,thepeterboroughexaminer.com,therecord.com,thestar.com,wellandtribune.ca##.adLabelWrapperManual
+bramptonguardian.com,insideottawavalley.com,niagarafallsreview.ca,stcatharinesstandard.ca,thepeterboroughexaminer.com,therecord.com,thestar.com,wellandtribune.ca##.adLabelWrapperManual
 ! .polarAds
 thespec.com,wellandtribune.ca##.polarAds
 ! .polarBlock
-bramptonguardian.com,guelphmercury.com,insideottawavalley.com,thestar.com##.polarBlock
+bramptonguardian.com,guelphmercury.com,insideottawavalley.com,stcatharinesstandard.ca,thestar.com##.polarBlock
+! .globalHeaderBillboard
+stcatharinesstandard.ca,thestar.com##.globalHeaderBillboard
 ! thestar.com
 thestar.com###sticky-ad-2
-thestar.com##.globalHeaderBillboard
+! money.com
+money.com##.ca-pcu-inline
+money.com##[data-trk-company="rocket-mortgage-review"]
 ! castanet.net
 castanet.net###hdad
 castanet.net##div[style*="height:900px"]
@@ -3174,6 +3179,10 @@ pymnts.com##.pymnt_ads
 pymnts.com###bottom-ad
 ! adweek.com
 adweek.com##.htl-ad-wrapper
+! pricespy
+pricespy.co.nz,pricespy.co.uk,prisjakt.no,prisjakt.nu,prisjagt.dk,ledenicheur.fr##.outsider-ads
+pricespy.co.nz,pricespy.co.uk,prisjakt.no,prisjakt.nu,prisjagt.dk,ledenicheur.fr##.pjra-w-\[970px\]
+pricespy.co.nz,pricespy.co.uk,prisjakt.no,prisjakt.nu,prisjagt.dk,ledenicheur.fr##div[class^="AdPlacement"]
 ! decrypt.co
 decrypt.co##.aspect-video
 decrypt.co##.opacity-75
