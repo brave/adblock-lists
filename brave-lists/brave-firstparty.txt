@@ -1226,13 +1226,14 @@ onlyinyourstate.com###video1-1
 newseveryday.com###vplayer_large
 tvline.com##._video_ti56x_1
 indy100.com##.addressed_cls
-gcaptain.com,mp1st.com,thedebrief.org,unofficialnetworks.com##.adthrive
+androidheadlines.com,gcaptain.com,mp1st.com,thedebrief.org,unofficialnetworks.com##.adthrive
 muscleandfitness.com##.ami-video-placeholder
 telegraph.co.uk##.article-betting-unit-container
 sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
 washingtonexaminer.com##.bridtv
 pedestrian.tv##.brightcove-video-container
+military.com##.brightcove-video-wrapper
 cnet.com,zdnet.com##.c-avStickyVideo
 stuff.tv##.c-squirrel-embed
 cartoonbrew.com##.cb-ad
@@ -1268,6 +1269,7 @@ zerohedge.com##.mixed-unit-ac
 lifewire.com##.mntl-jwplayer-broad
 respawnfirst.com##.mv-ad-box
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
+newsnationnow.com##.nxs-player-wrapper
 pagesix.com##.nyp-video-player
 picrew.me##.play-Imagemaker_Footer
 sciencetimes.com##.player
@@ -1296,6 +1298,7 @@ thepinknews.com##.video-player__container
 tasty.co##.video-wrap
 dpreview.com##.videoWrapper
 consequence.net##.video_container
+thewrap.com##.wp-block-post-featured-image--video
 comicbook.com##.wp-block-savage-platform-primis-video
 thecooldown.com##.wp-block-tcd-multipurpose-gutenberg-block
 bigthink.com##.wrapper-connatixElements
