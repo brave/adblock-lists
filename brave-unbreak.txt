@@ -28,6 +28,9 @@
 /^https:\/\/[a-z]{3,5}\.[a-z]{10,14}\.top\/[a-z]{10,16}\/[a-z]{5,6}(?:\?d=\d)?$/$script,xhr,3p
 /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-z]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p,redirect-rule=noop.js
 
+! southparkstudios.com
+! https://community.brave.com/t/southparkstudios-com-adblock-detected/581673/7
+||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$important,redirect-rule=noopjs,from=southparkstudios.com
 
 ! test (possible redirection issue) 
 twitter.com##+js(remove-cookie, d_prefs)
