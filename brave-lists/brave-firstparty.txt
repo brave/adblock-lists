@@ -26,6 +26,11 @@ photopea.com##div > .bnotify.window:has-text(Are you blocking ads)
 photopea.com##.app.flexrow > div:has-text(Ad blocking detected)
 ! imported from uBO
 /api/users/*&ev=$script
+! 1p and strict1p
+/ajax/embed-4/banners$xhr,1p
+/ajax/banner/vpn|$xhr,1p
+/ajax/banners?page=$xhr,1p
+/embed-1/ajax/e-1/banners|$xhr,1p
 ! https://github.com/brave/brave-browser/issues/42416
 ! Affecting Android, which can use voice
 ! www.google.*##[aria-label="Search by voice"]
@@ -2330,10 +2335,15 @@ atlantablackstar.com,finurah.com,theshadowleague.com##.raptive-ddm-header
 ! magnoliastatelive.com
 magnoliastatelive.com##.one_by_one_group
 ! abysscdn.com
+/cdn-cgi/trace$xhr,1p,domain=abysscdn.com|playhydrax.com
+/favicon.ico|$image,3p,domain=abysscdn.com|hihihaha1.xyz|hihihaha2.xyz|playhydrax.com
+###video_player ~ div[id] div[style^="position:fixed;inset:0px;z-index:"]
+##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"]
 ##.jw-wrapper > div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
 abysscdn.com##div[style*="z-index:100000"]
 abysscdn.com##.playover
 abysscdn.com,playhydrax.com###overlay
+abysscdn.com,hihihaha1.xyz#@#.jw-wrapper > div[style="opacity: 0; visibility: hidden; overflow: hidden; display: block; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"]
 ! bhaskar.com
 bhaskar.com##[id^="Ad"]:upward([style])
 ! pravda.com.ua (Ad-shield) https://github.com/brave/brave-browser/issues/36282
