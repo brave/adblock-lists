@@ -149,7 +149,9 @@
    },
    {
      "include": [
-       "*://*.larksuite.com/*"
+       "*://vc.larksuite.com/*",
+       "*://vc-jp.larksuite.com/*,
+       "*://vc-sg.larksuite.com/*"
      ],
      "exceptions": [
        "keyboard",
