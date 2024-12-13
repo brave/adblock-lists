@@ -148,6 +148,19 @@
       "issue": "https://github.com/brave/brave-browser/issues/42600"
    },
    {
+     "include": [
+       "*://vc.larksuite.com/*",
+       "*://vc-jp.larksuite.com/*",
+       "*://vc-sg.larksuite.com/*"
+     ],
+     "exceptions": [
+       "keyboard",
+       "media devices",
+       "plugins"
+     ],
+      "issue": "https://github.com/brave/brave-browser/issues/42874"
+   },
+   {
     "include": [
       "*://www.klm.com/*",
       "*://belarus.klm.com/*",
