@@ -162,6 +162,15 @@
    },
    {
     "include": [
+      "*://www.duolingo.com/*"
+    ],
+    "exceptions": [
+      "screen"
+    ],
+     "issue": "https://github.com/brave/brave-browser/issues/42905"
+   },
+   {
+    "include": [
       "*://www.klm.com/*",
       "*://belarus.klm.com/*",
       "*://bonaire.klm.com/*",
