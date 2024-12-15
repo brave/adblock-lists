@@ -52,6 +52,11 @@ www.google.ac,www.google.ae,www.google.at,www.google.be,www.google.bg,www.google
 @@||ingest.sentry.io/api/$xhr,domain=twitch.tv
 @@||reporting.cdndex.io^$xhr,domain=twitch.tv
 
+! ft.com
+! ft.com##html.sp-message-open:style(width: initial !important)
+! ft.com##html.sp-message-open > body:style(position: unset !important; overflow: unset !important; margin-top: 0 !important)
+ft.com##+js(rc, sp-message-open, html, stay)
+
 ! https://github.com/easylist/easylist/commit/d7bd5bdbc03ad64801a0e1d400484da1d67a5541
 @@||braze.com/api/$domain=dairyqueen.com|deezer.com
 
