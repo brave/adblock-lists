@@ -18,6 +18,7 @@
 /htdocs/js/admiral/init.js
 /webads.
 /adcgi?
+/aclib.js$script,1p
 ! https://github.com/brave/adblock-lists/pull/1974
 /fbevents.js
 ! photopea.com (method:post) showing ads
@@ -123,6 +124,9 @@ tioeroge.blogspot.com##.popSc
 /taboola_header.js
 /taboolaarticle.min.js
 ||taboolasyndication.com^$third-party
+! 9animetv.to
+##.pizza-y.pizza
+##.pizza-x.pizza
 ! Outbrain
 /obtp.js
 /outbrainAd.
