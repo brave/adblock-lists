@@ -346,7 +346,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-notice
 ##.ad-overlay
 ##.ad-panel
-##.ad-placeholder
 ##.ad-rail
 ##.ad-rectangle
 ##.ad-risingstar-container
@@ -888,6 +887,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##a[href^="https://www.financeads.net/tc.php?"]
 ##a[href^="https://ad.doubleclick.net/"]
 ! bait
+#@#.ad-placeholder
 #@#[data-ad-width]
 #@#[data-ad-module]
 #@#[data-ad-manager-id]
@@ -898,6 +898,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##[data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
 ##[data-advadstrackid]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
 ##[data-adblockkey]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(html):not(.adsbygoogle)
+##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ! Specific generic
 ##div.adsninja-ad-zone
 ##div.bgr-ad-leaderboard
