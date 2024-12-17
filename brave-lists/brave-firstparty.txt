@@ -19,6 +19,21 @@
 /webads.
 /adcgi?
 /aclib.js$script,1p
+! Various uBO 1p network items. (START)
+/adc-ads-lib|$script
+! https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters-2024.txt#L767
+/sw.js$script,domain=d0000d.com|d000d.com|d0o0d.com|do0od.com|dood.*|doods.pro|dooood.*|ds2play.com|ds2video.com
+||fmovies.co/sw.js
+||1337x.*/sw.js^
+||stream4free.tv/*.php^$frame,1p
+/sw.js$script,domain=lolabits.se|filechan.org|megaupload.nz|rapidshare.nu|share-online.is|openload.cc|hotfile.io
+||qiwi.gg/sw.js$script,1p
+/api/models/vast?userId=*&adblocked=$xhr,1p
+||freedom.send.cm/s.js$script,1p
+||heraldnet.com/wp-content/plugins/incognito_dectector/js/incognito-detector.js$script,1p
+||instacart.ca/graphql?operationName=DisplayAdPlacement^$xhr,1p
+/sw.js?puid=$script,1p
+! Various uBO 1p network items. (END)
 ! https://github.com/brave/adblock-lists/pull/1974
 /fbevents.js
 ! photopea.com (method:post) showing ads
