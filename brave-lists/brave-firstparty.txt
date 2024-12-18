@@ -3196,7 +3196,7 @@ facebook.com##.RectangleAd
 ! linkedin.com
 linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Promo"])
 linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Anzeige"])
-linkedin.com##.feed-shared-update-v2:has(a[aria-label*="sponsor"])
+linkedin.com##.feed-shared-update-v2:has-text(Promoted)
 ! Portugese
 linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Patrocinado"])
 ! Czech
