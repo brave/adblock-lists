@@ -23,6 +23,10 @@ reliabletv.me##+js(rpnt, script, /function isBrave[\s\S]*(?=const doAuthCheck)/)
 ! /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,strict3p,from=com
 /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,domain=beaumontenterprise.com|bigrapidsnews.com|chicagotribune.com|courant.com|ctinsider.com|ctpost.com|expressnews.com|greenwichtime.com|houstonchronicle.com|lmtonline.com|mcall.com|michigansthumb.com|mrt.com|myjournalcourier.com|myplainview.com|newstimes.com|nydailynews.com|orlandosentinel.com|ourmidland.com|pilotonline.com|seattlepi.com|sfchronicle.com|sfgate.com|stamfordadvocate.com|sun-sentinel.com|thehour.com|theintelligencer.com|thetelegraph.com|timesunion.com
 
+! Test YT rule
+www.youtube.com#@#+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots, , propsToMatch, /\/(?:player|playlist|get_watch)\?/)
+www.youtube.com##+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots, , propsToMatch, /\/(player|playlist|get_watch)\?/)
+
 ! domain=com workaround (popads)
 ! /^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,5}\/){0,2}[a-z]{2,}\?(?:[a-z]+=(?:\d+|[a-z]+)&)*?id=[12]\d{6}/$script,3p,match-case,to=com
 ! /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-z]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p,redirect-rule=noop.js,to=com
