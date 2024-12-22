@@ -42,6 +42,15 @@ photopea.com##div > .bnotify.window:has-text(Are you blocking ads)
 photopea.com##.app.flexrow > div:has-text(Ad blocking detected)
 ! imported from uBO
 /api/users/*&ev=$script
+||vidlink.pro/api/*cash
+! t3n.de anti adblock in articles
+||assets.t3n.de/t3n-de/assets/t3n/2018/scripts/abdtn-$script,1p
+! https://github.com/uBlockOrigin/uAssets/issues/26511
+||images.$frame,1p,domain=nintendolife.com|purexbox.com|pushsquare.com|timeextension.com
+nintendolife.com##.insert-blocker
+! https://www.thedarkblues.co.uk/ - anti-adb
+||thedarkblues.co.uk/applications/adsense/interface/js/adbd.js^$script,1p
+thedarkblues.co.uk##.add_slot_header
 ! 1p and strict1p
 /ajax/embed-4/banners$xhr,1p
 /ajax/banner/vpn|$xhr,1p
