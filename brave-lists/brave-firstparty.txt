@@ -19,6 +19,7 @@
 /webads.
 /adcgi?
 /aclib.js$script,1p
+-contrib-ads.$~stylesheet
 ! Various uBO 1p network items. (START)
 /adc-ads-lib|$script
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters-2024.txt#L767
