@@ -2449,6 +2449,8 @@ outkick.com##.g1-advertisement
 barstoolsports.com##.htl-ad__container
 ! spotim comment ad (huffpost.com/barstoolsports.com)
 ##div[class^="ads__index__adWrapper-"]
+! aipebel.com
+aipebel.com##.popSc
 ! syfy.com
 syfy.com##.zergnet-widget__header
 ! metro.co.uk
