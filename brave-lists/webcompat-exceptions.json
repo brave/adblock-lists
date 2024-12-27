@@ -111,6 +111,15 @@
   },
   {
     "include": [
+      "*://tileman.io/*"
+    ],
+    "exceptions": [
+      "keyboard"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/43055"
+  },
+  {
+    "include": [
       "*://www.jdsports.com/*"
     ],
     "exceptions": [
