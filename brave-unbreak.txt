@@ -1310,6 +1310,8 @@ klz9.com,toonstream.nl,dwish.pro,tvsportslive.fr,myflixer.gs,readcomiconline.li,
 ! /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,3p,to=com
 ! basahin.icu
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,3p
+! popads https://www.tvids.to/
+/^https:\/\/[a-z]{8,16}\.com\/[a-z]{6,17}\?[a-zA-Z=&,].*&s=.*/$script,3p
 ! streamwish.to
 streamwish.to##+js(set-constant, xRds, true)
 streamwish.to##+js(set-constant, cRAds, false)
