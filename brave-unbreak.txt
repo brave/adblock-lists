@@ -17,7 +17,7 @@
 .shop/cuid/
 
 ! workaround https://github.com/brave/brave-browser/issues/42496
-reliabletv.me##+js(rpnt, script, /(\w.+\.html';)$/gm)
+reliabletv.me##+js(rpnt, script, /(.+\.html.+)/gm)
 
 ! strict3p workaround
 ! /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,strict3p,from=com
