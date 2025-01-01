@@ -895,7 +895,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##[data-testid="ad_testID"]
 ##[data-testid="prism-ad-wrapper"]
 ##[id^="ad-wrap-"]
-##[id^="div-gpt-ad"]
 ##display-ads
 ##div[data-content="Advertisement"]
 ##div[class^="native-ad-"]
@@ -906,7 +905,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##div[data-dfp-id]
 ##div[id*="ScriptRoot"]
 ##div[id^="sticky_ad_"]
-##div[id^="div-gpt-"]
 ##div[id^="ezoic-pub-ad-"]
 ##div[id^="rc-widget-"]
 ##div[id^="zergnet-widget"]
@@ -926,6 +924,10 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 #@#[data-ad-manager-id]
 #@#[data-advadstrackid]
 #@#[data-adblockkey]
+##[id^="div-gpt-ad"]
+##div[id^="div-gpt-"]
+##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ##[data-ad-width]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
 ##[data-ad-module]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
 ##[data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
