@@ -3190,6 +3190,7 @@ autoevolution.com##.bgcutgrad
 /fpv2.js
 /sendLogs?cid=
 /tags.js?org_id=
+/wup?cid=
 ! CNAME: account.adobe.com
 @@||account.adobe.com^
 ! CNAME: pol.dk
@@ -3445,8 +3446,12 @@ stripes.com###MidPageAd
 ||ebaystatic.com/rs/v/klminxoj1uyzvo0p0qu4nhpg0qo.js
 ||ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js
 ||event.evtm.53.com^
+||idhtm.bb.com.br^
 ||idstatus.sky.com^
+||img2021.navyfederal.org^
 ||imgs.signifyd.com^
+||log-185a61e7.bendigobank.com.au^
+||mfasa.chase.com/auth/js/jpmc_bb_check.js
 ||olacontent.schwab.com^$script
 ||qfp.intuit.com^
 ||rba-screen.healthsafe-id.com^
@@ -3455,11 +3460,11 @@ stripes.com###MidPageAd
 ||svc2.sc.com^
 ||tm-eps.neutrino.nu^
 ||tmetrix.my.chick-fil-a.com^
-||tmx.bestbuy.com^
 ||tmx.td.com^
 ||u47.pnc.com^
 ||w-profiling.cibc.com^$script
 ||w-profiling.simplii.com^
+||wup-185a61e7.bendigobank.com.au^
 ! Consent/GDPR tracking
 ://a02342.
 ||cb-mms.carbuyer.co.uk^
