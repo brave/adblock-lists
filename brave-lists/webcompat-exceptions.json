@@ -142,7 +142,8 @@
       "*://www.tangerine.ca/*"
     ],
     "exceptions": [
-      "font"
+      "font",
+      "screen"
     ],
      "issue": "https://github.com/brave/brave-browser/issues/42600"
    },
