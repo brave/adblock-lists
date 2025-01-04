@@ -37,6 +37,10 @@ reliabletv.me##+js(rpnt, script, /const doRedirect = 1;[\s\S]*(?=const doAuthChe
 /^https:\/\/www\.[a-z]{8,16}\.com\/[a-z]{4,7}-[a-z]{4,7}\.min\.css$/$script,3p
 /^https:\/\/www\.[a-z]{8,16}\.com\/[a-z]{4,14}\.min\.css$/$script,3p
 
+! idjav.info (NSFW) Work around
+! *$xhr,3p,redirect-rule=nooptext:-1,method=head,to=~adblockanalytics.com|~doubleclick.net|~pagead2.googlesyndication.com
+*$xhr,3p,redirect-rule=nooptext:-1,domain=avdbapi.com
+
 ! southparkstudios.com
 ! https://community.brave.com/t/southparkstudios-com-adblock-detected/581673/7
 ||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$important,redirect-rule=noopjs,from=southparkstudios.com
