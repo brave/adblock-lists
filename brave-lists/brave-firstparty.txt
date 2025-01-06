@@ -1205,6 +1205,7 @@ ads.google.com,youtube.com#@#.video-ads
 azclick.jp,tubefilter.com#@#div#topAd
 gumtree.com.au,s.tabelog.com#@#[data-ad-name]
 news.artnet.com,powernationtv.com,worldsurfleague.com#@#div[data-ad-targeting]
+lifeinvader.com,marginalreport.net,spanishdict.com,studentski-servis.com#@#.ad-wrapper
 ! ezoic ads (first-party ad insertion)
 /beardeddragon/armadillo.js
 /beardeddragon/drake.js
@@ -3726,6 +3727,16 @@ digiday.jp##.ad_height
 ascii.jp##.pickwrap
 ascii.jp##.ad
 ascii.jp##.ad_gam
+! game8.jp
+###fluct-pc-sticky-ad
+game8.jp##.track_mario
+game8.jp##div[id^="g8-ad-placement"]
+game8.jp##.l-billboard_container
+game8.jp##.l-jack__top_container
+||game8.jp/assets/pc/jack_ad/
+||game8.jp/api/ad/advertisement_placements?
+||game8.jp/assets/*/ads/
+||flux-cdn.com^$3p
 ! Japanese first-party (exception rules)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/150552
 @@||ads.nicovideo.jp/assets/js/ads2.js$domain=com.nicovideo.jp
