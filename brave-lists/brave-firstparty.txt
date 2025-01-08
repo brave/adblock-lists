@@ -3141,6 +3141,7 @@ economist.com##.adComponent_advert__kPVUI
 quora.com##.dom_annotate_ad_image_ad
 quora.com##.spacing_log_question_page_ad
 quora.com##.PageContentsLayout___StyledBox-d2uxks-0 > .q-box > .q-sticky > .qu-pb--medium
+quora.com##.q-sticky[style*="box-sizing: border-box; position: sticky;"]:has-text(Advertisement)
 ||quora.com/ads/
 ! thewrap.com
 thewrap.com##.wp-block-the-wrap-ad
