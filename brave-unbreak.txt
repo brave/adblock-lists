@@ -24,6 +24,18 @@ reliabletv.me##+js(rpnt, script, /const doRedirect = 1;[\s\S]*(?=const doAuthChe
 ! /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,strict3p,from=com
 /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,domain=beaumontenterprise.com|bigrapidsnews.com|chicagotribune.com|courant.com|ctinsider.com|ctpost.com|expressnews.com|greenwichtime.com|houstonchronicle.com|lmtonline.com|mcall.com|michigansthumb.com|mrt.com|myjournalcourier.com|myplainview.com|newstimes.com|nydailynews.com|orlandosentinel.com|ourmidland.com|pilotonline.com|seattlepi.com|sfchronicle.com|sfgate.com|stamfordadvocate.com|sun-sentinel.com|thehour.com|theintelligencer.com|thetelegraph.com|timesunion.com
 
+! quora-perf issues
+! https://community.brave.com/t/report-buggy-behaviour-on-one-exclusive-website/591130
+! https://community.brave.com/t/quora-not-responding-and-loading/589272/4
+! https://community.brave.com/t/brave-and-the-quora-website/590785
+quora.com#@#:xpath(//div[not(@class="ui_qtext_para") and contains(text(), 'ad by')]/parent::div/parent::div/parent::div[@id])
+quora.com#@#:xpath(//div[not(@class="ui_qtext_para") and contains(text(), 'promoted') and contains(text(), 'by')]/parent::a/parent::div/parent::div/parent::div[@id])
+quora.com#@#:xpath(//div[not(@class="ui_qtext_para") and contains(text(), 'Quora') and contains(text(), 'by') and contains(text(), 'Business')]/parent::a/parent::div/parent::div/parent::div[@id])
+quora.com#@#.FeedStory.feed_item > div > div:has-text(/by Quora for Business/i)
+quora.com#@#.Toggle.SimpleToggle.ToggleAnswerFooterWrapper > div:has-text(/Promoted/i)
+quora.com#@#:xpath(//span[contains(text(), 'by')]/ancestor::*[contains(concat(' ', @class, ' '), ' external_link ')]/../../..)
+quora.com#@#:xpath(//p[(text()='d')]/../../../../..)
+
 ! domain=com workaround (popads)
 ! /^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,5}\/){0,2}[a-z]{2,}\?(?:[a-z]+=(?:\d+|[a-z]+)&)*?id=[12]\d{6}/$script,3p,match-case,to=com
 ! /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-z]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p,redirect-rule=noop.js,to=com
