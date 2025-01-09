@@ -286,6 +286,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###taboola-below-article-thumbnails
 ###taboola-mid-article-thumbnails-iii
 ###td-ad-placeholder
+###top-advertisement
 ###topad
 ###TopAd
 ###zdcFloatingBtn
@@ -478,6 +479,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ads-box
 ##.ads-global-header
 ##.ad-padding
+##.ad-flex
 ##.ad-no-notice
 ##.ads-wrapper
 ##.ads_leaderboard
@@ -1271,7 +1273,7 @@ pubs.rsc.org###journal-info > .text--centered
 forums.whathifi.com###jwplayer-container-div
 express.co.uk###mantis-recommender-top-placeholder
 ispreview.co.uk###mobile-takeover-slot-8
-express.co.uk###ovp-primis
+express.co.uk,the-express.com###ovp-primis
 blackamericaweb.com,bossip.com,cassiuslife.com,charlieintel.com,dexerto.com,hiphopwired.com,madamenoire.com,newsone.com,tvone.tv###player-wrapper
 bar-planb.com###player_dev
 essentiallysports.com###player_stn-player__Dybik
@@ -1282,7 +1284,9 @@ freethesaurus.com###qk2
 freethesaurus.com###qk5
 realclearpolitics.com###realclear_jwplayer_container
 ispreview.co.uk###sidebar-slot-5
+wideopencountry.com###sv-video-container
 uproxx.com###upx-mm-player-wrap
+wideopencountry.com###video-header
 sportskeeda.com###video-player-container--
 onlyinyourstate.com###video1-1
 newseveryday.com###vplayer_large
@@ -1295,6 +1299,7 @@ telegraph.co.uk##.article-betting-unit-container
 financemagnates.com##.article-sidebar__video-banner
 ibtimes.com,sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
+bmwblog.com##.bmwbl-video-in-content
 washingtonexaminer.com##.bridtv
 pedestrian.tv##.brightcove-video-container
 military.com##.brightcove-video-wrapper
@@ -1321,6 +1326,7 @@ thestar.co.uk##.gOoqzH
 electricianforum.co.uk##.gb-sponsored
 arboristsite.com##.gb-sponsored-wrapper
 givemesport.com##.gms-videos-container
+gamesradar.com##.in-article
 bringmethenews.com,mensjournal.com,thestreet.com##.is-fallback-player
 evoke.ie##.jw-player-video-widget
 anandtech.com##.jwplayer
@@ -1341,16 +1347,16 @@ pagesix.com##.nyp-video-player
 picrew.me##.play-Imagemaker_Footer
 sciencetimes.com##.player
 bossip.com##.player-wrapper-inner
-theroar.com.au##.pm-video-player__container-outermost
 swimswam.com##.polls-461
+baseball-reference.com,basketball-reference.com,fbref.com,hockey-reference.com,pro-football-reference.com,sports-reference.com##.primis
 appleinsider.com##.primis-ad-wrap
 iheart.com##.provider-stn
 pedestrian.tv##.recent-jobs-widget
 kidspot.com.au##.secondary-video
 pedestrian.tv##.sticky-item-group
 playbuzz.com##.stickyplayer-container
-the-express.com##.stn-video-container
 si.com##.style_hfl21i-o_O-style_uhlm2
+gazette.com##.tnt-section-sponsored
 thegrio.com##.tpd-featured-video
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
@@ -1372,6 +1378,7 @@ comicbook.com##.wp-block-savage-platform-primis-video
 thecooldown.com##.wp-block-tcd-multipurpose-gutenberg-block
 bigthink.com##.wrapper-connatixElements
 bigthink.com##.wrapper-connatixPlayspace
+global.espreso.tv##.ym-video--wrapper
 totalprosports.com##[data-stn-player="n2psbctm"]
 worldsoccertalk.com##[id*="primis_"]
 offidocs.com##[id^="ja-container-prev"]
@@ -1595,6 +1602,8 @@ torquenews.com##.header-wrapper
 ! newskarnataka.com
 newskarnataka.com##.newsk-target
 ! phonearena.com 
+phonearena.com##.spot-sticky-container
+phonearena.com##.spot
 phonearena.com##.announcements
 ! drakecomic.com Anti-adblock
 ||drakecomic.*/wp-content/themes/mangareader/script.js
@@ -2222,6 +2231,8 @@ bestlifeonline.com##.placeholder-a-block
 eatthis.com##[id^="gm_karmaadunit_widget"]
 eatthis.com##.inline
 ! mayoclinic.org
+mayoclinic.org###ad-mobile-top-container
+mayoclinic.org###ad-mobile-bottom-container
 mayoclinic.org##.mayoad > .policy
 ! indianexpress.com
 indianexpress.com##.add-first
@@ -2456,6 +2467,18 @@ huffingtonpost.es##[data-adtype]
 outkick.com##.g1-advertisement
 ! barstoolsports.com
 barstoolsports.com##.htl-ad__container
+! nameberry.com
+nameberry.com##.Pagination-ad
+nameberry.com##.htlad-InContent_Flex
+nameberry.com##.htlad-Leaderboard_Flex
+! htlad- related
+avclub.com,splinter.com##.htlad-above_logo
+avclub.com,splinter.com##.htlad-bottom_rectangle
+destructoid.com##.htlad-destructoidcom_leaderboard_atf
+avclub.com,splinter.com##.htlad-middle_rectangle
+avclub.com,jezebel.com,pastemagazine.com,splinter.com##.htlad-sidebar_rectangle
+avclub.com,splinter.com##.htlad-top_rectangle
+startribune.com##[class*="htlad-"]
 ! spotim comment ad (huffpost.com/barstoolsports.com)
 ##div[class^="ads__index__adWrapper-"]
 ! aipebel.com
@@ -2728,18 +2751,17 @@ finance.yahoo.com##.gam-placeholder
 yahoo.com##.gemini-ad
 yahoo.com##.gemini-ad-feedback
 yahoo.com##.item-beacon
-www.yahoo.com##.leading-3:has-text(Advertisement)
+yahoo.com##.leading-3:has-text(Advertisement)
 yahoo.com##.mx-\[-50vw\]
 yahoo.com##.ntk-ad-item
 sports.yahoo.com##.post-article-ad
 finance.yahoo.com##.sdaContainer
-search.yahoo.com##.searchRightBottomAds
-search.yahoo.com##.searchRightTopAds
 yahoo.com##.sys_shopleguide
 yahoo.com##.top-\[92px\]
 yahoo.com##.viewer-sda-container
 yahoo.com##[data-content="Advertisement"]
 mail.yahoo.com##[data-test-id="gam-iframe"]
+mail.yahoo.com##[data-test-id="leaderboard-ad-mobile"]
 mail.yahoo.com##[data-test-id^="pencil-ad"]
 mail.yahoo.com##[data-test-id^="taboola-ad-"]
 yahoo.com##[data-wf-beacons]
