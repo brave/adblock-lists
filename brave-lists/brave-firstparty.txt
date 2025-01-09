@@ -19,6 +19,7 @@
 /webads.
 /adcgi?
 /aclib.js$script,1p
+/ad/ad_common.js$script
 -contrib-ads.$~stylesheet
 ! Various uBO 1p network items. (START)
 /adc-ads-lib|$script
@@ -922,6 +923,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 #@#.ad-slot
 #@#.Ad-Container
 #@#.ad-placeholder
+#@#.ad-area
 #@#[data-ad-width]
 #@#[data-ad-module]
 #@#[data-ad-manager-id]
@@ -936,6 +938,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##[data-ad-manager-id]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
 ##[data-advadstrackid]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
 ##[data-adblockkey]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(html):not(.adsbygoogle)
+##.ad-area:not(.text-ad)
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ##.ad-slot:not(.adsbox):not(.adsbygoogle)
 ##.sidebar-ad:not(.adsbygoogle)
@@ -3678,6 +3681,8 @@ news.yahoo.co.jp##.newsFeed_list > li > div[id^="ad"]
 yahoo.co.jp###lrec
 news.yahoo.co.jp##[type="mmon"]:has(div[id*="yads_"])
 news.yahoo.co.jp##[type="enm"]:has(div[id*="yads_"])
+! appmedia.jp
+appmedia.jp##.ad_sp_header
 ! asahi.com
 asahi.com###HometopAd
 asahi.com##.AdMod
