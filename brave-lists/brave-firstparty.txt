@@ -258,6 +258,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###interstory_second_ddb_0
 ###intro_ad_1
 ###js-image-ad-mpu
+###leaderboard_728x90
 ###leaderboard.ad
 ###leaderboard-ad
 ###leftad
@@ -899,6 +900,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##[data-revive-zoneid]
 ##[data-test="vf-es-ad-wrapper"]
 ##[data-testid="ad_testID"]
+##[data-identity="adhesive-ad"]
 ##[data-testid="prism-ad-wrapper"]
 ##[id^="ad-wrap-"]
 ##display-ads
@@ -1915,6 +1917,18 @@ agcanada.com,allmusic.com,allrecipes.com,allthatsinteresting.com,autoaction.com.
 clutchpoints.com##.cafemedia-clutchpoints-header
 ! nba.com
 nba.com##[data-ad-type="banner"]
+! bild.de
+bild.de###superbanner
+bild.de###mrec
+bild.de##+js(trusted-replace-node-text, script, adBlockWallEnabled":true, adBlockWallEnabled":false)
+spiele.bild.de##div[id^="ad-landingpage-"]
+spiele.bild.de##div[id^="ad-gamepage-"]
+spiele.bild.de##.ad-vertical-box
+bild.de##div:matches-css-before(content:/Anzeige/i)
+! clevelandclinic.org
+clevelandclinic.org##[data-identity*="billboard-ad"]
+clevelandclinic.org##[data-identity="leaderboard-ad"]
+my.clevelandclinic.org##div[data-identity*="board-ad"]
 ! si.com
 si.com##.m-balloon-header--ad
 si.com##[data-ad-group]
