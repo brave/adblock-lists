@@ -36,6 +36,9 @@ quora.com#@#.Toggle.SimpleToggle.ToggleAnswerFooterWrapper > div:has-text(/Promo
 quora.com#@#:xpath(//span[contains(text(), 'by')]/ancestor::*[contains(concat(' ', @class, ' '), ' external_link ')]/../../..)
 quora.com#@#:xpath(//p[(text()='d')]/../../../../..)
 
+! lang specific anti-adblock
+france.tv##+js(prevent-fetch, fwmrm)
+
 ! domain=com workaround (popads)
 ! /^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,5}\/){0,2}[a-z]{2,}\?(?:[a-z]+=(?:\d+|[a-z]+)&)*?id=[12]\d{6}/$script,3p,match-case,to=com
 ! /^https?:\/\/(?:www\.|[0-9a-z]{7,10}\.)?[-0-9a-z]{5,}\.com\/\/?(?:[0-9a-z]{2}\/){2,3}[0-9a-f]{32}\.js/$script,3p,redirect-rule=noop.js,to=com
