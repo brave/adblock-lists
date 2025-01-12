@@ -38,6 +38,8 @@ quora.com#@#:xpath(//p[(text()='d')]/../../../../..)
 
 ! lang specific anti-adblock
 france.tv##+js(prevent-fetch, fwmrm)
+sussyscan.com##+js(prevent-fetch, www3.doubleclick.net)
+
 
 ! domain=com workaround (popads)
 ! /^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,5}\/){0,2}[a-z]{2,}\?(?:[a-z]+=(?:\d+|[a-z]+)&)*?id=[12]\d{6}/$script,3p,match-case,to=com
