@@ -158,6 +158,8 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||carpfreshtying.com^
 ||profitablegatecpm.com^
 ||cloudimagesb.com^
+||pictreed.com^
+||liadm.com^
 ||inbbredraxing.com^
 ||yellow-resultsbidder.com^
 ||rndskittytor.com^
