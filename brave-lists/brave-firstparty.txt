@@ -923,18 +923,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##a[href^="https://www.financeads.net/tc.php?"]
 ##a[href^="https://ad.doubleclick.net/"]
 ! bait
-#@#.sidebar-ad
-#@#.ad-slot
-#@#.Ad-Container
-#@#.ad-placeholder
-#@#.ad-area
-#@#[data-ad-width]
-#@#[data-ad-module]
-#@#[data-ad-manager-id]
-#@#[data-advadstrackid]
-#@#[data-adblockkey]
-##[id^="div-gpt-ad"]
-##div[id^="div-gpt-"]
 ##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ##[data-ad-width]:not([style$="left: -10000px !important; top: -1000px !important;"]):not(.adsbygoogle)
