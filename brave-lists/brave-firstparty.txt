@@ -1557,6 +1557,10 @@ atlasobscura.com##.ad-site-top-full-width
 ! twitch.tv
 ||edge.ads.twitch.tv^
 twitch.tv##.player-overlay-background:has-text(Consider Turbo)
+! pandora.com (ads)
+||pandora.com/web-client-assets/displayadframe.
+||pandora.com/api/v1/ad/
+||pandora.com/static/ads/omsdk-$script
 ! securityweek.com
 ||ads.securityweek.com/app.js
 ! plos.org
