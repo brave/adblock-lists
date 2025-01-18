@@ -3237,7 +3237,6 @@ autoevolution.com##.bgcutgrad
 /fps/check.php
 /fptrk.min.js
 /fpv2.js
-/fps/check.
 /fpTracker/*
 /fptrk.min.js
 /fpv2.js
