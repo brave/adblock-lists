@@ -3229,11 +3229,14 @@ autoevolution.com##.bgcutgrad
 /fp/top_fp.
 /fp2.compressed.js
 /fp_204?
+/fpc/cookie_js.php
 /fpc.pl?a=
 /fpcookie?
 /fpcount.exe
 /fprnt.min.js
-/fps/check.
+/fps/check.php
+/fptrk.min.js
+/fpv2.js
 /fpTracker/*
 /fptrk.min.js
 /fpv2.js
@@ -3481,6 +3484,8 @@ stripes.com###MidPageAd
 ||citibank.com.sg/jso/js/fp.js
 ||citibank.com.sg/tmx/
 ||clear.wallapop.com^
+||content.canadiantire.ca^
+||content.tab.com.au^
 ||content22.bmo.com^
 ||content22.citi.eu^$script
 ||content22.citibank.com.au^
@@ -3525,7 +3530,6 @@ stripes.com###MidPageAd
 ||cmp.lepoint.fr^
 ||cmp.netzwelt.de^
 ||cmp.nouvelobs.com^
-||cmp.tech426.com^
 ||cmp.tek.no^
 ||cmp.telerama.fr^
 ||d.sourcepoint.capitalfm.com^
@@ -3534,7 +3538,6 @@ stripes.com###MidPageAd
 ||sourcepoint-mms.history.com^
 ||sourcepoint-mms.mylifetime.com^
 ||trustarc.mgr.consensu.org/get?
-||vg247-p2.vg247.com^
 ||vg247-uk.vg247.com^
 ! Fingerprint
 ||bankofamerica.com/cookie-id.js
@@ -3544,6 +3547,7 @@ stripes.com###MidPageAd
 ||d810.mysanantonio.com^
 ||dii.bankaust.com.au^
 ||f775.thehour.com^
+||glassbox-hlx-igw.bankofamerica.com^
 ||h353.ncadvertiser.com^
 ||h559.stamfordadvocate.com^
 ||halifax-online.co.uk/scripts/16c9d93d/
@@ -3553,7 +3557,6 @@ stripes.com###MidPageAd
 ||pf.intuit.com^
 ||q777.sfchronicle.com^
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
-||sofa.bankofamerica.com^
 ||t570.wiltonbulletin.com^
 ||tilt.bankofamerica.com^
 ||u652.myplainview.com^
@@ -3567,6 +3570,7 @@ stripes.com###MidPageAd
 ||z680.beaumontenterprise.com^
 ||zion.qbo.intuit.com^
 ! PerimeterX
+||alaskaair.com/AlXMT4Ma/init.js
 ||anthropologie.com/XgWM9nuH/init.js
 ||apartmenttherapy.com/jAYekY18/init.js
 ||arcteryx.com/943r4Fb8/init.js
@@ -3575,6 +3579,7 @@ stripes.com###MidPageAd
 ||auctionzip.com/eKtvxkQ2/init.js
 ||b.px-cdn.net/api/v1/PXrf8vapwA/
 ||bathandbodyworks.com/lsXlyYa5/init.js
+||beaumontenterprise.com/413gkwMT/init.js
 ||belk.com/0iiey9LM/init.js
 ||bhphotovideo.com/3D8mkYG1/init.js
 ||bloomberg.com/8FCGYgk4/init.js
@@ -3589,8 +3594,12 @@ stripes.com###MidPageAd
 ||careermatch.com/oGckki0e/init.js
 ||carolsdaughter.com/IZ/uaPO0cuk/init.js
 ||carters.com/0F3091f3/init.js
+||chron.com/413gkwMT/init.js
+||cookpad.com/FqtAw5et/init.js
 ||couchsurfing.com/bEcn7fQX/init.js
 ||crunchbase.com/rw7M6iAV/init.js
+||ctinsider.com/413gkwMT/init.js
+||ctpost.com/413gkwMT/init.js
 ||discount.hk-hotel.com/QUkd4lO9/init.js
 ||drupal.org/VnPBBfwe/init.js
 ||expressnews.com/413gkwMT/init.js
@@ -3626,15 +3635,22 @@ stripes.com###MidPageAd
 ||kiva.org/r3pNVz1F/init.js
 ||ktla.com/CvbtpUrj/init.js
 ||lancome-usa.com/IZ/PXq99AlOxk/init.js
+||lmtonline.com/413gkwMT/init.js
 ||madlan.co.il/o4wPDYYd/init.js
+||middletownpress.com/413gkwMT/init.js
+||mrt.com/413gkwMT/init.js
 ||mysanantonio.com/413gkwMT/init.js
+||ncadvertiser.com/413gkwMT/init.js
 ||newsnationnow.com/yZuPxxW0/init.js
+||newstimes.com/413gkwMT/init.js
+||nhregister.com/413gkwMT/init.js
 ||nyxcosmetics.com/IZ/PXLZNv2dn4/init.js
 ||octopart.com/kdRQnL15/init.js
 ||oshkosh.com/0F3091f3/init.js
 ||priceline.com/9aTjSd0n/init.js
 ||ralphlauren.com^*/init.js
 ||realtor.com/rdc_user_check/init.js
+||registercitizen.com/413gkwMT/init.js
 ||sams.com.mx/px/PX87wpO5aK/init.js
 ||samsclub.com/px/PXsLC3j22K/init.js
 ||seattlepi.com/413gkwMT/init.js
@@ -3651,12 +3667,14 @@ stripes.com###MidPageAd
 ||snipesusa.com/6XNN2xkk/init.js
 ||spirit.com/kp4CLSb5/init.js
 ||ssense.com/58Asv359/init.js
+||stamfordadvocate.com/413gkwMT/init.js
 ||stockx.com/16uD0kOF/init.js
 ||streeteasy.com/cZdhF737/init.js
 ||studeersnel.nl/27m703Hm/init.js
 ||studocu.com/27m703Hm/init.js
 ||sweetwater.com/p2TBVNJZ/init.js
 ||thehill.com/6zcfGH4h/init.js
+||thehour.com/413gkwMT/init.js
 ||thekitchn.com/jAYekY18/init.js
 ||therealreal.com/ev56mY37/init.js
 ||timesunion.com/413gkwMT/init.js
@@ -3675,6 +3693,7 @@ stripes.com###MidPageAd
 ||worthpoint.com/lIUjcOwl/init.js
 ||www.digikey.*/lO2Z493J/init.js
 ||www.mouser.*/4UAZUiaI/init.js
+||yeti.com/T1p5rBaN/init.js
 ||zazzle.ca/botdefender/init.js
 ||zazzle.ca/svc/px
 ||zazzle.co.nz/botdefender/init.js
@@ -3691,7 +3710,7 @@ stripes.com###MidPageAd
 ||zazzle.es/svc/px
 ||zazzle.fr/botdefender/init.js
 ||zazzle.fr/svc/px
-||zillow.com/HYx10rg3/init.js
+! ||zillow.com/HYx10rg3/init.js
 ||zoominfo.com/osx7m0dx/init.js
 ! Prevents cookie messages from launching
 ||cv-library.co.uk/cdn-cgi/zaraz/
