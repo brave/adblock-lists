@@ -16,6 +16,10 @@ www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk
 ! https://www.alphr.com/disable-google-recommends/
 www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##iframe[src^="https://ogs.google."][src*="/widget/callout?prid="]
 
+! Test rule to prevent open-in-app on mobile
+m.youtube.com##+js(trusted-click-element, button.yt-spec-button-shape-next, , 1500)
+m.youtube.com##+js(trusted-click-element, button.yt-spec-button-shape-next, , 3000)
+
 ! Twitch test rules
 twitch.tv##+js(vaft-ublock-origin)
 
