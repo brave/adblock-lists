@@ -1202,37 +1202,49 @@ gumtree.com.au,s.tabelog.com#@#[data-ad-name]
 news.artnet.com,powernationtv.com,worldsurfleague.com#@#div[data-ad-targeting]
 lifeinvader.com,marginalreport.net,spanishdict.com,studentski-servis.com#@#.ad-wrapper
 ! ezoic ads (first-party ad insertion)
-/beardeddragon/armadillo.js
-/beardeddragon/drake.js
-/beardeddragon/tortoise.js
-/beardeddragon/turtle.js
-/detroitchicago/anaheim.js
-/detroitchicago/augusta.js
-/detroitchicago/boise.js
-/detroitchicago/denver.js
-/detroitchicago/houston.js
-/detroitchicago/kenai.js
-/detroitchicago/memphis.js
-/detroitchicago/minneapolis.js
-/detroitchicago/portland.js
-/detroitchicago/raleigh.js
-/detroitchicago/reportads.js
-/detroitchicago/rochester.js
-/detroitchicago/sidebarwall.js
-/detroitchicago/tampa.js
-/detroitchicago/tuscon.js
-/detroitchicago/vista.js
+/beardeddragon/armadillo.js$script
+/beardeddragon/drake.js$script
+/beardeddragon/gilamonster.js$script
+/beardeddragon/iguana.js$script
+/beardeddragon/tortoise.js$script
+/beardeddragon/turtle.js$script
+/beardeddragon/wyvern.js$script
+/detroitchicago/anaheim.js$script
+/detroitchicago/augusta.js$script
+/detroitchicago/boise.js$script
+/detroitchicago/cmbdv2.js$script
+/detroitchicago/cmbv2.js$script
+/detroitchicago/denver.js$script
+/detroitchicago/gateway.js$script
+/detroitchicago/houston.js$script
+/detroitchicago/kenai.js$script
+/detroitchicago/memphis.js$script
+/detroitchicago/minneapolis.js$script
+/detroitchicago/portland.js$script
+/detroitchicago/raleigh.js$script
+/detroitchicago/reportads.js$script
+/detroitchicago/rochester.js$script
+/detroitchicago/sidebarwall.js$script
+/detroitchicago/springfield.js$script
+/detroitchicago/stickyfix.js$script
+/detroitchicago/tampa.js$script
+/detroitchicago/tulsa.js$script
+/detroitchicago/tuscon.js$script
+/detroitchicago/vista.js$script
 /detroitchicago/vpp.gif?
+/detroitchicago/wichita.js$script
 /edmonton.webp$script
-/ez_aba_load/*
-/ezcl.webp?
+/ezcl.webp?$script
 /ezf-min.$script
 /ezo/*$script,~third-party,domain=~yandex.by|~yandex.com|~yandex.kz|~yandex.ru|~yandex.ua
 /ezoic/*$script,~third-party
 /jellyfish.webp$script
-/parsonsmaize/mulvane.js
-/parsonsmaize/olathe.js
-/tardisrocinante/vitals.js
+/parsonsmaize/chanute.js$script
+/parsonsmaize/mulvane.js$script
+/parsonsmaize/olathe.js$script
+/tardisrocinante/austin.js$script
+/tardisrocinante/surgeonv2.js$script
+/tardisrocinante/vitals.js$script
 ! remove-params (ads)
 $removeparam=ad-config-id,xhr,domain=telequebec.tv
 &caid=$removeparam=caid,xhr,domain=max.com
@@ -1267,6 +1279,7 @@ express.co.uk,the-express.com###ovp-primis
 blackamericaweb.com,bossip.com,cassiuslife.com,charlieintel.com,dexerto.com,hiphopwired.com,madamenoire.com,newsone.com,tvone.tv###player-wrapper
 bar-planb.com###player_dev
 essentiallysports.com###player_stn-player__Dybik
+techlicious.com###primis-incontent-desktop
 charlieintel.com,dexerto.com###primis-player
 flightradar24.com###primisAdContainer
 freethesaurus.com###qk1
@@ -1289,6 +1302,7 @@ telegraph.co.uk##.article-betting-unit-container
 financemagnates.com##.article-sidebar__video-banner
 ibtimes.com,sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
+digitaltrends.com##.b-connatix
 bmwblog.com##.bmwbl-video-in-content
 washingtonexaminer.com##.bridtv
 pedestrian.tv##.brightcove-video-container
@@ -1318,6 +1332,7 @@ arboristsite.com##.gb-sponsored-wrapper
 givemesport.com##.gms-videos-container
 gamesradar.com##.in-article
 bringmethenews.com,mensjournal.com,thestreet.com##.is-fallback-player
+gmanetwork.com##.ivs-placeholder
 evoke.ie##.jw-player-video-widget
 anandtech.com##.jwplayer
 gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
@@ -1340,6 +1355,7 @@ bossip.com##.player-wrapper-inner
 swimswam.com##.polls-461
 baseball-reference.com,basketball-reference.com,fbref.com,hockey-reference.com,pro-football-reference.com,sports-reference.com##.primis
 appleinsider.com##.primis-ad-wrap
+themarysue.com##.primis-player-container
 iheart.com##.provider-stn
 pedestrian.tv##.recent-jobs-widget
 kidspot.com.au##.secondary-video
@@ -1392,8 +1408,47 @@ click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,news4jax.com,wsls
 accuweather.com,cheddar.tv,deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br,tvinsider.com#@#.cnx-player-wrapper
 accuweather.com#@#.connatix-player
 huffpost.com#@#.connatix-wrapper
-mm-watch.com,player.ex.co,theautopian.com,usatoday.com#@#.pbs__player
 screenrant.com#@#.w-adsninja-video-player
+! :has()
+windowscentral.com###article-body > .hawk-nest[data-widget-id]:has(a[class^="hawk-affiliate-link-"][class$="-button"])
+cars.com###branded-canvas-click-wrapper:has(> #native-ad-html)
+radio.at,radio.de,radio.dk,radio.es,radio.fr,radio.it,radio.net,radio.pl,radio.pt,radio.se###headerTopBar ~ div > div:has(div#RAD_D_station_top)
+gtaforums.com###ipsLayout_mainArea div:has(> #pwDeskLbAtf)
+aleteia.org###root > div[class]:has(> .adslot)
+scribd.com###sidebar > div:has(> div > [data-e2e^="dismissible-ad-header"])
+bbc.com###sticky-mpu:has(.dotcom-ad-inner)
+kroger.com##.AutoGrid-cell:has(.ProductCard-tags > div > span[data-qa="featured-product-tag"])
+nationalgeographic.com##.FrameBackgroundFull--grey:has(.ad-wrapper)
+sbs.com.au##.MuiBox-root:has(> .desktop-ads)
+luxa.org##.MuiContainer-root:has(> ins.adsbygoogle)
+manomano.co.uk,manomano.de,manomano.es,manomano.fr,manomano.it##.Ssfiu-:has([data-testid="popoverTriggersponsoredLabel"])
+outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##._6y8t:has(a[href="/ads/about/?entry_product=ad_preferences"])
+haveibeenpwned.com##.actionsBar:has(.why1Password)
+slickdeals.net##.announcementBar:has(.sponsorContent)
+thedailywtf.com##.article-body > div:has-text([Advertisement])
+nation.africa##.article-collection-teaser:has(.sponsored-label)
+thesun.co.uk##.article-sidebar .widget-sticky:has([class*="ad_widget"])
+historic-uk.com##.article-sidebar:has-text(Advertisement)
+forexlive.com##.article-slot__wrapper:has(.article-header__sponsored)
+time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
+hackernoon.com##.articles-wrapper > div:not([class]):has(a[href^="https://ad.doubleclick.net/"])
+blitz.gg##.aside-content-column:has(.display-ad)
+beaumontenterprise.com,chron.com,ctinsider.com,ctpost.com,expressnews.com,greenwichtime.com,houstonchronicle.com,lmtonline.com,manisteenews.com,michigansthumb.com,middletownpress.com,mrt.com,myjournalcourier.com,myplainview.com,mysanantonio.com,newstimes.com,nhregister.com,ourmidland.com,registercitizen.com,sfchronicle.com,stamfordadvocate.com,thehour.com,theintelligencer.com##.b-gray300:has-text(Advertisement)
+olympics.com##.b2p-list__item:has(> .adv-fluid)
+beincrypto.com##.before-author-block-bio:has-text(Sponsored)
+outsports.com##.bg-gray-100:has(.adb-os-lb-incontent)
+dropstab.com##.bg-slate-100:has-text(Ad)
+atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca##.block-wrapper:has(.element-header__sponsoredLabel)
+loblaws.ca##.block-wrapper:has([data-track-product-component="carousel||rmp_sponsored"])
+haveibeenpwned.com##.bodyGradient > :has(.why1Password)
+coincarp.com##.border-bottom:has-text(Sponsored)
+thenewdaily.com.au##.border-grey-300:has(> [data-ad-id])
+dropstab.com##.bottom-0.gap-2:has-text(/Stake Now|Invest Now/)
+chosun.com##.box--bg-grey-20:has(.dfpAd)
+radioreference.com##.box.gradient:has(a[href*="&Click="])
+gpro.net##.boxy:has(#blockblockA)
+slickdeals.net##.bp-p-filterGrid_item:has(.bp-c-label--promoted)
 ! Mgid
 ##div[id*="MarketGid"]
 ! Google funding
@@ -1618,7 +1673,10 @@ kisscartoon.*,kissasian.*,kickassanime.*,kissasian.*,kissanime.*###upgrade_pop
 ! readcomiconline.li
 readcomiconline.li##div[style*="width: 300px"]
 readcomiconline.li##.divCloseBut
-/ads/bid300c.aspx
+/Ads/bid300a.aspx$subdocument
+/Ads/bid300b.aspx$subdocument
+/Ads/bid300c.aspx$subdocument
+/Ads/bid728.aspx$subdocument
 ! .insert
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert-label
