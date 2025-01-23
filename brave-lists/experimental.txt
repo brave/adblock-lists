@@ -18,8 +18,6 @@ www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk
 
 ! Test rule to prevent open-in-app on mobile
 m.youtube.com##+js(rc, paused-mode, , stay)
-m.youtube.com##+js(trusted-click-element, button.yt-spec-button-shape-next, , 1500)
-m.youtube.com##+js(trusted-click-element, button.yt-spec-button-shape-next, , 3000)
 
 ! Twitch test rules
 twitch.tv##+js(vaft-ublock-origin)
