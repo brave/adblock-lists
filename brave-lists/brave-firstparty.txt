@@ -912,6 +912,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##div[data-adunit]
 ##div[data-dfp-id]
 ##div[id*="ScriptRoot"]
+##div[id^="adngin-"]
 ##div[id^="sticky_ad_"]
 ##div[id^="ezoic-pub-ad-"]
 ##div[id^="rc-widget-"]
@@ -2694,6 +2695,10 @@ dictionary.com,thesaurus.com##.SZjJlj7dd7R6mDTODwIT
 dictionary.com,thesaurus.com##.fHACXxic9xvQeSNITiwH
 dictionary.com,thesaurus.com##.otd-item__bottom
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
+! dict.cc
+dict.cc###adrig
+dict.cc###recthomebot
+dict.cc###recthome
 ! glensidelocal.com
 glensidelocal.com##.advertising-callout
 ! thescore.com
