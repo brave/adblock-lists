@@ -252,8 +252,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###dsk-banner-ad-b
 ###fixed-ad
 ###header-ad-block
-###hgiks-top
-###hgiks-middle
 ###interstory_first_ddb_0
 ###interstory_second_ddb_0
 ###intro_ad_1
@@ -741,8 +739,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.mm-banner970-ad
 ##.mntl-gpt-adunit
 ##.mntl-sc-block-adslot
-##.mntl-leaderboard-header
-##.mntl-leaderboard-spacer
 ##.mobile-ad
 ##.mobile-ads
 ##.mobile-ad-placeholder
@@ -772,6 +768,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.pageAdSkin
 ##.pageAdSkinUrl
 ##.pane-sasia-ad
+##.partner_ads
 ##.pg-adnotice
 ##.pg-adtarget
 ##.pgevoke-story-topads
@@ -827,7 +824,6 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.stickyRailAd
 ##.sticky-rail-ad-container
 ##.stickyAd
-##.style_k8mr7b-o_O-style_uhlm2
 ##.tablet-ad
 ##.tadm_ad_unit
 ##.takeover-ad
@@ -870,6 +866,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.video-ad
 ##.video-ads
 ##.video-ads-container
+##.video-inline-ads
 ##.vjs-ima3-ad-container
 ##.vf3-conversations-list__promo
 ##.wh_ad_inner
@@ -1262,6 +1259,26 @@ $removeparam=ad-config-id,xhr,domain=telequebec.tv
 ||warnermediacdn.com/csm*conf_csid=$xhr,removeparam=conf_csid,domain=cnn.com
 ||warnermediacdn.com/csm*prof=$xhr,removeparam=prof,domain=cnn.com
 ||ngtv.io/v2/media/live$xhr,3p,removeparam=ssaiProfile,domain=cnn.com
+! fansided. mentalfloss.com,netflixlife.com,winteriscoming.net,ipreferreading.com
+##.ad_1tdq7q5
+##.style_k8mr7b-o_O-style_uhlm2
+! 247slots.org/247checkers.com/247backgammon.org/247hearts.com etc
+##.aspace-300x169
+##.aspace-300x250
+! actvid.com,f2movies.to,fmovies.ink,fmovies.ps,fmoviesto.cc,himovies.to,movies2watch.tv,moviesjoy.to,soap2day.rs
+###hgiks-middle
+###hgiks-top
+! flashscore.co.uk,soccer24.com,flashscore.it
+##.boxOverContent__banner
+! https://publicwww.com/websites/%22happy-under-player%22/
+##.happy-under-player
+! https://github.com/easylist/easylist/pull/16654
+##.mntl-leaderboard-header
+##.mntl-leaderboard-spacer
+! adsninja fix
+androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.adsninja-ad-zone-container-with-set-height
+androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##[class*="ad-zone-container-content-character-count-repeatable"]
+androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##[id^="adsninja-ad-zone-adsninja-ad-unit-footer"]
 ! invideo advertising
 gunsandammo.com###VideoPlayerDivIframe
 usnews.com###ac-lre-player-ph
@@ -1270,7 +1287,7 @@ wral.com###exco
 factinate.com###factinateVidazoo
 ispreview.co.uk###footer-slot-3
 ginx.tv###ginx-floatingvod-containerspacer
-ibtimes.com###ibt-video
+ibtimes.com,latintimes.com###ibt-video
 gunsandammo.com###inline-player
 pubs.rsc.org###journal-info > .text--centered
 forums.whathifi.com###jwplayer-container-div
@@ -1287,6 +1304,7 @@ freethesaurus.com###qk1
 freethesaurus.com###qk2
 freethesaurus.com###qk5
 realclearpolitics.com###realclear_jwplayer_container
+whoer.net###render-big-banners
 ispreview.co.uk###sidebar-slot-5
 wideopencountry.com###sv-video-container
 uproxx.com###upx-mm-player-wrap
@@ -1295,13 +1313,13 @@ sportskeeda.com###video-player-container--
 onlyinyourstate.com###video1-1
 newseveryday.com###vplayer_large
 tvline.com##._video_ti56x_1
-techtimes.com##.ad_wrapper_video
+musictimes.com,sciencetimes.com,techtimes.com##.ad_wrapper_video
 indy100.com##.addressed_cls
 androidheadlines.com,gcaptain.com,mp1st.com,thedebrief.org,unofficialnetworks.com##.adthrive
 muscleandfitness.com##.ami-video-placeholder
 telegraph.co.uk##.article-betting-unit-container
 financemagnates.com##.article-sidebar__video-banner
-ibtimes.com,sciencetimes.com##.article-videoplayer
+ibtimes.com,latintimes.com,sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
 digitaltrends.com##.b-connatix
 bmwblog.com##.bmwbl-video-in-content
@@ -1340,7 +1358,6 @@ gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthse
 space.com##.jwplayer__wrapper
 southernliving.com##.karma-sticky-rail
 gearjunkie.com##.ldm_ad
-usmagazine.com##.lead-container
 thespun.com##.m-video-player
 ispreview.co.uk##.midarticle-slot-10
 insideevs.com##.minutely_video_wrap
@@ -1354,6 +1371,7 @@ picrew.me##.play-Imagemaker_Footer
 sciencetimes.com##.player
 bossip.com##.player-wrapper-inner
 swimswam.com##.polls-461
+whoer.net##.popup-counter-deal__wrapper
 baseball-reference.com,basketball-reference.com,fbref.com,hockey-reference.com,pro-football-reference.com,sports-reference.com##.primis
 appleinsider.com##.primis-ad-wrap
 themarysue.com##.primis-player-container
@@ -1368,7 +1386,7 @@ thegrio.com##.tpd-featured-video
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 sportskeeda.com##.vidazoo-player-container
-carbuzz.com,justthenews.com##.video
+justthenews.com##.video
 petapixel.com##.video-aspect-wrapper
 bowhunter.com,firearmsnews.com,flyfisherman.com,gameandfishmag.com,gunsandammo.com,handgunsmag.com,in-fisherman.com,northamericanwhitetail.com,petersenshunting.com,rifleshootermag.com,shootingtimes.com,wildfowlmag.com##.video-detail-player
 fodors.com##.video-inline
@@ -1601,6 +1619,12 @@ atlasobscura.com##.ad-site-top-full-width
 ! twitch.tv
 ||edge.ads.twitch.tv^
 twitch.tv##.player-overlay-background:has-text(Consider Turbo)
+twitch.tv##.stream-display-ad__wrapper
+! abs-cbn.com
+abs-cbn.com##div[style*="2147483647"]:has(> div[style$="z-index: 999;"])
+abs-cbn.com##.MuiGrid-root.MuiGrid-item:not([data-testid="test-grid-item"]):has(> div.MuiBox-root > div[style] > div > div[style] > div[class^="imp-adSlot"])
+abs-cbn.com##:is(.css-168qn5i, .css-1slfery, .css-xcd31q, .css-4dbdht, .css-1d3bbye, .css-ob4cto):has(div[class^="imp-adSlot"])
+abs-cbn.com##div[style*="999999"]:has(div[style^="background-color:#ECEDEF;"] > p)
 ! pandora.com (ads)
 ||pandora.com/web-client-assets/displayadframe.
 ||pandora.com/api/v1/ad/
@@ -2341,6 +2365,7 @@ twitter.com,x.com##+js(json-prune-xhr-response, data.user.result.timeline_v2.tim
 ! bbc.com
 bbc.com###leaderboard-aside-content
 bbc.com###mpu-side-aside-content
+bbc.com##[data-component="ad-slot"]
 ! technologynetworks.com
 technologynetworks.com##.featuredVendors
 ! myanimelist.net
@@ -2843,6 +2868,7 @@ mail.yahoo.com##[data-test-id^="taboola-ad-"]
 yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
 www.yahoo.com##[id^="mid-center-ad"]
+mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://a.beap.gemini.yahoo.com/mbclk?"]
 mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 yahoo.com##a[data-test-id="large-image-ad"]
 mail.yahoo.com##article[aria-labelledby*="-pencil-ad-"]
@@ -2858,6 +2884,7 @@ yahoo.com##div[id^="darla-ad"]
 yahoo.com##div[id^="defaultWFPAD"]
 yahoo.com##div[id^="gemini-item-"]
 yahoo.com##div[style*="/ads/"]
+mail.yahoo.com##li:has(a[href^="https://api.taboola.com/"])
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! imresizer.com
 imresizer.com##.ad-slot-1-fixed-ad
