@@ -14,6 +14,11 @@
 ! Fix no playback  https://github.com/uBlockOrigin/uAssets/pull/27006
 spankbang.com#@#+js(set, send_recommendation_event, noopFunc)
 
+! paywall counter for /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,1p
+! https://firstthings.com/cardinal-mcelroy-and-immigration/ empty page
+/wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,1p,badfilter
+firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
+
 ! Generic blocks
 .com/watch.*&kw=$third-party
 .click/gd/
