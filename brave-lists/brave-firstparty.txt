@@ -1618,6 +1618,7 @@ atlasobscura.com##.advertisement-shadow
 atlasobscura.com##.ad-site-top-full-width
 ! twitch.tv
 ||edge.ads.twitch.tv^
+twitch.tv##.video-player__overlay .player-overlay-background:has(> div[class^="Layout-"] > div[class^="Layout-"] > div[class^="Layout-"] > a:is([href*="/how-to-allow-ads-browser"], [href="https://www.twitch.tv/turbo"]))
 twitch.tv##.player-overlay-background:has-text(Consider Turbo)
 twitch.tv##.stream-display-ad__wrapper
 ! abs-cbn.com
