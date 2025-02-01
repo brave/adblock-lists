@@ -710,6 +710,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.listicle-instream-ad-holder
 ##.longform-ad
 ##.l-article__ad
+##.masthead-ad
 ##.mgid_3x2
 ##.m-ad
 ##.m-adaptive-ad-component
@@ -824,6 +825,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.sticky-footer-ad
 ##.sticky-footer-ad-container
 ##.stickyRailAd
+##.StickyAdWrapper
 ##.sticky-rail-ad-container
 ##.stickyAd
 ##.tablet-ad
