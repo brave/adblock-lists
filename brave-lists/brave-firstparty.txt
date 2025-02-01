@@ -17,7 +17,9 @@
 /prebid/*$script
 /htdocs/js/admiral/init.js
 /webads.
+/www/delivery/*$script,subdocument
 /adcgi?
+://adsrv.
 /aclib.js$script,1p
 /ad/ad_common.js$script
 -contrib-ads.$~stylesheet
@@ -708,6 +710,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.listicle-instream-ad-holder
 ##.longform-ad
 ##.l-article__ad
+##.masthead-ad
 ##.mgid_3x2
 ##.m-ad
 ##.m-adaptive-ad-component
@@ -822,6 +825,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.sticky-footer-ad
 ##.sticky-footer-ad-container
 ##.stickyRailAd
+##.StickyAdWrapper
 ##.sticky-rail-ad-container
 ##.stickyAd
 ##.tablet-ad
@@ -2663,7 +2667,14 @@ rabbitstream.net###overlay-container
 thetimes.com##.responsive__InlineAdWrapper-sc-4v1r4q-14
 thetimes.com##article[id="article-main"] > div:has(#ad-header)
 ! bnnbloomberg.ca
-bnnbloomberg.ca##.b-ads-custom
+ctvnews.ca,bnnbloomberg.ca,cp24.com##.b-ads-custom
+! ctvnews
+ctvnews.ca##.b-ads-custom--background-colour
+! nhl.com
+nhl.com##.nhl-l-section-bg__adv
+nhl.com##.nhl-c-editorial-list__mrec
+nhl.com##.-mrec
+nhl.com##.-leaderboard
 ! military.com
 military.com##.page__top
 ! rivals.com
