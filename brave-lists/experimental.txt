@@ -21,6 +21,8 @@ m.youtube.com##+js(rc, paused-mode, , stay)
 
 ! Twitch test rules
 twitch.tv##+js(vaft-ublock-origin)
+! Twitch counter for anti-adblock
+twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
 
 ! filters.txt
 *_ad_$media,domain=youtube.com,3p
