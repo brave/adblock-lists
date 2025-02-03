@@ -483,6 +483,15 @@
   },
   {
     "include": [
+      "*://*.awstrack.me/L0/*"
+    ],
+    "exclude": [
+    ],
+    "action": "regex-path",
+    "param": "^/L0/([^/]+)/.*$"
+  },
+  {
+    "include": [
       "*://shopping.yahoo.com/rdlw?*"
     ],
     "exclude": [
