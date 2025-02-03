@@ -457,6 +457,15 @@
   },
   {
     "include": [
+      "*://sqclick.com/outreach/t/*"
+    ],
+    "exclude": [
+    ],
+    "action": "regex-path",
+    "param": "^/outreach/t/[^/]+/([^/]+)$"
+  },
+  {
+    "include": [
       "*://click.pstmrk.it/2s/*",
       "*://click.pstmrk.it/2sm/*",
       "*://click.pstmrk.it/2ts/*",
