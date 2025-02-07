@@ -156,7 +156,9 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||xlivrdr.com^
 ||mcizas.com^
 ||dalysv.com^
+||glizauvo.net^
 ||adforcast.com^
+||vntsm.com^
 ||zimpolo.com^
 ||d3v3bqdndm4erx.cloudfront.net^
 ||tsyndicate.com^
