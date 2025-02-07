@@ -13,7 +13,7 @@
 ! Allow page views in Brave to be counted by statcounter.com. The scripts that match the first
 ! two rules below have been audited to confirm they don't try to circumvent Brave's cross-site
 ! or cross-profile tracking protections (e.g., they don't try to fingerprint users, or detect
-! private mode, etc.). Brave's other protections (storage partitioning, empheral site lenght
+! private mode, etc.). Brave's other protections (storage partitioning, ephemeral
 ! storage, etc.) prevent statcounter code from tracking or profiling users. 
 @@||secure.statcounter.com/counter$script
 @@||www.statcounter.com/counter$script
