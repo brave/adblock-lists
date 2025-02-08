@@ -32,6 +32,9 @@ reliabletv.me##+js(rpnt, script, /const doRedirect = 1;[\s\S]*(?=const doAuthChe
 ! /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,strict3p,from=com
 /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,domain=beaumontenterprise.com|bigrapidsnews.com|chicagotribune.com|courant.com|ctinsider.com|ctpost.com|expressnews.com|greenwichtime.com|houstonchronicle.com|lmtonline.com|mcall.com|michigansthumb.com|mrt.com|myjournalcourier.com|myplainview.com|newstimes.com|nydailynews.com|orlandosentinel.com|ourmidland.com|pilotonline.com|seattlepi.com|sfchronicle.com|sfgate.com|stamfordadvocate.com|sun-sentinel.com|thehour.com|theintelligencer.com|thetelegraph.com|timesunion.com
 
+! fix photopea
+photopea.com#@#+js(trusted-rpnt, script, added=false;, "added=false;if (typeof localStorage !== 'undefined' && typeof JSON.parse(localStorage._ppp)['0_uid'] === 'undefined') {const originalvisualViewport=window.visualViewport; Object.defineProperty(window, 'visualViewport', {value: new Proxy(originalvisualViewport, {get(target,property) {if (property === 'width') {return document.documentElement.offsetWidth+320} return target[property]}}), configurable:true});}")
+
 ! quora-perf issues
 ! https://community.brave.com/t/report-buggy-behaviour-on-one-exclusive-website/591130
 ! https://community.brave.com/t/quora-not-responding-and-loading/589272/4
