@@ -28,7 +28,8 @@ firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
 
 ! workaround https://github.com/brave/brave-browser/issues/42496
 ! reliabletv.me##+js(rpnt, script, /function isBrave[\s\S]*(?=const doAuthCheck)/)
-reliabletv.me##+js(rpnt, script, /const doRedirect = 1;[\s\S]*(?=const doAuthCheck)/, const doRedirect = 1;)
+! reliabletv.me##+js(rpnt, script, /const doRedirect = 1;[\s\S]*(?=const doAuthCheck)/, const doRedirect = 1;)
+reliabletv.me##+js(rpnt, script, /(.+\.html.+)/gm)
 
 ! strict3p workaround
 ! /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,strict3p,from=com
