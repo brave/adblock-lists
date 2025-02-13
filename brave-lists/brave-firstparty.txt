@@ -353,6 +353,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.ad-m-banner
 ##.ad-top-billboard
 ##.ad-top-wrapper
+##.ad_banner
+##.ad_holder
 ##.ad_to_list
 ##.horizontal-full-ad
 ##.sidebar-square-ad
@@ -577,6 +579,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.c-ad--bigbox
 ##.c-posts__ad
 ##.center_add
+##.centered-ad
 ##.channel--ad
 ##.channel-sidebar-big-box-ad
 ##.cnx-player-wrapper
@@ -634,6 +637,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.gallery-ad-lazyload-placeholder
 ##.glacier-ad
 ##.gallery-ad-container
+##.google_ads
 ##.google-adsense
 ##.google-dfp-ad-caption
 ##.google-dfp-ad-wrapper
@@ -1324,6 +1328,7 @@ indy100.com##.addressed_cls
 androidheadlines.com,gcaptain.com,mp1st.com,thedebrief.org,unofficialnetworks.com##.adthrive
 muscleandfitness.com##.ami-video-placeholder
 telegraph.co.uk##.article-betting-unit-container
+niagarafallsreview.ca,stcatharinesstandard.ca,therecord.com,thespec.com,thestar.com,wellandtribune.ca##.article-pe-video-wrapper
 financemagnates.com##.article-sidebar__video-banner
 ibtimes.com,latintimes.com,sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
@@ -1347,7 +1352,7 @@ europeanpharmaceuticalreview.com##.europ-fixed-footer
 accuweather.com##.feature-tag
 ibtimes.sg##.featured_video
 pedestrian.tv##.find-dream-job
-sportbible.com,unilad.com##.floating-video-player_container__u4D9_
+sportbible.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
 dailymail.co.uk##.footballco-container
 redboing.com##.fw-ad
 foxsports.com##.fwAdContainer
@@ -2630,7 +2635,7 @@ thespec.com,wellandtribune.ca##.polarAds
 ! .polarBlock
 bramptonguardian.com,guelphmercury.com,insideottawavalley.com,stcatharinesstandard.ca,thestar.com##.polarBlock
 ! .globalHeaderBillboard
-stcatharinesstandard.ca,thestar.com##.globalHeaderBillboard
+niagarafallsreview.ca,stcatharinesstandard.ca,therecord.com,thespec.com,thestar.com,wellandtribune.ca##.globalHeaderBillboard
 ! thestar.com
 thestar.com###sticky-ad-2
 ! money.com
@@ -2912,6 +2917,24 @@ filecrypt.co##.fllItheadbIockgueue3
 planefinder.net###map-ad-container
 ! notebookcheck.net
 notebookcheck.net##.nbc-right-float
+! hiphopdx.com
+hiphopdx.com##.banner
+hiphopdx.com##.compact
+! nyctourism.com
+nyctourism.com##div[class^="Layout_mobileStickyAdContainer"]
+! permanentstyle.com
+permanentstyle.com###dttop
+permanentstyle.com###mobmid
+permanentstyle.com###mobtop
+permanentstyle.com##.widget_ps-midpage-mobile-ad
+permanentstyle.com##.widget_sow-advertisements
+! smartasset.com
+smartasset.com##.riklam-container
+smartasset.com##.sponsorcalc-wrapper
+smartasset.com##.top-banner-ctr
+! vocm.com
+vocm.com###leaderboard-area
+vocm.com##.nccBigBox
 ! bbc.com
 bbc.com###sticky-leaderboard
 bbc.com###sticky-mpu
@@ -3204,9 +3227,14 @@ myflixerz.to,hdtodayz.to##+js(set-cookie, show_share, true)
 ###Q39hhYQopC-middle
 ##[href="https://pcnema.to"]
 ! fxempire.com
-fxempire.com##.ddAwpw
-fxempire.com##.gAruxy
+fxempire.com##span[style="user-select:none"]
+fxempire.com##[height="398"]
+fxempire.com###header-ads-block
 fxempire.com##[data-cy="article-ad"]
+! height="250" 
+dailynews.lk,fxempire.com,german-way.com,londonnewsonline.co.uk,power987.co.za,qsaltlake.com,tfetimes.com##[height="250"]
+! height="600"
+cdmediaworld.com,cryptofeeds.news,fxempire.com,gametarget.net,lnkworld.com,power987.co.za##[height="600"]
 ! thartribune.com
 thartribune.com##.adsbypubpower
 ! techpowerup.com (first-party ads)
