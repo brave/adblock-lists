@@ -183,6 +183,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ! 
 ###ad--article-top-wrapper
 ###ad--sidebar
+###ad-728-90
 ###ad-block-2
 ###ad-box-2
 ###ad-halfpage
@@ -2903,6 +2904,10 @@ yahoo.com##li[data-test-locator="stream-related-ad-item"]
 imresizer.com##.ad-slot-1-fixed-ad
 imresizer.com##.ad-slot-2-fixed-ad
 imresizer.com##.ad-slot-3-fixed-ad
+! filecrypt.co
+||filecrypt.co/0pixel.php
+||filecrypt.co/meh.php
+filecrypt.co##.fllItheadbIockgueue3
 ! planefinder.net
 planefinder.net###map-ad-container
 ! notebookcheck.net
