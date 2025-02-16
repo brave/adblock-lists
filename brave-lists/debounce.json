@@ -457,6 +457,15 @@
   },
   {
     "include": [
+      "*://sqclick.com/outreach/t/*"
+    ],
+    "exclude": [
+    ],
+    "action": "regex-path",
+    "param": "^/outreach/t/[^/]+/([^/]+)$"
+  },
+  {
+    "include": [
       "*://click.pstmrk.it/2s/*",
       "*://click.pstmrk.it/2sm/*",
       "*://click.pstmrk.it/2ts/*",
@@ -480,6 +489,15 @@
     "prepend_scheme": "http",
     "action": "regex-path",
     "param": "^/[23]m?/([^/]+)/.*$"
+  },
+  {
+    "include": [
+      "*://*.awstrack.me/L0/*"
+    ],
+    "exclude": [
+    ],
+    "action": "regex-path",
+    "param": "^/L0/([^/]+)/.*$"
   },
   {
     "include": [
