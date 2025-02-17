@@ -186,6 +186,8 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||sonraifishnet.website^
 ||netpub.media^$3p
 ||gurgehumours.com^
+||admpire.com^
+||xadsmart.com^
 ||21wiz.com^
 ||rtmark.net^
 ||tabletsregrind.com^
@@ -201,9 +203,34 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||amon1.net^
 ||easierroamaccommodation.com^
 ||flytechb.com^
+||youradexchange.com^
+||waust.at^
+||speraspace.com^
+||psaithagomtasu.net^
+||pemsrv.com^
+||wpadmngr.com^
+||trafficbass.com^
+||pushub.net^
+||adhub.digital^
+||rausteehih.net^
+||acscdn.com^
+||liadm.com^
+||potsaglu.net^
+||adschill.com^
+||noticedbibi.com^
+||purpleads.io^
+||adskeeper.com^
+||holahupa.com^
+||ganalyticshub.net^
+||sysmeasuring.net^
 
 ! manhwatop.com
 /\/[0-9a-f]{32}\/invoke\.js/$script,3p
+
+! .top domains (non-regex)
+.top^$script,3p,domain=olympicstreams.co|toonily.com|luluvdo.com|himovies.sx|movies2watch.tv|viprow.nu
+! .xyz domains (non-regex)
+.xyz^$3p,domain=anroll.net
 
 ! streaming sites
 rabbitstream.net###overlay-container
@@ -224,11 +251,13 @@ fmovies.co###ics
 /pixel/pure
 /impr.gif?
 /ren.gif?
+/en/ruwl?
 /ntv.json?key=
 .com/watch.*&kw=$third-party
 /invoke.js$domain=fmovies2.me|f-movie.org|f-movies.click
 /fret/meow4/*$script,3p
 /i/npage/*$script,3p
+/utx?tid=
 
 ! dailymail.co.uk
 dailymail.co.uk##+js(abort-on-property-read, Notification)
