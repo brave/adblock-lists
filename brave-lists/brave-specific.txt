@@ -17,7 +17,7 @@
 ! storage, etc.) prevent statcounter code from tracking or profiling users. 
 @@||secure.statcounter.com/counter$script
 @@||www.statcounter.com/counter$script
-@@||c.statcounter.com^$image
+@@||c.statcounter.com^$image,xhr
 
 ! brave.com specfic filters
 @@||ads.brave.software^$first-party
