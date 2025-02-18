@@ -721,6 +721,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.m-ad
 ##.m-adaptive-ad-component
 ##.m-advert
+##.m-block-ad
 ##.m-content-advert
 ##.m-content-advert-wrap
 ##.m-header-ad
@@ -769,6 +770,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.nts-ad
 ##.nuk-ad-placeholder
 ##.o-ad
+##.o-ad-container
 ##.outer-ad-unit-wrapper
 ##.outer_ad_container
 ##.p-ads-billboard
@@ -3149,7 +3151,6 @@ worldtestchampionship.com##.mobile-banner
 ! afr.com
 afr.com###stickyLeaderboard
 ! france24.com
-france24.com##.m-block-ad
 france24.com##[data-tms-ad-container]
 ! timesofisrael.com
 timesofisrael.com##.banner-placeholder
@@ -3231,6 +3232,13 @@ fxempire.com##span[style="user-select:none"]
 fxempire.com##[height="398"]
 fxempire.com###header-ads-block
 fxempire.com##[data-cy="article-ad"]
+! kbb
+kbb.com##[id^="kbbAds"], [id^="kbbAds"] + p
+kbb.com##.ads__container-kbbLockedAd
+kbb.com##.ads__container
+kbb.com##[data-testid="featured-content-module"]
+! euractiv
+euractiv.com##.ea-gat-slot-wrapper
 ! height="250" 
 dailynews.lk,fxempire.com,german-way.com,londonnewsonline.co.uk,power987.co.za,qsaltlake.com,tfetimes.com##[height="250"]
 ! height="600"
@@ -3849,6 +3857,53 @@ stripes.com###MidPageAd
 bilibili.com##.feed-card:has(a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"])
 bilibili.com##.is-rcmd:has(a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"]))
 bilibili.com#@#a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])
+!! German first-party
+blick.de,freiepresse.de###BSB
+blick.de,freiepresse.de###CAD
+bz-berlin.de###billboard
+bz-berlin.de###superbanner
+focus.de###top-banner
+stuttgarter-nachrichten.de##.Billboard
+lessentiel.lu##.ContentPage_insideFullTopPlaceholder__g16GO
+idowa.de,netzwelt.de##.ad
+oe24.at##.adSlotAdition
+giga.de##.alice-adslot
+giga.de##.alice-root-header-ads__ad--inactive
+prisma.de##.b-advertising
+pz-news.de##.billboard
+t3n.de,welt.de##.c-ad-container
+focus.de##.cls_slot_xxoutstreamxx
+focus.de##.cls_ver_prnt
+futurezone.de,thueringen24.de##.contentAd--sb1
+nextpit.de##.cpgSlot
+prosieben.de##.display-ad-container
+fr.de,merkur.de,rosenheim24.de,wa.de##.id-TBeepSlot--billboard
+fr.de,merkur.de,rosenheim24.de,wa.de##.id-TBeepSlot--content
+tagesspiegel.de##.iqdcontainer
+it-boltwise.de##.itbw-acont
+web.de##.left-col-bottom
+jablickar.cz##.lsads-inj-adsense
+n-tv.de##.ob_embed--placeholder
+tvspielfilm.de##.promo-box
+handelsblatt.com##.top-ad-container
+watson.ch##.watson-ad
+t-online.de##.z-commercial-nativendo
+rnd.de,siegener-zeitung.de##[class*="Adstyled__AdWrapper"]
+blick.ch##[class*="slot-code-desktop-"]
+berliner-zeitung.de##[class*="traffective_wrapper__"]
+chip.de##[class^="Ad-Slot-"]
+t-online.de##[data-commercial-format="rectangle"]
+t-online.de##[data-external-sdi-mark="banner-placeholder"]
+augsburger-allgemeine.de##[data-slot-name*="banner"]
+t-online.de##[data-testid="Nativendo.ArticleFeed"]
+t-online.de##[data-testid="Nativendo.ArticleFeedTwo"]
+berliner-zeitung.de##[data-testid="article-billboard-advertisement"]
+golem.de##[id^="iqadtile"]
+blick.de,freiepresse.de##[id^="traffective-ad-Content_"]
+iphone-ticker.de##[id^="verbraucherhinweis-"]
+gamereactor.de##[style="min-height: 600px; margin-bottom: 20px;"]
+bz-berlin.de##[style="min-width: 300px; min-height: 250px;"]
+wiwo.de##app-advertisement
 !! Japanese first-party
 ! nicovideo.jp
 ||ads.nicovideo.jp^$script,xmlhttprequest
