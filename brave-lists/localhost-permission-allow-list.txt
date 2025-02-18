@@ -54,5 +54,8 @@ battlelog.battlefield.com
 # https://github.com/uBlockOrigin/uAssets/issues/23456
 figma.com
 
+# https://community.brave.com/t/filecrypt-co-functionality-is-broken-when-shields-are-up/
+filecrypt.co
+
 # https://github.com/brave/brave-browser/issues/43050
 pcsupport.lenovo.com
