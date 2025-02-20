@@ -77,6 +77,10 @@ search.brave.com###search-ad
 
 ! https://community.brave.com/t/filecrypt-co-functionality-is-broken-when-shields-are-up/597698/
 @@||127.0.0.1^$domain=filecrypt.co
+
+! apollographql.com
+@@||127.0.0.1^$domain=apollographql.com
+
 !!! END OF UBO EXCEPTIONS
 
 ! De-AMP rule that uses the De-AMP scriptlet
