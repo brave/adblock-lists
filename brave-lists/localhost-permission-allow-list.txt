@@ -57,5 +57,8 @@ figma.com
 # https://community.brave.com/t/filecrypt-co-functionality-is-broken-when-shields-are-up/
 filecrypt.co
 
+# https://studio.apollographql.com/sandbox/explorer
+apollographql.com
+
 # https://github.com/brave/brave-browser/issues/43050
 pcsupport.lenovo.com
