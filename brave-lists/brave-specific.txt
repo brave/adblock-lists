@@ -79,7 +79,7 @@ search.brave.com###search-ad
 @@||127.0.0.1^$domain=filecrypt.co
 
 ! apollographql.com
-@@||127.0.0.1^$domain=apollographql.com
+@@||localhost^$domain=apollographql.com
 
 !!! END OF UBO EXCEPTIONS
 
