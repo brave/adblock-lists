@@ -28,11 +28,6 @@ firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
 .shop/pntne
 /1clkn/*
 
-! fixes https://community.brave.com/t/how-to-report-false-positive/598349/4
-! https://github.com/uBlockOrigin/uAssets/pull/27171
-!
-||commoninja.com^$3p,badfilter
-
 ! workaround https://github.com/brave/brave-browser/issues/42496
 ! reliabletv.me##+js(rpnt, script, /function isBrave[\s\S]*(?=const doAuthCheck)/)
 ! reliabletv.me##+js(rpnt, script, /const doRedirect = 1;[\s\S]*(?=const doAuthCheck)/, const doRedirect = 1;)
@@ -42,25 +37,15 @@ reliabletv.me##+js(rpnt, script, /(.+\.html.+)/gm)
 ! /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,strict3p,from=com
 /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,domain=beaumontenterprise.com|bigrapidsnews.com|chicagotribune.com|courant.com|ctinsider.com|ctpost.com|expressnews.com|greenwichtime.com|houstonchronicle.com|lmtonline.com|mcall.com|michigansthumb.com|mrt.com|myjournalcourier.com|myplainview.com|newstimes.com|nydailynews.com|orlandosentinel.com|ourmidland.com|pilotonline.com|seattlepi.com|sfchronicle.com|sfgate.com|stamfordadvocate.com|sun-sentinel.com|thehour.com|theintelligencer.com|thetelegraph.com|timesunion.com
 
-! fix photopea
-photopea.com#@#+js(trusted-rpnt, script, added=false;, "added=false;if (typeof localStorage !== 'undefined' && typeof JSON.parse(localStorage._ppp)['0_uid'] === 'undefined') {const originalvisualViewport=window.visualViewport; Object.defineProperty(window, 'visualViewport', {value: new Proxy(originalvisualViewport, {get(target,property) {if (property === 'width') {return document.documentElement.offsetWidth+320} return target[property]}}), configurable:true});}")
-
 ! quora-perf issues
 ! https://community.brave.com/t/report-buggy-behaviour-on-one-exclusive-website/591130
 ! https://community.brave.com/t/quora-not-responding-and-loading/589272/4
 ! https://community.brave.com/t/brave-and-the-quora-website/590785
-quora.com#@#:xpath(//div[not(@class="ui_qtext_para") and contains(text(), 'ad by')]/parent::div/parent::div/parent::div[@id])
-quora.com#@#:xpath(//div[not(@class="ui_qtext_para") and contains(text(), 'promoted') and contains(text(), 'by')]/parent::a/parent::div/parent::div/parent::div[@id])
-quora.com#@#:xpath(//div[not(@class="ui_qtext_para") and contains(text(), 'Quora') and contains(text(), 'by') and contains(text(), 'Business')]/parent::a/parent::div/parent::div/parent::div[@id])
-quora.com#@#.FeedStory.feed_item > div > div:has-text(/by Quora for Business/i)
-quora.com#@#.Toggle.SimpleToggle.ToggleAnswerFooterWrapper > div:has-text(/Promoted/i)
-quora.com#@#:xpath(//span[contains(text(), 'by')]/ancestor::*[contains(concat(' ', @class, ' '), ' external_link ')]/../../..)
-quora.com#@#:xpath(//p[(text()='d')]/../../../../..)
+! quora.com#@#.FeedStory.feed_item > div > div:has-text(/by Quora for Business/i)
+! quora.com#@#.Toggle.SimpleToggle.ToggleAnswerFooterWrapper > div:has-text(/Promoted/i)
 
 ! lang specific anti-adblock
 france.tv##+js(prevent-fetch, fwmrm)
-sussyscan.com##+js(prevent-fetch, www3.doubleclick.net)
-
 
 ! domain=com workaround (popads)
 ! /^https:\/\/[a-z]{8,12}\.com\/en\/(?:[a-z]{2,5}\/){0,2}[a-z]{2,}\?(?:[a-z]+=(?:\d+|[a-z]+)&)*?id=[12]\d{6}/$script,3p,match-case,to=com
@@ -1058,8 +1043,6 @@ animepahe.ru,kwik.si##+js(aopr, PopAds)
 @@||staticm.fastcomments.com^$image,domain=igg-games.com
 ! uBO-domain wildcard workaround
 @@||cdn.gotraffic.net^$domain=bloomberg.com|bloomberg.co.jp
-! Potential Tracker, Annoyance
-||govdelivery.com^$third-party
 ! Bait,Anti-adblock
 @@||onceagain.mooo.com^$script,domain=bigbtc.win
 ! https://www.thestreameast.to/ (Anti-Brave)
