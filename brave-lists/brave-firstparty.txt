@@ -1256,14 +1256,11 @@ lifeinvader.com,marginalreport.net,spanishdict.com,studentski-servis.com#@#.ad-w
 /tardisrocinante/surgeonv2.js$script
 /tardisrocinante/vitals.js$script
 ! remove-params (ads)
-$removeparam=ad-config-id,xhr,domain=telequebec.tv
 &caid=$removeparam=caid,xhr,domain=max.com
-||brightcove.com/playback/*/*?ad_config_id$removeparam=ad-config-id,xhr,domain=tvnz.co.nz
-||brightcove.com^$removeparam=ad-config-id,domain=player.stv.tv
-||brightcovecdn.com/playback/*/*?ad_config_id$removeparam=ad-config-id,xhr,domain=tvnz.co.nz
 ||cxm-api.fifa.com/fifaplusweb/api/video/$removeparam=adconfig,xhr
-||edge.api.brightcove.com^$removeparam=ad-config-id,xhr,domain=9now.com.au|mech-plus.com|threenow.co.nz
 ||hbo.yspsvc-na.net/csm/*&caid=$removeparam=caid,xhr,domain=play.hbomax.com
+||brightcovecdn.com/playback/*/*?ad_config_id=$removeparam=ad_config_id,xmlhttprequest,domain=tvnz.co.nz|mech-plus.com|threenow.co.nz|nhl.com|9now.com.au|video.telequebec.tv|player.stv.tv
+||brightcove.com/playback/*/*?ad_config_id$removeparam=ad_config_id,xmlhttprequest,domain=tvnz.co.nz|mech-plus.com|threenow.co.nz|nhl.com|9now.com.au|video.telequebec.tv|player.stv.tv
 ||medium.ngtv.io/v2/media/*&ssaiProfile=$xhr,removeparam=ssaiProfile,domain=~cnn.com
 ||warnermediacdn.com/csm*&caid=$xhr,removeparam=caid,domain=cnn.com
 ||warnermediacdn.com/csm*afid=$xhr,removeparam=afid,domain=cnn.com
