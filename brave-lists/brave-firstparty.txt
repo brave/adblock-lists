@@ -2992,6 +2992,8 @@ newatlas.com###desktop_article_2
 newatlas.com###desktop_article_3
 newatlas.com##.OcelotAdModule
 ! washingtonpost.com
+washingtonpost.com##.adslot-c
+washingtonpost.com##.wpds-c-gtAqRp
 washingtonpost.com###leaderboard-overlay
 washingtonpost.com###leaderboard-wrapper
 washingtonpost.com##.border-box.dn-hp-sm-to-mx
