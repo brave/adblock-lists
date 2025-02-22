@@ -3122,6 +3122,11 @@ investing.com##div[class^="ad_"]
 ||investing.com/js/n/ad-blocker-popup$script
 ! psypost.org
 psypost.org##.jeg_midbar
+! faanproj.com and pifansubs.club ads
+faanproj.com##.gmr-bannerpopup
+flyplayer.xyz,blsplayer.com##.pppx
+flyplayer.xyz##+js(nowoif)
+||blsplayer.com/player/assets/js/jquery.js
 ! iheart.com
 iheart.com##.component-pushdown
 ! drivencarguide.co.nz
