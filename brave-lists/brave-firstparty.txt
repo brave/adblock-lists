@@ -2382,6 +2382,12 @@ technologynetworks.com##.featuredVendors
 ! myanimelist.net
 myanimelist.net##.border_top
 myanimelist.net##[src*="/c/img/images/event/"]
+! mydramalist.com
+mydramalist.com##.col-lg-4 > .clear
+mydramalist.com##[style="min-height:600px;"]
+mydramalist.com##[style="min-height: 600px;"]
+mydramalist.com##.ad-removal-info
+mydramalist.com##.app-body > :has(.is-desktop-ads)
 ! advfn.com
 advfn.com##.top-ban-wrapper
 advfn.com##.recent-stocks-sibling
