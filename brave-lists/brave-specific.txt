@@ -10,6 +10,15 @@
 ||[::1]^$third-party,domain=~localhost|~127.0.0.1|~[::ffff:7f00:1]
 ||[::ffff:7f00:1]^$third-party,domain=~localhost|~127.0.0.1|~[::1]
 
+! Allow page views in Brave to be counted by statcounter.com. The scripts that match the first
+! two rules below have been audited to confirm they don't try to circumvent Brave's cross-site
+! or cross-profile tracking protections (e.g., they don't try to fingerprint users, or detect
+! private mode, etc.). Brave's other protections (storage partitioning, ephemeral
+! storage, etc.) prevent statcounter code from tracking or profiling users. 
+@@||secure.statcounter.com/counter$script
+@@||www.statcounter.com/counter$script
+@@||c.statcounter.com^$image,xhr
+
 ! brave.com specfic filters
 @@||ads.brave.software^$first-party
 @@||ads-admin.bravesoftware.com^$first-party
