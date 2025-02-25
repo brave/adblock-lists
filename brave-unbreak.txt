@@ -141,10 +141,6 @@ crunchyroll.com##+js(set-local-storage-item, /_evidon_consent_ls_\d+/, $remove$)
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,3p,domain=fastpic.org|torlock.com|nsfwyoutube.com|omegascans.org|animeland.tv|streamhub.to|unblockit.africa
 ! Disable PDFJS which we include by default's telemetry
 ||pdfjs.robwu.nl
-! GPC issues 
-! weather.com https://github.com/brave/brave-browser/issues/35431
-eventbrite.com,weather.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-eventbrite.com,weather.com##+js(set, navigator.globalPrivacyControl, false)
 ! Soft anti-adblock
 maxroll.gg##+js(trusted-set-local-storage-item, adBlockWarning, '{"value":true}')
 ! Scroll bar-consent
