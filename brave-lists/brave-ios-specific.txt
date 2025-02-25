@@ -22,6 +22,11 @@ sinensistoon.com##+js(aopr, block_ads)
 ! cvs.com app banner  cvs.com##cvs-smart-app-banner  not being applied
 cvs.com##+js(trusted-set-local-storage-item, appBannerClosed, $now$)
 
+! GPC (expanded ticketmaster domains)
+! Imported from Easyprivacy
+x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.com.au,ticketmaster.ca,ticketmaster.de,ticketmaster.dk,ticketmaster.es,ticketmaster.co.nz,ticketmaster.co.uk,ticketmaster.co.za,ticketmaster.at,ticketmaster.pl,ticketmaster.fr,ticketmaster.nl,ticketmaster.cz,ticketmaster.com.br,ticketmaster.com,ticketmaster.it,ticketmaster.com.mx,ticketmaster.no,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.com.au,ticketmaster.ca,ticketmaster.de,ticketmaster.dk,ticketmaster.es,ticketmaster.co.nz,ticketmaster.co.uk,ticketmaster.co.za,ticketmaster.at,ticketmaster.pl,ticketmaster.fr,ticketmaster.nl,ticketmaster.cz,ticketmaster.com.br,ticketmaster.com,ticketmaster.it,ticketmaster.com.mx,ticketmaster.no,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
+
 ! golf-live.at consent prereq
 ||storage.googleapis.com/adtags/
 ||themoneytizer.com^$3p
