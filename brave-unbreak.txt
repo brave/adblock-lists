@@ -1064,6 +1064,8 @@ foxbusiness.com,foxnews.com#@#+js(set, Taplytics, {})
 foxbusiness.com,foxnews.com#@#+js(set, Taplytics.featureFlagEnabled, noopFunc)
 !#endif
 !
+! fastflix.to anti-adblock
+@@||fastflix.to^$ghide
 ! Standard blocking of Bing mouselog tracker (is blocked in Aggressive)
 ||bing.com/mouselog$script,redirect-rule=noopjs,domain=bing.com
 ! EasyDutch https://github.com/EasyDutch-uBO/EasyDutch/blob/main/EasyDutch/Anti-Adblock.txt (START)
