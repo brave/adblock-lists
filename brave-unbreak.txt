@@ -1390,6 +1390,10 @@ yts.mx##+js(nowebrtc)
 yts.mx##+js(remove-node-text, script, document.write)
 ! antennasports.ru
 $script,third-party,domain=antennasports.ru
+! Chinese
+@@||colamanga.com^$ghide
+! Spanish
+*$script,redirect-rule=noop.js,from=sussytoons.wtf
 ! Russian specific rules
 mail.ru##.tgb__link
 mail.ru##.trg-banners

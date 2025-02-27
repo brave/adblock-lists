@@ -2389,6 +2389,8 @@ mydramalist.com##[style="min-height:600px;"]
 mydramalist.com##[style="min-height: 600px;"]
 mydramalist.com##.ad-removal-info
 mydramalist.com##.app-body > div[class]:has(> div.is-desktop-ads)
+! gledaitv.fan/diema-sport-2-live-tv.html
+##.ab-detector-wrap
 ! advfn.com
 advfn.com##.top-ban-wrapper
 advfn.com##.recent-stocks-sibling
