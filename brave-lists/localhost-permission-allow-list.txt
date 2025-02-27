@@ -60,5 +60,8 @@ filecrypt.co
 # https://studio.apollographql.com/sandbox/explorer
 apollographql.com
 
+# https://driverhub.asus.com/en
+driverhub.asus.com
+
 # https://github.com/brave/brave-browser/issues/43050
 pcsupport.lenovo.com
