@@ -90,6 +90,9 @@ search.brave.com###search-ad
 ! apollographql.com
 @@||localhost^$domain=apollographql.com
 
+! https://driverhub.asus.com/en
+@@||127.0.0.1^$domain=driverhub.asus.com
+
 !!! END OF UBO EXCEPTIONS
 
 ! De-AMP rule that uses the De-AMP scriptlet
