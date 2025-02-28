@@ -1340,7 +1340,7 @@ chapmanganelo.com,1azayf9w.xyz,1qwebplay.xyz,1stream.eu,4anime.gg,4kwebplay.xyz,
 ! basahin.icu
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,3p
 ! popads https://www.tvids.to/
-/^https:\/\/[a-z]{8,16}\.com\/[a-z]{6,17}\?[a-zA-Z=&,].*&s=.*/$script,3p
+/^https:\/\/[a-z]{8,16}\.com\/[a-z]{6,20}\?[a-zA-Z=&,].*&s=.*/$script,3p
 ! popads (specific)
 /^https:\/\/www\.[a-z]{5,11}\.com\/[a-zA-Z]{1,6}\/[a-z]{3,6}.*\.min\.js/$script,3p,domain=fxggxt.com|tvids.to|shinden.pl|rojadirectas.pro|bingewatch.to|alphatron.tv|seriesonline.ac|sflix.to|sflix2.to|9animetv.to|aniwatchtv.to|f2movies.to|eyespeeled.click|thedaddy.to|sporttuna.xyz|cookiewebplay.xyz|givemereddit.eu
 ! streamwish.to
