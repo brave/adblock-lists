@@ -4227,6 +4227,12 @@ iphone-ticker.de##[id^="verbraucherhinweis-"]
 gamereactor.de##[style="min-height: 600px; margin-bottom: 20px;"]
 bz-berlin.de##[style="min-width: 300px; min-height: 250px;"]
 wiwo.de##app-advertisement
+!! Turkish
+kanald.com.tr##+js(m3u-prune, /daioncdn\.net\/.*\/ad\//, /daioncdn\.net\/.*\.m3u8/)
+kanald.com.tr##+js(set-constant, adservice, {})
+kanald.com.tr##+js(set-constant, adblockCheckUrl, '')
+kanald.com.tr##.masthead
+kanald.com.tr##.pauseroll-adv-container
 !! Japanese first-party
 ! nicovideo.jp
 ||ads.nicovideo.jp^$script,xmlhttprequest
