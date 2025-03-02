@@ -39,6 +39,9 @@
 ||heraldnet.com/wp-content/plugins/incognito_dectector/js/incognito-detector.js$script,1p
 ||instacart.ca/graphql?operationName=DisplayAdPlacement^$xhr,1p
 /sw.js?puid=$script,1p
+! International anti-adblock
+@@||pervyi-tv.online/ads/$image
+hnablog.com##.popSc
 ! regex
 ! (non-working) /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.[a-z]{3,7}\/[a-z](?=[a-z]{0,25}[0-9A-Z])[0-9a-zA-Z]{3,26}\/\d{4,6}(?:\?[_a-z]=[-0-9a-z]+)?$/$script,3p,match-case 
 /^https?:\/\/(?:[a-z]{2}\.)?[0-9a-z]{5,16}\.(xyz|shop|top|club|live|click|life|fun)\/[a-zA-Z0-9]{3,18}\/[0-9]{2,8}$/$script,3p,match-case
@@ -3381,6 +3384,9 @@ firstpost.com##.newtopadd
 firstpost.com##.rhs-tp-ad
 firstpost.com##.taboola-div
 firstpost.com##.top-addd
+! babylonbee.com
+||media.babylonbee.com/ads/
+||media.notthebee.com/ads/
 ! israelnationalnews.com
 israelnationalnews.com##.banner
 israelnationalnews.com###banner-sticky
@@ -4187,13 +4193,54 @@ bz-berlin.de###billboard
 bz-berlin.de###superbanner
 focus.de###top-banner
 stuttgarter-nachrichten.de##.Billboard
+kleinanzeigen.de###vip-billboard
+kleinanzeigen.de###home-billboard
+rheinpfalz.de##.nfy-banner
+main-echo.de,berliner-kurier.de##[id^="traffective-ad-"]
+berliner-kurier.de##[data-testid="article-billboard-advertisement"]
+berliner-kurier.de##[data-testid="outbrain-widget"]
 lessentiel.lu##.ContentPage_insideFullTopPlaceholder__g16GO
+fr.de##[data-id-lazyload-cmp-vendor-name="Outbrain"]
+fr.de##[data-id-advertdfpconf]
+aerzteblatt.de##.ad-container-dont-remove-me
+aerzteblatt.de##[data-cy="ad-container"]
+bibliomed-pflege.de##.lns-banners-zone
+tvspielfilm.de##.promo-box-any-banner
+all-in.de###stroeer-container-banner
+all-in.de###stroeer-container-rectangle
+all-in.de###banner6_container
+boerse.de##[class^="Ads_"]
+winfuture.de##.singleblock_vhd
+winfuture.de##.mb25[style="min-height:261px"]
+winfuture.de##div[style="width:670px;height:280px;"]
+winfuture.de###homepage_rectangle
+buffed.de,pcgameshardware.de,pcgames.de###wad_banner
+buffed.de,pcgameshardware.de,pcgames.de###wad_rectangle
+buffed.de,pcgameshardware.de,pcgames.de##.contentFrameEddie
+buffed.de,pcgameshardware.de,pcgames.de,t-online.de##.sdgSlotContainer
+buffed.de,pcgameshardware.de,pcgames.de##.topFrameEddie
+buffed.de,pcgameshardware.de,pcgames.de##.innerWidecontentAd
+dailygame.at##.adzone
+heise.de##.inread-cls-reduc
+heise.de##.perf-cls-reduc-leaderboard
+heise.de##.article-layout__header-wrbng
+heise.de##.ad-desktop-group-2
+xboxdynasty.de###dfp-header
+mein-mmo.de,gamepro.de##.jad-placeholder
+sortiraparis.com##.slots
+playfront.de##.elementor-widget-wp-widget-advads_ad_widget
+playfront.de##.playf-in-content-ad-3
+playfront.de##.playf-sidebar-1
 idowa.de,netzwelt.de##.ad
 oe24.at##.adSlotAdition
 giga.de##.alice-adslot
 giga.de##.alice-root-header-ads__ad--inactive
 prisma.de##.b-advertising
-pz-news.de##.billboard
+pz-news.de,winfuture.de##.billboard
+spox.com##.fco-ad
+noz.de##.msn-ads
+noz.de##.ad_label
+esslinger-zeitung.de##.adhelper
 t3n.de,welt.de##.c-ad-container
 focus.de##.cls_slot_xxoutstreamxx
 focus.de##.cls_ver_prnt
@@ -4211,6 +4258,7 @@ tvspielfilm.de##.promo-box
 handelsblatt.com##.top-ad-container
 watson.ch##.watson-ad
 t-online.de##.z-commercial-nativendo
+t-online.de##[data-testid="TaboolaFeeds.Feed"]
 rnd.de,siegener-zeitung.de##[class*="Adstyled__AdWrapper"]
 blick.ch##[class*="slot-code-desktop-"]
 berliner-zeitung.de##[class*="traffective_wrapper__"]
@@ -4220,6 +4268,7 @@ t-online.de##[data-external-sdi-mark="banner-placeholder"]
 augsburger-allgemeine.de##[data-slot-name*="banner"]
 t-online.de##[data-testid="Nativendo.ArticleFeed"]
 t-online.de##[data-testid="Nativendo.ArticleFeedTwo"]
+t-online.de##[data-testid="nativendo-container"]
 berliner-zeitung.de##[data-testid="article-billboard-advertisement"]
 golem.de##[id^="iqadtile"]
 blick.de,freiepresse.de##[id^="traffective-ad-Content_"]
