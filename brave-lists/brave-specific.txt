@@ -101,6 +101,9 @@ google.*##+js(de-amp)
 ! YouTube theater mode fix scriptlet rule
 youtube.*##+js(brave-youtube-theater-fix)
 
+! Fixes open-in-app warning
+m.youtube.com##+js(trusted-click-element, button.yt-spec-button-shape-next[aria-label="Close"][aria-disabled="false"], , 2000)
+
 ! Trusted open-in-app notices
 alltrails.com##+js(trusted-set-local-storage-item, banner-dismissal-date, $now$)
 
