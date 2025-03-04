@@ -14,6 +14,9 @@
 ! Fix no playback  https://github.com/uBlockOrigin/uAssets/pull/27006
 spankbang.com#@#+js(set, send_recommendation_event, noopFunc)
 
+! https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue%20discord.com%20science%20
+discord.com#@#+js(no-xhr-if, discord.com/api/v9/science)
+
 ! paywall counter for /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,1p
 ! https://firstthings.com/cardinal-mcelroy-and-immigration/ empty page
 /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,1p,badfilter
