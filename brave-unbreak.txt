@@ -188,6 +188,7 @@ igniteunmc.com##.preloader
 @@||facebook.com/plugins/$tag=fb-embeds
 @@||facebook.com^*/plugins/$tag=fb-embeds
 @@||graph.facebook.com^$tag=fb-embeds
+@@||facebook.com/plugins/video.php$tag=fb-embeds
 ! Facebook tracking events
 /fbevents-amd.js
 /fbevents.js
