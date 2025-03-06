@@ -22,6 +22,9 @@ discord.com#@#+js(no-xhr-if, discord.com/api/v9/science)
 /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,1p,badfilter
 firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
 
+! watch.plex.tv
+@@||doubleclick.com^$xhr,domain=watch.plex.tv
+
 ! Generic blocks
 .com/watch.*&kw=$third-party
 .click/gd/
