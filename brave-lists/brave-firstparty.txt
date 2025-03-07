@@ -1822,6 +1822,10 @@ pcgamebenchmark.com##.placement
 pcgamebenchmark.com##.side
 pcgamebenchmark.com,pcgamesn.com,pockettactics.com,thedigitalfix.com,wargamer.com###nn_astro_wrapper
 wargamer.com,pockettactics.com##.curated-spotlight
+! delfi.ee
+delfi.ee##.ad-block-layer
+delfi.ee##iframe[src="javascript:'';"]
+delfi.ee##.banner
 ! frankspeech.com
 frankspeech.com##.bunny-banner
 ||rev.frankspeech.com^
