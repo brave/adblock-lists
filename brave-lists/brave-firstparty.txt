@@ -2342,6 +2342,10 @@ nba.com##[data-ad-type="banner"]
 ! bild.de
 bild.de###superbanner
 bild.de###mrec
+bild.de###bannerWrapper
+bild.de##.ad-wrapper
+bild.de##.related-topics__ad-mark
+bild.de##.related-topics__container--advertorial
 bild.de##+js(trusted-replace-node-text, script, adBlockWallEnabled":true, adBlockWallEnabled":false)
 spiele.bild.de##div[id^="ad-landingpage-"]
 spiele.bild.de##div[id^="ad-gamepage-"]
