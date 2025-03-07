@@ -1826,6 +1826,8 @@ wargamer.com,pockettactics.com##.curated-spotlight
 delfi.ee##.ad-block-layer
 delfi.ee##iframe[src="javascript:'';"]
 delfi.ee##.banner
+! law.cornell.edu 
+law.cornell.edu##.gfs
 ! frankspeech.com
 frankspeech.com##.bunny-banner
 ||rev.frankspeech.com^
