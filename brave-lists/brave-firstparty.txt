@@ -805,6 +805,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.pgevoke-story-topads
 ##.pgevoke-story-rightrail-ad1
 ##.pmc-adm-boomerang-pub-div
+##.polaris__ad
 ##.post-ads
 ##.post_detail_right_advert
 ##.post__article-top-ad-wrapper
@@ -2351,6 +2352,9 @@ spiele.bild.de##div[id^="ad-landingpage-"]
 spiele.bild.de##div[id^="ad-gamepage-"]
 spiele.bild.de##.ad-vertical-box
 bild.de##div:matches-css-before(content:/Anzeige/i)
+! autoexpress.co.uk
+autoexpress.co.uk##.polaris__below-header-ad-wrapper
+autoexpress.co.uk,carbuyer.co.uk,evo.co.uk##.polaris__partnership-block
 ! clevelandclinic.org
 clevelandclinic.org##[data-identity*="billboard-ad"]
 clevelandclinic.org##[data-identity="leaderboard-ad"]
