@@ -2384,6 +2384,8 @@ zdnet.com##.c-adDisplay_container_incontent-all-top
 musescore.com###ad_cs_12219747_728_90
 musescore.com##.js-musescore-hb-728--wrapper
 musescore.com###ad_cs_12219747_300_250
+! watchadsontape.com
+streamta.site,streamtape.*,watchadsontape.com##.play-overlay
 ! sherdog.com
 sherdog.com###adViAi
 sherdog.com##.top_ads
