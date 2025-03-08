@@ -2355,6 +2355,14 @@ bild.de##div:matches-css-before(content:/Anzeige/i)
 ! autoexpress.co.uk
 autoexpress.co.uk##.polaris__below-header-ad-wrapper
 autoexpress.co.uk,carbuyer.co.uk,evo.co.uk##.polaris__partnership-block
+! builtbybit.com (ad)
+builtbybit.com##[style="margin-top: 20px; display: flex; justify-content: center;"]
+! tvtv.us
+tvtv.us##.css-hj4rcg
+tvtv.us##.channels > div[class^="MuiBox-root"]
+tvtv.us##.css-uc3mu7:style(margin-top: 0 !important; height: 2400px !important;)
+tvtv.us##.gridRowPad:style(margin-top: 0 !important;)
+tvtv.us##.MuiBox-root > div.MuiPaper-root.MuiPaper-elevation.mui-fixed:not([id])
 ! clevelandclinic.org
 clevelandclinic.org##[data-identity*="billboard-ad"]
 clevelandclinic.org##[data-identity="leaderboard-ad"]
