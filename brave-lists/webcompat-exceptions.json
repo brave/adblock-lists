@@ -57,6 +57,15 @@
   },
   {
     "include": [
+      "*://workspace.google.com/*"
+    ],
+    "exceptions": [
+      "canvas"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/44574"
+  },
+  {
+    "include": [
       "*://vizzy.io/*"
     ],
     "exceptions": [
