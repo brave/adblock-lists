@@ -4261,6 +4261,9 @@ stripes.com###MidPageAd
 bilibili.com##.feed-card:has(a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"])
 bilibili.com##.is-rcmd:has(a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"]))
 bilibili.com#@#a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])
+!! French first-party
+lequipe.fr##body div[id^="AmPlaceholder-"]
+lequipe.fr##.AmPlaceholder
 !! German first-party
 blick.de,freiepresse.de###BSB
 blick.de,freiepresse.de###CAD
