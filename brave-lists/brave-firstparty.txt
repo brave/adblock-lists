@@ -3970,6 +3970,11 @@ thehackernews.com##.sadfix
 u.today##.something
 ! forexlive.com
 forexlive.com##.banner__wrapper
+! duden
+duden.de##[id*="billboard"]
+duden.de##.tabloid__side-column
+duden.de##body:style(margin-top: 0px !important;)
+||www.duden.de/utilities/includes/$script,css,1p
 ! barrons.com
 barrons.com##.adWrapperTopLead
 barrons.com##.standard__AdWrapper-sc-14sjre0-6
