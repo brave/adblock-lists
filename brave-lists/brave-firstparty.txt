@@ -2346,8 +2346,10 @@ abovethelaw.com##.sidebar-sponsored
 abovethelaw.com###div-id-for-middle-300x250
 abovethelaw.com###div-id-for-top-300x250
 ! putlocker  https://ww4.putlocker.vip/
-||putlocker.*/banner/static/
-||putlocker.*/sab_
+/banner/static/300x250
+/banner/static/728x90
+/sab_300.html
+/sab_728.html
 ! cnbc.com
 cnbc.com##.BoxRail-styles-makeit-ad--lyuQB
 cnbc.com##.TopBanner-container
