@@ -253,6 +253,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###advert-article-2
 ###advertise
 ###advertise_top
+###advertisement-banner
 ###after-dfp-ad-mid1
 ###after-dfp-ad-mid3
 ###after-dfp-ad-top
@@ -2535,6 +2536,8 @@ apartmenttherapy.com,cubbyathome.com,thekitchn.com##.pov_recirc__ad
 ! bitchute
 ||bitchute.com/static/ad-
 bitchute.com##.row.justify-center:has-text(Advertisement)
+bitchute.com##.fit.no-shadow.q-card--flat.q-card:has(iframe[id="spoSide"])
+||bitchute.com/*/play_$media,1p,redirect=noopmp3-0.1s
 ! post-gazette.com
 post-gazette.com##.pg-mobile-adhesionbanner
 post-gazette.com###benn-poll-iframe-container
