@@ -63,6 +63,7 @@ bunkr.site##+js(acs, WebAssembly, Promise)
 ||isboost.co.jp^
 
 ! errors loading site, temp fix
+@@||ltn.gold-usergeneratedcontent.net^$third-party,script,domain=hitomi.la
 @@||hitomi.la^
 @@||rule34hentai.net^
 
