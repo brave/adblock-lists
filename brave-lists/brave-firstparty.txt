@@ -2524,6 +2524,8 @@ news12.com##.hCauqx
 news12.com##[alignitems="normal"][justifycontent][direction="row"][gap="0"]
 ! fastcompany
 fastcompany.com##.post__promotion
+! godlikeproductions.com
+godlikeproductions.com##[data-type="_mgwidget"]
 ! yts.mx
 yts.mx##.bbj
 yts.mx###iwkjdooqw
