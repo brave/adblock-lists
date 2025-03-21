@@ -259,6 +259,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###after-dfp-ad-top
 ###aniview-ads
 ###adwrapper
+###ax-billboard
 ###banner_pos1_ddb_0
 ###banner_pos2_ddb_0
 ###banner_pos3_ddb_0
@@ -4430,6 +4431,7 @@ winfuture.de###homepage_rectangle
 rp-online.de###ir_rpd_lb
 wort.lu###leaderboard-observe-target
 itmagazine.ch###maxiboard
+bz-berlin.de###mrec_btf_60
 moz.de,swp.de###ms-edgeAd
 boersennews.de###nativendo-articlemiddle
 boersennews.de###nativendo-articletop
@@ -4438,6 +4440,7 @@ boersennews.de###nativendo-hometop
 ###nativendo-nachrichten-unterhalb
 wallstreet-online.de###newsDesktopFlag
 watson.ch###nps-watson-adblocker
+ntower.de###ntowerCommerceCommentSection
 ntower.de###ntowerCommerceHeader
 play3.de###page-wrapper-17
 inside-digital.de###parallax
@@ -4480,6 +4483,7 @@ brigitte.de,stern.de##.ad-container
 aerzteblatt.de##.ad-container-dont-remove-me
 heise.de##.ad-desktop-group-2
 deraktionaer.de##.ad-identifier
+stuttgarter-zeitung.de##.ad-side
 noz.de##.ad-sticky-footer
 abendzeitung-muenchen.de##.ad-widebox
 futurezone.at##.adContainer
@@ -4518,6 +4522,7 @@ derwesten.de,futurezone.de,news38.de,thueringen24.de##.contentAd--sb1
 buffed.de,pcgames.de,pcgameshardware.de##.contentFrameEddie
 nextpit.de##.cpgSlot
 prosieben.de##.display-ad-container
+stuttgarter-zeitung.de##.eigenwerbung
 playfront.de##.elementor-widget-wp-widget-advads_ad_widget
 ecomento.de##.external-ad
 spox.com##.fco-ad
@@ -4573,6 +4578,7 @@ computerbild.de##.superbannerBtfContainer
 computerbild.de##.superbannerContainer
 quotenmeter.de##.symplr-ad-holder
 presse-augsburg.de##.td-a-rec
+stuttgarter-zeitung.de##.teaser-sk
 handelsblatt.com##.top-ad-container
 buffed.de,pcgames.de,pcgameshardware.de##.topFrameEddie
 letemsvetemapplem.eu,samsungmagazine.eu##.topbanner
@@ -4608,7 +4614,8 @@ fr.de,merkur.de,rosenheim24.de,wa.de##[data-id-advertdfpconf]
 fr.de##[data-id-lazyload-cmp-vendor-name="Outbrain"]
 berliner-zeitung.de##[data-placeholder*="Anzeige"]
 faz.net##[data-placement]
-augsburger-allgemeine.de##[data-slot-name]
+all-in.de##[data-slot-name="banner2"]
+all-in.de,augsburger-allgemeine.de##[data-slot-name]
 focus.de##[data-slot="ad-slot"]
 nau.ch##[data-sticky-height="1px"]
 t-online.de##[data-testid="Nativendo.ArticleFeed"]
@@ -4617,9 +4624,11 @@ t-online.de##[data-testid="TaboolaFeeds.Feed"]
 mittelhessen.de##[data-testid="ad-stroer-banner"]
 berliner-kurier.de,berliner-zeitung.de##[data-testid="article-billboard-advertisement"]
 sport1.de##[data-testid="banner"]
+ran.de##[data-testid="display-ad"]
 t-online.de##[data-testid="nativendo-container"]
 berliner-kurier.de##[data-testid="outbrain-widget"]
 boersennews.de##[data-type="_mgwidget"]
+bz-berlin.de##[data-type="rich-text"]
 golem.de##[id^="iqadtile"]
 berliner-kurier.de,main-echo.de##[id^="traffective-ad-"]
 blick.de,freiepresse.de##[id^="traffective-ad-Content_"]
@@ -4630,6 +4639,7 @@ nau.ch##[style*="max-width:994px; height:500px;"]
 pnp.de##[style="margin: 0 auto; max-width: 336px;"]
 gamereactor.de##[style="min-height: 600px; margin-bottom: 20px;"]
 bz-berlin.de##[style="min-width: 300px; min-height: 250px;"]
+stuttgarter-zeitung.de##[style="width: 310px;"]
 wiwo.de##app-advertisement
 handelsblatt.com##app-commercial-teaser-group
 finanzmarktwelt.de##div[data-finan-trackbid]
