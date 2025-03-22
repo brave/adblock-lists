@@ -4434,7 +4434,6 @@ lesnumeriques.com##.ed__a-na-cntnr
 lefigaro.fr##.fig-ad-content
 lejdd.fr##.first-ban
 ledevoir.com##.flex-1
-lesechos.fr##.fnwbUs.sc-1u9r8h-2
 gamekult.com##.g2__a-dc
 lesechos.fr##.gdbnAa
 seneplus.com##.google-leaderboard
