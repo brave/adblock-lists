@@ -4297,6 +4297,9 @@ bilibili.com#@#a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*
 ###banniere_haute
 ###pub_dfp_article
 ###pub_dfp_banniere_haute
+###pub_dfp_droite_haute
+###pub_dfp_droite_middle
+###pub_dfp_droite_basse
 ##.ad--banniere_haute
 ##.ad-min-height
 ##.ads-actif
@@ -4532,6 +4535,34 @@ charentelibre.fr##[id="ultimedia-smart-player"]
 tablette-tactile.net##[style="min-height:280px"]
 lequipe.fr##body div[id^="AmPlaceholder-"]
 goal.com##div[class^="aside_ad-"]
+!! German generic
+###adLeaderboard
+###adWideboard
+###ads-bigsize
+###nativendo-nachrichten-unterhalb
+###traffective-ad-Billboard
+###traffective-ad-Skyscraper
+###wad_banner
+###wad_rectangle
+##.ad-sticky-footer
+##.ad-widebox
+##.adSlotAdition
+##.ad_Bumper
+##.ad_Bumper_2
+##.advert-inner
+##.advert-leaderboard
+##.advert-wideboard
+##.alice-adslot
+##.alice-adslot-label
+##.alice-root-header-ads__ad--inactive
+##.alice-root-header-ads__ad--top
+##.id-TBeepSlot--billboard
+##.id-TBeepSlot--content
+##.innerWidecontentAd
+##.rm-adslot
+##.symplr-ad-holder
+##.vodl-ad__bigsizebanner
+##[data-testid="display-ad"]
 !! German first-party
 startbase.de###Ads_BA_BS
 blick.de,freiepresse.de###BSB
@@ -4542,6 +4573,7 @@ games.focus.de###ad-gamepage-seo
 games.focus.de###ad-gamepage-top
 wort.lu###ad_rectangle-b1
 nzz.ch###adnz_maxiboard_1
+ffh.de###aLayerTop
 ecomento.de###after-header-banner
 boerse-online.de###aside-banner-halfpage-container
 boerse-online.de###banner-billboard-container
@@ -4557,6 +4589,7 @@ wallstreet-online.de###dban2
 wallstreet-online.de###dban3
 moviepilot.de,xboxdynasty.de###dfp-header
 boerse-online.de,deraktionaer.de###flyin-banner
+grenzecho.net###hdr-hor-d-1
 kleinanzeigen.de###home-billboard
 winfuture.de###homepage_rectangle
 rp-online.de###ir_rpd_lb
@@ -4568,28 +4601,26 @@ boersennews.de###nativendo-articlemiddle
 boersennews.de###nativendo-articletop
 boersennews.de###nativendo-homemiddle
 boersennews.de###nativendo-hometop
-###nativendo-nachrichten-unterhalb
 wallstreet-online.de###newsDesktopFlag
 watson.ch###nps-watson-adblocker
 ntower.de###ntowerCommerceCommentSection
 ntower.de###ntowerCommerceHeader
+ffh.de###omsRectangleChannel
 play3.de###page-wrapper-17
 inside-digital.de###parallax
 quotenmeter.de###qm-ad-fb
 streetlife.ch###rectangle
+grenzecho.net###rgt-rec-d-1
 wallstreet-online.de###siteteaser
 itmagazine.ch###sponsorbutton_div
 all-in.de###stroeer-container-banner
 all-in.de###stroeer-container-rectangle
 bz-berlin.de###superbanner
 winfuture.de###taboola-below-article-thumbnails-desktop
+4kfilme.de###tdi_39
 focus.de###top-banner
-pnp.de###traffective-ad-Billboard
-berliner-zeitung.de###traffective-ad-Skyscraper
 ifun.de###verbraucherhinweis-970
 kleinanzeigen.de###vip-billboard
-buffed.de,pcgames.de,pcgameshardware.de###wad_banner
-buffed.de,pcgames.de,pcgameshardware.de###wad_rectangle
 wettbasis.com###wettbasis_wde_mpu_top
 streetlife.ch###wideboard
 chip.de##.Ad
@@ -4609,29 +4640,23 @@ goingelectric.de##.a_above
 goingelectric.de##.a_blog_index
 goingelectric.de##.a_side
 goingelectric.de##.a_top
-idowa.de,juedische-allgemeine.de,netzwelt.de,stuttgarter-nachrichten.de,stuttgarter-zeitung.de##.ad
-brigitte.de,stern.de##.ad-container
+idowa.de,juedische-allgemeine.de,netzwelt.de,noen.at,stuttgarter-nachrichten.de,stuttgarter-zeitung.de##.ad
+sn.at##.ad-billboard
+brigitte.de,cicero.de,stern.de##.ad-container
 aerzteblatt.de##.ad-container-dont-remove-me
+5min.at,laola1.at##.ad-content
 heise.de##.ad-desktop-group-2
 deraktionaer.de##.ad-identifier
+sn.at##.ad-medium-rectangle
 stuttgarter-zeitung.de##.ad-side
-noz.de##.ad-sticky-footer
-abendzeitung-muenchen.de##.ad-widebox
 futurezone.at##.adContainer
 mittelhessen.de##.adSlot
-oe24.at##.adSlotAdition
-gamereactor.de##.ad_Bumper
-gamereactor.de##.ad_Bumper_2
 noz.de##.ad_label
 computerbase.de##.adbox
 esslinger-zeitung.de##.adhelper
 auto-motor-und-sport.de##.ads-container
 motorsport-total.com##.adsonofftrigger
 dailygame.at##.adzone
-giga.de,kino.de##.alice-adslot
-giga.de##.alice-adslot-label
-giga.de##.alice-root-header-ads__ad--inactive
-kino.de##.alice-root-header-ads__ad--top
 heise.de##.article-layout__header-wrbng
 abendzeitung-muenchen.de##.artikelinlinead
 prisma.de##.b-advertising
@@ -4659,11 +4684,11 @@ ecomento.de##.external-ad
 spox.com##.fco-ad
 bunte.de##.fe-promo-main
 nordkurier.de##.fp-ad-placeholder
+puls24.at##.fullbanner-wrapper
+grenzecho.net##.gr-ads-inread
 finanzmarktwelt.de##.h-a
 autoflotte.de##.home-side-ad-wrapper
-fr.de,hna.de,merkur.de,rosenheim24.de,wa.de##.id-TBeepSlot--billboard
-fr.de,hna.de,merkur.de,rosenheim24.de,wa.de##.id-TBeepSlot--content
-buffed.de,pcgames.de,pcgameshardware.de##.innerWidecontentAd
+heise.de##.img-ad
 heise.de##.inread-cls-reduc
 tagesspiegel.de##.iqdcontainer
 it-boltwise.de##.itbw-acont
@@ -4685,6 +4710,7 @@ kleinezeitung.at##.min-h-\[200px\]
 noz.de##.msn-ads
 wallstreet-online.de##.nativHeight
 samsungmagazine.eu##.nativead
+klamm.de##.newsmore-l
 rheinpfalz.de##.nfy-banner
 n-tv.de##.ob_embed--placeholder
 berliner-zeitung.de##.outbrain_outbrain-outer-container__eYTX2
@@ -4698,6 +4724,9 @@ tvspielfilm.de##.promo-box-any-banner
 boersennews.de##.pub_slot_size_250
 boersennews.de##.pub_slot_size_600
 pcgames.de##.rec_box_bottom
+reviersport.de##.rs-ad-init
+reviersport.de##.rs-ad-tag
+reviersport.de##.rs-superbanner
 sport1.de##.s1-ad-container
 augsburger-allgemeine.de,buffed.de,pcgames.de,pcgameshardware.de,sport1.de,t-online.de,watson.de##.sdgSlotContainer
 der-farang.com##.sideboard_container
@@ -4707,14 +4736,15 @@ inside-digital.de##.superbanner
 taxi-heute.de##.superbanner-container
 computerbild.de##.superbannerBtfContainer
 computerbild.de##.superbannerContainer
-quotenmeter.de##.symplr-ad-holder
-presse-augsburg.de##.td-a-rec
+4kfilme.de,presse-augsburg.de##.td-a-rec
+meinbezirk.at##.teaser
 stuttgarter-zeitung.de##.teaser-sk
 handelsblatt.com##.top-ad-container
 buffed.de,pcgames.de,pcgameshardware.de##.topFrameEddie
 letemsvetemapplem.eu,samsungmagazine.eu##.topbanner
 berliner-zeitung.de##.traffective_top-divider__MVfu_
 moz.de,swp.de##.u-adSlot
+boerse-express.com##.upper-content.blue
 auto-motor-und-sport.de##.va-commercial-container
 auto-motor-und-sport.de##.va-sponsored
 auto-motor-und-sport.de##.va-stroer-billboard
@@ -4726,7 +4756,7 @@ onefootball.com##.xpaLayoutContainerFullWidth--googleAdsPlaceholder
 gamereactor.de##.yks300
 t-online.de##.z-commercial-nativendo
 marketscreener.com##.zppAds
-rnd.de,saechsische.de,siegener-zeitung.de##[class*="Adstyled__AdWrapper"]
+reisereporter.de,rnd.de,saechsische.de,siegener-zeitung.de##[class*="Adstyled__AdWrapper"]
 blick.ch##[class*="slot-code-desktop-"]
 berliner-zeitung.de##[class*="traffective_wrapper__"]
 chip.de##[class^="Ad-Slot-"]
@@ -4734,7 +4764,6 @@ boerse.de##[class^="Ads_"]
 20min.ch##[data-ad-unit-id]
 kurier.at,watson.de##[data-ad]
 finanzmarktwelt.de##[data-bid]
-t-online.de##[data-commercial-format="rectangle"]
 t-online.de##[data-commercial-format]
 computerbild.de##[data-component-name="UniversalTeaser"]
 aerzteblatt.de##[data-cy="ad-container"]
@@ -4743,10 +4772,10 @@ saechsische.de##[data-element-selector="recommendations"]
 t-online.de##[data-external-sdi-mark="banner-placeholder"]
 fr.de,merkur.de,rosenheim24.de,wa.de##[data-id-advertdfpconf]
 fr.de##[data-id-lazyload-cmp-vendor-name="Outbrain"]
+sueddeutsche.de##[data-manual-remove="true"]
 berliner-zeitung.de##[data-placeholder*="Anzeige"]
 faz.net##[data-placement]
-all-in.de##[data-slot-name="banner2"]
-all-in.de,augsburger-allgemeine.de##[data-slot-name]
+all-in.de,allgaeuer-zeitung.de,augsburger-allgemeine.de##[data-slot-name]
 focus.de##[data-slot="ad-slot"]
 nau.ch##[data-sticky-height="1px"]
 t-online.de##[data-testid="Nativendo.ArticleFeed"]
@@ -4755,7 +4784,6 @@ t-online.de##[data-testid="TaboolaFeeds.Feed"]
 mittelhessen.de##[data-testid="ad-stroer-banner"]
 berliner-kurier.de,berliner-zeitung.de##[data-testid="article-billboard-advertisement"]
 sport1.de##[data-testid="banner"]
-ran.de##[data-testid="display-ad"]
 t-online.de##[data-testid="nativendo-container"]
 berliner-kurier.de##[data-testid="outbrain-widget"]
 boersennews.de##[data-type="_mgwidget"]
@@ -4765,6 +4793,7 @@ berliner-kurier.de,main-echo.de##[id^="traffective-ad-"]
 blick.de,freiepresse.de##[id^="traffective-ad-Content_"]
 iphone-ticker.de##[id^="verbraucherhinweis-"]
 onefootball.com##[ow-ad-unit-root]
+motorsport-total.com##[style="height: 400px"]
 nau.ch##[style*="max-width:640px; height:450px;"]
 nau.ch##[style*="max-width:994px; height:500px;"]
 pnp.de##[style="margin: 0 auto; max-width: 336px;"]
@@ -4776,6 +4805,9 @@ handelsblatt.com##app-commercial-teaser-group
 finanzmarktwelt.de##div[data-finan-trackbid]
 winfuture.de##div[style="width:670px;height:280px;"]
 goingelectric.de##span[style="font-size:11px"]
+astronews.com##table[style="width: 100%;"]
+astronews.com##table[width="300px"]
+astronews.com##table[width="336"]
 !! Turkish
 kanald.com.tr##+js(m3u-prune, /daioncdn\.net\/.*\/ad\//, /daioncdn\.net\/.*\.m3u8/)
 kanald.com.tr##+js(set-constant, adservice, {})
