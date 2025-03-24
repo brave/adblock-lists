@@ -310,6 +310,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ###sidebar_ad
 ###splashy-ad-container-top
 ###sponsored_content
+###stickyad
 ###sticky-ad-container
 ###story_bottom_ddb_0
 ###story_top_ddb_0
@@ -506,6 +507,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.adplaceholder
 ##.ad--mpu
 ##.ads--no-preload
+##.ads__container
 ##.ads-cont
 ##.ad-container-wrapper
 ##.ad-leaderboard-footer
@@ -899,6 +901,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.block-quartz-ads
 ##.nn_mobile_mpu_wrapper
 ##.static_mpu_wrap
+##.stickyad
 ##.squirrel_widget
 ##.BeOpWidget
 ##.td-ad-tp
@@ -4287,6 +4290,21 @@ stripes.com###MidPageAd
 bilibili.com##.feed-card:has(a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"])
 bilibili.com##.is-rcmd:has(a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"]))
 bilibili.com#@#a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])
+!! Indian generic
+##.ads__common
+##.itgdAdsPlaceholder
+##.stoybday-ad
+!! Indian first-party
+businesstoday.in##.outer-add-section
+businesstoday.in##.secondAdPosition
+indiatodaygaming.com##.ads__container_rhs
+thelallantop.com##.deaktop-header-ad
+thelallantop.com##.adunit
+thelallantop.com##.ads-auto-resize
+thelallantop.com##.videoAdInArticle
+thelallantop.com##[style="min-width:300px;min-height:250px;display:block !important"]
+thesportstak.com##[style="overflow:auto;height:130px"]
+thesportstak.com##[style="overflow: auto; height: 290px;"]
 !! French generic
 ###ad-haute
 ###ads_aside-wrapper
