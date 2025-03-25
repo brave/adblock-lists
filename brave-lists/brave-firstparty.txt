@@ -3807,6 +3807,8 @@ autoevolution.com##.bgcutgrad
 /sendLogs?cid=
 /tags.js?org_id=
 /wup?cid=
+! https://github.com/easylist/easylist/commit/1fe582ae6
+@@||tm.regions.com/tags.js$~third-party
 ! CNAME: account.adobe.com
 @@||account.adobe.com^
 ! CNAME: pol.dk
