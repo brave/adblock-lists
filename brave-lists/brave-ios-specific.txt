@@ -334,7 +334,7 @@ fmovies.co###ics
 /script/suurl.php
 /script/ut.js?cb=
 /d3.php?m=
-/sbar.json?key=
+/sbar.json?key=$script
 /pixel/sbe?
 /lv/esnk/*$script,3p
 /pixel/nvrwe?
