@@ -4867,6 +4867,73 @@ goingelectric.de##span[style="font-size:11px"]
 astronews.com##table[style="width: 100%;"]
 astronews.com##table[width="300px"]
 astronews.com##table[width="336"]
+!! Indian Generic
+###article_ad
+##.advMasterSlot
+##.app-ad
+##.header_adbox
+##.inside-post-ad
+##.oi-header-ad
+##.right-ad
+##.to-be-async-loaded-ad
+##.wplite-banner-ads
+!! Indian first-party
+esakal.com###st_article_leaderboard_1
+mathrubhumi.com###stickyunit
+asianetnews.com###top-atf
+mathrubhumi.com###webRgtTopAd_1
+asianetnews.com##.-baF-
+jagranjosh.com##.AdCont
+jagranjosh.com##.Ads
+lokmat.com##.Desktop_ATF
+deccanherald.com##.P4TmH
+asianetnews.com##._135A6
+deccanherald.com##._3q6iz
+livemint.com##.ad
+ndtvprofit.com##.ad-with-placeholder-m__place-holder-wrapper__--JIw
+tribuneindia.com##.ad_div_incls
+news18.com,news18marathi.com##.add_container
+jagran.com,mensxp.com##.ads
+hindustantimes.com##.advInBtweenNewsCard
+newindianexpress.com##.advert-box
+oneindia.com##.cmscontent-right1
+theprint.in##.code-block
+cnbctv18.com##.desk_header_banner
+mahasports.in##.gb-container-553faf02
+mahasports.in##.gb-container-882ac1f9
+livemint.com##.imagediv
+lokmat.com##.inarticleAd
+oneindia.com##.inhouse-content
+livemint.com##.inlineTaboolaHeight
+moneycontrol.com##.innerPageStrip
+lokmat.com##.lk-taboola
+news18.com,news18marathi.com##.mainAds_contnr
+mathrubhumi.com##.mpp-ad-container
+mathrubhumi.com##.mpp-main-element-sponsor-container
+news24online.com##.n24_ads_div_title
+oneindia.com##.oiad
+benzinga.com##.raptive-ad-placement
+ndtvprofit.com##.responsive-ad
+asianetnews.com##.rgtadbox
+lokmat.com##.rhs-ad
+cnbctv18.com##.rhs-long-ad
+indiatimes.com##.top-atf-wrapper
+indiatimes.com##.wdt-taboola
+indiatimes.com##.wdt_advertorial
+asianetnews.com##.xmeej
+barandbench.com##[data-test-id="ad"]
+divyabhaskar.co.in##[style*="max-height: 250px;"]
+divyabhaskar.co.in##[style*="max-height: 280px;"]
+divyabhaskar.co.in##[style*="max-height: 400px;"]
+divyabhaskar.co.in##[style*="max-height: 600px;"]
+divyabhaskar.co.in##[style*="max-height:250px"]
+divyabhaskar.co.in##[style*="max-height:280px"]
+divyabhaskar.co.in##[style*="max-height:400px"]
+divyabhaskar.co.in##[style*="max-height:600px"]
+thesportstak.com##[style="min-height: 400px;"]
+etvbharat.com##[style="min-width: 300px; min-height: 250px;"]
+etvbharat.com##[style="min-width: 728px; min-height: 90px;"]
+thesportstak.com##[style="overflow: auto; height: 130px;"]
 !! Turkish
 kanald.com.tr##+js(m3u-prune, /daioncdn\.net\/.*\/ad\//, /daioncdn\.net\/.*\.m3u8/)
 kanald.com.tr##+js(set-constant, adservice, {})
