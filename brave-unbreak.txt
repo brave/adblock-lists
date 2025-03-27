@@ -1261,20 +1261,6 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 ||linksynergy.com^$image,script,xmlhttprequest,subdocument,third-party
 ! nytimes.com (fixes no images)
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=nytimes.com
-! Peter Lowe fixes
-||awstrack.me^$badfilter
-||blockthrough.com^$badfilter
-||criteo.com^$badfilter
-||app.pendo.io^$badfilter
-||pubmatic.com^$badfilter
-||appsflyer.com^$badfilter
-||tapfiliate.com^$badfilter
-||dev.visualwebsiteoptimizer.com^$badfilter
-||rec5.visualwebsiteoptimizer.com^$badfilter
-||dacdn.visualwebsiteoptimizer.com^$badfilter
-||r1.visualwebsiteoptimizer.com^$badfilter
-||r2.visualwebsiteoptimizer.com^$badfilter
-||r3.visualwebsiteoptimizer.com^$badfilter
 ! Fix blank page on flipp.com
 @@||wishabi.net^$image,domain=flipp.com
 ! Fix "Alien Warning" script check on dslreports.com https://community.brave.com/t/alien-script-detected-inline-code-at-dslreports-com-speedtest/173716/
