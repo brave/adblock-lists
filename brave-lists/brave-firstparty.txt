@@ -4342,6 +4342,9 @@ cotemaison.fr###ads-core-player
 lasueur.com###backgroundleft
 lasueur.com###backgroundright
 boursier.com###banner-wrapper
+dealabs.com###belowCommentsAdSlotPortal
+dealabs.com###belowDescriptionAdSlotPortal
+dealabs.com###belowDetailsAdSlotPortal
 lalsace.fr,leprogres.fr###below_article_pubSponso_footer_player
 cnews.fr###block-cnews-pubsidebarsticky300x600
 cowcotland.com###blocpub1
@@ -4356,11 +4359,13 @@ maxifoot.fr###epSKY
 positivr.fr###generic-player
 goal.com###goal_web_leaderboard_mid
 cowcotland.com###intextad
+jeanmarcmorandini.com###jmm_ads_ban_middle
 rtl.fr###leaderboardTop
 leboncoin.fr###lht-space-ad
 charentelibre.fr###main-before-content-container
 telestar.fr###megabanner_top
 rtl.fr###mpuTop
+lachainemeteo.com###ob_in-feed
 corsematin.com,laprovence.com###other
 lesechos.fr###pave-1
 ouest-france.fr###pub_banniere_haute
@@ -4370,6 +4375,8 @@ ouest-france.fr###pub_pave_article2
 ouest-france.fr###pub_pave_article3
 ouest-france.fr###pub_pave_article4
 cowcotland.com###publeft
+dealabs.com###sidebarMiddleAdSlotPortal
+dealabs.com###sidebarTopAdSlotPortal
 tuxboard.com###slot_1
 tuxboard.com###slot_2
 tuxboard.com###slot_3
@@ -4380,6 +4387,7 @@ tuxboard.com###slot_foot
 tuxboard.com###slot_infinite_head
 latribune.fr###top-ban
 sudouest.fr###ultimedia-smart-player
+ladepeche.fr,orange.fr###ultimedia_wrapper
 liberation.fr##.AdLayout-sc-23g9kx-0
 francebleu.fr##.AdsSlot
 lequipe.fr##.AmPlaceholder
@@ -4388,10 +4396,12 @@ cosmopolitan.fr##.External
 radiofrance.fr##.PopSlot
 agefi.fr,lopinion.fr##.ResponsiveAd
 lesechos.fr##.aVMru.sc-17k0o2n-0
-centrepresseaveyron.fr,eurosport.fr,itdaily.fr,ladepeche.fr,lindependant.fr,slate.fr##.ad
+centrepresseaveyron.fr,eurosport.fr,itdaily.fr,lachainemeteo.com,ladepeche.fr,lindependant.fr,rugbyrama.fr,slate.fr##.ad
 tomsguide.fr##.ad-banner
 lejdd.fr##.ad-centre
 atlantico.fr,clubic.com,jeuxvideo.fr,marmiton.org##.ad-container
+basketusa.com##.ad-large
+basketusa.com##.ad-medium
 lamontagne.fr##.ad-slot
 mac4ever.com##.adContainer
 mac4ever.com##.adStickyContainer
@@ -4401,13 +4411,13 @@ le10sport.com##.ad_placeholder
 lasueur.com##.ad_space
 letemps.ch##.adnz__placeholder
 actu17.fr,actumma.com,canal-supporters.com,closermag.fr,culturepsg.com,football.fr,football365.fr,girondins4ever.com,huffingtonpost.fr,igen.fr,macg.co,mariefrance.fr,orange.fr,positivr.fr,sports.fr,telestar.fr,trustmyscience.com,watchgeneration.fr##.ads
-maxifoot.fr##.ads-container
+cuisineaz.com,maxifoot.fr##.ads-container
 latribune.fr##.ads-core-placer
 cesoirtv.com,programme-tv.net##.ads-desktop
 capital.fr##.ads-display
 lamontagne.fr##.advertise-box
 nouvelobs.com##.advertising
-canal-supporters.com,foot01.com,matchendirect.fr,planeterenault.com##.akcelo-wrapper
+basketusa.com,canal-supporters.com,dofuspourlesnoobs.com,foot01.com,geny.com,matchendirect.fr,planeterenault.com##.akcelo-wrapper
 dhnet.be,lalibre.be##.ap-AdContainer
 leboncoin.fr##.apn-na
 sudouest.fr##.aside-container
@@ -4417,6 +4427,7 @@ cnews.fr##.ban-top-habillage
 01net.com,journaldugeek.com,presse-citron.net##.banner
 01net.com##.banner-bottom
 bfmtv.com##.banner_top
+cuisineaz.com##.banniere-haute-wrapper
 lamontagne.fr##.bg-gray-normal.animate-pulse
 igen.fr,macg.co,orange.fr,watchgeneration.fr##.bg-zinc-50
 cotemaison.fr##.bloc
@@ -4443,6 +4454,7 @@ leparisien.fr##.commercial-banner
 goal.com##.component-open-web-ad
 funradio.fr,rtl.fr##.container-ads
 capital.fr,cesoirtv.com,programme-tv.net,programme.tv##.containerAds
+vidal.fr##.content-gam
 voici.fr##.coreAdsPlacer
 topito.com##.cow
 topito.com##.cow-leaderboard-wrapper
@@ -4460,6 +4472,7 @@ ledevoir.com##.flex-1
 gamekult.com##.g2__a-dc
 lesechos.fr##.gdbnAa
 seneplus.com##.google-leaderboard
+fdesouche.com##.gridlove-ad
 footmercato.net##.gtag
 lesechos.fr##.hBEjTJ.sc-1u9r8h-0
 hitek.fr##.h_ad_970x250
@@ -4490,6 +4503,7 @@ europe1.fr,lejdd.fr,parismatch.com##.lmn-container
 lejdd.fr,parismatch.com##.lmn-desk
 parismatch.com##.lmn-topban
 allocine.fr##.main-banner
+frandroid.com##.max-\[768px\]\:hidden
 actu.orange.fr##.media-advert-rm-height
 serieously.com##.min-h-60
 automobile-magazine.fr##.multi-opti
@@ -4497,12 +4511,13 @@ automobile-magazine.fr##.native-ad-v2
 iphon.fr,macplus.net##.od-billboard
 01net.com,journaldugeek.com,macplus.net,presse-citron.net##.od-wrapper
 capital.fr##.outbrain-ads
-marianne.net,programme-television.org##.p-aside--placeholder
+elle.fr,marianne.net,programme-television.org##.p-aside--placeholder
 programme-television.org##.p-bot--placeholder
 programme-television.org##.p-grid--placeholder
 programme-television.org##.p-inread
-marianne.net,programme-television.org##.p-top--placeholder
+elle.fr,marianne.net,programme-television.org##.p-top--placeholder
 ouedkniss.com##.page-top
+orange.fr##.pave_pub
 lexpress.fr##.placeholder--ban-atf-wrapper
 actugaming.net##.placeholder-wrap
 lotusnoir.info##.playink
@@ -4532,29 +4547,34 @@ letelegramme.fr##.tlg-ad-container
 euronews.com##.tp-outbrain
 rtl.fr##.tranche-obd
 football.fr,football365.fr,psychologies.com,sports.fr,telestar.fr##.viously-player
-foot-national.com,hitek.fr,lasueur.com,presse-citron.net,serieously.com##.vsly-player
+foot-national.com,hitek.fr,lasueur.com,presse-citron.net,serieously.com,supersoluce.com##.vsly-player
 portail.free.fr##.w-\[320px\]
 portail.free.fr##.w-\[360px\]
 lebigdata.fr,undernews.fr##.widget_custom_html
 01net.com##.widget_keleops-ad
 01net.com,presse-citron.net##.widget_keleops-adhalfpage
 cnews.fr##.wrapper-ads
-dna.fr,estrepublicain.fr,lalsace.fr,ledauphine.com,leprogres.fr,vosgesmatin.fr##.wrapperPub
+dna.fr,estrepublicain.fr,lalsace.fr,ledauphine.com,lejsl.com,leprogres.fr,libramemoria.com,vosgesmatin.fr##.wrapperPub
 citymagazine.si##.zeen-da-wrap
 zonebourse.com##.zppAds
 funradio.fr##[class="c-prebid"]
 lesnumeriques.com##[data-ad]
 diverto.tv##[data-atoms="Ad"]
 tvanouvelles.ca##[data-block-type="dfpMultiflexStickyBigBox"]
+societe.com##[data-fmt]
 frandroid.com##[data-gtm-bic]
 rtl.fr##[data-role="m6pub-infeed"]
 radio-canada.ca##[data-testid="ad"]
+nexusmods.com##[data-testid="ad-container-player"]
 eurosport.fr##[data-testid="atom-marketing-block-advertisement-title"]
 eurosport.fr##[data-testid="molecule-marketing-max-block"]
 charentelibre.fr##[id="ultimedia-smart-player"]
 tablette-tactile.net##[style="min-height:280px"]
+f95zone.to##[style="width: 728px; height: 90px;"]
+kingmods.net##[x-data="nativeAd"]
 lequipe.fr##body div[id^="AmPlaceholder-"]
 goal.com##div[class^="aside_ad-"]
+geny.com##div[style*="width: 300px;"]
 !! German generic
 ###adLeaderboard
 ###adWideboard
