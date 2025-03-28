@@ -128,7 +128,7 @@ blog.esuteru.com,blog.livedoor.jp,carscoops.com,eurointegration.com.ua,ff14net.2
 ! navigator.clipboard checks
 webplatform.news##+js(aopw, navigator.clipboard)
 ! navigator.connection checks
-pandora.com,userlytics.com##+js(set, navigator.connection, {})
+pandora.com,userlytics.com,twitch.tv,kick.com##+js(set, navigator.connection, {})
 ! :has
 youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 9gag.com##article:has(.promoted)
