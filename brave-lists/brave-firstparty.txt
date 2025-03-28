@@ -4292,21 +4292,6 @@ stripes.com###MidPageAd
 bilibili.com##.feed-card:has(a[href*="cm.bilibili.com"][data-target-url*="gaoneng.bilibili.com"])
 bilibili.com##.is-rcmd:has(a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"]))
 bilibili.com#@#a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*=".bilibili.com/"])
-!! Indian generic
-##.ads__common
-##.itgdAdsPlaceholder
-##.stoybday-ad
-!! Indian first-party
-businesstoday.in##.outer-add-section
-businesstoday.in##.secondAdPosition
-indiatodaygaming.com##.ads__container_rhs
-thelallantop.com##.deaktop-header-ad
-thelallantop.com##.adunit
-thelallantop.com##.ads-auto-resize
-thelallantop.com##.videoAdInArticle
-thelallantop.com##[style="min-width:300px;min-height:250px;display:block !important"]
-thesportstak.com##[style="overflow:auto;height:130px"]
-thesportstak.com##[style="overflow: auto; height: 290px;"]
 !! French generic
 ###ad-haute
 ###ads_aside-wrapper
@@ -4869,18 +4854,32 @@ astronews.com##table[width="300px"]
 astronews.com##table[width="336"]
 !! Indian Generic
 ###article_ad
+##.add-300x250
+##.ads-indicator
+##.ads__common
 ##.advMasterSlot
 ##.app-ad
 ##.header_adbox
 ##.inside-post-ad
+##.itgdAdsPlaceholder
 ##.oi-header-ad
 ##.right-ad
+##.stoybday-ad
 ##.to-be-async-loaded-ad
 ##.wplite-banner-ads
 !! Indian first-party
+gadgets360.com###__kpw_prodt_rhs
+gadgets360.com###adslot300x250ATF
+greaterkashmir.com###block-10
+thehansindia.com###home-mid-wrap1
+koimoi.com###inline_ad
+outlookindia.com###ol_story_sticky
+daijiworld.com###pnlCricket
 esakal.com###st_article_leaderboard_1
 mathrubhumi.com###stickyunit
 asianetnews.com###top-atf
+journee-mondiale.com###video-evo-player
+news18.com###vidgyor_parent
 mathrubhumi.com###webRgtTopAd_1
 asianetnews.com##.-baF-
 jagranjosh.com##.AdCont
@@ -4889,39 +4888,88 @@ lokmat.com##.Desktop_ATF
 deccanherald.com##.P4TmH
 asianetnews.com##._135A6
 deccanherald.com##._3q6iz
+gadgets360.com##._ad
 livemint.com##.ad
+sports.ndtv.com##.ad-cnt
 ndtvprofit.com##.ad-with-placeholder-m__place-holder-wrapper__--JIw
+koimoi.com##.ad-wrapper-border
 tribuneindia.com##.ad_div_incls
 news18.com,news18marathi.com##.add_container
-jagran.com,mensxp.com##.ads
+gadgets360.com##.adhead
+filmfare.com,jagran.com,mensxp.com##.ads
+thelallantop.com##.ads-auto-resize
+bollywoodlife.com##.adsFixed
+indiatodaygaming.com##.ads__container_rhs
+thelallantop.com##.adunit
 hindustantimes.com##.advInBtweenNewsCard
 newindianexpress.com##.advert-box
+mid-day.com##.advertisement-text
+manoramaonline.com,onmanorama.com##.advtBlock
+rediff.com##.advtcontainer
+rediff.com##.advttext
+etnownews.com##.atfAdContainer
+manoramaonline.com,onmanorama.com##.bannerImage
+rediff.com##.boxadvtcontainer
 oneindia.com##.cmscontent-right1
-theprint.in##.code-block
+newsx.com,theprint.in##.code-block
+manoramanews.com##.comp-ad
+thelallantop.com##.deaktop-header-ad
 cnbctv18.com##.desk_header_banner
+news18.com##.desktopad
+news18.com##.desktopadh
+filmibeat.com##.filmi-header-ad
 mahasports.in##.gb-container-553faf02
 mahasports.in##.gb-container-882ac1f9
+journee-mondiale.com##.gptslot
+firstpost.com##.header-top-ad-desktop
+thequint.com##.i5rjV
 livemint.com##.imagediv
 lokmat.com##.inarticleAd
 oneindia.com##.inhouse-content
 livemint.com##.inlineTaboolaHeight
 moneycontrol.com##.innerPageStrip
+daijiworld.com##.ipRightAdvt
+republicbharat.com,republicworld.com##.lbdesktop
+thehansindia.com##.level-1-ad-desktop
+thehansindia.com##.level-1-ad-mobile
 lokmat.com##.lk-taboola
 news18.com,news18marathi.com##.mainAds_contnr
+republicbharat.com,republicworld.com##.min-h-\[290px\]
+republicbharat.com,republicworld.com##.min-h-\[90px\]
 mathrubhumi.com##.mpp-ad-container
 mathrubhumi.com##.mpp-main-element-sponsor-container
 news24online.com##.n24_ads_div_title
-oneindia.com##.oiad
+newsx.com##.nomobileads
+filmibeat.com,goodreturns.in,oneindia.com##.oiad
+businesstoday.in##.outer-add-section
+sports.ndtv.com##.overlay__side-nav
+gadgets360.com##.pagepusheradATF
+wionews.com##.publive-dynamic-container
+thequint.com##.qw4lB
 benzinga.com##.raptive-ad-placement
+filmibeat.com##.removeStyleAd
 ndtvprofit.com##.responsive-ad
 asianetnews.com##.rgtadbox
 lokmat.com##.rhs-ad
 cnbctv18.com##.rhs-long-ad
+india.com##.right-taboola
+businesstoday.in##.secondAdPosition
+newsx.com##.singleAdd_one
+newsx.com##.singleAdd_sec
+india.com##.taboola-bottom
+outlookindia.com##.taboola-right
+kashmirlife.net##.td-a-rec
 indiatimes.com##.top-atf-wrapper
+theweek.in##.topheader-wrapper
+thelallantop.com##.videoAdInArticle
 indiatimes.com##.wdt-taboola
 indiatimes.com##.wdt_advertorial
 asianetnews.com##.xmeej
+kalingatv.com##[data-adid]
 barandbench.com##[data-test-id="ad"]
+smartprix.com##[pos="d_article_sidebar_bottom"]
+smartprix.com##[pos="d_article_sidebar_top"]
+smartprix.com##[sm-dap]
 divyabhaskar.co.in##[style*="max-height: 250px;"]
 divyabhaskar.co.in##[style*="max-height: 280px;"]
 divyabhaskar.co.in##[style*="max-height: 400px;"]
@@ -4930,10 +4978,19 @@ divyabhaskar.co.in##[style*="max-height:250px"]
 divyabhaskar.co.in##[style*="max-height:280px"]
 divyabhaskar.co.in##[style*="max-height:400px"]
 divyabhaskar.co.in##[style*="max-height:600px"]
+zeebiz.com##[style="height: 90px;"]
+tradebrains.in##[style="margin-top: -10px;"]
+etnownews.com##[style="min-height: 181px;"]
 thesportstak.com##[style="min-height: 400px;"]
 etvbharat.com##[style="min-width: 300px; min-height: 250px;"]
 etvbharat.com##[style="min-width: 728px; min-height: 90px;"]
+thelallantop.com##[style="min-width:300px;min-height:250px;display:block !important"]
 thesportstak.com##[style="overflow: auto; height: 130px;"]
+thesportstak.com##[style="overflow: auto; height: 290px;"]
+thesportstak.com##[style="overflow:auto;height:130px"]
+daijiworld.com##a[onclick]
+thestatesman.com##p[style="margin-bottom: 1px; text-align: center;"]
+thestatesman.com##p[style="margin-bottom:1px; text-align:center;"]
 !! Turkish
 kanald.com.tr##+js(m3u-prune, /daioncdn\.net\/.*\/ad\//, /daioncdn\.net\/.*\.m3u8/)
 kanald.com.tr##+js(set-constant, adservice, {})

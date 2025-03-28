@@ -255,6 +255,9 @@ gap.com,ibanking-services.com,connectonebank.com,tescobank.com,sbisec.co.jp,tsb.
 ! slate.com Anti-adblock workaround https://github.com/brave/brave-browser/issues/15702
 ! thehindu.com https://www.reddit.com/r/brave_browser/comments/10hh4j6/this_site_is_detecting_braveandroid_adblock/
 ||tinypass.com^$domain=slate.com|www.thehindu.com
+@@||cdn.tinypass.com/api/tinypass.min.js$script,domain=thehindu.com
+@@||id.tinypass.com/id/$script,domain=thehindu.com
+@@||experience.tinypass.com/xbuilder/experience/load$script,domain=thehindu.com
 wetter.com,spiegel.de##[referrerpolicy]
 ! Warning message
 ||spiegel.de/public/shared/generated/3rdparty/js/msg_without_detection.
