@@ -201,6 +201,15 @@
    },
    {
     "include": [
+      "*://www.fedex.com/*"
+    ],
+    "exceptions": [
+      "referrer"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/44976"
+   },
+   {
+    "include": [
       "*://www.klm.com/*",
       "*://belarus.klm.com/*",
       "*://bonaire.klm.com/*",
