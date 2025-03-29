@@ -1544,7 +1544,7 @@ eva.vn#@##right_ads
 39.benesse.ne.jp,techeyesonline.com#@##side-ad
 lexicanum.com#@##sidebar-ad
 mars.video#@##stickyads
-jansatta.com#@##taboola-below-article-1
+jansatta.com,indianexpress.com#@##taboola-below-article-1
 azclick.jp,tubefilter.com#@##topAd
 soundandvision.com,stereophile.com#@##topbannerad
 gamingcools.com#@#.Adsense
@@ -4857,6 +4857,7 @@ astronews.com##table[width="336"]
 ##.add-300x250
 ##.ads-indicator
 ##.ads__common
+##.adsPush
 ##.advMasterSlot
 ##.app-ad
 ##.header_adbox
@@ -4866,11 +4867,16 @@ astronews.com##table[width="336"]
 ##.right-ad
 ##.stoybday-ad
 ##.to-be-async-loaded-ad
+##.webAds
 ##.wplite-banner-ads
 !! Indian first-party
 gadgets360.com###__kpw_prodt_rhs
 gadgets360.com###adslot300x250ATF
 greaterkashmir.com###block-10
+bollywoodshaadis.com###feed-ad-1
+bollywoodshaadis.com###feed-ad-2
+bollywoodshaadis.com###feed-ad-3
+lokmattimes.com###headerBanner
 thehansindia.com###home-mid-wrap1
 koimoi.com###inline_ad
 outlookindia.com###ol_story_sticky
@@ -4884,16 +4890,26 @@ mathrubhumi.com###webRgtTopAd_1
 asianetnews.com##.-baF-
 jagranjosh.com##.AdCont
 jagranjosh.com##.Ads
-lokmat.com##.Desktop_ATF
+lokmat.com,lokmattimes.com##.Desktop_300x250_2
+lokmat.com,lokmattimes.com##.Desktop_ATF
+lokmat.com,lokmattimes.com##.Mobile_300x250_1
+lokmat.com,lokmattimes.com##.Mobile_300x250_2
+lokmat.com,lokmattimes.com##.Mobile_300x250_3
+lokmat.com,lokmattimes.com##.Mobile_300x250_4
 deccanherald.com##.P4TmH
 asianetnews.com##._135A6
 deccanherald.com##._3q6iz
 gadgets360.com##._ad
-livemint.com##.ad
+livemint.com,thehindu.com##.ad
+etnownews.com##.ad-600-h
+indiaforums.com##.ad-banner
 sports.ndtv.com##.ad-cnt
+freepressjournal.in##.ad-slots
 ndtvprofit.com##.ad-with-placeholder-m__place-holder-wrapper__--JIw
 koimoi.com##.ad-wrapper-border
 tribuneindia.com##.ad_div_incls
+mid-day.com##.add-970x250
+digit.in##.add_box_top
 news18.com,news18marathi.com##.add_container
 gadgets360.com##.adhead
 filmfare.com,jagran.com,mensxp.com##.ads
@@ -4902,13 +4918,17 @@ bollywoodlife.com##.adsFixed
 indiatodaygaming.com##.ads__container_rhs
 thelallantop.com##.adunit
 hindustantimes.com##.advInBtweenNewsCard
+bollywoodshaadis.com##.adv_text2
 newindianexpress.com##.advert-box
 mid-day.com##.advertisement-text
+gujaratsamachar.com##.advertisment-v2
 manoramaonline.com,onmanorama.com##.advtBlock
 rediff.com##.advtcontainer
 rediff.com##.advttext
-etnownews.com##.atfAdContainer
+bollywoodshaadis.com##.artcl_ad_dsk
+etnownews.com,timesdrive.in,timesnowhindi.com##.atfAdContainer
 manoramaonline.com,onmanorama.com##.bannerImage
+timesdrive.in,timesnowhindi.com,timesnownews.com##.bggrayAd
 rediff.com##.boxadvtcontainer
 oneindia.com##.cmscontent-right1
 newsx.com,theprint.in##.code-block
@@ -4918,13 +4938,14 @@ cnbctv18.com##.desk_header_banner
 news18.com##.desktopad
 news18.com##.desktopadh
 filmibeat.com##.filmi-header-ad
+bollywoodshaadis.com##.fw_ad
 mahasports.in##.gb-container-553faf02
 mahasports.in##.gb-container-882ac1f9
 journee-mondiale.com##.gptslot
 firstpost.com##.header-top-ad-desktop
 thequint.com##.i5rjV
 livemint.com##.imagediv
-lokmat.com##.inarticleAd
+lokmat.com,lokmattimes.com##.inarticleAd
 oneindia.com##.inhouse-content
 livemint.com##.inlineTaboolaHeight
 moneycontrol.com##.innerPageStrip
@@ -4944,13 +4965,14 @@ filmibeat.com,goodreturns.in,oneindia.com##.oiad
 businesstoday.in##.outer-add-section
 sports.ndtv.com##.overlay__side-nav
 gadgets360.com##.pagepusheradATF
+hindustantimes.com##.pramotedWidget
 wionews.com##.publive-dynamic-container
 thequint.com##.qw4lB
 benzinga.com##.raptive-ad-placement
 filmibeat.com##.removeStyleAd
 ndtvprofit.com##.responsive-ad
 asianetnews.com##.rgtadbox
-lokmat.com##.rhs-ad
+lokmat.com,lokmattimes.com##.rhs-ad
 cnbctv18.com##.rhs-long-ad
 india.com##.right-taboola
 businesstoday.in##.secondAdPosition
@@ -4961,6 +4983,7 @@ outlookindia.com##.taboola-right
 kashmirlife.net##.td-a-rec
 indiatimes.com##.top-atf-wrapper
 theweek.in##.topheader-wrapper
+mezha.media##.unit_side_banner
 thelallantop.com##.videoAdInArticle
 indiatimes.com##.wdt-taboola
 indiatimes.com##.wdt_advertorial
@@ -4982,6 +5005,7 @@ zeebiz.com##[style="height: 90px;"]
 tradebrains.in##[style="margin-top: -10px;"]
 etnownews.com##[style="min-height: 181px;"]
 thesportstak.com##[style="min-height: 400px;"]
+thelallantop.com##[style="min-width: 300px; min-height: 110px;"]
 etvbharat.com##[style="min-width: 300px; min-height: 250px;"]
 etvbharat.com##[style="min-width: 728px; min-height: 90px;"]
 thelallantop.com##[style="min-width:300px;min-height:250px;display:block !important"]
@@ -4989,8 +5013,14 @@ thesportstak.com##[style="overflow: auto; height: 130px;"]
 thesportstak.com##[style="overflow: auto; height: 290px;"]
 thesportstak.com##[style="overflow:auto;height:130px"]
 daijiworld.com##a[onclick]
+thelallantop.com##p[style="font-size: 11px; color: rgb(183, 183, 183); margin-bottom: 0px;"]
 thestatesman.com##p[style="margin-bottom: 1px; text-align: center;"]
 thestatesman.com##p[style="margin-bottom:1px; text-align:center;"]
+! crictracker.com
+@@||crictracker.com^$ghide
+crictracker.com##.ads-box.text-center
+crictracker.com##.position-sticky.sticky-ads
+crictracker.com##.overflow-hidden.ads-box
 !! Turkish
 kanald.com.tr##+js(m3u-prune, /daioncdn\.net\/.*\/ad\//, /daioncdn\.net\/.*\.m3u8/)
 kanald.com.tr##+js(set-constant, adservice, {})
