@@ -2562,6 +2562,8 @@ cuevana.biz###mdl-ads
 kcby.com##.sd-container
 ! spotify ads
 ||spotify.com/ads/
+! straitstimes.com (fix blank screen)
+||straitstimes.com/_web2/betterads_head.js
 ! vox.com
 vox.com##[data-concert="tablet_leaderboard"]
 vox.com##[data-concert="outbrain_post_tablet_and_desktop"]
@@ -3067,6 +3069,8 @@ nationalrail.co.uk##div[id^="ad-advert-"]
 ! aol.com
 aol.com##.m-gam__container
 ! newsweek.com
+newsweek.com##.right-rail-ads
+newsweek.com###block-nw-content-recirc
 newsweek.com###right1ad
 ! rabbitstream.net
 rabbitstream.net###overlay-container
@@ -4307,7 +4311,10 @@ bilibili.com#@#a[href*="cm.bilibili.com"][data-target-url]:not([data-target-url*
 ###pub_dfp_droite_basse
 ##.ad--banniere_haute
 ##.ad-min-height
+##.ads-box-970x90
+##.ads-box-300x250
 ##.ads-actif
+##.ads-placeholder-internal
 ##.ads-tabletDesktop
 ##.ads-expandHeight
 ##.ads-wrapper-top
@@ -4446,6 +4453,7 @@ topito.com##.cow-leaderboard-wrapper
 nextpit.fr##.cpgSlot
 20minutes.tv##.cs-container-block
 liberation.fr##.default__OutbrainWrapper-sc-8b0epf-0
+lokmat.com##.Desktop_300x250_1
 lanouvellerepublique.fr##.dfp
 playtv.fr##.display
 challenges.fr##.domain-ui-ad-placeholder
@@ -4468,6 +4476,7 @@ funradio.fr,rtl.fr##.header-ariane
 ledevoir.com##.header-pub
 tvanouvelles.ca##.header-topBar-sticky
 les-terrains.com##.headerTop
+moneycontrol.com##.hide-mobile
 abcbourse.com##.hom_ban
 abcbourse.com##.hom_ban3
 lesechos.fr##.hznoPL
@@ -4495,6 +4504,7 @@ automobile-magazine.fr##.multi-opti
 automobile-magazine.fr##.native-ad-v2
 iphon.fr,macplus.net##.od-billboard
 01net.com,journaldugeek.com,macplus.net,presse-citron.net##.od-wrapper
+oneindia.com##.oi-adblock
 capital.fr##.outbrain-ads
 elle.fr,marianne.net,programme-television.org##.p-aside--placeholder
 programme-television.org##.p-bot--placeholder
@@ -4520,6 +4530,7 @@ lotusnoir.info##.right_box
 lesoir.be##.rossel-ads
 maison-travaux.fr##.rwad-with-placeholder
 lesechos.fr##.sc-1u9r8h-2
+moneycontrol.com##.show-mobile
 lepoint.fr##.slotadm
 lepoint.fr##.slotpub
 lecho.be##.smartmag-widget-codes
@@ -4564,6 +4575,7 @@ geny.com##div[style*="width: 300px;"]
 ###adLeaderboard
 ###adWideboard
 ###ads-bigsize
+###apn-large-content-ad
 ###nativendo-nachrichten-unterhalb
 ###traffective-ad-Billboard
 ###traffective-ad-Content_1
@@ -4797,6 +4809,7 @@ gamereactor.de##.yks300
 t-online.de##.z-commercial-nativendo
 marketscreener.com##.zppAds
 reisereporter.de,rnd.de,saechsische.de,siegener-zeitung.de##[class*="Adstyled__AdWrapper"]
+willhaben.at##[aria-hidden="true"]:has(#apn-large-leaderboard)
 blick.ch##[class*="slot-code-desktop-"]
 berliner-zeitung.de##[class*="traffective_wrapper__"]
 chip.de##[class^="Ad-Slot-"]
@@ -4852,6 +4865,8 @@ goingelectric.de##span[style="font-size:11px"]
 astronews.com##table[style="width: 100%;"]
 astronews.com##table[width="300px"]
 astronews.com##table[width="336"]
+transfermarkt.*##.ad-placement-note
+transfermarkt.*###home-rectangle-spotlight
 !! Indian Generic
 ###article_ad
 ##.add-300x250
@@ -5002,6 +5017,7 @@ divyabhaskar.co.in##[style*="max-height:280px"]
 divyabhaskar.co.in##[style*="max-height:400px"]
 divyabhaskar.co.in##[style*="max-height:600px"]
 zeebiz.com##[style="height: 90px;"]
+swarajyamag.com##[style="height:90px"]
 tradebrains.in##[style="margin-top: -10px;"]
 etnownews.com##[style="min-height: 181px;"]
 thesportstak.com##[style="min-height: 400px;"]

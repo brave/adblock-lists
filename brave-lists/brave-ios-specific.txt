@@ -326,9 +326,7 @@ fmovies.co###ics
 ! generic blocks
 /script/utils.js$script,third-party
 /script/suv5.js
-/script/suurl5.php
 /script/suurl.php
-/script/ut.js?cb=
 /d3.php?m=
 /sbar.json?key=$script
 /pixel/sbe?

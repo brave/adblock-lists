@@ -42,14 +42,19 @@ search.brave.com###search-ad
 @@||community.brave.com^$ghide
 
 ! Generic blocks
+.com/cuid/?
 .top/cuid/?
 .shop/opf/
 .shop/cuid/
 .shop/gd/
+.shop/sbx/
 .click/tsk/
 .click/opf/
 .click/gd/
+.com/tsf/
 /push/i?clk
+/script/ut.js
+/suurl5.php?
 
 ! Fix localhost block on Trezor Bridge/Connect
 ! https://community.brave.com/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544/
