@@ -2958,8 +2958,8 @@ rd.com###gch-prearticle-container
 ! breitbart.com
 breitbart.com##.a-wrapper
 ! thegatewaypundit.com
-thegatewaypundit.com##.adcovery-home-01
-thegatewaypundit.com##.ai-dynamic
+! thegatewaypundit.com##.adcovery-home-01
+! thegatewaypundit.com##.ai-dynamic
 ! postandcourier.com
 postandcourier.com##.asset-breakout-ads
 ! floridapolitics.com 

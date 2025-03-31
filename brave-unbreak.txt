@@ -654,7 +654,7 @@ smokingmeatforums.com##+js(acs, $, btoa)
 ! https://affiliate.fc2.com/ anti-adblock
 affiliate.fc2.com##+js(nostif, checkFeed, 1000)
 ! thegatewaypundit .com anti adb warning
-thegatewaypundit.com##+js(aeld, , adtoniq)
+! thegatewaypundit.com##+js(aeld, , adtoniq)
 ! https://github.com/uBlockOrigin/uAssets/issues/7359
 @@||9lives.be^$ghide
 ! https://github.com/uBlockOrigin/uAssets/issues/7371
