@@ -2020,15 +2020,17 @@ canucksarmy.com,bluejaysnation.com,theleafsnation.com,flamesnation.ca,dailyfaceo
 canucksarmy.com,bluejaysnation.com,theleafsnation.com,flamesnation.ca,dailyfaceoff.com,oilersnation.com,dailyfaceoff.com##.min-h-\[250px\]
 dailyfaceoff.com##.md\:min-h-\[267px\]
 ! engadget.com
-engadget.com##.caas-da
-engadget.com##.post-article-ad
+engadget.com###LB-MULTI_ATF
 engadget.com##.Mih\(90px\)
-engadget.com##.Py\(30px\).Bgc\(engadgetGhostWhite\)
-engadget.com##.Td\(n\).Bdbc\(engadgetGutter\).Py\(40px\)
+engadget.com##.caas-da
 engadget.com##.da-container
+engadget.com##.post-article-ad
 engadget.com##.related-content-lazyload
 engadget.com##.wafer-benji
-engadget.com###LB-MULTI_ATF
+engadget.com##li.lg\:min-h-\[234px\]
+engadget.com##section.md\:min-h-\[310px\]
+engadget.com##.justify-center:has-text(Advertisement)
+engadget.com##[data-test="top-ad"]
 ! sourceforge.net
 sourceforge.net##.sterling
 ! ghacks.net
