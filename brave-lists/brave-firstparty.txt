@@ -986,6 +986,7 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##div.proper-ad-unit
 ##div.rs_ad_block
 ##div.header-ad-container
+##div.vuukle-ads
 ! (invideo advertising)
 ###Player_Playoncontent
 ###Player_Playoncontent_footer
@@ -5106,6 +5107,65 @@ daijiworld.com##a[onclick]
 thelallantop.com##p[style="font-size: 11px; color: rgb(183, 183, 183); margin-bottom: 0px;"]
 thestatesman.com##p[style="margin-bottom: 1px; text-align: center;"]
 thestatesman.com##p[style="margin-bottom:1px; text-align:center;"]
+! Spanish first-party
+osalto.gal###anuncios-opinion
+elperiodico.com##._mo_recs_cti
+larazon.es##.ad
+ciudad.com.ar##.ad-container
+lavozdegalicia.es##.ad_fixed_h
+lasexta.com##.ads
+elespanol.com,elindependiente.com##.adv
+larazon.es##.advertising
+tycsports.com##.asideAdWrapper
+20minutos.es##.axds
+elplural.com##.banner
+clarin.com##.bannerTopHeader
+ciudad.com.ar##.brick_three_ads
+eldiario.es##.edi-advertising
+elperiodico.com##.ft-ad
+larazon.es##.henneoHB
+tycsports.com##.horizontalAdWrapper
+infolibre.es##.news-sponsored-content
+publico.es##.pb-ads
+osalto.gal##.publi-lateral
+elconfidencial.com##.revUnit
+clarin.com##.sc-23e4af8c-6.kvPYff
+infobae.com##.sticky-navbar-ad-container
+elespanol.com##.stickycontainer
+heraldo.es##.top_ads_container
+lavozdegalicia.es##.tophead-ad
+osalto.gal##[aria-label="publicidad"]
+ondacero.es##[data-type="ads"]
+ondacero.es##[data-type="ads-no-lazy"]
+antena3.com###divLoader
+3djuegos.com,3djuegosguias.com,3djuegospc.com,compradiccion.com,directoalpaladar.com,espinof.com,genbeta.com,mundoxiaomi.com,poprosa.com,territorioese.com,trendencias.com,vidaextra.com,vitonica.com,xataka.com,xatakahome.com,xatakamovil.com,xatakandroid.com##.ad
+okdiario.com##.ad-slot-ph
+antena3.com##.adv
+es.ara.cat##.advertising
+eleconomista.es##.article_OutbrainContent
+20minutos.es##.axds-lane
+losprimeros.tv##.block-4d
+cope.es##.c-add
+eldebate.com##.c-add-wall
+elnacional.cat##.c-banner
+cadenaser.com,caracol.com.co,los40.com##.c-pub
+cadenaser.com,caracol.com.co,los40.com##.cnt-publi
+eldebate.com##.content-add
+libertaddigital.com##.dfp
+eluniverso.com##.feature-taboola
+eldebate.com##.fotter-ads
+elperiodicodearagon.com,sport.es##.ft-ad
+jotdown.es##.g
+sensacine.com##.main-banner
+adnradio.cl,caracol.com.co##.mh266-100
+forbes.es##.publicidad
+20minutos.es##.taboola_container
+millenium.gg##.u-ads
+diariodesevilla.es##[data-ad-type]
+eleconomista.es##[data-ad-unit-id]
+cadenaser.com##[data-adtype]
+antena3.com##[div^="taboola-container-"]
+eluniverso.com##div[id^="ad-"]
 ! crictracker.com
 @@||crictracker.com^$ghide
 crictracker.com##.ads-box.text-center
