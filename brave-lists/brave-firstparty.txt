@@ -3611,17 +3611,25 @@ investing.com###ad2
 investing.com###ad3
 investing.com###hpAdVideo
 investing.com##.ad-blocker-popup
+investing.com##.border-b:has(> .box-content[data-test="ad-slot-visible"])
 investing.com##.dfpAdUnitContainer
 investing.com##.dfpVideo
 investing.com##.im-ad-visible
 investing.com##.js-general-overlay
 investing.com##.wideTopBanner
 investing.com##[class*="adBlock"]
+investing.com##[class*="notification_notification"]
 investing.com##[class*="overlay_overlay"]
+investing.com##[class^="ad-notification"]
+investing.com##[class^="ad_ad-sticky_"]
+investing.com##[class^="outbrain_outbrain-wrapper"]
+investing.com##[id^="adNotification"]
+investing.com##body:style(overflow: auto !important)
 investing.com##div.text-\[\#5b616e\]
-investing.com##div[data-test="ad-slot-visible"]
+investing.com##div[class]:has(> :is(.ad-blockers-section, [class*="adNotification"]))
 investing.com##div[class^="ad_"]
-||investing.com/js/n/ad-blocker-popup$script
+investing.com##div[data-test="ad-slot-visible"]
+||investing.com/*/ad-notification-popup
 ! psypost.org
 psypost.org##.jeg_midbar
 ! faanproj.com and pifansubs.club ads
