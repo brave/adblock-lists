@@ -52,6 +52,7 @@ search.brave.com###search-ad
 .click/opf/
 .click/gd/
 .com/tsf/
+.top/gd/*?md=
 /push/i?clk
 /script/ut.js
 /suurl5.php?
