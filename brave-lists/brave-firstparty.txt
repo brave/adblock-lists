@@ -3218,7 +3218,12 @@ dictionary.com,thesaurus.com##.SZjJlj7dd7R6mDTODwIT
 dictionary.com,thesaurus.com##.fHACXxic9xvQeSNITiwH
 dictionary.com,thesaurus.com##.otd-item__bottom
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
+! igg-games.com
+||igg-games.com/sw.js
+! pandamovies.org
+/adultdvdparadisecompopinsecound.js$script
 ! asuracomic.net (spam)
+||asuracomic.net/api/ads/
 asuracomic.net##.bg-\[length\:20px_20px\]
 asuracomic.net##.p-4.z-50:has-text(Upgrade to)
 asuracomic.net##.to-indigo-800
