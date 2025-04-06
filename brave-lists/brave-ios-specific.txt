@@ -32,7 +32,7 @@ x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,l
 cnn.com##body,html:style(overflow: auto !important; position: initial !important;)
 
 ! thegatewaypundit.com
-@@||ruamupr.com^$script,domain=www.thegatewaypundit.com
+@@||ruamupr.com^$script,domain=thegatewaypundit.com
 
 ! .top
 *.top/$script,3p,domain=lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
