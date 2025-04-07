@@ -785,6 +785,8 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##.module-ad
 ##.module_home_ads
 ##.module_single_ads
+##.mrf-adv
+##.mrf-adv__wrapper
 ##.mpu-ad
 ##.multiad2
 ##.mvp-ad-label
