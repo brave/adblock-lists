@@ -32,7 +32,7 @@ x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,l
 cnn.com##body,html:style(overflow: auto !important; position: initial !important;)
 
 ! .top
-*.top/$script,3p,domain=lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
+*.top/$script,3p,domain=animepahe.ru|mgeko.cc|movies2watch.tv|himovies.sx|flixhq.to|do7go.com|movi.pk|lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
 
 ! amgreatness.com
 ||ruamupr.com^
