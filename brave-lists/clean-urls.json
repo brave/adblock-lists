@@ -629,6 +629,17 @@
     },
     {
         "include": [
+            "*://*.github.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "notification_referrer_id"
+        ]
+    },
+    {
+        "include": [
             "*://arstechnica.com/*",
             "*://pitchfork.com/*",
             "*://www.allure.com/*",
