@@ -1,2 +1,7 @@
 ! Regional sites
 
+! Spanish scriptlets
+redecanais.gs##+js(addEventListener-defuser, DOMContentLoaded, loadAdScript)
+redecanais.gs##+js(abort-on-property-read, close)
+redecanais.gs#@#.AdsBox
+redecanais.gs##body > #overlay
