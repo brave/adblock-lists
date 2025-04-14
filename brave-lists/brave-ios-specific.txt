@@ -264,6 +264,7 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||purpleads.io^
 ||pushub.net^
 ||rausteehih.net^
+||rmhfrtnd.com^
 ||rndskittytor.com^
 ||rtmark.net^
 ||searswalers.com^
@@ -284,6 +285,7 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||tabletsregrind.com^
 ||tapewherever.com^
 ||totesnobis.com^
+||trackwilltrk.com^
 ||trafficbass.com^
 ||trafficjunky.com^$3p
 ||tsyndicate.com^
