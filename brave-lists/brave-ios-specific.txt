@@ -222,11 +222,13 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||infatuated-difference.pro^
 ||inpagepush.com^
 ||iople.com^
+||juicyads.com^$script,3p
 ||kcaactpkyp.com^
 ||liadm.com^
 ||lumex.space^
 ||kcfdom.com^
 ||madurird.com^
+||magsrv.com^
 ||mastinstungmoreal.com^
 ||mcizas.com^
 ||meenetiy.com^
