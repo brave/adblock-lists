@@ -3796,6 +3796,10 @@ dailycaller.com###dailycaller_incontent_1
 dailycaller.com###dailycaller_incontent_2
 dailycaller.com###dailycaller_incontent_3
 dailycaller.com###dailycaller_incontent_4
+! missav
+missav.ws##div[style="width: 300px; height: 250px;"]
+missav.ws##a[href*="//bit.ly/"]
+missav.ws##.lg\:block
 ! endtimeheadlines.org
 endtimeheadlines.org##.endti-widget
 ! japantoday.com
