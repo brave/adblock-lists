@@ -5,3 +5,6 @@ redecanais.gs##+js(addEventListener-defuser, DOMContentLoaded, loadAdScript)
 redecanais.gs##+js(abort-on-property-read, close)
 redecanais.gs#@#.AdsBox
 redecanais.gs##body > #overlay
+! Spanish (cuevana.)
+cuevana.*,cuevana.is,cuevana.biz,cuevana2espanol.net,cuevana3.to,poseidonhd2.co##+js(abort-on-property-read, cJsEdge)
+/edgesystem*.js$from=cuevana.*|cuevana2espanol.*|cuevana3.*|gnula.*|pelispedia.life|poseidonhd2.co|cuevana.is|cuevana.biz|cuevana2espanol.net|cuevana3.to
