@@ -954,7 +954,10 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##div[class^="native-ad-"]
 ##div[class^="Display_displayAd"]
 ##div[data-ad-placeholder]
+##div[data-ad-region]
 ##div[data-ad-targeting]
+##div[data-ad-wrapper]
+##div[data-adname]
 ##div[data-adunit]
 ##div[data-dfp-id]
 ##div[id^="adngin-"]
@@ -1458,6 +1461,7 @@ indy100.com##.addressed_cls
 androidheadlines.com,dailyveganmeal.com,gcaptain.com,mp1st.com,thedebrief.org,unofficialnetworks.com##.adthrive
 muscleandfitness.com##.ami-video-placeholder
 usmagazine.com##.ami-video-wrapper
+arstechnica.com##.ars-interlude-container
 telegraph.co.uk##.article-betting-unit-container
 niagarafallsreview.ca,stcatharinesstandard.ca,therecord.com,thespec.com,thestar.com,wellandtribune.ca##.article-pe-video-wrapper
 financemagnates.com##.article-sidebar__video-banner
@@ -1465,6 +1469,7 @@ ibtimes.com,latintimes.com,sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
 digitaltrends.com##.b-connatix
 bmwblog.com##.bmwbl-video-in-content
+tennisworldusa.org##.box_adv_primis
 pedestrian.tv##.brightcove-video-container
 military.com##.brightcove-video-wrapper
 cnet.com,zdnet.com##.c-avStickyVideo
@@ -1532,6 +1537,7 @@ sportskeeda.com##.vidazoo-player-container
 justthenews.com##.video
 petapixel.com##.video-aspect-wrapper
 bowhunter.com,firearmsnews.com,flyfisherman.com,gameandfishmag.com,gunsandammo.com,handgunsmag.com,in-fisherman.com,northamericanwhitetail.com,petersenshunting.com,rifleshootermag.com,shootingtimes.com,wildfowlmag.com##.video-detail-player
+gbnews.com##.video-inbody
 fodors.com##.video-inline
 gearjunkie.com##.video-jwplayer
 hiphopdx.com##.video-player
@@ -1539,8 +1545,10 @@ bolavip.com##.video-player-placeholder
 benzinga.com##.video-player-wrapper
 thepinknews.com##.video-player__container
 tasty.co##.video-wrap
+miamiherald.com##.videoInstance
 dpreview.com##.videoWrapper
 consequence.net##.video_container
+gbnews.com##.vsly-player
 thewrap.com##.wp-block-post-featured-image--video
 comicbook.com##.wp-block-savage-platform-primis-video
 thecooldown.com##.wp-block-tcd-multipurpose-gutenberg-block
@@ -1554,6 +1562,7 @@ hollywoodreporter.com##[id^="jwplayer"]
 ukrinform.de,ukrinform.es,ukrinform.fr,ukrinform.jp,ukrinform.net,ukrinform.pl,ukrinform.ua##[style^="min-height: 280px;"]
 wlevradio.com##a[href^="https://omny.fm/shows/just-start-the-conversation"]
 firstforwomen.com##div[class^="article-content__www_ex_co_video_player_"]
+gbnews.com##div[data-attr-layout_custom_field_viously_html]
 balls.ie##div[style="min-height: 170px;"]
 ! invideo advertising exceptions
 si.com#@##mplayer-embed
@@ -1965,6 +1974,12 @@ apkmirror.com##.gooWidget:style(opacity: 0 !important; visibility: collapse !imp
 apkmirror.com##.google-ad-leaderboard:style(opacity: 0 !important;)
 ! datanodes.to (ads)
 datanodes.to##div.p-8.items-center.justify-center
+! mirror.co.uk
+dailyrecord.co.uk,mirror.co.uk##div[data-testid*="commercial-"]
+dailyrecord.co.uk,mirror.co.uk##div[class^="Header_masthead"]
+dailyrecord.co.uk,mirror.co.uk##.sticky ~ header:style(top: 0px !important;)
+! miamiherald.com
+miamiherald.com###zoneContainer
 ! delish.com
 delish.com##.css-3oqygl
 ! independent.co.uk/the-independent.com
