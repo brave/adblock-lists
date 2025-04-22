@@ -971,6 +971,11 @@ grubhub.com,dashboard.razorpay.com,joinhoney.com#@##credential_picker_container
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##a[href^="https://www.financeads.net/tc.php?"]
 ##a[href^="https://ad.doubleclick.net/"]
+! overlays
+##div[style^="position:fixed;inset:0px;z-index:2147483647;background:black;opacity:0.01"]
+##div[style^="position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01"]
+##div[style="position: fixed; inset: 0px; z-index: 2147483647; pointer-events: auto;"]
+##div[style="top: 0px; left: 0px; width: 1287px; height: 500px; position: fixed; z-index: 2147483647;"]
 ! bait
 ##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
 ##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
