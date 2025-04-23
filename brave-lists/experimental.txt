@@ -26,56 +26,23 @@ twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
 
 ! filters.txt
 *_ad_$media,domain=youtube.com,3p
-! Youtube Original (based on https://github.com/sepehrkiller/FixYoutubeUI/)
 ! Old UI
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid, false)
+www.youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+www.youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-items-per-row: 6 !important;)
+www.youtube.com##ytd-rich-grid-renderer, html:style(--ytd-rich-grid-posts-per-row: 6 !important;)
 
-! Fix Video being Too Big on the old UI (right side of the video & FullScreen button is cut-off without these filters)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_page_columns_top_padding, 24)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_page_horizontal_margin, 24)
-
-
-! Fix Comment Section bugs (profile pictures being small, comments being weird, ...)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.small_avatars_for_comments, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.small_avatars_for_comments_ep, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_compact_comments, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_compact_comments_header, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.optimal_reading_width_comments_ep, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_comments_panel_button, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_comments_ep_disable_theater, true)
-
-! fix Live Chat on old UI (haven't tested these)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.live_chat_over_engagement_panels, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.live_chat_scaled_height, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.live_chat_smaller_min_height, false)
-
-! add Volume control to Youtube Shorts (Experimental Youtube feature that's disabled by default)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.desktop_shorts_volume_controls, true)
-
-! others (don't know what these ones do but they are Experimental Flags
-! and based on my research they shouldn't be enabled (or disabled)
-! if you know what they do let me know) (feel free to delete these or experiment with them)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid_hide_chips, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_grid_reduced_top_margin_rich_grid, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.swatcheroo_direct_use_rich_grid, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.main_app_sink_wrapper_batch_1, true)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.reels_web_disable_persistent_guide_shorts, true)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_deeper_metadata_highlight_styling, true)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_player_enable_featured_product_banner_exclusives_on_desktop, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.main_app_controller_extraction_batch_18, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.main_app_controller_extraction_batch_19, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.no_iframe_for_web_stickiness, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.remove_masthead_channel_banner_on_refresh, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_theater_chat, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_theater_fixed_chat, false)
-! extra
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.fill_view_models_on_web_vod, true)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_rounded_thumbnails, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_rounded_player_large, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_max_player_width, 1280)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_log_theater_mode, false)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.wn_grid_max_item_width, 0)
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.wn_grid_min_item_width, 0)
+! https://www.reddit.com/r/uBlockOrigin/comments/1jys2yt/youtube_shorts_layout_fix_reduce_the_oversized/
+! Rule 1: Set max width for individual Short items (Adjust 230px for size).
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts] #contents > ytd-rich-item-renderer:style(max-width: 230px !important; width: auto !important; margin-left: 4px !important; margin-right: 4px !important;)
+! Rule 2: Make shelf container width fit content (Remove blank space).
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts]:style(width: max-content !important; max-width: 100% !important;)
+! Rule 3: Align items left within the shelf's content area.
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts] #contents:style(justify-content: flex-start !important;)
+! --- Optional Font Size Adjustments for Shorts ---
+! Optional Rule 4: Adjust Shorts title font size.
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts] #video-title:style(font-size: 1.3rem !important; line-height: 1.8rem !important;)
+! Optional Rule 5: Adjust Shorts metadata (views) font size.
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts] #metadata-line:style(font-size: 1.1rem !important; line-height: 1.5rem !important;)
 
 ! LinkedIn News Module Puzzles
 linkedin##ul[aria-labelledby="news-module__title-today-puzzles"]
