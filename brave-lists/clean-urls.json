@@ -867,6 +867,7 @@
             "srsltid",
             "gbraid",
             "wbraid",
+            "gad_source",
             "gclsrc",
             "gclid",
             "usqp",
