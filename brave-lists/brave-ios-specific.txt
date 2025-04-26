@@ -315,12 +315,14 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||zoeacaring.com^
 ||ztulcrynw.online^
 ||zygomalingers.com^
+||yamanaisleepry.com^
 
 ! manhwatop.com
 /\/[0-9a-f]{32}\/invoke\.js/$script,3p
 
 ! .top domains (non-regex)
-*.top/$script,3p,domain=olympicstreams.co|toonily.com|luluvdo.com|viprow.nu|animepahe.ru|mgeko.cc|movies2watch.tv|himovies.sx|flixhq.to|do7go.com|movi.pk|dopebox.to|lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
+*.top/$script,3p,xhr,domain=olympicstreams.co|cineb.rs|toonily.com|luluvdo.com|viprow.nu|animepahe.ru|mgeko.cc|movies2watch.tv|himovies.sx|flixhq.to|do7go.com|movi.pk|dopebox.to|lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
+*.shop/$script,xhr,3p,domain=animepahe.ru|cineb.rs
 ! .xyz domains (non-regex)
 .xyz^$3p,domain=anroll.net
 
