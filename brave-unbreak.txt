@@ -25,6 +25,10 @@ firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
 ! meet.google.com https://github.com/brave/brave-browser/issues/44754
 @@||play.google.com/log?$domain=meet.google.com
 
+! play.nova.bg anti-adblock
+! https://play.nova.bg/video/hells-kitchen/season-7/hells-kitchen-2025-04-24-1/645838 
+@@||ssl.p.jwpcdn.com/player/*/googima.js$xhr,domain=play.nova.bg
+
 ! watch.plex.tv
 @@||doubleclick.com^$xhr,domain=watch.plex.tv
 
