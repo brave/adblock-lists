@@ -2207,6 +2207,8 @@ mbl.is##.augl
 ! thepinknews.com
 thepinknews.com##.pn-ad-container
 thepinknews.com##.pn-remove-ads-container
+! .ads-contain
+mangabats.com,nelomanga.net##.ads-contain
 ! inews.co.uk
 inews.co.uk##.inews__advert
 inews.co.uk##.inews__mpu
