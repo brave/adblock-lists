@@ -25,6 +25,12 @@ dw.com##+js(trusted-set-cookie, __cmpconsentx70166, CQIdrrgQIdrrgAfCmDENBQFwAP_g
 lippu.fi##+js(trusted-set-cookie, __cmpcvcx40263, __c24102_s94_s1052_s40_s73_s65_c24103_c9953_s7_c24098_c24290_s1_s26_s2612_s135_s1104_s1409_s905_s46_s10_s24_c24202_s898_c22143_c21373_c43939_s3009_s2536_s77_s30_U__)
 lippu.fi##+js(trusted-set-cookie, __cmpconsentx40263, CQIdrrgQIdrrgAfEHBFIBQFgAAAAAAAAAAigH8wBAAQAAyAM4A_kAMoAQAIAAZAAAA)
 
+! max.com fall back
+! max.com##div[data-testid="We_Care_About_Your_Privacy_dialog"]
+! max.com##div[data-testid="Manage_Cookie_Preferences_dialog"]
+max.com##div[data-testid="Preferencias_de_cookies_dialog"]
+max.com##+js(rc, noscroll, body, stay)
+
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L595
 coolstuff.se,coolstuff.no,coolstuff.fi,coolstuff.de,coolstuff.dk##+js(trusted-set-cookie, ConsentStatus, %7B%22necessary%22%3Atrue%2C%22siteFeatures%22%3Atrue%2C%22statistics%22%3Afalse%2C%22marketing%22%3Afalse%7D, , , reload, 1)
 
