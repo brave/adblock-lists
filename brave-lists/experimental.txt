@@ -31,7 +31,6 @@ twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
 ! Grid layout
 www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 6 !important; --ytd-rich-grid-posts-per-row: 12 !important; --ytd-rich-grid-gutter-margin: 0px !important; --ytd-rich-grid-row-margin: 24px !important; )
 www.youtube.com###contents.ytd-rich-grid-renderer:style(--ytd-rich-grid-item-margin: 11px !important; margin: 0 5px !important; width: auto !important; justify-content: center !important;)
-www.youtube.com##ytd-rich-item-renderer:style(min-width: 264px !important;) 
 ! Item layout
 ! www.youtube.com###video-title-link.ytd-rich-grid-media:style(margin-left: 42px !important;)
 ! www.youtube.com###meta.ytd-rich-grid-media:style(margin-left: -42px !important; margin-bottom: -4px !important;)
