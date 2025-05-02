@@ -1260,7 +1260,7 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 ||linksynergy.com^$third-party,badfilter
 ! Debounce fixes (image,script,xml) Which will allow the debounce.
 ||tradedoubler.com^$image,script,subdocument,xmlhttprequest,third-party
-||doubleclick.net^$image,script,subdocument,xmlhttprequest,third-party
+||doubleclick.net^$image,script,subdocument,third-party
 ||atdmt.com^$image,script,subdocument,xmlhttprequest
 ||demdex.net^$image,script,subdocument,xmlhttprequest
 ||awin1.com^$image,script,xmlhttprequest,subdocument,third-party
