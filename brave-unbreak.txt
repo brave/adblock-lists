@@ -47,7 +47,7 @@ firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
 /1clkn/*
 .shop/sbx/
 .com/tsf/
-!
+
 ! .top domains (non-regex)
 *.top/$script,3p,xhr,domain=nelomanga.net|mangabats.com|rawkuma.net|igg-games.com|lulustream.com|movies4us.co|olympicstreams.co|cineb.rs|toonily.com|luluvdo.com|lectormangaa.com|viprow.nu|animepahe.ru|mgeko.cc|movies2watch.tv|himovies.sx|flixhq.to|do7go.com|movi.pk|dopebox.to|lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
 *.shop/$script,xhr,3p,domain=animepahe.ru|cineb.rs|igg-games.com
