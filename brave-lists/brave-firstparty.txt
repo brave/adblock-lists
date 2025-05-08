@@ -2654,6 +2654,10 @@ apartmenttherapy.com,cubbyathome.com,thekitchn.com##.pov_recirc__ad
 bitchute.com##.row.justify-center:has-text(Advertisement)
 bitchute.com##.fit.no-shadow.q-card--flat.q-card:has(iframe[id="spoSide"])
 ||bitchute.com/*/play_$media,1p,redirect=noopmp3-0.1s
+||bitchute.com/*/media_480p.mp4$media,1p,redirect=noopmp3-0.1s
+bitchute.com##+js(trusted-set-local-storage-item, reference_offer, __q_objt|{"offer_type":"PROMOTION"})
+bitchute.com##+js(trusted-set-local-storage-item, show_offer, __q_bool|0)
+bitchute.com##+js(trusted-set-local-storage-item, show_offer_timestamp, __q_numb|9999999999999)
 ! post-gazette.com
 post-gazette.com##.pg-mobile-adhesionbanner
 post-gazette.com###benn-poll-iframe-container
