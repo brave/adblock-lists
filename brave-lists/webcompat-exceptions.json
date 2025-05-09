@@ -210,7 +210,7 @@
    },
    {
     "include": [
-      "https://www.rockstargames.com/*"
+      "*://www.rockstargames.com/*"
     ],
     "exceptions": [
       "device memory"
