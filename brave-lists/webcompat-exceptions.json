@@ -210,6 +210,15 @@
    },
    {
     "include": [
+      "*://www.rockstargames.com/*"
+    ],
+    "exceptions": [
+      "device memory"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/45956"
+   },
+   {
+    "include": [
       "*://www.klm.com/*",
       "*://belarus.klm.com/*",
       "*://bonaire.klm.com/*",
