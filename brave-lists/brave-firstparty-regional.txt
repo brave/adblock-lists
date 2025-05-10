@@ -746,7 +746,6 @@ cuevana.*,cuevana.is,cuevana.biz,cuevana2espanol.net,cuevana3.to,poseidonhd2.co#
 /edgesystem*.js$from=cuevana.*|cuevana2espanol.*|cuevana3.*|gnula.*|pelispedia.life|poseidonhd2.co|cuevana.is|cuevana.biz|cuevana2espanol.net|cuevana3.to
 ! Spanish first-party
 osalto.gal###anuncios-opinion
-elperiodico.com##._mo_recs_cti
 larazon.es##.ad
 ciudad.com.ar##.ad-container
 lavozdegalicia.es##.ad_fixed_h
@@ -782,7 +781,6 @@ es.ara.cat##.advertising
 eleconomista.es##.article_OutbrainContent
 20minutos.es##.axds-lane
 losprimeros.tv##.block-4d
-cope.es##.c-add
 eldebate.com##.c-add-wall
 elnacional.cat##.c-banner
 cadenaser.com,caracol.com.co,los40.com##.c-pub
@@ -803,6 +801,69 @@ eleconomista.es##[data-ad-unit-id]
 cadenaser.com##[data-adtype]
 antena3.com##[div^="taboola-container-"]
 eluniverso.com##div[id^="ad-"]
+telecinco.es##.megaSuperior__megaContainer-2DQ2
+mitele.es##.ads__adContainer-3VpA
+boing.es##.mpu
+elmon.cat##.precontentad
+elmon.cat##.ad-gutenberg-block
+elmon.cat##.billboard
+elmon.cat##.auxdiv-1
+elmon.cat##.auxdiv-2
+elmon.cat##.auxdiv-3
+elmon.cat##.auxdiv-4
+elmon.cat##.auxdiv-5
+elmon.cat##.async-scripts
+huffingtonpost.es##.advertisement-container
+antena3.com,atresmedia.com##div[id^="taboola-container-"]
+atresmedia.com###divLoader
+atresmedia.com##.adv
+melodia-fm.com##[data-type="ads-no-lazy"]
+melodia-fm.com##.addContainer
+europafm.com##[data-type="ads-no-lazy"]
+europafm.com##[data-type="ads"]
+tongadol.com##.header-banner
+tongadol.com###sidebar
+europapress.es###PublicidadSuperior
+europapress.es###sc-mpu-top
+europapress.es##[style="height: 1200px;"]
+valenciaplaza.com##.BN
+libremercado.com##.dfp
+esdiario.com,cope.es,cadena100.es,eltiempo.com##.c-add
+servimedia.es##.block-simpleads
+servimedia.es##.simpleads
+elsaltodiario.com##.anuncio
+barrons.com##.locationARTICLENATIVE
+barrons.com##.location2MID
+barrons.com##.location3MID
+barrons.com##.location4MID
+barrons.com##.location5MID
+barrons.com##.adWrapperNativeFlow
+cope.es,cadena100.es,eltiempo.com##.c-add-teads
+noticiasdenavarra.com##.no-baldomero
+estadiodeportivo.com##.publicidad
+estadiodeportivo.com##.estilos-nativery
+lasexta.com##[data-mod="ads"]
+lasexta.com##.mod-roba
+eltiempo.com##.c-pauta
+lanacion.com.ar##.ln-banner-container
+businessinsider.es,computerhoy.20minutos.es###megaad-wrapper
+businessinsider.es,computerhoy.20minutos.es##[style="height:640px"]
+businessinsider.es,computerhoy.20minutos.es##.ad-slot_wrapperRobaOutstream__UIv6a
+levante-emv.com,laopiniondemalaga.es,laopinioncoruna.es,laopiniondemurcia.es,laopiniondezamora.es,laprovincia.es,lne.es,elperiodicomediterraneo.com,lacronicabadajoz.com,informacion.es,farodevigo.es,emporda.info,eldia.es,elperiodicoextremadura.com,elcorreogallego.es,elcorreoweb.es,diariodeibiza.es,diariodemallorca.es,epe.es,mallorcazeitung.es,regio7.cat,superdeporte.es,noticiasdenavarra.com##.ft-ad
+###pc-div-gpt-ad_728
+##._mo_recs_cti
+! laverdad.es fix anti-adblock cosmetics
+laregion.es,diariodecadiz.es###id-bannerUnderHeader
+laregion.es,diariodecadiz.es##[data-ad-type="list"]
+laregion.es,diariodecadiz.es##.advertising--desktop
+idealista.com###block-idealista-news-smart-format-megabanner-block
+idealista.com###block-idealista-news-smart-format-roba-block
+elperiodico.com,stilo.es##.add
+elperiodico.com###intext-desktop-1
+elperiodico.com###intext-desktop-2
+elperiodico.com###intext-desktop-3
+elperiodico.com###intext-desktop-4
+elperiodico.com##.may-interest
 !! Japanese first-party
 ! nicovideo.jp
 ||ads.nicovideo.jp^$script,xmlhttprequest
