@@ -1044,7 +1044,7 @@ cmjornal.pt##.masthead_pub
 infomoney.com.br##.min-h-\[282px\]
 infomoney.com.br##.min-h-\[320px\]
 canaltech.com.br##.min-h-\[340px\]
-tviplayer.iol.pt,zerozero.pt##.mrec
+iol.pt,zerozero.pt##.mrec
 observador.pt##.obs-ad-placeholder
 gizmodo.com.br##.od-wrapper
 noticiasaominuto.com##.placeholder
