@@ -150,6 +150,7 @@ timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 ||adfyre.co^
 ||adhub.digital^
 ||admpire.com^
+||attainthreatfluffy.com^
 ||adsafeprotected.com^
 ||adsbuddy.net^
 ||adschill.com^
