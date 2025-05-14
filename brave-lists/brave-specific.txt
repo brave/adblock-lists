@@ -57,6 +57,10 @@ search.brave.com###search-ad
 /script/ut.js
 /suurl5.php?
 
+! linkedin mobile app recommendations
+linkedin.com##+js(trusted-set-session-storage-item, blocking-upsell, '"DISMISSED"')
+linkedin.com##+js(trusted-set-session-storage-item, blocking-upsell_lastUpdatedAt, $now$)
+
 ! thegatewaypundit.com (images fix)
 @@||ruamupr.com^$script,domain=thegatewaypundit.com
 
