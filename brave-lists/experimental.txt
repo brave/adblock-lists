@@ -26,36 +26,6 @@ twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
 
 ! filters.txt
 *_ad_$media,domain=youtube.com,3p
-! Old UI
-! Credit: https://www.reddit.com/r/youtube/comments/1k4keo6/comment/mocw0af/
-! Grid layout
-www.youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 6 !important; --ytd-rich-grid-posts-per-row: 12 !important; --ytd-rich-grid-gutter-margin: 0px !important; --ytd-rich-grid-row-margin: 24px !important; )
-www.youtube.com###contents.ytd-rich-grid-renderer:style(--ytd-rich-grid-item-margin: 11px !important; margin: 0 5px !important; width: auto !important; justify-content: center !important;)
-! Item layout
-! www.youtube.com###video-title-link.ytd-rich-grid-media:style(margin-left: 42px !important;)
-! www.youtube.com###meta.ytd-rich-grid-media:style(margin-left: -42px !important; margin-bottom: -4px !important;)
-! www.youtube.com##ytd-video-meta-block.grid.ytd-rich-grid-media:style(margin-right: -24px !important;)
-! www.youtube.com##h3.ytd-rich-grid-media:style(margin: 8px 0 0 0 !important;)
-! www.youtube.com###avatar-container.ytd-rich-grid-media:style(margin: 8px 8px 0 0 !important;)
-! www.youtube.com##ytd-video-meta-block.ytd-rich-grid-media:style(margin-top:4px !important;)
- 
-! Font sizes and alignment
-!www.youtube.com###video-title.ytd-rich-grid-media:style(font-size: 1.5rem !important; height: 3.6rem !important; line-height:1.8rem !important; align-content: center !important; )
-!www.youtube.com##span.inline-metadata-item.ytd-video-meta-block:style(font-size: 1.24rem !important;)
-!www.youtube.com###metadata.ytd-video-meta-block:style(height: 4rem !important;)
-
-! https://www.reddit.com/r/uBlockOrigin/comments/1jys2yt/youtube_shorts_layout_fix_reduce_the_oversized/
-! Rule 1: Set max width for individual Short items (Adjust 230px for size).
-www.youtube.com##ytd-rich-shelf-renderer[is-shorts] #contents > ytd-rich-item-renderer:style(max-width: 230px !important; width: auto !important; margin-left: 4px !important; margin-right: 4px !important;)
-! Rule 2: Make shelf container width fit content (Remove blank space).
-www.youtube.com##ytd-rich-shelf-renderer[is-shorts]:style(width: max-content !important; max-width: 100% !important;)
-! Rule 3: Align items left within the shelf's content area.
-www.youtube.com##ytd-rich-shelf-renderer[is-shorts] #contents:style(justify-content: flex-start !important;)
-! --- Optional Font Size Adjustments for Shorts ---
-! Optional Rule 4: Adjust Shorts title font size.
-www.youtube.com##ytd-rich-shelf-renderer[is-shorts] #video-title:style(font-size: 1.3rem !important; line-height: 1.8rem !important;)
-! Optional Rule 5: Adjust Shorts metadata (views) font size.
-www.youtube.com##ytd-rich-shelf-renderer[is-shorts] #metadata-line:style(font-size: 1.1rem !important; line-height: 1.5rem !important;)
 
 ! LinkedIn News Module Puzzles
 linkedin##ul[aria-labelledby="news-module__title-today-puzzles"]
