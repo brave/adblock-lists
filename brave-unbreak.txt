@@ -577,7 +577,6 @@ nzz.ch###adnz_maxiboard_1
 *$script,redirect-rule=noopjs,domain=starblast.io
 ! https://github.com/NanoMeow/QuickReports/issues/1396
 @@||wired.com^$ghide
-wired.com##.ad
 ! https://github.com/NanoMeow/QuickReports/issues/1780
 @@||belfasttelegraph.co.uk^$ghide
 ! https://github.com/NanoMeow/QuickReports/issues/1832
