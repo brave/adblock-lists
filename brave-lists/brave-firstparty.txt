@@ -1560,6 +1560,7 @@ miamiherald.com##.videoInstance
 dpreview.com##.videoWrapper
 consequence.net##.video_container
 gbnews.com##.vsly-player
+f1oversteer.com##.wp-block-grvmedia-grv-video
 thewrap.com##.wp-block-post-featured-image--video
 comicbook.com##.wp-block-savage-platform-primis-video
 thecooldown.com##.wp-block-tcd-multipurpose-gutenberg-block
@@ -2181,9 +2182,12 @@ readcomiconline.li##.divCloseBut
 /Ads/bid300b.aspx$subdocument
 /Ads/bid300c.aspx$subdocument
 /Ads/bid728.aspx$subdocument
-! .insert
+! Hookshot Media
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert
 nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.insert-label
+nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.mastfoot
+nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##.item-insert
+nintendolife.com,purexbox.com,pushsquare.com,timeextension.com##[style*="min-height:250px;"]
 ! lasvegassun.com
 lasvegassun.com###ad-colB-1
 ! dallasnews.com
@@ -2607,6 +2611,8 @@ ndtv.com,ndtv.in##[id^="firework"]
 ndtv.com##div[class^="add_"]
 ! #ads
 audioreview.com,carlow-nationalist.ie,cellmapper.net,craigclassifiedads.com,emb.apl305.me,g.doubleclick.net,ip-address.org,irannewsdaily.com,kildare-nationalist.ie,laois-nationalist.ie,lorempixel.com,photographyreview.com,quiz4fun.com,roscommonherald.ie,waterford-news.ie###ads
+! .ads-container
+gosunoob.com,indianexpress.com,matrixcalc.org,medicalxpress.com,philstarlife.com,phys.org,roblox.com,spotify.com,techxplore.com##.ads-container
 ! #ads-container-single
 birdsandblooms.com,familyhandyman.com,rd.com,tasteofhome.com,thehealthy.com###ads-container-single
 ! .ad
@@ -3449,6 +3455,10 @@ filecrypt.co##.fllItheadbIockgueue3
 planefinder.net###map-ad-container
 ! notebookcheck.net
 notebookcheck.net##.nbc-right-float
+notebookcheck.net##.nbc-r-float
+! theroar.com.au
+theroar.com.au###fan-tech-anchor
+theroar.com.au##[style="min-height:260px;max-height:260px;overflow:hidden;"]
 ! hiphopdx.com
 hiphopdx.com##.banner
 hiphopdx.com##.compact
