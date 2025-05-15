@@ -2684,6 +2684,8 @@ cuevana.biz###mdl-ads
 ! kcby.com
 kcby.com##.sd-container
 ! spotify ads
+open.spotify.com###leaderboard-ad-element
+open.spotify.com##[href^="https://adclick.g.doubleclick.net/"]
 ||spotify.com/ads/
 ! straitstimes.com (fix blank screen)
 ||straitstimes.com/_web2/betterads_head.js
