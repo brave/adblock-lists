@@ -2683,6 +2683,8 @@ breakingbelizenews.com,cardealermagazine.co.uk,headfonics.com,igorslab.de,landli
 cuevana.biz###mdl-ads
 ! kcby.com
 kcby.com##.sd-container
+! https://watchthebigbangtheory.cc/episode/the-big-bang-theory-10x18/
+||zpjid.com/adcgi?
 ! spotify ads
 open.spotify.com###leaderboard-ad-element
 open.spotify.com##[href^="https://adclick.g.doubleclick.net/"]
