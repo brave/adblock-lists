@@ -22,6 +22,14 @@ discord.com#@#+js(no-xhr-if, discord.com/api/v9/science)
 /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,1p,badfilter
 firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
 
+! dzen.ru breakage due to !#if ext_abp / !#endif being ignoreed
+! https://github.com/easylist/ruadlist/blob/master/advblock/specific_special.txt 
+~dzen.ru,~sportsdzen.ru#@#[href^="https://dzen.ru"]
+@@||dzen.ru/a/$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
+@@||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
+@@||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
+@@||dzen.ru/pogoda/$script
+
 ! meet.google.com https://github.com/brave/brave-browser/issues/44754
 @@||play.google.com/log?$domain=meet.google.com
 
