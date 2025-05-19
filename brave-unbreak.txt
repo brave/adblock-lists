@@ -29,6 +29,8 @@ firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
 @@||dzen.ru/articles$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 @@||dzen.ru/news$csp=script-src 'unsafe-inline' 'unsafe-eval' data: static.dzeninfra.ru/react/ static.dzeninfra.ru/s3/zen-lib/ yandex.ru/ads/ vk.com/dist/ vk.com/js/api/videoplayer.js vk.com/dist/public/api/
 @@||dzen.ru/pogoda/$script
+@@||static.dzeninfra.ru/s3/zen-lib/*/dzen-layout/*_$script
+@@||static.dzeninfra.ru/s3/zen-lib/*/news-site/*_$script
 
 ! meet.google.com https://github.com/brave/brave-browser/issues/44754
 @@||play.google.com/log?$domain=meet.google.com
