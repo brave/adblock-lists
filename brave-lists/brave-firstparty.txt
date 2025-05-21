@@ -2691,6 +2691,9 @@ open.spotify.com##[href^="https://adclick.g.doubleclick.net/"]
 ||spotify.com/ads/
 ! straitstimes.com (fix blank screen)
 ||straitstimes.com/_web2/betterads_head.js
+! doujindesu.tv
+doujindesu.tv##[href^="https://linkol.xyz/"]
+doujindesu.tv##[href^="https://gacor.zone/"]
 ! vox.com
 vox.com##[data-concert="tablet_leaderboard"]
 vox.com##[data-concert="outbrain_post_tablet_and_desktop"]
