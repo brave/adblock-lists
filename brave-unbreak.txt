@@ -23,7 +23,10 @@ discord.com#@#+js(no-xhr-if, discord.com/api/v9/science)
 firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
 
 ! dzen.ru breakage
+dzen.ru#@#:matches-path(/a/) [data-appid] > [itemscope] > div > div[id]
+dzen.ru#@#:matches-path(/a/) [data-appid] [style^="max-height:"] [style^="opacity:"]
 dzen.ru#@#:matches-path(/a/) div:matches-attr(/[a-z0-9]/=article-bottom-block) > [class*="social"] ~ div
+dzen.ru#@#:matches-path(/articles) div:has(> article > div > [class*="image"]:empty)
 
 ! meet.google.com https://github.com/brave/brave-browser/issues/44754
 @@||play.google.com/log?$domain=meet.google.com
