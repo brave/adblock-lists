@@ -550,6 +550,7 @@
     },
     {
         "include": [
+            "*://search.brave.com/*",
             "*://actionnetwork.org/*",
             "*://*.bamboohr.com/careers/*",
             "*://www.tumblr.com/*",
