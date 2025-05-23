@@ -215,6 +215,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ###ad-placeholder
 ###ad-standard-wrap
 ###ad-wallpaper
+###ArticleContentAd
 ###ad_1
 ###ad_2
 ###ad_3
@@ -315,6 +316,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ###TopAd
 ###zdcFloatingBtn
 ##.ATF_wrapper
+##.Ad-Inner
 ##.Ad--empty
 ##.AdBox
 ##.AdModule

@@ -311,6 +311,8 @@ geny.com##div[style*="width: 300px;"]
 ##div.id-TBeepSlot--billboard
 ##div.id-TBeepSlot--content
 !! German first-party
+nwzonline.de##.ad-sticky-footer
+nwzonline.de##.pristine
 startbase.de###Ads_BA_BS
 blick.de,freiepresse.de###BSB
 blick.de,freiepresse.de###CAD
@@ -492,13 +494,24 @@ taxi-heute.de##.superbanner-container
 computerbild.de##.superbannerBtfContainer
 computerbild.de##.superbannerContainer
 4kfilme.de,presse-augsburg.de##.td-a-rec
+freiepresse.de##.taboola-endless-feed
 meinbezirk.at##.teaser
 stuttgarter-zeitung.de##.teaser-sk
 handelsblatt.com##.top-ad-container
 buffed.de,pcgames.de,pcgameshardware.de##.topFrameEddie
 letemsvetemapplem.eu,samsungmagazine.eu##.topbanner
 berliner-zeitung.de##.traffective_top-divider__MVfu_
-moz.de,swp.de##.u-adSlot
+moz.de,swp.de##.u-adSlot--superbanner
+moz.de,swp.de##.u-adSlot--placed
+moz.de,swp.de##.u-adSlot--article-pos1
+moz.de,swp.de##.u-adSlot--pos2
+moz.de,swp.de##.u-adSlot--billboard2
+apollo-news.net##.ams-ad
+apollo-news.net##.v2-ad-right
+apollo-news.net##.ad-box-border-space
+apollo-news.net##.small-ad-label
+apollo-news.net##.ad-in-article-box
+pcgames.de##.topbannerTeaser
 boerse-express.com##.upper-content.blue
 auto-motor-und-sport.de##.va-commercial-container
 auto-motor-und-sport.de##.va-sponsored
