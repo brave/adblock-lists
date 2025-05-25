@@ -21,6 +21,9 @@ discord.com#@#+js(no-xhr-if, discord.com/api/v9/science)
 ! https://firstthings.com/cardinal-mcelroy-and-immigration/ empty page
 /wp-content/plugins/leaky-paywall/js/leaky-paywall-cookie.js$script,1p,badfilter
 firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
+! paywall counter (fix wired.com hamburger menu being unresponsive)
+! /\.com\/[-\w]+/$script,~third-party,domain=architecturaldigest.com|bonappetit.com|cntraveler.com|epicurious.com|gq.com|newyorker.com|vanityfair.com|vogue.com|wired.com
+@@/verso/static/*$script,domain=architecturaldigest.com|bonappetit.com|cntraveler.com|epicurious.com|gq.com|newyorker.com|vanityfair.com|vogue.com|wired.com
 
 ! dzen.ru breakage
 dzen.ru#@#:matches-path(/a/) [data-appid] > [itemscope] > div > div[id]
