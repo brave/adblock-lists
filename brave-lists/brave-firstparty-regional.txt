@@ -1135,6 +1135,12 @@ elperiodico.com###intext-desktop-2
 elperiodico.com###intext-desktop-3
 elperiodico.com###intext-desktop-4
 elperiodico.com##.may-interest
+!! Italian sites
+corriere.it#@#.ad__container
+corriere.it##.adv
+corriere.it###box_mkt_hp_spalla_dx
+corriere.it##.adv__content
+corriere.it###pno-new_profilazione_modal
 !! Japanese first-party
 ! nicovideo.jp
 ||ads.nicovideo.jp^$script,xmlhttprequest
