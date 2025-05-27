@@ -879,6 +879,11 @@ caretas.pe##.custom-slider-container
 acn.cu##.custom.mod-custom
 tudn.com##.dark\:bg-stripes-dark-mode.sm\:max-h-\[540px\]
 libertaddigital.com,libremercado.com##.dfp
+okdiario.com##.mega
+okdiario.com##.publicidad
+okdiario.com##.envoltorio-intext1
+okdiario.com##.outofpageHome
+okdiario.com##.envoltorio-intext2
 forbes.pe##.dreams-ad
 mitelefe.com##.e-top-bar-banner
 eldiario.es,eldiarioar.com##.edi-advertising
