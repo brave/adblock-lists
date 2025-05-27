@@ -885,6 +885,8 @@ okdiario.com##.envoltorio-intext1
 okdiario.com##.outofpageHome
 okdiario.com##.envoltorio-intext2
 forbes.pe##.dreams-ad
+cualesmiip.com##.ad-detail-adaptable
+cualesmiip.com##.ad-long-wrapper
 mitelefe.com##.e-top-bar-banner
 eldiario.es,eldiarioar.com##.edi-advertising
 elestimulo.com##.ele-banner
