@@ -1,5 +1,6 @@
 {
     "js_api": [
+        "*://www.linkedin.com/*",
         "*://*.youtube.com/*",
         "*://*.instagram.com/*",
         "*://open.spotify.com/*",
