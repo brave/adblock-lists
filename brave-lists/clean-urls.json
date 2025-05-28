@@ -612,6 +612,17 @@
     },
     {
         "include": [
+            "*://www.linkedin.com/posts/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "rcm"
+        ]
+    },
+    {
+        "include": [
             "*://open.spotify.com/*"
         ],
         "exclude": [
