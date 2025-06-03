@@ -1,7 +1,4 @@
-! Possibly fixed filter for YT.
-! From: https://github.com/AdguardTeam/AdguardFilters/pull/172976
-! Discussion: https://github.com/brave/brave-browser/issues/36244#issuecomment-1955943465
-! ||googlevideo.com/videoplayback*ctier=L&*%2Cctier%2C
+! Experimental list
 
 ! counter page visibility checks on youtube.com/twitch
 tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-video-bg-play)
