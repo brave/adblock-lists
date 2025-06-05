@@ -219,6 +219,15 @@
    },
    {
     "include": [
+      "*://ospfranco.com/*"
+    ],
+    "exceptions": [
+      "webgl2"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/46599"
+   },
+   {
+    "include": [
       "*://www.klm.com/*",
       "*://belarus.klm.com/*",
       "*://bonaire.klm.com/*",
