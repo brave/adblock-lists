@@ -30,6 +30,15 @@
   },
   {
     "include": [
+      "*://www.hanes.com/*"
+    ],
+    "exceptions": [
+      "language"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/46653"
+  },
+  {
+    "include": [
       "*://www.nperf.com/*"
     ],
     "exceptions": [
