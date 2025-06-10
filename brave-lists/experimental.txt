@@ -5,8 +5,6 @@ tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-video-bg-play)
 
 radioonline.com.pt,emisora.org.es,radio.co.dk,radios.co.at,tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-disable-pageview-api)
 !
-! Google precision popup
-www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##.gTMtLb.fp-nh[style="visibility: visible;"]
 ! Google precision popup (Fix disabled scroll)
 www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk,www.google.ie,www.google.fr,www.google.nl,www.google.pt,www.google.de##html.TaoyYc:style(position: static !important; overflow: auto !important; width: auto !important;)
 
