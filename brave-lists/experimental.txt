@@ -17,9 +17,9 @@ www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk
 m.youtube.com##+js(rc, paused-mode, , stay)
 
 ! Twitch test rules
-twitch.tv##+js(vaft-ublock-origin)
+! twitch.tv##+js(vaft-ublock-origin)
 ! Twitch counter for anti-adblock
-twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
+! twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
 
 ! filters.txt
 *_ad_$media,domain=youtube.com,3p
