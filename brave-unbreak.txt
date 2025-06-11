@@ -11,6 +11,11 @@
 @@||cloudfront.net/o?*fqdn=$xhr,3p,domain=marketwatch.com|wsj.com
 @@||cloudfront.net/*.js|$script,3p,domain=marketwatch.com|wsj.com
 
+! Twitch test rules
+twitch.tv##+js(vaft-ublock-origin)
+! Twitch counter for anti-adblock
+twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
+
 ! Fix no playback  https://github.com/uBlockOrigin/uAssets/pull/27006
 spankbang.com#@#+js(set, send_recommendation_event, noopFunc)
 
