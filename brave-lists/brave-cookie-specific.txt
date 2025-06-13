@@ -4,7 +4,7 @@
 !
 ! List to cover domain wildcards for trusted cookie
 
-! 
+! https://github.com/uBlockOrigin/uAssets/commit/afc6ff52 
 
 www.google.ac#@#+js(trusted-set-cookie, SOCS, CAESHAgBEhJnd3NfMjAyNTA2MDQtMF9SQzEaAnJvIAEaBgiAgo7CBg, 1year, , domain, google.ac, dontOverwrite, 1)
 www.google.ad#@#+js(trusted-set-cookie, SOCS, CAESHAgBEhJnd3NfMjAyNTA2MDQtMF9SQzEaAnJvIAEaBgiAgo7CBg, 1year, , domain, google.ad, dontOverwrite, 1)Add commentMore actions
