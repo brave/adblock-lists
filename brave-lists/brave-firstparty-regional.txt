@@ -1142,6 +1142,9 @@ elperiodico.com###intext-desktop-2
 elperiodico.com###intext-desktop-3
 elperiodico.com###intext-desktop-4
 elperiodico.com##.may-interest
+!! Indonesian sites
+kompas.com#@#.video-box-wrap
+kompas.com##.gate-kgplus
 !! Italian sites
 corriere.it#@#.ad__container
 corriere.it##.adv
