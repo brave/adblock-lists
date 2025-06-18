@@ -184,7 +184,6 @@
      ],
      "exceptions": [
        "keyboard",
-       "media devices",
        "plugins"
      ],
       "issue": "https://github.com/brave/brave-browser/issues/42874"
