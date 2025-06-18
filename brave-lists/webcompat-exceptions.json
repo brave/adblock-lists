@@ -14,7 +14,6 @@
       "*://www.ba.com/*"
     ],
     "exceptions": [
-      "screen",
       "language"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/36814"
@@ -48,15 +47,6 @@
   },
   {
     "include": [
-      "*://www.amtrak.com/*"
-    ],
-    "exceptions": [
-      "screen"
-    ],
-    "issue": "https://github.com/brave/brave-browser/issues/38884"
-  },
-  {
-    "include": [
       "*://docs.google.com/*"
     ],
     "exceptions": [
@@ -84,67 +74,12 @@
   },
   {
     "include": [
-      "*://mydhl.express.dhl/*"
-    ],
-    "exceptions": [
-      "screen"
-    ],
-    "issue": "https://github.com/brave/brave-browser/issues/40568"
-  },
-  {
-    "include": [
-      "*://www.mgmresorts.com/*"
-    ],
-    "exceptions": [
-      "screen"
-    ],
-    "issue": "https://github.com/brave/brave-browser/issues/40644"
-  },
-  {
-    "include": [
-      "*://www.ticketone.it/*"
-    ],
-    "exceptions": [
-      "screen"
-    ],
-    "issue": "https://github.com/brave/brave-browser/issues/35754"
-  },
-  {
-    "include": [
-      "*://www.woolworths.com.au/*"
-    ],
-    "exceptions": [
-      "screen"
-    ],
-    "issue": "https://github.com/brave/brave-browser/issues/40796"
-  },
-  {
-    "include": [
-      "*://www.barnesandnoble.com/*",
-      "*://press.barnesandnoble.com/*"
-    ],
-    "exceptions": [
-      "screen"
-    ],
-     "issue": "https://github.com/brave/brave-browser/issues/40951"
-  },
-  {
-    "include": [
       "*://tileman.io/*"
     ],
     "exceptions": [
       "keyboard"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/43055"
-  },
-  {
-    "include": [
-      "*://www.jdsports.com/*"
-    ],
-    "exceptions": [
-      "screen"
-    ],
-     "issue": "https://github.com/brave/brave-browser/issues/41539"
   },
   {
     "include": [
@@ -162,19 +97,8 @@
     ],
     "exceptions": [
       "font",
-      "screen"
     ],
      "issue": "https://github.com/brave/brave-browser/issues/42600"
-   },
-   {
-     "include": [
-       "*://online.simplii.com/*",
-       "*://www.simplii.com/*"
-     ],
-     "exceptions": [
-       "screen"
-     ],
-      "issue": "https://github.com/brave/brave-browser/issues/42600"
    },
    {
      "include": [
@@ -188,25 +112,6 @@
        "plugins"
      ],
       "issue": "https://github.com/brave/brave-browser/issues/42874"
-   },
-   {
-    "include": [
-      "*://www.duolingo.com/*"
-    ],
-    "exceptions": [
-      "screen"
-    ],
-     "issue": "https://github.com/brave/brave-browser/issues/42905"
-   },
-   {
-    "include": [
-      "*://www.cibconline.cibc.com/*",
-      "*://www.cibc.com/*"
-   ],
-   "exceptions": [
-     "screen"
-   ],
-    "issue": "https://github.com/brave/brave-browser/issues/42600"
    },
    {
     "include": [
@@ -234,114 +139,5 @@
       "webgl2"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/46599"
-   },
-   {
-    "include": [
-      "*://www.klm.com/*",
-      "*://belarus.klm.com/*",
-      "*://bonaire.klm.com/*",
-      "*://cuba.klm.com/*",
-      "*://ethiopia.klm.com/*",
-      "*://iran.klm.com/*",
-      "*://kuwait.klm.com/*",
-      "*://liberia.klm.com/*",
-      "*://oman.klm.com/*",
-      "*://russia.klm.com/*",
-      "*://rwanda.klm.com/*",
-      "*://saudi.klm.com/*",
-      "*://serbia.klm.com/*",
-      "*://sudan.klm.com/*",
-      "*://zimbabwe.klm.com/*",
-      "*://www.klm.ae/*",
-      "*://www.klm.at/*",
-      "*://www.klm.aw/*",
-      "*://www.klm.bb/*",
-      "*://www.klm.be/*",
-      "*://www.klm.bg/*",
-      "*://www.klm.bz/*",
-      "*://www.klm.ca/*",
-      "*://www.klm.ch/*",
-      "*://www.klm.cl/*",
-      "*://www.klm.co.ao/*",
-      "*://www.klm.co.cr/*",
-      "*://www.klm.co.id/*",
-      "*://www.klm.co.il/*",
-      "*://www.klm.co.in/*",
-      "*://www.klm.co.jp/*",
-      "*://www.klm.co.ke/*",
-      "*://www.klm.co.kr/*",
-      "*://www.klm.co.nz/*",
-      "*://www.klm.co.th/*",
-      "*://www.klm.co.tz/*",
-      "*://www.klm.co.ug/*",
-      "*://www.klm.co.uk/*",
-      "*://www.klm.co.za/*",
-      "*://www.klm.co.zm/*",
-      "*://www.klm.com.ar/*",
-      "*://www.klm.com.au/*",
-      "*://www.klm.com.bh/*",
-      "*://www.klm.com.br/*",
-      "*://www.klm.com.cn/*",
-      "*://www.klm.com.co/*",
-      "*://www.klm.com.cy/*",
-      "*://www.klm.com.ec/*",
-      "*://www.klm.com.eg/*",
-      "*://www.klm.com.gh/*",
-      "*://www.klm.com.hk/*",
-      "*://www.klm.com.mt/*",
-      "*://www.klm.com.mx/*",
-      "*://www.klm.com.my/*",
-      "*://www.klm.com.na/*",
-      "*://www.klm.com.ng/*",
-      "*://www.klm.com.pa/*",
-      "*://www.klm.com.pe/*",
-      "*://www.klm.com.ph/*",
-      "*://www.klm.com.py/*",
-      "*://www.klm.com.qa/*",
-      "*://www.klm.com.tr/*",
-      "*://www.klm.com.tw/*",
-      "*://www.klm.com.uy/*",
-      "*://www.klm.com.vn/*",
-      "*://www.klm.cw/*",
-      "*://www.klm.cz/*",
-      "*://www.klm.de/*",
-      "*://www.klm.dk/*",
-      "*://www.klm.do/*",
-      "*://www.klm.es/*",
-      "*://www.klm.fi/*",
-      "*://www.klm.fr/*",
-      "*://www.klm.ge/*",
-      "*://www.klm.gp/*",
-      "*://www.klm.gr/*",
-      "*://www.klm.hr/*",
-      "*://www.klm.ht/*",
-      "*://www.klm.hu/*",
-      "*://www.klm.ie/*",
-      "*://www.klm.it/*",
-      "*://www.klm.kz/*",
-      "*://www.klm.la/*",
-      "*://www.klm.lk/*",
-      "*://www.klm.lt/*",
-      "*://www.klm.lu/*",
-      "*://www.klm.lv/*",
-      "*://www.klm.mu/*",
-      "*://www.klm.nc/*",
-      "*://www.klm.nl/*",
-      "*://www.klm.no/*",
-      "*://www.klm.pl/*",
-      "*://www.klm.pt/*",
-      "*://www.klm.ro/*",
-      "*://www.klm.se/*",
-      "*://www.klm.sg/*",
-      "*://www.klm.sk/*",
-      "*://www.klm.sr/*",
-      "*://www.klm.sx/*",
-      "*://www.klm.tt/*",
-      "*://www.klm.ua/*"
-    ],
-    "exceptions": [
-      "screen"
-    ],
-     "issue": "https://github.com/brave/brave-browser/issues/42361"
    }
 ]
