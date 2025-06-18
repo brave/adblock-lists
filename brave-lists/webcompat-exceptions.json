@@ -219,15 +219,6 @@
    },
    {
     "include": [
-      "*://www.rockstargames.com/*"
-    ],
-    "exceptions": [
-      "device memory"
-    ],
-    "issue": "https://github.com/brave/brave-browser/issues/45956"
-   },
-   {
-    "include": [
       "*://ospfranco.com/*"
     ],
     "exceptions": [
