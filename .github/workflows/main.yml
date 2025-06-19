@@ -25,8 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
-      - name: Install yajl-tools
-        run: sudo apt-get install -qq yajl-tools
+      - name: Install list-validation tools
+        run: sudo apt-get update -qq && sudo apt-get install -qq yajl-tools jq
 
       - name: Check that JSON lists are valid
         run: for f in $GITHUB_WORKSPACE/brave-lists/*.json; do json_verify < $f ; done
+
+      - name: Validate webcompat exceptions
+        run: bash tools/validate_webcompat.sh
