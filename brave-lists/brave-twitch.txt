@@ -5,8 +5,8 @@
 !
 ! ||edge.ads.twitch.tv^
 
-twitch.tv##+js(vaft-ublock-origin)
-twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
-twitch.tv##+js(trusted-set, navigator.userAgent, '{"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"}')
-twitch.tv##+js(rmnt, script, navigator.userAgent)
+!twitch.tv##+js(vaft-ublock-origin)
+!twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
+!twitch.tv##+js(trusted-set, navigator.userAgent, '{"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"}')
+!twitch.tv##+js(rmnt, script, navigator.userAgent)
 

@@ -3,6 +3,11 @@
 ! counter page visibility checks on youtube.com/twitch
 tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-video-bg-play)
 
+twitch.tv##+js(vaft-ublock-origin)
+twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
+twitch.tv##+js(trusted-set, navigator.userAgent, '{"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0"}')
+twitch.tv##+js(rmnt, script, navigator.userAgent)
+
 radioonline.com.pt,emisora.org.es,radio.co.dk,radios.co.at,tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-disable-pageview-api)
 !
 ! Google precision popup
