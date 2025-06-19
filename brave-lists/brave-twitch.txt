@@ -5,4 +5,6 @@
 !
 ! ||edge.ads.twitch.tv^
 
-! twitch.tv##+js(vaft-ublock-origin)
+twitch.tv##+js(vaft-ublock-origin)
+twitch.tv##+js(rmnt, script, navigator.userAgent)
+twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
