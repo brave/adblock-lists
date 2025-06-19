@@ -96,9 +96,20 @@
       "*://www.tangerine.ca/*"
     ],
     "exceptions": [
-      "font"
+      "font",
+      "screen"
     ],
      "issue": "https://github.com/brave/brave-browser/issues/42600"
+   },
+   {
+     "include": [
+       "*://online.simplii.com/*",
+       "*://www.simplii.com/*"
+     ],
+     "exceptions": [
+       "screen"
+     ],
+      "issue": "https://github.com/brave/brave-browser/issues/42600"
    },
    {
      "include": [
@@ -112,6 +123,16 @@
        "plugins"
      ],
       "issue": "https://github.com/brave/brave-browser/issues/42874"
+   },
+   {
+    "include": [
+      "*://www.cibconline.cibc.com/*",
+      "*://www.cibc.com/*"
+   ],
+   "exceptions": [
+     "screen"
+   ],
+    "issue": "https://github.com/brave/brave-browser/issues/42600"
    },
    {
     "include": [
