@@ -26,9 +26,9 @@
 /ad/ad_common.js$script
 -contrib-ads.$~stylesheet
 ! Twitch test rules
-twitch.tv##+js(vaft-ublock-origin)
+!twitch.tv##+js(vaft-ublock-origin)
 ! Twitch counter for anti-adblock
-twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
+!twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
 ! 1p Anti-adblock
 */wp-adblock-$script,redirect=fuckadblock.js-3.2.0:5
 ! Various uBO 1p network items. (START)
