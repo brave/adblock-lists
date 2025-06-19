@@ -24,8 +24,8 @@ file_path="${repo_root}/${target_file}"
 allowed_regex="^($(printf '%s|' "${allowed[@]}" | sed 's/|$//'))$"
 
 # Collect any unknown values into a variable.
-unknown=$(jq -r '..|objects|select(has("exceptions"))|.exceptions[]' "$file_path" \
-          | grep -Ev "$allowed_regex" || true)
+exceptions=$(jq -r '..|objects|select(has("exceptions"))|.exceptions[]' "$file_path")
+unknown=$(printf '%s\n' "$exceptions" | grep -Ev "$allowed_regex" || true)
 
 if [[ -n "$unknown" ]]; then
   echo "::error::Unknown value(s) found in exceptions array:"
