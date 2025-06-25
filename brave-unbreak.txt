@@ -17,6 +17,9 @@ spankbang.com#@#+js(set, send_recommendation_event, noopFunc)
 ! https://github.com/uBlockOrigin/uAssets/issues?q=is%3Aissue%20discord.com%20science%20
 discord.com#@#+js(no-xhr-if, discord.com/api/v9/science)
 
+! https://github.com/uBlockOrigin/uAssets/issues/27415#issuecomment-3004485284
+www.youtube.com#@#+js(trusted-replace-outbound-text, JSON.stringify, "clientScreen":"WATCH", "clientScreen":"ADUNIT", condition, contentPlaybackContext)
+
 ! fixes
 ! https://www.reddit.com/r/brave_browser/comments/1l6jnjq/captcha_on_every_google_search/
 ! https://community.brave.com/t/captcha-problem-on-different-devices/624558
