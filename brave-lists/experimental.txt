@@ -31,3 +31,5 @@ m.youtube.com##+js(rc, paused-mode, , stay)
 linkedin##ul[aria-labelledby="news-module__title-today-puzzles"]
 linkedin.com##div:has(> h3#news-module__title-today-puzzles)
 
+! YouTube Merch Shelf
+youtube.com##ytd-merch-shelf-item-renderer > div#main.ytd-merch-shelf-renderer
