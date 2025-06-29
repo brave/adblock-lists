@@ -230,6 +230,10 @@ ilmattino.it,leggo.it##+js(trusted-click-element, .accept[onclick="cmpConsentWal
 m2o.it,deejay.it,capital.it,ilmattino.it,leggo.it,libero.it,tiscali.it##+js(trusted-click-element, 'button.iubenda-cs-customize-btn, button.iub-cmp-reject-btn, button#iubFooterBtn')
 m2o.it,deejay.it,capital.it,ilmattino.it,leggo.it,libero.it,tiscali.it##+js(trusted-click-element, 'button.iubenda-cs-customize-btn, button.iub-cmp-reject-btn, button#iubFooterBtn', , 2000)
 
+! Let cookie consent show on slower connections
+automoto.it,ansa.it,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,moto.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,tuttoandroid.net,tuttotech.net##+js(trusted-click-element, button.iubenda-cs-accept-btn, , 2000)
+automoto.it,ansa.it,delladio.it,huffingtonpost.it,internazionale.it,lastampa.it,macitynet.it,moto.it,movieplayer.it,multiplayer.it,repubblica.it,tomshw.it,skuola.net,spaziogames.it,tuttoandroid.net,tuttotech.net##+js(trusted-click-element, button.iubenda-cs-accept-btn, , 3000)
+
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/annoyances-cookies.txt#L246
 just-eat.co.uk,just-eat.dk,just-eat.es,just-eat.ie,just-eat.fr,just-eat.no,justeat.it,lieferando.de,lieferando.at,pyszne.pl,takeaway.com,thuisbezorgd.nl##+js(trusted-set-cookie, cookieConsent, functional, 1year, , reload, 1)
 just-eat.co.uk,just-eat.dk,just-eat.es,just-eat.ie,just-eat.fr,just-eat.no,justeat.it,lieferando.de,lieferando.at,pyszne.pl,takeaway.com,thuisbezorgd.nl##+js(trusted-set-cookie, je-cookieConsent, necessary, 1year)
