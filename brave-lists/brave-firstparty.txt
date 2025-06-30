@@ -1438,6 +1438,9 @@ androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##[id^="adsninja-ad-zone-adsninja-ad-unit-footer"]
 ! invideo advertising
 esports.gg###FreeStarVideoAdContainer_BesOfEsportsgg
+grit.com###GMTK_Bottom_728x90
+grit.com###GMTK_Middle_300x250
+grit.com###GMTK_Top_728x90
 gunsandammo.com###VideoPlayerDivIframe
 usnews.com###ac-lre-player-ph
 ew.com###article__primary-video-jw_1-0
@@ -1458,7 +1461,6 @@ ispreview.co.uk###mobile-takeover-slot-8
 newrepublic.com###nxs-video-iframe
 express.co.uk,the-express.com###ovp-primis
 blackamericaweb.com,bossip.com,cassiuslife.com,charlieintel.com,dexerto.com,hiphopwired.com,madamenoire.com,newsone.com,tvone.tv###player-wrapper
-bar-planb.com###player_dev
 essentiallysports.com###player_stn-player__Dybik
 techlicious.com###primis-incontent-desktop
 charlieintel.com,dexerto.com###primis-player
@@ -1522,6 +1524,7 @@ givemesport.com##.gms-videos-container
 gamesradar.com##.in-article
 bringmethenews.com,mensjournal.com,thestreet.com##.is-fallback-player
 gmanetwork.com##.ivs-placeholder
+communitychickens.com,keepingbackyardbees.com##.jumbo-ad
 evoke.ie##.jw-player-video-widget
 anandtech.com,sciencefocus.com##.jwplayer
 gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
@@ -1540,7 +1543,7 @@ insideevs.com##.outstream_partner
 ibtimes.co.uk,ibtimes.com,musictimes.com##.page-top-mobile-video
 picrew.me##.play-Imagemaker_Footer
 sciencetimes.com##.player
-bamsmackpow.com##.player-wrapper
+bamsmackpow.com,mentalfloss.com##.player-wrapper
 bossip.com##.player-wrapper-inner
 swimswam.com##.polls-461
 whoer.net##.popup-counter-deal__wrapper
@@ -1551,6 +1554,7 @@ eurogamer.net##.primis_wrapper
 iheart.com##.provider-stn
 pedestrian.tv##.recent-jobs-widget
 kidspot.com.au##.secondary-video
+ootrandomizer.com##.slot-top-video
 pedestrian.tv##.sticky-item-group
 playbuzz.com##.stickyplayer-container
 usmagazine.com##.storifyme-inline-widget
@@ -1583,6 +1587,7 @@ bigthink.com##.wrapper-connatixElements
 bigthink.com##.wrapper-connatixPlayspace
 global.espreso.tv##.ym-video--wrapper
 totalprosports.com##[data-stn-player="n2psbctm"]
+wired.com##[data-testid="cne-interlude-container"]
 worldsoccertalk.com##[id*="primis_"]
 offidocs.com##[id^="ja-container-prev"]
 hollywoodreporter.com##[id^="jwplayer"]
@@ -3265,6 +3270,8 @@ speedtest.net##.pure-u-custom-wifi-recommendation
 speedtest.net##.top-placeholder
 ! weather.com
 weather.com##[title="Sponsored Content"]
+weather.com##.adsSectionOuterWrapper
+weather.com##.regionStickyAds
 ! smh.com.au
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._2gSkZ
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > [class]:has(> [data-testid="ad"])
@@ -3824,7 +3831,12 @@ coingecko.com##.sponsored-v2
 coingecko.com##[data-controller="button-ads"]
 ! livemint.com
 livemint.com##.rightAdNew
+livemint.com##.inlineAds
 livemint.com##.leftblockAd
+! khaleejtimes.com
+khaleejtimes.com##.js_ad_st
+khaleejtimes.com##.rendered_board_widget
+khaleejtimes.com##.add-wrap
 ! lawandcrime.com
 lawandcrime.com,mediaite.com##.o-promo-unit
 lawandcrime.com,themarysue.com##.promo-unit
