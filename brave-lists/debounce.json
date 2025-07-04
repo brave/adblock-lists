@@ -214,6 +214,7 @@
   },
   {
     "include": [
+      "*://*.prsm1.com/r?*",
       "*://c212.net/c/link/?*",
       "*://*.c9ftyd.net/c/*",
       "*://*.iyhh.net/c/*",
