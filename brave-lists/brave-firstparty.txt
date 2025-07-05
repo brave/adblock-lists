@@ -1,4 +1,4 @@
-! Firstparty specific filters
+! Title: Brave Firstparty specific filters
 ! Ads
 !
 ! Generic blocks
