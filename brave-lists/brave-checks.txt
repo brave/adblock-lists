@@ -1,6 +1,6 @@
 vanguard.com
-ss64.com,
-asiaflix.net,
+ss64.com
+asiaflix.net
 tvableon.me
 linkjust.com
 freepdfcomic.com
