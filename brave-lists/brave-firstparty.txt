@@ -2166,6 +2166,8 @@ engadget.com##.justify-center:has-text(Advertisement)
 engadget.com##[data-test="top-ad"]
 ! crdroid.net (anti-adblock)
 ||crdroid.net/js/checker.js
+!  ipalibrary.me (anti-adblock)
+ipalibrary.me###hihi
 ! sourceforge.net
 sourceforge.net##.sterling
 ! ghacks.net
