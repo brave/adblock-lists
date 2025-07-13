@@ -2166,6 +2166,8 @@ engadget.com##.justify-center:has-text(Advertisement)
 engadget.com##[data-test="top-ad"]
 ! crdroid.net (anti-adblock)
 ||crdroid.net/js/checker.js
+! watchanimeworld.in (anti-block)
+||watchanimeworld.in/wp-content/plugins/adblock
 !  ipalibrary.me (anti-adblock)
 ipalibrary.me###hihi
 ! sourceforge.net
