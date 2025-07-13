@@ -2121,6 +2121,9 @@ theglobeandmail.com###BaseAd__StyledAdPlaceholder-sc-1khlkqq-0
 adblock-tester.com##embed[width="240"]
 adblock-tester.com##object[width="240"]
 ||adblock-tester.com/banners/$~third-party
+! dudestream.com
+embedsports.me##.bg-dark.position-absolute
+##a[id][href="https://chpadblock.com/"][rel^="noopener noreferrer"]
 ! atlasobscura.com
 atlasobscura.com##.advertisement-disclaimer
 atlasobscura.com##.advertisement-shadow
