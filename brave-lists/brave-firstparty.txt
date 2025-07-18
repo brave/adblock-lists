@@ -14,7 +14,6 @@
 /porpoiseant/*
 /plugins/advanced-ads/*$domain=~wordpress.org
 /player/jw8/vast.js|$script,1p
-/gtag/js?
 /assets/jwplayer-*/vast.js$script,1p
 /prebid/*$script
 /htdocs/js/admiral/init.js
