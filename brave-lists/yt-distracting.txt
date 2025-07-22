@@ -7,8 +7,10 @@ m.youtube.com##ytm-topbar-menu-button-renderer
 ! Bottom slide in
 m.youtube.com##.pivot-bar-slide-in
 ! comments
-m.youtube.com##ytm-comments-entry-point-header-renderer
+! m.youtube.com##ytm-comments-entry-point-header-renderer
 ! comment preview
-m.youtube.com##ytm-item-section-renderer.single-column-watch-next-modern-panels
+! m.youtube.com##ytm-item-section-renderer.single-column-watch-next-modern-panels
 ! metadata
-m.youtube.com##ytm-slim-video-metadata-section-renderer
+! m.youtube.com##ytm-slim-video-metadata-section-renderer
+! up next video
+m.youtube.com##ytm-item-section-renderer.single-column-watch-next-modern-panels[section-identifier="related-items"]
