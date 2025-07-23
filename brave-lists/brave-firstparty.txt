@@ -65,8 +65,6 @@ hnablog.com##.popSc
 !
 !
 ! Various uBO 1p network items. (END)
-! https://github.com/brave/adblock-lists/pull/1974
-/fbevents.js
 ! photopea.com (method:post) showing ads
 ! https://github.com/brave/brave-browser/issues/40619
 photopea.com##div > .bnotify.window:has-text(Are you blocking ads)
