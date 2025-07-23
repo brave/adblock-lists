@@ -514,6 +514,8 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.ad-padding
 ##.ad-flex
 ##.ad-no-notice
+##.ad-unit-label
+##.ad-unit-wrapper
 ##.ads-wrapper
 ##.ads_leaderboard
 ##.ads_inline_640
@@ -2805,6 +2807,9 @@ paulickreport.com##.s-teleaderboard-ad
 sportskeeda.com##.primis-container
 ! courthousenews.com
 courthousenews.com##.ad-banner
+! knowyourmeme.com 
+knowyourmeme.com##.rectangle-unit-wrapper
+knowyourmeme.com##.incontent-leaderboard-unit-wrapper
 ! bgr.com
 bgr.com##.bg-black
 ! mindbodygreen.com
