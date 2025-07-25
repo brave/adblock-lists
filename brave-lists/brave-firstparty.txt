@@ -522,6 +522,8 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.ads_tb-c
 ##.ad_left
 ##.ad_right
+##.ad__leaderboard
+##.ad__full--width
 ##.ad__window
 ##.adex-ad-text
 ##.adboxtop
@@ -1346,13 +1348,6 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.gnt_xmst
 ! people.com/ seriouseats.com
 ##.mntl-jwplayer-broad.article__broad-video-jw
-! exception rules
-insideevs.com#@#.m1-header-ad
-ads.google.com,youtube.com#@#.video-ads
-azclick.jp,tubefilter.com#@#div#topAd
-gumtree.com.au,s.tabelog.com#@#[data-ad-name]
-news.artnet.com,powernationtv.com,worldsurfleague.com#@#div[data-ad-targeting]
-lifeinvader.com,marginalreport.net,spanishdict.com,studentski-servis.com#@#.ad-wrapper
 ! ezoic ads (first-party ad insertion)
 /beardeddragon/armadillo.js$script
 /beardeddragon/drake.js$script
@@ -3635,6 +3630,10 @@ tipranks.com##.mobile_displaynone.flexccc
 ||bibleh.com/b2.htm
 ||biblehub.com/botmenu
 ||bibleatlas.org/botmenu
+! politico.com
+politico.com###pol-01-wrap
+politico.com##.styles_container__zuzL0
+politico.com##.border-gray-vulcan-92:has(> #banner-wrap)
 ! talkingpointsmemo.com
 talkingpointsmemo.com##.--span\:12.AdSlot
 ! tomsguide.com
