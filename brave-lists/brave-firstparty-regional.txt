@@ -1261,6 +1261,66 @@ secoloditalia.it##.top-right
 sorrisi.com##.tvsc-adv-slot
 gianlucadimarzio.com##.vic-post-thumbnail-wrapper
 eunews.it##.widget_media_image
+!! Dutch
+voetbalkrant.com###ad-intro-text
+gva.be,hbvl.be###ad_inline-1
+demorgen.be,parool.nl,volkskrant.nl###article_paragraph_3
+bright.nl###bright\.nl-nieuws-300x600-low
+bright.nl###bright\.nl-nieuws-300x600-mid
+bright.nl###bright\.nl-nieuws-300x600-top
+bright.nl###bright\.nl-nieuws-970x250
+bright.nl###bright\.nl-nieuws-native
+fcupdate.nl###fcupdate\.nl_web_billboardskin_970x250
+footballtransfers.com###footballtransfers\.com_ros_alpha_leaderboard-billboard
+footballtransfers.com###footballtransfers\.com_ros_bravo_rectangle-halfpage
+voetbalkrant.com###imu
+motorsport.com###page_skin_top
+soccernews.nl###r89-takeover
+soccernews.nl###r89-video-outstream
+dronewatch.nl##.BHKDK2AD-target
+jfk.men##.Pnvp__ad
+bnr.nl,voetbalnieuws.nl,voetbalprimeur.nl##.ad
+gva.be,hbvl.be,nieuwsblad.be##.ad-element_ad__Zrl7b
+omroepbrabant.nl##.ad_ad__B3I0k
+brabantscentrum.nl##.adv
+hln.be,wielerflits.nl##.advertisement
+ad.nl,bd.nl,bndestem.nl,destentor.nl,ed.nl,gelderlander.nl,hln.be,pzc.nl,tubantia.nl##.advertising-container-top
+zeelandnet.nl##.article-bnr-first
+nu.nl,waldnet.nl##.banner
+ajax1.nl,psvfans.nl##.bn__wrapper
+jonet.nl##.brucebanner
+voetbalzone.nl##.fco-ad
+omropfryslan.nl,rtvdrenthe.nl,rtvutrecht.nl##.groei-ad
+androidplanet.nl##.h-\[250px\]
+rd.nl##.h-\[290px\]
+voetbalkrant.com##.leaderboard
+androidworld.nl##.lg\:min-h-\[480px\]
+volkskrant.nl##.marketing-banner
+3athlon.nl##.metaslider_image_link
+nieuwsblad.be##.mh-element-important-display
+want.nl##.mha_container
+demorgen.be,parool.nl,volkskrant.nl##.mid1-container
+footballtransfers.com##.min-h-250
+androidplanet.nl,androidworld.nl##.min-h-\[250px\]
+androidworld.nl##.min-h-\[600px\]
+motorsport.com##.ms-apb
+motorsport.com##.ms-apb-dmpu
+voetbalprimeur.nl##.optional-ad
+nd.nl##.page-header__ad
+motorsport.com##.pgAdWrapper
+jfk.men##.pnvp-ad-container
+wielerflits.nl##.r89-desktop-video-outstream
+welingelichtekringen.nl##.raw-html-component
+gooieneemlander.nl,noordhollandsdagblad.nl##.scrollable-ads_adSlot__PPhwa
+androidplanet.nl##.sm\:h-\[90px\]
+hbvl.be##.storyblock-list_ad__0xfNP
+tweakers.net##.top-banner
+demorgen.be,humo.be,parool.nl,trouw.nl,volkskrant.nl##.top1-container
+rtl.nl##[data-adslot-variant="billboard1"]
+rtl.nl##[data-adslot-variant="rectangle1"]
+rtl.nl##[data-adslot-variant="rectangle2"]
+id.nl##[style="width: 100%; height: 250px;"]
+pu.nl##[style="width: 100%; height: 280px;"]
 !! Japanese first-party
 ! nicovideo.jp
 ||ads.nicovideo.jp^$script,xmlhttprequest
