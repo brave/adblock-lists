@@ -923,6 +923,9 @@
             "https://urldefense.com/v3/*"
         ],
         "params": [
+            "sms_click",
+            "sms_source",
+            "sms_uph",
             "_branch_referrer",
             "_branch_match_id",
             "__hssc",
