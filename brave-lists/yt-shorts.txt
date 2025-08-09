@@ -16,5 +16,4 @@ youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
 youtube.com##.pivot-shorts.pivot-bar-item-tab
 youtube.com##.yt-simple-endpoint[title="Shorts"]
 ! Updated rules
-youtube.com##ytm-rich-section-renderer:has-text(Shorts)
-youtube.com##.ytd-rich-section-renderer:has-text(Shorts)
+youtube.com##.ytGridShelfViewModelHost:has-text(Shorts)
