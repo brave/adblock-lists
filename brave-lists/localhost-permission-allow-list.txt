@@ -7,6 +7,26 @@ razroo.com
 # https://pcsupport.lenovo.com/ (Service Bridge)
 lenovo.com
 
+# https://gist.github.com/tinogomes/c425aa2a56d289f16a1f4fcb8a65ea65 Domains linking to 127.0.0.1
+cefgo.com
+domaincontrol.com
+fbi.com
+lacolhost.com
+lndo.site
+local.computer
+local.qinlili.bid
+local.sisteminha.com
+localho.st
+localhost.direct
+localtest.me
+lvh.me
+netfinity.hostedrmm.com
+nip.io
+ssh.town
+supercalifragilisticexpialidocious.co.uk
+xip.io
+yoogle.com
+
 # https://community.brave.com/t/intel-driver-support-assistant-doesnt-work-with-shields-on/212468
 intel.com
 intel.de
