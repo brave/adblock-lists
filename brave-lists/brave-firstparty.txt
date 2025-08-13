@@ -4055,7 +4055,7 @@ autoevolution.com##.bgcutgrad
 @@||account.adobe.com^
 ! CNAME: pol.dk
 @@||www.pol.dk^
-! CNAME: autonews.com (https://community.brave.com/t/autonews-com-images-dont-load/488276)
+! CNAME: autonews.com (https://community.brave.app/t/autonews-com-images-dont-load/488276)
 @@||s3-prod.autonews.com^$domain=autonews.com
 ! CNAME: linkvertise.com
 @@||taboola.com/libtrc/linkvertise-link-to/loader.js$domain=linkvertise.com

@@ -8,7 +8,7 @@
 ! Prevent googlefunding error message (ios)
 ||fundingchoicesmessages.google.com^$third-party,badfilter
 
-! https://community.brave.com/t/ads-not-being-blocked-and-sites-denying-access-to-content/551667
+! https://community.brave.app/t/ads-not-being-blocked-and-sites-denying-access-to-content/551667
 sinensistoon.com##+js(aopr, block_ads)
 ||adskeeper.co.uk^
 
@@ -145,7 +145,7 @@ timesofindia.indiatimes.com##+js(addEventListener-defuser, , adb)
 timesofindia.indiatimes.com##+js(set-constant, nsShowMaxCount, 0)
 timesofindia.indiatimes.com##+js(prevent-fetch, tvid.in/log/)
 
-! https://community.brave.com/t/brave-browser-adblocker-blocks-scripts/540082
+! https://community.brave.app/t/brave-browser-adblocker-blocks-scripts/540082
 @@||static.elfsight.com^
 
 ! https://attackertv.so/
@@ -501,7 +501,7 @@ courier-journal.com,courierpress.com,detroitnews.com,freep.com,greenbaypressgaze
 ! Cleabit tracking
 ||clearbit.com^$3p
 ||clearbitjs.com^
-! bookoffonline.co.jp (japanese) https://community.brave.com/t/topic/483981
+! bookoffonline.co.jp (japanese) https://community.brave.app/t/topic/483981
 ||d.adlpo.com^
 ||h-cast.jp^$3p
 ||a-cast.jp^$3p
