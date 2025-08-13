@@ -1,4 +1,4 @@
-# https://community.brave.com/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544
+# https://community.brave.app/t/bug-brave-shields-break-trezor-bridge-connect-when-accessing-wallet/219544
 trezor.io
 
 # https://github.com/brave/brave-browser/issues/27346#issuecomment-1435404209
@@ -7,7 +7,7 @@ razroo.com
 # https://pcsupport.lenovo.com/ (Service Bridge)
 lenovo.com
 
-# https://community.brave.com/t/intel-driver-support-assistant-doesnt-work-with-shields-on/212468
+# https://community.brave.app/t/intel-driver-support-assistant-doesnt-work-with-shields-on/212468
 intel.com
 intel.de
 intel.ie
@@ -54,7 +54,7 @@ battlelog.battlefield.com
 # https://github.com/uBlockOrigin/uAssets/issues/23456
 figma.com
 
-# https://community.brave.com/t/filecrypt-co-functionality-is-broken-when-shields-are-up/
+# https://community.brave.app/t/filecrypt-co-functionality-is-broken-when-shields-are-up/
 filecrypt.co
 
 # https://studio.apollographql.com/sandbox/explorer

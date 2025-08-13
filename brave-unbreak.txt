@@ -22,7 +22,7 @@ discord.com#@#+js(no-xhr-if, discord.com/api/v9/science)
 
 ! fixes
 ! https://www.reddit.com/r/brave_browser/comments/1l6jnjq/captcha_on_every_google_search/
-! https://community.brave.com/t/captcha-problem-on-different-devices/624558
+! https://community.brave.app/t/captcha-problem-on-different-devices/624558
 ! https://www.reddit.com/r/brave_browser/comments/1l6kppw/captcha_verification_at_the_moment_of_searching/
 www.google.*#@#+js(trusted-set-cookie, SOCS, CAESHAgBEhJnd3NfMjAyNTA2MDQtMF9SQzEaAnJvIAEaBgiAgo7CBg, 1year)
 
@@ -117,9 +117,9 @@ reliabletv.me##+js(rpnt, script, /(.+\.html.+)/gm)
 /^https:\/\/[a-z]\d{3}\.[a-z]+\.com\/script\.js$/$script,1p,redirect-rule=noopjs,domain=beaumontenterprise.com|bigrapidsnews.com|chicagotribune.com|courant.com|ctinsider.com|ctpost.com|expressnews.com|greenwichtime.com|houstonchronicle.com|lmtonline.com|mcall.com|michigansthumb.com|mrt.com|myjournalcourier.com|myplainview.com|newstimes.com|nydailynews.com|orlandosentinel.com|ourmidland.com|pilotonline.com|seattlepi.com|sfchronicle.com|sfgate.com|stamfordadvocate.com|sun-sentinel.com|thehour.com|theintelligencer.com|thetelegraph.com|timesunion.com
 
 ! quora-perf issues
-! https://community.brave.com/t/report-buggy-behaviour-on-one-exclusive-website/591130
-! https://community.brave.com/t/quora-not-responding-and-loading/589272/4
-! https://community.brave.com/t/brave-and-the-quora-website/590785
+! https://community.brave.app/t/report-buggy-behaviour-on-one-exclusive-website/591130
+! https://community.brave.app/t/quora-not-responding-and-loading/589272/4
+! https://community.brave.app/t/brave-and-the-quora-website/590785
 ! quora.com#@#.FeedStory.feed_item > div > div:has-text(/by Quora for Business/i)
 ! quora.com#@#.Toggle.SimpleToggle.ToggleAnswerFooterWrapper > div:has-text(/Promoted/i)
 
@@ -152,7 +152,7 @@ france.tv##+js(prevent-fetch, fwmrm)
 *$xhr,3p,redirect-rule=nooptext:-1,domain=avdbapi.com
 
 ! southparkstudios.com
-! https://community.brave.com/t/southparkstudios-com-adblock-detected/581673/7
+! https://community.brave.app/t/southparkstudios-com-adblock-detected/581673/7
 ||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$important,redirect-rule=noopjs,from=southparkstudios.com
 
 ! test (possible redirection issue) 
@@ -171,7 +171,7 @@ blog.esuteru.com,blog.livedoor.jp,carscoops.com,eurointegration.com.ua,ff14net.2
 @@||account.adobe.com^
 ! CNAME: pol.dk
 @@||www.pol.dk^
-! CNAME: autonews.com (https://community.brave.com/t/autonews-com-images-dont-load/488276)
+! CNAME: autonews.com (https://community.brave.app/t/autonews-com-images-dont-load/488276)
 @@||s3-prod.autonews.com^$domain=autonews.com
 ! CNAME: linkvertise.com
 @@||taboola.com/libtrc/linkvertise-link-to/loader.js$domain=linkvertise.com
@@ -318,7 +318,7 @@ canyoublockit.com##+js(aopr, atob)
 canyoublockit.com##+js(acis, atob, decodeURIComponent)
 ! Fix livemint.com (anti-adblock)
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=livemint.com
-! Broken video playback on tn.com.ar (https://community.brave.com/t/the-blocker-does-not-allow-you-to-watch-the-video/76691)
+! Broken video playback on tn.com.ar (https://community.brave.app/t/the-blocker-does-not-allow-you-to-watch-the-video/76691)
 @@||googletagmanager.com/gtm.js$script,domain=tn.com.ar
 ! portscanning script
 gap.com,ibanking-services.com,connectonebank.com,tescobank.com,sbisec.co.jp,tsb.co.uk,tiaabank.com,tiaa.org,directpay.irs.gov,t-mobile.com,simplii.com,citibank.com.au,fisglobal.com,adp.com,skyid.sky.com,onehealthcareid.com,betfair.es,betfair.com.au,paddypower.com,healthsafe-id.com,canadiantire.ca,sportchek.ca,ingbank.pl,optumbank.com,mbna.ca,tdcommercialbanking.com,coastcapitalsavings.com,my100bank.com,royalbank.com,td.com,spectrum.net,quicken.com,citibankonline.com,bmo.com,eftps.gov,optumbank.com,samsclub.com,intuit.com,betfair.com,sofi.com,53.com,ameriprise.com,cibc.com,citi.com,discover.com,fidelity.com,homedepot.com,sciencedirect.com,ebay.com,ebay-kleinanzeigen.de,tdbank.com,walmart.com##+js(acis, tmx_post_session_params_fixed)
@@ -951,7 +951,7 @@ alfred.camera##+js(nosiif, ads)
 ! https://github.com/uBlockOrigin/uAssets/issues/21072
 @@||iphoneincanada.ca^$ghide
 iphoneincanada.ca##.adthrive-ad
-! https://community.brave.com/t/asheville-com-ad-appearing/522978
+! https://community.brave.app/t/asheville-com-ad-appearing/522978
 asheville.com##+js(nostif, adblock)
 ! nsmb .com anti-adb
 nsmb.com##+js(no-xhr-if, googlesyndication)
@@ -1043,7 +1043,7 @@ twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,
 ||concert.io/lib/adblock/$subdocument
 !
 ! Re-added:
-! https://community.brave.com/t/unable-to-open-reddit-com-urls-in-private-tabs/503125/
+! https://community.brave.app/t/unable-to-open-reddit-com-urls-in-private-tabs/503125/
 ! https://github.com/uBlockOrigin/uAssets/commit/eee6fec5647e3014d1da144d0cd9888254fa09a4
 ||reddit.com^$removeparam=rdt,doc,badfilter
 ! ghide
@@ -1051,7 +1051,7 @@ twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,
 @@||compuhoy.com^$ghide
 @@||fluttercampus.com^$ghide
 @@||samuraiscan.org^$ghide
-! https://a2zapk.io/dload/1323593/file/ https://community.brave.com/t/a2zapk-io-anti-adblock/549363
+! https://a2zapk.io/dload/1323593/file/ https://community.brave.app/t/a2zapk-io-anti-adblock/549363
 ||googlesyndication.com^$image,redirect-rule=1x1.gif,domain=educatiocenter.online|a2zapk.io
 ! streameast.* wildcard rules
 streameast.is,streameast.live,streameast.xyz,streameast.io,streameast.to,thestreameast.to,thestreameast.gg##+js(aeld, /^/, 0x)
@@ -1225,7 +1225,7 @@ davidstea.com,ibotta.com,polovniautomobili.com##+js(rc, async-hide, , stay)
 @@||ebay.com/experience/listing_auto_complete/$xmlhttprequest
 ! ebay image upload issue (https://github.com/brave/brave-browser/issues/5190)
 @@||ebay.com/ws/$xmlhttprequest
-! api.ebay.com (https://community.brave.com/t/referral-not-getting-download-and-comfirmed/75898)
+! api.ebay.com (https://community.brave.app/t/referral-not-getting-download-and-comfirmed/75898)
 @@||api.ebay.com^$xmlhttprequest,subdocument
 ! env fixes
 novinky.cz#@#+js(aost, Math, inlineScript)
@@ -1325,7 +1325,7 @@ mycima.biz##+js(acis, parseInt, break;case $.)
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$script,domain=nytimes.com
 ! Fix blank page on flipp.com
 @@||wishabi.net^$image,domain=flipp.com
-! Fix "Alien Warning" script check on dslreports.com https://community.brave.com/t/alien-script-detected-inline-code-at-dslreports-com-speedtest/173716/
+! Fix "Alien Warning" script check on dslreports.com https://community.brave.app/t/alien-script-detected-inline-code-at-dslreports-com-speedtest/173716/
 dslreports.com###errorlog
 ! Anti-adblock: docker.events.cube365.net 
 cube365.net##+js(aopr, bootbox.alert)
