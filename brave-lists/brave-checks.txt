@@ -6,6 +6,7 @@ teamstream.gg
 twitchtracker.com
 gosugamers.net
 colamanga.com
+github.io
 strafe.com
 esports.gg
 vlr.gg
