@@ -3347,11 +3347,7 @@ dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 /adultdvdparadisecompopinsecound.js$script
 ! asuracomic.net (spam)
 ||asuracomic.net/api/ads/
-asuracomic.net##.bg-\[length\:20px_20px\]
-asuracomic.net##.p-4.z-50:has-text(Upgrade to)
-asuracomic.net##.to-indigo-800
-asuracomic.net##[href="/subscription"]
-asuracomic.net##.bg-opacity-75
+asuracomic.net##+js(trusted-set-local-storage-item, asuraPremiumTrialClosedG, $now$)
 ! dict.cc
 dict.cc###adrig
 dict.cc###recthomebot
