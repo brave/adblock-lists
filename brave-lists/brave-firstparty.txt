@@ -3348,6 +3348,7 @@ dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 ! asuracomic.net (spam)
 ||asuracomic.net/api/ads/
 asuracomic.net##+js(trusted-set-local-storage-item, asuraPremiumTrialClosedG, $now$)
+asuracomic.net##.overflow-hidden.z-50.relative:has-text(Ad-free reading)
 ! dict.cc
 dict.cc###adrig
 dict.cc###recthomebot
@@ -4265,6 +4266,8 @@ eurosport.com##.reform-top-container
 ||weather.com/*.medalliasurvey.
 ! stuff.co.nz
 thepress.co.nz,waikatotimes.co.nz,stuff.co.nz##.header-ads-block
+stuff.co.nz##.between-ad-slot
+stuff.co.nz##[data-testid="ad-slot"]
 ! cnn.com
 cnn.com##.ad-feedback__modal
 cnn.com###js-outbrain-rightrail-ads-module
