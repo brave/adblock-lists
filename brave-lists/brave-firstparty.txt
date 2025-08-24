@@ -3348,6 +3348,7 @@ dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 ! asuracomic.net (spam)
 ||asuracomic.net/api/ads/
 asuracomic.net##.backdrop-blur-sm.bg-black\/70
+asuracomic.net##.border-blue-500\/30.to-slate-900
 asuracomic.net##+js(trusted-set-local-storage-item, asuraPremiumTrialClosedG, $now$)
 asuracomic.net##.overflow-hidden.z-50.relative:has-text(Ad-free reading)
 ! dict.cc
