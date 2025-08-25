@@ -10,6 +10,15 @@
   },
   {
     "include": [
+      "*://www.safeway.com/*"
+    ],
+    "exceptions": [
+      "font"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/48655"
+  },
+  {
+    "include": [
       "*://www.britishairways.com/*",
       "*://www.ba.com/*"
     ],
