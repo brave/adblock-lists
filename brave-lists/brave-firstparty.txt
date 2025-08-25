@@ -3351,6 +3351,11 @@ asuracomic.net##.backdrop-blur-sm.bg-black\/70
 asuracomic.net##.border-blue-500\/30.to-slate-900
 asuracomic.net##+js(trusted-set-local-storage-item, asuraPremiumTrialClosedG, $now$)
 asuracomic.net##.overflow-hidden.z-50.relative:has-text(Ad-free reading)
+! demonicscans.org
+demonicscans.org###teaser3
+demonicscans.org##[style="overflow:hidden;height:300px;"]
+demonicscans.org##[style*="pointer events: none;"]
+demonicscans.org##[style="height:300px;"]
 ! dict.cc
 dict.cc###adrig
 dict.cc###recthomebot
