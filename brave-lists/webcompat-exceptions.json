@@ -102,16 +102,6 @@
    },
    {
     "include": [
-      "*://www.tangerine.ca/*"
-    ],
-    "exceptions": [
-      "font",
-      "screen"
-    ],
-     "issue": "https://github.com/brave/brave-browser/issues/42600"
-   },
-   {
-    "include": [
       "*://www.fedex.com/*"
     ],
     "exceptions": [
