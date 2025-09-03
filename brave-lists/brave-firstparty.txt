@@ -563,6 +563,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.advertise_text
 ##.advertising-top-desktop
 ##.advertising-side-hp
+##.advertising-container
 ##.advertising-section
 ##.advertisement-holder
 ##.advertisement-label
@@ -700,6 +701,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.hide-ad
 ##.homepage__native-ad
 ##.html-advertisement
+##.htlad-GL_Adhesion
 ##.gnm-ad-unit
 ##.gnm-ad-unit-container
 ##.gnm-adhesion-ad
@@ -3606,6 +3608,9 @@ imresizer.com##.ad-slot-3-fixed-ad
 filecrypt.co##.fllItheadbIockgueue3
 ! planefinder.net
 planefinder.net###map-ad-container
+! golflink.com
+golflink.com##.desktop-top-fixed-ad
+golflink.com,yourdictionary.com##.ui-advertisement
 ! notebookcheck.net
 notebookcheck.net##.nbc-right-float
 notebookcheck.net##.nbc-r-float
