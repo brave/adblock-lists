@@ -41,6 +41,9 @@ search.brave.com###search-ad
 ! community.brave.app
 @@||community.brave.app^$ghide
 
+! This is to make sure EasyList removal doesn't mess us up.
+||search.brave.com/api/ads/
+
 ! Generic blocks
 .com/cuid/?
 .top/cuid/?
