@@ -1,2 +1,6 @@
-brave-lists/debounce.json @brave/sec-team
+# Default: all filter list changes require review.
 brave-lists/** @ShivanKaul @antonok-edm
+# debounce.json can rely on sec-team approval.
+brave-lists/debounce.json @brave/sec-team
+# Experimental list doesn't need code owner approval.
+brave-lists/experimental.txt @ryanbr
