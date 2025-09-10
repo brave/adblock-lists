@@ -2808,6 +2808,7 @@ vox.com##[data-concert="leaderboard_top_tablet_desktop"]
 ! planetrugby.com
 planetrugby.com##.ps-block-a
 ! tweaktown.com
+tweaktown.com##.adcon
 tweaktown.com###DesktopTop
 tweaktown.com##.DesktopRightBA
 ! indianexpress.com
@@ -4340,6 +4341,7 @@ eurosport.com##.reform-top-container
 .privacydatanotice.
 ||weather.com/*.medalliasurvey.
 ! stuff.co.nz
+stuff.co.nz##.horizontal-ad-slot
 thepress.co.nz,waikatotimes.co.nz,stuff.co.nz##.header-ads-block
 stuff.co.nz##.between-ad-slot
 stuff.co.nz##[data-testid="ad-slot"]
