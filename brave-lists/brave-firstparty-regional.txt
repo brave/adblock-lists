@@ -1324,6 +1324,7 @@ pu.nl##[style="width: 100%; height: 280px;"]
 !! Korean first-party
 namu.wiki##.hQ7AmVkh
 namu.wiki###B5igh7RrX
+namu.wiki##div[class="-WyAutOG"]
 namu.news###left-top-sidebar
 !! Japanese first-party
 ! nicovideo.jp
