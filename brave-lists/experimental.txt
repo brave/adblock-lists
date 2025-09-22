@@ -24,6 +24,9 @@ www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk
 ! Test rule to prevent open-in-app on mobile
 m.youtube.com##+js(rc, paused-mode, , stay)
 
+! YouTube auto picture-in-picture scriptlet rule
+www.youtube.*##+js(brave-auto-pip)
+
 ! Twitch test rules
 ! twitch.tv##+js(vaft-ublock-origin)
 ! Twitch counter for anti-adblock
