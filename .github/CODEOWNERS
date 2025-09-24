@@ -1,6 +1,8 @@
-# Default: all filter list changes require review.
+# Default: all filter list changes require review unless specified otherwise.
 brave-lists/** @ShivanKaul @antonok-edm
 # debounce.json can rely on sec-team approval.
 brave-lists/debounce.json @brave/sec-team
 # Experimental list needs Ryan's approval.
 brave-lists/experimental.txt @ryanbr
+# List of sites that we hide Sec-CH-UA from needs Ryan's approval.
+brave-lists/brave-checks.txt @ryanbr
