@@ -34,7 +34,3 @@ www.youtube.*##+js(brave-auto-pip)
 
 ! filters.txt
 *_ad_$media,domain=youtube.com,3p
-
-! LinkedIn Puzzles/Games
-linkedin.com##div:has(> ul[aria-labelledby="todays-games-entrypoint-title"])
-linkedin.com##div:has(> a[href*="/games/"])

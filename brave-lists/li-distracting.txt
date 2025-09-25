@@ -1,0 +1,3 @@
+! LinkedIn Puzzles/Games
+linkedin.com##div:has(> ul[aria-labelledby="todays-games-entrypoint-title"])
+linkedin.com##div:has(> a[href*="/games/"])
