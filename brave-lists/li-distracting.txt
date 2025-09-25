@@ -1,3 +1,11 @@
 ! LinkedIn Puzzles/Games
 linkedin.com##div:has(> ul[aria-labelledby="todays-games-entrypoint-title"])
 linkedin.com##div:has(> a[href*="/games/"])
+! Events
+linkedin.com##.fie-impression-container:has-text(Events recommended for you)
+! Recommend users for you
+linkedin.com##.fie-impression-container:has-text(Recommended for you)
+! Linkedin Learning
+linkedin.com##.fie-impression-container:has-text(on LinkedIn Learning)
+! Self promo
+linkedin.com##.update-components-promo
