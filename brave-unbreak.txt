@@ -23,8 +23,14 @@ discord.com#@#+js(no-xhr-if, discord.com/api/v9/science)
 ! test rule
 @@||youtube.com/api/stats/atr?
 ! just some test rules
-@@||youtube.com/api/stats/qoe?
-@@||youtube.com/ptracking?
+@@||googlevideo.com^$domain=youtube.com
+@@||ytimg.com^$domain=youtube.com
+@@||gstatic.com^$domain=youtube.com
+@@||ggpht.com^$domain=youtube.com
+@@||google.com^$domain=youtube.com
+@@||googleapis.com^$domain=youtube.com
+@@||youtube.com/s/$domain=youtube.com
+@@||youtube.com/youtubei/$domain=youtube.com
 
 ! fixes
 ! https://www.reddit.com/r/brave_browser/comments/1l6jnjq/captcha_on_every_google_search/
