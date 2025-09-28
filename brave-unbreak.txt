@@ -20,21 +20,6 @@ discord.com#@#+js(no-xhr-if, discord.com/api/v9/science)
 ! https://github.com/uBlockOrigin/uAssets/issues/27415#issuecomment-3004485284
 ! www.youtube.com#@#+js(trusted-replace-outbound-text, JSON.stringify, "clientScreen":"WATCH", "clientScreen":"ADUNIT", condition, contentPlaybackContext)
 
-! test rule
-@@||youtube.com/api/stats/atr?
-! just some test rules
-@@||ytimg.com^$domain=youtube.com
-@@||gstatic.com^$domain=youtube.com
-@@||ggpht.com^$domain=youtube.com
-@@||google.com^$domain=youtube.com
-@@||googleapis.com^$domain=youtube.com
-@@||youtube.com/s/$domain=youtube.com
-@@||youtube.com/youtubei/v1/updated_$domain=youtube.com
-@@||youtube.com/youtubei/v1/att/get?$domain=youtube.com
-@@||youtube.com/youtubei/v1/guide?$domain=youtube.com
-@@||youtube.com/youtubei/v1/account/$domain=youtube.com
-@@||youtube.com/youtubei/v1/player/$domain=youtube.com
-
 ! fixes
 ! https://www.reddit.com/r/brave_browser/comments/1l6jnjq/captcha_on_every_google_search/
 ! https://community.brave.app/t/captcha-problem-on-different-devices/624558
