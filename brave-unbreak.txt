@@ -207,8 +207,6 @@ blog.esuteru.com,blog.livedoor.jp,carscoops.com,eurointegration.com.ua,ff14net.2
 webplatform.news##+js(aopw, navigator.clipboard)
 ! navigator.connection checks
 pandora.com,userlytics.com,twitch.tv,kick.com##+js(set, navigator.connection, {})
-! :has
-youtube.com##ytd-rich-item-renderer:has(ytd-display-ad-renderer)
 9gag.com##article:has(.promoted)
 ! Fix browser lockup on skepticalscience.com (https://github.com/brave/brave-browser/issues/5406)
 ||skepticalscience.net/widgets/heat_widget/js/heat_content.js$script,domain=skepticalscience.com
@@ -1035,7 +1033,6 @@ theblock.co##.modal-container
 theblock.co##body:style(overflow: auto !important;)
 !! -- ported from Fanboy Annoyances filters (END)
 !! -- Exception rules for uBO Quick Fixes -- (START)
-youtube.com#@#+js(json-prune, playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adPlacements playerAds adSlots legacyImportant)
 !! --Exception rules for uBO Quick Fixes -- (END)
 ! Temp fix for CBS/Paramountplus (https://github.com/brave/brave-browser/issues/12705)
 @@||s0.2mdn.net/instream/html5/ima3.js$script,domain=paramountplus.com|cbs.com
