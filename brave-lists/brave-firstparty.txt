@@ -1474,6 +1474,8 @@ wideopencountry.com###video-header
 sportskeeda.com###video-player-container--
 onlyinyourstate.com###video1-1
 newseveryday.com###vplayer_large
+cubbyathome.com##.Post__inPostVideoAdDesktop
+apartmenttherapy.com,cubbyathome.com##.Post__inPostVideoAdMobile
 ratemyprofessors.com##.VideoPlayer__StyledPlayer-sc-2xyxn3-0
 tvline.com##._video_ti56x_1
 hotukdeals.com##.ad
@@ -1501,9 +1503,11 @@ cnet.com##.c-shortcodeVideo_wrap
 stuff.tv##.c-squirrel-embed
 cartoonbrew.com##.cb-ad
 rd.com,tasteofhome.com##.cnx-inline-player-wrapper
+mb.com.ph##.code-block
 dailymail.co.uk##.commercial-player
 techwalla.com##.component-article-section-jwplayer-wrapper
 livestrong.com##.component-article-section-votd
+accuweather.com##.connatix-player
 familystylefood.com##.email-highlight
 taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
@@ -1538,7 +1542,7 @@ lifewire.com##.mntl-jwplayer-broad
 historydefined.net##.mv-ad-box
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 pagesix.com##.nyp-video-player
-insideevs.com##.outstream_partner
+insideevs.com,motor1.com##.outstream_partner
 ibtimes.co.uk,ibtimes.com,musictimes.com##.page-top-mobile-video
 picrew.me##.play-Imagemaker_Footer
 sciencetimes.com##.player
@@ -3975,6 +3979,10 @@ fxempire.com##span[style="user-select:none"]
 fxempire.com##[height="398"]
 fxempire.com###header-ads-block
 fxempire.com##[data-cy="article-ad"]
+! cubbyathome.com/thekitchn.com
+cubbyathome.com,thekitchn.com##.PostDesktopStickyFooter
+cubbyathome.com##.PostDesktopStickyFooter
+cubbyathome.com##.Post__ad
 ! kbb
 kbb.com##[id^="kbbAds"], [id^="kbbAds"] + p
 kbb.com##.ads__container-kbbLockedAd
