@@ -25,7 +25,7 @@ www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk
 m.youtube.com##+js(rc, paused-mode, , stay)
 
 ! YouTube auto picture-in-picture scriptlet rule
-www.youtube.*##+js(brave-auto-pip)
+! www.youtube.*##+js(brave-auto-pip)
 
 ! Twitch test rules
 ! twitch.tv##+js(vaft-ublock-origin)
