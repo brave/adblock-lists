@@ -215,13 +215,6 @@ pandora.com,userlytics.com,twitch.tv,kick.com##+js(set, navigator.connection, {}
 @@||www.scrumpoker.online^$~third-party
 ! https://github.com/brave/brave-browser/issues/31954
 crunchyroll.com##+js(set-local-storage-item, /_evidon_consent_ls_\d+/, $remove$)
-! fixes for several requests bypassing default blocklists
-||aolcdn.com/*/adsWrapper.js$script
-||zergnet.com^$script,third-party
-! https://coveryourtracks.eff.org/ Cover your tracks test
-||trackersimulator.org^
-||eviltracker.net^
-||do-not-tracker.org^
 ! omegascans.org/nsfwyoutube.com/torlock.com
 /^https:\/\/[0-9a-f]{10}\.[0-9a-f]{10}\.com\/[0-9a-f]{32}\.js$/$script,3p,domain=fastpic.org|torlock.com|nsfwyoutube.com|omegascans.org|animeland.tv|streamhub.to|unblockit.africa
 ! Disable PDFJS which we include by default's telemetry
