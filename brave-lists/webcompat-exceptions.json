@@ -65,6 +65,18 @@
   },
   {
     "include": [
+      "*://www.youtube.com/*",
+      "*://m.youtube.com/*",
+      "*://music.youtube.com/*",
+      "*://tv.youtube.com/*"
+      ],
+     "exceptions": [
+      "screen"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/49842"
+  },
+  {
+    "include": [
       "*://workspace.google.com/*"
     ],
     "exceptions": [
