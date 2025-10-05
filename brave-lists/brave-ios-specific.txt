@@ -16,7 +16,7 @@ sinensistoon.com##+js(aopr, block_ads)
 /web-vitals.$script,redirect-rule=noopjs,domain=amazon.com
 
 ! YT ads fallback on snippet
-||googlevideo.com/videoplayback*ctier=L&*%2Cxpc%2Cctier%2C$domain=m.youtube.com|music.youtube.com|www.youtube.com
+||googlevideo.com/videoplayback*ctier=L&*%2Cxpc%2Cctier%2C$domain=m.youtube.com|music.youtube.com
 
 ! cvs.com app banner  cvs.com##cvs-smart-app-banner  not being applied
 cvs.com##+js(trusted-set-local-storage-item, appBannerClosed, $now$)
