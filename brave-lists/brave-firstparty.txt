@@ -4061,6 +4061,10 @@ m.economictimes.com##[class="wdt-taboola"]
 ! marketscreener.com
 marketscreener.com###zppMiddle2
 marketscreener.com###zppRight2
+! moovitapp.com
+@@||moovitapp.com^$ghide
+moovitapp.com##.ads-mrec
+moovitapp.com##[style="min-height:90px"]
 ! reddit.com
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.promotedlink
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##div[data-before-content="advertisement"]
