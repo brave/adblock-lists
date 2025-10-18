@@ -73,6 +73,7 @@ streameast.ph
 streameast.fi
 thestreameast.ru
 streameast.ec
+osmaps.com
 thestreameast.st
 asiaflix.net
 tvableon.me
