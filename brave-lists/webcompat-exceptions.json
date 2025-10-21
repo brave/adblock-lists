@@ -74,6 +74,15 @@
   },
   {
     "include": [
+      "*://meet.google.com/*"
+    ],
+    "exceptions": [
+      "canvas"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/32836"
+  },
+  {
+    "include": [
       "*://vizzy.io/*"
     ],
     "exceptions": [
