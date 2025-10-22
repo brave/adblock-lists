@@ -4262,12 +4262,24 @@ target.com##div[class^="styles__PubAd"]
 ||yahoo.com/pdarla/
 ! eporner.com
 ||eporner.com/dot/
+||eporner.com/event.php
+||eporner.com/xhr/vast/
 eporner.com##.hptab
 eporner.com###movieplayer-box-adv
 eporner.com###btasd
 eporner.com###deskadmiddle
 eporner.com##.vjs-inplayer-container
 ! pornhub
+pornhub.*##.livesex
+pornhub.*##.mgp_overlayContainer
+pornhub.*##.menuLinkDiv:has(a[href^="https://www.spicevids.com/"])
+pornhub.*##.joinNowCPPBtn
+pornhub.*##.uploadBtnContentSpicevids
+pornhub.*##[data-event="header_paid_tabs"]
+pornhub.com##a[data-event="header_paid_tabs"]
+pornhub.com##a[href*="?ats="]
+pornhub.*###js-abContainterMain
+pornhub.com##.js_promoItem
 pornhub.com##div[id^="customSkin"]
 pornhub.com##div.container:style(margin-top: 0px !important)
 pornhub.com###singleFeedSection > .emptyBlockSpace
@@ -4279,20 +4291,36 @@ pornhub.com,pornhubthbh7ap3u.onion##.realsex
 pornhub.com,pornhubthbh7ap3u.onion###js-abContainterMain
 pornhub.com,pornhubthbh7ap3u.onion,pornhub.net,youporn.com###pb_template
 pornhub.com,pornhubthbh7ap3u.onion##.premiumPromoBanner
-/_xa/ads?
-/_xa/ads_batch?
+||pornhub.*/_xa/ads
 /ht.js?site_
 ##a[href^="https://a.adtng.com/"]
 ! xhamster.com
 ||xhamster.com*/vast?
 ||brick.xhamster.com^
+xhamster.*##div[data-role="promo-messages-wrapper"]
+xhamster.*##.video-thumb[class*="__look-like-item"]
+xhamster.*##div[class*="sp-b"]
+xhamster.*##div[class*="widget-section"]
+xhamster.*##div[class*="cam-wgt"]
+xhamster.*##[class*="sp-l"]
+xhamster.*##[class*="containerBottomSpot"]
+xhamster.com##[class$="-ts-init"]
+/v2/for-page?body=%
+&spotpagetype=*&statsuid=$xhr
 ! tube8
 tube8.com,tube8.es,tube8.fr##main.row > aside.col-4 > div[class]
 tube8.com,tube8.es,tube8.fr##input + div:has(.adsbytrafficjunky)
+tube8.com##a[class*="gtm-event-header-paidtabs"]
+tube8.com##[data-spot-id]
+tube8.com##.adsbytrafficjunky
+||tube8.*/_xa/ads
 ! youporn.com
 youporn.com##.e8-column
+youporn.com##a[class*="gtm-event-header-paidtabs"]
+||youporn.com/_xa/ads
 ||youporn.com^$script,subdocument,domain=youporn.com
 ! redtube.com
+||redtube.com/_xa/ads
 redtube.com,redtube.com.br###popsByTrafficJunky
 redtube.com,redtube.com.br##li:has(.adsbytrafficjunky)
 redtube.com,redtube.com.br###paid_tabs_list
