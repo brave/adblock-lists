@@ -1431,6 +1431,12 @@ dlhd.*,myflixerz.*,french-stream.*,cineby.*,zoechip.*,hianimez.*,tv247365.*,file
 ! filters-2025.txt:daddylive.*>>,daddylivestream.com>>,dlhd.*>>,thedaddy.*>>,~chatango.com##+js(acs, EventTarget.prototype.addEventListener, delete window)
 dlhd.dad,jxoxkplay.xyz,zorroplay.xyz,lovecdn.ru,topembed.pw,thegraveplayer.win,kondoplay.cfd,wikisport.wiki,justembeds.cfd,daddyliveplayer.shop##+js(abort-current-script, EventTarget.prototype.addEventListener, delete window)
 dlhd.dad,jxoxkplay.xyz,zorroplay.xyz,lovecdn.ru,topembed.pw,thegraveplayer.win,kondoplay.cfd,wikisport.wiki,justembeds.cfd,daddyliveplayer.shop##+js(nowoif)
+! https://tv4.baladfilm.asia/sword-sovereign-heavenbreaker-2025/
+! filemoon.*>>,96ar.com>>,iqksisgw.xyz>>,u6lyxl0w.skin>>,ww9g.com>>,nptsr.live>>,4bct9.live>>,xztgl.com>>,remilf.xyz>>,filehost9.com>>##+js(nowoif)
+! filemoon.*>>,96ar.com>>,designparty.sx>>,iqksisgw.xyz>>,u6lyxl0w.skin>>,ww9g.com>>,nptsr.live>>,4bct9.live>>,xztgl.com>>,remilf.xyz>>,filehost9.com>>##+js(acs, EventTarget.prototype.addEventListener, delete window)
+! 
+filemoon.*,filemoon.to,dingtezuni.com,hglink.to,gdriveplayer.to,ico3c.com,haxloppd.com,abysscdn.com,96ar.com,iqksisgw.xyz,u6lyxl0w.skin,ww9g.com,nptsr.live,4bct9.live,xztgl.com,remilf.xyz##+js(nowoif)
+filemoon.*,filemoon.to,dingtezuni.com,hglink.to,gdriveplayer.to,ico3c.com,haxloppd.com,abysscdn.com,96ar.com,designparty.sx,iqksisgw.xyz,u6lyxl0w.skin,ww9g.com,nptsr.live,4bct9.live,xztgl.com,remilf.xyz##+js(acs, EventTarget.prototype.addEventListener, delete window)
 ! embedme.top
 embedme.top##+js(abort-current-script, JSON.parse, showTrkURL)
 embedme.top##+js(abort-current-script, Math, /window\['(?:\\x[0-9a-f]{2}){2}/)
