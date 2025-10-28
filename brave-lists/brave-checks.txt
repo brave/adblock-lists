@@ -28,6 +28,7 @@ dudestream.com
 multitwitch.live
 multistream.me
 multiwatch.net
+embed.tube
 multistream.watch
 multi-stream.xyz
 buffsports.io
