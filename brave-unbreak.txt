@@ -1483,7 +1483,10 @@ mail.ru##.tgb__link
 mail.ru##.trg-banners
 mail.ru##.trg-b-banner
 ! Korean specific
+naver.com##+js(set-constant, getAdcrUrl, '')
 chzzk.naver.com##+js(json-prune-xhr-response, adBreaks.[-].adSources.[].withRemindAd ads.[-].eventTracking.ackImpressions, , propsToMatch, 'url:api.chzzk.naver.com/service/t/') 
+||ssl.pstatic.net/tveta/libs/
+||veta.naver.com^
 ! livejournal fix
 livejournal.com##+js(aopr, window.webpackJsonpSSPjs)
 livejournal.com##+js(aopr, webpackJsonpSSPjs)
