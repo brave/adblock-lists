@@ -1482,6 +1482,8 @@ $script,third-party,domain=antennasports.ru
 mail.ru##.tgb__link
 mail.ru##.trg-banners
 mail.ru##.trg-b-banner
+! Korean specific
+chzzk.naver.com##+js(json-prune-xhr-response, adBreaks.[-].adSources.[].withRemindAd ads.[-].eventTracking.ackImpressions, , propsToMatch, 'url:api.chzzk.naver.com/service/t/') 
 ! livejournal fix
 livejournal.com##+js(aopr, window.webpackJsonpSSPjs)
 livejournal.com##+js(aopr, webpackJsonpSSPjs)
