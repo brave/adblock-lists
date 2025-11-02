@@ -29,6 +29,7 @@ multitwitch.live
 multistream.me
 multiwatch.net
 embed.tube
+iframely.com
 multistream.watch
 multi-stream.xyz
 buffsports.io
