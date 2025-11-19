@@ -1445,6 +1445,7 @@ gunsandammo.com###VideoPlayerDivIframe
 usnews.com###ac-lre-player-ph
 ew.com###article__primary-video-jw_1-0
 barchart.com###bc-cnx-player
+stocktwits.com###bottom-nav-content
 crash.net###cmg-vsly
 euronews.com###connatix-container
 wral.com###exco
@@ -1462,6 +1463,7 @@ newrepublic.com###nxs-video-iframe
 express.co.uk,the-express.com###ovp-primis
 blackamericaweb.com,bossip.com,cassiuslife.com,charlieintel.com,dexerto.com,hiphopwired.com,madamenoire.com,newsone.com,tvone.tv###player-wrapper
 essentiallysports.com###player_stn-player__Dybik
+primetimer.com###primis-ad-container
 techlicious.com###primis-incontent-desktop
 charlieintel.com,dexerto.com###primis-player
 flightradar24.com###primisAdContainer
@@ -1478,6 +1480,7 @@ wideopencountry.com###video-header
 sportskeeda.com###video-player-container--
 onlyinyourstate.com###video1-1
 newseveryday.com###vplayer_large
+newsweek.com##.FeaturedMedia_articleFeaturedMedia__LEpVY
 cubbyathome.com##.Post__inPostVideoAdDesktop
 apartmenttherapy.com,cubbyathome.com##.Post__inPostVideoAdMobile
 ratemyprofessors.com##.VideoPlayer__StyledPlayer-sc-2xyxn3-0
@@ -1486,6 +1489,7 @@ hotukdeals.com##.ad
 musictimes.com,sciencetimes.com,techtimes.com##.ad_wrapper_video
 indy100.com##.addressed_cls
 androidheadlines.com,dailyveganmeal.com,discussingfilm.net,gcaptain.com,mp1st.com,thedebrief.org,unofficialnetworks.com##.adthrive
+androidsage.com##.akcelo-wrapper
 muscleandfitness.com##.ami-video-placeholder
 usmagazine.com##.ami-video-wrapper
 arstechnica.com##.ars-interlude-container
@@ -1495,6 +1499,7 @@ financemagnates.com##.article-sidebar__video-banner
 ibtimes.com,latintimes.com,sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
 thegrio.com##.aspect-ratio-box
+gizmodo.com##.aspect-video
 digitaltrends.com##.b-connatix
 bmwblog.com##.bmwbl-video-in-content
 ontvtonight.com##.body-container > div:has(script[src^="https://live.primis.tech/"])
@@ -1502,23 +1507,20 @@ tennisworldusa.org##.box_adv_primis
 pedestrian.tv##.brightcove-video-container
 pep.ph##.c-ad__item
 cnet.com##.c-avLazyStickyVideo
-cnet.com,zdnet.com##.c-avStickyVideo
 cnet.com##.c-shortcodeVideo_wrap
 stuff.tv##.c-squirrel-embed
 cartoonbrew.com##.cb-ad
 rd.com,tasteofhome.com##.cnx-inline-player-wrapper
-mb.com.ph##.code-block
 dailymail.co.uk##.commercial-player
 techwalla.com##.component-article-section-jwplayer-wrapper
-livestrong.com##.component-article-section-votd
-accuweather.com##.connatix-player
 familystylefood.com##.email-highlight
 taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 accuweather.com##.feature-tag
+pagesix.com##.featured-image__wrapper > .nyp-video-player
 ibtimes.sg##.featured_video
 pedestrian.tv##.find-dream-job
-gamingbible.com,sportbible.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
+gamingbible.com,ladbible.com,sportbible.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
 flashbak.com##.fluid-width-video-wrapper
 dailymail.co.uk##.footballco-container
 redboing.com##.fw-ad
@@ -1534,6 +1536,7 @@ bringmethenews.com,mensjournal.com,thestreet.com##.is-fallback-player
 gmanetwork.com##.ivs-placeholder
 communitychickens.com,keepingbackyardbees.com##.jumbo-ad
 evoke.ie##.jw-player-video-widget
+unilad.com##.jw-player_container__wuaGn
 anandtech.com,sciencefocus.com##.jwplayer
 gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 space.com##.jwplayer__wrapper
@@ -1545,7 +1548,6 @@ insideevs.com##.minutely_video_wrap
 lifewire.com##.mntl-jwplayer-broad
 historydefined.net##.mv-ad-box
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
-pagesix.com##.nyp-video-player
 insideevs.com,motor1.com##.outstream_partner
 ibtimes.co.uk,ibtimes.com,musictimes.com##.page-top-mobile-video
 picrew.me##.play-Imagemaker_Footer
@@ -1559,10 +1561,12 @@ appleinsider.com##.primis-ad-wrap
 themarysue.com##.primis-player-container
 eurogamer.net##.primis_wrapper
 iheart.com##.provider-stn
+businessinsider.com##.rail.has-video-ad
 pedestrian.tv##.recent-jobs-widget
 fortune.com##.related-video-container
 kidspot.com.au##.secondary-video
 ootrandomizer.com##.slot-top-video
+stocktwits.com##.sticky-inner-wrapper
 pedestrian.tv##.sticky-item-group
 playbuzz.com##.stickyplayer-container
 usmagazine.com##.storifyme-inline-widget
@@ -1570,6 +1574,7 @@ si.com##.style_hfl21i-o_O-style_uhlm2
 tweaktown.com##.tldrad
 gazette.com##.tnt-section-sponsored
 thegrio.com##.tpd-featured-video
+economictimes.indiatimes.com##.vdo_ai_can_ani
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 mobafire.com##.vid-wrap
