@@ -102,6 +102,7 @@ www.google.com##[aria-describedby="promo_desc_id"]:has-text(Gemini, an AI assist
 google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de,google.es,google.fr,google.it,google.nl,google.pt##[jscontroller="HCSvae"]:has-text(Sign in to Google)
 google.com##div[jsname="wA2P2b"]:has-text(How helpful were the results)
 chromewebstore.google.com##[aria-labelledby="promo-header"]
+chromewebstore.google.com##[aria-label="Info"]:has-text(Switch to Chrome)
 ! youtube popups
 www.youtube.com##.YtdTalkToRecsFlowRendererHost:has-text(What hobbies are you interested in developing?)
 www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:has(> .ytd-popup-container > #options.ytd-checkbox-survey-renderer)
