@@ -44,6 +44,8 @@ manytwitch.app
 multi-streams.com
 multistream.dev
 multi-stream.xyz
+aa.entertainment.viasat.com
+viasat.com
 buffsports.io
 wavewalt.me
 vipstand.pm
