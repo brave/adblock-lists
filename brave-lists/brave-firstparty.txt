@@ -4016,6 +4016,8 @@ zerohedge.com###content-pack
 zerohedge.com##.mixed-in-content
 zerohedge.com##div[class^="AdvertisingSlot_"]
 zerohedge.com##.rectangle
+! sports ad overlay
+buffsports.io,wavewalt.me,vipstand.pm,worldsports.me,soccerworldcup.me,cracksports.me,watchfooty.live,vipleague.pm,streameast.ga,nflbox.me,nbabox.co,nhlbox.me,f1box.me,golfstreams.me,mlbbox.me,sportsbite.live,mmastreams.me,boxingstream.me,tennisonline.me,socceronline.me,rugbystreams.me,dartsstreams.com,cricstream.me,fbstreams.pm,olympicstreams.co,vipbox.lc,viprow.nu##.bg-light.bg-opacity-25
 ! dailycaller.com
 dailycaller.com##.dailycaller_adhesion
 dailycaller.com###dailycaller_incontent_1
