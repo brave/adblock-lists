@@ -26,6 +26,13 @@ cvs.com##+js(trusted-set-local-storage-item, appBannerClosed, $now$)
 x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.com.au,ticketmaster.ca,ticketmaster.de,ticketmaster.dk,ticketmaster.es,ticketmaster.co.nz,ticketmaster.co.uk,ticketmaster.co.za,ticketmaster.at,ticketmaster.pl,ticketmaster.fr,ticketmaster.nl,ticketmaster.cz,ticketmaster.com.br,ticketmaster.com,ticketmaster.it,ticketmaster.com.mx,ticketmaster.no,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
 x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.com.au,ticketmaster.ca,ticketmaster.de,ticketmaster.dk,ticketmaster.es,ticketmaster.co.nz,ticketmaster.co.uk,ticketmaster.co.za,ticketmaster.at,ticketmaster.pl,ticketmaster.fr,ticketmaster.nl,ticketmaster.cz,ticketmaster.com.br,ticketmaster.com,ticketmaster.it,ticketmaster.com.mx,ticketmaster.no,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 
+! redirect workground
+! https://community.brave.app/t/hentai-haven-adblock-detected/646297
+@@||havenclick.com/www/delivery/asyncjs.php$xhr,domain=hentaihaven.xxx
+@@||havenclick.com/www/delivery/fc.php$xhr,domain=hentaihaven.xxx
+||hh-yin.pages.dev/$media,domain=hentaihaven.xxx
+||cdn.pornhaven.ai/design/ads/preroll/$media,domain=hentaihaven.xxx
+
 ! golf-live.at consent prereq
 ||storage.googleapis.com/adtags/
 ||themoneytizer.com^$3p
