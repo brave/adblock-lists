@@ -101,6 +101,15 @@
   },
   {
     "include": [
+      "*://www.homedepot.com/*"
+    ],
+    "exceptions": [
+      "language"
+    ],
+     "issue": "https://github.com/brave/brave-browser/issues/51162"
+   },
+   {
+    "include": [
       "*://www.athenacrisis.com/*",
       "*://athenacrisis.com/*"
     ],
