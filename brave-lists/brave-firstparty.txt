@@ -2397,6 +2397,9 @@ rawstory.com###rawstory_front_2_container
 rawstory.com###story-top-ad
 rawstory.com##.container_proper-ad-unit
 rawstory.com##.connatix-hodler
+! w3schools.com
+w3schools.com###skyscraper
+w3schools.com###mainLeaderboard
 ! 9gag
 9gag.com##article:has(.promoted)
 ! distractify.com
@@ -3756,6 +3759,8 @@ tipranks.com##.mobile_displaynone.flexccc
 politico.com###pol-01-wrap
 politico.com##.styles_container__zuzL0
 politico.com##.border-gray-vulcan-92:has(> #banner-wrap)
+politico.com##.adlib-sticky-footer
+politico.com##div[class][rowindex]:has(> .ad)
 ! talkingpointsmemo.com
 talkingpointsmemo.com##.--span\:12.AdSlot
 ! tomsguide.com
