@@ -2422,6 +2422,12 @@ yardbarker.com###right_top_sticky
 yardbarker.com###yb_recirc_container_mobile
 yardbarker.com##.mb_promo_responsive_right
 yardbarker.com##.yb-card-ad
+! https://daddyhd.com/watch.php?id=54
+daddyhd.com##[prclck="1"]:remove()
+daddyhd.com##[id="modal"][doskip]
+daddyhd.com##[id="modal"][doskip]:remove()
+epicplayplay.cfd,daddyhd.com##[referrerpolicy="unsafe-url"]
+epicplayplay.cfd,daddyhd.com##[onerror="_kjejm()"]
 ! topgear.com
 topgear.com##div[class^="AdContainer"]
 topgear.com##div[class^="TopContainer-"]
