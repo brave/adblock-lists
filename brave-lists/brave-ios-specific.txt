@@ -52,6 +52,10 @@ cnn.com##body,html:style(overflow: auto !important; position: initial !important
 /utag.sync.js 
 /asyncspc.php$3p
 
+! notebookcheck
+||html-load.com/loader.min.js$from=~dogdrip.net|~infinityfree.com|~smsonline.cloud
+notebookcheck.net,notebookcheck.org,notebookcheck.biz,notebookcheck.com,notebookcheck.it,notebookcheck.nl,notebookcheck.pl,notebookcheck.info##+js(remove-node-text, script, html-load.com)
+
 ! wildcard
 ! uBO-domain wildcard workaround kissanime
 kissanime.co,kissanime.sx,kissanime.org.ru,kissanime.com.ru,kisscartoon.sh,kissanime.com.ru,kissasian.video,kickassanime.com.ru,kickassanime.mx,kissasian.dad##+js(acis, String.fromCharCode, /btoa|break/)
