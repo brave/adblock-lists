@@ -285,6 +285,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ###dsk-banner-ad-b
 ###fixed-ad
 ###header_ad
+###header-ads
 ###header-ad-block
 ###interstory_first_ddb_0
 ###interstory_second_ddb_0
@@ -1101,6 +1102,18 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.index-module_rightrailTop__mag4
 ##.index-module_sd_background__Um4w
 ##.premium_PremiumPlacement__2dEp0
+! katv.com/cbs12.com/abergavennychronicle.com/tenby-today.co.uk
+##.DisplayAd_Native__XCll3
+##.MPUstyled__MPUWrapper-sc-100o0l7-0
+##.MPUstyled__MPUWrapper-sc-1cdmm4p-0
+##.PrimisMidArticleAdUnit_desktop__dq_iB
+##.RightRailPanelAd_noPanelSmall__7yQ1M
+##.RightRailTrendingAd_nativeAdWrapper__dxc78
+##.SideBarstyled__SideBarMpuWrapper-sc-g4r51i-2
+##.StoryPage_storyTopAdContainer__6udZ0
+##.TaboolaMoreToExplore_taboolaContainerWrapper__Ccf_j
+##.TopBannerstyled__Wrapper-sc-x2ypns-0
+##.style_medTopAdsWrapper__rd6bz
 ! https://github.com/easylist/easylist/issues/3902
 ##.partner-loading-shown.partner-label
 ! Mgid
@@ -1481,6 +1494,7 @@ uproxx.com###upx-mm-player-wrap
 wideopencountry.com###video-header
 sportskeeda.com###video-player-container--
 onlyinyourstate.com###video1-1
+autoevolution.com###vidiv
 newseveryday.com###vplayer_large
 newsweek.com##.FeaturedMedia_articleFeaturedMedia__LEpVY
 cubbyathome.com##.Post__inPostVideoAdDesktop
@@ -1508,6 +1522,7 @@ ontvtonight.com##.body-container > div:has(script[src^="https://live.primis.tech
 tennisworldusa.org##.box_adv_primis
 pedestrian.tv##.brightcove-video-container
 pep.ph##.c-ad__item
+metacritic.com##.c-adsGallerySlot
 cnet.com##.c-avLazyStickyVideo
 cnet.com##.c-shortcodeVideo_wrap
 stuff.tv##.c-squirrel-embed
@@ -1545,6 +1560,7 @@ space.com##.jwplayer__wrapper
 southernliving.com##.karma-sticky-rail
 gearjunkie.com##.ldm_ad
 thespun.com##.m-video-player
+namemc.com##.mb-3:has(#nn_player1)
 ispreview.co.uk##.midarticle-slot-10
 insideevs.com##.minutely_video_wrap
 lifewire.com##.mntl-jwplayer-broad
@@ -1598,11 +1614,12 @@ consequence.net##.video_container
 gbnews.com##.vsly-player
 f1oversteer.com##.wp-block-grvmedia-grv-video
 thewrap.com##.wp-block-post-featured-image--video
-comicbook.com##.wp-block-savage-platform-primis-video
+comicbook.com,vice.com##.wp-block-savage-platform-primis-video
 thecooldown.com##.wp-block-tcd-multipurpose-gutenberg-block
 bigthink.com##.wrapper-connatixElements
 bigthink.com##.wrapper-connatixPlayspace
 global.espreso.tv##.ym-video--wrapper
+canucksarmy.com##[data-injection="stn-video"]
 totalprosports.com##[data-stn-player="n2psbctm"]
 wired.com##[data-testid="cne-interlude-container"]
 worldsoccertalk.com##[id*="primis_"]
@@ -3443,6 +3460,7 @@ asuracomic.net##.backdrop-blur-sm.bg-black\/70
 asuracomic.net##.border-blue-500\/30.to-slate-900
 asuracomic.net##+js(trusted-set-local-storage-item, asuraPremiumTrialClosedG, $now$)
 asuracomic.net##.overflow-hidden.z-50.relative:has-text(Ad-free reading)
+asuracomic.net##.my-auto.min-h-min:has-text(Premium Offer)
 ! demonicscans.org
 demonicscans.org###teaser3
 demonicscans.org##[style="overflow:hidden;height:300px;"]
