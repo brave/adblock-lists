@@ -1400,6 +1400,9 @@ digiday.jp##.ad_height
 ascii.jp##.pickwrap
 ascii.jp##.ad
 ascii.jp##.ad_gam
+! gamewith.jp
+gamewith.jp##.browsi-atf
+gamewith.jp##.ad-header-creative-wrapper 
 ! game8.jp
 ###fluct-pc-sticky-ad
 game8.jp##.track_mario

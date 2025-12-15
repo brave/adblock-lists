@@ -284,6 +284,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ###dsk-banner-ad-a
 ###dsk-banner-ad-b
 ###fixed-ad
+###gStickyAd
 ###header_ad
 ###header-ads
 ###header-ad-block
