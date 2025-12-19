@@ -2508,12 +2508,16 @@ bettycrocker.com##+js(rc, adhesiveHeaderAdFixed, body, stay)
 ! gizmochina.com
 gizmochina.com##.adsbygoogle
 ! dexerto.com
-charlieintel.com,dexerto.com##.Ad_ad__SqDQA
 charlieintel.com,dexerto.com##.bg-neutral-grey-4.items-center
-charlieintel.com,dexerto.com##.bg-neutral-grey.justify-center
+charlieintel.com,dexerto.com##.external\:bg-custom-ad-background
+dexerto.com##.inline-block
+dexerto.com##.lg\:min-h-\[290px\]
+charlieintel.com,dexerto.com##.min-h-\[114px\]
+dexerto.com##.min-h-\[400px\]
 charlieintel.com,dexerto.com##.text-center.italic
 charlieintel.com,dexerto.com##.top-0.justify-center
 charlieintel.com,dexerto.com##.top-10
+dexerto.com##[data-ad-unit-id]
 ! trustedreviews.com
 trustedreviews.com##.keystone-single-widget
 ! stuff.tv
