@@ -97,8 +97,7 @@ newrepublic.com,smithsonianmag.com,thenation.com##+js(set-local-storage-item, fs
 ! google popup
 google.com##.Ryrdad:has-text(Please help us improve)
 developer.android.com##.devsite-snackbar-snack:has-text(Please help us)
-chromewebstore.google.com##[aria-describedby="promo-header"]:has-text(Switch to Chrome)
-chromewebstore.google.com##[aria-labelledby="promo-header"]
+chromewebstore.google.com##[jscontroller="o2G9me"]> :has([data-is-touch-wrapper="true"])
 www.google.com##[aria-describedby="promo_desc_id"]:has-text(/Time for a new laptop|Gemini, |Choose Chrome|built by Google|Search differently|Cherchez différemment|Search just got easier|Try more ways|Switch to Chrome/)
 google.com##[jscontroller="HCSvae"]:has-text(Sign in to Google)
 google.com##div[jsname="wA2P2b"]:has-text(How helpful were the results)
