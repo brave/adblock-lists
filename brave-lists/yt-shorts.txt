@@ -17,6 +17,8 @@ youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
 ! shorts icons (desktop and mobile)
 youtube.com##.pivot-shorts.pivot-bar-item-tab
 youtube.com##.yt-simple-endpoint[title="Shorts"]
+! Fix empty gap on mobile navigation
+m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-shorts)
 ! Updated rules
 youtube.com##.ytGridShelfViewModelHost
 ! Shorts search header button
