@@ -97,14 +97,15 @@ newrepublic.com,smithsonianmag.com,thenation.com##+js(set-local-storage-item, fs
 ! google popup
 google.com##.Ryrdad:has-text(Please help us improve)
 developer.android.com##.devsite-snackbar-snack:has-text(Please help us)
-chromewebstore.google.com##[jscontroller="o2G9me"]> :has([data-is-touch-wrapper="true"])
+chromewebstore.google.com##[aria-describedby="promo-header"]:has-text(Switch to Chrome)
 www.google.com##[aria-describedby="promo_desc_id"]:has-text(/Time for a new laptop|Gemini, |Choose Chrome|built by Google|Search differently|Cherchez différemment|Search just got easier|Try more ways|Switch to Chrome/)
 google.com##[jscontroller="HCSvae"]:has-text(Sign in to Google)
+chromewebstore.google.com##[role="dialog"][aria-labelledby="promo-header"]
 google.com##div[jsname="wA2P2b"]:has-text(How helpful were the results)
 ! youtube popups
 www.youtube.com##.YtdTalkToRecsFlowRendererHost:has-text(What hobbies are you interested in developing?)
 www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:has(> .ytd-popup-container > #options.ytd-checkbox-survey-renderer)
-www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:has-text(/How do you feel|Which of the following|following Premium|Get background play|Choose all that apply|Become a member|Free trial|How are your|How interested|Live TV|Wish videos|better TV|cable box|cable reimagined|hidden fees|of YouTube TV|on YouTube TV|unlimited DVR|with YouTube TV|without the ads|try this feature|Terms apply|View live scores/)
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:has-text(/How do you feel|Which of the following|following Premium|Get background play|Choose all that apply|Become a member of this channel|Free trial|How are your|How interested|Live TV|Wish videos|better TV|cable box|cable reimagined|hidden fees|of YouTube TV|on YouTube TV|unlimited DVR|with YouTube TV|without the ads|try this feature|Terms apply|View live scores/)
 music.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container:has-text(/family plan|Premium|ad-free|background play|kept playing|month free|without the ads|Try YouTube Music/)
 ! https://github.com/easylist/easylist/issues/22334 YT suggestion div
 www.youtube.com##.YtdTalkToRecsFlowRendererHost:has-text(/Ask for videos|What do you like|Help us improve/)
@@ -1479,16 +1480,16 @@ blackamericaweb.com,bossip.com,cassiuslife.com,charlieintel.com,dexerto.com,hiph
 essentiallysports.com###player_stn-player__Dybik
 primetimer.com###primis-ad-container
 techlicious.com###primis-incontent-desktop
-charlieintel.com,dexerto.com###primis-player
+dexerto.com###primis-player
 flightradar24.com###primisAdContainer
 freethesaurus.com###qk1
 freethesaurus.com###qk2
 freethesaurus.com###qk5
 realclearpolitics.com###realclear_jwplayer_container
-lifehacker.com,mashable.com###related-video
+lifehacker.com,mashable.com,pcmag.com###related-video
 whoer.net###render-big-banners
 ispreview.co.uk###sidebar-slot-5
-americansongwriter.com,wideopencountry.com###sv-video-container
+americansongwriter.com,suggest.com,wideopencountry.com###sv-video-container
 uproxx.com###upx-mm-player-wrap
 wideopencountry.com###video-header
 sportskeeda.com###video-player-container--
@@ -1507,6 +1508,7 @@ androidheadlines.com,dailyveganmeal.com,discussingfilm.net,gcaptain.com,mp1st.co
 androidsage.com##.akcelo-wrapper
 muscleandfitness.com##.ami-video-placeholder
 usmagazine.com##.ami-video-wrapper
+asiaone.com##.ao-article-video-wrapper
 arstechnica.com##.ars-interlude-container
 telegraph.co.uk##.article-betting-unit-container
 niagarafallsreview.ca,stcatharinesstandard.ca,therecord.com,thespec.com,thestar.com,wellandtribune.ca##.article-pe-video-wrapper
@@ -1553,12 +1555,13 @@ gmanetwork.com##.ivs-placeholder
 communitychickens.com,keepingbackyardbees.com##.jumbo-ad
 evoke.ie##.jw-player-video-widget
 unilad.com##.jw-player_container__wuaGn
-anandtech.com,sciencefocus.com##.jwplayer
+advocate.com,anandtech.com,sciencefocus.com##.jwplayer
 gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
 space.com##.jwplayer__wrapper
 southernliving.com##.karma-sticky-rail
 gearjunkie.com##.ldm_ad
 thespun.com##.m-video-player
+bringmethenews.com##.m-video-unit
 namemc.com##.mb-3:has(#nn_player1)
 ispreview.co.uk##.midarticle-slot-10
 insideevs.com##.minutely_video_wrap
@@ -1585,6 +1588,7 @@ kidspot.com.au##.secondary-video
 ootrandomizer.com##.slot-top-video
 stocktwits.com##.sticky-inner-wrapper
 pedestrian.tv##.sticky-item-group
+texasmonthly.com##.sticky-video-player__wrapper
 playbuzz.com##.stickyplayer-container
 usmagazine.com##.storifyme-inline-widget
 si.com##.style_hfl21i-o_O-style_uhlm2
@@ -1595,7 +1599,7 @@ economictimes.indiatimes.com##.vdo_ai_can_ani
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
 gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
 mobafire.com##.vid-wrap
-sportskeeda.com##.vidazoo-player-container
+soapcentral.com,sportskeeda.com##.vidazoo-player-container
 justthenews.com##.video
 petapixel.com##.video-aspect-wrapper
 bowhunter.com,firearmsnews.com,flyfisherman.com,gameandfishmag.com,gunsandammo.com,handgunsmag.com,in-fisherman.com,northamericanwhitetail.com,petersenshunting.com,rifleshootermag.com,shootingtimes.com,wildfowlmag.com##.video-detail-player
@@ -3060,10 +3064,12 @@ trademe.co.nz##.tm-cinema-modal__ads-container
 trademe.co.nz##.tm-display-ad__wrapper
 trademe.co.nz##.tm-display-sponsored-listing__cards-flex
 trademe.co.nz##tm-display-ad
-trademe.co.nz##.tm-display-s-listing__cards-flex:has(tm-sponsored-listings-tag)                                                             trademe.co.nz##.tm-stripe__SL-card-container:has([class^="tm-sponsored-"])
+trademe.co.nz##.tm-display-s-listing__cards-flex:has(tm-sponsored-listings-tag)
+trademe.co.nz##.tm-stripe__SL-card-container:has([class^="tm-sponsored-"])
 ! usmagazine.com
 usmagazine.com##.content-card-footer
 usmagazine.com##.module-storyme
+usmagazine.com##.mb1-wrapper
 usmagazine.com###nativeAdMosaicBreakingNews
 usmagazine.com##.right-rail
 usmagazine.com##.shop-with-us__container
@@ -3417,11 +3423,17 @@ speedtest.net##.top-placeholder
 weather.com##[title="Sponsored Content"]
 weather.com##.adsSectionOuterWrapper
 weather.com##.regionStickyAds
+! liverpoolecho.co.uk 
+birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,stokesentinel.co.uk,walesonline.co.uk##.react-loading-skeleton
+birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,stokesentinel.co.uk,walesonline.co.uk##div[data-testid^="commercial-"]
+birminghammail.co.uk,bristolpost.co.uk,dailyrecord.co.uk,irishstar.com,liverpoolecho.co.uk,manchestereveningnews.co.uk,stokesentinel.co.uk,walesonline.co.uk##div[class^="sc-"]:has(> span[aria-live="polite"] > .react-loading-skeleton)
 ! smh.com.au
-brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._2gSkZ
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._34z61
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##.gF8wY
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > [class]:has(> [data-testid="ad"])
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###articlePartnerStories
-brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._34z61
+smh.com.au##.BGXXr
+smh.com.au##.TPT1c
 ! drive.com.au
 drive.com.au##.gam-ad
 drive.com.au##.adSpacing_drive-ad-spacing__HdaBg
@@ -3490,10 +3502,15 @@ glensidelocal.com##.advertising-callout
 ! thescore.com
 thescore.com##.Ad__container--MeQWT
 ! advocate.com
-advocate.com##.ad_leaderboard_wrap
-advocate.com##.partners__container
+advocate.com,good.is,papermag.com,pride.com##.topbarplaceholder
+advocate.com,out.com,pride.com##div[id^="sPost_Layout_Default_"]:has(> .ad_leaderboard_wrap)
+advocate.com###sad_wrapper_0_0_1_0_0_0_1_0_1
+advocate.com,out.com##.ad_leaderboard_wrap
+advocate.com##.ad_tag
+advocate.com##.adgrid
 advocate.com##.bigbox_top_ad-wrap
-advocate.com###sPost_Layout_Default_0_0_19_0_0_2_1_0_0
+advocate.com,bestlifeonline.com,good.is,pride.com##.placeholder-a-block
+advocate.com##.partners__container
 ! spin.com
 spin.com##.max-w-\[970px\]
 spin.com##.promo-lead
@@ -3602,10 +3619,12 @@ yahoo.com###viewer-LREC2
 yahoo.com###viewer-LREC2-1
 yahoo.com###viewer-LREC2-iframe
 yahoo.com##.Feedback
+www.yahoo.com##.ad-container
 finance.yahoo.com##.ad-lrec3
 yahoo.com##.ads
 sports.yahoo.com##.btm-sda
 yahoo.com##.caas-da
+yahoo.com##.col-fullbleed.md\:invisible.md\:overflow-hidden
 yahoo.com##.da-container
 yahoo.com##.darla
 yahoo.com##.darla-container
@@ -3615,16 +3634,15 @@ yahoo.com##.ds_promo_ymobile
 yahoo.com##.gam-placeholder
 yahoo.com##.gemini-ad
 yahoo.com##.gemini-ad-feedback
+www.yahoo.com##.h-\[90px\].z-2
+finance.yahoo.com##.iframe-resizer-container:has(> iframe[data-testid="offers-cds-iframe"])
 yahoo.com##.item-beacon
-yahoo.com##.leading-3:has-text(Advertisement)
-yahoo.com##.md\:block.dark\:bg-ramones:has-text(Advertisement)
 yahoo.com##.mx-\[-50vw\]
 yahoo.com##.ntk-ad-item
 sports.yahoo.com##.sda-ins
 finance.yahoo.com##.sdaContainer
 yahoo.com##.sys_shopleguide
 yahoo.com##.top-\[92px\]
-www.yahoo.com##.uppercase.text-xs:has-text(Advertisement)
 yahoo.com##.viewer-sda-container
 yahoo.com##[data-content="Advertisement"]
 mail.yahoo.com##[data-test-id="gam-iframe"]
@@ -3634,12 +3652,12 @@ mail.yahoo.com##[data-test-id^="taboola-ad-"]
 yahoo.com##[data-wf-beacons]
 finance.yahoo.com##[id^="defaultLREC"]
 www.yahoo.com##[id^="mid-center-ad"]
-mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://a.beap.gemini.yahoo.com/mbclk?"]
-mail.yahoo.com##[rel="noreferrer"][data-test-id][href^="https://beap.gemini.yahoo.com/mbclk?"]
 yahoo.com##a[data-test-id="large-image-ad"]
+yahoo.com##a[href^="https://api.taboola.com/"]
 mail.yahoo.com##article[aria-labelledby*="-pencil-ad-"]
 www.yahoo.com##body#news-content-app li:has(.inset-0)
 www.yahoo.com##body.font-yahoobeta > div.items-center:has(style)
+yahoo.com##div.md\:block.pb-5:has-text(Advertisement)
 yahoo.com##div[class*="ads-"]
 yahoo.com##div[class*="gemini-ad"]
 yahoo.com##div[data-beacon] > div[class*="streamBoxShadow"]
@@ -3656,6 +3674,8 @@ yahoo.com##div[style="height: 90px; width: 728px;"]
 yahoo.com##div[style="height:250px;width:300px"]
 yahoo.com##div[style="height:250px;width:970px"]
 yahoo.com##div[style="height:90px;width:728px"]
+news.yahoo.com##li.lg\:min-h-\[9\.141rem\]
+yahoo.com##li.min-h-\[8\.125rem\]
 mail.yahoo.com##li:has(a[href^="https://api.taboola.com/"])
 yahoo.com##li[data-test-locator="stream-related-ad-item"]
 ! imresizer.com
