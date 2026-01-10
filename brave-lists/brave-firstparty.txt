@@ -99,6 +99,7 @@ google.com##.Ryrdad:has-text(Please help us improve)
 developer.android.com##.devsite-snackbar-snack:has-text(Please help us)
 chromewebstore.google.com##[aria-describedby="promo-header"]:has-text(Switch to Chrome)
 www.google.com##[aria-describedby="promo_desc_id"]:has-text(/Time for a new laptop|Gemini, |Choose Chrome|built by Google|Search differently|Cherchez différemment|Search just got easier|Try more ways|Switch to Chrome/)
+www.google.com##[aria-describedby="promo_desc_id"]:has-text(Keep things dark)
 google.com##[jscontroller="HCSvae"]:has-text(Sign in to Google)
 chromewebstore.google.com##[role="dialog"][aria-labelledby="promo-header"]
 google.com##div[jsname="wA2P2b"]:has-text(How helpful were the results)
@@ -481,6 +482,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.adRectangle-pos-medium
 ##.adSense
 ##.adSizer
+##.adSlot
 ##.adSlotHeaderContainer
 ##.adWrapper
 ##.ad.center
@@ -2061,6 +2063,7 @@ delish.com##.css-3oqygl
 independent.co.uk,the-independent.com##[data-mpu1]
 independent.co.uk,the-independent.com###partners
 independent.co.uk,the-independent.com###top-banner-wrapper
+independent.co.uk,the-independent.com###billboard-wrapper
 independent.co.uk,standard.co.uk,the-independent.com###stickyFooterRoot
 independent.co.uk,standard.co.uk,the-independent.com##.teads:has(.third-party-ad)
 independent.co.uk,standard.co.uk,the-independent.com##[class] > :has(> [data-mpu])
@@ -2840,6 +2843,15 @@ visualcapitalist.com##.visua-target
 breakingbelizenews.com,cardealermagazine.co.uk,headfonics.com,igorslab.de,landline.media,mikesmoneytalks.ca,sundayworld.co.za,theroanokestar.com,visualcapitalist.com##a[href*="/linkout/"]
 ! cuevana.biz
 cuevana.biz###mdl-ads
+! tmz.com
+tmz.com##.ad-header-wrapper
+! cults3d.com
+cults3d.com##.cultszone
+cults3d.com##.cultszone__placeholder
+! qz.com
+qz.com##div[class*=":block"]:has(> .ay-ad-slot)
+qz.com##div[class*="my-"]:has(> .ay-ad-slot)
+qz.com##div[class="hidden md:block"]
 ! kcby.com
 kcby.com##.sd-container
 ! https://watchthebigbangtheory.cc/episode/the-big-bang-theory-10x18/
