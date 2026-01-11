@@ -5,7 +5,13 @@
         ],
         "exclude": [],
         "params": [
-            "__cft__[0]", "__tn__", "tracking", "extid", "mibextid"
+            "__cft__[0]",
+            "__cft__%5B0%5D",
+            "__tn__",
+            "tracking",
+            "extid",
+            "mibextid",
+            "rdid"
         ]
     },
     {
