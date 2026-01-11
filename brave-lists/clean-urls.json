@@ -1,6 +1,15 @@
 [
     {
         "include": [
+            "*://*.facebook.com/*"
+        ],
+        "exclude": [],
+        "params": [
+            "__cft__[0]", "__tn__", "tracking", "extid", "mibextid"
+        ]
+    },
+    {
+        "include": [
             "*://*.amazon.ae/*",
             "*://*.amazon.ca/*",
             "*://*.amazon.cn/*",
