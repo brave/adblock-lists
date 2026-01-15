@@ -35,4 +35,4 @@ ignoredirs = tools
 ignorefiles = .json,.backup,.bak,.swp,.gz,localhost-permission-allow-list.txt,brave-social.txt,https-upgrade-exceptions-list.txt,filters-mirror.txt,brave-sugarcoat.txt,brave-firstparty-cname.txt
 
 # Testing, ignore all files except:
-ignore-all-but = brave-firstparty-regional.txt
+ignore-all-but = brave-cookie-specific.txt
