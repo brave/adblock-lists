@@ -1,6 +1,6 @@
 aa.com
 vanguard.com
-connect.intuit.com
+intuit.com
 escharts.com
 multistre.am
 twitchtheater.tv
@@ -27,7 +27,6 @@ hltv.org
 footybite.cc
 twitchls.com
 southwest.com
-support.southwest.com
 thestreamerawards.com
 thegameawards.com
 casthill.net
