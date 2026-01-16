@@ -314,6 +314,7 @@ geny.com##div[style*="width: 300px;"]
 startbase.de###Ads_BA_BS
 blick.de,freiepresse.de###BSB
 blick.de,freiepresse.de###CAD
+salzburg24.at###Medium_Rectangle_1
 ffh.de###aLayerTop
 games.focus.de###ad-gamepage-bottom
 games.focus.de###ad-gamepage-instruction
@@ -329,6 +330,7 @@ all-in.de###banner6_container
 inside-digital.de###bigsize
 bz-berlin.de###billboard
 abendzeitung-muenchen.de###billboard-wrapper
+techbook.de###billboard_btf
 boersennews.de###bnPromotional
 inside-digital.de###content-contentad
 wallstreet-online.de###dban1
@@ -350,12 +352,14 @@ boersennews.de###nativendo-articletop
 boersennews.de###nativendo-homemiddle
 boersennews.de###nativendo-hometop
 wallstreet-online.de###newsDesktopFlag
+nextpit.de###nex-incontent-1
+nextpit.de###nex-top
 watson.ch###nps-watson-adblocker
 ntower.de###ntowerCommerceCommentSection
 ntower.de###ntowerCommerceHeader
 ffh.de###omsRectangleChannel
 play3.de###page-wrapper-17
-inside-digital.de###parallax
+games.ch,inside-digital.de###parallax
 quotenmeter.de###qm-ad-fb
 streetlife.ch###rectangle
 grenzecho.net###rgt-rec-d-1
@@ -363,7 +367,7 @@ wallstreet-online.de###siteteaser
 itmagazine.ch###sponsorbutton_div
 all-in.de###stroeer-container-banner
 all-in.de###stroeer-container-rectangle
-bz-berlin.de###superbanner
+bz-berlin.de,techbook.de###superbanner
 winfuture.de###taboola-below-article-thumbnails-desktop
 4kfilme.de###tdi_39
 focus.de###top-banner
@@ -371,6 +375,7 @@ ifun.de###verbraucherhinweis-970
 kleinanzeigen.de###vip-billboard
 wettbasis.com###wettbasis_wde_mpu_top
 streetlife.ch###wideboard
+vol.at##+js(trusted-click-element, a.cmptxt_btn_yes)
 chip.de##.Ad
 bunte.de,focus.de##.Ad-Slot
 focus.de##.Ad-Slot-970-Container
@@ -381,6 +386,7 @@ onefootball.com##.CommentsOpenWeb_adWrapper__AeUdb
 lessentiel.lu##.ContentPage_insideFullTopPlaceholder__g16GO
 mactechnews.de##.Content_1-minheight
 mactechnews.de##.Content_3-minheight
+salzburg24.at##.Leaderboard_1
 mactechnews.de##.Rectangle_2-minheight
 mactechnews.de##.Rectangle_3-minheight
 goingelectric.de##.a_2
@@ -388,7 +394,7 @@ goingelectric.de##.a_above
 goingelectric.de##.a_blog_index
 goingelectric.de##.a_side
 goingelectric.de##.a_top
-4p.de,idowa.de,juedische-allgemeine.de,netzwelt.de,noen.at,stuttgarter-nachrichten.de,stuttgarter-zeitung.de##.ad
+4p.de,idowa.de,juedische-allgemeine.de,netzwelt.de,noen.at,stuttgarter-nachrichten.de,stuttgarter-zeitung.de,the-decoder.de##.ad
 sn.at##.ad-billboard
 apollo-news.net##.ad-box-border-space
 brigitte.de,cicero.de,gala.de,stern.de##.ad-container
@@ -407,7 +413,7 @@ allgemeine-zeitung.de,mittelhessen.de##.adSlot
 noz.de##.ad_label
 sport.de##.ada-preservespace-dmofooter_1
 sport.de##.ada-preservespace-superbanner_1-wallpaper_1
-computerbase.de##.adbox
+computerbase.de,salzburg24.at,sn.at##.adbox
 esslinger-zeitung.de##.adhelper
 auto-motor-und-sport.de##.ads-container
 motorsport-total.com##.adsonofftrigger
@@ -423,8 +429,11 @@ nzz.ch##.bc-ad.bc-ad__loading
 wettbasis.com##.bc-placement
 bunte.de##.bfa-ad-slot
 kleinezeitung.at##.bg-gray-100:has-text(Anzeige)
+businessinsider.de##.bi-injected-ad
+businessinsider.de##.bi-mrec
 motorsport-total.com,pz-news.de,winfuture.de##.billboard
 computerbild.de##.billboardBtfContainer
+radiobielefeld.de##.billboard_ad_area
 radiohochstift.de##.billboard_frame
 t3n.de,welt.de##.c-ad-container
 focus.de##.cls_hor_prnt_am
@@ -443,8 +452,12 @@ spox.com##.fco-fc-video-player
 bunte.de##.fe-promo-main
 nordkurier.de##.fp-ad-placeholder
 puls24.at##.fullbanner-wrapper
+fxstreet.de.com##.fxs_leaderboard
+golem.de##.go-ad-slot
+krone.at##.gpt__placeholder
 grenzecho.net##.gr-ads-inread
 finanzmarktwelt.de##.h-a
+4fansites.de##.h5v-content
 autoflotte.de##.home-side-ad-wrapper
 heise.de##.img-ad
 heise.de##.inread-cls-reduc
@@ -496,10 +509,11 @@ winfuture.de##.singleblock_vhd
 sortiraparis.com##.slots
 apollo-news.net##.small-ad-label
 inside-digital.de##.superbanner
-taxi-heute.de##.superbanner-container
+businessinsider.de,taxi-heute.de##.superbanner-container
 computerbild.de##.superbannerBtfContainer
 computerbild.de##.superbannerContainer
 freiepresse.de##.taboola-endless-feed
+krone.at##.talk-plugin-ad-tag
 4kfilme.de,presse-augsburg.de##.td-a-rec
 meinbezirk.at##.teaser
 stuttgarter-zeitung.de##.teaser-sk
@@ -569,14 +583,18 @@ iphone-ticker.de##[id^="verbraucherhinweis-"]
 onefootball.com##[ow-ad-unit-root]
 nau.ch##[style*="max-width:640px; height:450px;"]
 nau.ch##[style*="max-width:994px; height:500px;"]
+4fansites.de##[style="height: 250px"]
 motorsport-total.com##[style="height: 400px"]
 lz.de##[style="margin: 0 auto 0; width: 100%; min-height:310px;"]
 pnp.de##[style="margin: 0 auto; max-width: 336px;"]
 gamereactor.de##[style="min-height: 600px; margin-bottom: 20px;"]
-bz-berlin.de##[style="min-width: 300px; min-height: 250px;"]
+bz-berlin.de,techbook.de##[style="min-width: 300px; min-height: 250px;"]
+techbook.de##[style="min-width: 300px;"]
 stuttgarter-zeitung.de##[style="width: 310px;"]
 wiwo.de##app-advertisement
 handelsblatt.com##app-commercial-teaser-group
+techbook.de##billboard_btf_rlWr
+businessinsider.de##data-remove-type-no-ads
 finanzmarktwelt.de##div[data-finan-trackbid]
 winfuture.de##div[style="width:670px;height:280px;"]
 sueddeutsche.de##er-ad-slot
