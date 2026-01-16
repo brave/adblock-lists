@@ -41,6 +41,10 @@ search.brave.com###search-ad
 ! community.brave.app
 @@||community.brave.app^$ghide
 
+! quick fix
+! https://github.com/easylist/easylist/commit/543aeca
+@@||cnstrc.com^
+
 ! This is to make sure EasyList removal doesn't mess us up.
 ||search.brave.com/api/ads/
 
