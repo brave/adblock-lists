@@ -375,7 +375,6 @@ ifun.de###verbraucherhinweis-970
 kleinanzeigen.de###vip-billboard
 wettbasis.com###wettbasis_wde_mpu_top
 streetlife.ch###wideboard
-vol.at##+js(trusted-click-element, a.cmptxt_btn_yes)
 chip.de##.Ad
 bunte.de,focus.de##.Ad-Slot
 focus.de##.Ad-Slot-970-Container
