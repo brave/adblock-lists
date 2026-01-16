@@ -1,6 +1,6 @@
 aa.com
 vanguard.com
-connect.intuit.com
+intuit.com
 escharts.com
 multistre.am
 twitchtheater.tv
@@ -9,6 +9,7 @@ teamstream.gg
 twitchtracker.com
 solarservicing.myaccountinfo.com
 myaccountinfo.com
+septakey.org
 gosugamers.net
 colamanga.com
 github.io
@@ -26,7 +27,6 @@ hltv.org
 footybite.cc
 twitchls.com
 southwest.com
-support.southwest.com
 thestreamerawards.com
 thegameawards.com
 casthill.net
