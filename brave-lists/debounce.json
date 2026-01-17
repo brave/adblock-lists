@@ -1,6 +1,7 @@
 [
   {
     "include": [
+      "*://cc.zdtc.app/v1/otc/*",
       "*://lcmspubcontact.lc.ca.gov/PublicLCMS/LinkTracking.php?*",
       "*://cc.zdnet.com/v1/otc/*",
       "*://cc.cnet.com/v1/otc/*",
