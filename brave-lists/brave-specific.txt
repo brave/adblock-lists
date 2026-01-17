@@ -41,7 +41,9 @@ search.brave.com###search-ad
 ! community.brave.app
 @@||community.brave.app^$ghide
 
-! quick fix
+! Make sure the domain doesn't accidentally get added again.
+! Was accidentally blocked twice leading to widespread breakage.
+! See https://github.com/easylist/easylist/issues/22894
 ! https://github.com/easylist/easylist/commit/543aeca
 @@||cnstrc.com^
 
