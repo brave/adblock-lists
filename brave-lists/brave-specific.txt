@@ -44,8 +44,7 @@ search.brave.com###search-ad
 ! Make sure the domain doesn't accidentally get added again.
 ! Was accidentally blocked twice leading to widespread breakage.
 ! See https://github.com/easylist/easylist/issues/22894
-! https://github.com/easylist/easylist/commit/543aeca
-@@||cnstrc.com^
+||cnstrc.com^$badfilter
 
 ! This is to make sure EasyList removal doesn't mess us up.
 ||search.brave.com/api/ads/
