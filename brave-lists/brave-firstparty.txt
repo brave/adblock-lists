@@ -4146,26 +4146,30 @@ mashable.com##.top-0.sticky > div
 mashable.com##section.mt-4 > div
 ! timesofindia.indiatimes.com
 ||indiatimes.com/toiads_
-timesofindia.indiatimes.com###custom_ad_wrapper_0
+indiatimes.com###adslot_wrapper
+timesofindia.indiatimes.com##.CeUoi
+timesofindia.indiatimes.com##.J7krm
+timesofindia.indiatimes.com##.Wqeee
+indiatimes.com##.amazonProductSidebar
+indiatimes.com##.article_first_ad
+indiatimes.com##.bottom-ad-height
+indiatimes.com##.btf_ads
+iamgujarat.com,indiatimes.com,samayam.com,vijaykarnataka.com##.colombia
 timesofindia.indiatimes.com##.ctn-workaround-div
-timesofindia.indiatimes.com##.fixed_elements_on_page
-timesofindia.indiatimes.com##.icNFc
-timesofindia.indiatimes.com##.ATF_mobile_ads
-timesofindia.com##.phShimmer
-timesofindia.com##div[class^="ATF_container_"]
-timesofindia.com##div[id^="custom_ad_"]
+timesofindia.indiatimes.com##.d_jsH.mPws3
+indiatimes.com##.ecom-widget
+timesofindia.indiatimes.com##.l0TBl
+timesofindia.indiatimes.com##.mgid_second_mrec_parent
+auto.economictimes.indiatimes.com##.mrec-ads-slot
+timesofindia.indiatimes.com##.paisa-wrapper
+indiatimes.com##.product-cont
+timesofindia.indiatimes.com##.relatedVideoWrapper
+indiatimes.com##.rmfp
+timesofindia.indiatimes.com##.topBand_adwrapper
 timesofindia.indiatimes.com##[data-sp-click="stpPgtn(event)"]
 timesofindia.indiatimes.com##[onclick="stpPgtn(event)"]
-timesofindia.indiatimes.com##.rgt_ad
-timesofindia.indiatimes.com##.CeUoi
-timesofindia.indiatimes.com##.mgid_second_mrec_parent
-timesofindia.indiatimes.com##.paisa-wrapper
-timesofindia.indiatimes.com##.relatedVideoWrapper
-timesofindia.indiatimes.com##[data-aff-type]
-timesofindia.indiatimes.com##.topBand_adwrapper
-timesofindia.indiatimes.com##[data-contentprimestatus]
-timesofindia.indiatimes.com##.d_jsH.mPws3
-timesofindia.indiatimes.com##[data-scrollga="spotlight_banner_widget"]
+timesofindia.indiatimes.com##[class]:has( > .wdt-taboola)
+timesofindia.indiatimes.com##[data-type="in_view"]:has-text(Tired of too many ads?)
 ! m.economictimes.com
 m.economictimes.com##.bannerwrapper
 m.economictimes.com##[class="wdt-taboola"]
