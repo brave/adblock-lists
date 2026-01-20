@@ -86,7 +86,7 @@ dzen.ru#@#:matches-path(/articles) div:has(> article > div > [class*="image"]:em
 
 !
 ! .top domains (non-regex)
-*.top/$script,3p,xhr,domain=hurawatchz.to|nelomanga.net|mangabats.com|rawkuma.net|igg-games.com|lulustream.com|movies4us.co|olympicstreams.co|cineb.rs|toonily.com|luluvdo.com|lectormangaa.com|viprow.nu|animepahe.ru|mgeko.cc|movies2watch.tv|himovies.sx|flixhq.to|do7go.com|movi.pk|dopebox.to|lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
+*.top/$script,3p,xhr,domain=hurawatchz.to|nelomanga.net|mangabats.com|rawkuma.net|igg-games.com|lulustream.com|movies4us.co|olympicstreams.co|cineb.rs|toonily.com|luluvdo.com|lectormangaa.com|viprow.nu|mgeko.cc|movies2watch.tv|himovies.sx|flixhq.to|do7go.com|movi.pk|dopebox.to|lectormangaa.com|vidsrc.cc|igg-games.com|watch-movies.com.pk|fmoviesto.lol
 *.shop/$script,xhr,3p,domain=filecrypt.cc|animepahe.si|animepahe.ru|cineb.rs|igg-games.com|fbstreams.pm|tvableon.me
 ! .xyz domains (non-regex)
 *.com/$3p,script,xhr,domain=animeland.tv
@@ -100,7 +100,7 @@ dzen.ru#@#:matches-path(/articles) div:has(> article > div > [class*="image"]:em
 *.click/$3p,domain=filecrypt.cc|ythd.org|streamingnow.mov|animepahe.si|daddyhd.com|soap2day.day|vidsrc.net|nextgencloudtools.com|fbstreams.pm|eztvx.to|moviesapi.club|anroll.net|anime4i.vip|vipleague.pm|businascart.com|evfancy.link|bedsport.live|tvableon.me|vidsrc.xyz|vidsrc.cc|streamingnow.mov|sportsurge.to
 *.club/$3p,domain=filecrypt.cc|ythd.org|streamingnow.mov|animepahe.si|daddyhd.com|soap2day.day|vidsrc.net|nextgencloudtools.com|fbstreams.pm|eztvx.to|moviesapi.club|anroll.net|anime4i.vip|vipleague.pm|businascart.com|evfancy.link|bedsport.live|tvableon.me|vidsrc.xyz|vidsrc.cc|streamingnow.mov|sportsurge.to
 *.shop/$3p,domain=filecrypt.cc|ythd.org|streamingnow.mov|animepahe.si|daddyhd.com|soap2day.day|vidsrc.net|nextgencloudtools.com|fbstreams.pm|eztvx.to|moviesapi.club|anroll.net|anime4i.vip|vipleague.pm|businascart.com|evfancy.link|bedsport.live|tvableon.me|vidsrc.xyz|vidsrc.cc|streamingnow.mov|sportsurge.to
-*.top/$3p,domain=filecrypt.cc|ythd.org|streamingnow.mov|animepahe.si|daddyhd.com|soap2day.day|vidsrc.net|nextgencloudtools.com|fbstreams.pm|eztvx.to|moviesapi.club|anroll.net|anime4i.vip|vipleague.pm|businascart.com|evfancy.link|bedsport.live|tvableon.me|vidsrc.xyz|vidsrc.cc|streamingnow.mov|sportsurge.to
+*.top/$3p,domain=filecrypt.cc|ythd.org|streamingnow.mov|daddyhd.com|soap2day.day|vidsrc.net|nextgencloudtools.com|fbstreams.pm|eztvx.to|moviesapi.club|anroll.net|anime4i.vip|vipleague.pm|businascart.com|evfancy.link|bedsport.live|tvableon.me|vidsrc.xyz|vidsrc.cc|streamingnow.mov|sportsurge.to
 *.vip/$3p,domain=filecrypt.cc|ythd.org|streamingnow.mov|animepahe.si|daddyhd.com|soap2day.day|vidsrc.net|nextgencloudtools.com|fbstreams.pm|eztvx.to|moviesapi.club|anroll.net|vipleague.pm|businascart.com|evfancy.link|bedsport.live|tvableon.me|vidsrc.xyz|vidsrc.cc|streamingnow.mov|sportsurge.to
 *.tech/$3p,domain=filecrypt.cc|ythd.org|streamingnow.mov|animepahe.si|daddyhd.com|soap2day.day|vidsrc.net|nextgencloudtools.com|fbstreams.pm|eztvx.to|moviesapi.club|anroll.net|anime4i.vip|vipleague.pm|businascart.com|evfancy.link|bedsport.live|tvableon.me|vidsrc.xyz|vidsrc.cc|streamingnow.mov|sportsurge.to
 *.life/$3p,domain=filecrypt.cc|ythd.org|streamingnow.mov|animepahe.si|daddyhd.com|soap2day.day|vidsrc.net|nextgencloudtools.com|fbstreams.pm|eztvx.to|moviesapi.club|anroll.net|anime4i.vip|vipleague.pm|businascart.com|evfancy.link|bedsport.live|tvableon.me|vidsrc.xyz|vidsrc.cc|streamingnow.mov|sportsurge.to
