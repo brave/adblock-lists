@@ -109,6 +109,11 @@ ft.com##+js(rc, sp-message-open, html, stay)
 ! ||html-load.com^$script,domain=game8.jp|syosetu.com
 @@||html-load.com^
 
+! https://community.brave.com/t/topic/553239
+@@||g.doubleclick.net/gampad/ads$xhr,domain=kotobank.jp
+@@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=kotobank.jp
+@@||g.doubleclick.net/tag/js/gpt.js$domain=kotobank.jp
+
 ! Ad-shield
 ! ||html-load.com^$~css,domain=etoday.co.kr|genshinlab.com|dogdrip.net|thestar.co.uk|yorkshirepost.co.uk|indiatimes.com
 ! ||html-load.com/loader.min.js$domain=badmouth1.com|carscoops.com|dziennik.pl|eurointegration.com.ua|flatpanelshd.com|fourfourtwo.co.kr|hoyme.jp|issuya.com|iusm.co.kr|jin115.com|lamire.jp|logicieleducatif.fr|mydaily.co.kr|picrew.me|reportera.co.kr|sportsrec.com|taxguru.in|thestar.co.uk|tweaksforgeeks.com|videogamemods.com|wfmz.com|yorkshirepost.co.uk|text-compare.com|winfuture.de
