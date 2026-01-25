@@ -1451,7 +1451,6 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.mntl-leaderboard-header
 ##.mntl-leaderboard-spacer
 ! adsninja fix
-androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##.adsninja-ad-zone-container-with-set-height
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##[class*="ad-zone-container-content-character-count-repeatable"]
 androidpolice.com,babygaga.com,backyardboss.net,carbuzz.com,cbr.com,collider.com,dualshockers.com,footballfancast.com,footballleagueworld.co.uk,gamerant.com,givemesport.com,hardcoregamer.com,hotcars.com,howtogeek.com,makeuseof.com,moms.com,movieweb.com,pocket-lint.com,pocketnow.com,screenrant.com,simpleflying.com,thegamer.com,therichest.com,thesportster.com,thethings.com,thetravel.com,topspeed.com,xda-developers.com##[id^="adsninja-ad-zone-adsninja-ad-unit-footer"]
 ! invideo advertising
@@ -1501,7 +1500,7 @@ autoevolution.com###vidiv
 newseveryday.com###vplayer_large
 newsweek.com##.FeaturedMedia_articleFeaturedMedia__LEpVY
 cubbyathome.com##.Post__inPostVideoAdDesktop
-apartmenttherapy.com,cubbyathome.com##.Post__inPostVideoAdMobile
+apartmenttherapy.com##.Post__inPostVideoAdMobile
 ratemyprofessors.com##.VideoPlayer__StyledPlayer-sc-2xyxn3-0
 tvline.com##._video_ti56x_1
 hotukdeals.com##.ad
@@ -1523,6 +1522,7 @@ gizmodo.com##.aspect-video
 digitaltrends.com##.b-connatix
 bmwblog.com##.bmwbl-video-in-content
 ontvtonight.com##.body-container > div:has(script[src^="https://live.primis.tech/"])
+dictionary.com,thesaurus.com##.box-additional
 tennisworldusa.org##.box_adv_primis
 pedestrian.tv##.brightcove-video-container
 pep.ph##.c-ad__item
@@ -1537,6 +1537,7 @@ techwalla.com##.component-article-section-jwplayer-wrapper
 familystylefood.com##.email-highlight
 taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
+goal.com##.fco-fc-video-player
 accuweather.com##.feature-tag
 pagesix.com##.featured-image__wrapper > .nyp-video-player
 ibtimes.sg##.featured_video
@@ -1617,7 +1618,8 @@ tasty.co##.video-wrap
 miamiherald.com##.videoInstance
 dpreview.com##.videoWrapper
 consequence.net##.video_container
-gbnews.com##.vsly-player
+gbnews.com,marketscreener.com##.vsly-player
+wegotthiscovered.com##.wp-block-gamurs-ad
 f1oversteer.com##.wp-block-grvmedia-grv-video
 thewrap.com##.wp-block-post-featured-image--video
 comicbook.com,vice.com##.wp-block-savage-platform-primis-video
