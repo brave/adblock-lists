@@ -35,8 +35,3 @@ www.youtube.*##+js(brave-auto-pip)
 
 ! filters.txt
 *_ad_$media,domain=youtube.com,3p
-
-! LinkedIn News Module Puzzles
-linkedin##ul[aria-labelledby="news-module__title-today-puzzles"]
-linkedin.com##div:has(> h3#news-module__title-today-puzzles)
-
