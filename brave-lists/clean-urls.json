@@ -4,21 +4,21 @@
             "*://*.facebook.com/*"
         ],
         "exclude": [],
-        "params": [
-            "__cft__[0]",
-            "__cft__%5B0%5D",
-            "__tn__",
-            "acontext",
-            "ref",
-            "store_visit_source",
-            "gd_impression_id",
-            "source",
-            "with_pv",
-            "external_ref",
+        "params": [ 
+            "__cft__%5B0%5D" ,
+            "__cft__[0]" ,
+            "__tn__" ,
+            "acontext" ,
+            "external_ref" ,
+            "gd_impression_id" ,
+            "idorvanity" ,
+            "ref" ,
+            "referrer" ,
             "sale_post_id",
-            "referrer",
-            "idorvanity",
-            "set"
+            "set",
+            "source",
+            "store_visit_source",
+            "with_pv"
         ]
     },
     {
