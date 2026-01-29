@@ -54,6 +54,7 @@
             "pf_rd_t",
             "qid",
             "ref",
+	    "ref_",
             "refinements",
             "rnid",
             "social_share",
