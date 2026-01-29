@@ -5,7 +5,7 @@ Brave heavily uses the community-maintained [EasyList](https://easylist.to/), [E
 If you modify any of these lists, follow [these instructions](https://github.com/brave/ad-block/wiki/Testing-ad-block-rule-changes-in-Brave) to test your changes locally.
 
 ## Clean URLs
-If modified, follow [these instructions](https://github.com/brave/brave-browser/wiki/Debouncing#testing-new-rules) to test your changes locally. Substitute `debounce.json` with `clean-urls.json`
+If modifying the `debounce.json` or `clean-urls.json` lists, follow [these instructions](https://github.com/brave/brave-browser/wiki/Debouncing#testing-new-rules) to test your changes locally.
 
 ## brave-unbreak.txt
 
