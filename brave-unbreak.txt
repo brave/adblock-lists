@@ -24,7 +24,7 @@ discord.com#@#+js(no-xhr-if, discord.com/api/v9/science)
 ! ||googlevideo.com/videoplayback*ctier=L&*%2Cxpc%2Cctier%2C$xhr,3p,domain=m.youtube.com|music.youtube.com
 
 ! interium fix https://old.reddit.com/r/brave_browser/comments/1qko38v/having_some_issues/
-! youtube.com##+js(brave-video-bg-play)
+youtube.com##+js(brave-video-bg-play)
 
 ! "This content isn't available"
 ! https://github.com/uBlockOrigin/uAssets/commit/e5d9eaeaf9a1772b60f1756c58d931d928e400e6
