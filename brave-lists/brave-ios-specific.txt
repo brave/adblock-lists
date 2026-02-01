@@ -8,6 +8,10 @@
 ! Prevent googlefunding error message (ios)
 ||fundingchoicesmessages.google.com^$third-party,badfilter
 
+! https://github.com/brave/adblock-lists/pull/2758
+youtube.com#@#+js(brave-video-bg-play)
+youtube.com##+js(brave-video-bg-play-update)
+
 ! https://community.brave.app/t/ads-not-being-blocked-and-sites-denying-access-to-content/551667
 sinensistoon.com##+js(aopr, block_ads)
 ||adskeeper.co.uk^
