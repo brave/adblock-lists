@@ -1,7 +1,9 @@
 ! Experimental list
 
+! against brave-unbreak
+youtube.com#@#+js(brave-video-bg-play)
 ! counter page visibility checks on youtube.com/twitch
-tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-video-bg-play)
+tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-video-bg-play-update)
 
 twitch.tv##+js(vaft-ublock-origin)
 twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
