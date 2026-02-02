@@ -409,7 +409,6 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.ad-lead
 ##.ad-leaderboard
 ##.ad-left-top
-##.ad-link
 ##.ad-mobile
 ##.ad-mobile-dynamic
 ##.ad-mount
@@ -423,7 +422,6 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.ad-risingstar-container
 ##.ad-section
 ##.ad-sidebar
-##.ad-slot
 ##.ad-slot--container
 ##.ad-slot-1
 ##.ad-slot-2
@@ -456,7 +454,6 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.ad-top-right-container
 ##.ad-type-cube
 ##.ad-type-flex-leaderboard
-##.ad-unit
 ##.ad-unit--leaderboard
 ##.ad-widget-wrapper
 ##.ad-wrap:not(#google_ads_iframe_checktag)
@@ -506,7 +503,6 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.ad_slot
 ##.ad_text
 ##.ad_top
-##.ad_unit
 ##.ad_wrapper
 ##.adhesiveAdWrapper
 ##.admz
@@ -1017,6 +1013,20 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.ad-placeholder:not(#filter_ads_by_classname):not(#detect_ad_empire):not(#detect):not(.adsbox)
 ##.sidebar-ad:not(.adsbygoogle)
 ##.Ad-Container:not(.adsbygoogle)
+! bait exceptions
+#@#.ad-link
+##.ad-link:not(.adsbox)
+#@#.ad-unit
+#@#.ad_unit
+##.ad_unit:not(.text-ad)
+#@#[data-ad-module]
+#@#[data-ad-width]
+#@#[data-adblockkey]
+#@#[data-advadstrackid]
+#@#[data-ad-manager-id]
+#@#.ad-slot
+##.ad-slot:not(.adsbox):not(.adsbygoogle)
+#@#.ad-300x250
 ! Specific generic
 ##div.adsninja-ad-zone
 ##div.bgr-ad-leaderboard
