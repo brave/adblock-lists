@@ -1,6 +1,28 @@
 [
     {
         "include": [
+            "*://*.facebook.com/*"
+        ],
+        "exclude": [],
+        "params": [ 
+            "__cft__%5B0%5D",
+            "__cft__[0]",
+            "__tn__",
+            "acontext",
+            "external_ref",
+            "gd_impression_id",
+            "idorvanity",
+            "ref",
+            "referrer",
+            "sale_post_id",
+            "set",
+            "source",
+            "store_visit_source",
+            "with_pv"
+        ]
+    },
+    {
+        "include": [
             "*://*.amazon.ae/*",
             "*://*.amazon.ca/*",
             "*://*.amazon.cn/*",
