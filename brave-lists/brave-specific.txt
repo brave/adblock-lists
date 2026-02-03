@@ -69,6 +69,10 @@ search.brave.com###search-ad
 linkedin.com##+js(trusted-set-session-storage-item, blocking-upsell, '"DISMISSED"')
 linkedin.com##+js(trusted-set-session-storage-item, blocking-upsell_lastUpdatedAt, $now$)
 
+! Rotten tomatoes app recommendations
+rottentomatoes.com##+js(trusted-set-session-storage-item, mobileAppModal, '{"wasClosed":true}')
+rottentomatoes.com##+js(trusted-set-session-storage-item, mobileAndroidBanner, '{"wasClosed":true}')
+
 ! thegatewaypundit.com (images fix)
 @@||ruamupr.com^$script,domain=thegatewaypundit.com
 
