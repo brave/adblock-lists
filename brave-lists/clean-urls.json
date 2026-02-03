@@ -683,7 +683,8 @@
             "embed_source",
             "refer",
             "referer_url",
-            "referer_video_id"
+            "referer_video_id",
+            "_t"
         ]
     },
     {
