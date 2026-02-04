@@ -323,6 +323,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ###topad
 ###TopAd
 ###zdcFloatingBtn
+###zdn-adblock-overlay
 ##.ATF_wrapper
 ##.Ad-Inner
 ##.Ad--empty
