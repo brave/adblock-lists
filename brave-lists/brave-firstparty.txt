@@ -1028,14 +1028,14 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.ad-slot:not(.adsbox):not(.adsbygoogle)
 #@#.ad-300x250
 ! Specific generic
-##div.adsninja-ad-zone
-##div.bgr-ad-leaderboard
-##div.adsHeight300x250
-##div#topAd
-##div.proper-ad-unit
-##div.rs_ad_block
-##div.header-ad-container
-##div.vuukle-ads
+##.adsninja-ad-zone
+##.bgr-ad-leaderboard
+##.adsHeight300x250
+###topAd
+##.proper-ad-unit
+##.rs_ad_block
+##.header-ad-container
+##.vuukle-ads
 ! (invideo advertising)
 ###Player_Playoncontent
 ###Player_Playoncontent_footer
