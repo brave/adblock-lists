@@ -23,6 +23,9 @@ discord.com#@#+js(no-xhr-if, discord.com/api/v9/science)
 ! ubo-mobile
 ! ||googlevideo.com/videoplayback*ctier=L&*%2Cxpc%2Cctier%2C$xhr,3p,domain=m.youtube.com|music.youtube.com
 
+! chp ads
+cloudhostingz.com##+js(noeval-if, /chp_?ad/)
+
 ! interium fix https://old.reddit.com/r/brave_browser/comments/1qko38v/having_some_issues/
 youtube.com##+js(brave-video-bg-play)
 
