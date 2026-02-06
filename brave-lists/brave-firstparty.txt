@@ -62,6 +62,7 @@ hnablog.com##.popSc
 ! Various uBO 1p network items. (END)
 ! photopea.com (method:post) showing ads
 ! https://github.com/brave/brave-browser/issues/40619
+photopea.com##.alertcont:has-text(Something is changing our source code)
 photopea.com##div > .bnotify.window:has-text(Are you blocking ads)
 photopea.com##.app.flexrow > div:has-text(Ad blocking detected)
 ! imported from uBO
