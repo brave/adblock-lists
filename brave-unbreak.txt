@@ -196,7 +196,7 @@ twitter.com##+js(remove-cookie, personalization_id)
 blog.esuteru.com,blog.livedoor.jp,carscoops.com,eurointegration.com.ua,ff14net.2chblog.jp,flatpanelshd.com,golf-live.at,horairesdouverture24.fr,hoyme.jp,itainews.com,jin115.com,kreuzwortraetsel.de,lamire.jp,m.economictimes.com,modhub.us,motherlyvisions.com,ndtvprofit.com,news4vip.livedoor.biz,nyitvatartas24.hu,onecall2ch.com,palabr.as,picrew.me,pravda.com.ua,rabitsokuhou.2chblog.jp,raetsel-hilfe.de,suzusoku.blog.jp,the-crossword-solver.com,thestockmarketwatch.com,verkaufsoffener-sonntag.com,winfuture.de,word-grabber.com,wort-suchen.de,yugioh-starlight.com##iframe[src="about:blank"]:remove()
 
 ! csp + doc (remove doc) *$doc,csp=script-src-attr 'none',to=flatpanelshd.com|sportsrec.com|badmouth1.com|picrew.me|lamire.jp
-*$csp=script-src-attr 'none',domain=badmouth1.com|blog.esuteru.com|eurointegration.com.ua|flatpanelshd.com|hoyme.jp|issuya.com|iusm.co.kr|jin115.com|lamire.jp|picrew.me|sportsrec.com
+*$csp=script-src-attr 'none',domain=badmouth1.com|freemcserver.net|m.economictimes.com|ondemandkorea.com|tbsradio.jp
 ! 
 ! win7/8 YT crashes
 ! CNAME: account.adobe.com
