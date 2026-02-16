@@ -1505,12 +1505,12 @@ freethesaurus.com###qk1
 freethesaurus.com###qk2
 freethesaurus.com###qk5
 realclearpolitics.com###realclear_jwplayer_container
-lifehacker.com,mashable.com,pcmag.com###related-video
+fortune.com,lifehacker.com,mashable.com,pcmag.com###related-video
 whoer.net###render-big-banners
 ispreview.co.uk###sidebar-slot-5
 americansongwriter.com,suggest.com,wideopencountry.com###sv-video-container
 uproxx.com###upx-mm-player-wrap
-wideopencountry.com###video-header
+americansongwriter.com,wideopencountry.com###video-header
 sportskeeda.com###video-player-container--
 onlyinyourstate.com###video1-1
 autoevolution.com###vidiv
@@ -1567,7 +1567,6 @@ foxsports.com##.fwAdContainer
 thestar.co.uk##.gOoqzH
 electricianforum.co.uk##.gb-sponsored
 arboristsite.com##.gb-sponsored-wrapper
-givemesport.com##.gms-videos-container
 gamesradar.com##.in-article
 komonews.com##.index-module_featuredVideosWhiteWrapper__kfND
 bossip.com##.ione-ve__player-wrapper
@@ -1581,6 +1580,7 @@ gamesradar.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthse
 space.com##.jwplayer__wrapper
 southernliving.com##.karma-sticky-rail
 gearjunkie.com##.ldm_ad
+thestreet.com##.m-detail--feature-spacer
 thespun.com##.m-video-player
 bringmethenews.com##.m-video-unit
 namemc.com##.mb-3:has(#nn_player1)
@@ -1604,7 +1604,6 @@ eurogamer.net##.primis_wrapper
 iheart.com##.provider-stn
 businessinsider.com##.rail.has-video-ad
 pedestrian.tv##.recent-jobs-widget
-fortune.com##.related-video-container
 kidspot.com.au##.secondary-video
 ootrandomizer.com##.slot-top-video
 stocktwits.com##.sticky-inner-wrapper
@@ -1636,7 +1635,7 @@ miamiherald.com##.videoInstance
 dpreview.com##.videoWrapper
 consequence.net##.video_container
 gbnews.com,marketscreener.com##.vsly-player
-wegotthiscovered.com##.wp-block-gamurs-ad
+destructoid.com,wegotthiscovered.com##.wp-block-gamurs-ad
 f1oversteer.com##.wp-block-grvmedia-grv-video
 thewrap.com##.wp-block-post-featured-image--video
 comicbook.com,vice.com##.wp-block-savage-platform-primis-video
@@ -1670,6 +1669,7 @@ laurelberninteriors.com,mediaite.com,packhacker.com,packinsider.com#@#.adthrive-
 click2houston.com,clickondetroit.com,clickorlando.com,ksat.com,news4jax.com,wsls.com#@#.anyClipWrapper
 accuweather.com,cheddar.tv,deadline.com,elnuevoherald.com,heraldsun.com,olhardigital.com.br,tvinsider.com#@#.cnx-player-wrapper
 huffpost.com#@#.connatix-wrapper
+gbnews.com#@#.primis-wrapper
 carbuzz.com,screenrant.com#@#.w-adsninja-video-player
 ! easylist_allowlist_general_hide.txt
 dez.ro#@##ad-carousel
