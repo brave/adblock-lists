@@ -320,6 +320,9 @@
 
         ],
         "params": [
+            "%24deep_link",
+            "post_index",
+            "target_user",
             "correlation_id",
             "post_fullname",
             "ref",
