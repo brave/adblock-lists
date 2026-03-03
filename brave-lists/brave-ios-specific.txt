@@ -156,6 +156,7 @@ ft.com##+js(rc, sp-message-open, html, stay)
 
 ! https://github.com/brave/brave-browser/issues/52531
 billboard.com,hollywoodreporter.com,vibe.com,sportico.com,artnews.com,robbreport.com,wwd.com,indiewire.com,deadline.com,goldderby.com,9gag.com,variety.com##+js(rmnt, script, html-load.com)
+billboard.com,hollywoodreporter.com,vibe.com,sportico.com,artnews.com,robbreport.com,wwd.com,indiewire.com,deadline.com,goldderby.com,9gag.com,variety.com##+js(trusted-replace-argument, HTMLScriptElement.prototype.setAttribute, 1, , condition, /error-report|new Promise/)
 
 ! timesofindia.indiatimes.com
 timesofindia.indiatimes.com##+js(no-setTimeout-if, adb)
