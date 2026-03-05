@@ -2232,7 +2232,6 @@ engadget.com##.da-container
 engadget.com##.post-article-ad
 engadget.com##.related-content-lazyload
 engadget.com##.wafer-benji
-engadget.com##li.lg\:min-h-\[234px\]
 engadget.com##section.md\:min-h-\[310px\]
 engadget.com##.justify-center:has-text(Advertisement)
 engadget.com##[data-test="top-ad"]
