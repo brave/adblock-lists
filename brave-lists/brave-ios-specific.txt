@@ -111,7 +111,8 @@ ft.com##+js(rc, sp-message-open, html, stay)
 ! Ad-shield test
 ! syosetu.com,game8.jp##+js(remove-node-text, script, html-load.com)
 ! ||html-load.com^$script,domain=game8.jp|syosetu.com
-@@||html-load.com^
+@@||07c225f3.online^$third-party,~font,~ping
+@@||html-load.com^$third-party,~font,~ping
 
 ! Ad-shield
 ! ||html-load.com^$~css,domain=etoday.co.kr|genshinlab.com|dogdrip.net|thestar.co.uk|yorkshirepost.co.uk|indiatimes.com
