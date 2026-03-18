@@ -1149,7 +1149,7 @@
     },
     {
         "include": [
-            "*://*.threads.net/*"
+            "*://*.threads.com/*"
         ],
         "exclude": [
 
