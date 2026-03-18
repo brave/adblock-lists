@@ -65,6 +65,31 @@
   },
   {
     "include": [
+      "*://www.google.com/maps/*",
+      "*://www.google.com.au/maps/*",
+      "*://www.google.com.mx/maps/*",
+      "*://www.google.ca/maps/*",
+      "*://www.google.co.nz/maps/*",
+      "*://www.google.co.uk/maps/*",
+      "*://www.google.fr/maps/*",
+      "*://www.google.de/maps/*",
+      "*://www.google.nl/maps/*",
+      "*://www.google.es/maps/*",
+      "*://www.google.pt/maps/*",
+      "*://www.google.ie/maps/*",
+      "*://www.google.dk/maps/*",
+      "*://www.google.it/maps/*",
+      "*://www.google.pl/maps/*",
+      "*://www.google.se/maps/*",
+      "*://www.google.no/maps/*"
+    ],
+    "exceptions": [
+      "canvas"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/37075"
+  },
+  {
+    "include": [
       "*://workspace.google.com/*"
     ],
     "exceptions": [
