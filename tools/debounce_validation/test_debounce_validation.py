@@ -42,8 +42,8 @@ class DebounceTester(unittest.TestCase):
     def loadRules(self, raw_rules):
         rules = []
         for ruleset in raw_rules:
-            rules.extend(ruleset['include'])
-            rules.extend(ruleset['exclude'])
+            rules.extend(ruleset.get('include', []))
+            rules.extend(ruleset.get('exclude', []))
         return rules
 
     def test_load_debounce_list_no_exceptions(self):
