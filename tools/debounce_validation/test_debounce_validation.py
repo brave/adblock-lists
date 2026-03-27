@@ -146,5 +146,3 @@ class DebounceTester(unittest.TestCase):
                 f"regex only has {num_groups} capture group(s)"
             )
 
-if __name__ == '__main__':
-    unittest.main()
