@@ -145,3 +145,6 @@ class DebounceTester(unittest.TestCase):
                 f"Rule {i} template references ${max_placeholder} but "
                 f"regex only has {num_groups} capture group(s)"
             )
+
+if __name__ == '__main__':
+    unittest.main()
