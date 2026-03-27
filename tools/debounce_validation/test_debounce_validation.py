@@ -78,15 +78,15 @@ class DebounceTester(unittest.TestCase):
     def test_action_types_are_known(self):
         for i, rule in enumerate(self.raw_debounce):
             self.assertIn(
-                rule['action'], KNOWN_ACTIONS,
-                f"Rule {i} has unknown action '{rule['action']}'"
+                rule.get('action', ''), KNOWN_ACTIONS,
+                f"Rule {i} has unknown action '{rule.get('action', '')}'"
             )
 
     # For regex-path and regex-path-template rules, verify that the param
     # field compiles as a valid regular expression.
     def test_regex_param_is_valid(self):
         for i, rule in enumerate(self.raw_debounce):
-            if rule['action'] in REGEX_ACTIONS:
+            if rule.get('action') in REGEX_ACTIONS:
                 try:
                     re.compile(rule['param'])
                 except re.error as e:
@@ -98,7 +98,7 @@ class DebounceTester(unittest.TestCase):
     # otherwise brave-core has no template to substitute capture groups into.
     def test_regex_path_template_has_redirect_url_template(self):
         for i, rule in enumerate(self.raw_debounce):
-            if rule['action'] == 'regex-path-template':
+            if rule.get('action') == 'regex-path-template':
                 self.assertIn(
                     'redirect_url_template', rule,
                     f"Rule {i} has action 'regex-path-template' but is "
@@ -109,11 +109,11 @@ class DebounceTester(unittest.TestCase):
     # Its presence on other action types likely indicates a copy-paste error.
     def test_redirect_url_template_only_on_regex_path_template(self):
         for i, rule in enumerate(self.raw_debounce):
-            if rule['action'] != 'regex-path-template':
+            if rule.get('action') != 'regex-path-template':
                 self.assertNotIn(
                     'redirect_url_template', rule,
                     f"Rule {i} has 'redirect_url_template' but action is "
-                    f"'{rule['action']}', not 'regex-path-template'"
+                    f"'{rule.get('action', '')}', not 'regex-path-template'"
                 )
 
     # A redirect_url_template without any $1..$9 placeholders would always
@@ -132,7 +132,7 @@ class DebounceTester(unittest.TestCase):
     # regex only has 2 groups).
     def test_redirect_url_template_placeholders_match_capture_groups(self):
         for i, rule in enumerate(self.raw_debounce):
-            if rule['action'] != 'regex-path-template':
+            if rule.get('action') != 'regex-path-template':
                 continue
             template = rule.get('redirect_url_template', '')
             placeholders = {int(m) for m in re.findall(r'\$([1-9])', template)}
