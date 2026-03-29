@@ -1537,7 +1537,6 @@ modalina.jp##+js(aopr, AdBlockLimitation)
 ||4gamer.net/img/*_jack_
 ||4gamer.net/img/blackdesert_
 ||asahicom.jp/ad/
-||r10s.jp/com/rat/js/rat-main.js
 ||yomiuri.co.jp/media/2019/06/190530_1000x240_B-002.jpg
 ||ismedia.jp/common/money-gendai/images/header/sponsored.png
 ||chosunonline.com/common/ifr01/$subdocument
