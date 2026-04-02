@@ -1,5 +1,5 @@
-# Default: all filter list changes require Ryan review unless specified otherwise.
-brave-lists/** @ryanbr
+# Default: all filter list changes require adblock team review unless specified otherwise.
+brave-lists/** @adblock-filters-team
 # debounce.json can rely on sec-team approval.
 brave-lists/debounce.json @brave/sec-team
 # Brave-critical lists need Shivan and Anton review.
