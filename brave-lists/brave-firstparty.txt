@@ -1457,6 +1457,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ||warnermediacdn.com/csm*conf_csid=$xhr,removeparam=conf_csid,domain=cnn.com
 ||warnermediacdn.com/csm*prof=$xhr,removeparam=prof,domain=cnn.com
 ||ngtv.io/v2/media/live$xhr,3p,removeparam=ssaiProfile,domain=cnn.com
+||google.com^$removeparam=gs_lcrp
 ! fansided. mentalfloss.com,netflixlife.com,winteriscoming.net,ipreferreading.com
 ##.style_k8mr7b-o_O-style_uhlm2
 ! 247slots.org/247checkers.com/247backgammon.org/247hearts.com etc
