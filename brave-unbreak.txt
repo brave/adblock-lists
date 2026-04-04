@@ -1513,21 +1513,11 @@ livejournal.com##+js(aopr, webpackJsonpSSPjs)
 /^https?:\/\/asset.bixjf.com\/[0-9]{4}\/ad\/[0-9].*/$domain=imkan.tv
 ! (Brave-ios Japanese specific )
 @@||flamingo.gomobile.jp^$script,domain=7net.omni7.jp
-!  pointmall.rakuten.co.jp
-pointmall.rakuten.co.jp##.side-ad
-pointmall.rakuten.co.jp##style + div.side-box:has(> ul > li > a[href^="https://ac.ebis.ne.jp/tr_set.php"][target="_blank"][rel="noopener noreferrer"])
-pointmall.rakuten.co.jp##.mypage-ads
-pointmall.rakuten.co.jp##.side-mypage-ad-wrap
-pointmall.rakuten.co.jp##.gamelist-ads
 ! 5ch.net (Japanese) Desktop/Mobile IOS/Android-specific blocks
-||thench.net^$third-party
 ||mediad2.jp^$third-party
 ||microad.net^$third-party
 ||ad-stir.com^$third-party
 ||proparm.jp^$third-party
-||i2ad.jp^$third-party
-! https://github.com/AdguardTeam/AdguardFilters/issues/85641
-modalina.jp##+js(aopr, AdBlockLimitation)
 /ad/alliance_
 /loadPopIn.
 /itsads/*
@@ -1545,7 +1535,6 @@ modalina.jp##+js(aopr, AdBlockLimitation)
 ||netmile.co.jp/images/bnr/sugutama_640_120.png
 ||netmile.co.jp/user/images/regist-sub-bnr.png
 ||pt.appirits.com^$third-party
-||yads.c.yimg.jp^$third-party
 ||logly.co.jp/lift_widget.js
 ||yimg.jp^*/loader.js
 ||cvote.a-ch.net^$third-party
@@ -1558,7 +1547,6 @@ modalina.jp##+js(aopr, AdBlockLimitation)
 ||pitadtag.jp^$third-party
 ||itmedia.co.jp/spv/images/career_en_300x250.jpg
 ||itmedia.co.jp/spv/images/career_en_320x50.jpg
-@@||vippers.jp/settings/ad.js
 @@||netmile.co.jp/ad/images/banner/$image
 @@||netmile.co.jp/features/catchpig/images/bnr_120_60.png
 @@||netmile.co.jp/features/furufuru/images/$image
