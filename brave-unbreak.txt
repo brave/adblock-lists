@@ -50,6 +50,15 @@ firstthings.com##+js(set-cookie, pum_popup_14631_page_views, 1)
 ! paywall counter (fix wired.com hamburger menu being unresponsive)
 ! /\.com\/[-\w]+/$script,~third-party,domain=architecturaldigest.com|bonappetit.com|cntraveler.com|epicurious.com|gq.com|newyorker.com|vanityfair.com|vogue.com|wired.com
 @@/verso/static/*$script,domain=architecturaldigest.com|bonappetit.com|cntraveler.com|epicurious.com|gq.com|newyorker.com|vanityfair.com|vogue.com|wired.com
+! bizjournals.com fix articles not showing.
+! Maintainer refuses to fix
+/\.bizjournals\.com\/.+\/(news|stories)\/.+\.html/$inline-script,badfilter
+bizjournals.com#@#div[id^="headlessui-dialog-"], div.sheet-overlay
+@@||c2.piano.io/xbuilder/experience/$xhr,domain=bizjournals.com
+@@||buy.tinypass.com/api/$xhr,domain=bizjournals.com
+||cxense.com^$script,important,from=bizjournals.com,badfilter
+
+
 
 ! dzen.ru breakage
 dzen.ru#@#:matches-path(/a/) [data-appid] > [itemscope] > div > div[id]
