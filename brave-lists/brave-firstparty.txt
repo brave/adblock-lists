@@ -3522,7 +3522,10 @@ rottentomatoes.com##.leaderboard_wrapper
 ! memory-alpha.fandom.com
 fandom.com###featured-video__player-container
 ! techrepublic.com
-techrepublic.com##.medusa-list
+techrepublic.com###leader-bottom
+techrepublic.com###bottom-footer-fixed-slot
+techrepublic.com###leader-plus-top
+techrepublic.com###nav-ad
 ! sciencealert.com
 sciencealert.com###Purch_D_R_0_1
 sciencealert.com##.ad-desktop\:block
