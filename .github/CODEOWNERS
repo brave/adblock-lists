@@ -3,4 +3,4 @@ brave-lists/** @brave/adblock-filters-team
 # debounce.json can rely on sec-team approval.
 brave-lists/debounce.json @brave/sec-team
 # Brave-critical lists need Shivan and Anton review.
-brave-lists/brave-specific.txt @ShivanKaul @antonok-edm
+brave-lists/brave-specific.txt @brave/adblock-brave-specific-filters-team
