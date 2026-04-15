@@ -1,5 +1,6 @@
-# Default: all filter list changes require adblock team review unless specified otherwise.
-brave-lists/** @brave/adblock-filters-team
+# Default: all filter list changes require Ryan approval.
+# Note: If you're blocked on a PR, ping Shivan or Anton for admin merge.
+brave-lists/** @ryanbr
 # debounce.json can rely on sec-team approval.
 brave-lists/debounce.json @brave/sec-team
 # Brave-critical lists need Shivan and Anton review.
