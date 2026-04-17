@@ -2210,6 +2210,7 @@ atlasobscura.com##.ad-site-top-full-width
 twitch.tv##.video-player__overlay .player-overlay-background:has(> div[class^="Layout-"] > div[class^="Layout-"] > div[class^="Layout-"] > a:is([href*="/how-to-allow-ads-browser"], [href="https://www.twitch.tv/turbo"]))
 twitch.tv##.player-overlay-background:has-text(Consider Turbo)
 twitch.tv##.stream-display-ad__wrapper
+twitch.tv##[data-test-selector="sda-wrapper"]
 ! abs-cbn.com
 abs-cbn.com##div[style*="2147483647"]:has(> div[style$="z-index: 999;"])
 abs-cbn.com##.MuiGrid-root.MuiGrid-item:not([data-testid="test-grid-item"]):has(> div.MuiBox-root > div[style] > div > div[style] > div[class^="imp-adSlot"])
@@ -2442,6 +2443,7 @@ hellomagazine.com##.-variation-robapaginas
 ! alternet.org
 alternet.org##[id^="story_page_incontent_"]
 alternet.org###leaderboard-placeholder
+alternet.org###alternet_dt_incontent
 alternet.org##.sidebar_sticky_container
 ! howstuffworks.com
 howstuffworks.com###inline-video-wrap
@@ -3588,10 +3590,13 @@ dict.cc###recthomebot
 dict.cc###recthome
 ! glensidelocal.com
 glensidelocal.com##.advertising-callout
+! dailystar.co.uk
+dailystar.co.uk##.commercial-box-style
+dailystar.co.uk##[data-testid="commercial-label-gpt"]
 ! thescore.com
 thescore.com##.Ad__container--MeQWT
 ! advocate.com
-advocate.com,good.is,papermag.com,pride.com##.topbarplaceholder
+advocate.com,audacy.com,good.is,out.com,papermag.com,pride.com##.topbarplaceholder
 advocate.com,out.com,pride.com##div[id^="sPost_Layout_Default_"]:has(> .ad_leaderboard_wrap)
 advocate.com###sad_wrapper_0_0_1_0_0_0_1_0_1
 advocate.com,out.com##.ad_leaderboard_wrap
@@ -4574,6 +4579,11 @@ stuff.co.nz##.horizontal-ad-slot
 thepress.co.nz,waikatotimes.co.nz,stuff.co.nz##.header-ads-block
 stuff.co.nz##.between-ad-slot
 stuff.co.nz##[data-testid="ad-slot"]
+stuff.co.nz##.min-h-\[133px\]
+! thepost.co.nz
+thepost.co.nz##.md\:z-\[var\(--header-z-index-global\)\]
+! kqed.org
+kqed.org##.components-AdLive-__AdLive__ad
 ! nzherald
 nzherald.co.nz##.section-iframe
 nzherald.co.nz##section:has-text(Partner content)
