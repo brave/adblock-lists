@@ -4334,17 +4334,42 @@ mail.google.com##.nH.PS
 stoodnt.com##.boxzilla-center-container
 stoodnt.com##.boxzilla-overlay
 ! Facebook/Instagram
+! https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters.txt#L265
 facebook.com##.RectangleAd
-www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.viewer.marketplace_feed_stories.edges.[-].node.story.sponsored_data.ad_id)
-www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.marketplace_search.feed_units.edges.[-].node.story.sponsored_data.ad_id)
-www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.serpResponse.results.edges.[-].rendering_strategy.view_model.story.sponsored_data.ad_id)
-www.facebook.com##+js(json-prune, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node, require.0.3.0.__bbox.require.[].3.1.__bbox.result.data.node.story.sponsored_data.ad_id)
-www.facebook.com##+js(json-prune-xhr-response, data.viewer.instream_video_ads data.scrubber, '', propsToMatch, /api/graphql)
-www.facebook.com##+js(trusted-replace-xhr-response, /\{"node":\{"__typename":"VideoHomeFeedUnitSectionComponent"[^\n]+?"sponsored_data":\{"ad_id"[^\n]+?"cursor":null\}/, {}, /api/graphql)
-www.facebook.com##+js(json-edit, ..__bbox.result.data.node[?@.*.__typename=="SponsoredData"])
-www.facebook.com##+js(json-prune-xhr-response, data.viewer.sideFeedUnit.nodes.[].new_adverts.nodes.[-].sponsored_data)
-www.facebook.com##+js(trusted-replace-xhr-response, /\{"node":\{"role":"SEARCH_ADS"[^\n]+?cursor":[^}]+\}/g, {}, /api/graphql)
-www.facebook.com##+js(trusted-replace-xhr-response, /\{"node":\{"__typename":"MarketplaceFeedAdStory"[^\n]+?"cursor":(?:null|"\{[^\n]+?\}"|[^\n]+?MarketplaceSearchFeedStoriesEdge")\}/g, {}, /api/graphql)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
+! "People You May Know": EasyList tries to block these, might as well block them fully
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###stream_pagelet div[id^="hyperfeed_story_id_"]:if(h6:has-text(People You May Know))
+touch.facebook.com,mtouch.facebook.com,x.facebook.com,iphone.facebook.com,m.beta.facebook.com,touch.beta.facebook.com,mtouch.beta.facebook.com,x.beta.facebook.com,iphone.beta.facebook.com,m.facebook.com,b-m.facebook.com,mobile.facebook.com,touch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mtouch.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,x.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,iphone.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,touch.beta.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,m.facebook.com,m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,b-m.facebook.com,b-m.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion,mobile.facebook.com,mobile.facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##article:has(footer > div > div > a[href^="/friends/center/?fb_ref="])
+! https://www.reddit.com/r/uBlockOrigin/comments/58o3k6/facebook_ads_solution/
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.ego_section:has(a.adsCategoryTitleLink)
+! https://github.com/uBlockOrigin/uAssets/issues/507
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###stream_pagelet [id^="hyperfeed_story_id_"]:has(span._4dcu)
+! https://github.com/uBlockOrigin/uAssets/issues/722
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.ego_column:if(a[href^="/campaign/landing"])
+! https://forums.lanik.us/viewtopic.php?p=128997#p128997
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.ego_section:if(a[href^="/ad_campaign"])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.userContentWrapper:has(a[href*="/ads/"]):not(:has(a[href*="/ads/preferences"]))
+! https://github.com/uBlockOrigin/uAssets/issues/3367
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#@#div[id^="hyperfeed_story_id_"]:has(a[href*="utm_campaign"])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.userContentWrapper>div div>span>span:has-text(/^Suggested Post$/)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[id^="hyperfeed_story_id_"]:has(div > span:has(abbr .timestampContent):matches-css(display: none))
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.ego_section:has(a[href*="campaign_id"])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[id^=hyperfeed_story_id_]:has(span[data-ft="{\"tn\":\"j\"}"])
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion#?#.pagelet-group .pagelet:has(a:has-text(/Sponsored|Create ad|Crear un anuncio|Publicidad/))
+! https://github.com/uBlockOrigin/uAssets/issues/3367#issuecomment-1367973454
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[role="complementary"] div:not([class]):not([id]) > span:not([class]):not([id]):not([aria-labelledby])
+! https://github.com/uBlockOrigin/uAssets/issues/3367#issuecomment-2094725581
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:matches-path(/^\/(\?[a-z]+=\w+)?$/) div[aria-posinset] :is(h3, h4) span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{290,}/"):upward(div[aria-posinset]):style(height: 0 !important; overflow: hidden !important;)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##div[aria-describedby]:not([aria-posinset]) :is(h3, h4) span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{290,}/"):upward(div[aria-describedby]):style(height: 0 !important; overflow: hidden !important;)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed div:not([class]) > div:not([class]) div[class] span[class] > a span[aria-labelledby]:has(> span[style="display: flex;"] > span[class]:has-text(/^S$/)):has(> span[style="display: flex;"] > span[class]:has-text(/^p$/)):has(> span[style="display: flex;"] > span[class]:has-text(/^d$/)):upward(div:not([class]) > div:not([class])):style(height: 0 !important; overflow: hidden !important;)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed div:not([class]) > div:not([class]) div[class] span[class] > a[aria-label="広告"]:upward(div:not([class]) > div:not([class])):style(height: 0 !important; overflow: hidden !important;)
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###watch_feed div:not([class]) > div:not([class]) div[class] [class] > a[href*="utm_source=facebook"] span[class] > span[class][style*="-webkit-line-clamp"]:has-text(広告):upward(div:not([class]) > div:not([class])):style(height: 0 !important; overflow: hidden !important;)
+! https://github.com/uBlockOrigin/uAssets/issues/3367#issuecomment-2094875891
+facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##:matches-path(/search/) div[role="article"] span > a[href]:not([href^="/groups/"]):not([href*="section_header_type"]):matches-attr(href="/__cft__\[0\]=[-\w]{265,}/"):upward([role="article"]):style(height: 0 !important; overflow: hidden !important;)
+web.facebook.com,www.facebook.com###seo_pivots ~ div > div[style^="max-width"] > div[class] > div[style^="max-width"]:has(a[href^="/ads/about/?"])
+! https://github.com/uBlockOrigin/uAssets/issues/3367#issuecomment-3064485056
+web.facebook.com,www.facebook.com##:matches-path(/marketplace/item) a[attributionsrc^="/privacy_sandbox/"]:is([aria-label$=" anunciante"][aria-label*=" d"],[aria-label="Lien de l’annonceur"],[aria-label$="autan pengiklan"],[aria-label="Adverteerderskakel"],[aria-label="Link sa nag-advertise"],[aria-label="Link oglašivača"],[aria-label="Odkaz od inzerenta"],[aria-label="Link fra annoncør"],[aria-label="Werbelink"],[aria-label="Link ng advertiser"],[aria-label="Link dell'inserzionista"],[aria-label="Veza oglašivača"],[aria-label="Manisautilirijimut kasurvik"],[aria-label="Kiunganishi cha mtangazaji"],[aria-label="Lyen konpayi ki fè piblisite a"],[aria-label="Reklāmdevēja saite"],[aria-label="Reklamuotojo nuoroda"],[aria-label="Hirdető hivatkozása"],[aria-label="Link tar-reklamatur"],[aria-label="Adverteerderslink"],[aria-label="Annonsørlenke"],[aria-label="Link reklamodawcy"],[aria-label="Link promotor"],[aria-label="Lidhja e reklamuesit"],[aria-label="Odkaz na inzerenta"],[aria-label="Povezava oglaševalca"],[aria-label="Mainostajan linkki"],[aria-label="Annonsörlänk"],[aria-label="Liên kết của nhà quảng cáo"],[aria-label="Reklamveren bağlantısı"],[aria-label="Σύνδεσμος διαφημιζόμενου"],[aria-label="Връзка на рекламодател"],[aria-label="Линк на огласувач на реклами"],[aria-label="Сурталчлагчийн холбоос"],[aria-label="Ссылка рекламодателя"],[aria-label="Веза оглашивача"],[aria-label="Посилання рекламодавця"],[aria-label="რეკლამის განმთავსებლის ბმული"],[aria-label="קישור של מפרסם"],[aria-label="ﺎﯾڈﻭﺭٹﺎﺋﺯﺭ ﮎﺍ ﻞﻨﮐ"],[aria-label="ﺭﺎﺒﻃ ﺎﻠﻤﻌﻠﻧ"],[aria-label="जाहिरातदार लिंक"],[aria-label="विज्ञापनदाता द्वारा लिंक"],[aria-label="বিজ্ঞাপনদাতা লিংক"],[aria-label="বিজ্ঞাপনদাতার লিঙ্ক"],[aria-label="જાહેરાતકર્તા લિંક"],[aria-label="అడ్వర్టయిజర్ లింక్"],[aria-label="പരസ്യദാതാവിന്റെ ലിങ്ക്"],[aria-label="වෙළඳ ප්<200d>රචාරක සබැඳිය"],[aria-label="ลิงก์ผู้ลงโฆษณา"],[aria-label="광고주 링크"],[aria-label^="廣告"][aria-label$="連結"],[aria-label="广告主提供的链接"],[aria-label="広告主によるリンク
+"])
 ! linkedin.com
 linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Promo"])
 linkedin.com##.feed-shared-update-v2:has(a[aria-label*="Anzeige"])
