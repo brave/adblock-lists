@@ -27,7 +27,6 @@
       "*://www.vons.com/*"
     ],
     "exceptions": [
-      "font",
       "language"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/48655"
