@@ -10,10 +10,25 @@
   },
   {
     "include": [
-      "*://www.safeway.com/*"
+      "*://www.acmemarkets.com/*", 
+      "*://www.albertsons.com/*", 
+      "*://www.balduccis.com/*",
+      "*://www.carrsqc.com/*", 
+      "*://www.haggen.com/*", 
+      "*://www.jewelosco.com/*", 
+      "*://www.kingsfoodmarkets.com/*", 
+      "*://www.pavilions.com/*", 
+      "*://www.randalls.com/*", 
+      "*://www.safeway.com/*", 
+      "*://www.shaws.com/*", 
+      "*://www.shopamigos.com/*", 
+      "*://www.starmarket.com/*", 
+      "*://www.tomthumb.com/*", 
+      "*://www.vons.com/*"
     ],
     "exceptions": [
-      "font"
+      "font",
+      "language"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/48655"
   },
