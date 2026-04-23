@@ -22,6 +22,10 @@ sinensistoon.com##+js(aopr, block_ads)
 ! YT ads fallback on snippet
 ||googlevideo.com/videoplayback*ctier=L&*%2Cxpc%2Cctier%2C$domain=m.youtube.com|music.youtube.com
 
+! www.google.com AI button not working
+! https://github.com/brave/brave-core/pull/31152
+www.google.com##+js(aeld, resize, .blur())
+
 ! cvs.com app banner  cvs.com##cvs-smart-app-banner  not being applied
 cvs.com##+js(trusted-set-local-storage-item, appBannerClosed, $now$)
 
