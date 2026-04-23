@@ -1,4 +1,6 @@
 ! Regional sites
+! Checksum: Aa/WpjDa61zVU7hd4Jhnow
+! Last modified: 11 Feb 2026 00:09 UTC
 
 !! French generic
 ###ad-haute
