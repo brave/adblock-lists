@@ -1458,6 +1458,10 @@ bloomberg.com##.unsupported-browser-notification-container
 ||warnermediacdn.com/csm*conf_csid=$xhr,removeparam=conf_csid,domain=cnn.com
 ||warnermediacdn.com/csm*prof=$xhr,removeparam=prof,domain=cnn.com
 ||ngtv.io/v2/media/live$xhr,3p,removeparam=ssaiProfile,domain=cnn.com
+! https://github.com/uBlockOrigin/uAssets/commit/52ed0536572c6305e6cae9c0fb11c65122ee23fd
+! https://github.com/uBlockOrigin/uAssets/issues/32630
+||adultswim-vodlive.cdn.turner.com/csmp/live/$xhr,removeparam=caid,domain=adultswim.com
+||adultswim-vodlive.cdn.turner.com/csm/extlive/$removeparam=yo.po,domain=adultswim.com
 ! omnibox statistics tracking (https://github.com/brave/brave-browser/issues/49954)
 ||google.*/search$removeparam=gs_lcrp
 ! fansided. mentalfloss.com,netflixlife.com,winteriscoming.net,ipreferreading.com
