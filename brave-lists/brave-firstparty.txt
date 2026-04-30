@@ -2513,6 +2513,10 @@ zillow.com##[data-test="search-list-first-ad"]
 ! entrepreneur.com
 entrepreneur.com##.adbox
 entrepreneur.com###anchorcontainer
+! dailymotion.com
+||dmads.dailymotion.com^
+dailymotion.com##.WatchingDiscovery__adSection___eLtfR
+dailymotion.com##div[class^="DisplayAd"]
 ! theepochtimes.com
 theepochtimes.com##.eet-ad
 theepochtimes.com##.top_ad
