@@ -55,6 +55,7 @@ multistream.watch
 multistreams.io
 manytwitch.com
 twitch.pub
+twitch.tv
 manytwitch.app
 multi-streams.com
 multistream.dev
