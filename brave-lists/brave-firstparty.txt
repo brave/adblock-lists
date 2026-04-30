@@ -2896,6 +2896,9 @@ visualcapitalist.com##.visua-target
 breakingbelizenews.com,cardealermagazine.co.uk,headfonics.com,igorslab.de,landline.media,mikesmoneytalks.ca,sundayworld.co.za,theroanokestar.com,visualcapitalist.com##a[href*="/linkout/"]
 ! cuevana.biz
 cuevana.biz###mdl-ads
+! overclock3d.net
+overclock3d.net##.stage-sidebar-3
+##img[width="728"][height="90"]
 ! tmz.com
 tmz.com##.ad-header-wrapper
 ! abcnews
