@@ -95,6 +95,7 @@ baeldung.com##.aelzmn
 sonichits.com##+js(set-session-storage-item, fs.adb831.dis, 1)
 baeldung.com##+js(set-session-storage-item, fs.adb.dis, 1)
 newrepublic.com,smithsonianmag.com,thenation.com##+js(set-local-storage-item, fs.adb, 1)
+||autoblog.com/.api/admiral
 ! google popup
 google.com##.Ryrdad:has-text(Please help us improve)
 developer.android.com##.devsite-snackbar-snack:has-text(Please help us)
