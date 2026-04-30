@@ -21,3 +21,5 @@ youtube.com##.yt-simple-endpoint[title="Shorts"]
 youtube.com##.ytGridShelfViewModelHost
 ! Shorts search header button
 youtube.com##.ytChipShapeHost:has-text(Shorts)
+! Hide shorts button in the bottom navigation bar
+m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-shorts)
