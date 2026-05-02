@@ -23,7 +23,7 @@ www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk
 m.youtube.com##+js(rc, paused-mode, , stay)
 
 ! picture-in-picture scriptlet rule
-amcplus.com,brightpathsignals.com,bysevepoin.com,cloudnestra.com,disneyplus.com,embedmaster.link,fembed.sx,kakaflix.lol,m1xdrop.bz,mapple.uk,mega.nz,mostream.us,paramountplus.com,play2.123embed.net,player.videasy.net,screenscape.me,streamingnow.mov,threenow.co.nz,tvnz.co.nz,www.twitch.tv,uqload.is,vidking.net,vidsrc.wtf,vsembed.ru,www.youtube.com,zxcstream.xyz##+js(brave-auto-pip)
+! amcplus.com,brightpathsignals.com,bysevepoin.com,cloudnestra.com,disneyplus.com,embedmaster.link,fembed.sx,kakaflix.lol,m1xdrop.bz,mapple.uk,mega.nz,mostream.us,paramountplus.com,play2.123embed.net,player.videasy.net,screenscape.me,streamingnow.mov,threenow.co.nz,tvnz.co.nz,www.twitch.tv,uqload.is,vidking.net,vidsrc.wtf,vsembed.ru,www.youtube.com,zxcstream.xyz##+js(brave-auto-pip)
 ! Twitch test rules
 ! twitch.tv##+js(vaft-ublock-origin)
 ! Twitch counter for anti-adblock
