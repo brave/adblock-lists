@@ -2900,6 +2900,52 @@ cuevana.biz###mdl-ads
 ! overclock3d.net
 overclock3d.net##.stage-sidebar-3
 ##img[width="728"][height="90"]
+! yandex
+||yandex.com/ads/system/context.js
+yandex.com##.google-sticky-adv-banner__desktop-disable-ad-button-wrapper
+yandex.com##.sticky-banner-container
+yandex.com##.yandex-sticky-adv-banner__desktop-disable-ad-button-wrapper
+! bettycrocker.com
+bettycrocker.com##.adhesiveAdSpacing
+! flyingmag.com
+flyingmag.com###block-32
+flyingmag.com###block-36
+! tctmd.com
+tctmd.com##.advertisement-aside
+tctmd.com##.advertisement-headerz
+! metoffice.gov.uk
+metoffice.gov.uk###lead-ad-spacer
+metoffice.gov.uk##.maps-header-advert
+! gulfnews.com
+gulfnews.com##.uUS3S
+gulfnews.com##.rtH17
+gulfnews.com##.SDEAy
+gulfnews.com##.GGlm6
+gulfnews.com##.-U-T1
+! cybernews.com
+cybernews.com##.ad-campaign__aside
+! ahajournals.org
+ahajournals.org##.pb-las
+! wikiwand.com
+wikiwand.com##.ad-between-sections
+wikiwand.com##.ad-header
+wikiwand.com##.ad-mid-section
+wikiwand.com##.ad-side
+wikiwand.com##.adn-footer
+! .sponsored-card-centred
+countrylife.co.uk,cyclingweekly.com,livescience.com,livingetc.com,t3.com,womanandhome.com##.sponsored-card-centred
+! popculture.com
+popculture.com##.wp-block-savage-platform-primis-video
+tribuna.com##div[class$="_ads-container"]
+popculture.com##div[data-lx-claimed="zone-desktop-incontent"]
+popculture.com##div[data-lx-claimed="zone-desktop-index-leaderboard"]
+! fdiintelligence.com
+fdiintelligence.com##.mid-desktop
+fdiintelligence.com##.o-ads
+fdiintelligence.com#?#.undefined:has-text(Advertisement)
+! gocomics.com
+gocomics.com##[data-testid="advertising-unit"]
+gocomics.com###header-content-start:has([data-testid="advertising-unit"])
 ! tmz.com
 tmz.com##.ad-header-wrapper
 ! abcnews
