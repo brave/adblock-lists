@@ -895,6 +895,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.staticAd
 ##.sticky-ad
 ##.sticky-bottom-ad
+##.sidebar-ad-wrapper
 ##.sticky-ad-container
 ##.sticky-ads
 ##.sticky-ad-wrapper
@@ -2079,6 +2080,8 @@ nationalworld.com,scotsman.com##.dmpu-item
 ! theautopian.com
 theautopian.com##.code-block:has(.htlad-InContent)
 theautopian.com##[data-widget_type="html.default"]
+! gbnews.com
+gbnews.com##.sticky-banner-wrapper
 ! bossip.com
 bossip.com##.fsb-desktop
 bossip.com##.fsb-toggle
@@ -3116,12 +3119,18 @@ express.co.uk##.superbanner
 express.co.uk##[data-tb-non-consent]
 express.co.uk###mantis-recommender-placeholder
 ! hindustantimes.com
+hindustantimes.com##.h325
+hindustantimes.com##.middleTaboola
 hindustantimes.com##.adHeight270
 hindustantimes.com##.adHeight313
 hindustantimes.com##.adMinHeight313
 hindustantimes.com##.desktopAd
 hindustantimes.com##.right-top-ad
 hindustantimes.com##.storyAd
+hindustantimes.com##[class^="adHeight"]
+hindustantimes.com##.blackOverlay
+hindustantimes.com##.noAdLabel
+hindustantimes.com##.bottomFixAd
 ! tech.hindustantimes.com
 tech.hindustantimes.com##.adsHeight720x90
 tech.hindustantimes.com##.topGadgetsAppend
