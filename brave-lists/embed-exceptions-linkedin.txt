@@ -1,0 +1,4 @@
+@@||licdn.com^
+@@||platform.linkedin.com^
+@@||linkedin.com/games/
+@@||linkedin.com/embed/
