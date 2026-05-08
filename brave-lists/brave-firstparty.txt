@@ -2711,6 +2711,8 @@ athlonsports.com,bringmethenews.com,meidastouch.com,si.com,thestreet.com##.is-ex
 ! digitaltrends.com
 digitaltrends.com##.dt-primis
 digitaltrends.com##.dtads-location
+! planetf1.com
+planetf1.com##.ps-block-a
 ! soundonsound.com
 soundonsound.com##.block---managed
 ! theverge.com
