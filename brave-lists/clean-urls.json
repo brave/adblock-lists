@@ -456,6 +456,11 @@
 
         ],
         "params": [
+            "afsrc",
+            "camefrom",
+            "impradid",
+            "wt.mc_id",
+            "impradname",
             "REFERRAL_ID"
         ]
     },
