@@ -1007,6 +1007,8 @@
             "fb_comment_id",
             "fb_ref",
             "fb_source",
+            "clickid",
+            "ircid",
             "irclickid",
             "irgwc",
             "ir_adid",
