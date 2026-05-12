@@ -137,7 +137,7 @@ alltrails.com##+js(trusted-set-local-storage-item, banner-dismissal-date, $now$)
 youtube.*##+js(brave-youtube-navigation-fix)
 
 ! Youtube playback speed fix scriptlet rule
-youtube.*##+js(brave-youtube-playback-speed-fix)
+www.youtube.*##+js(brave-youtube-playback-speed-fix)
 
 ! pageview-api detection
 music.youtube.com##+js(brave-video-bg-play)
