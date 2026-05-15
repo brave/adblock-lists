@@ -1,0 +1,11 @@
+@@||connect.facebook.net^*/sdk/
+@@||connect.facebook.net^*/sdk.js
+@@||connect.facebook.net^*/all.js
+@@||connect.facebook.com^*/all.js
+@@||connect.facebook.com^*/sdk.js
+@@||connect.facebook.net^*/fp.js
+@@||static.ak.connect.facebook.com^
+@@||facebook.com/plugins/
+@@||facebook.com^*/plugins/
+@@||graph.facebook.com^
+@@||facebook.com/plugins/video.php
