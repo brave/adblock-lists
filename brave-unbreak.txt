@@ -1565,6 +1565,5 @@ livejournal.com##+js(aopr, webpackJsonpSSPjs)
 @@||ad.pr.ameba.jp/tpc/$xmlhttprequest
 @@||amebame.com/pub/ads/$domain=ameblo.jp
 @@||stat100.ameba.jp/blogportal/img/banner/$image
-
 ! xm.com webcompat fix
 xm.com##.cdk-overlay-container:has(xm-cookie-modal-main)
