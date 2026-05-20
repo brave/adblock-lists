@@ -456,6 +456,11 @@
 
         ],
         "params": [
+            "afsrc",
+            "camefrom",
+            "impradid",
+            "wt.mc_id",
+            "impradname",
             "REFERRAL_ID"
         ]
     },
@@ -1002,6 +1007,8 @@
             "fb_comment_id",
             "fb_ref",
             "fb_source",
+            "clickid",
+            "ircid",
             "irclickid",
             "irgwc",
             "ir_adid",
