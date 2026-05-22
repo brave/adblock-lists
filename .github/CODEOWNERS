@@ -1,7 +1,12 @@
 # Default: all filter list changes require Ryan approval.
 # Note: If you're blocked on a PR, ping Shivan or Anton for admin merge.
 brave-lists/** @ryanbr
-# debounce.json can rely on sec-team approval.
-brave-lists/debounce.json @brave/sec-team
+
+# These two lists need to be reviewed against specific policies:
+# https://github.com/brave/brave-browser/wiki/Debouncing#security-related-redirectors
+# https://github.com/brave/brave-browser/wiki/Query-String-Filter
+brave-lists/debounce.json @brave/list-policy-reviewers
+brave-lists/query-filter.json @brave/list-policy-reviewers
+
 # Brave-critical lists need Shivan and Anton review.
 brave-lists/brave-specific.txt @brave/adblock-brave-specific-filters-team
