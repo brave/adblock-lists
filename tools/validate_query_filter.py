@@ -12,6 +12,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 
 
@@ -61,7 +62,15 @@ def main():
     repo_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     query_filter_path = os.path.join(repo_root, QUERY_FILTER)
 
-    source = fetch_utils_cc(UTILS_URL)
+    try:
+        source = fetch_utils_cc(UTILS_URL)
+    except urllib.error.URLError as error:
+        print(
+            f"::error::Failed to fetch utils.cc from the brave-core repo "
+            f"({UTILS_URL}): {error.reason}."
+        )
+        return 1
+
     conditional_keys = extract_conditional_keys(source)
 
     if not conditional_keys:
