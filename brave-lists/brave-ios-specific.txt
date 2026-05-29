@@ -49,6 +49,11 @@ x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,l
 ! Scroll fix
 cnn.com##body,html:style(overflow: auto !important; position: initial !important;)
 
+! Fixing Apple Pay popup on camh.ca
+@@||app.blackbaud.net^$domain=camh.ca
+@@||stripe.com^$domain=camh.ca
+
+
 ! amgreatness.com
 ||ruamupr.com^
 ||hilerant.site^
