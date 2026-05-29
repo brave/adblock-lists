@@ -46,6 +46,8 @@ def extract_conditional_keys(source):
     if end == -1:
         return []
     block = source[start:end]
+    # Drop `//` line comments so commented-out entries aren't matched.
+    block = re.sub(r"//[^\n]*", "", block)
     return sorted(set(re.findall(r'\{\s*"([^"]+)"\s*,', block)))
 
 
