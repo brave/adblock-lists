@@ -1555,7 +1555,6 @@ livejournal.com##+js(aopr, webpackJsonpSSPjs)
 ||nikkei.com/.resources/static/nad/
 ||reemo-ad.jp^$third-party
 ||orca-pass.net^$third-party
-||probo.biz^$third-party
 ||pitadtag.jp^$third-party
 ||itmedia.co.jp/spv/images/career_en_300x250.jpg
 ||itmedia.co.jp/spv/images/career_en_320x50.jpg
