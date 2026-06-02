@@ -281,6 +281,7 @@ igniteunmc.com##.preloader
 ! Twitter
 ||api.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
 ||platform.twitter.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
+||platform.x.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
 ||api.x.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
 ||platform.x.com^$third-party,domain=~tweetdeck.com|~twitter.com|~twitter.jp|~x.com
 !
