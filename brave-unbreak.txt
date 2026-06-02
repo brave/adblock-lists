@@ -1081,6 +1081,7 @@ twinkietown.com,chicago.suntimes.com,theverge.com,vox.com,eater.com,polygon.com,
 ||reddit.com^$removeparam=rdt,doc,badfilter
 ! ghide
 @@||filmisub.cc^$ghide
+@@||play.tv3.lv^$ghide
 @@||compuhoy.com^$ghide
 @@||fluttercampus.com^$ghide
 @@||samuraiscan.org^$ghide
