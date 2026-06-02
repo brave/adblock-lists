@@ -603,6 +603,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.belowMastheadWrapper
 ##.bidbarrel-ad
 ##.big_ad
+##.bigcrunch-unit
 ##.bigbox-ad
 ##.block-ad
 ##.block-ad-entity
@@ -1582,7 +1583,7 @@ accuweather.com##.feature-tag
 pagesix.com##.featured-image__wrapper > .nyp-video-player
 ibtimes.sg##.featured_video
 pedestrian.tv##.find-dream-job
-foodbible.com,gamingbible.com,ladbible.com,sportbible.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
+foodbible.com,gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
 flashbak.com##.fluid-width-video-wrapper
 dailymail.co.uk##.footballco-container
 tweaktown.com##.fusevidad
@@ -1660,7 +1661,7 @@ tasty.co##.video-wrap
 miamiherald.com##.videoInstance
 dpreview.com##.videoWrapper
 gbnews.com,marketscreener.com##.vsly-player
-destructoid.com,wegotthiscovered.com##.wp-block-gamurs-ad
+dotesports.com,gameskinny.com,primagames.com,themarysue.com,twinfinite.net##.wp-block-gamurs-ad
 f1oversteer.com##.wp-block-grvmedia-grv-video
 thewrap.com##.wp-block-post-featured-image--video
 comicbook.com,vice.com##.wp-block-savage-platform-primis-video
