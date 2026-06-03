@@ -121,6 +121,13 @@ rottentomatoes.com##+js(trusted-set-local-storage-item, RtAppManager, '{"nextOpe
 
 !!! END OF UBO EXCEPTIONS
 
+! AD-Shield fix
+||joviallysafely.com/script/
+||quietlythough.com/script/
+||noisilyinstantly.com/script/
+||annualrallybran.com/script/
+/alm73cDylLvk1rXd1brtznfe1baIUT5.js
+
 ! De-AMP rule that uses the De-AMP scriptlet
 google.*##+js(de-amp)
 
