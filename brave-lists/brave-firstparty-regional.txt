@@ -1022,6 +1022,12 @@ perfil.com##div[style*="max-height: 250px;"]
 perfil.com##div[style*="max-height: 280px;"]
 perfil.com##div[style*="min-height: 600px;"]
 dobleamarilla.com.ar,el-periodico.com.ar##tadevel-ad
+! .no
+vg.no##.advertory-vg-netboard-wrapper__front
+vg.no##.advertory-vg-topboard-wrapper__article
+vg.no##[data-placement-format="sponsorstripe"]
+vg.no##[data-advertory-ad-rendered]
+vg.no##section.top
 ! .br/.pt
 globo.com###ad-container-top-placeholder
 sapo.pt###ad-rm-top
