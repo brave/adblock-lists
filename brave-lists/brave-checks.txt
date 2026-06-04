@@ -268,6 +268,7 @@ trezor.io
 ganohr.net
 megacloud.tv
 coingax.com
+flyfrontier.com
 capitaloneshopping.com
 comohoy.com
 leak.sx
