@@ -82,26 +82,30 @@ dzen.ru#@#:matches-path(/articles) div:has(> article > div > [class*="image"]:em
 @@||doubleclick.com^$xhr,domain=watch.plex.tv
 
 ! Generic blocks
-.com/watch.*&kw=$third-party
+.cfd/cuid/
+.cfd/mtn/
+.cfd/sbx/
 .click/gd/
-.shop/cuid/
-.cyou/gd/
-.cyou/cuid/
-.rest/cuid/
-/suurl5.php?
-.qpon/gd/
+.com/cuid/
+.com/mtn/
 .com/pixel/pure
 .com/sbf/
-.top/tsk/
-.top/sbx/
-.com/sbf/
-.com/mtn/
-.com/cuid/
-.shop/pntne
-/1clkn/*
-.shop/sbx/
 .com/tsf/
-.net/wrr?z=
+.cyou/cuid/
+.cyou/g/
+.cyou/gd/
+.cyou/s/
+.net/wrr?
+.qpon/cuid/
+.qpon/gd/
+.rest/cuid/
+.shop/cuid/
+.shop/pntne
+.shop/sbx/
+.top/sbx/
+.top/tsk/
+/1clkn/*
+/suurl5.php?
 
 ! temp fix
 ! https://french-stream.one/films/15122345-anges-amp-cie.html
