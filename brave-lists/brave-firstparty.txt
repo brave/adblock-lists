@@ -561,6 +561,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.adthrive-placeholder-content
 ##.adwidget
 ##.adun
+##.adunit
 ##.adunitContainer
 ##.adUnit
 ##.advert-container
@@ -718,6 +719,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.homepage__native-ad
 ##.html-advertisement
 ##.htlad-GL_Adhesion
+##.google-ad
 ##.gnm-ad-unit
 ##.gnm-ad-unit-container
 ##.gnm-adhesion-ad
@@ -2343,6 +2345,12 @@ thedriven.io###solarchoice_banner_1
 alternativeto.net##[class^="AdsenseAd"]
 ! lrt.lt
 lrt.lt##.article-content__inline-block
+! .c-ad
+euronews.com,globalnews.ca,stuff.tv##.c-ad
+! .one_by_one_group
+campbellrivermirror.com,magnoliastatelive.com##.one_by_one_group
+! gsmarena.com
+gsmarena.com###subHeader:has(> #topAdv)
 ! euronews.com
 euronews.com###js-smart-banner
 euronews.com##.base-leaderboard
@@ -3232,6 +3240,7 @@ twitter.com,x.com##+js(json-prune-xhr-response, data.user.result.timeline_v2.tim
 ! bbc.com
 bbc.com###leaderboard-aside-content
 bbc.com###mpu-side-aside-content
+bbc.com##[data-component="advertisement-block"]
 bbc.com##[data-component="ad-slot"]
 ! harveynorman
 harveynorman.co.nz##.adserving
@@ -3287,6 +3296,7 @@ sltrib.com##.grid-ad-container-2
 ! msn.com
 msn.com###displayAdCard
 msn.com###partners
+msn.com##.gem-display-ad-wrapper
 msn.com###promotions
 msn.com##.ad-banner-wrapper
 msn.com##.ad-container
@@ -3680,6 +3690,8 @@ dict.cc###recthome
 ! glensidelocal.com
 glensidelocal.com##.advertising-callout
 ! dailystar.co.uk
+dailystar.co.uk##[data-testid="commercial-above-header-box-1"]:remove()
+dailystar.co.uk##[data-tmdatatrack-type="commercial"]
 dailystar.co.uk##.commercial-box-style
 dailystar.co.uk##[data-testid="commercial-label-gpt"]
 ! thescore.com
@@ -4284,6 +4296,7 @@ gameshub.com##.ads-slot
 ! mashable.com
 mashable.com##.exco
 mashable.com##.top-0.sticky > div
+mashable.com##[data-seamless-ad]
 mashable.com##section.mt-4 > div
 ! timesofindia.indiatimes.com
 ||indiatimes.com/toiads_
