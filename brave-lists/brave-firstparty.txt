@@ -561,7 +561,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.adthrive-placeholder-content
 ##.adwidget
 ##.adun
-##.adunit
+##.adunit:not(.text-ad)
 ##.adunitContainer
 ##.adUnit
 ##.advert-container
