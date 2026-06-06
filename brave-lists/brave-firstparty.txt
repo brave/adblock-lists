@@ -719,7 +719,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.homepage__native-ad
 ##.html-advertisement
 ##.htlad-GL_Adhesion
-##.google-ad
+##.google-ad:not(.testAd)
 ##.gnm-ad-unit
 ##.gnm-ad-unit-container
 ##.gnm-adhesion-ad
