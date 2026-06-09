@@ -70,7 +70,9 @@ dzen.ru#@#:matches-path(/articles) div:has(> article > div > [class*="image"]:em
 @@||play.google.com/log?$domain=meet.google.com
 
 ! Ad-Shield fix
-@@||html-load.com^$script,xhr,domain=tbsradio.jp|ondemandkorea.com|tbsradio.jp
+@@||html-load.com^$script,xhr,domain=tbsradio.jp|ondemandkorea.com|tbsradio.jp|winfuture.de
+@@||html-load.com$fetch,domain=winfuture.de
+@@||html-load.com/feed$domain=winfuture.de
 ! Unsupported counters ad-shield, but also breaks when combined. Countering this:
 ! *$document,csp=script-src-attr 'none',to=m.economictimes.com|ondemandkorea.com|tbsradio.jp
 
