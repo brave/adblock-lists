@@ -131,6 +131,9 @@ rottentomatoes.com##+js(trusted-set-local-storage-item, RtAppManager, '{"nextOpe
 ! De-AMP rule that uses the De-AMP scriptlet
 google.*##+js(de-amp)
 
+! uritransform work around
+embed.wcostream.com##+js(rpnt, script, )();, )();(()=>{if(!location.href.includes('://embed.wcostream.com/inc/embed/index.php?file='))return;const e=`/inc/embed/video-js-new.php${location.search}`;location.href=e})();, sedCount, 1)
+
 ! YouTube theater mode fix scriptlet rule
 youtube.*##+js(brave-youtube-theater-fix)
 
