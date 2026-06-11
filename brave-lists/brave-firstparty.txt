@@ -2122,6 +2122,11 @@ datanodes.to##div.p-8.items-center.justify-center
 dailyrecord.co.uk,mirror.co.uk##div[data-testid*="commercial-"]
 dailyrecord.co.uk,mirror.co.uk##div[class^="Header_masthead"]
 dailyrecord.co.uk,mirror.co.uk##.sticky ~ header:style(top: 0px !important;)
+! watchporn.to
+watchporn.to##.spot-primary:has-text(Brave Users)
+###kt_player > div[style$="display: block;"][style*="inset: 0px;"]
+watchporn.to##.sponsor
+watchporn.to##.table
 ! miamiherald.com
 miamiherald.com###zoneContainer
 ! delish.com
