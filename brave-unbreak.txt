@@ -85,6 +85,7 @@ dzen.ru#@#:matches-path(/articles) div:has(> article > div > [class*="image"]:em
 
 ! Generic blocks
 .cfd/cuid/
+.cfd/gd/
 .cfd/mtn/
 .cfd/sbx/
 .click/gd/
@@ -93,6 +94,7 @@ dzen.ru#@#:matches-path(/articles) div:has(> article > div > [class*="image"]:em
 .com/pixel/pure
 .com/sbf/
 .com/tsf/
+.com/wrr?
 .cyou/cuid/
 .cyou/g/
 .cyou/gd/
