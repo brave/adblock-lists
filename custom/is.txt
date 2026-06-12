@@ -30,6 +30,9 @@ dv.is###cboxOverlay
 pressan.is###ctl00_ctl00_cphMain_cphMain_RandomBanner4_divBanner
 veitingageirinn.is###mvp-leader-wrap
 hun.is###snppopup-welcome
+bilasolur.is##[href^="AdPlayer.aspx"]
+bilasolur.is##.advertisement-spot-b
+bilasolur.is##.col-md-4.col-12:has(.advertisement-spot-b)
 pressan.is###spoton
 kki.is##.AuglysingaHnappur
 blika.is##.HeimildinAd_ad310400__iUf_1
@@ -61,6 +64,7 @@ bilasolur.is##.iframead-spot-a
 1819.is##.laufid-border.cover-photo
 mbl.is##.mt-5.mb-5
 bland.is##.netgiroInsuranceSection
+gengi.is##.mb-\[-7px\]
 vb.is##.real-estate-block
 vb.is##.real-estate-container
 pressan.is##.randombanner-upperright
