@@ -65,3 +65,7 @@ driverhub.asus.com
 
 # https://github.com/brave/brave-browser/issues/43050
 pcsupport.lenovo.com
+
+# https://help.tradingpaints.com/general/why-is-trading-paints-asking-to-look-for-and-connect-to-any-device-on-my-local-network/
+tradingpaints.com
+paintbuilder.tradingpaints.com
