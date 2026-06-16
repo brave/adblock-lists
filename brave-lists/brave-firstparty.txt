@@ -2751,6 +2751,8 @@ digitaltrends.com##.dt-primis
 digitaltrends.com##.dtads-location
 ! planetf1.com
 planetf1.com##.ps-block-a
+! embed.st /streamed.pk
+/ad.html|$frame,1p
 ! soundonsound.com
 soundonsound.com##.block---managed
 ! theverge.com
