@@ -122,6 +122,15 @@
   },
   {
     "include": [
+      "*://editor.graphite.art/*"
+    ],
+    "exceptions": [
+      "keyboard"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/56352"
+  },
+  {
+    "include": [
       "*://vizzy.io/*"
     ],
     "exceptions": [
