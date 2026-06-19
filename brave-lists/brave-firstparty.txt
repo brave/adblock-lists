@@ -2749,6 +2749,8 @@ athlonsports.com,bringmethenews.com,meidastouch.com,si.com,thestreet.com##.is-ex
 ! digitaltrends.com
 digitaltrends.com##.dt-primis
 digitaltrends.com##.dtads-location
+! https://www.superfeet.com.au/pages/insole-finder not working in standard shields
+/a/elevar/static/*
 ! planetf1.com
 planetf1.com##.ps-block-a
 ! embed.st /streamed.pk
