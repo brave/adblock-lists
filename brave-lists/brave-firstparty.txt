@@ -3243,7 +3243,6 @@ twitter.com,x.com##div[data-testid="UserCell"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com,x.com##div[data-testid="eventHero"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com,x.com##div[data-testid="placementTracking"]:has(div[data-testid$="-impression-pixel"])
 twitter.com,x.com##div[data-testid="trend"]:has(path[d$="10H8.996V8h7v7z"])
-twitter.com,x.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 ! Imported from uBO/
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters-2023.txt#L5180
 twitter.com,x.com##[data-testid="primaryColumn"] [data-testid="cellInnerDiv"] > div:has([data-testid$="-impression-pixel"]):remove()
