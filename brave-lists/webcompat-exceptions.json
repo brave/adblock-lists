@@ -183,5 +183,14 @@
       "webgl2"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/46599"
+   },
+   {
+    "include": [
+      "*://www.twitch.tv/*"
+    ],
+    "exceptions": [
+      "webgl"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/56549"
    }
 ]
