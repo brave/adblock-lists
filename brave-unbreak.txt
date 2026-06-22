@@ -34,6 +34,8 @@ cloudhostingz.com,mangacrab.org##+js(noeval-if, /chp_?ad/)
 youtube.com##+js(brave-video-bg-play)
 
 ! Youtube sabr delay fix
+! Hide the warning popup 
+youtube.com##.yt-notification-action-renderer
 www.youtube.com##+js(brave-yt-sabr-fix)
 
 ! "This content isn't available"
