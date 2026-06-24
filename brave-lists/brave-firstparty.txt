@@ -1565,7 +1565,7 @@ financemagnates.com##.article-sidebar__video-banner
 ibtimes.com,latintimes.com,sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
 thegrio.com##.aspect-ratio-box
-gizmodo.com##.aspect-video
+gizmodo.com,lgbtqnation.com,space.com##.aspect-video
 digitaltrends.com##.b-connatix
 bmwblog.com##.bmwbl-video-in-content
 ontvtonight.com##.body-container > div:has(script[src^="https://live.primis.tech/"])
@@ -1584,6 +1584,7 @@ familystylefood.com##.email-highlight
 taskandpurpose.com##.empire-unit-prefill-container
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 athlonsports.com,autoblog.com,bringmethenews.com,dengarden.com,mensfitness.com,mensjournal.com,parade.com,paradehomeandgarden.com,paradepets.com,pethelpful.com,surfer.com,thespun.com,thestreet.com,travelhost.com##.exco-player-wrapper
+portsmouth.co.uk##.exco-video-player
 wral.com##.exco-wrapper
 goal.com##.fco-fc-video-player
 accuweather.com##.feature-tag
@@ -1593,6 +1594,7 @@ pedestrian.tv##.find-dream-job
 foodbible.com,gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
 flashbak.com##.fluid-width-video-wrapper
 dailymail.co.uk##.footballco-container
+clickorlando.com##.full-width:has([id*="exco-player-"])
 tweaktown.com##.fusevidad
 redboing.com##.fw-ad
 foxsports.com##.fwAdContainer
@@ -1606,7 +1608,7 @@ bossip.com##.ione-ve__player-wrapper
 bringmethenews.com,mensjournal.com,thestreet.com##.is-fallback-player
 gmanetwork.com##.ivs-placeholder
 communitychickens.com,keepingbackyardbees.com##.jumbo-ad
-evoke.ie##.jw-player-video-widget
+evoke.ie,extra.ie##.jw-player-video-widget
 unilad.com##.jw-player_container__wuaGn
 advocate.com,anandtech.com,out.com,sciencefocus.com##.jwplayer
 gamesradar.com,kiplinger.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
@@ -1624,6 +1626,7 @@ lifewire.com##.mntl-jwplayer-broad
 historydefined.net##.mv-ad-box
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
 insideevs.com,motor1.com##.outstream_partner
+edmunds.com##.overflow-hidden.w-100:has(.exco-player)
 ibtimes.co.uk,ibtimes.com,musictimes.com##.page-top-mobile-video
 picrew.me##.play-Imagemaker_Footer
 sciencetimes.com##.player
@@ -1651,7 +1654,7 @@ gazette.com##.tnt-section-sponsored
 thegrio.com##.tpd-featured-video
 economictimes.indiatimes.com##.vdo_ai_can_ani
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
-gamesradar.com,tomsguide.com,tomshardware.com,whathifi.com##.vid-present
+gamesradar.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.vid-present
 mobafire.com##.vid-wrap
 soapcentral.com,sportskeeda.com##.vidazoo-player-container
 justthenews.com,polygon.com##.video
@@ -1668,7 +1671,7 @@ tasty.co##.video-wrap
 miamiherald.com##.videoInstance
 dpreview.com##.videoWrapper
 gbnews.com,marketscreener.com##.vsly-player
-dotesports.com,gameskinny.com,primagames.com,themarysue.com,twinfinite.net##.wp-block-gamurs-ad
+destructoid.com,wegotthiscovered.com##.wp-block-gamurs-ad
 f1oversteer.com##.wp-block-grvmedia-grv-video
 thewrap.com##.wp-block-post-featured-image--video
 comicbook.com,vice.com##.wp-block-savage-platform-primis-video
@@ -4690,6 +4693,7 @@ eurosport.com##.reform-top-container
 .privacydatanotice.
 ||weather.com/*.medalliasurvey.
 ! stuff.co.nz
+stuff.co.nz##.header-container
 stuff.co.nz##.horizontal-ad-slot
 thepress.co.nz,waikatotimes.co.nz,stuff.co.nz##.header-ads-block
 stuff.co.nz##.between-ad-slot
