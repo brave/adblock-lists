@@ -1166,6 +1166,10 @@ diariodecadiz.es,laregion.es##[data-ad-type="list"]
 !! Indonesian sites
 kompas.com##.gate-kgplus
 kompas.com#@#.video-box-wrap
+tribunnews.com###div-Inside-MediumRectangle
+tribunnews.com###wideskyscraper
+tribunnews.com##.box__reserved
+tribunnews.com##.reserved-topmedium
 !! Italian sites
 libero.it,tecnologia.libero.it###admputop
 huffingtonpost.it,lastampa.it,repubblica.it###adv-TopLeft
