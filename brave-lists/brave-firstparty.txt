@@ -1578,7 +1578,7 @@ stuff.tv##.c-squirrel-embed
 cartoonbrew.com##.cb-ad
 iphoneincanada.ca##.cls-video-container-9GFn3u0f
 rd.com,tasteofhome.com##.cnx-inline-player-wrapper
-dailymail.co.uk##.commercial-player
+dailymail.com##.commercial-player
 techwalla.com##.component-article-section-jwplayer-wrapper
 familystylefood.com##.email-highlight
 taskandpurpose.com##.empire-unit-prefill-container
@@ -1593,7 +1593,7 @@ ibtimes.sg##.featured_video
 pedestrian.tv##.find-dream-job
 foodbible.com,gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
 flashbak.com##.fluid-width-video-wrapper
-dailymail.co.uk##.footballco-container
+dailymail.com##.footballco-container
 clickorlando.com##.full-width:has([id*="exco-player-"])
 tweaktown.com##.fusevidad
 redboing.com##.fw-ad
@@ -1810,7 +1810,7 @@ wordparts.ru#@#.ad336
 leffatykki.com#@#.ad728x90
 cw.com.tw#@#.adActive
 thoughtcatalog.com#@#.adChoicesLogo
-dailymail.co.uk,namesecure.com#@#.adHolder
+dailymail.com,namesecure.com#@#.adHolder
 ikkaku.net#@#.adImg
 hdfcbank.com#@#.adLink
 seznam.cz#@#.adMiddle
@@ -1900,7 +1900,7 @@ stjornartidindi.is#@#.adverttext
 videosalon.jp#@#.adwidget
 staircase.pl#@#.adwords
 consumerist.com#@#.after-post-ad
-dailymail.co.uk,thisismoney.co.uk#@#.article-advert
+dailymail.com,thisismoney.co.uk#@#.article-advert
 deluxemusic.tv#@#.article_ad
 adeam.com#@#.atf-wrapper
 dr.dk#@#.banner-ad-container
@@ -3183,16 +3183,16 @@ tech.hindustantimes.com##.adsHeight720x90
 tech.hindustantimes.com##.topGadgetsAppend
 ! eurogamer.net,rockpapershotgun.com,vg247.com
 eurogamer.net,rockpapershotgun.com,vg247.com###sticky_leaderboard
-! dailymail.co.uk / thisismoney.co.uk
-dailymail.co.uk###promo-unit
-dailymail.co.uk###sky-left
-dailymail.co.uk###sky-right
-dailymail.co.uk,thisismoney.co.uk###sky-left-container
-dailymail.co.uk,thisismoney.co.uk###sky-right-container
-dailymail.co.uk,thisismoney.co.uk##.watermark
-dailymail.co.uk##.billboard-container
-dailymail.co.uk##.mpu_puff_wrapper
-dailymail.co.uk##.connatix-wrapper
+! dailymail.com / thisismoney.co.uk
+dailymail.com###promo-unit
+dailymail.com###sky-left
+dailymail.com###sky-right
+dailymail.com,thisismoney.co.uk###sky-left-container
+dailymail.com,thisismoney.co.uk###sky-right-container
+dailymail.com,thisismoney.co.uk##.watermark
+dailymail.com##.billboard-container
+dailymail.com##.mpu_puff_wrapper
+dailymail.com##.connatix-wrapper
 ! #below-toprail
 al.com,cleveland.com,gulflive.com,lehighvalleylive.com,masslive.com,mlive.com,newyorkupstate.com,nj.com,oregonlive.com,pennlive.com,silive.com,syracuse.com###below-toprail
 ! businessinsider.com,insider.com
