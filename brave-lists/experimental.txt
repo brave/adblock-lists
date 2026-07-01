@@ -36,4 +36,4 @@ m.youtube.com##+js(rc, paused-mode, , stay)
 *_ad_$media,domain=youtube.com,3p
 
 ! Youtube sabr delay fix
-! www.youtube.*##+js(brave-yt-sabr-fix)
+www.youtube.*##+js(brave-yt-sabr-fix)
