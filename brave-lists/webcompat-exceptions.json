@@ -183,5 +183,14 @@
       "webgl2"
     ],
     "issue": "https://github.com/brave/brave-browser/issues/46599"
+   },
+   {
+    "include": [
+      "*://web.whatsapp.com/*"
+    ],
+    "exceptions": [
+      "hardware-concurrency"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/56766"
    }
 ]
