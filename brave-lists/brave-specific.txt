@@ -31,10 +31,14 @@
 ! basicattentiontoken.org specfic filters
 @@||basicattentiontoken.org^$ghide
 @@||basicattentiontoken.org^$first-party
-! search.brave.com specfic filters
+
+! search.brave.com specific filters
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/privacy.txt#L207
 search.brave.com#@#+js(no-fetch-if, body:browser)
 search.brave.com###search-ad
+! This is to make sure EasyList removal doesn't mess us up.
+||search.brave.com/api/ads/
+
 ! stats.brave.com
 @@||stats.brave.com^$ghide
 @@||stats.brave.com^$first-party
@@ -45,9 +49,6 @@ search.brave.com###search-ad
 ! Was accidentally blocked twice leading to widespread breakage.
 ! See https://github.com/easylist/easylist/issues/22894
 ||cnstrc.com^$badfilter
-
-! This is to make sure EasyList removal doesn't mess us up.
-||search.brave.com/api/ads/
 
 ! Generic blocks
 .com/cuid/?
