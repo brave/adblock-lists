@@ -24,4 +24,4 @@ The CRX packager loads adblock filterlists from the adblock-resouces list catalo
 
 When adding a new filterlist to an existing component (adding another list to Brave Default Adblock Filters component, for example), just add another source to that component in the adblock-resouces list catalog.
 
-When adding a new component to the adblock-resouces list catalog, follow the instructions for [generating a new component](https://github.com/brave/adblock-resources#adding-a-new-list).
+When adding a new component to the adblock-resouces list catalog, see https://github.com/brave/adblock-resources#adding-a-new-list for a guide on how to create the component and register the component on Brave browser clients.
