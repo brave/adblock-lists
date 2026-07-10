@@ -1,4 +1,6 @@
 ! Experimental list
+! This list is for experimental filters that are not proven to be ready for widespread deployment.
+! Only for Nightly and Beta channels.
 
 ! against brave-unbreak
 youtube.com#@#+js(brave-video-bg-play)
@@ -25,15 +27,6 @@ www.google.com,www.google.ca,www.google.com.au,www.google.co.nz,www.google.co.uk
 ! Test rule to prevent open-in-app on mobile
 m.youtube.com##+js(rc, paused-mode, , stay)
 
-! Cookie message test
-ionos.co.uk,ionos.de#@#+js(trusted-click-element, button[id="confirmSelection"], '', 2000)
-qatarairways.com#@#+js(set-cookie, accepted_functional, yes)
-qatarairways.com#@#+js(set-cookie, accepted_marketing, no)
-qatarairways.com#@#+js(set-cookie, allow_the_cookie, yes)
-qatarairways.com#@#+js(set-cookie, cookie_visited, true)
-qatarairways.com#@#+js(set-cookie, drcookie, true)
-@@||var.uicdn.net/shopsshort/privacy/$domain=ionos.co.uk|ionos.de
-
 ! picture-in-picture scriptlet rule
 ! amcplus.com,brightpathsignals.com,bysevepoin.com,cloudnestra.com,disneyplus.com,embedmaster.link,fembed.sx,kakaflix.lol,m1xdrop.bz,mapple.uk,mega.nz,mostream.us,paramountplus.com,play2.123embed.net,player.videasy.net,screenscape.me,streamingnow.mov,threenow.co.nz,tvnz.co.nz,www.twitch.tv,uqload.is,vidking.net,vidsrc.wtf,vsembed.ru,www.youtube.com,zxcstream.xyz##+js(brave-auto-pip)
 ! Twitch test rules
@@ -43,4 +36,3 @@ qatarairways.com#@#+js(set-cookie, drcookie, true)
 
 ! filters.txt
 *_ad_$media,domain=youtube.com,3p
-
