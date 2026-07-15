@@ -433,6 +433,9 @@ m.youtube.com##ytm-companion-slot[data-content-type] > ytm-companion-ad-renderer
 m.youtube.com##ytm-rich-item-renderer > ad-slot-renderer
 youtube.com##ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer)
 youtube.com###shorts-inner-container > .ytd-shorts:has(> .ytd-reel-video-renderer > ytd-ad-slot-renderer)
+! https://community.brave.app/t/topic/655492/
+! https://github.com/AdguardTeam/AdguardFilters/commit/3f1ba60715da29502b0a686fed38c5bb72948677
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=sp.nicovideo.jp,important,badfilter
 ! naver.com search is broken  https://m.search.naver.com/search.naver?where=m_image&sm=mtb_jum&query=brave
 @@||ssl.pstatic.net^$domain=naver.com
 ! aniwave.to

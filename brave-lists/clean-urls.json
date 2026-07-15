@@ -678,6 +678,7 @@
             "feature",
             "pp",
             "si",
+            "is",
             "source_ve_path"
         ]
     },
@@ -1156,7 +1157,8 @@
             "guccounter",
             "guce_referrer",
             "guce_referrer_sig",
-            "ex_cid"
+            "ex_cid",
+            "eblastId"
         ]
     },
     {

@@ -3183,6 +3183,8 @@ tech.hindustantimes.com##.adsHeight720x90
 tech.hindustantimes.com##.topGadgetsAppend
 ! eurogamer.net,rockpapershotgun.com,vg247.com
 eurogamer.net,rockpapershotgun.com,vg247.com###sticky_leaderboard
+! cgchannel.com
+||adserver.cgchannel.com^
 ! dailymail.com / thisismoney.co.uk
 dailymail.com###promo-unit
 dailymail.com###sky-left

@@ -1,4 +1,6 @@
 ! Experimental list
+! This list is for experimental filters that are not proven to be ready for widespread deployment.
+! Only for Nightly and Beta channels.
 
 ! against brave-unbreak
 youtube.com#@#+js(brave-video-bg-play)
@@ -34,6 +36,3 @@ m.youtube.com##+js(rc, paused-mode, , stay)
 
 ! filters.txt
 *_ad_$media,domain=youtube.com,3p
-
-! Youtube sabr delay fix
-! www.youtube.*##+js(brave-yt-sabr-fix)
