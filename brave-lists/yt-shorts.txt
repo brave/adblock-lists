@@ -1,6 +1,7 @@
 ! Youtube Shorts
 ! Main page
-youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
+www.youtube.com##ytd-rich-section-renderer:has(#icon)
+www.youtube.com##.ytGridShelfViewModelHost:has(.ytIconWrapperHost)
 m.youtube.com##.rich-section-content
 m.youtube.com##.big-shorts-singleton
 ! Trending page
