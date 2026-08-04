@@ -172,4 +172,4 @@ dev-pages.brave.software,dev-pages.bravesoftware.com##+js(set, window.BRAVE_TEST
 @@||cdn.tinypass.com/api/tinypass.min.js$script,domain=scmp.com
 
 ! Youtube sabr delay fix
-m.youtube.*##+js(brave-yt-sabr-fix)
+! m.youtube.*##+js(brave-yt-sabr-fix)
