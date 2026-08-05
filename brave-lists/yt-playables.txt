@@ -1,0 +1,15 @@
+! Youtube playables
+! Main page
+youtube.com##ytd-rich-section-renderer:has(a[href^="/playables/"])
+m.youtube.com##.rich-section-content
+! Trending page
+youtube.com##ytd-reel-shelf-renderer:has(a[href^="/playables/"])
+! Search/Trending page (Android)
+youtube.com##ytm-reel-shelf-renderer
+youtube.com##.media-item-thumbnail-container[aria-hidden][href^="/playables/"]
+youtube.com##ytm-media-item:has(a[href^="/playables/"])
+youtube.com##ytd-rich-shelf-renderer[is-playables]
+youtube.com##ytd-video-renderer > .ytd-video-renderer:has(a[href^="/playables/"])
+! playables icons (desktop and mobile)
+youtube.com##.pivot-playables.pivot-bar-item-tab
+youtube.com##.yt-simple-endpoint[title="playables"]
