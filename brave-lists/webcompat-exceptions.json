@@ -104,6 +104,15 @@
   },
   {
     "include": [
+      "*://wwww.google.com/*"
+    ],
+    "exceptions": [
+      "screen"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/50100"
+  },
+  {
+    "include": [
       "*://workspace.google.com/*"
     ],
     "exceptions": [
