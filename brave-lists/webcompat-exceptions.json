@@ -104,7 +104,7 @@
   },
   {
     "include": [
-      "*://wwww.google.com/*"
+      "*://www.google.com/*"
     ],
     "exceptions": [
       "screen"
