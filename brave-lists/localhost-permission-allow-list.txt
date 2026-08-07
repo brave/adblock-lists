@@ -65,3 +65,6 @@ driverhub.asus.com
 
 # https://github.com/brave/brave-browser/issues/43050
 pcsupport.lenovo.com
+
+# https://pcarrier.com/jerkmonpro/
+pcarrier.com
