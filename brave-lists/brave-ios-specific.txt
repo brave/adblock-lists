@@ -105,6 +105,12 @@ www.google.ac,www.google.ae,www.google.at,www.google.be,www.google.bg,www.google
 ! ft.com##html.sp-message-open > body:style(position: unset !important; overflow: unset !important; margin-top: 0 !important)
 ft.com##+js(rc, sp-message-open, html, stay)
 
+! 2v2.io
+2v2.io,jns.org,nscreenmedia.com,op.gg,rawinu.com,whoscored.com##.banner-container
+||2v2.io/ads/
+@@||api.adinplay.com/libs/aiptag/$script,domain=2v2.io|bigescapegames.com|brofist.io|cuberealm.io|findcat.io|geotastic.net|lordz.io
+@@||api.adinplay.com/v4/live/$script,domain=2v2.io|cuberealm.io
+
 ! https://github.com/easylist/easylist/commit/d7bd5bdbc03ad64801a0e1d400484da1d67a5541
 @@||braze.com/api/$domain=dairyqueen.com|deezer.com
 
