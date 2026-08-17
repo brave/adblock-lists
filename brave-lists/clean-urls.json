@@ -1199,7 +1199,7 @@
     },
     {
         "include": [
-            "://www.theguardian.com/*"
+            "*://www.theguardian.com/*"
         ],
         "exclude": [
 
