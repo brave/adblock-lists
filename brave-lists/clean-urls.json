@@ -1196,5 +1196,16 @@
         "params": [
             "aff"
         ]
+    },
+    {
+        "include": [
+            "://www.theguardian.com/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "CMP"
+        ]
     }
 ]
