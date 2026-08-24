@@ -108,6 +108,15 @@
   },
   {
     "include": [
+      "*://tools.usps.com/*"
+    ],
+    "exceptions": [
+      "screen"
+    ],
+    "issue": "https://github.com/brave/brave-browser/issues/58371"
+  },
+  {
+    "include": [
       "*://editor.graphite.art/*"
     ],
     "exceptions": [
