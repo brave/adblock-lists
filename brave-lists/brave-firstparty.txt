@@ -2737,6 +2737,7 @@ bioinformant.com###text-15
 startuphub.ai##.relative.not-prose.my-8:has([aria-label*="Hide"])
 startuphub.ai##.duration-200.hover\:border-primary\/40.overflow-hidden:has-text(Part)
 startuphub.ai##div.rounded-lg.overflow-hidden.col-span-full:has([aria-label*="Hide"])
+startuphub.ai##[data-nosnippet="true"]:has([aria-label="Hide ad"])
 ! autoexpress.co.uk
 autoexpress.co.uk##.polaris__below-header-ad-wrapper
 autoexpress.co.uk,carbuyer.co.uk,evo.co.uk##.polaris__partnership-block
