@@ -842,7 +842,6 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.newspack_global_ad
 ##.newsfeed_adunit
 ##.noskim.ad
-##.nts-ad
 ##.nuk-ad-placeholder
 ##.o-ad
 ##.o-ad-container
