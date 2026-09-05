@@ -1,6 +1,4 @@
-aa.com
 vanguard.com
-intuit.com
 algs.ea.com
 escharts.com
 multistre.am
@@ -8,19 +6,9 @@ twitchtheater.tv
 allstreams.tv
 teamstream.gg
 twitchtracker.com
-solarservicing.myaccountinfo.com
-myaccountinfo.com
-septakey.org
-phoenix.gov
 gosugamers.net
-colamanga.com
 github.io
-qmatic.cloud
-economist.com
-sd.gov
-fourleggedfriendsanimalhospital.com
 strafe.com
-edsby.com
 techcrunch.com
 chess.com
 esports.gg
@@ -60,8 +48,6 @@ manytwitch.app
 multi-streams.com
 multistream.dev
 multi-stream.xyz
-aa.entertainment.viasat.com
-viasat.com
 buffsports.io
 wavewalt.me
 vipstand.pm
@@ -82,7 +68,6 @@ watchfooty.live
 streameast.ga
 tech4auto.in
 starlightnet.work
-delta.com
 ytsleeptimer.com
 ninguno.net
 nflbox.me
@@ -120,14 +105,10 @@ streameast.ph
 streameast.fi
 thestreameast.ru
 streameast.ec
-osmaps.com
-help.royalmail.com
-royalmail.com
 thestreameast.st
 asiaflix.net
 tvableon.me
 linkjust.com
-freepdfcomic.com
 butter.us
 stgeorge.com.au
 fbstreams.pm
@@ -326,7 +307,6 @@ capitaloneoffers.com
 capitalone.com
 rdrama.net
 redscarepod.net
-wenku8.net
 test-website-b.pages.dev
 cexplorer.io
 ksp.co.il
