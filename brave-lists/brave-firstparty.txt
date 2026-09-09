@@ -296,6 +296,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ###header_ad
 ###header-ads
 ###header-ad-block
+###interads
 ###interstory_first_ddb_0
 ###interstory_second_ddb_0
 ###intro_ad_1
@@ -3464,6 +3465,8 @@ bhaskar.com##[id^="Ad"]:upward([style])
 ! computing.co.uk (Ad-shield) https://x.com/PrivacyMatters/status/2084953042806288593
 ||computing.co.uk/scripts/delayed.js
 computing.co.uk##.mes-header-row--top-ad
+! https://canyoublockit.com/testing/
+canyoublockit.com##.elementor-widget-container > center > p
 ! pravda.com.ua (Ad-shield) https://github.com/brave/brave-browser/issues/36282
 pravda.com.ua##.nts-ad
 pravda.com.ua##.advtext
