@@ -25,3 +25,6 @@ youtube.com##.ytGridShelfViewModelHost
 ! Shorts search header button
 youtube.com##.ytChipShapeHost:has-text(Shorts)
 youtube.com##ytm-reel-shelf-renderer
+! Profile Shorts
+youtube.com##yt-tab-shape.ytTabShapeHostClickable.ytTabShapeHost > .ytTabShapeTab:has-text(Shorts)
+youtube.com##ytm-shorts-lockup-view-model-v2
