@@ -629,6 +629,20 @@
             "original_referer"
         ]
     },
+	{
+        "include": [
+            "*://www.linkedin.com/jobs/view/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "alternateChannel",
+            "eBP",
+            "refId",
+            "trackingId"
+        ]
+    },
     {
         "include": [
             "*://www.linkedin.com/help/*"
