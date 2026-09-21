@@ -65,3 +65,6 @@ driverhub.asus.com
 
 # https://github.com/brave/brave-browser/issues/43050
 pcsupport.lenovo.com
+
+# https://certified.sh -- reaches its own local agent at local.certified.sh (an A record to 127.0.0.1) over TLS
+certified.sh
