@@ -186,6 +186,5 @@ qatarairways.com#@#.onetrust-pc-dark-filter
 qatarairways.com#@#+js(set-cookie, accepted_functional, yes)
 qatarairways.com#@#+js(set-cookie, accepted_marketing, no)
 qatarairways.com#@#+js(set-cookie, cookie_visited, true)
-openbank.de#@#__tealiumGDPRecModal
 openbank.de#@#+js(trusted-click-element, button[onclick="onClickRefuseCookies(event)"], , 1000)
 @@||usercentrics.eu^$script,xhr,domain=openbank.de
