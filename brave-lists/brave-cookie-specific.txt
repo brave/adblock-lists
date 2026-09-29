@@ -178,3 +178,11 @@ dicebreaker.com,eurogamer.cz,eurogamer.es,eurogamer.net,eurogamer.nl,eurogamer.p
 oscaro.com,boulanger.com#@##didomi-host
 oscaro.com#@#+js(trusted-click-element, .didomi-continue-without-agreeing, , 1000)
 @@||sdk.privacy-center.org^$script,domain=oscaro.com|boulanger.com
+@@onetrust.com/consent/$domain=qatarairways.com
+@@onetrust.com/scripttemplates/$domain=qatarairways.com
+qatarairways.com#@##onetrust-consent-sdk
+qatarairways.com#@##onetrust-banner-sdk
+qatarairways.com#@#.onetrust-pc-dark-filter
+qatarairways.com#@#+js(set-cookie, accepted_functional, yes)
+qatarairways.com#@#+js(set-cookie, accepted_marketing, no)
+qatarairways.com#@#+js(set-cookie, cookie_visited, true)
