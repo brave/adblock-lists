@@ -522,7 +522,8 @@
         "params": [
             "igsh",
             "igshid",
-            "ig_rid"
+            "ig_rid",
+            "stkn"
         ]
     },
     {
