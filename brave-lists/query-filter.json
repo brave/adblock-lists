@@ -80,7 +80,8 @@
         "exclude": [],
         "params": [
             "igsh",
-            "igshid"
+            "igshid",
+            "stkn"
         ]
     },
     {
