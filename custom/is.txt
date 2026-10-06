@@ -4,18 +4,18 @@
 ! Forked from https://adblock.gardar.net
 
 ! Generic Rules
+.is/*/augl/
 .is/ads/
 .is/augl/
-.is/*/augl/
 
 ! Specific Block Rules
-||fotbolti.net/banners/
-||vf.is/files/
 ||austurfrett.is/images/banners/
-||hopkaup.is/banner/
-||bmwkraftur.is/img/benni-Toyo_bordi2-500x60.gif
 ||bilasolur.is/banners/
+||bmwkraftur.is/img/benni-Toyo_bordi2-500x60.gif
+||fotbolti.net/banners/
 ||fotbolti.net/themes/2013/images/vef_bg.png
+||hopkaup.is/banner/
+||vf.is/files/
 
 ! Thirdparty Rules
 ||app.pulsmedia.is^
@@ -30,10 +30,8 @@ dv.is###cboxOverlay
 pressan.is###ctl00_ctl00_cphMain_cphMain_RandomBanner4_divBanner
 veitingageirinn.is###mvp-leader-wrap
 hun.is###snppopup-welcome
-bilasolur.is##[href^="AdPlayer.aspx"]
-bilasolur.is##.advertisement-spot-b
-bilasolur.is##.col-md-4.col-12:has(.advertisement-spot-b)
 pressan.is###spoton
+nutiminn.is###tdi_4
 kki.is##.AuglysingaHnappur
 blika.is##.HeimildinAd_ad310400__iUf_1
 1819.is##.HorizontalAd_container__6Aymu
@@ -45,44 +43,51 @@ skessuhorn.is##.ad-front-310x400
 skessuhorn.is##.ad-front-635x150
 auroraforecast.is##.adbannermain
 doktor.is##.adbox
-vb.is##.au-block
+bilasolur.is##.advertisement-spot-b
 ja.is##.adw
+vb.is##.au-block
 mbl.is##.augl
 1819.is##.augl-wrapper
 austurfrett.is##.bannergroup
 pressan.is##.bp26
 pressan.is##.bp4
 eidfaxi.is##.bsaProItems
-eyjafrettir.is##.elementor-716869
+bilasolur.is##.col-md-4.col-12:has(.advertisement-spot-b)
 eyjafrettir.is##.elementor-716826
-eyjafrettir.is##.elementor-716890
 eyjafrettir.is##.elementor-716842
 eyjafrettir.is##.elementor-716846
 eyjafrettir.is##.elementor-716862
+eyjafrettir.is##.elementor-716869
+eyjafrettir.is##.elementor-716890
+eyjafrettir.is##.elementor-element-eb46190
+eidfaxi.is##.first-ad
 bb.is,eyjar.net,utvarpsaga.is,veitingastadir.is##.g
 bilasolur.is##.iframead-spot-a
 1819.is##.laufid-border.cover-photo
+gengi.is##.mb-\[-7px\]
 mbl.is##.mt-5.mb-5
 bland.is##.netgiroInsuranceSection
-gengi.is##.mb-\[-7px\]
+pressan.is##.randombanner-upperright
 vb.is##.real-estate-block
 vb.is##.real-estate-container
-pressan.is##.randombanner-upperright
 1819.is##.side-augl-wrapper
 akureyri.net,hringbraut.is,vikubladid.is##.strevda
 karfan.is##.td-a-rec
 nutiminn.is##.tdi_103_674
 nutiminn.is##.tdi_5_7f3
 nutiminn.is##.tdi_5_cc0
+nutiminn.is##.tdi_82
 mbl.is##.ticker-ad
 discover.is,veitingageirinn.is##.widget_custom_html
 icelandwithaview.com,veitingastadir.is##.widget_media_image
 blika.is##[class*="FrontPageIS_"]
 akureyri.net##[href^="/is/moya/adverts/"]
+bilasolur.is##[href^="AdPlayer.aspx"]
 veitingageirinn.is##[href^="https://airpark.is"]
 1819.is##[href^="https://old.1819.is/linkto/"]
 akureyri.net##[id^="box_aitem"]
 akureyri.net##aside
+mbl.is##div.col-lg-4.col-sm-6.col-12:has([data-url])
 bilasolur.is##div[class^="col-"]:has([class*="advertisement-spot-"])
 bland.is##div[id*="advImg"]
 fotbolti.net##div[id^="banner"]
