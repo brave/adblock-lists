@@ -1174,7 +1174,8 @@
             "guce_referrer",
             "guce_referrer_sig",
             "ex_cid",
-            "eblastId"
+            "eblastId",
+            "hootPostID"
         ]
     },
     {
