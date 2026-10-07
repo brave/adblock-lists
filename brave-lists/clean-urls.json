@@ -1175,7 +1175,13 @@
             "guce_referrer_sig",
             "ex_cid",
             "eblastId",
-            "hootPostID"
+            "hootPostID",
+            "tw_source",
+            "tw_adid",
+            "tw_campaign",
+            "tw_term",
+            "tw_content",
+            "tw_kwdid"
         ]
     },
     {
