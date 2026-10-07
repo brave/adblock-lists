@@ -1229,5 +1229,19 @@
         "params": [
             "CMP"
         ]
+    },
+    {
+        "include": [
+            "*://www.immobilienscout24.de/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "referrer",
+            "searchId",
+            "searchType",
+            "imgOrder"
+        ]
     }
 ]
