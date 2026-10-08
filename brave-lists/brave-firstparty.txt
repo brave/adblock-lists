@@ -4473,6 +4473,7 @@ autoevolution.com##.bgcutgrad
 mail.google.com##.aeF > .nH > .nH[role="main"] > .aKB
 mail.google.com##.nH.PS
 ||mail-ads.google.com^
+@@||mail-ads.google.com/mail/u/*/adsfe/main_jspb^$method=post,domain=mail.google.com
 ! stoodnt.com
 stoodnt.com##.boxzilla-center-container
 stoodnt.com##.boxzilla-overlay
