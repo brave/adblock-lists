@@ -1,0 +1,55 @@
+name: Sync uAssets YT rpnt exception
+
+on:
+  # schedule: # run every 3 hours
+  #   - cron: "0 */3 * * *"
+  workflow_dispatch: # manual run button
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate yt-rpnt exception
+        run: python scripts/sync_yt_rpnt_exception.py
+
+      # gh pr create cannot push uncommitted changes: without this step the
+      # regenerated brave-unbreak.txt is lost when the job ends and the PR is
+      # created from whatever the auto/ branch already contains.
+      - name: Commit and push to auto branch
+        run: |
+          if git diff --quiet -- brave-unbreak.txt; then
+            echo "No change — nothing to push"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add brave-unbreak.txt
+            git commit -m "Sync brave-unbreak.txt with uAssets quick-fixes"
+            git fetch origin auto/sync-yt-rpnt-exception || true  # give force-with-lease a tracking ref to verify against
+            git push --force-with-lease origin HEAD:auto/sync-yt-rpnt-exception
+          fi
+
+      - name: Close existing PR if present
+        run: |
+          gh pr close auto/sync-yt-rpnt-exception --delete-branch=false 2>/dev/null || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Open PR if changed
+        run: |
+          gh pr create \
+            --title "Sync brave-unbreak.txt with uAssets quick-fixes" \
+            --body "Automated update after a change to the matching \`rpnt\` rule in uAssets \`filters/quick-fixes.txt\`." \
+            --base master \
+            --head auto/sync-yt-rpnt-exception || true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
