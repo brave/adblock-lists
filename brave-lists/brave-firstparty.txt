@@ -105,6 +105,7 @@ chromewebstore.google.com##[aria-label="Info"]:has-text(Switch to Chrome)
 chromewebstore.google.com##div[jscontroller]:has-text(Install Chrome)
 www.google.com##[aria-describedby="promo_desc_id"]:has-text(Keep things dark)
 google.com##[jscontroller="HCSvae"]:has-text(Sign in to Google)
+www.google.com##[data-bpc="1"]:has-text(Choose Chrome, the browser built by Google)
 chromewebstore.google.com##[role="dialog"][aria-labelledby="promo-header"]
 google.com##div[jsname="wA2P2b"]:has-text(How helpful were the results)
 ! youtube popups
