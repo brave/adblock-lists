@@ -1,4 +1,4 @@
-name: Sync uAssets YT rpnt exception
+name: YouTube RPNT update alert
 
 on:
   # schedule: # run every 3 hours
@@ -12,6 +12,9 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    outputs:
+      # true when uAssets changed the rpnt rule and a commit was pushed
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
 
@@ -26,10 +29,13 @@ jobs:
       # regenerated brave-unbreak.txt is lost when the job ends and the PR is
       # created from whatever the auto/ branch already contains.
       - name: Commit and push to auto branch
+        id: commit
         run: |
           if git diff --quiet -- brave-unbreak.txt; then
             echo "No change — nothing to push"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add brave-unbreak.txt
@@ -50,3 +56,20 @@ jobs:
             --head auto/sync-yt-rpnt-exception
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  alert:
+    runs-on: ubuntu-latest
+    needs:
+      - sync
+    if: ${{ always() && needs.sync.outputs.changed == 'true' }}
+    permissions: {}
+    steps:
+      - name: Notify Slack of upstream rpnt change
+        uses: 8398a7/action-slack@28ba43ae48961b90635b50953d216767a6bea486 # v3.16.2
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+        with:
+          author_name: "Github Actions"
+          status: success
+          fields: repo,message,commit,author,eventName,ref,workflow
+          text: "<!subteam^${{ secrets.UBO_SYNC_REVIEWERS_SLACK_GROUP_ID }}> uAssets changed the rpnt quick-fix rule; a sync commit was generated for ${{ github.repository }}. Review/merge the PR: ${{ github.server_url }}/${{ github.repository }}/pull/auto/sync-yt-rpnt-exception — run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
