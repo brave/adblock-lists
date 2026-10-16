@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   sync:
+    if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
     outputs:
       # true when uAssets changed the rpnt rule and a commit was pushed
@@ -49,11 +50,14 @@ jobs:
           if git diff --quiet "$GITHUB_SHA" HEAD; then
              exit 0
           fi
-          gh pr view auto/sync-yt-rpnt-exception >/dev/null 2>&1 || gh pr create \
-            --title "Sync brave-unbreak.txt with uAssets quick-fixes" \
-            --body "Automated update after a change to the matching \`rpnt\` rule in uAssets \`filters/quick-fixes.txt\`." \
-            --base master \
-            --head auto/sync-yt-rpnt-exception
+          open_prs=$(gh pr list --state open --base master --head auto/sync-yt-rpnt-exception --json number --jq 'length')
+          if [ "$open_prs" -eq 0 ]; then
+            gh pr create \
+              --title "Sync brave-unbreak.txt with uAssets quick-fixes" \
+              --body "Automated update after a change to the matching \`rpnt\` rule in uAssets \`filters/quick-fixes.txt\`." \
+              --base master \
+              --head auto/sync-yt-rpnt-exception
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

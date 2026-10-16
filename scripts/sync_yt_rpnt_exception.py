@@ -9,7 +9,7 @@ TARGET = Path(__file__).resolve().parent.parent / "brave-unbreak.txt"
 BEGIN = "! BEGIN uAssets/yt-rpnt AUTO-SYNC"
 END = "! END uAssets/yt-rpnt AUTO-SYNC"
 BLOCK_RE = re.compile(
-    r"^! BEGIN uAssets/yt-rpnt AUTO[-=]SYNC[ \t\r]*$.*?^! END uAssets/yt-rpnt AUTO[-=]SYNC[ \t\r]*$",
+    r"^! BEGIN uAssets/yt-rpnt AUTO[-=]SYNC[ \t\r]*$.*?^! END uAssets/yt-rpnt AUTO[-=]SYNC[ \t]*(?=\r?$)",
     re.S | re.M,
 )
 UPSTREAM_URL = "https://raw.githubusercontent.com/ublockorigin/uAssets/master/filters/quick-fixes.txt"
