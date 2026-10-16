@@ -67,7 +67,7 @@ jobs:
       - name: Notify Slack of upstream rpnt change
         uses: 8398a7/action-slack@28ba43ae48961b90635b50953d216767a6bea486 # v3.16.2
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL: ${{ secrets.YOUTUBE_RPNT_UPDATE_SLACK_WEBHOOK_URL }}
         with:
           author_name: "Github Actions"
           status: success
