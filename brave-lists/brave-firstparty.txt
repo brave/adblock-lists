@@ -1502,10 +1502,12 @@ grit.com###GMTK_Bottom_728x90
 grit.com###GMTK_Middle_300x250
 grit.com###GMTK_Top_728x90
 rogerebert.com###PostInlineVideoContainer
+rogerebert.com###ReviewInlineVideoContainer
 gunsandammo.com###VideoPlayerDivIframe
 usnews.com###ac-lre-player-ph
 ew.com###article__primary-video-jw_1-0
 barchart.com###bc-cnx-player
+gpone.com###block-gpone-advvideo
 stocktwits.com###bottom-nav-content
 crash.net###cmg-vsly
 euronews.com###connatix-container
@@ -1528,6 +1530,7 @@ primetimer.com###primis-ad-container
 techlicious.com###primis-incontent-desktop
 dexerto.com###primis-player
 flightradar24.com###primisAdContainer
+gdforum.freeforums.net###primisContainer
 freethesaurus.com###qk1
 freethesaurus.com###qk2
 freethesaurus.com###qk5
@@ -1535,7 +1538,7 @@ realclearpolitics.com###realclear_jwplayer_container
 fortune.com,lifehacker.com,mashable.com,pcmag.com###related-video
 whoer.net###render-big-banners
 ispreview.co.uk###sidebar-slot-5
-americansongwriter.com,suggest.com,wideopencountry.com###sv-video-container
+americansongwriter.com,sporked.com,suggest.com,wideopencountry.com###sv-video-container
 uproxx.com###upx-mm-player-wrap
 americansongwriter.com,wideopencountry.com###video-header
 sportskeeda.com###video-player-container--
@@ -1565,7 +1568,7 @@ financemagnates.com##.article-sidebar__video-banner
 ibtimes.com,latintimes.com,sciencetimes.com##.article-videoplayer
 people.com##.article__broad-video
 thegrio.com##.aspect-ratio-box
-gizmodo.com,lgbtqnation.com,space.com##.aspect-video
+gizmodo.com,headlinesplus.com,lgbtqnation.com,space.com##.aspect-video
 digitaltrends.com##.b-connatix
 bmwblog.com##.bmwbl-video-in-content
 ontvtonight.com##.body-container > div:has(script[src^="https://live.primis.tech/"])
@@ -1578,7 +1581,7 @@ stuff.tv##.c-squirrel-embed
 cartoonbrew.com##.cb-ad
 iphoneincanada.ca##.cls-video-container-9GFn3u0f
 rd.com,tasteofhome.com##.cnx-inline-player-wrapper
-dailymail.com##.commercial-player
+dailymail.co.uk##.commercial-player
 techwalla.com##.component-article-section-jwplayer-wrapper
 familystylefood.com##.email-highlight
 taskandpurpose.com##.empire-unit-prefill-container
@@ -1589,11 +1592,12 @@ wral.com##.exco-wrapper
 goal.com##.fco-fc-video-player
 accuweather.com##.feature-tag
 pagesix.com##.featured-image__wrapper > .nyp-video-player
+fandom.com##.featured-video-player-container
 ibtimes.sg##.featured_video
 pedestrian.tv##.find-dream-job
 foodbible.com,gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.floating-video-player_container__u4D9_
 flashbak.com##.fluid-width-video-wrapper
-dailymail.com##.footballco-container
+dailymail.co.uk##.footballco-container
 clickorlando.com##.full-width:has([id*="exco-player-"])
 tweaktown.com##.fusevidad
 redboing.com##.fw-ad
@@ -1608,6 +1612,7 @@ bossip.com##.ione-ve__player-wrapper
 bringmethenews.com,mensjournal.com,thestreet.com##.is-fallback-player
 gmanetwork.com##.ivs-placeholder
 communitychickens.com,keepingbackyardbees.com##.jumbo-ad
+edmunds.com##.justify-content-center:has(.exco-player)
 evoke.ie,extra.ie##.jw-player-video-widget
 unilad.com##.jw-player_container__wuaGn
 advocate.com,anandtech.com,out.com,sciencefocus.com##.jwplayer
@@ -1640,6 +1645,7 @@ themarysue.com##.primis-player-container
 eurogamer.net##.primis_wrapper
 iheart.com##.provider-stn
 businessinsider.com##.rail.has-video-ad
+foodrepublic.com,hunker.com,islands.com,mashed.com,nickiswift.com,thelist.com##.raptive-video-player
 pedestrian.tv##.recent-jobs-widget
 kidspot.com.au##.secondary-video
 ootrandomizer.com##.slot-top-video
@@ -1654,10 +1660,10 @@ gazette.com##.tnt-section-sponsored
 thegrio.com##.tpd-featured-video
 economictimes.indiatimes.com##.vdo_ai_can_ani
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
-gamesradar.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.vid-present
+androidcentral.com,gamesradar.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.vid-present
 mobafire.com##.vid-wrap
-soapcentral.com,sportskeeda.com##.vidazoo-player-container
-justthenews.com,polygon.com##.video
+deltiasgaming.com,soapcentral.com,sportskeeda.com##.vidazoo-player-container
+justthenews.com##.video
 petapixel.com##.video-aspect-wrapper
 bowhunter.com,firearmsnews.com,flyfisherman.com,gameandfishmag.com,gunsandammo.com,handgunsmag.com,in-fisherman.com,northamericanwhitetail.com,petersenshunting.com,rifleshootermag.com,shootingtimes.com,wildfowlmag.com##.video-detail-player
 gbnews.com##.video-inbody
@@ -1681,6 +1687,7 @@ bigthink.com##.wrapper-connatixPlayspace
 global.espreso.tv##.ym-video--wrapper
 play.usatoday.com##.zdFVI1__zdFVI1
 mashable.com##.ziff-video-container
+androidcentral.com,gamesradar.com,guitarworld.com,livescience.com,pcgamer.com,sltrib.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##[data-component-name="JwPlayer:Carousel"]
 canucksarmy.com##[data-injection="stn-video"]
 totalprosports.com##[data-stn-player="n2psbctm"]
 wired.com##[data-testid="cne-interlude-container"]
@@ -1689,6 +1696,7 @@ offidocs.com##[id^="ja-container-prev"]
 hollywoodreporter.com##[id^="jwplayer"]
 livemint.com##[id^="video-ad-"]
 utrips.com##[style="max-width: 970px; min-height: 250px; margin: 20px auto;"]
+qz.com##[style="min-height:300px"]
 uinterview.com,upolitics.com,usports.org##[style="padding-top:20px; text-align:center;"]
 ukrinform.de,ukrinform.es,ukrinform.fr,ukrinform.jp,ukrinform.net,ukrinform.pl,ukrinform.ua##[style^="min-height: 280px;"]
 wlevradio.com##a[href^="https://omny.fm/shows/just-start-the-conversation"]
