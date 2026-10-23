@@ -2788,3 +2788,5 @@ howtogeek.com,247sports.com,cbsnews.com,cbssports.com,indiewire.com,masslive.com
 ||zippywind.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
+
+||injectoften.com^$domain=fandom.com
