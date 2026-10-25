@@ -1,8 +1,8 @@
 name: YouTube RPNT update alert
 
 on:
-  # schedule: # run every 3 hours
-  #   - cron: "0 */3 * * *"
+  schedule: # run every 3 hours
+    - cron: "0 */3 * * *"
   workflow_dispatch: # manual run button
 
 permissions:
