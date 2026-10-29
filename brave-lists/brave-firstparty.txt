@@ -481,6 +481,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.adComponent
 ##.adContent
 ##.adElement
+##.adHeader
 ##.adHeight280
 ##.adHolder
 ##.adHolderStory
@@ -2431,6 +2432,8 @@ boundingintocomics.com,themix.net##.banner-spacer-top
 boundingintocomics.com,themix.net##.header:style(top: 0px !important;)
 boundingintocomics.com,themix.net##h1:style(margin-top:20px !important;)
 boundingintocomics.com,themix.net##main[role="main"]:style(margin-top:30px !important;)
+! avforums.com
+avforums.com##.m2n-unit
 ! foodnetwork.com
 foodnetwork.com###leaderboard-wrap
 ! greencarreports.com
