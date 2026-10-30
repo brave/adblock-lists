@@ -175,9 +175,9 @@ dicebreaker.com,eurogamer.cz,eurogamer.es,eurogamer.net,eurogamer.nl,eurogamer.p
 dicebreaker.com,eurogamer.cz,eurogamer.es,eurogamer.net,eurogamer.nl,eurogamer.pl,eurogamer.pt,gamesindustry.biz,jelly.deals,reedpop.com,rockpapershotgun.com,thepopverse.com,vg247.com,videogameschronicle.com##+js(trusted-click-element, button[title="Accept All Cookies"], , 2800)
 
 ! experimental, time-limited investigation. https://github.com/brave/reviews/issues/2372
-oscaro.com,boulanger.com#@##didomi-host
+oscaro.com#@##didomi-host
 oscaro.com#@#+js(trusted-click-element, .didomi-continue-without-agreeing, , 1000)
-@@||sdk.privacy-center.org^$script,domain=oscaro.com|boulanger.com
+@@||sdk.privacy-center.org^$script,domain=oscaro.com
 @@onetrust.com/consent/$domain=qatarairways.com
 @@onetrust.com/scripttemplates/$domain=qatarairways.com
 qatarairways.com#@##onetrust-consent-sdk
