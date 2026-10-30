@@ -695,6 +695,7 @@ bloomberg.com##.unsupported-browser-notification-container
 ##.freestar-incontent-ad
 ##.freestar-ad-sidebar-container
 ##.freestar-ad-wide-container
+##.full-bleed-ad
 ##.themonic-ad1
 ##.themonic-ad2
 ##.themonic-ad3
@@ -3437,6 +3438,8 @@ medpagetoday.com##.leaderboard-region
 thepointsguy.com##[aria-label="Advertisement"]
 ! variety.com
 variety.com###leaderboard-no-padding
+! vanityfair.com
+vanityfair.com##[data-testid="sticky-hero-ad"]
 ! howtogeek.com
 howtogeek.com##div[id^="purch_"]
 ! discogs.com
