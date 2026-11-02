@@ -93,8 +93,11 @@
         ],
         "exclude": [],
         "params": [
+            "a",
             "ref_src",
-            "ref_url"
+            "ref_url",
+            "s",
+            "t"
         ]
     },
     {
