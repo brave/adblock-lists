@@ -8,6 +8,8 @@
         "*://www.tumblr.com/*",
         "*://*.threads.net/*",
         "*://*.threads.com/*",
+        "*://*.twitter.com/*",
+        "*://*.x.com/*",
         "https://boocmp.github.io/clipboard/*"
     ]
 }

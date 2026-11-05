@@ -536,6 +536,7 @@
             "*://*.x.com/i/redirect?*"
         ],
         "params": [
+            "a",
             "cxt",
             "ref_src",
             "ref_url",
