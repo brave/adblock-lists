@@ -109,6 +109,7 @@ dzen.ru#@#:matches-path(/articles) div:has(> article > div > [class*="image"]:em
 .cyou/g/
 .cyou/gd/
 .cyou/s/
+.cyou/sbx/
 .net/wrr?
 .qpon/cuid/
 .qpon/gd/
