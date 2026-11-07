@@ -18,13 +18,6 @@ PREFIX = "www.youtube.com##+js(rpnt, script"
 RPNT_VARIANTS = (PREFIX, PREFIX.replace("##", "#@#", 1))
 
 def normalize(text: str) -> str:
-    """Canonical form used to detect real changes.
-
-    Ignores cosmetic differences that shouldn't trigger a rewrite:
-    - a leading "!" comment marker on a rule line
-    - "#@#" (exception) vs "##" (blocking) for the yt-rpnt rule
-    - "AUTO=SYNC" vs "AUTO-SYNC" in the BEGIN/END markers
-    """
     lines = []
     for line in text.splitlines():
         s = line.strip()
