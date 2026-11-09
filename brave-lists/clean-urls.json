@@ -681,6 +681,8 @@
     },
     {
         "include": [
+			"*://*.youtube.com/shorts/*",
+        	"*://*.youtube.com/live/*",
             "*://youtu.be/*",
             "*://*.youtube.com/watch?*"
         ],
