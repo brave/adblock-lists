@@ -521,10 +521,13 @@
         ],
         "params": [
             "cplk",
+			"dlrf",
             "exln",
             "ig_rid",
             "igsh",
             "igshid",
+			"igsi",
+			"mdxt",
             "obrf",
             "psln",
             "rpxt",
