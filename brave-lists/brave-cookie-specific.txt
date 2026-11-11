@@ -173,23 +173,3 @@ consent.yahoo.com##+js(trusted-click-element, button.reject-all, , 2500)
 digi24.ro,digisport.ro,digitalfoundry.net,egx.net,eurogamer.it,gmx.*,mail.com,mcmcomiccon.com,nachrichten.at,nintendolife.com,oe24.at,paxsite.com,peacocktv.com,player.pl,pricerunner.com,pricerunner.se,pricerunner.dk,proximus.be,proximus.com,purexbox.com,pushsquare.com,southparkstudios.com,starwarscelebration.com,thehaul.com,timeextension.com,travelandleisure.com,tunein.com,videoland.com,wizzair.com,wetter.at##+js(trusted-click-element, #onetrust-accept-btn-handler, , 2800)
 dicebreaker.com,eurogamer.cz,eurogamer.es,eurogamer.net,eurogamer.nl,eurogamer.pl,eurogamer.pt,gamesindustry.biz,jelly.deals,reedpop.com,rockpapershotgun.com,thepopverse.com,vg247.com,videogameschronicle.com##+js(trusted-click-element, button[title="Accept and continue"], , 2800)
 dicebreaker.com,eurogamer.cz,eurogamer.es,eurogamer.net,eurogamer.nl,eurogamer.pl,eurogamer.pt,gamesindustry.biz,jelly.deals,reedpop.com,rockpapershotgun.com,thepopverse.com,vg247.com,videogameschronicle.com##+js(trusted-click-element, button[title="Accept All Cookies"], , 2800)
-
-! experimental, time-limited investigation. https://github.com/brave/reviews/issues/2372
-oscaro.com#@##didomi-host
-oscaro.com#@#+js(trusted-click-element, .didomi-continue-without-agreeing, , 1000)
-@@||sdk.privacy-center.org^$script,domain=oscaro.com
-@@onetrust.com/consent/$domain=qatarairways.com
-@@onetrust.com/scripttemplates/$domain=qatarairways.com
-qatarairways.com#@##onetrust-consent-sdk
-qatarairways.com#@##onetrust-banner-sdk
-qatarairways.com#@#.onetrust-pc-dark-filter
-qatarairways.com#@#+js(set-cookie, accepted_functional, yes)
-qatarairways.com#@#+js(set-cookie, accepted_marketing, no)
-qatarairways.com#@#+js(set-cookie, cookie_visited, true)
-openbank.de#@#+js(trusted-click-element, button[onclick="onClickRefuseCookies(event)"], , 1000)
-@@||usercentrics.eu^$script,xhr,domain=openbank.de
-
-! experimental, time-limited
-kaufland.cz,kaufland.pl,kaufland.fr#@##onetrust-banner-sdk
-kaufland.cz,kaufland.pl,kaufland.fr#@##onetrust-consent-sdk
-@@||cdn.cookielaw.org/scripttemplates/*/otBannerSdk.js$domain=kaufland.cz|kaufland.pl|kaufland.fr
