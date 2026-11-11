@@ -193,3 +193,8 @@ openbank.de#@#+js(trusted-click-element, button[onclick="onClickRefuseCookies(ev
 kaufland.cz,kaufland.pl,kaufland.fr#@##onetrust-banner-sdk
 kaufland.cz,kaufland.pl,kaufland.fr#@##onetrust-consent-sdk
 @@||cdn.cookielaw.org/scripttemplates/*/otBannerSdk.js$domain=kaufland.cz|kaufland.pl|kaufland.fr
+
+! experimental, time-limited
+@@||cdn.cookielaw.org/scripttemplates/202403.2.0/otBannerSdk.js$script,domain=verti.de
+verti.de#@##onetrust-banner-sdk
+verti.de#@##onetrust-consent-sdk
