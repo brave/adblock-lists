@@ -520,10 +520,21 @@
 
         ],
         "params": [
+            "cplk",
+            "dlrf",
+            "exln",
+            "ig_rid",
             "igsh",
             "igshid",
-            "ig_rid",
-            "stkn"
+            "igsi",
+            "mdxt",
+            "obrf",
+            "psln",
+            "rpxt",
+            "srtk",
+            "stkn",
+            "vrfl",
+            "xtok"
         ]
     },
     {
