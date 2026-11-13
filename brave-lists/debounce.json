@@ -542,7 +542,7 @@
     "exclude": [
     ],
     "action": "regex-path",
-    "param": "^/v3/__(https?://[^*]+?)__;[A-Za-z0-9_-]*!"
+    "param": "^/v3/__(https?://[^*%]+)__;[A-Za-z0-9_-]*!![A-Za-z0-9_-]+![A-Za-z0-9_-]*\\$$"
   },
   {
     "include": [
