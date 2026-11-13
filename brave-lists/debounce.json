@@ -537,6 +537,15 @@
   },
   {
     "include": [
+      "*://urldefense.com/v3/__*"
+    ],
+    "exclude": [
+    ],
+    "action": "regex-path",
+    "param": "^/v3/__(https?://[^*%]+)__;[A-Za-z0-9_-]*!![A-Za-z0-9_-]+![A-Za-z0-9_-]*\\$$"
+  },
+  {
+    "include": [
       "https://dev-pages.brave.software/navigation-tracking/error.html?*",
       "https://dev-pages.bravesoftware.com/navigation-tracking/error.html?*"
     ],
