@@ -79,17 +79,9 @@
         ],
         "exclude": [],
         "params": [
-            "cplk",
-            "exln",
             "igsh",
             "igshid",
-            "obrf",
-            "psln",
-            "rpxt",
-            "srtk",
-            "stkn",
-            "vrfl",
-            "xtok"
+            "stkn"
         ]
     },
     {
