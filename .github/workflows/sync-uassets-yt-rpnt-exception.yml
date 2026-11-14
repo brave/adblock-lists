@@ -72,4 +72,4 @@ jobs:
           author_name: "Github Actions"
           status: success
           fields: repo,message,commit,author,eventName,ref,workflow
-          text: "<!subteam^${{ secrets.UBO_SYNC_REVIEWERS_SLACK_GROUP_ID }}> uAssets changed the rpnt quick-fix rule; a commit to apply an exception rule was generated for ${{ github.repository }}. Review/merge the PR: ${{ github.server_url }}/${{ github.repository }}/pull/auto/sync-yt-rpnt-exception — run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          text: "<!subteam^${{ secrets.UBO_SYNC_REVIEWERS_SLACK_GROUP_ID }}> uAssets changed the rpnt quick-fix rule; the commented script copy in ${{ github.repository }} was updated to match. Review/merge the PR: ${{ github.server_url }}/${{ github.repository }}/pull/auto/sync-yt-rpnt-exception — run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
