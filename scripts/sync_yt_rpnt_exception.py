@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Sync the uAssets yt-rpnt exception block in brave-unbreak.txt."""
+"""Sync the uAssets yt-rpnt script comment in brave-unbreak.txt."""
 import re
 import sys
 import urllib.request
@@ -14,8 +14,6 @@ BLOCK_RE = re.compile(
 )
 UPSTREAM_URL = "https://raw.githubusercontent.com/ublockorigin/uAssets/master/filters/quick-fixes.txt"
 PREFIX = "www.youtube.com##+js(rpnt, script"
-# Blocking and exception forms of the rpnt rule, used to narrow normalization
-RPNT_VARIANTS = (PREFIX, PREFIX.replace("##", "#@#", 1))
 
 def normalize(text: str) -> str:
     lines = []
@@ -23,8 +21,6 @@ def normalize(text: str) -> str:
         s = line.strip()
         if s.startswith("!"):
             s = s.lstrip("!").strip()
-        if s.startswith(RPNT_VARIANTS):
-            s = s.replace("#@#", "##", 1)
         elif "AUTO=SYNC" in s:
             s = s.replace("AUTO=SYNC", "AUTO-SYNC")
         lines.append(s)
@@ -43,7 +39,9 @@ def main() -> None:
     if not matches:
         sys.exit(f"ERROR: no upstream rule starting with {PREFIX!r}; leaving file unchanged")
 
-    exceptions = [m.replace("##", "#@#", 1) for m in dict.fromkeys(matches)]
+    # Always comment the rule out; the PR is just the commented script
+    # catching up to the new upstream version.
+    commented = [f"! {m}" for m in dict.fromkeys(matches)]
 
     # newline="" disables newline translation so existing line endings survive
     with TARGET.open(encoding="utf-8", newline="") as f:
@@ -53,7 +51,7 @@ def main() -> None:
         sys.exit("ERROR: BEGIN/END markers not found in brave-unbreak.txt")
 
     eol = "\r\n" if "\r\n" in text else "\n"
-    block = eol.join([BEGIN, *exceptions, END])
+    block = eol.join([BEGIN, *commented, END])
 
     # Replacer function keeps re.sub from interpreting backslashes / "$1" in the rule
     new_text = BLOCK_RE.sub(lambda _: block, text, count=1)
