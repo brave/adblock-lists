@@ -4496,6 +4496,8 @@ stoodnt.com##.boxzilla-center-container
 stoodnt.com##.boxzilla-overlay
 ! Facebook/Instagram
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/filters.txt#L265
+! https://old.reddit.com/r/uBlockOrigin/comments/1xwizvy/facebook_has_updated_the_div_css_anybody_got_a/
+facebook.com##div[data-virtualized]:has([data-ad-rendering-role^="cta"])
 facebook.com##.RectangleAd
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion###stream_pagelet div[id^="hyperfeed_story_id_"]:has(a.uiStreamSponsoredLink)
 ! "People You May Know": EasyList tries to block these, might as well block them fully
