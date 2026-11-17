@@ -66,6 +66,9 @@ search.brave.com###search-ad
 /script/ut.js
 /suurl5.php?
 
+! https://github.com/brave/adblock-resources/pull/355
+||optimizely.com/js/$script,redirect=optimizely.js
+
 ! linkedin mobile app recommendations
 linkedin.com##+js(trusted-set-session-storage-item, blocking-upsell, '"DISMISSED"')
 linkedin.com##+js(trusted-set-session-storage-item, blocking-upsell_lastUpdatedAt, $now$)
