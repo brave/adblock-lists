@@ -72,7 +72,8 @@ bizjournals.com#@#div[id^="headlessui-dialog-"], div.sheet-overlay
 @@||buy.tinypass.com/api/$xhr,domain=bizjournals.com
 ||cxense.com^$script,important,from=bizjournals.com,badfilter
 
-
+! chochox.com (nsfw) breakage 
+chochox.com#@#+js(acs, String.fromCharCode, atob)
 
 ! dzen.ru breakage
 dzen.ru#@#:matches-path(/a/) [data-appid] > [itemscope] > div > div[id]
