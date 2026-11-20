@@ -1,0 +1,6 @@
+! Title: Brave Experimental Cookie Notice List
+! Description: Brave-specific additions to Easylist Cookie that are not proven to be ready for widespread deployment.
+! Only for Nightly and Beta channels.
+! Expires: 2 days
+!
+
