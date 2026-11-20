@@ -65,7 +65,7 @@ jobs:
     permissions: {}
     steps:
       - name: Notify Slack of upstream rpnt change
-        uses: 8398a7/action-slack@28ba43ae48961b90635b50953d216767a6bea486 # v3.16.2
+        uses: 8398a7/action-slack@77eaa4f1c608a7d68b38af4e3f739dcd8cba273e # v3.19.0
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.YOUTUBE_RPNT_UPDATE_SLACK_WEBHOOK_URL }}
         with:
