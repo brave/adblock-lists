@@ -3261,6 +3261,7 @@ cbssports.com,nowthisnews.com,popsugar.com,scout.com,seeker.com,thedodo.com,thri
 ! cbssports.com
 cbssports.com##.skybox-top-wrapper
 ! Twitter ad cosmetic element
+x.com##[id^="urt"]>ul>li:has([class*="data-ad-disclosure"])
 twitter.com,x.com##.promoted-account
 twitter.com,x.com##.promotion
 twitter.com,x.com##.stream-item-group-start[label="promoted"]
