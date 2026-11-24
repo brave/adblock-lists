@@ -2572,6 +2572,7 @@ entrepreneur.com##.adbox
 entrepreneur.com###anchorcontainer
 ! dailymotion.com
 ||dmads.dailymotion.com^
+||dmxleo.dailymotion.com/cdn/manifest/video/*.m3u8*&eb=
 dailymotion.com##.WatchingDiscovery__adSection___eLtfR
 dailymotion.com##div[class^="DisplayAd"]
 ! theepochtimes.com
