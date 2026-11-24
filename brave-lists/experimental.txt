@@ -19,6 +19,8 @@ twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
 ||transcend-cdn.com^$script,redirect=transcend-reject.js
 ! fundingchoices
 ||fundingchoicesmessages.google.com^$badfilter
+! uBO counter
+||fundingchoicesmessages.google.com^$3p,badfilter
 ||fundingchoicesmessages.google.com^$script,redirect=fundingchoices-reject.js
 
 radioonline.com.pt,emisora.org.es,radio.co.dk,radios.co.at,tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-disable-pageview-api)
