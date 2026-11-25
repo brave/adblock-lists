@@ -4734,6 +4734,9 @@ eurosport.com##.reform-top-container
 ! weather.com
 .privacydatanotice.
 ||weather.com/*.medalliasurvey.
+! 1337
+/ma.js^$script,domain=1337x.*|x1337x.*|1337x.ninjaproxy1.com|1337x.st|1337x.to|x1337x.cc|x1337x.eu|x1337x.se|x1337x.ws
+/mm.js^$script,domain=1337x.*|x1337x.*|1337x.ninjaproxy1.com|1337x.st|1337x.to|x1337x.cc|x1337x.eu|x1337x.se|x1337x.ws
 ! stuff.co.nz
 stuff.co.nz##.header-container
 stuff.co.nz##.horizontal-ad-slot
