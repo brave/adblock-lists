@@ -1,0 +1,10 @@
+! Title: Brave cookie notice blocker exceptions
+! Description: Default filters that enable cookie consent screens in limited cases
+! Expires: 2 days
+!
+! These rules unblock cookie consent UI so the user is able to make their choice.
+! Currently applied to a limited set of Brave Search advertisers.
+!
+! All exceptions *must* be strictly limited to allowing user consent choice.
+! Do not make the decision on their behalf or adjust any other rules.
+!
