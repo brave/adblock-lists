@@ -1,6 +1,17 @@
 [
     {
         "include": [
+            "*://*.dnb.no/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "mpc"
+        ]
+    },
+    {
+        "include": [
             "*://*.facebook.com/*"
         ],
         "exclude": [],
