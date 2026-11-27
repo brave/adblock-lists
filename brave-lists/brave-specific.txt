@@ -176,3 +176,6 @@ dev-pages.brave.software,dev-pages.bravesoftware.com##+js(set, window.BRAVE_TEST
 
 ! Youtube sabr delay fix
 ! m.youtube.*##+js(brave-yt-sabr-fix)
+
+||northbridgeads.com^
+||qscripts.s3.amazonaws.com/pscript.js$script,third-party
