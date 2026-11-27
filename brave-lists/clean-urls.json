@@ -1,6 +1,17 @@
 [
     {
         "include": [
+            "*://*.komplett.no/*"
+        ],
+        "exclude": [
+
+        ],
+        "params": [
+            "queryid"
+        ]
+    },
+    {
+        "include": [
             "*://*.facebook.com/*"
         ],
         "exclude": [],
