@@ -13,16 +13,6 @@ twitch.tv##+js(no-fetch-if, edge.ads.twitch.tv)
 ! Hide the warning popup
 ! youtube.com##.yt-notification-action-renderer
 
-! Consent RR test
-! tracnsend
-||transcend-cdn.com^$domain=1password.com|aibusiness.com|airtable.com|anaconda.com|apollo.io|aviationweek.com|chubbiesshorts.com|classy.org|comed.com|conan.io|costco.ca|costco.com|costcobusinesscentre.ca|costcobusinessdelivery.com|costcopharmacy.ca|darkreading.com|digicert.com|etsy.com|eyeconic.com|fanexpohq.com|fashionnova.com|fightingillini.com|forhers.com|gamechoiceawards.com|gamedeveloper.com|gdconf.com|gdcvault.com|gofundme.com|habitburger.com|igf.com|igt.com|indiegogo.com|informa.com|informaconnect.com|jfrog.com|kfc.com|kickstarter.com|later.com|lifetouch.com|mayoclinic.org|mountaineast.org|mutigers.com|ncaa.org|nelnet.studentaid.gov|netapp.com|notion.com|nrn.com|patreon.com|routledge.com|saucelabs.com|shutterfly.com|tacobell.co.uk|tandfonline.com|taylorfrancis.com|theaisummit.com|theordinary.com|vimeo.com|visible.com|vsp.com|vspdirect.com|wealthmanagement.com,badfilter
-||transcend-cdn.com^$script,redirect=transcend-reject.js
-! fundingchoices
-||fundingchoicesmessages.google.com^$badfilter
-! uBO counter
-||fundingchoicesmessages.google.com^$3p,badfilter
-||fundingchoicesmessages.google.com^$script,redirect=fundingchoices-reject.js
-
 radioonline.com.pt,emisora.org.es,radio.co.dk,radios.co.at,tv.youtube.com,www.youtube.com,m.youtube.com##+js(brave-disable-pageview-api)
 !
 ! Google precision popup
