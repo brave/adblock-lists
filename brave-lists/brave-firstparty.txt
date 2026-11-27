@@ -5049,3 +5049,4 @@ kanald.com.tr##+js(set-constant, adservice, {})
 kanald.com.tr##+js(set-constant, adblockCheckUrl, '')
 kanald.com.tr##.masthead
 kanald.com.tr##.pauseroll-adv-container
+||vervecoffees.com
